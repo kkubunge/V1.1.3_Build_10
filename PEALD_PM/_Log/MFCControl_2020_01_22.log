@@ -1,0 +1,288 @@
+01/22 13:45:45.737 ---> MFC Set Function Entered(0 3 2000.000 N 0)
+01/22 13:45:45.737 -----> MFC Set Started
+01/22 13:45:45.737 -----> MFC Set Finished
+01/22 13:45:45.737 ---> MFC Set Function Leaved(Success)
+01/22 13:45:50.798 ---> MFC Set Function Entered(0 4 1000.000 N 0)
+01/22 13:45:50.798 -----> MFC Set Started
+01/22 13:45:50.798 -----> MFC Set Finished
+01/22 13:45:50.798 ---> MFC Set Function Leaved(Success)
+01/22 13:45:55.859 ---> MFC Set Function Entered(0 6 2000.000 N 0)
+01/22 13:45:55.859 -----> MFC Set Started
+01/22 13:45:55.859 -----> MFC Set Finished
+01/22 13:45:55.859 ---> MFC Set Function Leaved(Success)
+01/22 13:46:00.920 ---> MFC Set Function Entered(0 7 2000.000 N 0)
+01/22 13:46:00.920 -----> MFC Set Started
+01/22 13:46:00.920 -----> MFC Set Finished
+01/22 13:46:00.920 ---> MFC Set Function Leaved(Success)
+01/22 13:47:00.052 ---> MFC Set Function Entered(10 9 0 F 0 1 0 F 0)
+01/22 13:47:00.052 -----> MFC Set Started
+01/22 13:47:00.052 -----> MFC Set Finished
+01/22 13:47:00.052 ---> MFC Set Function Leaved(Success)
+01/22 13:47:14.705 ---> MFC Set Function Entered(0 3 2000.000 N 0)
+01/22 13:47:14.705 -----> MFC Set Started
+01/22 13:47:14.705 -----> MFC Set Finished
+01/22 13:47:14.705 ---> MFC Set Function Leaved(Success)
+01/22 13:47:19.765 ---> MFC Set Function Entered(0 4 1000.000 N 0)
+01/22 13:47:19.765 -----> MFC Set Started
+01/22 13:47:19.765 -----> MFC Set Finished
+01/22 13:47:19.765 ---> MFC Set Function Leaved(Success)
+01/22 13:47:24.826 ---> MFC Set Function Entered(0 6 2000.000 N 0)
+01/22 13:47:24.826 -----> MFC Set Started
+01/22 13:47:24.826 -----> MFC Set Finished
+01/22 13:47:24.826 ---> MFC Set Function Leaved(Success)
+01/22 13:47:29.887 ---> MFC Set Function Entered(0 7 2000.000 N 0)
+01/22 13:47:29.887 -----> MFC Set Started
+01/22 13:47:29.887 -----> MFC Set Finished
+01/22 13:47:29.887 ---> MFC Set Function Leaved(Success)
+01/22 13:47:47.359 ---> MFC Set Function Entered(0 9 3000.000 N 0 1 3000.000 N 0)
+01/22 13:47:47.359 -----> MFC Set Started
+01/22 13:47:47.359 -----> MFC Set Finished
+01/22 13:47:47.359 ---> MFC Set Function Leaved(Success)
+01/22 13:48:22.831 ---> MFC Set Function Entered(10 9 0 F 0 1 0 F 0)
+01/22 13:48:22.831 -----> MFC Set Started
+01/22 13:48:22.831 -----> MFC Set Finished
+01/22 13:48:22.831 ---> MFC Set Function Leaved(Success)
+01/22 13:53:19.048 ---> MFC Set Function Entered(0 3 2000.000 N 0)
+01/22 13:53:19.048 -----> MFC Set Started
+01/22 13:53:19.048 -----> MFC Set Finished
+01/22 13:53:19.048 ---> MFC Set Function Leaved(Success)
+01/22 13:53:22.084 ---> MFC Set Function Entered(0 4 1000.000 N 0)
+01/22 13:53:22.084 -----> MFC Set Started
+01/22 13:53:22.084 -----> MFC Set Finished
+01/22 13:53:22.084 ---> MFC Set Function Leaved(Success)
+01/22 13:53:26.134 ---> MFC Set Function Entered(0 6 2000.000 N 0)
+01/22 13:53:26.134 -----> MFC Set Started
+01/22 13:53:26.134 -----> MFC Set Finished
+01/22 13:53:26.134 ---> MFC Set Function Leaved(Success)
+01/22 13:53:30.183 ---> MFC Set Function Entered(0 7 2000.000 N 0)
+01/22 13:53:30.183 -----> MFC Set Started
+01/22 13:53:30.183 -----> MFC Set Finished
+01/22 13:53:30.183 ---> MFC Set Function Leaved(Success)
+01/22 13:53:45.678 ---> MFC Set Function Entered(0 9 3000.000 N 0 1 3000.000 N 0)
+01/22 13:53:45.678 -----> MFC Set Started
+01/22 13:53:45.678 -----> MFC Set Finished
+01/22 13:53:45.678 ---> MFC Set Function Leaved(Success)
+01/22 13:54:22.162 ---> MFC Set Function Entered(10 9 0 F 0 1 0 F 0)
+01/22 13:54:22.162 -----> MFC Set Started
+01/22 13:54:22.162 -----> MFC Set Finished
+01/22 13:54:22.162 ---> MFC Set Function Leaved(Success)
+01/22 14:05:43.010 ---> MFC Set Function Entered(0 3 2000.000 N 0)
+01/22 14:05:43.010 -----> MFC Set Started
+01/22 14:05:43.010 -----> MFC Set Finished
+01/22 14:05:43.010 ---> MFC Set Function Leaved(Success)
+01/22 14:05:48.071 ---> MFC Set Function Entered(0 4 1000.000 N 0)
+01/22 14:05:48.071 -----> MFC Set Started
+01/22 14:05:48.071 -----> MFC Set Finished
+01/22 14:05:48.071 ---> MFC Set Function Leaved(Success)
+01/22 14:05:53.132 ---> MFC Set Function Entered(0 6 2000.000 N 0)
+01/22 14:05:53.132 -----> MFC Set Started
+01/22 14:05:53.132 -----> MFC Set Finished
+01/22 14:05:53.132 ---> MFC Set Function Leaved(Success)
+01/22 14:05:56.168 ---> MFC Set Function Entered(0 7 2000.000 N 0)
+01/22 14:05:56.168 -----> MFC Set Started
+01/22 14:05:56.168 -----> MFC Set Finished
+01/22 14:05:56.168 ---> MFC Set Function Leaved(Success)
+01/22 14:06:30.132 ---> MFC Set Function Entered(0 9 3000.000 N 0 1 3000.000 N 0)
+01/22 14:06:30.132 -----> MFC Set Started
+01/22 14:06:30.132 -----> MFC Set Finished
+01/22 14:06:30.132 ---> MFC Set Function Leaved(Success)
+01/22 14:07:05.550 ---> MFC Set Function Entered(10 9 0 F 0 1 0 F 0)
+01/22 14:07:05.550 -----> MFC Set Started
+01/22 14:07:05.550 -----> MFC Set Finished
+01/22 14:07:05.550 ---> MFC Set Function Leaved(Success)
+01/22 14:32:47.340 ---> MFC Set Function Entered(0 3 2000.000 N 0)
+01/22 14:32:47.340 -----> MFC Set Started
+01/22 14:32:47.340 -----> MFC Set Finished
+01/22 14:32:47.340 ---> MFC Set Function Leaved(Success)
+01/22 14:32:52.178 ---> MFC Set Function Entered(0 4 1000.000 N 0)
+01/22 14:32:52.178 -----> MFC Set Started
+01/22 14:32:52.178 -----> MFC Set Finished
+01/22 14:32:52.178 ---> MFC Set Function Leaved(Success)
+01/22 14:32:57.067 ---> MFC Set Function Entered(0 6 2000.000 N 0)
+01/22 14:32:57.067 -----> MFC Set Started
+01/22 14:32:57.067 -----> MFC Set Finished
+01/22 14:32:57.067 ---> MFC Set Function Leaved(Success)
+01/22 14:33:01.943 ---> MFC Set Function Entered(0 7 2000.000 N 0)
+01/22 14:33:01.943 -----> MFC Set Started
+01/22 14:33:01.943 -----> MFC Set Finished
+01/22 14:33:01.943 ---> MFC Set Function Leaved(Success)
+01/22 15:03:16.092 ---> MFC Set Function Entered(0 3 2000.000 N 0)
+01/22 15:03:16.092 -----> MFC Set Started
+01/22 15:03:16.092 -----> MFC Set Finished
+01/22 15:03:16.092 ---> MFC Set Function Leaved(Success)
+01/22 15:03:20.651 ---> MFC Set Function Entered(0 4 1000.000 N 0)
+01/22 15:03:20.651 -----> MFC Set Started
+01/22 15:03:20.651 -----> MFC Set Finished
+01/22 15:03:20.651 ---> MFC Set Function Leaved(Success)
+01/22 15:03:25.175 ---> MFC Set Function Entered(0 6 2000.000 N 0)
+01/22 15:03:25.175 -----> MFC Set Started
+01/22 15:03:25.175 -----> MFC Set Finished
+01/22 15:03:25.175 ---> MFC Set Function Leaved(Success)
+01/22 15:03:29.702 ---> MFC Set Function Entered(0 7 2000.000 N 0)
+01/22 15:03:29.702 -----> MFC Set Started
+01/22 15:03:29.702 -----> MFC Set Finished
+01/22 15:03:29.702 ---> MFC Set Function Leaved(Success)
+01/22 15:04:27.844 ---> MFC Set Function Entered(0 3 2000.000 N 0)
+01/22 15:04:27.844 -----> MFC Set Started
+01/22 15:04:27.844 -----> MFC Set Finished
+01/22 15:04:27.844 ---> MFC Set Function Leaved(Success)
+01/22 15:04:32.711 ---> MFC Set Function Entered(0 4 1000.000 N 0)
+01/22 15:04:32.711 -----> MFC Set Started
+01/22 15:04:32.711 -----> MFC Set Finished
+01/22 15:04:32.711 ---> MFC Set Function Leaved(Success)
+01/22 15:04:37.576 ---> MFC Set Function Entered(0 6 2000.000 N 0)
+01/22 15:04:37.576 -----> MFC Set Started
+01/22 15:04:37.576 -----> MFC Set Finished
+01/22 15:04:37.576 ---> MFC Set Function Leaved(Success)
+01/22 15:04:42.443 ---> MFC Set Function Entered(0 7 2000.000 N 0)
+01/22 15:04:42.443 -----> MFC Set Started
+01/22 15:04:42.443 -----> MFC Set Finished
+01/22 15:04:42.443 ---> MFC Set Function Leaved(Success)
+01/22 15:07:06.853 ---> MFC Set Function Entered(0 3 2000.000 N 0)
+01/22 15:07:06.853 -----> MFC Set Started
+01/22 15:07:06.853 -----> MFC Set Finished
+01/22 15:07:06.853 ---> MFC Set Function Leaved(Success)
+01/22 15:07:11.714 ---> MFC Set Function Entered(0 4 1000.000 N 0)
+01/22 15:07:11.714 -----> MFC Set Started
+01/22 15:07:11.714 -----> MFC Set Finished
+01/22 15:07:11.714 ---> MFC Set Function Leaved(Success)
+01/22 15:07:16.583 ---> MFC Set Function Entered(0 6 2000.000 N 0)
+01/22 15:07:16.583 -----> MFC Set Started
+01/22 15:07:16.583 -----> MFC Set Finished
+01/22 15:07:16.583 ---> MFC Set Function Leaved(Success)
+01/22 15:07:21.448 ---> MFC Set Function Entered(0 7 2000.000 N 0)
+01/22 15:07:21.448 -----> MFC Set Started
+01/22 15:07:21.448 -----> MFC Set Finished
+01/22 15:07:21.448 ---> MFC Set Function Leaved(Success)
+01/22 15:07:38.187 ---> MFC Set Function Entered(0 9 3000.000 N 0 1 3000.000 N 0)
+01/22 15:07:38.187 -----> MFC Set Started
+01/22 15:07:38.187 -----> MFC Set Finished
+01/22 15:07:38.187 ---> MFC Set Function Leaved(Success)
+01/22 15:08:12.228 ---> MFC Set Function Entered(10 9 0 F 0 1 0 F 0)
+01/22 15:08:12.228 -----> MFC Set Started
+01/22 15:08:12.228 -----> MFC Set Finished
+01/22 15:08:12.228 ---> MFC Set Function Leaved(Success)
+01/22 15:36:10.355 ---> MFC Set Function Entered(0 3 2000.000 N 0)
+01/22 15:36:10.355 -----> MFC Set Started
+01/22 15:36:10.355 -----> MFC Set Finished
+01/22 15:36:10.355 ---> MFC Set Function Leaved(Success)
+01/22 15:36:14.851 ---> MFC Set Function Entered(0 4 1000.000 N 0)
+01/22 15:36:14.851 -----> MFC Set Started
+01/22 15:36:14.851 -----> MFC Set Finished
+01/22 15:36:14.851 ---> MFC Set Function Leaved(Success)
+01/22 15:36:19.346 ---> MFC Set Function Entered(0 6 2000.000 N 0)
+01/22 15:36:19.346 -----> MFC Set Started
+01/22 15:36:19.346 -----> MFC Set Finished
+01/22 15:36:19.346 ---> MFC Set Function Leaved(Success)
+01/22 15:36:23.841 ---> MFC Set Function Entered(0 7 2000.000 N 0)
+01/22 15:36:23.841 -----> MFC Set Started
+01/22 15:36:23.841 -----> MFC Set Finished
+01/22 15:36:23.841 ---> MFC Set Function Leaved(Success)
+01/22 15:37:01.847 ---> MFC Set Function Entered(0 3 2000.000 N 0)
+01/22 15:37:01.847 -----> MFC Set Started
+01/22 15:37:01.847 -----> MFC Set Finished
+01/22 15:37:01.847 ---> MFC Set Function Leaved(Success)
+01/22 15:37:06.343 ---> MFC Set Function Entered(0 4 1000.000 N 0)
+01/22 15:37:06.343 -----> MFC Set Started
+01/22 15:37:06.343 -----> MFC Set Finished
+01/22 15:37:06.343 ---> MFC Set Function Leaved(Success)
+01/22 15:37:10.837 ---> MFC Set Function Entered(0 6 2000.000 N 0)
+01/22 15:37:10.837 -----> MFC Set Started
+01/22 15:37:10.837 -----> MFC Set Finished
+01/22 15:37:10.837 ---> MFC Set Function Leaved(Success)
+01/22 15:37:15.333 ---> MFC Set Function Entered(0 7 2000.000 N 0)
+01/22 15:37:15.333 -----> MFC Set Started
+01/22 15:37:15.333 -----> MFC Set Finished
+01/22 15:37:15.333 ---> MFC Set Function Leaved(Success)
+01/22 15:42:57.153 ---> MFC Set Function Entered(0 3 2000.000 N 0)
+01/22 15:42:57.153 -----> MFC Set Started
+01/22 15:42:57.153 -----> MFC Set Finished
+01/22 15:42:57.153 ---> MFC Set Function Leaved(Success)
+01/22 15:43:02.008 ---> MFC Set Function Entered(0 4 1000.000 N 0)
+01/22 15:43:02.008 -----> MFC Set Started
+01/22 15:43:02.008 -----> MFC Set Finished
+01/22 15:43:02.008 ---> MFC Set Function Leaved(Success)
+01/22 15:43:06.865 ---> MFC Set Function Entered(0 6 2000.000 N 0)
+01/22 15:43:06.865 -----> MFC Set Started
+01/22 15:43:06.865 -----> MFC Set Finished
+01/22 15:43:06.865 ---> MFC Set Function Leaved(Success)
+01/22 15:43:11.720 ---> MFC Set Function Entered(0 7 2000.000 N 0)
+01/22 15:43:11.720 -----> MFC Set Started
+01/22 15:43:11.720 -----> MFC Set Finished
+01/22 15:43:11.720 ---> MFC Set Function Leaved(Success)
+01/22 15:44:02.208 ---> MFC Set Function Entered(0 9 3000.000 N 0 1 3000.000 N 0)
+01/22 15:44:02.208 -----> MFC Set Started
+01/22 15:44:02.208 -----> MFC Set Finished
+01/22 15:44:02.208 ---> MFC Set Function Leaved(Success)
+01/22 15:44:37.201 ---> MFC Set Function Entered(10 9 0 F 0 1 0 F 0)
+01/22 15:44:37.201 -----> MFC Set Started
+01/22 15:44:37.201 -----> MFC Set Finished
+01/22 15:44:37.201 ---> MFC Set Function Leaved(Success)
+01/22 15:46:58.405 ---> MFC Set Function Entered(0 3 2000.000 N 0)
+01/22 15:46:58.405 -----> MFC Set Started
+01/22 15:46:58.405 -----> MFC Set Finished
+01/22 15:46:58.405 ---> MFC Set Function Leaved(Success)
+01/22 15:47:03.375 ---> MFC Set Function Entered(0 4 1000.000 N 0)
+01/22 15:47:03.375 -----> MFC Set Started
+01/22 15:47:03.375 -----> MFC Set Finished
+01/22 15:47:03.375 ---> MFC Set Function Leaved(Success)
+01/22 15:47:06.418 ---> MFC Set Function Entered(0 6 2000.000 N 0)
+01/22 15:47:06.418 -----> MFC Set Started
+01/22 15:47:06.418 -----> MFC Set Finished
+01/22 15:47:06.418 ---> MFC Set Function Leaved(Success)
+01/22 15:47:11.382 ---> MFC Set Function Entered(0 7 2000.000 N 0)
+01/22 15:47:11.382 -----> MFC Set Started
+01/22 15:47:11.382 -----> MFC Set Finished
+01/22 15:47:11.382 ---> MFC Set Function Leaved(Success)
+01/22 15:48:09.747 ---> MFC Set Function Entered(10 9 0 F 0 1 0 F 0)
+01/22 15:48:09.747 -----> MFC Set Started
+01/22 15:48:09.747 -----> MFC Set Finished
+01/22 15:48:09.747 ---> MFC Set Function Leaved(Success)
+01/22 15:57:17.032 ---> MFC Set Function Entered(0 3 2000.000 N 0)
+01/22 15:57:17.032 -----> MFC Set Started
+01/22 15:57:17.032 -----> MFC Set Finished
+01/22 15:57:17.032 ---> MFC Set Function Leaved(Success)
+01/22 15:57:21.067 ---> MFC Set Function Entered(0 4 1000.000 N 0)
+01/22 15:57:21.067 -----> MFC Set Started
+01/22 15:57:21.067 -----> MFC Set Finished
+01/22 15:57:21.067 ---> MFC Set Function Leaved(Success)
+01/22 15:57:24.093 ---> MFC Set Function Entered(0 6 2000.000 N 0)
+01/22 15:57:24.093 -----> MFC Set Started
+01/22 15:57:24.093 -----> MFC Set Finished
+01/22 15:57:24.093 ---> MFC Set Function Leaved(Success)
+01/22 15:57:28.129 ---> MFC Set Function Entered(0 7 2000.000 N 0)
+01/22 15:57:28.129 -----> MFC Set Started
+01/22 15:57:28.129 -----> MFC Set Finished
+01/22 15:57:28.129 ---> MFC Set Function Leaved(Success)
+01/22 15:58:27.561 ---> MFC Set Function Entered(0 9 3000.000 N 0 1 3000.000 N 0)
+01/22 15:58:27.561 -----> MFC Set Started
+01/22 15:58:27.561 -----> MFC Set Finished
+01/22 15:58:27.561 ---> MFC Set Function Leaved(Success)
+01/22 15:59:03.921 ---> MFC Set Function Entered(10 9 0 F 0 1 0 F 0)
+01/22 15:59:03.921 -----> MFC Set Started
+01/22 15:59:03.921 -----> MFC Set Finished
+01/22 15:59:03.921 ---> MFC Set Function Leaved(Success)
+01/22 16:43:47.613 ---> MFC Set Function Entered(0 3 2000.000 N 0)
+01/22 16:43:47.613 -----> MFC Set Started
+01/22 16:43:47.613 -----> MFC Set Finished
+01/22 16:43:47.613 ---> MFC Set Function Leaved(Success)
+01/22 16:43:52.675 ---> MFC Set Function Entered(0 4 1000.000 N 0)
+01/22 16:43:52.675 -----> MFC Set Started
+01/22 16:43:52.675 -----> MFC Set Finished
+01/22 16:43:52.675 ---> MFC Set Function Leaved(Success)
+01/22 16:43:57.737 ---> MFC Set Function Entered(0 6 2000.000 N 0)
+01/22 16:43:57.737 -----> MFC Set Started
+01/22 16:43:57.737 -----> MFC Set Finished
+01/22 16:43:57.737 ---> MFC Set Function Leaved(Success)
+01/22 16:44:02.793 ---> MFC Set Function Entered(0 7 2000.000 N 0)
+01/22 16:44:02.793 -----> MFC Set Started
+01/22 16:44:02.793 -----> MFC Set Finished
+01/22 16:44:02.793 ---> MFC Set Function Leaved(Success)
+01/22 16:44:20.399 ---> MFC Set Function Entered(0 9 3000.000 N 0 1 3000.000 N 0)
+01/22 16:44:20.399 -----> MFC Set Started
+01/22 16:44:20.399 -----> MFC Set Finished
+01/22 16:44:20.399 ---> MFC Set Function Leaved(Success)
+01/22 16:44:57.892 ---> MFC Set Function Entered(10 9 0 F 0 1 0 F 0)
+01/22 16:44:57.892 -----> MFC Set Started
+01/22 16:44:57.892 -----> MFC Set Finished
+01/22 16:44:57.892 ---> MFC Set Function Leaved(Success)

@@ -1,0 +1,30 @@
+2017/5/12 9:41:32	USERCONTROL	[SYSTEM_START]
+2017/5/12 9:41:46	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2017/5/12 9:41:49	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2017/5/12 9:41:51	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/12 9:41:51	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/12 9:41:55	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 0(Main)
+2017/5/12 9:42:0	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 0(Main)
+2017/5/12 9:42:5	SETTING	[AIO] M651_Set_Position with [100.000] at Page = 0(Main)
+2017/5/12 9:42:9	SETTING	[DIO] ProcBGIsoVlvDO with [Close(0)] at Page = 0(Main)
+2017/5/12 9:42:12	SETTING	[DIO] ProcBGIsoVlvDO with [Close(0)] at Page = 0(Main)
+2017/5/12 9:42:31	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 0(Main)
+2017/5/12 9:42:35	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/12 9:42:35	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/12 9:42:36	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/5/12 9:42:36	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/5/12 9:42:57	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/12 9:42:57	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/12 9:43:2	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 0(Main)
+2017/5/12 15:39:19	USERCONTROL	[SYSTEM_START]
+2017/5/12 15:45:53	ALARMHISTORY	[OPEN] Delete Popup Screen
+2017/5/12 15:45:55	ALARMHISTORY	[CLOSE] Delete Popup Screen
+2017/5/12 15:45:56	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2017/5/12 15:45:58	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2017/5/12 15:45:59	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/12 15:45:59	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/12 15:46:7	SETTING	[AIO] M651_Set_Position with [2.000] at Page = 0(Main)
+2017/5/12 15:46:13	SETTING	[AIO] M651_Set_Position with [0.000] at Page = 0(Main)
+2017/5/12 16:53:12	USERCONTROL	[SYSTEM_START]
+2017/5/12 16:58:21	ALARMHISTORY	[OPEN] Delete Popup Screen
+2017/5/12 16:58:48	ALARMHISTORY	[CLOSE] Delete Popup Screen

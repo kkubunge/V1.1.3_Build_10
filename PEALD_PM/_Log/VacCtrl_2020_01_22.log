@@ -1,0 +1,75 @@
+01/22 13:46:05.980 ============================================================
+01/22 13:46:05.980 Configration Started
+01/22 13:46:05.980 Can't find Configration File('_Log\SeqLog.cfg')
+01/22 13:46:05.980 Default KeepDays is 10(days).
+01/22 13:46:05.980 Configration Finished
+01/22 13:46:05.980 ============================================================
+01/22 13:46:05.980 Chuck Relay is On So Can't Vent
+01/22 13:47:00.020 Chuck Relay is On
+01/22 13:52:51.787 ============================================================
+01/22 13:52:51.787 Configration Started
+01/22 13:52:51.787 Can't find Configration File('_Log\SeqLog.cfg')
+01/22 13:52:51.787 Default KeepDays is 10(days).
+01/22 13:52:51.802 Configration Finished
+01/22 13:52:51.802 ============================================================
+01/22 13:52:51.802 Param Length Error[0]
+01/22 13:56:36.678 ============================================================
+01/22 13:56:36.678 Configration Started
+01/22 13:56:36.678 Can't find Configration File('_Log\SeqLog.cfg')
+01/22 13:56:36.678 Default KeepDays is 10(days).
+01/22 13:56:36.678 Configration Finished
+01/22 13:56:36.678 ============================================================
+01/22 13:56:36.678 RPG gate valve (V103Valve) Not Open
+01/22 14:06:09.312 ============================================================
+01/22 14:06:09.312 Configration Started
+01/22 14:06:09.312 Can't find Configration File('_Log\SeqLog.cfg')
+01/22 14:06:09.312 Default KeepDays is 10(days).
+01/22 14:06:09.312 Configration Finished
+01/22 14:06:09.312 ============================================================
+01/22 14:06:09.312 RPG gate valve (V103Valve) Not Open
+01/22 14:16:15.602 ============================================================
+01/22 14:16:15.602 Configration Started
+01/22 14:16:15.602 Can't find Configration File('_Log\SeqLog.cfg')
+01/22 14:16:15.602 Default KeepDays is 10(days).
+01/22 14:16:15.602 Configration Finished
+01/22 14:16:15.602 ============================================================
+01/22 14:16:15.602 RPG gate valve (V103Valve) Not Open
+01/22 15:36:28.335 ============================================================
+01/22 15:36:28.335 Configration Started
+01/22 15:36:28.335 Can't find Configration File('_Log\SeqLog.cfg')
+01/22 15:36:28.335 Default KeepDays is 10(days).
+01/22 15:36:28.335 Configration Finished
+01/22 15:36:28.335 ============================================================
+01/22 15:36:28.335 Chuck Relay is On So Can't Vent
+01/22 15:36:47.698 CheckSafetyPLCMode[1] is failed
+01/22 15:43:26.288 ============================================================
+01/22 15:43:26.288 Configration Started
+01/22 15:43:26.288 Can't find Configration File('_Log\SeqLog.cfg')
+01/22 15:43:26.288 Default KeepDays is 10(days).
+01/22 15:43:26.288 Configration Finished
+01/22 15:43:26.288 ============================================================
+01/22 15:43:26.288 RPG gate valve (V103Valve) Not Open
+01/22 15:43:38.137 RPG gate valve (V103Valve) Not Open
+01/22 15:45:16.598 RPG gate valve (V103Valve) Not Open
+01/22 15:45:25.540 RPG gate valve (V103Valve) Not Open
+01/22 15:45:29.437 RPG gate valve (V103Valve) Not Open
+01/22 15:47:26.354 RPG gate valve (V103Valve) Not Open
+01/22 15:57:41.245 ============================================================
+01/22 15:57:41.245 Configration Started
+01/22 15:57:41.245 Can't find Configration File('_Log\SeqLog.cfg')
+01/22 15:57:41.245 Default KeepDays is 10(days).
+01/22 15:57:41.260 Configration Finished
+01/22 15:57:41.260 ============================================================
+01/22 15:57:41.260 RPG gate valve (V103Valve) Not Open
+01/22 15:57:56.440 RPG gate valve (V111Valve) Not Open
+01/22 15:58:00.926 RPG gate valve (V111Valve) Not Open
+01/22 16:17:45.331 RPG gate valve (V103Valve) Not Open
+01/22 16:19:38.407 RPG gate valve (V103Valve) Not Open
+01/22 16:19:47.391 RPG gate valve (V103Valve) Not Open
+01/22 16:20:18.802 ============================================================
+01/22 16:20:18.802 Configration Started
+01/22 16:20:18.802 Can't find Configration File('_Log\SeqLog.cfg')
+01/22 16:20:18.802 Default KeepDays is 10(days).
+01/22 16:20:18.802 Configration Finished
+01/22 16:20:18.802 ============================================================
+01/22 16:20:18.802 RPG gate valve (V103Valve) Not Open

@@ -1,0 +1,284 @@
+#-----------------------------------------------------------
+# Setpoint Interlock
+#-----------------------------------------------------------
+
+action (FastRoughVlvDO ==  Open)  {
+	condition (TopLidSwitchDI == Open || DPAlarmDI == Alarm) $alarm = 7003;
+}
+
+action (StgHtr1RelayDO == On)  {
+	condition (TopLidSwitchDI == Open) $alarm = 7004;
+}
+
+action (StgHtr2RelayDO == On)  {
+	condition (TopLidSwitchDI == Open) $alarm = 7005;
+}
+
+#-----------------------------------------------------------
+# RF(1) Setpoint Interlock
+action (RFPwOnDO == On)	{
+	condition (TopLidSwitchDI == Open || M651_Pressure > 10 || ChmPrssDI1 != Vacuum)
+	$alarm = 7010;
+}
+
+action (RFPwOnDO == On)	{
+	condition (RFSHCovIntDI == Interlock || RFFilterFanDI == Alarm || RFOvTempDtctDI == Alarm)
+	$alarm = 7011;
+}
+
+action (RFPwOnDO == On)	{
+	condition (RFPlasmaACOKDI == NG)
+	$alarm = 7012;
+}
+
+#-----------------------------------------------------------
+# RF(2) Setpoint Interlock
+action (RFPwOn2DO == On)	{
+	condition (TopLidSwitchDI == Open || M651_Pressure > 10 || ChmPrssDI1 != Vacuum)
+	$alarm = 7020;
+}
+
+action (RFPwOn2DO == On)	{
+	condition (RFSHCovInt2DI == Interlock || RFFilterFan2DI == Alarm || RFOvTempDtct2DI == Alarm)
+	$alarm = 7021;
+}
+
+action (RFPwOn2DO == On)	{
+	condition (RFPlasmaACOK2DI == NG)
+	$alarm = 7022;
+}
+
+#-----------------------------------------------------------
+# RPG Setpoint Interlock
+action (RPGPwOnDO == On)	{
+	condition (TopLidSwitchDI == Open  || TMIsoVlvClosedDI == NG  || TMIsoVlv2ClosedDI == NG
+		  || ChmPrssDI1 == ATM || RPGReadyDI == NotReady || RPGPlasmaACOKDI == NG  || RPGWtrFlwSwDI == Alarm)
+	$alarm = 7030;
+}
+
+action (RPGPwOnDO == On)	{
+	condition (RPGGateVlvPosDI != Open  || RPGGateVlv2PosDI != Open)
+	$alarm = 7031;
+}
+
+# RoreMoter
+#-----------------------------------------------------------
+action ( ZMT_SetPosAM > 0 mm)  {
+       condition ( TMIsoVlvClosedDI != OK ) $alarm = 7020;
+}
+action ( ZMT_SetPos2AM > 0 mm)  {
+       condition ( TMIsoVlv2ClosedDI != OK ) $alarm = 7020;
+}
+
+#-----------------------------------------------------------
+# Valve Interlock
+
+action ( V3ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V4ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V11ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V12ValveDO == Open || V18ValveDO == Open || V52ValveDO == Open || V53ValveDO == Open
+		 || V54ValveDO == Open || V55ValveDO == Open || V68ValveDO == Open || V103ValveDO == Open
+		 || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V12ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V11ValveDO == Open || V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open
+		 || V55ValveDO == Open || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V13ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V14ValveDO == Open || V19ValveDO == Open || V52ValveDO == Open || V53ValveDO == Open
+		 || V54ValveDO == Open || V55ValveDO == Open || V68ValveDO == Open || V103ValveDO == Open
+		 || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V14ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V13ValveDO == Open || V15ValveDO == Open || V19ValveDO == Open )) $alarm = 7051;
+}
+action ( V15ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V14ValveDO == Open || V19ValveDO == Open || V52ValveDO == Open || V53ValveDO == Open
+		 || V54ValveDO == Open || V55ValveDO == Open || V68ValveDO == Open || V103ValveDO == Open
+		 || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V17ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V18ValveDO == Open || V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open
+		 || V55ValveDO == Open || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V18ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V11ValveDO == Open || V17ValveDO == Open || V52ValveDO == Open || V53ValveDO == Open
+		 || V54ValveDO == Open || V55ValveDO == Open || V68ValveDO == Open || V103ValveDO == Open
+		 || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V19ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V13ValveDO == Open || V14ValveDO == Open || V15ValveDO == Open || V52ValveDO == Open
+		 || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open || V68ValveDO == Open
+		 || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V20ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V23ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V24ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V49ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V51ValveDO == Open || V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open
+		 || V55ValveDO == Open || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V50ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V51ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V49ValveDO == Open || V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open
+		 || V55ValveDO == Open || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V52ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V3ValveDO == Open || V4ValveDO == Open || V11ValveDO == Open || V12ValveDO == Open
+		 || V13ValveDO == Open || V15ValveDO == Open || V17ValveDO == Open || V18ValveDO == Open
+		 || V19ValveDO == Open || V20ValveDO == Open || V23ValveDO == Open || V24ValveDO == Open
+		 || V49ValveDO == Open || V50ValveDO == Open || V51ValveDO == Open || V58ValveDO == Open
+		 || V59ValveDO == Open || V62ValveDO == Open || V65ValveDO == Open || V66ValveDO == Open
+		 || V69ValveDO == Open || V70ValveDO == Open || V97ValveDO == Open || V98ValveDO == Open
+		 || V105ValveDO == Open || V106ValveDO == Open )) $alarm = 7051;
+}
+action ( V53ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V3ValveDO == Open || V4ValveDO == Open || V11ValveDO == Open || V12ValveDO == Open
+		 || V13ValveDO == Open || V15ValveDO == Open || V17ValveDO == Open || V18ValveDO == Open
+		 || V19ValveDO == Open || V20ValveDO == Open || V23ValveDO == Open || V24ValveDO == Open
+		 || V49ValveDO == Open || V50ValveDO == Open || V51ValveDO == Open || V58ValveDO == Open
+		 || V59ValveDO == Open || V62ValveDO == Open || V65ValveDO == Open || V66ValveDO == Open
+		 || V69ValveDO == Open || V70ValveDO == Open || V97ValveDO == Open || V98ValveDO == Open
+		 || V105ValveDO == Open || V106ValveDO == Open )) $alarm = 7051;
+}
+action ( V54ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V3ValveDO == Open || V4ValveDO == Open || V11ValveDO == Open || V12ValveDO == Open
+		 || V13ValveDO == Open || V15ValveDO == Open || V17ValveDO == Open || V18ValveDO == Open
+		 || V19ValveDO == Open || V20ValveDO == Open || V23ValveDO == Open || V24ValveDO == Open
+		 || V49ValveDO == Open || V50ValveDO == Open || V51ValveDO == Open || V58ValveDO == Open
+		 || V59ValveDO == Open || V62ValveDO == Open || V65ValveDO == Open || V66ValveDO == Open
+		 || V69ValveDO == Open || V70ValveDO == Open || V97ValveDO == Open || V98ValveDO == Open
+		 || V105ValveDO == Open || V106ValveDO == Open )) $alarm = 7051;
+}
+action ( V55ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V3ValveDO == Open || V4ValveDO == Open || V11ValveDO == Open || V12ValveDO == Open
+		 || V13ValveDO == Open || V15ValveDO == Open || V17ValveDO == Open || V18ValveDO == Open
+		 || V19ValveDO == Open || V20ValveDO == Open || V23ValveDO == Open || V24ValveDO == Open
+		 || V49ValveDO == Open || V50ValveDO == Open || V51ValveDO == Open || V58ValveDO == Open
+		 || V59ValveDO == Open || V62ValveDO == Open || V65ValveDO == Open || V66ValveDO == Open
+		 || V69ValveDO == Open || V70ValveDO == Open || V97ValveDO == Open || V98ValveDO == Open
+		 || V105ValveDO == Open || V106ValveDO == Open )) $alarm = 7051;
+}
+action ( V58ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V59ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V62ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V65ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V66ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V68ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V3ValveDO == Open || V4ValveDO == Open || V11ValveDO == Open || V12ValveDO == Open
+		 || V13ValveDO == Open || V15ValveDO == Open || V17ValveDO == Open || V18ValveDO == Open
+		 || V19ValveDO == Open || V20ValveDO == Open || V23ValveDO == Open || V24ValveDO == Open
+		 || V49ValveDO == Open || V50ValveDO == Open || V51ValveDO == Open || V58ValveDO == Open
+		 || V59ValveDO == Open || V62ValveDO == Open || V65ValveDO == Open || V66ValveDO == Open
+		 || V69ValveDO == Open || V70ValveDO == Open || V97ValveDO == Open || V98ValveDO == Open
+		 || V105ValveDO == Open || V106ValveDO == Open )) $alarm = 7051;
+}
+action ( V69ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V70ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V97ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V98ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V98ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V97ValveDO == Open || V103ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V100ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V102ValveDO == Open )) $alarm = 7051;
+}
+action ( V102ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V100ValveDO == Open )) $alarm = 7051;
+}
+action ( V103ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V3ValveDO == Open || V4ValveDO == Open || V11ValveDO == Open || V12ValveDO == Open
+		 || V13ValveDO == Open || V15ValveDO == Open || V17ValveDO == Open || V18ValveDO == Open
+		 || V19ValveDO == Open || V20ValveDO == Open || V23ValveDO == Open || V24ValveDO == Open
+		 || V49ValveDO == Open || V50ValveDO == Open || V51ValveDO == Open || V58ValveDO == Open
+		 || V59ValveDO == Open || V62ValveDO == Open || V65ValveDO == Open || V66ValveDO == Open
+		 || V69ValveDO == Open || V70ValveDO == Open || V97ValveDO == Open || V98ValveDO == Open
+		 || V105ValveDO == Open || V106ValveDO == Open )) $alarm = 7051;
+}
+action ( V105ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V103ValveDO == Open || V106ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V106ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V52ValveDO == Open || V53ValveDO == Open || V54ValveDO == Open || V55ValveDO == Open
+		 || V68ValveDO == Open || V103ValveDO == Open || V105ValveDO == Open || V111ValveDO == Open )) $alarm = 7051;
+}
+action ( V108ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V110ValveDO == Open )) $alarm = 7051;
+}
+action ( V110ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V108ValveDO == Open )) $alarm = 7051;
+}
+action ( V111ValveDO == Open ) {
+	condition ( VRCP_RunningDI == Idle && ( V3ValveDO == Open || V4ValveDO == Open || V11ValveDO == Open || V12ValveDO == Open
+		 || V13ValveDO == Open || V15ValveDO == Open || V17ValveDO == Open || V18ValveDO == Open
+		 || V19ValveDO == Open || V20ValveDO == Open || V23ValveDO == Open || V24ValveDO == Open
+		 || V49ValveDO == Open || V50ValveDO == Open || V51ValveDO == Open || V58ValveDO == Open
+		 || V59ValveDO == Open || V62ValveDO == Open || V65ValveDO == Open || V66ValveDO == Open
+		 || V69ValveDO == Open || V70ValveDO == Open || V97ValveDO == Open || V98ValveDO == Open
+		 || V105ValveDO == Open || V106ValveDO == Open )) $alarm = 7051;
+}
+
+#-----------------------------------------------------------
+# Top Lid Switch Valve Lock
+# SIDE.A
+action ( V21ValveDO == Open )	{ condition ( TopLidSwitchDI == Open )	$alarm = 7053;	}
+action ( V22ValveDO == Open )	{ condition ( TopLidSwitchDI == Open )	$alarm = 7053;	}
+action ( V20ValveDO == Open )	{ condition ( TopLidSwitchDI == Open )	$alarm = 7053;	}
+action ( V23ValveDO == Open )	{ condition ( TopLidSwitchDI == Open )	$alarm = 7053;	}
+action ( V24ValveDO == Open )	{ condition ( TopLidSwitchDI == Open )	$alarm = 7053;	}
+# SIDE.B
+action ( V66ValveDO == Open )	{ condition ( TopLidSwitchDI == Open )	$alarm = 7053;	}
+action ( V65ValveDO == Open )	{ condition ( TopLidSwitchDI == Open )	$alarm = 7053;	}
+action ( V53ValveDO == Open )	{ condition ( TopLidSwitchDI == Open )	$alarm = 7053;	}
+action ( V55ValveDO == Open )	{ condition ( TopLidSwitchDI == Open )	$alarm = 7053;	}
+action ( V62ValveDO == Open )	{ condition ( TopLidSwitchDI == Open )	$alarm = 7053;	}
+action ( V64ValveDO == Open )	{ condition ( TopLidSwitchDI == Open )	$alarm = 7053;	}
+action ( V63ValveDO == Open )	{ condition ( TopLidSwitchDI == Open )	$alarm = 7053;	}
+
+#-----------------------------------------------------------
+# Vacuum Sensor Valve Lock
+action ( V15ValveDO == Open )	{ condition ( ChmPrssDI1 != Vacuum )	$alarm = 7054;	}
+action ( V52ValveDO == Open )	{ condition ( ChmPrssDI1 != Vacuum )	$alarm = 7054;	}

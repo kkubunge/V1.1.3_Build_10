@@ -1,0 +1,50 @@
+#
+$$$ Enum
+NavPlt 		-	MAN	CH_1	CH_2
+
+$$$ Digital
+#				IN		     |	OUT
+#---------------------	------	------	-- -- -- -- --	------	-- -- -- --
+UserLevelControl	-	GUINAV	0  -  -   -  0	GUINAV	0  -  -   -
+
+Bottom_System		-	GUINAV	1  -  -   1  0	GUINAV	1  -  -   1
+Bottom_Recipe		-	GUINAV	2  -  -   1  0	GUINAV	2  -  -   1
+Bottom_Service		-	GUINAV	3  -  -   1  0	GUINAV	3  -  -   1
+Bottom_Config		-	GUINAV	4  -  -   1  0	GUINAV	4  -  -   1
+Bottom_Utility		-	GUINAV	5  -  -   1  0	GUINAV	5  -  -   1
+Bottom_Alarm		-	GUINAV	6  -  -   1  0	GUINAV	6  -  -   1
+
+#---1 System
+Right_System_Main	-	GUINAV	1  1  -   1  0	GUINAV	1  1  -   1
+Right_System_Control	-	GUINAV	1  2  -   1  0	GUINAV	1  2  -   1
+
+#---2 Recipe
+Right_Recipe_PrcRcp	-	GUINAV	2  1  -   1  0	GUINAV	2  1  -   1
+
+#---3 Service
+Right_Service_Htr	-	GUINAV	3  1  -   1  0	GUINAV	3  1  -   1
+Right_Service_Htr_Nav	-	GUINAV	3  1  1   1  0	GUINAV	3  1  1   1
+Right_Service_Water	-	GUINAV	3  2  -   1  0	GUINAV	3  2  -   1
+Right_Service_Leak	-	GUINAV	3  3  -   1  0	GUINAV	3  3  -   1
+Right_Service_Leak_Nav	-	GUINAV	3  3  1   1  0	GUINAV	3  3  1   1
+Right_Service_Vrifi	-	GUINAV	3  4  -   1  0  GUINAV	3  4  -   1
+Right_Service_Vrifi_Nav	-	GUINAV	3  4  1   1  0  GUINAV	3  4  1   1
+Right_Service_DirectIO	-	GUINAV	3  5  -   1  0  GUINAV  3  5  -   1
+
+#---4 Config
+Right_Config_Parm	-	GUINAV	4  1  -   1  0	GUINAV	4  1  -   1
+Right_Config_Parm_Nav	-	GUINAV	4  1  1   1  0	GUINAV	4  1  1   1
+
+#---5 Utility
+Right_Utility_Plot	-	GUINAV	5  1  -   1  0	GUINAV	5  1  -   1
+Right_Utility_Plot_Nav	NavPlt	GUINAV	5  1  1   1  0	GUINAV	5  1  1   1
+Right_Utility_AlarmHis	-	GUINAV	5  2  -   1  0	GUINAV	5  2  -   1
+Right_Utility_User	-	GUINAV	5  3  -   1  0	GUINAV	5  3  -   1
+
+Main_Screen_Button	-	GUINAV	1  1  1 101  0	GUINAV	1  1  1 101
+
+$$$ String
+CurrentUserName		GUINAV	0	1	GUINAV	0
+CurrentGroupName	GUINAV	1	1	GUINAV	1
+CurrentDate		GUINAV	2	1
+CurrentTime		GUINAV	3	1

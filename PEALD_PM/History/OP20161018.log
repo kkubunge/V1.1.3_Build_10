@@ -1,0 +1,69 @@
+2016/10/18 18:3:40	USERCONTROL	[SYSTEM_START]
+2016/10/18 18:3:53	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2016/10/18 18:3:58	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2016/10/18 18:4:1	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/10/18 18:4:1	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/10/18 18:4:10	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/10/18 18:4:10	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/10/18 18:4:16	SETTING	[DIO] HTREditEnableDisable with [1] at Page = 2(Main Heater)
+2016/10/18 18:8:13	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2016/10/18 18:8:13	BUTTON	[BOTTOM CLICK] Bottom_Config
+2016/10/18 18:8:27	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2016/10/18 18:8:27	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2016/10/18 18:8:28	SETTING	[DIO] Right_Config_Parm_Nav with [1] at Page = 7(PM Param 2)
+2016/10/18 18:8:28	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 1
+2016/10/18 18:8:33	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 6(PM Param 1)
+2016/10/18 18:8:33	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7
+2016/10/18 18:8:34	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 12(PM Param 7)
+2016/10/18 18:8:34	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2016/10/18 18:8:35	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 11(PM Param 6)
+2016/10/18 18:8:35	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2016/10/18 18:8:37	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 10(PM Param 5)
+2016/10/18 18:8:37	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2016/10/18 18:8:51	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 9(PM Param 4)
+2016/10/18 18:8:51	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7
+2016/10/18 18:8:53	SETTING	[DIO] Right_Config_Parm_Nav with [1] at Page = 12(PM Param 7)
+2016/10/18 18:8:53	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 1
+2016/10/18 18:8:54	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/10/18 18:8:54	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/10/18 18:12:39	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2016/10/18 18:12:39	BUTTON	[BOTTOM CLICK] Bottom_Config
+2016/10/18 18:12:41	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 6(PM Param 1)
+2016/10/18 18:12:41	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2016/10/18 18:12:43	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 11(PM Param 6)
+2016/10/18 18:12:43	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2016/10/18 18:12:44	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 10(PM Param 5)
+2016/10/18 18:12:44	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2016/10/18 18:13:1	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 9(PM Param 4)
+2016/10/18 18:13:1	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2016/10/18 18:13:1	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 10(PM Param 5)
+2016/10/18 18:13:1	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2016/10/18 18:13:6	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 9(PM Param 4)
+2016/10/18 18:13:6	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2016/10/18 18:13:7	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 10(PM Param 5)
+2016/10/18 18:13:7	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2016/10/18 18:13:12	SETTING	[DIO] Bottom_Utility with [1] at Page = 0(PAGE 1)
+2016/10/18 18:13:12	BUTTON	[BOTTOM CLICK] Bottom_Utility
+2016/10/18 18:13:14	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2016/10/18 18:13:14	BUTTON	[BOTTOM CLICK] Bottom_Config
+2016/10/18 18:13:14	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/10/18 18:13:14	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/10/18 18:15:49	SETTING	[DIO] HTREditEnableDisable with [0] at Page = 2(Main Heater)
+2016/10/18 18:15:50	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2016/10/18 18:15:50	BUTTON	[BOTTOM CLICK] Bottom_Config
+2016/10/18 18:15:52	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 9(PM Param 4)
+2016/10/18 18:15:52	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2016/10/18 18:15:53	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 10(PM Param 5)
+2016/10/18 18:15:53	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2016/10/18 18:15:54	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 11(PM Param 6)
+2016/10/18 18:15:54	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7
+2016/10/18 18:15:57	SETTING	[DIO] Right_Config_Parm_Nav with [1] at Page = 12(PM Param 7)
+2016/10/18 18:15:57	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 1
+2016/10/18 18:15:58	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2016/10/18 18:15:58	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2016/10/18 18:16:1	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 7(PM Param 2)
+2016/10/18 18:16:1	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2016/10/18 18:16:4	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 8(PM Param 3)
+2016/10/18 18:16:4	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2016/10/18 18:16:25	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/10/18 18:16:25	BUTTON	[BOTTOM CLICK] Bottom_Service

@@ -1,0 +1,254 @@
+#
+#
+#
+# Possible Recovery Action String
+#	- CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+###################### not used ##############################
+2700	StgHtrTempTimeOut	{
+	"StgHtr Temp Wait Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2701	HTRA01TempTolOut	{
+	"HeaterA01 Temperature Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2702	HTRA02TempTolOut	{
+	"HeaterA02 Temperature Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2703	HTRB01TempTolOut	{
+	"HeaterB01 Temperature Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2704	HTRB02TempTolOut	{
+	"HeaterB02 Temperature Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2710	StageHeaterWorkTempError {
+	"Stage Heater Work Temp 와 Reading Temp가 50도 이상 차이발생하여 Relay On 할수 없음."
+	CLEAR	"Clear Operation"
+	}
+
+2740	HTR988InitFailed {
+	"Stage Heater(HTR988) Controller Initialization is failed"
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+2741	HTR988CommFailed {
+	"Stage Heater(HTR988) Controller Comm is failed"
+	CLEAR	"Clear Operation"
+	}
+
+2750	StageHtrCtrlerError	{
+	"Stage Heater Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+2751	StageHtrTempHighLimit	{
+	"Stage Heater Temperature Is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+2752	StageHtrTempLowLimit	{
+	"Stage Heater Temperature Is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+2753	StageHtrTempSetInvalid	{
+	"Stage Heater Temp Set Value Is Invalid"
+	CLEAR	"Clear Operation"
+	}
+
+2754	StageHtrTempNotStable	{
+	"Stage Heater Temp Is Not Stable"
+	CLEAR	"Clear Operation"
+	}
+
+2755	StageHtrOffsetInvalid	{
+	"Stage Heater Offset Is Invalid"
+	CLEAR	"Clear Operation"
+	}
+
+2760	StageHtrRelayNotOff	{
+	"Stage Heater Relay Not Off"
+	CLEAR	"Clear Operation"
+	}
+
+2761	StageHtrCoolDownTimeout	{
+	"Stage Heater Cool Down Func Is Timeout"
+	CLEAR	"Clear Operation"
+	}
+
+2770	StageHtrInvalidFunctionCall	{
+	"Stage Heater Invalid Function Call"
+	CLEAR	"Clear Operation"
+	}
+
+2820	StageHtr1TempSetInvalid	{
+	"Stage Heater 1 Temp Set Value Is Invalid"
+	CLEAR	"Clear Operation"
+	}
+
+2821	StageHtr2TempSetInvalid	{
+	"Stage Heater 2 Temp Set Value Is Invalid"
+	CLEAR	"Clear Operation"
+	}
+
+2822	StageHtr1TempNotStable	{
+	"Stage Heater 1 Temp Is Not Stable"
+	CLEAR	"Clear Operation"
+	}
+
+2823	StageHtr2TempNotStable	{
+	"Stage Heater 2 Temp Is Not Stable"
+	CLEAR	"Clear Operation"
+	}
+
+2824	StageHtr1OffsetInvalid	{
+	"Stage Heater 1 Offset Is Invalid"
+	CLEAR	"Clear Operation"
+	}
+
+2825	StageHtr2OffsetInvalid	{
+	"Stage Heater 2 Offset Is Invalid"
+	CLEAR	"Clear Operation"
+	}
+
+2826	StageHtr1RelayNotOff	{
+	"Stage Heater 1 Relay Not Off"
+	CLEAR	"Clear Operation"
+	}
+
+2827	StageHtr2RelayNotOff	{
+	"Stage Heater 2 Relay Not Off"
+	CLEAR	"Clear Operation"
+	}
+
+2828	StageHtr1CoolDownTimeout	{
+	"Stage Heater 1 Cool Down Func Is Timeout"
+	CLEAR	"Clear Operation"
+	}
+
+2829	StageHtr2CoolDownTimeout	{
+	"Stage Heater 2 Cool Down Func Is Timeout"
+	CLEAR	"Clear Operation"
+	}
+
+2830	StageHtr1WorkTemperatureError	{
+	"Stage Heater 1 Work Temperature Error"
+	CLEAR	"Clear Operation"
+	}
+
+2831	StageHtr2WorkTemperatureError	{
+	"Stage Heater 2 Work Temperature Error"
+	CLEAR	"Clear Operation"
+	}
+
+2832	StageHtr1CtrlerError	{
+	"Stage Heater 1 In Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+2833	StageHtr2CtrlerError	{
+	"Stage Heater 1 Out Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+2834	StageHtr1TempHighLimit	{
+	"Stage Heater 1 Temperature Is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+2835	StageHtr2TempHighLimit	{
+	"Stage Heater 2 Temperature Is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+2836	StageHtr1TempLowLimit	{
+	"Stage Heater 1 Temperature Is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+2837	StageHtr2TempLowLimit	{
+	"Stage Heater 2 Temperature Is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+2838	Watlow988StageHtr1InitFailed		{
+	"Watlow 988 Stage Heater 1 Initialize Failed"
+	CLEAR	"Clear Operatoin"
+	}
+
+2839	Watlow988StageHtr2InitFailed		{
+	"Watlow 988 Stage Heater 2 Initialize Failed"
+	CLEAR	"Clear Operatoin"
+	}
+
+2840	Watlow988StageHtr1CommError		{
+	"Watlow 988 Stage Heater 1 Communication Error"
+	CLEAR	"Clear Operatoin"
+	}
+
+2841	Watlow988StageHtr2CommError		{
+	"Watlow 988 Stage Heater 2 Communication Error"
+	CLEAR	"Clear Operatoin"
+	}
+
+2842	StageHtr1CurrHighLimit	{
+	"Stage Heater 1 Current Is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+2843	StageHtr2CurrHighLimit	{
+	"Stage Heater 2 Current Is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+2844	StageHtr1CurrLowLimit	{
+	"Stage Heater 1 Current Is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+2845	StageHtr2CurrLowLimit	{
+	"Stage Heater 2 Current Is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+2846	StageHtr1VoltHighLimit		{
+	"Stage Heater 1 Voltage Is High Limit"
+	CLEAR	"Clear Operatoin"
+	}
+
+2847	StageHtr2VoltHighLimit		{
+	"Stage Heater 2 Voltage Is High Limit"
+	CLEAR	"Clear Operatoin"
+	}
+
+2848	StageHtr1VoltLowLimit		{
+	"Stage Heater 1 Voltage Is Low Limit"
+	CLEAR	"Clear Operatoin"
+	}
+
+2849	StageHtr2VoltLowLimit		{
+	"Stage Heater 2 Voltage Is Low Limit"
+	CLEAR	"Clear Operatoin"
+	}
+
+2850	StageHeaterControlSyncFail		{
+	"May be User Change Stage Heater Temp While Recipe Control"
+	ABORT	"Clear Operatoin"
+	}
+

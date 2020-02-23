@@ -1,0 +1,487 @@
+#
+#
+#
+# Possible Recovery Action String
+#      - CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+###################### not used ##############################
+2001	MFC01FlwTolOut	{
+	"MFC01 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2002	MFC02FlwTolOut	{
+	"MFC02 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2003	MFC03FlwTolOut	{
+	"MFC03 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2004	MFC04FlwTolOut	{
+	"MFC04 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2005	MFC05FlwTolOut	{
+	"MFC05 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2006	MFC06FlwTolOut	{
+	"MFC06 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2007	MFC07FlwTolOut	{
+	"MFC07 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2008	MFC08FlwTolOut	{
+	"MFC08 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2009	MFC09FlwTolOut	{
+	"MFC09 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2010	MFC10FlwTolOut	{
+	"MFC10 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2011	MFC11FlwTolOut	{
+	"MFC11 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2012	MFC12FlwTolOut	{
+	"MFC12 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2013	MFC13FlwTolOut	{
+	"MFC13 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2014	MFC14FlwTolOut	{
+	"MFC14 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2015	MFC15FlwTolOut	{
+	"MFC15 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2016	MFC16FlwTolOut	{
+	"MFC16 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2017	MFC17FlwTolOut	{
+	"MFC17 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2018	MFC18FlwTolOut	{
+	"MFC18 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2019	MFC19FlwTolOut	{
+	"MFC19 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2020	MFC20FlwTolOut	{
+	"MFC20 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2021	MFC21FlwTolOut	{
+	"MFC21 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2022	MFC22FlwTolOut	{
+	"MFC22 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2023	MFC23FlwTolOut	{
+	"MFC23 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2024	MFC24FlwTolOut	{
+	"MFC24 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2025	MFC25FlwTolOut	{
+	"MFC25 Flow Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+##############################################################
+2041	MFC01TimeOut	{
+	"MFC01 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2042	MFC02TimeOut	{
+	"MFC02 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2043	MFC03TimeOut	{
+	"MFC03 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2044	MFC04TimeOut	{
+	"MFC04 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2045	MFC05TimeOut	{
+	"MFC05 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2046	MFC06TimeOut	{
+	"MFC06 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2047	MFC07TimeOut	{
+	"MFC07 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2048	MFC08TimeOut	{
+	"MFC08 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2049	MFC09TimeOut	{
+	"MFC09 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2050	MFC10TimeOut	{
+	"MFC10 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2051	MFC11TimeOut	{
+	"MFC11 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2052	MFC12TimeOut	{
+	"MFC12 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2053	MFC13TimeOut	{
+	"MFC13 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2054	MFC14TimeOut	{
+	"MFC14 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2055	MFC15TimeOut	{
+	"MFC15 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2056	MFC16TimeOut	{
+	"MFC16 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2057	MFC17TimeOut	{
+	"MFC17 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2058	MFC18TimeOut	{
+	"MFC18 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2059	MFC19TimeOut	{
+	"MFC19 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2060	MFC20TimeOut	{
+	"MFC20 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2061	MFC21TimeOut	{
+	"MFC21 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2062	MFC22TimeOut	{
+	"MFC22 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2063	MFC23TimeOut	{
+	"MFC23 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2064	MFC24TimeOut	{
+	"MFC24 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+2065	MFC25TimeOut	{
+	"MFC25 Set Time Out"
+	CLEAR	"Clear Operation"
+	}
+##############################################################
+2070	MFC01PrsHi	{
+	"MFC01 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2071	MFC02PrsHi	{
+	"MFC02 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2072	MFC03PrsHi	{
+	"MFC03 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2073	MFC04PrsHi	{
+	"MFC04 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2074	MFC05PrsHi	{
+	"MFC05 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2075	MFC06PrsHi	{
+	"MFC06 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2076	MFC07PrsHi	{
+	"MFC07 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2077	MFC08PrsHi	{
+	"MFC08 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2078	MFC09PrsHi	{
+	"MFC09 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2079	MFC10PrsHi	{
+	"MFC10 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2080	MFC11PrsHi	{
+	"MFC11 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2081	MFC12PrsHi	{
+	"MFC12 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2082	MFC13PrsHi	{
+	"MFC13 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2083	MFC14PrsHi	{
+	"MFC14 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2084	MFC15PrsHi	{
+	"MFC15 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2085	MFC16PrsHi	{
+	"MFC16 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2086	MFC17PrsHi	{
+	"MFC17 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2087	MFC18PrsHi	{
+	"MFC18 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2088	MFC19PrsHi	{
+	"MFC19 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2089	MFC20PrsHi	{
+	"MFC20 Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+2100	MFC01PrsLw	{
+	"MFC01 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2101	MFC02PrsLw	{
+	"MFC02 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2102	MFC03PrsLw	{
+	"MFC03 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2103	MFC04PrsLw	{
+	"MFC04 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2104	MFC05PrsLw	{
+	"MFC05 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2105	MFC06PrsLw	{
+	"MFC06 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2106	MFC07PrsLw	{
+	"MFC07 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2107	MFC08PrsLw	{
+	"MFC08 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2108	MFC09PrsLw	{
+	"MFC09 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2109	MFC10PrsLw	{
+	"MFC10 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2110	MFC11PrsLw	{
+	"MFC11 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2111	MFC12PrsLw	{
+	"MFC12 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2112	MFC13PrsLw	{
+	"MFC13 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2113	MFC14PrsLw	{
+	"MFC14 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2114	MFC15PrsLw	{
+	"MFC15 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2115	MFC16PrsLw	{
+	"MFC16 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2116	MFC17PrsLw	{
+	"MFC17 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2117	MFC18PrsLw	{
+	"MFC18 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2118	MFC19PrsLw	{
+	"MFC19 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2119	MFC20PrsLw	{
+	"MFC20 Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+2180	MFCVeri	{
+	"MFC Verification Failed : "
+	CLEAR	"Clear Operation"
+	}
+
+2181	MFCFlowTestFail	{
+	"MFC Flow Test Failed : "
+	CLEAR	"Clear Operation"
+	}
+
+2182	MFCHiTempVeri	{
+	"High Temp MFC Flow Fail : "
+	CLEAR	"Clear Operation"
+	}
+	
+2183	MFCINFOFail	{
+	"MFC Infomation is different : "
+	CLEAR	"Clear Operation"
+	}
+
+2184	MFCUpdateIOFail	{
+	"MFC Daignosis Fail to Update (Retry to Change PM Mode to Standby) "
+	CLEAR	"Clear Operation"
+	}

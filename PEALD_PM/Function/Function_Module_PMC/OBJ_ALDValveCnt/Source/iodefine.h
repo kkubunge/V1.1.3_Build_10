@@ -1,0 +1,111 @@
+#ifndef IODEFINE_H
+#define IODEFINE_H
+//------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------
+typedef enum {
+		IO_Driver_Loding,
+		
+		//... 2015.02.12 Fixed ALD Valve 8 EA
+		ALD97OpenCnAI,  
+		ALD98OpenCnAI,
+		ALD100OpenCnAI,
+		ALD101OpenCnAI,
+		ALD102OpenCnAI,
+		ALD105OpenCnAI,
+		ALD106OpenCnAI,
+		ALD108OpenCnAI,	
+		ALD109OpenCnAI,
+		ALD110OpenCnAI,
+		ALD11OpenCnAI,
+		ALD12OpenCnAI,
+		ALD17OpenCnAI,
+		//
+		ALD97CloseCnAI,
+		ALD98CloseCnAI,		
+		ALD100CloseCnAI,
+		ALD101CloseCnAI,
+		ALD102CloseCnAI,
+		ALD105CloseCnAI,	
+		ALD106CloseCnAI,
+		ALD108CloseCnAI,
+		ALD109CloseCnAI,
+		ALD110CloseCnAI,
+		ALD11CloseCnAI,
+		ALD12CloseCnAI,
+		ALD17CloseCnAI,
+		//
+		ALD97OpenCnAM,
+		ALD98OpenCnAM,
+		ALD100OpenCnAM,
+		ALD101OpenCnAM,
+		ALD102OpenCnAM,
+		ALD105OpenCnAM,
+		ALD106OpenCnAM,	
+		ALD108OpenCnAM,
+		ALD109OpenCnAM,
+		ALD110OpenCnAM,
+		ALD11OpenCnAM,
+		ALD12OpenCnAM,
+		ALD17OpenCnAM,
+		//
+		ALD97CloseCnAM,
+		ALD98CloseCnAM,	
+		ALD100CloseCnAM,	
+		ALD101CloseCnAM,
+		ALD102CloseCnAM,
+		ALD105CloseCnAM,
+		ALD106CloseCnAM,
+		ALD108CloseCnAM,
+		ALD109CloseCnAM,
+		ALD110CloseCnAM,
+		ALD11CloseCnAM,
+		ALD12CloseCnAM,
+		ALD17CloseCnAM,
+		//
+		ALD97VlvRstTime,
+		ALD98VlvRstTime,
+		ALD100VlvRstTime,
+		ALD101VlvRstTime,	
+		ALD102VlvRstTime,
+		ALD105VlvRstTime,	
+		ALD106VlvRstTime,		
+		ALD108VlvRstTime,		
+		ALD109VlvRstTime,
+		ALD110VlvRstTime,
+		ALD11VlvRstTime,
+		ALD12VlvRstTime,
+		ALD17VlvRstTime,
+		//
+		ALDResetTime01,		
+		ALDResetTime02,		
+		ALDResetTime03,	
+		ALDResetTime04,	
+		ALDResetTime05,		
+		ALDResetTime06,		
+		ALDResetTime07,		
+		ALDResetTime08,		
+		ALDResetTime09,		
+		ALDResetTime10,
+		//
+		ALDVlvRstCnt01,   	
+		ALDVlvRstCnt02,   	
+		ALDVlvRstCnt03,   	
+		ALDVlvRstCnt04,   	
+		ALDVlvRstCnt05,   
+		ALDVlvRstCnt06,   	
+		ALDVlvRstCnt07,   	
+		ALDVlvRstCnt08,   	
+		ALDVlvRstCnt09,   	
+		ALDVlvRstCnt10,
+	
+		ALDResetCount,  
+
+		PRO_RunStsDM,
+
+} IOPointIndex;
+//------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------
+#endif

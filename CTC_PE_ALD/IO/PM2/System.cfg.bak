@@ -1,0 +1,3807 @@
+$$$ Begin  PM2
+
+	$DRV	PM2
+
+	#---------------------------------------------------------------
+	$$$ Digital
+		RefillSrcNoDM		-	$DRV	1	$DRV
+		RefillStatusDM		-	$DRV	1	$DRV
+		SW_ModuleFailDM		-	$DRV	1	$DRV
+		ScreenCtrlDM		-	$DRV	1	$DRV
+		ZMT_HomeSnsDI		-	$DRV	1
+		ZMT2_HomeSnsDI		-	$DRV	1
+		CTC_CommStatus		-	$DRV	1	$DRV	
+		PlotforProcRunDM	-	$DRV	1	$DRV	
+
+	#---------------------------------------------------------------
+	$$$ Analog
+		PRO_MainStpTm1AM	-	$DRV	1
+		PRO_MainStpTm2AM	-	$DRV	1
+		PRO_MainStpTm3AM	-	$DRV	1
+		PRO_MainStpTm4AM	-	$DRV	1
+		PRO_MainStpTm5AM	-	$DRV	1
+		PRO_MainStpNo1AM	-	$DRV	1
+		PRO_MainStpNo2AM	-	$DRV	1
+		PRO_MainStpNo3AM	-	$DRV	1
+		PRO_MainStpNo4AM	-	$DRV	1
+		PRO_MainStpNo5AM	-	$DRV	1
+	#---------------------------------------------------------------
+
+	$$$ Analog
+		PLC_CurCycAI		-	$DRV	1
+		PrsGauge1AI		-	$DRV	1
+		CanBoxExhaustAI		-	$DRV	1
+		ExhaustAI		-	$DRV	1
+
+	$$$ Digital
+		CommStatus		-	$DRV	- 0 - - 1 $DRV	- 0 - -
+		AlarmStatus		-	$DRV	1
+
+	#--------------------------
+	$$$ Digital
+		Wafer_Source		-	$DRV	1	$DRV
+		Wafer_Source2		-	$DRV	1	$DRV
+		Wafer_Status		-	$DRV	1	$DRV
+		Wafer_Status2		-	$DRV	1	$DRV
+
+		# For preventive screen
+		PRO_ComptDM		-	$DRV	1	$DRV
+		PRO_ComptDM1		-	$DRV	1	$DRV
+		PRO_ComptDM2		-	$DRV	1	$DRV
+		PRO_ComptDM3		-	$DRV	1	$DRV
+		PRO_ComptDM4		-	$DRV	1	$DRV
+		PRO_ComptDM5		-	$DRV	1	$DRV
+		PRO_ComptDM6		-	$DRV	1	$DRV
+		PRO_ComptDM7		-	$DRV	1	$DRV
+		PRO_ComptDM8		-	$DRV	1	$DRV
+		PRO_ComptDM9		-	$DRV	1	$DRV
+		PRO_RunStsDM		-	$DRV	1	$DRV
+		PRO_ProgressDM		-	$DRV	1	$DRV
+		PRO_PreTreatDM		-	$DRV	1	$DRV
+		PRVD_DRYCWfrCnt		-	$DRV	1	$DRV
+		PRVD_WETCWfrCnt		-	$DRV	1	$DRV
+		PRO_PMStepSyncDM	-	$DRV	1	$DRV
+		PRO_PMStepWaitDM	-	$DRV	1	$DRV
+
+		# 2012.11.13 PM Auto Leak Check
+		PRO_PurgeRcpStsDM	-	$DRV	1	$DRV
+		PRO_LotPreSkipDM	-	$DRV	1
+		PRO_StopCtrlDM		-	$DRV	1	$DRV
+
+	$$$ Analog
+
+		# For preventive screen
+		PRO_PrvVlvCycAM		-	$DRV	1	$DRV
+		PRO_PrvSrcFdAM		-	$DRV	1	$DRV
+		PRO_CurrTimeAM		-	$DRV	1	$DRV
+		PRO_TotalTimeAM		-	$DRV	1	$DRV
+
+		# Step Time Ãß°¡ 2005.05.10
+		PRO_StepTimeAM		-	$DRV	1
+		PRO_StpTotTmAM		-	$DRV	1
+		PRO_StpCurTmAM		-	$DRV	1
+		PRO_CurIdleTimeAM	-	$DRV	1
+
+		PRVA_DRYCSrcFeed	-	$DRV	1	$DRV
+		PRVA_DRYCThick		-	$DRV	1	$DRV
+		PRO_PrvThickAM		-	$DRV	1	$DRV
+
+		ALD97OpenCnAM		-	$DRV	1	$DRV
+		ALD98OpenCnAM		-	$DRV	1	$DRV
+		ALD100OpenCnAM		-	$DRV	1	$DRV
+		ALD101OpenCnAM		-	$DRV	1	$DRV
+		ALD102OpenCnAM		-	$DRV	1	$DRV
+		ALD105OpenCnAM		-	$DRV	1	$DRV
+		ALD106OpenCnAM		-	$DRV	1	$DRV
+		ALD108OpenCnAM		-	$DRV	1	$DRV
+		ALD109OpenCnAM		-	$DRV	1	$DRV
+		ALD110OpenCnAM		-	$DRV	1	$DRV
+
+		# 2015.07.09 Add Canister ALD Valve
+		ALD11OpenCnAM		-	$DRV	1	$DRV
+		ALD12OpenCnAM		-	$DRV	1	$DRV
+		ALD17OpenCnAM		-	$DRV	1	$DRV
+
+		ALD97CloseCnAM		-	$DRV	1	$DRV
+		ALD98CloseCnAM		-	$DRV	1	$DRV
+		ALD100CloseCnAM		-	$DRV	1	$DRV
+		ALD101CloseCnAM		-	$DRV	1	$DRV
+		ALD102CloseCnAM		-	$DRV	1	$DRV
+		ALD105CloseCnAM		-	$DRV	1	$DRV
+		ALD106CloseCnAM		-	$DRV	1	$DRV
+		ALD108CloseCnAM		-	$DRV	1	$DRV
+		ALD109CloseCnAM		-	$DRV	1	$DRV
+		ALD110CloseCnAM		-	$DRV	1	$DRV
+
+		# 2015.07.09 Add Canister ALD Valve
+		ALD11CloseCnAM		-	$DRV	1	$DRV
+		ALD12CloseCnAM		-	$DRV	1	$DRV
+		ALD17CloseCnAM		-	$DRV	1	$DRV
+
+	$$$ String
+		vPROC.Mesg		$DRV	-	1
+
+################################################################################
+## EthernetIP/Safety PLC MAHA-DPT
+	$$$	Digital
+		CRSReady		-	$DRV	1
+		CRSAlarm		-	$DRV	1
+		CRSBulkEmpty		-	$DRV	1
+		SrcLvHighLmtDI		-	$DRV	1
+		SrcLvHighDI		-	$DRV	1
+		SrcLvLowDI		-	$DRV	1
+		SrcLvLowLmtDI		-	$DRV	1
+		MainPCWValveDO		-	$DRV	1	$DRV
+		HTE_SrtStpDI		-	$DRV	1
+		HTE_CHFailDI		-	$DRV	1
+		HTE_CHWrnDI		-	$DRV	1
+		HtExcRunDI		-	$DRV	1
+		HtExcFailDI		-	$DRV	1
+		HTE_TempWrnDI		-	$DRV	1
+		HTE_SrtStpDO		-	$DRV	1	$DRV
+		PumplnCVGIsoVlvDO	-	$DRV	1	$DRV
+		ProcBGIsoVlvDO		-	$DRV	1	$DRV
+		VacSwIsoVlvDO		-	$DRV	1	$DRV
+		HTE_HiLvInWrnDI		-	$DRV	1
+		HTE_MiLvOffWrnDI	-	$DRV	1
+		HTE_TempOkDI		-	$DRV	1
+
+		# Used by Macro Maint PM Function
+		PLCInkUnlockStsDO	-	$DRV	1	$DRV
+		PLCIntRemDO		-	$DRV	1	$DRV
+		PLCInkUnlockStsDI	-	$DRV	1
+		PLCInkRvrStsDI		-	$DRV	1
+
+		DN_SetSvcCode_DO	-	$DRV	1	$DRV
+		DN_SetClsID_DO		-	$DRV	1	$DRV
+		DN_SetInstID_DO		-	$DRV	1	$DRV
+		DN_SendByte_DO		-	$DRV	1	$DRV
+		DN_SendPacket_DO	-	$DRV	1	$DRV
+		DN_GetMessage_DO	-	$DRV	1	$DRV
+
+		DN_SMCmd_DO		-	$DRV	1	$DRV
+		DN_SetSMData_DO		-	$DRV	1	$DRV
+
+		DN_ReadSetMacID_DI	-	$DRV	1
+		DN_ReadSetSVCCode_DI	-	$DRV	1
+		DN_ReadSetClsID_DI	-	$DRV	1
+		DN_ReadSetInstID_DI	-	$DRV	1
+		DN_ReadGetMacID_DI	-	$DRV	1
+		DN_ReadGetSvcCode_DI	-	$DRV	1
+		DN_ReadGetClsID_DI	-	$DRV	1
+		DN_ReadGetInstID_DI	-	$DRV	1
+		DN_ReadPktSize_DI	-	$DRV	1
+		DN_ReadDataSize_DI	-	$DRV	1
+		DN_ReadByte_DI		-	$DRV	1
+
+		ChmPrssDI1		-	$DRV	1
+		RPGGateVlvPosDI		-	$DRV	1
+		RPGGateVlv2PosDI	-	$DRV	1
+		TopLidSwitchDI		-	$DRV	1
+		RPGPlasmaDetectDI	-	$DRV	1
+		RPGReadyDI		-	$DRV	1
+		RPGPlasmaACOKDI		-	$DRV	1
+		PLCAlarmResetSwitch	-	$DRV	1
+
+		StgHtr1OvTmpAlarmDI	-	$DRV	1
+		StgHtr2OvTmpAlarmDI	-	$DRV	1
+		ExhaustDI		-	$DRV	1
+		RoughValveDI		-	$DRV	1
+		AirSolVlvDI		-	$DRV	1
+		WLeakFrmBtmDI		-	$DRV	1
+
+		DPRunDI			-	$DRV	1
+		DPWarningDI		-	$DRV	1
+		DPAlarmDI		-	$DRV	1
+
+
+		ScrberAlarmDI		-	$DRV	1
+
+
+		ACVPrcPosDI		-	$DRV	1
+		ACVClnPosDI		-	$DRV	1
+
+		TMIsoVlvClosedDI	-	$DRV	1
+		TMIsoVlv2ClosedDI	-	$DRV	1
+
+		WaferDI			-	$DRV	1	$DRV
+		Wafer2DI		-	$DRV	1	$DRV
+
+		VRCP_GbIntlckDI		-	$DRV	1
+		PLC_GbIntlckDI		-	$DRV	1
+		VRCP_AbortedDI		-	$DRV	1
+		VRCP_PauseDI		-	$DRV	1
+		VRCP_RunningDI		-	$DRV	1
+		VRCP_StartErrDI		-	$DRV	1
+		VRCP_DataErrDI		-	$DRV	1
+		VRCP_DnLdErr1DI		-	$DRV	1
+		VRCP_DnLdErr2DI		-	$DRV	1
+		VRCP_PMReadyDI		-	$DRV	1
+
+		# 2015.07.09 Add Canister ALD Valve
+		V11ValveDI		-	$DRV	1
+		V12ValveDI		-	$DRV	1
+		V17ValveDI		-	$DRV	1
+		V97ValveDI		-	$DRV	1
+		V98ValveDI		-	$DRV	1
+		V100ValveDI		-	$DRV	1
+		V101ValveDI		-	$DRV	1
+		V102ValveDI		-	$DRV	1
+		V105ValveDI		-	$DRV	1
+		V106ValveDI		-	$DRV	1
+		V108ValveDI		-	$DRV	1
+		V109ValveDI		-	$DRV	1
+		V110ValveDI		-	$DRV	1
+
+		FastRoughVlvDO		-	$DRV	1	$DRV
+		RelfIsoVlvDO		-	$DRV	1	$DRV
+		MnOTAlrmResetDO		-	$DRV	1	$DRV
+		PLCAlarmLEDDO		-	$DRV	1	$DRV
+		PLCRunLECDO		-	$DRV	1	$DRV
+		StgHtr1RelayDI		-	$DRV	1
+		StgHtr2RelayDI		-	$DRV	1
+		GLHtrRelayDI		-	$DRV	1
+		GLHtrRelay2DI		-	$DRV	1
+		StgHtr1RelayDO		-	$DRV	1	$DRV
+		StgHtr2RelayDO		-	$DRV	1	$DRV
+		GLHtrRelayDO		-	$DRV	1	$DRV
+		GLHtrRelay2DO		-	$DRV	1	$DRV
+		V1ValveDO		-	$DRV	1	$DRV
+		V2ValveDO		-	$DRV	1	$DRV
+		V3ValveDO		-	$DRV	1	$DRV
+		V4ValveDO		-	$DRV	1	$DRV
+		V5ValveDO		-	$DRV	1	$DRV
+		V6ValveDO		-	$DRV	1	$DRV
+		V7ValveDO		-	$DRV	1	$DRV
+		V8ValveDO		-	$DRV	1	$DRV
+		V9ValveDO		-	$DRV	1	$DRV
+		V10ValveDO		-	$DRV	1	$DRV
+		V11ValveDO		-	$DRV	1	$DRV
+		V12ValveDO		-	$DRV	1	$DRV
+		V13ValveDO		-	$DRV	1	$DRV
+		V14ValveDO		-	$DRV	1	$DRV
+		V15ValveDO		-	$DRV	1	$DRV
+		V16ValveDO		-	$DRV	1	$DRV
+		V17ValveDO		-	$DRV	1	$DRV
+		V18ValveDO		-	$DRV	1	$DRV
+		V19ValveDO		-	$DRV	1	$DRV
+		V20ValveDO		-	$DRV	1	$DRV
+		V21ValveDO		-	$DRV	1	$DRV
+		V22ValveDO		-	$DRV	1	$DRV
+		V23ValveDO		-	$DRV	1	$DRV
+		V24ValveDO		-	$DRV	1	$DRV
+		V25ValveDO		-	$DRV	1	$DRV
+		V26ValveDO		-	$DRV	1	$DRV
+		V27ValveDO		-	$DRV	1	$DRV
+		V28ValveDO		-	$DRV	1	$DRV
+		V29ValveDO		-	$DRV	1	$DRV
+		V30ValveDO		-	$DRV	1	$DRV
+		V31ValveDO		-	$DRV	1	$DRV
+		V32ValveDO		-	$DRV	1	$DRV
+		V33ValveDO		-	$DRV	1	$DRV
+		V34ValveDO		-	$DRV	1	$DRV
+		V35ValveDO		-	$DRV	1	$DRV
+		V36ValveDO		-	$DRV	1	$DRV
+		V37ValveDO		-	$DRV	1	$DRV
+		V38ValveDO		-	$DRV	1	$DRV
+		V39ValveDO		-	$DRV	1	$DRV
+		V40ValveDO		-	$DRV	1	$DRV
+		V41ValveDO		-	$DRV	1	$DRV
+		V42ValveDO		-	$DRV	1	$DRV
+		V43ValveDO		-	$DRV	1	$DRV
+		V44ValveDO		-	$DRV	1	$DRV
+		V45ValveDO		-	$DRV	1	$DRV
+		V46ValveDO		-	$DRV	1	$DRV
+		V47ValveDO		-	$DRV	1	$DRV
+		V48ValveDO		-	$DRV	1	$DRV
+		V49ValveDO		-	$DRV	1	$DRV
+		V50ValveDO		-	$DRV	1	$DRV
+		V51ValveDO		-	$DRV	1	$DRV
+		V52ValveDO		-	$DRV	1	$DRV
+		V53ValveDO		-	$DRV	1	$DRV
+		V54ValveDO		-	$DRV	1	$DRV
+		V55ValveDO		-	$DRV	1	$DRV
+		V56ValveDO		-	$DRV	1	$DRV
+		V57ValveDO		-	$DRV	1	$DRV
+		V58ValveDO		-	$DRV	1	$DRV
+		V59ValveDO		-	$DRV	1	$DRV
+		V60ValveDO		-	$DRV	1	$DRV
+		V61ValveDO		-	$DRV	1	$DRV
+		V62ValveDO		-	$DRV	1	$DRV
+		V63ValveDO		-	$DRV	1	$DRV
+		V64ValveDO		-	$DRV	1	$DRV
+		V65ValveDO		-	$DRV	1	$DRV
+		V66ValveDO		-	$DRV	1	$DRV
+		V67ValveDO		-	$DRV	1	$DRV
+		V68ValveDO		-	$DRV	1	$DRV
+		V69ValveDO		-	$DRV	1	$DRV
+		V70ValveDO		-	$DRV	1	$DRV
+		V71ValveDO		-	$DRV	1	$DRV
+		V72ValveDO		-	$DRV	1	$DRV
+		V73ValveDO		-	$DRV	1	$DRV
+		V74ValveDO		-	$DRV	1	$DRV
+		V75ValveDO		-	$DRV	1	$DRV
+		V76ValveDO		-	$DRV	1	$DRV
+		V77ValveDO		-	$DRV	1	$DRV
+		V78ValveDO		-	$DRV	1	$DRV
+		V79ValveDO		-	$DRV	1	$DRV
+		V80ValveDO		-	$DRV	1	$DRV
+
+		V97ValveDO		-	$DRV	1	$DRV
+		V98ValveDO		-	$DRV	1	$DRV
+		V99ValveDO		-	$DRV	1	$DRV
+		V100ValveDO		-	$DRV	1	$DRV
+		V101ValveDO		-	$DRV	1	$DRV
+		V102ValveDO		-	$DRV	1	$DRV
+		V103ValveDO		-	$DRV	1	$DRV
+		V104ValveDO		-	$DRV	1	$DRV
+		V105ValveDO		-	$DRV	1	$DRV
+		V106ValveDO		-	$DRV	1	$DRV
+		V107ValveDO		-	$DRV	1	$DRV
+		V108ValveDO		-	$DRV	1	$DRV
+		V109ValveDO		-	$DRV	1	$DRV
+		V110ValveDO		-	$DRV	1	$DRV
+		V111ValveDO		-	$DRV	1	$DRV
+		V112ValveDO		-	$DRV	1	$DRV
+		RFPwOnDO		-	$DRV	1	$DRV
+		RFPwOn2DO		-	$DRV	1	$DRV
+
+		RPGPwOnDO		-	$DRV	1	$DRV
+
+		MFC01PgDO		-	$DRV	1	$DRV
+		MFC02PgDO		-	$DRV	1	$DRV
+		MFC03PgDO		-	$DRV	1	$DRV
+		MFC04PgDO		-	$DRV	1	$DRV
+		MFC05PgDO		-	$DRV	1	$DRV
+		MFC06PgDO		-	$DRV	1	$DRV
+		MFC07PgDO		-	$DRV	1	$DRV
+		MFC08PgDO		-	$DRV	1	$DRV
+		MFC09PgDO		-	$DRV	1	$DRV
+		MFC10PgDO		-	$DRV	1	$DRV
+		MFC11PgDO		-	$DRV	1	$DRV
+		MFC12PgDO		-	$DRV	1	$DRV
+		MFC13PgDO		-	$DRV	1	$DRV
+		MFC14PgDO		-	$DRV	1	$DRV
+		MFC15PgDO		-	$DRV	1	$DRV
+		MFC16PgDO		-	$DRV	1	$DRV
+		MFC17PgDO		-	$DRV	1	$DRV
+		MFC18PgDO		-	$DRV	1	$DRV
+		MFC19PgDO		-	$DRV	1	$DRV
+		MFC20PgDO		-	$DRV	1	$DRV
+
+		DPDO			-	$DRV	1	$DRV
+		DPRemoteDO		-	$DRV	1	$DRV
+		ACVCtrlDO		-	$DRV	1	$DRV
+		VRCP_StaStpDO		-	$DRV	1	$DRV
+		VRCP_RstIntlckDO	-	$DRV	1	$DRV
+		PLC_RstIntLckDO		-	$DRV	1	$DRV
+		VRCP_HeartBeatDO	-	$DRV	1	$DRV
+		VRCP_CtrlMethDO		-	$DRV	1	$DRV
+		VRCP_ResumeDO		-	$DRV	1	$DRV
+		VRCP_GoNextDO		-	$DRV	1	$DRV
+
+
+		SgnTwRDO		-	$DRV	1	$DRV
+		SgnTwGDO		-	$DRV	1	$DRV
+		SgnTwYDO		-	$DRV	1	$DRV
+		SgnTwBDO		-	$DRV	1	$DRV
+		SgnTwBuzDO		-	$DRV	1	$DRV
+
+		CVGIsoVlvDO		-	$DRV	1	$DRV
+		PgSwIsoVlvDO		-	$DRV	1	$DRV
+		BarIsoVlvDO		-	$DRV	1	$DRV
+		
+		AirCoolingVlv		-	$DRV	1	$DRV
+
+	$$$	Analog
+		ChuckCoolingIn1Prs	-	$DRV	1	
+		ChuckCoolingIn2Prs	-	$DRV	1
+		ChuckCoolingOut1Prs	-	$DRV	1
+		ChuckCoolingOut2Prs	-	$DRV	1
+		
+		HTE_ReadTempAI		-	$DRV	1
+		HTE_FlowAI		-	$DRV	1
+		HTE_PressureAI		-	$DRV	1
+		HTE_ResistivityAI	-	$DRV	1
+		HtExcSetTempAO		-	$DRV	1	$DRV
+		HTE_SetTempAO		-	$DRV	1	$DRV
+		ChmPrsAI		-	$DRV	1
+
+		MFC01PressAI		-	$DRV	1
+		MFC02PressAI		-	$DRV	1
+		MFC03PressAI		-	$DRV	1
+		MFC04PressAI		-	$DRV	1
+		MFC05PressAI		-	$DRV	1
+		MFC06PressAI		-	$DRV	1
+		MFC07PressAI		-	$DRV	1
+		MFC08PressAI		-	$DRV	1
+		MFC09PressAI		-	$DRV	1
+
+		MFC01TempAI		-	$DRV	1
+		MFC02TempAI		-	$DRV	1
+		MFC03TempAI		-	$DRV	1
+		MFC04TempAI		-	$DRV	1
+		MFC05TempAI		-	$DRV	1
+		MFC06TempAI		-	$DRV	1
+		MFC07TempAI		-	$DRV	1
+		MFC08TempAI		-	$DRV	1
+		MFC09TempAI		-	$DRV	1
+
+		PumpPrsAI		-	$DRV	1
+
+		StgHtr1CurrAI		-	$DRV	1
+		StgHtr1VoltAI		-	$DRV	1
+		StgHtr2CurrAI		-	$DRV	1
+		StgHtr2VoltAI		-	$DRV	1
+
+		MFC01FlwAI		-	$DRV	1
+		MFC02FlwAI		-	$DRV	1
+		MFC03FlwAI		-	$DRV	1
+		MFC04FlwAI		-	$DRV	1
+		MFC05FlwAI		-	$DRV	1
+		MFC06FlwAI		-	$DRV	1
+		MFC07FlwAI		-	$DRV	1
+		MFC08FlwAI		-	$DRV	1
+		MFC09FlwAI		-	$DRV	1
+
+		PLC_RCPTotTMAI		-	$DRV	1
+		PLC_RCPRunTMAI		-	$DRV	1
+		PLC_RCPTgTMAI		-	$DRV	1
+		PLC_CurStepAI		-	$DRV	1
+
+		VRCP_CycCntAI		-	$DRV	1
+		VRCP_TgCycAI		-	$DRV	1
+		VRCP_LStpCntAI		-	$DRV	1
+		VRCP_LTgStpAI		-	$DRV	1
+		VRCP_StpCntAI		-	$DRV	1
+		VRCP_TgStpAI		-	$DRV	1
+
+		MNLoadPosAI		-	$DRV	1
+		MNTunePosAI		-	$DRV	1
+
+		RFLoadPowAI		-	$DRV	1
+		RFLoadPow2AI		-	$DRV	1
+		RFRefPowAI		-	$DRV	1
+		RFRefPow2AI		-	$DRV	1
+		RFSetPoint2AO		-	$DRV	1 	$DRV
+		RPGRefPowAI		-	$DRV	1
+		RPGLoadPowAI		-	$DRV	1
+		HtExcSupTempAI		-	$DRV	1
+		HtExcRetTempAI		-	$DRV	1
+
+		SH1HeatExFlwAI		-	$DRV	1
+		SH2HeatExFlwAI		-	$DRV	1
+		Chuck1HeatExFlwAI	-	$DRV	1		
+		Chuck2HeatExFlwAI	-	$DRV	1
+		ChmHeatExFlwAI		-	$DRV	1
+
+		MNLoadPresetAO		-	$DRV	1 	$DRV
+		MNTunePresetAO		-	$DRV	1	$DRV
+		RFSetPointAO		-	$DRV	1	$DRV
+
+		MFC01StPtAO		-	$DRV	1	$DRV
+		MFC02StPtAO		-	$DRV	1	$DRV
+		MFC03StPtAO		-	$DRV	1	$DRV
+		MFC04StPtAO		-	$DRV	1	$DRV
+		MFC05StPtAO		-	$DRV	1	$DRV
+		MFC06StPtAO		-	$DRV	1	$DRV
+		MFC07StPtAO		-	$DRV	1	$DRV
+		MFC08StPtAO		-	$DRV	1	$DRV
+		MFC09StPtAO		-	$DRV	1	$DRV
+
+## RF Generator 1, 2 for Ethernet Type
+
+#2015.10.15 Add RF Filter
+	$$$	Digital
+		RF1OneCycCntDM  	-	$DRV	1
+		RF2OneCycCntDM		-	$DRV	1
+		RF1TotCycCntDM  	-	$DRV	1
+		RF2TotCycCntDM		-	$DRV	1
+#2015.10.15 End
+		
+	$$$	Analog
+		RF1LoadPowAI		-	$DRV	1
+		RF1RefPowAI		-	$DRV	1
+		RF1LoadCntAIO		-	$DRV	1
+		RF1ReflCntAI		-	$DRV	1
+		RF1FrequencyAI		-	$DRV	1
+
+		RF1LoadPowAIL		-	$DRV	1
+		RF1RefPowAIL		-	$DRV	1
+		RF1LoadCntAIL		-	$DRV	1
+		RF1ReflCntAIL		-	$DRV	1
+		RF1FrequencyAIL		-	$DRV	1
+
+		RF2LoadPowAI		-	$DRV	1
+		RF2RefPowAI		-	$DRV	1
+		RF2LoadCntAIO		-	$DRV	1
+		RF2ReflCntAI		-	$DRV	1
+		RF2FrequencyAI		-	$DRV	1
+
+		RF2LoadPowAIL		-	$DRV	1
+		RF2RefPowAIL		-	$DRV	1
+		RF2LoadCntAIL		-	$DRV	1
+		RF2ReflCntAIL		-	$DRV	1
+		RF2FrequencyAIL		-	$DRV	1
+
+		RF1FreqMaxAI		-	$DRV	1
+		RF1FreqMinAI		-	$DRV	1
+		RF1FreqAvrAI		-	$DRV	1
+              
+		RF1RefPwMaxAI		-	$DRV	1	
+		RF1RefPwMinAI		-	$DRV	1
+		RF1RefPwAvrAI		-	$DRV	1
+              
+		RF1LoadPwMaxAI		-	$DRV	1
+		RF1LoadPwMinAI		-	$DRV	1
+		RF1LoadPwAvrAI		-	$DRV	1
+
+		RF2FreqMaxAI		-	$DRV	1	
+		RF2FreqMinAI		-	$DRV	1
+		RF2FreqAvrAI		-	$DRV	1
+              
+		RF2RefPwMaxAI		-	$DRV	1	
+		RF2RefPwMinAI		-	$DRV	1
+		RF2RefPwAvrAI		-	$DRV	1
+              
+		RF2LoadPwMaxAI		-	$DRV	1
+		RF2LoadPwMinAI		-	$DRV	1
+		RF2LoadPwAvrAI		-	$DRV	1
+
+#2015.10.15 Add RF Filter
+		RF1LoadMaxMinAI		-	$DRV	1
+		RF1RefMaxMinAI		-	$DRV	1
+		RF1FreqMaxMinAI		-	$DRV	1
+
+		RF2LoadMaxMinAI		-	$DRV	1
+		RF2RefMaxMinAI		-	$DRV	1
+		RF2FreqMaxMinAI		-	$DRV	1
+#2015.10.15
+		
+## WT300_Heater
+	$$$ Digital
+
+		HT_CommStsDI		-	$DRV	1
+		HT01_AlrmStsDI		-	$DRV	1
+		HT01_AlrmEnDIO		-	$DRV	1	$DRV
+		HT01_CtrlMdDIO		-	$DRV	1	$DRV
+		HT01_OnOffDIO		-	$DRV	1	$DRV
+
+		HT02_AlrmStsDI		-	$DRV	1
+		HT02_AlrmEnDIO		-	$DRV	1	$DRV
+		HT02_CtrlMdDIO		-	$DRV	1	$DRV
+		HT02_OnOffDIO		-	$DRV	1	$DRV
+
+		HT03_AlrmStsDI		-	$DRV	1
+		HT03_AlrmEnDIO		-	$DRV	1	$DRV
+		HT03_CtrlMdDIO		-	$DRV	1	$DRV
+		HT03_OnOffDIO		-	$DRV	1	$DRV
+
+		HT04_AlrmStsDI		-	$DRV	1
+		HT04_AlrmEnDIO		-	$DRV	1	$DRV
+		HT04_CtrlMdDIO		-	$DRV	1	$DRV
+		HT04_OnOffDIO		-	$DRV	1	$DRV
+
+		HT05_AlrmStsDI		-	$DRV	1
+		HT05_AlrmEnDIO		-	$DRV	1	$DRV
+		HT05_CtrlMdDIO		-	$DRV	1	$DRV
+		HT05_OnOffDIO		-	$DRV	1	$DRV
+
+		HT06_AlrmStsDI		-	$DRV	1
+		HT06_AlrmEnDIO		-	$DRV	1	$DRV
+		HT06_CtrlMdDIO		-	$DRV	1	$DRV
+		HT06_OnOffDIO		-	$DRV	1	$DRV
+
+		HT07_AlrmStsDI		-	$DRV	1
+		HT07_AlrmEnDIO		-	$DRV	1	$DRV
+		HT07_CtrlMdDIO		-	$DRV	1	$DRV
+		HT07_OnOffDIO		-	$DRV	1	$DRV
+
+		HT08_AlrmStsDI		-	$DRV	1
+		HT08_AlrmEnDIO		-	$DRV	1	$DRV
+		HT08_CtrlMdDIO		-	$DRV	1	$DRV
+		HT08_OnOffDIO		-	$DRV	1	$DRV
+
+		HT09_AlrmStsDI		-	$DRV	1
+		HT09_AlrmEnDIO		-	$DRV	1	$DRV
+		HT09_CtrlMdDIO		-	$DRV	1	$DRV
+		HT09_OnOffDIO		-	$DRV	1	$DRV
+
+		HT10_AlrmStsDI		-	$DRV	1
+		HT10_AlrmEnDIO		-	$DRV	1	$DRV
+		HT10_CtrlMdDIO		-	$DRV	1	$DRV
+		HT10_OnOffDIO		-	$DRV	1	$DRV
+
+		HT11_AlrmStsDI		-	$DRV	1
+		HT11_AlrmEnDIO		-	$DRV	1	$DRV
+		HT11_CtrlMdDIO		-	$DRV	1	$DRV
+		HT11_OnOffDIO		-	$DRV	1	$DRV
+
+		HT12_AlrmStsDI		-	$DRV	1
+		HT12_AlrmEnDIO		-	$DRV	1	$DRV
+		HT12_CtrlMdDIO		-	$DRV	1	$DRV
+		HT12_OnOffDIO		-	$DRV	1	$DRV
+
+		HT13_AlrmStsDI		-	$DRV	1
+		HT13_AlrmEnDIO		-	$DRV	1	$DRV
+		HT13_CtrlMdDIO		-	$DRV	1	$DRV
+		HT13_OnOffDIO		-	$DRV	1	$DRV
+
+		HT14_AlrmStsDI		-	$DRV	1
+		HT14_AlrmEnDIO		-	$DRV	1	$DRV
+		HT14_CtrlMdDIO		-	$DRV	1	$DRV
+		HT14_OnOffDIO		-	$DRV	1	$DRV
+
+		HT15_AlrmStsDI		-	$DRV	1
+		HT15_AlrmEnDIO		-	$DRV	1	$DRV
+		HT15_CtrlMdDIO		-	$DRV	1	$DRV
+		HT15_OnOffDIO		-	$DRV	1	$DRV
+
+		HT16_AlrmStsDI		-	$DRV	1
+		HT16_AlrmEnDIO		-	$DRV	1	$DRV
+		HT16_CtrlMdDIO		-	$DRV	1	$DRV
+		HT16_OnOffDIO		-	$DRV	1	$DRV
+
+		HT17_AlrmStsDI		-	$DRV	1
+		HT17_AlrmEnDIO		-	$DRV	1	$DRV
+		HT17_CtrlMdDIO		-	$DRV	1	$DRV
+		HT17_OnOffDIO		-	$DRV	1	$DRV
+
+		HT18_AlrmStsDI		-	$DRV	1
+		HT18_AlrmEnDIO		-	$DRV	1	$DRV
+		HT18_CtrlMdDIO		-	$DRV	1	$DRV
+		HT18_OnOffDIO		-	$DRV	1	$DRV
+
+		HT19_AlrmStsDI		-	$DRV	1
+		HT19_AlrmEnDIO		-	$DRV	1	$DRV
+		HT19_CtrlMdDIO		-	$DRV	1	$DRV
+		HT19_OnOffDIO		-	$DRV	1	$DRV
+
+		HT20_AlrmStsDI		-	$DRV	1
+		HT20_AlrmEnDIO		-	$DRV	1	$DRV
+		HT20_CtrlMdDIO		-	$DRV	1	$DRV
+		HT20_OnOffDIO		-	$DRV	1	$DRV
+
+		HT21_AlrmStsDI		-	$DRV	1
+		HT21_AlrmEnDIO		-	$DRV	1	$DRV
+		HT21_CtrlMdDIO		-	$DRV	1	$DRV
+		HT21_OnOffDIO		-	$DRV	1	$DRV
+
+		HT22_AlrmStsDI		-	$DRV	1
+		HT22_AlrmEnDIO		-	$DRV	1	$DRV
+		HT22_CtrlMdDIO		-	$DRV	1	$DRV
+		HT22_OnOffDIO		-	$DRV	1	$DRV
+
+		HT23_AlrmStsDI		-	$DRV	1
+		HT23_AlrmEnDIO		-	$DRV	1	$DRV
+		HT23_CtrlMdDIO		-	$DRV	1	$DRV
+		HT23_OnOffDIO		-	$DRV	1	$DRV
+
+		HT24_AlrmStsDI		-	$DRV	1
+		HT24_AlrmEnDIO		-	$DRV	1	$DRV
+		HT24_CtrlMdDIO		-	$DRV	1	$DRV
+		HT24_OnOffDIO		-	$DRV	1	$DRV
+
+		HT25_AlrmStsDI		-	$DRV	1
+		HT25_AlrmEnDIO		-	$DRV	1	$DRV
+		HT25_CtrlMdDIO		-	$DRV	1	$DRV
+		HT25_OnOffDIO		-	$DRV	1	$DRV
+
+		HT26_AlrmStsDI		-	$DRV	1
+		HT26_AlrmEnDIO		-	$DRV	1	$DRV
+		HT26_CtrlMdDIO		-	$DRV	1	$DRV
+		HT26_OnOffDIO		-	$DRV	1	$DRV
+
+		HT27_AlrmStsDI		-	$DRV	1
+		HT27_AlrmEnDIO		-	$DRV	1	$DRV
+		HT27_CtrlMdDIO		-	$DRV	1	$DRV
+		HT27_OnOffDIO		-	$DRV	1	$DRV
+
+		HT28_AlrmStsDI		-	$DRV	1
+		HT28_AlrmEnDIO		-	$DRV	1	$DRV
+		HT28_CtrlMdDIO		-	$DRV	1	$DRV
+		HT28_OnOffDIO		-	$DRV	1	$DRV
+
+		HT29_AlrmStsDI		-	$DRV	1
+		HT29_AlrmEnDIO		-	$DRV	1	$DRV
+		HT29_CtrlMdDIO		-	$DRV	1	$DRV
+		HT29_OnOffDIO		-	$DRV	1	$DRV
+
+		HT30_AlrmStsDI		-	$DRV	1
+		HT30_AlrmEnDIO		-	$DRV	1	$DRV
+		HT30_CtrlMdDIO		-	$DRV	1	$DRV
+		HT30_OnOffDIO		-	$DRV	1	$DRV
+
+		HT31_AlrmStsDI		-	$DRV	1
+		HT31_AlrmEnDIO		-	$DRV	1	$DRV
+		HT31_CtrlMdDIO		-	$DRV	1	$DRV
+		HT31_OnOffDIO		-	$DRV	1	$DRV
+
+		HT32_AlrmStsDI		-	$DRV	1
+		HT32_AlrmEnDIO		-	$DRV	1	$DRV
+		HT32_CtrlMdDIO		-	$DRV	1	$DRV
+		HT32_OnOffDIO		-	$DRV	1	$DRV
+
+		HT01_UseDM		-	$DRV	1	$DRV
+		HT02_UseDM		-	$DRV	1	$DRV
+		HT03_UseDM		-	$DRV	1	$DRV
+		HT04_UseDM		-	$DRV	1	$DRV
+		HT05_UseDM		-	$DRV	1	$DRV
+		HT06_UseDM		-	$DRV	1	$DRV
+		HT07_UseDM		-	$DRV	1	$DRV
+		HT08_UseDM		-	$DRV	1	$DRV
+		HT09_UseDM		-	$DRV	1	$DRV
+		HT10_UseDM		-	$DRV	1	$DRV
+		HT11_UseDM		-	$DRV	1	$DRV
+		HT12_UseDM		-	$DRV	1	$DRV
+		HT13_UseDM		-	$DRV	1	$DRV
+		HT14_UseDM		-	$DRV	1	$DRV
+		HT15_UseDM		-	$DRV	1	$DRV
+		HT16_UseDM		-	$DRV	1	$DRV
+		HT17_UseDM		-	$DRV	1	$DRV
+		HT18_UseDM		-	$DRV	1	$DRV
+		HT19_UseDM		-	$DRV	1	$DRV
+		HT20_UseDM		-	$DRV	1	$DRV
+		HT21_UseDM		-	$DRV	1	$DRV
+		HT22_UseDM		-	$DRV	1	$DRV
+		HT23_UseDM		-	$DRV	1	$DRV
+		HT24_UseDM		-	$DRV	1	$DRV
+		HT25_UseDM		-	$DRV	1	$DRV
+		HT26_UseDM		-	$DRV	1	$DRV
+		HT27_UseDM		-	$DRV	1	$DRV
+		HT28_UseDM		-	$DRV	1	$DRV
+		HT29_UseDM		-	$DRV	1	$DRV
+		HT30_UseDM		-	$DRV	1	$DRV
+		HT31_UseDM		-	$DRV	1	$DRV
+		HT32_UseDM		-	$DRV	1	$DRV
+
+	$$$ Analog
+		SrcCanisterAI		-	$DRV	1
+		V97VlvOpenTmAI		-	$DRV	1
+		V98VlvOpenTmAI		-	$DRV	1
+		V100VlvOpenTmAI		-	$DRV	1
+		V101VlvOpenTmAI		-	$DRV	1
+		V102VlvOpenTmAI		-	$DRV	1
+		V105VlvOpenTmAI		-	$DRV	1
+		V106VlvOpenTmAI		-	$DRV	1
+		V108VlvOpenTmAI		-	$DRV	1
+		V109VlvOpenTmAI		-	$DRV	1
+		V110VlvOpenTmAI		-	$DRV	1
+
+		# 2015.07.09 Add Canister ALD Valve
+		V11VlvOpenTmAI		-	$DRV	1
+		V12VlvOpenTmAI		-	$DRV	1
+		V17VlvOpenTmAI		-	$DRV	1
+
+		V97VlvCloseTmAI		-	$DRV	1
+		V98VlvCloseTmAI		-	$DRV	1
+		V100VlvCloseTmAI	-	$DRV	1
+		V101VlvCloseTmAI	-	$DRV	1
+		V102VlvCloseTmAI	-	$DRV	1
+		V105VlvCloseTmAI	-	$DRV	1
+		V106VlvCloseTmAI	-	$DRV	1
+		V108VlvCloseTmAI	-	$DRV	1
+		V109VlvCloseTmAI	-	$DRV	1
+		V110VlvCloseTmAI	-	$DRV	1
+
+		# 2015.07.09 Add Canister ALD Valve
+		V11VlvCloseTmAI		-	$DRV	1
+		V12VlvCloseTmAI		-	$DRV	1
+		V17VlvCloseTmAI		-	$DRV	1
+
+		ALD97OpenCnAI		-	$DRV	1
+		ALD97CloseCnAI		-	$DRV	1
+		ALD98OpenCnAI		-	$DRV	1
+		ALD98CloseCnAI		-	$DRV	1
+		ALD100OpenCnAI		-	$DRV	1
+		ALD100CloseCnAI		-	$DRV	1
+		ALD101OpenCnAI		-	$DRV	1
+		ALD101CloseCnAI		-	$DRV	1
+		ALD102OpenCnAI		-	$DRV	1
+		ALD102CloseCnAI		-	$DRV	1
+		ALD105OpenCnAI		-	$DRV	1
+		ALD105CloseCnAI		-	$DRV	1
+		ALD106OpenCnAI		-	$DRV	1
+		ALD106CloseCnAI		-	$DRV	1
+		ALD108OpenCnAI		-	$DRV	1
+		ALD108CloseCnAI		-	$DRV	1
+		ALD109OpenCnAI		-	$DRV	1
+		ALD109CloseCnAI		-	$DRV	1
+		ALD110OpenCnAI		-	$DRV	1
+		ALD110CloseCnAI	 	-	$DRV	1
+
+		# 2015.07.09 Add Canister ALD Valve
+		ALD11OpenCnAI		-	$DRV	1
+		ALD11CloseCnAI		-	$DRV	1
+		ALD12OpenCnAI		-	$DRV	1
+		ALD12CloseCnAI		-	$DRV	1
+		ALD17OpenCnAI		-	$DRV	1
+		ALD17CloseCnAI		-	$DRV	1
+
+		MFC01VlvPosAI		-	$DRV	1
+		MFC02VlvPosAI		-	$DRV	1
+		MFC03VlvPosAI		-	$DRV	1
+		MFC04VlvPosAI		-	$DRV	1
+		MFC05VlvPosAI		-	$DRV	1
+		MFC06VlvPosAI		-	$DRV	1
+		MFC07VlvPosAI		-	$DRV	1
+		MFC08VlvPosAI		-	$DRV	1
+		MFC09VlvPosAI		-	$DRV	1
+
+		HT01_OutPwAI		-	$DRV	1
+		HT01_TmpRdAI		-	$DRV	1
+		HT01_TmpSpAIO		-	$DRV	1	$DRV
+		HT01_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT01_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT01_CtrlGnAIO		-	$DRV	1	$DRV
+		HT01_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT01_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT01_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT01_OutPwAO		-	$DRV	1	$DRV
+
+		HT02_OutPwAI		-	$DRV	1
+		HT02_TmpRdAI		-	$DRV	1
+		HT02_TmpSpAIO		-	$DRV	1	$DRV
+		HT02_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT02_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT02_CtrlGnAIO		-	$DRV	1	$DRV
+		HT02_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT02_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT02_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT02_OutPwAO		-	$DRV	1	$DRV
+
+		HT03_OutPwAI		-	$DRV	1
+		HT03_TmpRdAI		-	$DRV	1
+		HT03_TmpSpAIO		-	$DRV	1	$DRV
+		HT03_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT03_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT03_CtrlGnAIO		-	$DRV	1	$DRV
+		HT03_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT03_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT03_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT03_OutPwAO		-	$DRV	1	$DRV
+
+		HT04_OutPwAI		-	$DRV	1
+		HT04_TmpRdAI		-	$DRV	1
+		HT04_TmpSpAIO		-	$DRV	1	$DRV
+		HT04_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT04_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT04_CtrlGnAIO		-	$DRV	1	$DRV
+		HT04_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT04_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT04_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT04_OutPwAO		-	$DRV	1	$DRV
+
+		HT05_OutPwAI		-	$DRV	1
+		HT05_TmpRdAI		-	$DRV	1
+		HT05_TmpSpAIO		-	$DRV	1	$DRV
+		HT05_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT05_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT05_CtrlGnAIO		-	$DRV	1	$DRV
+		HT05_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT05_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT05_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT05_OutPwAO		-	$DRV	1	$DRV
+
+		HT06_OutPwAI		-	$DRV	1
+		HT06_TmpRdAI		-	$DRV	1
+		HT06_TmpSpAIO		-	$DRV	1	$DRV
+		HT06_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT06_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT06_CtrlGnAIO		-	$DRV	1	$DRV
+		HT06_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT06_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT06_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT06_OutPwAO		-	$DRV	1	$DRV
+
+		HT07_OutPwAI		-	$DRV	1
+		HT07_TmpRdAI		-	$DRV	1
+		HT07_TmpSpAIO		-	$DRV	1	$DRV
+		HT07_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT07_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT07_CtrlGnAIO		-	$DRV	1	$DRV
+		HT07_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT07_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT07_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT07_OutPwAO		-	$DRV	1	$DRV
+
+		HT08_OutPwAI		-	$DRV	1
+		HT08_TmpRdAI		-	$DRV	1
+		HT08_TmpSpAIO		-	$DRV	1	$DRV
+		HT08_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT08_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT08_CtrlGnAIO		-	$DRV	1	$DRV
+		HT08_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT08_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT08_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT08_OutPwAO		-	$DRV	1	$DRV
+
+		HT09_OutPwAI		-	$DRV	1
+		HT09_TmpRdAI		-	$DRV	1
+		HT09_TmpSpAIO		-	$DRV	1	$DRV
+		HT09_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT09_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT09_CtrlGnAIO		-	$DRV	1	$DRV
+		HT09_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT09_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT09_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT09_OutPwAO		-	$DRV	1	$DRV
+
+		HT10_OutPwAI		-	$DRV	1
+		HT10_TmpRdAI		-	$DRV	1
+		HT10_TmpSpAIO		-	$DRV	1	$DRV
+		HT10_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT10_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT10_CtrlGnAIO		-	$DRV	1	$DRV
+		HT10_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT10_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT10_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT10_OutPwAO		-	$DRV	1	$DRV
+
+		HT11_OutPwAI		-	$DRV	1
+		HT11_TmpRdAI		-	$DRV	1
+		HT11_TmpSpAIO		-	$DRV	1	$DRV
+		HT11_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT11_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT11_CtrlGnAIO		-	$DRV	1	$DRV
+		HT11_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT11_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT11_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT11_OutPwAO		-	$DRV	1	$DRV
+
+		HT12_OutPwAI		-	$DRV	1
+		HT12_TmpRdAI		-	$DRV	1
+		HT12_TmpSpAIO		-	$DRV	1	$DRV
+		HT12_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT12_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT12_CtrlGnAIO		-	$DRV	1	$DRV
+		HT12_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT12_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT12_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT12_OutPwAO		-	$DRV	1	$DRV
+
+		HT13_OutPwAI		-	$DRV	1
+		HT13_TmpRdAI		-	$DRV	1
+		HT13_TmpSpAIO		-	$DRV	1	$DRV
+		HT13_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT13_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT13_CtrlGnAIO		-	$DRV	1	$DRV
+		HT13_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT13_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT13_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT13_OutPwAO		-	$DRV	1	$DRV
+
+		HT14_OutPwAI		-	$DRV	1
+		HT14_TmpRdAI		-	$DRV	1
+		HT14_TmpSpAIO		-	$DRV	1	$DRV
+		HT14_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT14_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT14_CtrlGnAIO		-	$DRV	1	$DRV
+		HT14_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT14_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT14_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT14_OutPwAO		-	$DRV	1	$DRV
+
+		HT15_OutPwAI		-	$DRV	1
+		HT15_TmpRdAI		-	$DRV	1
+		HT15_TmpSpAIO		-	$DRV	1	$DRV
+		HT15_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT15_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT15_CtrlGnAIO		-	$DRV	1	$DRV
+		HT15_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT15_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT15_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT15_OutPwAO		-	$DRV	1	$DRV
+
+		HT16_OutPwAI		-	$DRV	1
+		HT16_TmpRdAI		-	$DRV	1
+		HT16_TmpSpAIO		-	$DRV	1	$DRV
+		HT16_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT16_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT16_CtrlGnAIO		-	$DRV	1	$DRV
+		HT16_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT16_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT16_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT16_OutPwAO		-	$DRV	1	$DRV
+
+		HT17_OutPwAI		-	$DRV	1
+		HT17_TmpRdAI		-	$DRV	1
+		HT17_TmpSpAIO		-	$DRV	1	$DRV
+		HT17_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT17_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT17_CtrlGnAIO		-	$DRV	1	$DRV
+		HT17_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT17_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT17_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT17_OutPwAO		-	$DRV	1	$DRV
+
+		HT18_OutPwAI		-	$DRV	1
+		HT18_TmpRdAI		-	$DRV	1
+		HT18_TmpSpAIO		-	$DRV	1	$DRV
+		HT18_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT18_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT18_CtrlGnAIO		-	$DRV	1	$DRV
+		HT18_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT18_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT18_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT18_OutPwAO		-	$DRV	1	$DRV
+
+		HT19_OutPwAI		-	$DRV	1
+		HT19_TmpRdAI		-	$DRV	1
+		HT19_TmpSpAIO		-	$DRV	1	$DRV
+		HT19_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT19_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT19_CtrlGnAIO		-	$DRV	1	$DRV
+		HT19_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT19_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT19_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT19_OutPwAO		-	$DRV	1	$DRV
+
+		HT20_OutPwAI		-	$DRV	1
+		HT20_TmpRdAI		-	$DRV	1
+		HT20_TmpSpAIO		-	$DRV	1	$DRV
+		HT20_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT20_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT20_CtrlGnAIO		-	$DRV	1	$DRV
+		HT20_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT20_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT20_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT20_OutPwAO		-	$DRV	1	$DRV
+
+		HT21_OutPwAI		-	$DRV	1
+		HT21_TmpRdAI		-	$DRV	1
+		HT21_TmpSpAIO		-	$DRV	1	$DRV
+		HT21_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT21_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT21_CtrlGnAIO		-	$DRV	1	$DRV
+		HT21_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT21_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT21_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT21_OutPwAO		-	$DRV	1	$DRV
+
+		HT22_OutPwAI		-	$DRV	1
+		HT22_TmpRdAI		-	$DRV	1
+		HT22_TmpSpAIO		-	$DRV	1	$DRV
+		HT22_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT22_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT22_CtrlGnAIO		-	$DRV	1	$DRV
+		HT22_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT22_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT22_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT22_OutPwAO		-	$DRV	1	$DRV
+
+		HT23_OutPwAI		-	$DRV	1
+		HT23_TmpRdAI		-	$DRV	1
+		HT23_TmpSpAIO		-	$DRV	1	$DRV
+		HT23_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT23_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT23_CtrlGnAIO		-	$DRV	1	$DRV
+		HT23_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT23_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT23_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT23_OutPwAO		-	$DRV	1	$DRV
+
+		HT24_OutPwAI		-	$DRV	1
+		HT24_TmpRdAI		-	$DRV	1
+		HT24_TmpSpAIO		-	$DRV	1	$DRV
+		HT24_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT24_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT24_CtrlGnAIO		-	$DRV	1	$DRV
+		HT24_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT24_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT24_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT24_OutPwAO		-	$DRV	1	$DRV
+
+		HT25_OutPwAI		-	$DRV	1
+		HT25_TmpRdAI		-	$DRV	1
+		HT25_TmpSpAIO		-	$DRV	1	$DRV
+		HT25_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT25_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT25_CtrlGnAIO		-	$DRV	1	$DRV
+		HT25_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT25_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT25_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT25_OutPwAO		-	$DRV	1	$DRV
+
+		HT26_OutPwAI		-	$DRV	1
+		HT26_TmpRdAI		-	$DRV	1
+		HT26_TmpSpAIO		-	$DRV	1	$DRV
+		HT26_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT26_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT26_CtrlGnAIO		-	$DRV	1	$DRV
+		HT26_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT26_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT26_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT26_OutPwAO		-	$DRV	1	$DRV
+
+		HT27_OutPwAI		-	$DRV	1
+		HT27_TmpRdAI		-	$DRV	1
+		HT27_TmpSpAIO		-	$DRV	1	$DRV
+		HT27_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT27_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT27_CtrlGnAIO		-	$DRV	1	$DRV
+		HT27_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT27_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT27_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT27_OutPwAO		-	$DRV	1	$DRV
+
+		HT28_OutPwAI		-	$DRV	1
+		HT28_TmpRdAI		-	$DRV	1
+		HT28_TmpSpAIO		-	$DRV	1	$DRV
+		HT28_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT28_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT28_CtrlGnAIO		-	$DRV	1	$DRV
+		HT28_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT28_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT28_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT28_OutPwAO		-	$DRV	1	$DRV
+
+		HT29_OutPwAI		-	$DRV	1
+		HT29_TmpRdAI		-	$DRV	1
+		HT29_TmpSpAIO		-	$DRV	1	$DRV
+		HT29_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT29_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT29_CtrlGnAIO		-	$DRV	1	$DRV
+		HT29_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT29_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT29_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT29_OutPwAO		-	$DRV	1	$DRV
+
+		HT30_OutPwAI		-	$DRV	1
+		HT30_TmpRdAI		-	$DRV	1
+		HT30_TmpSpAIO		-	$DRV	1	$DRV
+		HT30_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT30_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT30_CtrlGnAIO		-	$DRV	1	$DRV
+		HT30_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT30_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT30_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT30_OutPwAO		-	$DRV	1	$DRV
+
+		HT31_OutPwAI		-	$DRV	1
+		HT31_TmpRdAI		-	$DRV	1
+		HT31_TmpSpAIO		-	$DRV	1	$DRV
+		HT31_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT31_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT31_CtrlGnAIO		-	$DRV	1	$DRV
+		HT31_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT31_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT31_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT31_OutPwAO		-	$DRV	1	$DRV
+
+		HT32_OutPwAI		-	$DRV	1
+		HT32_TmpRdAI		-	$DRV	1
+		HT32_TmpSpAIO		-	$DRV	1	$DRV
+		HT32_CtrlDfTmAIO	-	$DRV	1	$DRV
+		HT32_CtrlInTmAIO	-	$DRV	1	$DRV
+		HT32_CtrlGnAIO		-	$DRV	1	$DRV
+		HT32_OutPwLmtAIO	-	$DRV	1	$DRV
+		HT32_TmpHgLmtAIO	-	$DRV	1	$DRV
+		HT32_TmpLwLmtAIO	-	$DRV	1	$DRV
+		HT32_OutPwAO		-	$DRV	1	$DRV
+
+ 		HT01_DeviAIO		-	$DRV	1	$DRV
+		HT02_DeviAIO		-	$DRV	1	$DRV
+		HT03_DeviAIO		-	$DRV	1	$DRV
+		HT04_DeviAIO		-	$DRV	1	$DRV
+		HT05_DeviAIO		-	$DRV	1	$DRV
+		HT06_DeviAIO		-	$DRV	1	$DRV
+		HT07_DeviAIO		-	$DRV	1	$DRV
+		HT08_DeviAIO		-	$DRV	1	$DRV
+		HT09_DeviAIO		-	$DRV	1	$DRV
+		HT10_DeviAIO		-	$DRV	1	$DRV
+		HT11_DeviAIO		-	$DRV	1	$DRV
+		HT12_DeviAIO		-	$DRV	1	$DRV
+		HT13_DeviAIO		-	$DRV	1	$DRV
+		HT14_DeviAIO		-	$DRV	1	$DRV
+		HT15_DeviAIO		-	$DRV	1	$DRV
+		HT16_DeviAIO		-	$DRV	1	$DRV
+		HT17_DeviAIO		-	$DRV	1	$DRV
+		HT18_DeviAIO		-	$DRV	1	$DRV
+		HT19_DeviAIO		-	$DRV	1	$DRV
+		HT20_DeviAIO		-	$DRV	1	$DRV
+		HT21_DeviAIO		-	$DRV	1	$DRV
+		HT22_DeviAIO		-	$DRV	1	$DRV
+		HT23_DeviAIO		-	$DRV	1	$DRV
+		HT24_DeviAIO		-	$DRV	1	$DRV
+		HT25_DeviAIO		-	$DRV	1	$DRV
+		HT26_DeviAIO		-	$DRV	1	$DRV
+		HT27_DeviAIO		-	$DRV	1	$DRV
+		HT28_DeviAIO		-	$DRV	1	$DRV
+		HT29_DeviAIO		-	$DRV	1	$DRV
+		HT30_DeviAIO		-	$DRV	1	$DRV
+		HT31_DeviAIO		-	$DRV	1	$DRV
+		HT32_DeviAIO		-	$DRV	1	$DRV
+
+	$$$ String
+
+		HT01_NameSM		$DRV	-	1
+		HT02_NameSM		$DRV	-	1
+		HT03_NameSM		$DRV	-	1
+		HT04_NameSM		$DRV	-	1
+		HT05_NameSM		$DRV	-	1
+		HT06_NameSM		$DRV	-	1
+		HT07_NameSM		$DRV	-	1
+		HT08_NameSM		$DRV	-	1
+		HT09_NameSM		$DRV	-	1
+		HT10_NameSM		$DRV	-	1
+		HT11_NameSM		$DRV	-	1
+		HT12_NameSM		$DRV	-	1
+		HT13_NameSM		$DRV	-	1
+		HT14_NameSM		$DRV	-	1
+		HT15_NameSM		$DRV	-	1
+		HT16_NameSM		$DRV	-	1
+		HT17_NameSM		$DRV	-	1
+		HT18_NameSM		$DRV	-	1
+		HT19_NameSM		$DRV	-	1
+		HT20_NameSM		$DRV	-	1
+		HT21_NameSM		$DRV	-	1
+		HT22_NameSM		$DRV	-	1
+		HT23_NameSM		$DRV	-	1
+		HT24_NameSM		$DRV	-	1
+		HT25_NameSM		$DRV	-	1
+		HT26_NameSM		$DRV	-	1
+		HT27_NameSM		$DRV	-	1
+		HT28_NameSM		$DRV	-	1
+		HT29_NameSM		$DRV	-	1
+		HT30_NameSM		$DRV	-	1
+		HT31_NameSM		$DRV	-	1
+		HT32_NameSM		$DRV	-	1
+
+## Mks651
+	$$$ Digital
+
+		M651_Ctrl_Ch		-	$DRV	1	$DRV
+		M651_ModeDM		-	$DRV	1	$DRV
+		M651_Valve		-	$DRV	1	$DRV
+		M651_CommStatus		-	$DRV	1	$DRV
+
+	$$$ Analog
+		M651_Pressure		-	$DRV	1	$DRV
+		M651_Position		-	$DRV	1	$DRV
+		M651_Set_Pressure	-	$DRV	1	$DRV
+		M651_Set_Position	-	$DRV	1	$DRV
+		M651_Lead		-	$DRV	1	$DRV
+		M651_Gain		-	$DRV	1	$DRV
+		M651_SoftStt		-	$DRV	1	$DRV
+		M651_SoftStt_Al		-	$DRV	1	$DRV
+		M651_SoftStt_OP		-	$DRV	1	$DRV
+		M651_SoftStt_CL		-	$DRV	1	$DRV
+		M651_Fan_Status		-	$DRV	1	$DRV	
+
+## MOTOR
+
+	$$$ Digital
+		ZMT_StageSelectDM	-	$DRV	1	$DRV
+		ZMT_LimitSnsDI		-	$DRV	1
+		ZMT2_LimitSnsDI		-	$DRV	1
+
+		# 2015.03.20 Add NeedHome Virtual IO for Safety PLC MC OFF
+		ROR1_NeedHomeDM		-	$DRV	1
+
+	$$$ Analog
+		ZMT_ReadPosAM		-	$DRV	1	$DRV
+		ZMT_ReadPos2AM		-	$DRV	1	$DRV
+		ZMT_SetPosAM		-	$DRV	1	$DRV
+		ZMT_SetPos2AM		-	$DRV	1	$DRV
+		ZMT_MaintSetPosAM	-	$DRV	1	$DRV
+
+##AE Matcher    
+	$$$ Digital 
+		HF_OneCycCntDM_A	-	$DRV	1
+		HF_OneCycCntDM_B	-	$DRV	1
+		HF_TotCycCntDM_A	-	$DRV	1
+		HF_TotCycCntDM_B	-	$DRV	1
+	$$$ Analog
+		HF_LOAD_PRESET_A	-	$DRV	1	$DRV
+		HF_TUNE_PRESET_A	-	$DRV	1	$DRV
+		HF_LOAD_POS_A		-	$DRV	1
+		HF_TUNE_POS_A		-	$DRV	1
+		HF_R_Real_A		-	$DRV	1
+		HF_X_Image_A		-	$DRV	1
+
+		HF_LOAD_PRESET_B	-	$DRV	1	$DRV
+		HF_TUNE_PRESET_B	-	$DRV	1	$DRV
+		HF_LOAD_POS_B		-	$DRV	1
+		HF_TUNE_POS_B		-	$DRV	1
+		HF_R_Real_B		-	$DRV	1
+		HF_X_Image_B		-	$DRV	1
+
+		HF_Z_Phase_A		-	$DRV	1
+		HF_Z_Power_A		-	$DRV	1
+		HF_Z_R_A		-	$DRV	1
+		HF_Z_X_A		-	$DRV	1
+		HF_Z_Vrms_A		-	$DRV	1
+		HF_Z_Irms_A		-	$DRV	1
+
+		HF_Z_Phase_B		-	$DRV	1
+		HF_Z_Power_B		-	$DRV	1
+		HF_Z_R_B		-	$DRV	1
+		HF_Z_X_B		-	$DRV	1
+		HF_Z_Vrms_B		-	$DRV	1
+		HF_Z_Irms_B		-	$DRV	1
+
+
+		HF_LOADPOSMax_A		-	$DRV	1	
+		HF_LOADPOSMin_A		-	$DRV	1	
+		HF_TunePOSMax_A		-	$DRV	1
+		HF_TunePOSMin_A		-	$DRV	1
+		HF_Z_RMax_A		-	$DRV	1
+		HF_Z_RMin_A		-	$DRV	1                                                                                            
+		HF_Z_XMax_A		-	$DRV	1                                                                                                 
+		HF_Z_XMin_A		-	$DRV	1                                                                                             
+		HF_Z_VrmsMax_A		-	$DRV	1 
+		HF_Z_VrmsMin_A		-	$DRV	1                                                                                             
+		HF_Z_IrmsMax_A		-	$DRV	1
+		HF_Z_IrmsMin_A		-	$DRV	1                                                                                         
+		HF_Z_PhaseMax_A		-	$DRV	1
+		HF_Z_PhaseMin_A		-	$DRV	1                                                                                            
+		HF_Z_PowerMax_A		-	$DRV	1
+		HF_Z_PowerMin_A		-	$DRV	1
+		HF_LOADPOSAvr_A		-	$DRV	1                                                                                       
+		HF_TunePOSAvr_A		-	$DRV	1
+		HF_Z_RAvr_A		-	$DRV	1                                                                                          
+		HF_Z_XAvr_A		-	$DRV	1                                                                                
+		HF_Z_VrmsAvr_A		-	$DRV	1                                                                                     
+		HF_Z_IrmsAvr_A		-	$DRV	1                                                                                          
+		HF_Z_PhaseAvr_A		-	$DRV	1
+		HF_Z_PowerAvr_A	        -	$DRV	1
+	
+		HF_LOADPOSMax_B         -	$DRV	1		
+		HF_LOADPOSMin_B		-	$DRV	1                                    
+		HF_TunePOSMax_B		-	$DRV	1 
+		HF_TunePOSMin_B		-	$DRV	1                                     
+		HF_Z_RMax_B		-	$DRV	1
+		HF_Z_RMin_B		-	$DRV	1                                                                                              
+		HF_Z_XMax_B		-	$DRV	1                                                                                               
+		HF_Z_XMin_B		-	$DRV	1                                                                                            
+		HF_Z_VrmsMax_B		-	$DRV	1
+		HF_Z_VrmsMin_B		-	$DRV	1                                                                                           
+		HF_Z_IrmsMax_B		-	$DRV	1
+		HF_Z_IrmsMin_B		-	$DRV	1                                                                                          
+		HF_Z_PhaseMax_B		-	$DRV	1
+		HF_Z_PhaseMin_B		-	$DRV	1                                                                                            
+		HF_Z_PowerMax_B		-	$DRV	1
+		HF_Z_PowerMin_B		-	$DRV	1                                  
+		HF_LOADPOSAvr_B		-	$DRV	1                                                                                      
+		HF_TunePOSAvr_B		-	$DRV	1
+		HF_Z_RAvr_B		-	$DRV	1                                                                                              
+		HF_Z_XAvr_B		-	$DRV	1                                                                                             
+		HF_Z_VrmsAvr_B		-	$DRV	1                                                                                               
+		HF_Z_IrmsAvr_B		-	$DRV	1                                                                                             
+		HF_Z_PhaseAvr_B		-	$DRV	1
+		HF_Z_PowerAvr_B		-	$DRV	1
+
+#2015.10.15 Add Matcher Filter
+		HF_LOADMaxMin_A		-	$DRV	1		
+		HF_TuneMaxMin_A		-	$DRV	1
+		HF_Z_RMaxMin_A		-	$DRV	1
+		HF_Z_XMaxMin_A		-	$DRV	1
+		HF_Z_VrMaxMin_A		-	$DRV	1
+		HF_Z_IrMaxMin_A		-	$DRV	1
+		HF_Z_PhMaxMin_A		-	$DRV	1
+		HF_Z_PwMaxMin_A		-	$DRV	1
+		                       
+		HF_LOADMaxMin_B		-	$DRV	1
+		HF_TuneMaxMin_B		-	$DRV	1
+		HF_Z_RMaxMin_B		-	$DRV	1
+		HF_Z_XMaxMin_B		-	$DRV	1
+		HF_Z_VrMaxMin_B		-	$DRV	1
+		HF_Z_IrMaxMin_B		-	$DRV	1
+		HF_Z_PhMaxMin_B		-	$DRV	1
+		HF_Z_PwMaxMin_B		-	$DRV	1
+#2015.10.15 End
+
+#2016.02.04 Parameter Monitor
+$$$ Analog
+		HF1StopVSWRAM				-	$DRV	1 	$DRV
+		HF1StartVSWRAM				-	$DRV	1       $DRV
+$$$ Digital                                                                     
+		HF1UpdateStsDI      			-	$DRV	1       $DRV
+		HF1MaxStepLoadDM			-	$DRV	1       $DRV
+		HF1MaxStepTuneDM			-	$DRV	1       $DRV
+		HF1TargetPosLoadDM			-	$DRV	1       $DRV
+		HF1TargetPosTuneDM			-	$DRV	1       $DRV
+		HF1TargetZ_R_DM				-	$DRV	1       $DRV
+		HF1TargetZ_X_DM				-	$DRV	1       $DRV
+		HF1V_ThresholdCntDM			-	$DRV	1       $DRV
+		HF1I_ThresholdCntDM			-	$DRV	1       $DRV
+		HF1PriorTimeDM				-	$DRV	1       $DRV
+		HF1FutureDM				-	$DRV	1       $DRV
+$$$ Analog
+		HF1StopVSWRAI				-	$DRV	1
+		HF1StartVSWRAI				-	$DRV	1
+$$$ Digital
+		HF1MaxStepLoadDI			-	$DRV	1
+		HF1MaxStepTuneDI			-	$DRV	1
+		HF1TargetPosLoadDI			-	$DRV	1
+		HF1TargetPosTuneDI			-	$DRV	1
+		HF1TargetZ_R_DI				-	$DRV	1
+		HF1TargetZ_X_DI				-	$DRV	1
+		HF1V_ThresholdCntDI			-	$DRV	1
+		HF1I_ThresholdCntDI			-	$DRV	1
+		HF1PriorTimeDI				-	$DRV	1
+		HF1FutureDI				-	$DRV	1
+
+$$$ Analog
+		HF2StopVSWRAM				-	$DRV	1  	$DRV
+		HF2StartVSWRAM				-	$DRV	1       $DRV
+$$$ Digital                                                                     $DRV
+		HF2UpdateStsDI      			-	$DRV	1       $DRV
+		HF2MaxStepLoadDM			-	$DRV	1       $DRV
+		HF2MaxStepTuneDM			-	$DRV	1       $DRV
+		HF2TargetPosLoadDM			-	$DRV	1       $DRV
+		HF2TargetPosTuneDM			-	$DRV	1       $DRV
+		HF2TargetZ_R_DM	    			-	$DRV	1       $DRV
+		HF2TargetZ_X_DM	    			-	$DRV	1       $DRV
+		HF2V_ThresholdCntDM			-	$DRV	1       $DRV
+		HF2I_ThresholdCntDM			-	$DRV	1       $DRV
+		HF2PriorTimeDM				-	$DRV	1       $DRV
+		HF2FutureDM				-	$DRV	1       $DRV
+$$$ Analog
+		HF2StopVSWRAI				-	$DRV	1
+		HF2StartVSWRAI				-	$DRV	1
+$$$ Digital
+		HF2MaxStepLoadDI			-	$DRV	1
+		HF2MaxStepTuneDI			-	$DRV	1
+		HF2TargetPosLoadDI			-	$DRV	1
+		HF2TargetPosTuneDI			-	$DRV	1
+		HF2TargetZ_R_DI	    			-	$DRV	1
+		HF2TargetZ_X_DI	    			-	$DRV	1
+		HF2V_ThresholdCntDI			-	$DRV	1
+		HF2I_ThresholdCntDI			-	$DRV	1
+		HF2PriorTimeDI				-	$DRV	1
+		HF2FutureDI		    		-	$DRV	1
+
+$$$ Digital
+		RF1UpdateStsDI				-	$DRV	1
+		RF1FreqModeDM				-	$DRV	1	$DRV
+		RF1IgnitionModeDM			-	$DRV	1	$DRV
+		RF1DHCPClientDM				-	$DRV	1       $DRV
+		RF1GammaTHRModeDM			-	$DRV	1       $DRV
+		RF1StrtFreqDM				-	$DRV	1       $DRV
+		RF1MinFreqDM				-	$DRV	1       $DRV
+		RF1MaxFreqDM				-	$DRV	1       $DRV
+		RF1FreqStepMaxDM			-	$DRV	1       $DRV
+		RF1FreqStepMinDM			-	$DRV	1       $DRV
+		RF1ReturnTHRDM				-	$DRV	1       $DRV
+		RF1HighTuneTHRDM			-	$DRV	1       $DRV
+		RF1LowTuneTHRDM				-	$DRV	1       $DRV
+		RF1TuneTimeoutDM			-	$DRV	1       $DRV
+		RF1TuneDelayDM				-	$DRV	1       $DRV
+		RF1TuneGainDelayDM			-	$DRV	1       $DRV
+		RF1MaxTuneCntDM				-	$DRV	1       $DRV
+		RF1StepUpGainDM				-	$DRV	1       $DRV
+		RF1StepDnGainDM				-	$DRV	1       $DRV
+		RF1ScanStepSizeDM			-	$DRV	1       $DRV
+		RF1TuneStepTimeDM			-	$DRV	1       $DRV
+$$$ String
+		RF1IPAddrSM		$DRV	-	1	$DRV	-    
+		RF1SubnetMaskSM		$DRV	-	1	$DRV	-    
+		RF1GatewayAddrSM    	$DRV	-	1	$DRV	-    
+
+$$$ Digital
+		RF1FreqModeDI				-	$DRV	1
+		RF1IgnitionModeDI			-	$DRV	1
+		RF1DHCPClientDI				-	$DRV	1
+		RF1GammaTHRModeDI			-	$DRV	1
+		RF1StrtFreqDI				-	$DRV	1
+		RF1MinFreqDI				-	$DRV	1
+		RF1MaxFreqDI				-	$DRV	1
+		RF1FreqStepMaxDI			-	$DRV	1
+		RF1FreqStepMinDI			-	$DRV	1
+		RF1ReturnTHRDI				-	$DRV	1
+		RF1HighTuneTHRDI			-	$DRV	1
+		RF1LowTuneTHRDI				-	$DRV	1
+		RF1TuneTimeoutDI			-	$DRV	1
+		RF1TuneDelayDI				-	$DRV	1
+		RF1TuneGainDelayDI			-	$DRV	1
+		RF1MaxTuneCntDI				-	$DRV	1
+		RF1StepUpGainDI				-	$DRV	1
+		RF1StepDnGainDI				-	$DRV	1
+		RF1ScanStepSizeDI			-	$DRV	1
+		RF1TuneStepTimeDI			-	$DRV	1
+$$$ String
+		RF1IPAddrSI		$DRV	-	1	$DRV	-    	
+		RF1SubnetMaskSI		$DRV	-	1	$DRV	-    
+		RF1GatewayAddrSI	$DRV	-	1	$DRV	-    
+
+$$$ Digital
+		RF2UpdateStsDI      			-	$DRV	1
+		RF2FreqModeDM				-	$DRV	1 	$DRV
+		RF2IgnitionModeDM			-	$DRV	1       $DRV
+		RF2DHCPClientDM				-	$DRV	1       $DRV
+		RF2GammaTHRModeDM			-	$DRV	1       $DRV
+		RF2StrtFreqDM				-	$DRV	1       $DRV
+		RF2MinFreqDM				-	$DRV	1       $DRV
+		RF2MaxFreqDM				-	$DRV	1       $DRV
+		RF2FreqStepMaxDM			-	$DRV	1       $DRV
+		RF2FreqStepMinDM			-	$DRV	1       $DRV
+		RF2ReturnTHRDM				-	$DRV	1       $DRV
+		RF2HighTuneTHRDM			-	$DRV	1       $DRV
+		RF2LowTuneTHRDM				-	$DRV	1       $DRV
+		RF2TuneTimeoutDM			-	$DRV	1       $DRV
+		RF2TuneDelayDM				-	$DRV	1       $DRV
+		RF2TuneGainDelayDM			-	$DRV	1       $DRV
+		RF2MaxTuneCntDM				-	$DRV	1       $DRV
+		RF2StepUpGainDM				-	$DRV	1       $DRV
+		RF2StepDnGainDM				-	$DRV	1       $DRV
+		RF2ScanStepSizeDM			-	$DRV	1       $DRV
+		RF2TuneStepTimeDM			-	$DRV	1       $DRV
+$$$ String
+		RF2IPAddrSM		$DRV	-	1	$DRV	-    
+		RF2SubnetMaskSM		$DRV	-	1	$DRV	-    
+		RF2GatewayAddrSM    	$DRV	-	1	$DRV	-    
+$$$ Digital
+		RF2FreqModeDI				-	$DRV	1
+		RF2IgnitionModeDI			-	$DRV	1
+		RF2DHCPClientDI				-	$DRV	1
+		RF2GammaTHRModeDI			-	$DRV	1
+		RF2StrtFreqDI				-	$DRV	1
+		RF2MinFreqDI				-	$DRV	1
+		RF2MaxFreqDI				-	$DRV	1
+		RF2FreqStepMaxDI			-	$DRV	1
+		RF2FreqStepMinDI			-	$DRV	1
+		RF2ReturnTHRDI				-	$DRV	1
+		RF2HighTuneTHRDI			-	$DRV	1
+		RF2LowTuneTHRDI				-	$DRV	1
+		RF2TuneTimeoutDI			-	$DRV	1
+		RF2TuneDelayDI				-	$DRV	1
+		RF2TuneGainDelayDI			-	$DRV	1
+		RF2MaxTuneCntDI				-	$DRV	1
+		RF2StepUpGainDI				-	$DRV	1
+		RF2StepDnGainDI				-	$DRV	1
+		RF2ScanStepSizeDI			-	$DRV	1
+		RF2TuneStepTimeDI			-	$DRV	1
+$$$ String
+		RF2IPAddrSI		$DRV	-	1
+		RF2SubnetMaskSI		$DRV	-	1
+		RF2GatewayAddrSI	$DRV	-	1
+#2016.02.04 End
+
+## PMC_Vacuum
+	$$$ Digital
+
+		FC_VACUUM		-	$DRV	1	$DRV
+		VacuumStateDM		-	$DRV	1	$DRV
+		MBStsDI			-	$DRV	1	$DRV
+		MBCmdDO			-	$DRV	1	$DRV
+
+## ScreenEditor
+	$$$ Digital
+		HTREditEnableDisable	-	$DRV	1	$DRV
+		PMParamEnablDisablDM	-	$DRV	1	$DRV
+		SignalTowerBlinkRDM	-	$DRV	1	$DRV
+		SignalTowerBlinkGDM	-	$DRV	1	$DRV
+		SignalTowerBlinkYDM	-	$DRV	1	$DRV
+		SignalTowerBlinkBDM	-	$DRV	1	$DRV
+	$$$ String
+		ModuleNameSM		$DRV	-	1
+		MARS_PMNameSM		$DRV	-	1
+## PMC_Process
+	$$$ Digital
+
+		MAIN_CONTROL		-	$DRV	1	$DRV
+		ActiveRCPType		-	$DRV	1	$DRV
+		SW_GbIntlckDM		-	$DRV	1	$DRV
+
+		PRO_RcpTypeDM		-	$DRV	1	$DRV
+		PRO_IsMainDM		-	$DRV	1	$DRV
+		PRO_IdleRcpStsDM	-	$DRV	1	$DRV
+
+		# 2015.05.20 Add Scheduler Debug Log
+		Sch_LogDM		-	$DRV	1	$DRV
+
+	$$$ Analog
+
+		PumpTime		-	$DRV	1	$DRV
+		CurRCPStep		-	$DRV	1	$DRV
+		MaxRCPStep		-	$DRV	1	$DRV
+		CurPreHeatTime		-	$DRV	1	$DRV
+		PreHeatTime		-	$DRV	1	$DRV
+		CurCVGWaitTime		-	$DRV	1	$DRV
+		CVGWaitTime		-	$DRV	1	$DRV
+		StgHtrTotSatDly		-	$DRV	1	$DRV
+		StgHtrCurSatDly		-	$DRV	1	$DRV
+
+		PRO_TotalStepAM		-	$DRV	1	$DRV
+		PRO_CurStepAM		-	$DRV	1	$DRV
+		PRO_CurCycAM		-	$DRV	1	$DRV
+		PRO_TotalCycAM		-	$DRV	1	$DRV
+
+		# 2015.02.24 Add RPG Alarm Process Retry Count
+		RPGAlmPrcRetryAM	-	$DRV	1
+
+	$$$ String
+
+		RECIPE_FILE		$DRV	-	1
+		RCP_Step_Name		$DRV	-	1
+		ActiveRCP		$DRV	-	1
+		ValveRCP		$DRV	-	1
+
+		PRO_RcpNameSM		$DRV	-	1
+		PRO_StepNameSM		$DRV	-	1
+
+## PMC_PRESSCONTROL_TV
+	$$$ Digital
+
+		FC_PRESSURE_CONTROL	-	$DRV	1	$DRV
+
+## PMC_LeakCheck
+	$$$ Digital
+		LeakChkStsDM		-	$DRV	1	$DRV
+		LeakChkStopDM		-	$DRV	1	$DRV	
+		LEAK_ModeDM		-	$DRV	1	$DRV	
+		DisPurgeStsDM		-	$DRV	1	$DRV
+		DisCleanStsDM		-	$DRV	1	$DRV
+		DisSrcStsDM		-	$DRV	1	$DRV
+		PurgeLineLK_DM		-	$DRV	1	$DRV
+		CleanLineLK_DM		-	$DRV	1	$DRV
+		SrcLineLK_DM		-	$DRV	1	$DRV
+		
+	$$$ Analog
+		SysLeakChkRateAM	-	$DRV	1	$DRV
+		SysPurLkChkRateAM	-	$DRV	1	$DRV	
+		SysClnLkChkRateAM	-	$DRV	1	$DRV
+
+		ALDLkChkBasePressAM	-	$DRV	1	$DRV 
+		ALDLkChkLimitPressAM	-	$DRV	1	$DRV 
+		ALDLkChkDelayTimeAM	-	$DRV	1	$DRV 
+		ALDLkChkPumpTimeOutAM	-	$DRV	1	$DRV 
+		ALDLkChkCountSPAM	-	$DRV	1	$DRV	 
+		ALDLkChkCountAM		-	$DRV	1	$DRV 
+		ALDChkLimitPressAM	-	$DRV	1	$DRV 
+		ALDLeakChkAvgAM		-	$DRV	1	$DRV 
+		ALDBaseDelayTimeAM  	-	$DRV	1	$DRV    
+			
+		LnLkChkBasePressAM	-	$DRV	1	$DRV  	
+		LnLkChkLimitPressAM	-	$DRV	1	$DRV  	
+		LnLkChkDelayTimeAM	-	$DRV	1	$DRV  	
+		LnLkChkPumpTimeOutAM	-	$DRV	1	$DRV  
+                LnLkChkCountSPAM	-	$DRV	1	$DRV  
+                LnBaseDelayTimeAM  	-	$DRV	1	$DRV  
+                
+		UrLkChkBasePressAM	-	$DRV	1	$DRV  
+                UrLkChkLimitPressAM	-	$DRV	1	$DRV  
+                UrLkChkDelayTimeAM	-	$DRV	1	$DRV  
+                UrLkChkPumpTimeOutAM	-	$DRV	1	$DRV  
+                UrLkChkCountSPAM	-	$DRV	1	$DRV  
+                UrBaseDelayTimeAM	-	$DRV	1	$DRV  
+
+		LeakChk_Log_Rate1	-	$DRV	1	$DRV
+		LeakChk_Log_Rate2	-	$DRV	1	$DRV
+		LeakChk_Log_Rate3	-	$DRV	1	$DRV
+		LeakChk_Log_Rate4	-	$DRV	1	$DRV
+		LeakChk_Log_Rate5	-	$DRV	1	$DRV
+
+		LeakChk_Log_Avg1	-	$DRV	1	$DRV
+		LeakChk_Log_Avg2	-	$DRV	1	$DRV
+		LeakChk_Log_Avg3	-	$DRV	1	$DRV
+		LeakChk_Log_Avg4	-	$DRV	1	$DRV
+		LeakChk_Log_Avg5	-	$DRV	1	$DRV
+
+		LeakChkBasePressAM	-	$DRV	1	$DRV
+		LeakChkLimitPressAM	-	$DRV	1	$DRV
+		LeakChkDelayTimeAM	-	$DRV	1	$DRV
+		LeakChkPumpTimeOutAM	-	$DRV	1	$DRV
+		LeakChkCountSPAM	-	$DRV	1	$DRV
+#		LeakChkLimitRorAM	-	$DRV	1	$DRV
+		LeakChkCountAM		-	$DRV	1	$DRV
+		BaseDelayTimeAM		-	$DRV	1	$DRV
+				
+		LkChkStartPress1AM	-	$DRV	1	$DRV
+		LkChkStartPress2AM	-	$DRV	1	$DRV
+		LkChkStartPress3AM	-	$DRV	1	$DRV
+		LkChkStartPress4AM	-	$DRV	1	$DRV
+		LkChkStartPress5AM	-	$DRV	1	$DRV
+		LkChkStartPress6AM	-	$DRV	1	$DRV
+		LkChkStartPress7AM	-	$DRV	1	$DRV
+		LkChkStartPress8AM	-	$DRV	1	$DRV
+		LkChkStartPress9AM	-	$DRV	1	$DRV
+		LkChkStartPress10AM	-	$DRV	1	$DRV
+
+		LkChkEndPress1AM	-	$DRV	1	$DRV
+		LkChkEndPress2AM	-	$DRV	1	$DRV
+		LkChkEndPress3AM	-	$DRV	1	$DRV
+		LkChkEndPress4AM	-	$DRV	1	$DRV
+		LkChkEndPress5AM	-	$DRV	1	$DRV
+		LkChkEndPress6AM	-	$DRV	1	$DRV
+		LkChkEndPress7AM	-	$DRV	1	$DRV
+		LkChkEndPress8AM	-	$DRV	1	$DRV
+		LkChkEndPress9AM	-	$DRV	1	$DRV
+		LkChkEndPress10AM	-	$DRV	1	$DRV
+
+		LeakChkRate1AM		-	$DRV	1	$DRV
+		LeakChkRate2AM		-	$DRV	1	$DRV
+		LeakChkRate3AM		-	$DRV	1	$DRV
+		LeakChkRate4AM		-	$DRV	1	$DRV
+		LeakChkRate5AM		-	$DRV	1	$DRV
+		LeakChkRate6AM		-	$DRV	1	$DRV
+		LeakChkRate7AM		-	$DRV	1	$DRV
+		LeakChkRate8AM		-	$DRV	1	$DRV
+		LeakChkRate9AM		-	$DRV	1	$DRV
+		LeakChkRate10AM		-	$DRV	1	$DRV
+		LeakChkAvgAM		-	$DRV	1	$DRV
+
+		$$$ String
+
+		LeakChkProgrssTimeSM		$DRV	-	1
+		LeakChkProgrssStepSM		$DRV	-	1
+		LeakChkStartTimeSM		$DRV	-	1
+		LeakChkEndTimeSM		$DRV	-	1
+		LeakChk_Log_Time1		$DRV	-	1
+		LeakChk_Log_Time2		$DRV	-	1
+		LeakChk_Log_Time3		$DRV	-	1
+		LeakChk_Log_Time4		$DRV	-	1
+		LeakChk_Log_Time5		$DRV	-	1
+
+## PMC_Datalog
+	$$$	Analog
+		PRO_CurStepAM_Avr	-	$DRV	1	$DRV
+		PRO_CurStepAM_Avr2	-	$DRV	1	$DRV
+		PRO_CurStepAM_LAvr	-	$DRV	1	$DRV
+		PRO_CurStepAM_LAvr2	-	$DRV	1	$DRV
+
+		PRO_StepTimeAM_Avr	-	$DRV	1	$DRV
+		PRO_StepTimeAM_Avr2	-	$DRV	1	$DRV
+		PRO_StepTimeAM_LAvr	-	$DRV	1	$DRV
+		PRO_StepTimeAM_LAvr2	-	$DRV	1	$DRV
+
+		ChmPrsAI_Avr		-	$DRV	1	$DRV
+		ChmPrsAI_Avr2		-	$DRV	1	$DRV
+		ChmPrsAI_LAvr		-	$DRV	1	$DRV
+		ChmPrsAI_LAvr2		-	$DRV	1	$DRV
+
+		PumpPrsAI_Avr		-	$DRV	1	$DRV
+		PumpPrsAI_Avr2		-	$DRV	1	$DRV
+		PumpPrsAI_LAvr		-	$DRV	1	$DRV
+		PumpPrsAI_LAvr2		-	$DRV	1	$DRV
+
+		M651_Pressure_Avr	-	$DRV	1	$DRV
+		M651_Pressure_Avr2	-	$DRV	1	$DRV
+		M651_Pressure_LAvr	-	$DRV	1	$DRV
+		M651_Pressure_LAvr2	-	$DRV	1	$DRV
+
+		M651_Position_Avr	-	$DRV	1	$DRV
+		M651_Position_Avr2	-	$DRV	1	$DRV
+		M651_Position_LAvr	-	$DRV	1	$DRV
+		M651_Position_LAvr2	-	$DRV	1	$DRV
+
+		MFC01FlwAI_Avr		-	$DRV	1	$DRV
+		MFC02FlwAI_Avr		-	$DRV	1	$DRV
+		MFC03FlwAI_Avr		-	$DRV	1	$DRV
+		MFC04FlwAI_Avr		-	$DRV	1	$DRV
+		MFC05FlwAI_Avr		-	$DRV	1	$DRV
+		MFC06FlwAI_Avr		-	$DRV	1	$DRV
+		MFC07FlwAI_Avr		-	$DRV	1	$DRV
+		MFC08FlwAI_Avr		-	$DRV	1	$DRV
+		MFC09FlwAI_Avr		-	$DRV	1	$DRV
+
+		MFC01FlwAI_LAvr		-	$DRV	1	$DRV
+		MFC02FlwAI_LAvr		-	$DRV	1	$DRV
+		MFC03FlwAI_LAvr		-	$DRV	1	$DRV
+		MFC04FlwAI_LAvr		-	$DRV	1	$DRV
+		MFC05FlwAI_LAvr		-	$DRV	1	$DRV
+		MFC06FlwAI_LAvr		-	$DRV	1	$DRV
+		MFC07FlwAI_LAvr		-	$DRV	1	$DRV
+		MFC08FlwAI_LAvr		-	$DRV	1	$DRV
+		MFC09FlwAI_LAvr		-	$DRV	1	$DRV
+
+		MFC01FlwAI_Avr2		-	$DRV	1	$DRV
+		MFC02FlwAI_Avr2		-	$DRV	1	$DRV
+		MFC03FlwAI_Avr2		-	$DRV	1	$DRV
+		MFC04FlwAI_Avr2		-	$DRV	1	$DRV
+		MFC05FlwAI_Avr2		-	$DRV	1	$DRV
+		MFC06FlwAI_Avr2		-	$DRV	1	$DRV
+		MFC07FlwAI_Avr2		-	$DRV	1	$DRV
+		MFC08FlwAI_Avr2		-	$DRV	1	$DRV
+		MFC09FlwAI_Avr2		-	$DRV	1	$DRV
+
+		MFC01FlwAI_LAvr2	-	$DRV	1	$DRV
+		MFC02FlwAI_LAvr2	-	$DRV	1	$DRV
+		MFC03FlwAI_LAvr2	-	$DRV	1	$DRV
+		MFC04FlwAI_LAvr2	-	$DRV	1	$DRV
+		MFC05FlwAI_LAvr2	-	$DRV	1	$DRV
+		MFC06FlwAI_LAvr2	-	$DRV	1	$DRV
+		MFC07FlwAI_LAvr2	-	$DRV	1	$DRV
+		MFC08FlwAI_LAvr2	-	$DRV	1	$DRV
+		MFC09FlwAI_LAvr2	-	$DRV	1	$DRV
+
+		SHT1_TmpRdAI_Avr	-	$DRV	1	$DRV
+		SHT1_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		SHT1_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		SHT1_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+
+		SHT1_OutPwAI_Avr	-	$DRV	1	$DRV
+		SHT1_OutPwAI_LAvr	-	$DRV	1	$DRV
+		SHT1_OutPwAI_Avr2	-	$DRV	1	$DRV
+		SHT1_OutPwAI_LAvr2	-	$DRV	1	$DRV
+
+		SHT1_OutPwAI2_Avr	-	$DRV	1	$DRV
+		SHT1_OutPwAI2_LAvr	-	$DRV	1	$DRV
+		SHT1_OutPwAI2_Avr2	-	$DRV	1	$DRV
+		SHT1_OutPwAI2_LAvr2	-	$DRV	1	$DRV
+
+		SHT2_TmpRdAI_Avr	-	$DRV	1	$DRV
+		SHT2_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		SHT2_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		SHT2_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+
+		SHT2_OutPwAI_Avr	-	$DRV	1	$DRV
+		SHT2_OutPwAI_LAvr	-	$DRV	1	$DRV
+		SHT2_OutPwAI_Avr2	-	$DRV	1	$DRV
+		SHT2_OutPwAI_LAvr2	-	$DRV	1	$DRV
+
+		SHT2_OutPwAI2_Avr	-	$DRV	1	$DRV
+		SHT2_OutPwAI2_LAvr	-	$DRV	1	$DRV
+		SHT2_OutPwAI2_Avr2	-	$DRV	1	$DRV
+		SHT2_OutPwAI2_LAvr2	-	$DRV	1	$DRV
+
+		StgHtr1CurrAI_Avr	-	$DRV	1	$DRV
+		StgHtr1CurrAI_LAvr	-	$DRV	1	$DRV
+		StgHtr1CurrAI_Avr2	-	$DRV	1	$DRV
+		StgHtr1CurrAI_LAvr2	-	$DRV	1	$DRV
+
+		StgHtr2CurrAI_Avr	-	$DRV	1	$DRV
+		StgHtr2CurrAI_LAvr	-	$DRV	1	$DRV
+		StgHtr2CurrAI_Avr2	-	$DRV	1	$DRV
+		StgHtr2CurrAI_LAvr2	-	$DRV	1	$DRV
+
+		StgHtr1VoltAI_Avr	-	$DRV	1	$DRV
+		StgHtr1VoltAI_LAvr	-	$DRV	1	$DRV
+		StgHtr1VoltAI_Avr2	-	$DRV	1	$DRV
+		StgHtr1VoltAI_LAvr2	-	$DRV	1	$DRV
+
+		StgHtr2VoltAI_Avr	-	$DRV	1	$DRV
+		StgHtr2VoltAI_LAvr	-	$DRV	1	$DRV
+		StgHtr2VoltAI_Avr2	-	$DRV	1	$DRV
+		StgHtr2VoltAI_LAvr2	-	$DRV	1	$DRV
+
+ 		HT01_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT02_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT03_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT04_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT05_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT06_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT07_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT08_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT09_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT10_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT11_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT12_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT13_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT14_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT15_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT16_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT17_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT18_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT19_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT20_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT21_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT22_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT23_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT24_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT25_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT26_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT27_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT28_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT29_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT30_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT31_TmpRdAI_Avr	-	$DRV	1	$DRV
+		HT32_TmpRdAI_Avr	-	$DRV	1	$DRV
+
+		HT01_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT02_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT03_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT04_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT05_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT06_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT07_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT08_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT09_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT10_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT11_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT12_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT13_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT14_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT15_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT16_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT17_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT18_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT19_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT20_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT21_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT22_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT23_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT24_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT25_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT26_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT27_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT28_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT29_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT30_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT31_TmpRdAI_LAvr	-	$DRV	1	$DRV
+		HT32_TmpRdAI_LAvr	-	$DRV	1	$DRV
+
+		HT01_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT02_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT03_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT04_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT05_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT06_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT07_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT08_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT09_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT10_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT11_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT12_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT13_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT14_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT15_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT16_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT17_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT18_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT19_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT20_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT21_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT22_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT23_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT24_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT25_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT26_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT27_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT28_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT29_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT30_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT31_TmpRdAI_Avr2	-	$DRV	1	$DRV
+		HT32_TmpRdAI_Avr2	-	$DRV	1	$DRV
+
+		HT01_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT02_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT03_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT04_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT05_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT06_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT07_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT08_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT09_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT10_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT11_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT12_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT13_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT14_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT15_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT16_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT17_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT18_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT19_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT20_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT21_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT22_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT23_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT24_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT25_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT26_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT27_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT28_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT29_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT30_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT31_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+		HT32_TmpRdAI_LAvr2	-	$DRV	1	$DRV
+
+		RF1LoadPowAI_Avr	-	$DRV	1	$DRV
+		RF1LoadPowAI_Avr2	-	$DRV	1	$DRV
+		RF1LoadPowAI_LAvr	-	$DRV	1	$DRV
+		RF1LoadPowAI_LAvr2	-	$DRV	1	$DRV
+
+		RF1RefPowAI_Avr		-	$DRV	1	$DRV
+		RF1RefPowAI_Avr2	-	$DRV	1	$DRV
+		RF1RefPowAI_LAvr	-	$DRV	1	$DRV
+		RF1RefPowAI_LAvr2	-	$DRV	1	$DRV
+
+		RF2LoadPowAI_Avr	-	$DRV	1	$DRV
+		RF2LoadPowAI_Avr2	-	$DRV	1	$DRV
+		RF2LoadPowAI_LAvr	-	$DRV	1	$DRV
+		RF2LoadPowAI_LAvr2	-	$DRV	1	$DRV
+
+		RF2RefPowAI_Avr		-	$DRV	1	$DRV
+		RF2RefPowAI_Avr2	-	$DRV	1	$DRV
+		RF2RefPowAI_LAvr	-	$DRV	1	$DRV
+		RF2RefPowAI_LAvr2	-	$DRV	1	$DRV
+
+		V97VlvOpenTmAI_Avr	-	$DRV	1	$DRV
+		V97VlvOpenTmAI_Avr2	-	$DRV	1	$DRV
+		V97VlvOpenTmAI_LAvr	-	$DRV	1	$DRV
+		V97VlvOpenTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V97VlvCloseTmAI_Avr	-	$DRV	1	$DRV
+		V97VlvCloseTmAI_Avr2	-	$DRV	1	$DRV
+		V97VlvCloseTmAI_LAvr	-	$DRV	1	$DRV
+		V97VlvCloseTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V98VlvOpenTmAI_Avr	-	$DRV	1	$DRV
+		V98VlvOpenTmAI_Avr2	-	$DRV	1	$DRV
+		V98VlvOpenTmAI_LAvr	-	$DRV	1	$DRV
+		V98VlvOpenTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V98VlvCloseTmAI_Avr	-	$DRV	1	$DRV
+		V98VlvCloseTmAI_Avr2	-	$DRV	1	$DRV
+		V98VlvCloseTmAI_LAvr	-	$DRV	1	$DRV
+		V98VlvCloseTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V100VlvOpenTmAI_Avr	-	$DRV	1	$DRV
+		V100VlvOpenTmAI_Avr2	-	$DRV	1	$DRV
+		V100VlvOpenTmAI_LAvr	-	$DRV	1	$DRV
+		V100VlvOpenTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V100VlvCloseTmAI_Avr	-	$DRV	1	$DRV
+		V100VlvCloseTmAI_Avr2	-	$DRV	1	$DRV
+		V100VlvCloseTmAI_LAvr	-	$DRV	1	$DRV
+		V100VlvCloseTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V101VlvOpenTmAI_Avr	-	$DRV	1	$DRV
+		V101VlvOpenTmAI_Avr2	-	$DRV	1	$DRV
+		V101VlvOpenTmAI_LAvr	-	$DRV	1	$DRV
+		V101VlvOpenTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V101VlvCloseTmAI_Avr	-	$DRV	1	$DRV
+		V101VlvCloseTmAI_Avr2	-	$DRV	1	$DRV
+		V101VlvCloseTmAI_LAvr	-	$DRV	1	$DRV
+		V101VlvCloseTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V102VlvOpenTmAI_Avr	-	$DRV	1	$DRV
+		V102VlvOpenTmAI_Avr2	-	$DRV	1	$DRV
+		V102VlvOpenTmAI_LAvr	-	$DRV	1	$DRV
+		V102VlvOpenTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V102VlvCloseTmAI_Avr	-	$DRV	1	$DRV
+		V102VlvCloseTmAI_Avr2	-	$DRV	1	$DRV
+		V102VlvCloseTmAI_LAvr	-	$DRV	1	$DRV
+		V102VlvCloseTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V105VlvOpenTmAI_Avr	-	$DRV	1	$DRV
+		V105VlvOpenTmAI_Avr2	-	$DRV	1	$DRV
+		V105VlvOpenTmAI_LAvr	-	$DRV	1	$DRV
+		V105VlvOpenTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V105VlvCloseTmAI_Avr	-	$DRV	1	$DRV
+		V105VlvCloseTmAI_Avr2	-	$DRV	1	$DRV
+		V105VlvCloseTmAI_LAvr	-	$DRV	1	$DRV
+		V105VlvCloseTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V106VlvOpenTmAI_Avr	-	$DRV	1	$DRV
+		V106VlvOpenTmAI_Avr2	-	$DRV	1	$DRV
+		V106VlvOpenTmAI_LAvr	-	$DRV	1	$DRV
+		V106VlvOpenTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V106VlvCloseTmAI_Avr	-	$DRV	1	$DRV
+		V106VlvCloseTmAI_Avr2	-	$DRV	1	$DRV
+		V106VlvCloseTmAI_LAvr	-	$DRV	1	$DRV
+		V106VlvCloseTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V108VlvOpenTmAI_Avr	-	$DRV	1	$DRV
+		V108VlvOpenTmAI_Avr2	-	$DRV	1	$DRV
+		V108VlvOpenTmAI_LAvr	-	$DRV	1	$DRV
+		V108VlvOpenTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V108VlvCloseTmAI_Avr	-	$DRV	1	$DRV
+		V108VlvCloseTmAI_Avr2	-	$DRV	1	$DRV
+		V108VlvCloseTmAI_LAvr	-	$DRV	1	$DRV
+		V108VlvCloseTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V109VlvOpenTmAI_Avr	-	$DRV	1	$DRV
+		V109VlvOpenTmAI_Avr2	-	$DRV	1	$DRV
+		V109VlvOpenTmAI_LAvr	-	$DRV	1	$DRV
+		V109VlvOpenTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V109VlvCloseTmAI_Avr	-	$DRV	1	$DRV
+		V109VlvCloseTmAI_Avr2	-	$DRV	1	$DRV
+		V109VlvCloseTmAI_LAvr	-	$DRV	1	$DRV
+		V109VlvCloseTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V110VlvOpenTmAI_Avr	-	$DRV	1	$DRV
+		V110VlvOpenTmAI_Avr2	-	$DRV	1	$DRV
+		V110VlvOpenTmAI_LAvr	-	$DRV	1	$DRV
+		V110VlvOpenTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V110VlvCloseTmAI_Avr	-	$DRV	1	$DRV
+		V110VlvCloseTmAI_Avr2	-	$DRV	1	$DRV
+		V110VlvCloseTmAI_LAvr	-	$DRV	1	$DRV
+		V110VlvCloseTmAI_LAvr2	-	$DRV	1	$DRV
+
+		# 2015.04.28 Add Canister ALD Valve
+		V11VlvOpenTmAI_Avr	-	$DRV	1	$DRV
+		V11VlvOpenTmAI_Avr2	-	$DRV	1	$DRV
+		V11VlvOpenTmAI_LAvr	-	$DRV	1	$DRV
+		V11VlvOpenTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V11VlvCloseTmAI_Avr	-	$DRV	1	$DRV
+		V11VlvCloseTmAI_Avr2	-	$DRV	1	$DRV
+		V11VlvCloseTmAI_LAvr	-	$DRV	1	$DRV
+		V11VlvCloseTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V12VlvOpenTmAI_Avr	-	$DRV	1	$DRV
+		V12VlvOpenTmAI_Avr2	-	$DRV	1	$DRV
+		V12VlvOpenTmAI_LAvr	-	$DRV	1	$DRV
+		V12VlvOpenTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V12VlvCloseTmAI_Avr	-	$DRV	1	$DRV
+		V12VlvCloseTmAI_Avr2	-	$DRV	1	$DRV
+		V12VlvCloseTmAI_LAvr	-	$DRV	1	$DRV
+		V12VlvCloseTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V17VlvOpenTmAI_Avr	-	$DRV	1	$DRV
+		V17VlvOpenTmAI_Avr2	-	$DRV	1	$DRV
+		V17VlvOpenTmAI_LAvr	-	$DRV	1	$DRV
+		V17VlvOpenTmAI_LAvr2	-	$DRV	1	$DRV
+
+		V17VlvCloseTmAI_Avr	-	$DRV	1	$DRV
+		V17VlvCloseTmAI_Avr2	-	$DRV	1	$DRV
+		V17VlvCloseTmAI_LAvr	-	$DRV	1	$DRV
+		V17VlvCloseTmAI_LAvr2	-	$DRV	1	$DRV
+
+		RPGLoadPowAI_Avr	-	$DRV	1	$DRV
+		RPGLoadPowAI_Avr2	-	$DRV	1	$DRV
+		RPGLoadPowAI_LAvr	-	$DRV	1	$DRV
+		RPGLoadPowAI_LAvr2	-	$DRV	1	$DRV
+
+		RPGRefPowAI_Avr		-	$DRV	1	$DRV
+		RPGRefPowAI_Avr2	-	$DRV	1	$DRV
+		RPGRefPowAI_LAvr	-	$DRV	1	$DRV
+		RPGRefPowAI_LAvr2	-	$DRV	1	$DRV
+
+		HF_LOAD_POS_A_Avr	-	$DRV	1	$DRV
+		HF_LOAD_POS_A_Avr2	-	$DRV	1	$DRV
+		HF_LOAD_POS_A_LAvr	-	$DRV	1	$DRV
+		HF_LOAD_POS_A_LAvr2	-	$DRV	1	$DRV
+
+		HF_LOAD_POS_B_Avr	-	$DRV	1	$DRV
+		HF_LOAD_POS_B_Avr2	-	$DRV	1	$DRV
+		HF_LOAD_POS_B_LAvr	-	$DRV	1	$DRV
+		HF_LOAD_POS_B_LAvr2	-	$DRV	1	$DRV
+
+		HF_TUNE_POS_A_Avr	-	$DRV	1	$DRV
+		HF_TUNE_POS_A_Avr2	-	$DRV	1	$DRV
+		HF_TUNE_POS_A_LAvr	-	$DRV	1	$DRV
+		HF_TUNE_POS_A_LAvr2	-	$DRV	1	$DRV
+
+		HF_TUNE_POS_B_Avr	-	$DRV	1	$DRV
+		HF_TUNE_POS_B_Avr2	-	$DRV	1	$DRV
+		HF_TUNE_POS_B_LAvr	-	$DRV	1	$DRV
+		HF_TUNE_POS_B_LAvr2	-	$DRV	1	$DRV
+
+		HF_Z_Phase_A_Avr	-	$DRV	1	$DRV
+		HF_Z_Phase_A_Avr2	-	$DRV	1	$DRV
+		HF_Z_Phase_A_LAvr	-	$DRV	1	$DRV
+		HF_Z_Phase_A_LAvr2	-	$DRV	1	$DRV
+
+		HF_Z_Phase_B_Avr	-	$DRV	1	$DRV
+		HF_Z_Phase_B_Avr2	-	$DRV	1	$DRV
+		HF_Z_Phase_B_LAvr	-	$DRV	1	$DRV
+		HF_Z_Phase_B_LAvr2	-	$DRV	1	$DRV
+
+		HF_Z_Power_A_Avr	-	$DRV	1	$DRV
+		HF_Z_Power_A_Avr2	-	$DRV	1	$DRV
+		HF_Z_Power_A_LAvr	-	$DRV	1	$DRV
+		HF_Z_Power_A_LAvr2	-	$DRV	1	$DRV
+
+		HF_Z_Power_B_Avr	-	$DRV	1	$DRV
+		HF_Z_Power_B_Avr2	-	$DRV	1	$DRV
+		HF_Z_Power_B_LAvr	-	$DRV	1	$DRV
+		HF_Z_Power_B_LAvr2	-	$DRV	1	$DRV
+
+		HF_Z_R_A_Avr		-	$DRV	1	$DRV
+		HF_Z_R_A_Avr2		-	$DRV	1	$DRV
+		HF_Z_R_A_LAvr		-	$DRV	1	$DRV
+		HF_Z_R_A_LAvr2		-	$DRV	1	$DRV
+
+		HF_Z_R_B_Avr		-	$DRV	1	$DRV
+		HF_Z_R_B_Avr2		-	$DRV	1	$DRV
+		HF_Z_R_B_LAvr		-	$DRV	1	$DRV
+		HF_Z_R_B_LAvr2		-	$DRV	1	$DRV
+
+		HF_Z_X_A_Avr		-	$DRV	1	$DRV
+		HF_Z_X_A_Avr2		-	$DRV	1	$DRV
+		HF_Z_X_A_LAvr		-	$DRV	1	$DRV
+		HF_Z_X_A_LAvr2		-	$DRV	1	$DRV
+
+		HF_Z_X_B_Avr		-	$DRV	1	$DRV
+		HF_Z_X_B_Avr2		-	$DRV	1	$DRV
+		HF_Z_X_B_LAvr		-	$DRV	1	$DRV
+		HF_Z_X_B_LAvr2		-	$DRV	1	$DRV
+
+		HF_Z_Vrms_A_Avr		-	$DRV	1	$DRV
+		HF_Z_Vrms_A_Avr2	-	$DRV	1	$DRV
+		HF_Z_Vrms_A_LAvr	-	$DRV	1	$DRV
+		HF_Z_Vrms_A_LAvr2	-	$DRV	1	$DRV
+
+		HF_Z_Vrms_B_Avr		-	$DRV	1	$DRV
+		HF_Z_Vrms_B_Avr2	-	$DRV	1	$DRV
+		HF_Z_Vrms_B_LAvr	-	$DRV	1	$DRV
+		HF_Z_Vrms_B_LAvr2	-	$DRV	1	$DRV
+
+		HF_Z_Irms_A_Avr		-	$DRV	1	$DRV
+		HF_Z_Irms_A_Avr2	-	$DRV	1	$DRV
+		HF_Z_Irms_A_LAvr	-	$DRV	1	$DRV
+		HF_Z_Irms_A_LAvr2	-	$DRV	1	$DRV
+
+		HF_Z_Irms_B_Avr		-	$DRV	1	$DRV
+		HF_Z_Irms_B_Avr2	-	$DRV	1	$DRV
+		HF_Z_Irms_B_LAvr	-	$DRV	1	$DRV
+		HF_Z_Irms_B_LAvr2	-	$DRV	1	$DRV
+
+#Wafer Min/Max DCOP
+		#Min
+		PRO_CurStepAM_Min	-	$DRV	1	$DRV
+		PRO_CurStepAM_Min2	-	$DRV	1	$DRV
+		PRO_CurStepAM_LMin	-	$DRV	1	$DRV
+		PRO_CurStepAM_LMin2	-	$DRV	1	$DRV
+
+		PRO_StepTimeAM_Min	-	$DRV	1	$DRV
+		PRO_StepTimeAM_Min2	-	$DRV	1	$DRV
+		PRO_StepTimeAM_LMin	-	$DRV	1	$DRV
+		PRO_StepTimeAM_LMin2	-	$DRV	1	$DRV
+
+		ChmPrsAI_Min		-	$DRV	1	$DRV
+		ChmPrsAI_Min2		-	$DRV	1	$DRV
+		ChmPrsAI_LMin		-	$DRV	1	$DRV
+		ChmPrsAI_LMin2		-	$DRV	1	$DRV
+
+		PumpPrsAI_Min		-	$DRV	1	$DRV
+		PumpPrsAI_Min2		-	$DRV	1	$DRV
+		PumpPrsAI_LMin		-	$DRV	1	$DRV
+		PumpPrsAI_LMin2		-	$DRV	1	$DRV
+
+		M651_Pressure_Min	-	$DRV	1	$DRV
+		M651_Pressure_Min2	-	$DRV	1	$DRV
+		M651_Pressure_LMin	-	$DRV	1	$DRV
+		M651_Pressure_LMin2	-	$DRV	1	$DRV
+
+		M651_Position_Min	-	$DRV	1	$DRV
+		M651_Position_Min2	-	$DRV	1	$DRV
+		M651_Position_LMin	-	$DRV	1	$DRV
+		M651_Position_LMin2	-	$DRV	1	$DRV
+
+		MFC01FlwAI_Min		-	$DRV	1	$DRV
+		MFC02FlwAI_Min		-	$DRV	1	$DRV
+		MFC03FlwAI_Min		-	$DRV	1	$DRV
+		MFC04FlwAI_Min		-	$DRV	1	$DRV
+		MFC05FlwAI_Min		-	$DRV	1	$DRV
+		MFC06FlwAI_Min		-	$DRV	1	$DRV
+		MFC07FlwAI_Min		-	$DRV	1	$DRV
+		MFC08FlwAI_Min		-	$DRV	1	$DRV
+		MFC09FlwAI_Min  	-	$DRV	1	$DRV
+
+		MFC01FlwAI_LMin		-	$DRV	1	$DRV
+		MFC02FlwAI_LMin		-	$DRV	1	$DRV
+		MFC03FlwAI_LMin		-	$DRV	1	$DRV
+		MFC04FlwAI_LMin		-	$DRV	1	$DRV
+		MFC05FlwAI_LMin		-	$DRV	1	$DRV
+		MFC06FlwAI_LMin		-	$DRV	1	$DRV
+		MFC07FlwAI_LMin		-	$DRV	1	$DRV
+		MFC08FlwAI_LMin		-	$DRV	1	$DRV
+		MFC09FlwAI_LMin 	-	$DRV	1	$DRV
+
+		MFC01FlwAI_Min2		-	$DRV	1	$DRV
+		MFC02FlwAI_Min2		-	$DRV	1	$DRV
+		MFC03FlwAI_Min2		-	$DRV	1	$DRV
+		MFC04FlwAI_Min2		-	$DRV	1	$DRV
+		MFC05FlwAI_Min2		-	$DRV	1	$DRV
+		MFC06FlwAI_Min2		-	$DRV	1	$DRV
+		MFC07FlwAI_Min2		-	$DRV	1	$DRV
+		MFC08FlwAI_Min2		-	$DRV	1	$DRV
+		MFC09FlwAI_Min2 	-	$DRV	1	$DRV
+
+		MFC01FlwAI_LMin2	-	$DRV	1	$DRV
+		MFC02FlwAI_LMin2	-	$DRV	1	$DRV
+		MFC03FlwAI_LMin2	-	$DRV	1	$DRV
+		MFC04FlwAI_LMin2	-	$DRV	1	$DRV
+		MFC05FlwAI_LMin2	-	$DRV	1	$DRV
+		MFC06FlwAI_LMin2	-	$DRV	1	$DRV
+		MFC07FlwAI_LMin2	-	$DRV	1	$DRV
+		MFC08FlwAI_LMin2	-	$DRV	1	$DRV
+		MFC09FlwAI_LMin2	-	$DRV	1	$DRV
+
+
+		SHT1_TmpRdAI_Min	-	$DRV	1	$DRV
+		SHT1_TmpRdAI_LMin	-	$DRV	1	$DRV
+		SHT1_TmpRdAI_Min2	-	$DRV	1	$DRV
+		SHT1_TmpRdAI_LMin2	-	$DRV	1	$DRV
+
+		SHT1_OutPwAI_Min	-	$DRV	1	$DRV
+		SHT1_OutPwAI_LMin	-	$DRV	1	$DRV
+		SHT1_OutPwAI_Min2	-	$DRV	1	$DRV
+		SHT1_OutPwAI_LMin2	-	$DRV	1	$DRV
+
+		SHT1_OutPwAI2_Min	-	$DRV	1	$DRV
+		SHT1_OutPwAI2_LMin	-	$DRV	1	$DRV
+		SHT1_OutPwAI2_Min2	-	$DRV	1	$DRV
+		SHT1_OutPwAI2_LMin2	-	$DRV	1	$DRV
+
+		SHT2_TmpRdAI_Min	-	$DRV	1	$DRV
+		SHT2_TmpRdAI_LMin	-	$DRV	1	$DRV
+		SHT2_TmpRdAI_Min2	-	$DRV	1	$DRV
+		SHT2_TmpRdAI_LMin2	-	$DRV	1	$DRV
+
+		SHT2_OutPwAI_Min	-	$DRV	1	$DRV
+		SHT2_OutPwAI_LMin	-	$DRV	1	$DRV
+		SHT2_OutPwAI_Min2	-	$DRV	1	$DRV
+		SHT2_OutPwAI_LMin2	-	$DRV	1	$DRV
+
+		SHT2_OutPwAI2_Min	-	$DRV	1	$DRV
+		SHT2_OutPwAI2_LMin	-	$DRV	1	$DRV
+		SHT2_OutPwAI2_Min2	-	$DRV	1	$DRV
+		SHT2_OutPwAI2_LMin2	-	$DRV	1	$DRV
+
+		StgHtr1CurrAI_Min	-	$DRV	1	$DRV
+		StgHtr1CurrAI_LMin	-	$DRV	1	$DRV
+		StgHtr1CurrAI_Min2	-	$DRV	1	$DRV
+		StgHtr1CurrAI_LMin2	-	$DRV	1	$DRV
+
+		StgHtr2CurrAI_Min	-	$DRV	1	$DRV
+		StgHtr2CurrAI_LMin	-	$DRV	1	$DRV
+		StgHtr2CurrAI_Min2	-	$DRV	1	$DRV
+		StgHtr2CurrAI_LMin2	-	$DRV	1	$DRV
+
+		StgHtr1VoltAI_Min	-	$DRV	1	$DRV
+		StgHtr1VoltAI_LMin	-	$DRV	1	$DRV
+		StgHtr1VoltAI_Min2	-	$DRV	1	$DRV
+		StgHtr1VoltAI_LMin2	-	$DRV	1	$DRV
+
+		StgHtr2VoltAI_Min	-	$DRV	1	$DRV
+		StgHtr2VoltAI_LMin	-	$DRV	1	$DRV
+		StgHtr2VoltAI_Min2	-	$DRV	1	$DRV
+		StgHtr2VoltAI_LMin2	-	$DRV	1	$DRV
+
+ 		HT01_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT02_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT03_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT04_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT05_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT06_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT07_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT08_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT09_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT10_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT11_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT12_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT13_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT14_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT15_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT16_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT17_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT18_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT19_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT20_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT21_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT22_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT23_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT24_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT25_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT26_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT27_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT28_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT29_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT30_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT31_TmpRdAI_Min	-	$DRV	1	$DRV
+		HT32_TmpRdAI_Min	-	$DRV	1	$DRV
+
+		HT01_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT02_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT03_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT04_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT05_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT06_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT07_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT08_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT09_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT10_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT11_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT12_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT13_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT14_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT15_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT16_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT17_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT18_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT19_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT20_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT21_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT22_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT23_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT24_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT25_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT26_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT27_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT28_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT29_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT30_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT31_TmpRdAI_LMin	-	$DRV	1	$DRV
+		HT32_TmpRdAI_LMin	-	$DRV	1	$DRV
+
+		HT01_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT02_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT03_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT04_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT05_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT06_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT07_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT08_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT09_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT10_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT11_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT12_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT13_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT14_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT15_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT16_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT17_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT18_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT19_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT20_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT21_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT22_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT23_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT24_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT25_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT26_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT27_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT28_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT29_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT30_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT31_TmpRdAI_Min2	-	$DRV	1	$DRV
+		HT32_TmpRdAI_Min2	-	$DRV	1	$DRV
+
+		HT01_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT02_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT03_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT04_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT05_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT06_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT07_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT08_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT09_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT10_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT11_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT12_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT13_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT14_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT15_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT16_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT17_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT18_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT19_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT20_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT21_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT22_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT23_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT24_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT25_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT26_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT27_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT28_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT29_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT30_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT31_TmpRdAI_LMin2	-	$DRV	1	$DRV
+		HT32_TmpRdAI_LMin2	-	$DRV	1	$DRV
+
+		RF1LoadPowAI_Min	-	$DRV	1	$DRV
+		RF1LoadPowAI_Min2	-	$DRV	1	$DRV
+		RF1LoadPowAI_LMin	-	$DRV	1	$DRV
+		RF1LoadPowAI_LMin2	-	$DRV	1	$DRV
+
+		RF1RefPowAI_Min		-	$DRV	1	$DRV
+		RF1RefPowAI_Min2	-	$DRV	1	$DRV
+		RF1RefPowAI_LMin	-	$DRV	1	$DRV
+		RF1RefPowAI_LMin2	-	$DRV	1	$DRV
+
+		RF2LoadPowAI_Min	-	$DRV	1	$DRV
+		RF2LoadPowAI_Min2	-	$DRV	1	$DRV
+		RF2LoadPowAI_LMin	-	$DRV	1	$DRV
+		RF2LoadPowAI_LMin2	-	$DRV	1	$DRV
+
+		RF2RefPowAI_Min		-	$DRV	1	$DRV
+		RF2RefPowAI_Min2	-	$DRV	1	$DRV
+		RF2RefPowAI_LMin	-	$DRV	1	$DRV
+		RF2RefPowAI_LMin2	-	$DRV	1	$DRV
+
+		V97VlvOpenTmAI_Min	-	$DRV	1	$DRV
+		V97VlvOpenTmAI_Min2	-	$DRV	1	$DRV
+		V97VlvOpenTmAI_LMin	-	$DRV	1	$DRV
+		V97VlvOpenTmAI_LMin2	-	$DRV	1	$DRV
+
+		V97VlvCloseTmAI_Min	-	$DRV	1	$DRV
+		V97VlvCloseTmAI_Min2	-	$DRV	1	$DRV
+		V97VlvCloseTmAI_LMin	-	$DRV	1	$DRV
+		V97VlvCloseTmAI_LMin2	-	$DRV	1	$DRV
+
+		V98VlvOpenTmAI_Min	-	$DRV	1	$DRV
+		V98VlvOpenTmAI_Min2	-	$DRV	1	$DRV
+		V98VlvOpenTmAI_LMin	-	$DRV	1	$DRV
+		V98VlvOpenTmAI_LMin2	-	$DRV	1	$DRV
+
+		V98VlvCloseTmAI_Min	-	$DRV	1	$DRV
+		V98VlvCloseTmAI_Min2	-	$DRV	1	$DRV
+		V98VlvCloseTmAI_LMin	-	$DRV	1	$DRV
+		V98VlvCloseTmAI_LMin2	-	$DRV	1	$DRV
+
+		V100VlvOpenTmAI_Min	-	$DRV	1	$DRV
+		V100VlvOpenTmAI_Min2	-	$DRV	1	$DRV
+		V100VlvOpenTmAI_LMin	-	$DRV	1	$DRV
+		V100VlvOpenTmAI_LMin2	-	$DRV	1	$DRV
+
+		V100VlvCloseTmAI_Min	-	$DRV	1	$DRV
+		V100VlvCloseTmAI_Min2	-	$DRV	1	$DRV
+		V100VlvCloseTmAI_LMin	-	$DRV	1	$DRV
+		V100VlvCloseTmAI_LMin2	-	$DRV	1	$DRV
+
+		V101VlvOpenTmAI_Min	-	$DRV	1	$DRV
+		V101VlvOpenTmAI_Min2	-	$DRV	1	$DRV
+		V101VlvOpenTmAI_LMin	-	$DRV	1	$DRV
+		V101VlvOpenTmAI_LMin2	-	$DRV	1	$DRV
+
+		V101VlvCloseTmAI_Min	-	$DRV	1	$DRV
+		V101VlvCloseTmAI_Min2	-	$DRV	1	$DRV
+		V101VlvCloseTmAI_LMin	-	$DRV	1	$DRV
+		V101VlvCloseTmAI_LMin2	-	$DRV	1	$DRV
+
+		V102VlvOpenTmAI_Min	-	$DRV	1	$DRV
+		V102VlvOpenTmAI_Min2	-	$DRV	1	$DRV
+		V102VlvOpenTmAI_LMin	-	$DRV	1	$DRV
+		V102VlvOpenTmAI_LMin2	-	$DRV	1	$DRV
+
+		V102VlvCloseTmAI_Min	-	$DRV	1	$DRV
+		V102VlvCloseTmAI_Min2	-	$DRV	1	$DRV
+		V102VlvCloseTmAI_LMin	-	$DRV	1	$DRV
+		V102VlvCloseTmAI_LMin2	-	$DRV	1	$DRV
+
+		V105VlvOpenTmAI_Min	-	$DRV	1	$DRV
+		V105VlvOpenTmAI_Min2	-	$DRV	1	$DRV
+		V105VlvOpenTmAI_LMin	-	$DRV	1	$DRV
+		V105VlvOpenTmAI_LMin2	-	$DRV	1	$DRV
+
+		V105VlvCloseTmAI_Min	-	$DRV	1	$DRV
+		V105VlvCloseTmAI_Min2	-	$DRV	1	$DRV
+		V105VlvCloseTmAI_LMin	-	$DRV	1	$DRV
+		V105VlvCloseTmAI_LMin2	-	$DRV	1	$DRV
+
+		V106VlvOpenTmAI_Min	-	$DRV	1	$DRV
+		V106VlvOpenTmAI_Min2	-	$DRV	1	$DRV
+		V106VlvOpenTmAI_LMin	-	$DRV	1	$DRV
+		V106VlvOpenTmAI_LMin2	-	$DRV	1	$DRV
+
+		V106VlvCloseTmAI_Min	-	$DRV	1	$DRV
+		V106VlvCloseTmAI_Min2	-	$DRV	1	$DRV
+		V106VlvCloseTmAI_LMin	-	$DRV	1	$DRV
+		V106VlvCloseTmAI_LMin2	-	$DRV	1	$DRV
+
+		V108VlvOpenTmAI_Min	-	$DRV	1	$DRV
+		V108VlvOpenTmAI_Min2	-	$DRV	1	$DRV
+		V108VlvOpenTmAI_LMin	-	$DRV	1	$DRV
+		V108VlvOpenTmAI_LMin2	-	$DRV	1	$DRV
+
+		V108VlvCloseTmAI_Min	-	$DRV	1	$DRV
+		V108VlvCloseTmAI_Min2	-	$DRV	1	$DRV
+		V108VlvCloseTmAI_LMin	-	$DRV	1	$DRV
+		V108VlvCloseTmAI_LMin2	-	$DRV	1	$DRV
+
+		V109VlvOpenTmAI_Min	-	$DRV	1	$DRV
+		V109VlvOpenTmAI_Min2	-	$DRV	1	$DRV
+		V109VlvOpenTmAI_LMin	-	$DRV	1	$DRV
+		V109VlvOpenTmAI_LMin2	-	$DRV	1	$DRV
+
+		V109VlvCloseTmAI_Min	-	$DRV	1	$DRV
+		V109VlvCloseTmAI_Min2	-	$DRV	1	$DRV
+		V109VlvCloseTmAI_LMin	-	$DRV	1	$DRV
+		V109VlvCloseTmAI_LMin2	-	$DRV	1	$DRV
+
+		V110VlvOpenTmAI_Min	-	$DRV	1	$DRV
+		V110VlvOpenTmAI_Min2	-	$DRV	1	$DRV
+		V110VlvOpenTmAI_LMin	-	$DRV	1	$DRV
+		V110VlvOpenTmAI_LMin2	-	$DRV	1	$DRV
+
+		V110VlvCloseTmAI_Min	-	$DRV	1	$DRV
+		V110VlvCloseTmAI_Min2	-	$DRV	1	$DRV
+		V110VlvCloseTmAI_LMin	-	$DRV	1	$DRV
+		V110VlvCloseTmAI_LMin2	-	$DRV	1	$DRV
+
+		# 2015.04.28 Add Canister ALD Valve
+		V11VlvOpenTmAI_Min	-	$DRV	1	$DRV
+		V11VlvOpenTmAI_Min2	-	$DRV	1	$DRV
+		V11VlvOpenTmAI_LMin	-	$DRV	1	$DRV
+		V11VlvOpenTmAI_LMin2	-	$DRV	1	$DRV
+
+		V11VlvCloseTmAI_Min	-	$DRV	1	$DRV
+		V11VlvCloseTmAI_Min2	-	$DRV	1	$DRV
+		V11VlvCloseTmAI_LMin	-	$DRV	1	$DRV
+		V11VlvCloseTmAI_LMin2	-	$DRV	1	$DRV
+
+		V12VlvOpenTmAI_Min	-	$DRV	1	$DRV
+		V12VlvOpenTmAI_Min2	-	$DRV	1	$DRV
+		V12VlvOpenTmAI_LMin	-	$DRV	1	$DRV
+		V12VlvOpenTmAI_LMin2	-	$DRV	1	$DRV
+
+		V12VlvCloseTmAI_Min	-	$DRV	1	$DRV
+		V12VlvCloseTmAI_Min2	-	$DRV	1	$DRV
+		V12VlvCloseTmAI_LMin	-	$DRV	1	$DRV
+		V12VlvCloseTmAI_LMin2	-	$DRV	1	$DRV
+
+		V17VlvOpenTmAI_Min	-	$DRV	1	$DRV
+		V17VlvOpenTmAI_Min2	-	$DRV	1	$DRV
+		V17VlvOpenTmAI_LMin	-	$DRV	1	$DRV
+		V17VlvOpenTmAI_LMin2	-	$DRV	1	$DRV
+
+		V17VlvCloseTmAI_Min	-	$DRV	1	$DRV
+		V17VlvCloseTmAI_Min2	-	$DRV	1	$DRV
+		V17VlvCloseTmAI_LMin	-	$DRV	1	$DRV
+		V17VlvCloseTmAI_LMin2	-	$DRV	1	$DRV
+
+		RPGLoadPowAI_Min	-	$DRV	1	$DRV
+		RPGLoadPowAI_Min2	-	$DRV	1	$DRV
+		RPGLoadPowAI_LMin	-	$DRV	1	$DRV
+		RPGLoadPowAI_LMin2	-	$DRV	1	$DRV
+
+		RPGRefPowAI_Min		-	$DRV	1	$DRV
+		RPGRefPowAI_Min2	-	$DRV	1	$DRV
+		RPGRefPowAI_LMin	-	$DRV	1	$DRV
+		RPGRefPowAI_LMin2	-	$DRV	1	$DRV
+
+		HF_LOAD_POS_A_Min	-	$DRV	1	$DRV
+		HF_LOAD_POS_A_Min2	-	$DRV	1	$DRV
+		HF_LOAD_POS_A_LMin	-	$DRV	1	$DRV
+		HF_LOAD_POS_A_LMin2	-	$DRV	1	$DRV
+
+		HF_LOAD_POS_B_Min	-	$DRV	1	$DRV
+		HF_LOAD_POS_B_Min2	-	$DRV	1	$DRV
+		HF_LOAD_POS_B_LMin	-	$DRV	1	$DRV
+		HF_LOAD_POS_B_LMin2	-	$DRV	1	$DRV
+
+		HF_TUNE_POS_A_Min	-	$DRV	1	$DRV
+		HF_TUNE_POS_A_Min2	-	$DRV	1	$DRV
+		HF_TUNE_POS_A_LMin	-	$DRV	1	$DRV
+		HF_TUNE_POS_A_LMin2	-	$DRV	1	$DRV
+
+		HF_TUNE_POS_B_Min	-	$DRV	1	$DRV
+		HF_TUNE_POS_B_Min2	-	$DRV	1	$DRV
+		HF_TUNE_POS_B_LMin	-	$DRV	1	$DRV
+		HF_TUNE_POS_B_LMin2	-	$DRV	1	$DRV
+
+		HF_Z_Phase_A_Min	-	$DRV	1	$DRV
+		HF_Z_Phase_A_Min2	-	$DRV	1	$DRV
+		HF_Z_Phase_A_LMin  	-	$DRV	1	$DRV
+		HF_Z_Phase_A_LMin2	-	$DRV	1	$DRV
+
+		HF_Z_Phase_B_Min	-	$DRV	1	$DRV
+		HF_Z_Phase_B_Min2	-	$DRV	1	$DRV
+		HF_Z_Phase_B_LMin  	-	$DRV	1	$DRV
+		HF_Z_Phase_B_LMin2	-	$DRV	1	$DRV
+
+		HF_Z_Power_A_Min	-	$DRV	1	$DRV
+		HF_Z_Power_A_Min2	-	$DRV	1	$DRV
+		HF_Z_Power_A_LMin  	-	$DRV	1	$DRV
+		HF_Z_Power_A_LMin2	-	$DRV	1	$DRV
+
+		HF_Z_Power_B_Min	-	$DRV	1	$DRV
+		HF_Z_Power_B_Min2	-	$DRV	1	$DRV
+		HF_Z_Power_B_LMin  	-	$DRV	1	$DRV
+		HF_Z_Power_B_LMin2	-	$DRV	1	$DRV
+
+		HF_Z_R_A_Min		-	$DRV	1	$DRV
+		HF_Z_R_A_Min2		-	$DRV	1	$DRV
+		HF_Z_R_A_LMin  		-	$DRV	1	$DRV
+		HF_Z_R_A_LMin2		-	$DRV	1	$DRV
+
+		HF_Z_R_B_Min		-	$DRV	1	$DRV
+		HF_Z_R_B_Min2		-	$DRV	1	$DRV
+		HF_Z_R_B_LMin  		-	$DRV	1	$DRV
+		HF_Z_R_B_LMin2		-	$DRV	1	$DRV
+
+		HF_Z_X_A_Min		-	$DRV	1	$DRV
+		HF_Z_X_A_Min2		-	$DRV	1	$DRV
+		HF_Z_X_A_LMin  		-	$DRV	1	$DRV
+		HF_Z_X_A_LMin2		-	$DRV	1	$DRV
+
+		HF_Z_X_B_Min		-	$DRV	1	$DRV
+		HF_Z_X_B_Min2		-	$DRV	1	$DRV
+		HF_Z_X_B_LMin  		-	$DRV	1	$DRV
+		HF_Z_X_B_LMin2		-	$DRV	1	$DRV
+
+		HF_Z_Vrms_A_Min		-	$DRV	1	$DRV
+		HF_Z_Vrms_A_Min2	-	$DRV	1	$DRV
+		HF_Z_Vrms_A_LMin  	-	$DRV	1	$DRV
+		HF_Z_Vrms_A_LMin2	-	$DRV	1	$DRV
+
+		HF_Z_Vrms_B_Min		-	$DRV	1	$DRV
+		HF_Z_Vrms_B_Min2	-	$DRV	1	$DRV
+		HF_Z_Vrms_B_LMin  	-	$DRV	1	$DRV
+		HF_Z_Vrms_B_LMin2	-	$DRV	1	$DRV
+
+		HF_Z_Irms_A_Min		-	$DRV	1	$DRV
+		HF_Z_Irms_A_Min2	-	$DRV	1	$DRV
+		HF_Z_Irms_A_LMin  	-	$DRV	1	$DRV
+		HF_Z_Irms_A_LMin2	-	$DRV	1	$DRV
+
+		HF_Z_Irms_B_Min		-	$DRV	1	$DRV
+		HF_Z_Irms_B_Min2	-	$DRV	1	$DRV
+		HF_Z_Irms_B_LMin  	-	$DRV	1	$DRV
+		HF_Z_Irms_B_LMin2	-	$DRV	1	$DRV
+
+		# Max
+		PRO_CurStepAM_Max	-	$DRV	1	$DRV
+		PRO_CurStepAM_Max2	-	$DRV	1	$DRV
+		PRO_CurStepAM_LMax	-	$DRV	1	$DRV
+		PRO_CurStepAM_LMax2	-	$DRV	1	$DRV
+
+		PRO_StepTimeAM_Max	-	$DRV	1	$DRV
+		PRO_StepTimeAM_Max2	-	$DRV	1	$DRV
+		PRO_StepTimeAM_LMax	-	$DRV	1	$DRV
+		PRO_StepTimeAM_LMax2	-	$DRV	1	$DRV
+
+		ChmPrsAI_Max		-	$DRV	1	$DRV
+		ChmPrsAI_Max2		-	$DRV	1	$DRV
+		ChmPrsAI_LMax		-	$DRV	1	$DRV
+		ChmPrsAI_LMax2		-	$DRV	1	$DRV
+
+		PumpPrsAI_Max		-	$DRV	1	$DRV
+		PumpPrsAI_Max2		-	$DRV	1	$DRV
+		PumpPrsAI_LMax		-	$DRV	1	$DRV
+		PumpPrsAI_LMax2		-	$DRV	1	$DRV
+
+		M651_Pressure_Max	-	$DRV	1	$DRV
+		M651_Pressure_Max2	-	$DRV	1	$DRV
+		M651_Pressure_LMax	-	$DRV	1	$DRV
+		M651_Pressure_LMax2	-	$DRV	1	$DRV
+
+		M651_Position_Max	-	$DRV	1	$DRV
+		M651_Position_Max2	-	$DRV	1	$DRV
+		M651_Position_LMax	-	$DRV	1	$DRV
+		M651_Position_LMax2	-	$DRV	1	$DRV
+
+		MFC01FlwAI_Max		-	$DRV	1	$DRV
+		MFC02FlwAI_Max		-	$DRV	1	$DRV
+		MFC03FlwAI_Max		-	$DRV	1	$DRV
+		MFC04FlwAI_Max		-	$DRV	1	$DRV
+		MFC05FlwAI_Max		-	$DRV	1	$DRV
+		MFC06FlwAI_Max		-	$DRV	1	$DRV
+		MFC07FlwAI_Max		-	$DRV	1	$DRV
+		MFC08FlwAI_Max		-	$DRV	1	$DRV
+		MFC09FlwAI_Max		-	$DRV	1	$DRV
+
+		MFC01FlwAI_LMax		-	$DRV	1	$DRV
+		MFC02FlwAI_LMax		-	$DRV	1	$DRV
+		MFC03FlwAI_LMax		-	$DRV	1	$DRV
+		MFC04FlwAI_LMax		-	$DRV	1	$DRV
+		MFC05FlwAI_LMax		-	$DRV	1	$DRV
+		MFC06FlwAI_LMax		-	$DRV	1	$DRV
+		MFC07FlwAI_LMax		-	$DRV	1	$DRV
+		MFC08FlwAI_LMax		-	$DRV	1	$DRV
+		MFC09FlwAI_LMax 	-	$DRV	1	$DRV
+
+		MFC01FlwAI_Max2		-	$DRV	1	$DRV
+		MFC02FlwAI_Max2		-	$DRV	1	$DRV
+		MFC03FlwAI_Max2		-	$DRV	1	$DRV
+		MFC04FlwAI_Max2		-	$DRV	1	$DRV
+		MFC05FlwAI_Max2		-	$DRV	1	$DRV
+		MFC06FlwAI_Max2		-	$DRV	1	$DRV
+		MFC07FlwAI_Max2		-	$DRV	1	$DRV
+		MFC08FlwAI_Max2		-	$DRV	1	$DRV
+		MFC09FlwAI_Max2 	-	$DRV	1	$DRV
+
+		MFC01FlwAI_LMax2	-	$DRV	1	$DRV
+		MFC02FlwAI_LMax2	-	$DRV	1	$DRV
+		MFC03FlwAI_LMax2	-	$DRV	1	$DRV
+		MFC04FlwAI_LMax2	-	$DRV	1	$DRV
+		MFC05FlwAI_LMax2	-	$DRV	1	$DRV
+		MFC06FlwAI_LMax2	-	$DRV	1	$DRV
+		MFC07FlwAI_LMax2	-	$DRV	1	$DRV
+		MFC08FlwAI_LMax2	-	$DRV	1	$DRV
+		MFC09FlwAI_LMax2	-	$DRV	1	$DRV
+
+
+		SHT1_TmpRdAI_Max	-	$DRV	1	$DRV
+		SHT1_TmpRdAI_LMax	-	$DRV	1	$DRV
+		SHT1_TmpRdAI_Max2	-	$DRV	1	$DRV
+		SHT1_TmpRdAI_LMax2	-	$DRV	1	$DRV
+
+		SHT1_OutPwAI_Max	-	$DRV	1	$DRV
+		SHT1_OutPwAI_LMax	-	$DRV	1	$DRV
+		SHT1_OutPwAI_Max2	-	$DRV	1	$DRV
+		SHT1_OutPwAI_LMax2	-	$DRV	1	$DRV
+
+		SHT1_OutPwAI2_Max	-	$DRV	1	$DRV
+		SHT1_OutPwAI2_LMax	-	$DRV	1	$DRV
+		SHT1_OutPwAI2_Max2	-	$DRV	1	$DRV
+		SHT1_OutPwAI2_LMax2	-	$DRV	1	$DRV
+
+		SHT2_TmpRdAI_Max	-	$DRV	1	$DRV
+		SHT2_TmpRdAI_LMax	-	$DRV	1	$DRV
+		SHT2_TmpRdAI_Max2	-	$DRV	1	$DRV
+		SHT2_TmpRdAI_LMax2	-	$DRV	1	$DRV
+
+		SHT2_OutPwAI_Max	-	$DRV	1	$DRV
+		SHT2_OutPwAI_LMax	-	$DRV	1	$DRV
+		SHT2_OutPwAI_Max2	-	$DRV	1	$DRV
+		SHT2_OutPwAI_LMax2	-	$DRV	1	$DRV
+
+		SHT2_OutPwAI2_Max	-	$DRV	1	$DRV
+		SHT2_OutPwAI2_LMax	-	$DRV	1	$DRV
+		SHT2_OutPwAI2_Max2	-	$DRV	1	$DRV
+		SHT2_OutPwAI2_LMax2	-	$DRV	1	$DRV
+
+		StgHtr1CurrAI_Max	-	$DRV	1	$DRV
+		StgHtr1CurrAI_LMax	-	$DRV	1	$DRV
+		StgHtr1CurrAI_Max2	-	$DRV	1	$DRV
+		StgHtr1CurrAI_LMax2	-	$DRV	1	$DRV
+
+		StgHtr2CurrAI_Max	-	$DRV	1	$DRV
+		StgHtr2CurrAI_LMax	-	$DRV	1	$DRV
+		StgHtr2CurrAI_Max2	-	$DRV	1	$DRV
+		StgHtr2CurrAI_LMax2	-	$DRV	1	$DRV
+
+		StgHtr1VoltAI_Max	-	$DRV	1	$DRV
+		StgHtr1VoltAI_LMax	-	$DRV	1	$DRV
+		StgHtr1VoltAI_Max2	-	$DRV	1	$DRV
+		StgHtr1VoltAI_LMax2	-	$DRV	1	$DRV
+
+		StgHtr2VoltAI_Max	-	$DRV	1	$DRV
+		StgHtr2VoltAI_LMax	-	$DRV	1	$DRV
+		StgHtr2VoltAI_Max2	-	$DRV	1	$DRV
+		StgHtr2VoltAI_LMax2	-	$DRV	1	$DRV
+
+		HT01_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT02_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT03_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT04_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT05_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT06_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT07_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT08_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT09_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT10_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT11_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT12_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT13_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT14_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT15_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT16_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT17_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT18_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT19_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT20_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT21_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT22_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT23_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT24_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT25_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT26_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT27_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT28_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT29_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT30_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT31_TmpRdAI_Max	-	$DRV	1	$DRV
+		HT32_TmpRdAI_Max	-	$DRV	1	$DRV
+
+		HT01_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT02_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT03_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT04_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT05_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT06_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT07_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT08_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT09_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT10_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT11_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT12_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT13_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT14_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT15_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT16_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT17_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT18_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT19_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT20_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT21_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT22_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT23_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT24_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT25_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT26_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT27_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT28_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT29_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT30_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT31_TmpRdAI_LMax	-	$DRV	1	$DRV
+		HT32_TmpRdAI_LMax	-	$DRV	1	$DRV
+
+		HT01_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT02_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT03_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT04_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT05_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT06_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT07_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT08_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT09_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT10_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT11_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT12_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT13_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT14_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT15_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT16_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT17_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT18_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT19_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT20_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT21_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT22_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT23_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT24_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT25_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT26_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT27_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT28_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT29_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT30_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT31_TmpRdAI_Max2	-	$DRV	1	$DRV
+		HT32_TmpRdAI_Max2	-	$DRV	1	$DRV
+
+		HT01_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT02_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT03_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT04_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT05_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT06_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT07_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT08_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT09_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT10_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT11_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT12_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT13_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT14_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT15_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT16_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT17_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT18_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT19_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT20_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT21_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT22_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT23_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT24_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT25_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT26_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT27_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT28_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT29_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT30_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT31_TmpRdAI_LMax2	-	$DRV	1	$DRV
+		HT32_TmpRdAI_LMax2	-	$DRV	1	$DRV
+
+		RF1LoadPowAI_Max	-	$DRV	1	$DRV
+		RF1LoadPowAI_Max2	-	$DRV	1	$DRV
+		RF1LoadPowAI_LMax	-	$DRV	1	$DRV
+		RF1LoadPowAI_LMax2	-	$DRV	1	$DRV
+
+		RF1RefPowAI_Max		-	$DRV	1	$DRV
+		RF1RefPowAI_Max2	-	$DRV	1	$DRV
+		RF1RefPowAI_LMax	-	$DRV	1	$DRV
+		RF1RefPowAI_LMax2	-	$DRV	1	$DRV
+
+		RF2LoadPowAI_Max	-	$DRV	1	$DRV
+		RF2LoadPowAI_Max2	-	$DRV	1	$DRV
+		RF2LoadPowAI_LMax	-	$DRV	1	$DRV
+		RF2LoadPowAI_LMax2	-	$DRV	1	$DRV
+
+		RF2RefPowAI_Max		-	$DRV	1	$DRV
+		RF2RefPowAI_Max2	-	$DRV	1	$DRV
+		RF2RefPowAI_LMax	-	$DRV	1	$DRV
+		RF2RefPowAI_LMax2	-	$DRV	1	$DRV
+
+		V97VlvOpenTmAI_Max	-	$DRV	1	$DRV
+		V97VlvOpenTmAI_Max2	-	$DRV	1	$DRV
+		V97VlvOpenTmAI_LMax	-	$DRV	1	$DRV
+		V97VlvOpenTmAI_LMax2	-	$DRV	1	$DRV
+
+		V97VlvCloseTmAI_Max	-	$DRV	1	$DRV
+		V97VlvCloseTmAI_Max2	-	$DRV	1	$DRV
+		V97VlvCloseTmAI_LMax	-	$DRV	1	$DRV
+		V97VlvCloseTmAI_LMax2	-	$DRV	1	$DRV
+
+		V98VlvOpenTmAI_Max	-	$DRV	1	$DRV
+		V98VlvOpenTmAI_Max2	-	$DRV	1	$DRV
+		V98VlvOpenTmAI_LMax	-	$DRV	1	$DRV
+		V98VlvOpenTmAI_LMax2	-	$DRV	1	$DRV
+
+		V98VlvCloseTmAI_Max	-	$DRV	1	$DRV
+		V98VlvCloseTmAI_Max2	-	$DRV	1	$DRV
+		V98VlvCloseTmAI_LMax	-	$DRV	1	$DRV
+		V98VlvCloseTmAI_LMax2	-	$DRV	1	$DRV
+
+		V100VlvOpenTmAI_Max	-	$DRV	1	$DRV
+		V100VlvOpenTmAI_Max2	-	$DRV	1	$DRV
+		V100VlvOpenTmAI_LMax	-	$DRV	1	$DRV
+		V100VlvOpenTmAI_LMax2	-	$DRV	1	$DRV
+
+		V100VlvCloseTmAI_Max	-	$DRV	1	$DRV
+		V100VlvCloseTmAI_Max2	-	$DRV	1	$DRV
+		V100VlvCloseTmAI_LMax	-	$DRV	1	$DRV
+		V100VlvCloseTmAI_LMax2	-	$DRV	1	$DRV
+
+		V101VlvOpenTmAI_Max	-	$DRV	1	$DRV
+		V101VlvOpenTmAI_Max2	-	$DRV	1	$DRV
+		V101VlvOpenTmAI_LMax	-	$DRV	1	$DRV
+		V101VlvOpenTmAI_LMax2	-	$DRV	1	$DRV
+
+		V101VlvCloseTmAI_Max	-	$DRV	1	$DRV
+		V101VlvCloseTmAI_Max2	-	$DRV	1	$DRV
+		V101VlvCloseTmAI_LMax	-	$DRV	1	$DRV
+		V101VlvCloseTmAI_LMax2	-	$DRV	1	$DRV
+
+		V102VlvOpenTmAI_Max	-	$DRV	1	$DRV
+		V102VlvOpenTmAI_Max2	-	$DRV	1	$DRV
+		V102VlvOpenTmAI_LMax	-	$DRV	1	$DRV
+		V102VlvOpenTmAI_LMax2	-	$DRV	1	$DRV
+
+		V102VlvCloseTmAI_Max	-	$DRV	1	$DRV
+		V102VlvCloseTmAI_Max2	-	$DRV	1	$DRV
+		V102VlvCloseTmAI_LMax	-	$DRV	1	$DRV
+		V102VlvCloseTmAI_LMax2	-	$DRV	1	$DRV
+
+		V105VlvOpenTmAI_Max	-	$DRV	1	$DRV
+		V105VlvOpenTmAI_Max2	-	$DRV	1	$DRV
+		V105VlvOpenTmAI_LMax	-	$DRV	1	$DRV
+		V105VlvOpenTmAI_LMax2	-	$DRV	1	$DRV
+
+		V105VlvCloseTmAI_Max	-	$DRV	1	$DRV
+		V105VlvCloseTmAI_Max2	-	$DRV	1	$DRV
+		V105VlvCloseTmAI_LMax	-	$DRV	1	$DRV
+		V105VlvCloseTmAI_LMax2	-	$DRV	1	$DRV
+
+		V106VlvOpenTmAI_Max	-	$DRV	1	$DRV
+		V106VlvOpenTmAI_Max2	-	$DRV	1	$DRV
+		V106VlvOpenTmAI_LMax	-	$DRV	1	$DRV
+		V106VlvOpenTmAI_LMax2	-	$DRV	1	$DRV
+
+		V106VlvCloseTmAI_Max	-	$DRV	1	$DRV
+		V106VlvCloseTmAI_Max2	-	$DRV	1	$DRV
+		V106VlvCloseTmAI_LMax	-	$DRV	1	$DRV
+		V106VlvCloseTmAI_LMax2	-	$DRV	1	$DRV
+
+		V108VlvOpenTmAI_Max	-	$DRV	1	$DRV
+		V108VlvOpenTmAI_Max2	-	$DRV	1	$DRV
+		V108VlvOpenTmAI_LMax	-	$DRV	1	$DRV
+		V108VlvOpenTmAI_LMax2	-	$DRV	1	$DRV
+
+		V108VlvCloseTmAI_Max	-	$DRV	1	$DRV
+		V108VlvCloseTmAI_Max2	-	$DRV	1	$DRV
+		V108VlvCloseTmAI_LMax	-	$DRV	1	$DRV
+		V108VlvCloseTmAI_LMax2	-	$DRV	1	$DRV
+
+		V109VlvOpenTmAI_Max	-	$DRV	1	$DRV
+		V109VlvOpenTmAI_Max2	-	$DRV	1	$DRV
+		V109VlvOpenTmAI_LMax	-	$DRV	1	$DRV
+		V109VlvOpenTmAI_LMax2	-	$DRV	1	$DRV
+
+		V109VlvCloseTmAI_Max	-	$DRV	1	$DRV
+		V109VlvCloseTmAI_Max2	-	$DRV	1	$DRV
+		V109VlvCloseTmAI_LMax	-	$DRV	1	$DRV
+		V109VlvCloseTmAI_LMax2	-	$DRV	1	$DRV
+
+		V110VlvOpenTmAI_Max	-	$DRV	1	$DRV
+		V110VlvOpenTmAI_Max2	-	$DRV	1	$DRV
+		V110VlvOpenTmAI_LMax	-	$DRV	1	$DRV
+		V110VlvOpenTmAI_LMax2	-	$DRV	1	$DRV
+
+		V110VlvCloseTmAI_Max	-	$DRV	1	$DRV
+		V110VlvCloseTmAI_Max2	-	$DRV	1	$DRV
+		V110VlvCloseTmAI_LMax	-	$DRV	1	$DRV
+		V110VlvCloseTmAI_LMax2	-	$DRV	1	$DRV
+
+		# 2015.04.28 Add Canister ALD Valve
+		V11VlvOpenTmAI_Max	-	$DRV	1	$DRV
+		V11VlvOpenTmAI_Max2	-	$DRV	1	$DRV
+		V11VlvOpenTmAI_LMax	-	$DRV	1	$DRV
+		V11VlvOpenTmAI_LMax2	-	$DRV	1	$DRV
+
+		V11VlvCloseTmAI_Max	-	$DRV	1	$DRV
+		V11VlvCloseTmAI_Max2	-	$DRV	1	$DRV
+		V11VlvCloseTmAI_LMax	-	$DRV	1	$DRV
+		V11VlvCloseTmAI_LMax2	-	$DRV	1	$DRV
+
+		V12VlvOpenTmAI_Max	-	$DRV	1	$DRV
+		V12VlvOpenTmAI_Max2	-	$DRV	1	$DRV
+		V12VlvOpenTmAI_LMax	-	$DRV	1	$DRV
+		V12VlvOpenTmAI_LMax2	-	$DRV	1	$DRV
+
+		V12VlvCloseTmAI_Max	-	$DRV	1	$DRV
+		V12VlvCloseTmAI_Max2	-	$DRV	1	$DRV
+		V12VlvCloseTmAI_LMax	-	$DRV	1	$DRV
+		V12VlvCloseTmAI_LMax2	-	$DRV	1	$DRV
+
+		V17VlvOpenTmAI_Max	-	$DRV	1	$DRV
+		V17VlvOpenTmAI_Max2	-	$DRV	1	$DRV
+		V17VlvOpenTmAI_LMax	-	$DRV	1	$DRV
+		V17VlvOpenTmAI_LMax2	-	$DRV	1	$DRV
+
+		V17VlvCloseTmAI_Max	-	$DRV	1	$DRV
+		V17VlvCloseTmAI_Max2	-	$DRV	1	$DRV
+		V17VlvCloseTmAI_LMax	-	$DRV	1	$DRV
+		V17VlvCloseTmAI_LMax2	-	$DRV	1	$DRV
+
+		RPGLoadPowAI_Max	-	$DRV	1	$DRV
+		RPGLoadPowAI_Max2	-	$DRV	1	$DRV
+		RPGLoadPowAI_LMax	-	$DRV	1	$DRV
+		RPGLoadPowAI_LMax2	-	$DRV	1	$DRV
+
+		RPGRefPowAI_Max		-	$DRV	1	$DRV
+		RPGRefPowAI_Max2	-	$DRV	1	$DRV
+		RPGRefPowAI_LMax	-	$DRV	1	$DRV
+		RPGRefPowAI_LMax2	-	$DRV	1	$DRV
+
+		HF_LOAD_POS_A_Max	-	$DRV	1	$DRV
+		HF_LOAD_POS_A_Max2	-	$DRV	1	$DRV
+		HF_LOAD_POS_A_LMax	-	$DRV	1	$DRV
+		HF_LOAD_POS_A_LMax2	-	$DRV	1	$DRV
+
+		HF_LOAD_POS_B_Max	-	$DRV	1	$DRV
+		HF_LOAD_POS_B_Max2	-	$DRV	1	$DRV
+		HF_LOAD_POS_B_LMax	-	$DRV	1	$DRV
+		HF_LOAD_POS_B_LMax2	-	$DRV	1	$DRV
+
+		HF_TUNE_POS_A_Max	-	$DRV	1	$DRV
+		HF_TUNE_POS_A_Max2	-	$DRV	1	$DRV
+		HF_TUNE_POS_A_LMax	-	$DRV	1	$DRV
+		HF_TUNE_POS_A_LMax2	-	$DRV	1	$DRV
+
+		HF_TUNE_POS_B_Max	-	$DRV	1	$DRV
+		HF_TUNE_POS_B_Max2	-	$DRV	1	$DRV
+		HF_TUNE_POS_B_LMax	-	$DRV	1	$DRV
+		HF_TUNE_POS_B_LMax2	-	$DRV	1	$DRV
+
+
+		HF_Z_Phase_A_Max	-	$DRV	1	$DRV
+		HF_Z_Phase_A_Max2	-	$DRV	1	$DRV
+		HF_Z_Phase_A_LMax  	-	$DRV	1	$DRV
+		HF_Z_Phase_A_LMax2	-	$DRV	1	$DRV
+
+		HF_Z_Phase_B_Max	-	$DRV	1	$DRV
+		HF_Z_Phase_B_Max2	-	$DRV	1	$DRV
+		HF_Z_Phase_B_LMax  	-	$DRV	1	$DRV
+		HF_Z_Phase_B_LMax2	-	$DRV	1	$DRV
+
+
+		HF_Z_Power_A_Max	-	$DRV	1	$DRV
+		HF_Z_Power_A_Max2	-	$DRV	1	$DRV
+		HF_Z_Power_A_LMax  	-	$DRV	1	$DRV
+		HF_Z_Power_A_LMax2	-	$DRV	1	$DRV
+
+		HF_Z_Power_B_Max	-	$DRV	1	$DRV
+		HF_Z_Power_B_Max2	-	$DRV	1	$DRV
+		HF_Z_Power_B_LMax  	-	$DRV	1	$DRV
+		HF_Z_Power_B_LMax2	-	$DRV	1	$DRV
+
+		HF_Z_R_A_Max		-	$DRV	1	$DRV
+		HF_Z_R_A_Max2		-	$DRV	1	$DRV
+		HF_Z_R_A_LMax  		-	$DRV	1	$DRV
+		HF_Z_R_A_LMax2		-	$DRV	1	$DRV
+
+		HF_Z_R_B_Max		-	$DRV	1	$DRV
+		HF_Z_R_B_Max2		-	$DRV	1	$DRV
+		HF_Z_R_B_LMax  		-	$DRV	1	$DRV
+		HF_Z_R_B_LMax2		-	$DRV	1	$DRV
+
+		HF_Z_X_A_Max		-	$DRV	1	$DRV
+		HF_Z_X_A_Max2		-	$DRV	1	$DRV
+		HF_Z_X_A_LMax  		-	$DRV	1	$DRV
+		HF_Z_X_A_LMax2		-	$DRV	1	$DRV
+
+		HF_Z_X_B_Max		-	$DRV	1	$DRV
+		HF_Z_X_B_Max2		-	$DRV	1	$DRV
+		HF_Z_X_B_LMax  		-	$DRV	1	$DRV
+		HF_Z_X_B_LMax2		-	$DRV	1	$DRV
+
+		HF_Z_Vrms_A_Max		-	$DRV	1	$DRV
+		HF_Z_Vrms_A_Max2	-	$DRV	1	$DRV
+		HF_Z_Vrms_A_LMax  	-	$DRV	1	$DRV
+		HF_Z_Vrms_A_LMax2	-	$DRV	1	$DRV
+
+		HF_Z_Vrms_B_Max		-	$DRV	1	$DRV
+		HF_Z_Vrms_B_Max2	-	$DRV	1	$DRV
+		HF_Z_Vrms_B_LMax  	-	$DRV	1	$DRV
+		HF_Z_Vrms_B_LMax2	-	$DRV	1	$DRV
+
+		HF_Z_Irms_A_Max		-	$DRV	1	$DRV
+		HF_Z_Irms_A_Max2	-	$DRV	1	$DRV
+		HF_Z_Irms_A_LMax  	-	$DRV	1	$DRV
+		HF_Z_Irms_A_LMax2	-	$DRV	1	$DRV
+
+		HF_Z_Irms_B_Max		-	$DRV	1	$DRV
+		HF_Z_Irms_B_Max2	-	$DRV	1	$DRV
+		HF_Z_Irms_B_LMax  	-	$DRV	1	$DRV
+		HF_Z_Irms_B_LMax2 	-	$DRV	1	$DRV
+
+## PMC_AbortGas
+	$$$ Digital
+
+		FC_AbortGas		-	$DRV	1	$DRV
+
+## Plotting
+	$$$ Digital
+
+		FC_PLOTTING_CONTROL	-	$DRV	1	$DRV
+		FC_Plotting_Display	-	$DRV	1	$DRV
+
+	$$$ String
+
+		FC_PLOTTING_FILE	$DRV	-	1
+		Temp_Log_FileName	$DRV	-	1
+
+## DeviceUseConfig
+	$$$ Digital
+		RPG_UseDM		-	$DRV	1	$DRV
+		RF_UseDM		-	$DRV	1	$DRV
+		ACV_UseDM		-	$DRV	1	$DRV
+		ACV_ModeDM		-	$DRV	1	$DRV
+
+## GuiMonitor
+	$$$ Digital
+		PM_Heater_Next 		-	$DRV	1	$DRV
+		PM_Heater_Prev 		-	$DRV	1	$DRV
+		PM_Param_Next 		-	$DRV	1	$DRV
+		PM_Param_Prev 		-	$DRV	1	$DRV
+
+	$$$ Analog
+		PRO_StpGrpTCycAM	-	$DRV	1
+		PRO_StpGrpCCycAM	-	$DRV	1
+	$$$ String
+		PRO_StepGrpSM		$DRV	-	1
+
+################################################################################
+## E5ER_Stage Heater
+	$$$ Digital
+		SHT1_UseDM		-	$DRV	1	$DRV
+		SHT1_StbStsDM		-	$DRV	1	$DRV
+		SHT2_UseDM		-	$DRV	1	$DRV
+		SHT2_StbStsDM		-	$DRV	1	$DRV
+
+	$$$ String
+		SHT1_NameSM		$DRV	-	1
+		SHT2_NameSM		$DRV	-	1
+
+
+################################################################################
+## Eurotherm-3508 Stage Heater
+
+# Stage Heater 1
+	$$$ Analog
+		SHT1_TmpSpAIO		-	$DRV	1	$DRV
+		SHT1_TmpHgLmtAIO	-	$DRV	1	$DRV
+		SHT1_TmpLwLmtAIO	-	$DRV	1	$DRV
+		SHT1_HiPwLmtAIO		-	$DRV	1	$DRV
+		SHT1_AtHiPwLmtAIO	-	$DRV	1	$DRV
+		SHT1_AtLoPwLmtAIO	-	$DRV	1	$DRV
+		SHT1_RampRateAIO	-	$DRV	1	$DRV
+		SHT1_CalOffsAIO		-	$DRV	1	$DRV
+		SHT1_TmpRdAI		-	$DRV	1
+		SHT1_OutPwAI		-	$DRV	1
+		SHT1_OutPwAI2		-	$DRV	1
+		SHT1_TmpSpAI		-	$DRV	1
+		SHT1_RatioAIO		-	$DRV	1	$DRV
+
+                STH1_CurHiLimitAM   	-	$DRV	1	$DRV 	
+                STH1_CurLwLimitAM	-	$DRV	1	$DRV 
+                STH1_VtgHiLimitAM	-	$DRV	1	$DRV 
+                STH1_VtgLwLimitAM	-	$DRV	1	$DRV 
+                STH2_CurHiLimitAM	-	$DRV	1	$DRV 
+                STH2_CurLwLimitAM	-	$DRV	1	$DRV 
+                STH2_VtgHiLimitAM	-	$DRV	1	$DRV 
+                STH2_VtgLwLimitAM	-	$DRV	1	$DRV 
+
+	$$$ Digital
+		SHT1_Error1DI		-	$DRV	1
+		SHT1_Error2DI		-	$DRV	1
+		SHT1_OnOffDI		-	$DRV	1
+		SHT1_AlrmSts1DI		-	$DRV	1
+		SHT1_TuneDI		-	$DRV	1
+		SHT1_ModeDI		-	$DRV	1
+		SHT1_RunningDI		-	$DRV	1
+		SHT1_TuneDO		-	$DRV	1	$DRV
+		SHT1_ModeDIO		-	$DRV	1	$DRV
+
+	# Stage Heater 2
+	$$$ Analog
+
+		SHT2_TmpSpAIO		-	$DRV	1	$DRV
+		SHT2_TmpHgLmtAIO	-	$DRV	1	$DRV
+		SHT2_TmpLwLmtAIO	-	$DRV	1	$DRV
+		SHT2_HiPwLmtAIO		-	$DRV	1	$DRV
+		SHT2_AtHiPwLmtAIO	-	$DRV	1	$DRV
+		SHT2_AtLoPwLmtAIO	-	$DRV	1	$DRV
+		SHT2_RampRateAIO	-	$DRV	1	$DRV
+		SHT2_CalOffsAIO		-	$DRV	1	$DRV
+		SHT2_TmpRdAI		-	$DRV	1
+		SHT2_OutPwAI		-	$DRV	1
+		SHT2_OutPwAI2		-	$DRV	1
+		SHT2_TmpSpAI		-	$DRV	1
+		SHT2_RatioAIO		-	$DRV	1	$DRV
+
+	$$$ Digital
+		SHT2_Error1DI		-	$DRV	1
+		SHT2_Error2DI		-	$DRV	1
+		SHT2_OnOffDI		-	$DRV	1
+		SHT2_AlrmSts1DI		-	$DRV	1
+		SHT2_TuneDI		-	$DRV	1
+		SHT2_ModeDI		-	$DRV	1
+		SHT2_RunningDI		-	$DRV	1
+		SHT2_TuneDO		-	$DRV	1	$DRV
+		SHT2_ModeDIO		-	$DRV	1	$DRV
+
+################################################################################
+## Auto Refill Added
+	$$$ Digital
+		PRO_PostRunDM		-	$DRV	1	$DRV
+		PRO_PostRunDM1		-	$DRV	1	$DRV
+		PRO_PostRunDM2		-	$DRV	1	$DRV
+		PRO_PostRunDM3		-	$DRV	1	$DRV
+		PRO_PostRunDM4		-	$DRV	1	$DRV
+		PRO_PostRunDM5		-	$DRV	1	$DRV
+		PRO_PostRunDM6		-	$DRV	1	$DRV
+		PRO_PostRunDM7		-	$DRV	1	$DRV
+		PRO_PostRunDM8		-	$DRV	1	$DRV
+		PRO_PostRunDM9		-	$DRV	1	$DRV
+
+		PRO_PostCmptDM		-	$DRV	1	$DRV
+		PRO_PostCmptDM1		-	$DRV	1	$DRV
+		PRO_PostCmptDM2		-	$DRV	1	$DRV
+		PRO_PostCmptDM3		-	$DRV	1	$DRV
+		PRO_PostCmptDM4		-	$DRV	1	$DRV
+		PRO_PostCmptDM5		-	$DRV	1	$DRV
+		PRO_PostCmptDM6		-	$DRV	1	$DRV
+		PRO_PostCmptDM7		-	$DRV	1	$DRV
+		PRO_PostCmptDM8		-	$DRV	1	$DRV
+		PRO_PostCmptDM9		-	$DRV	1	$DRV
+
+		PRO_ChamberStatus	-	$DRV	1	$DRV
+################################################################################
+## Preventive Item Add (ALD Valve Use Count)
+
+	$$$ Digital
+		ALDVlvRstCnt		-	$DRV	1	$DRV
+		ALDVlvRstCnt01		-	$DRV	1	$DRV
+		ALDVlvRstCnt02		-	$DRV	1	$DRV
+		ALDVlvRstCnt03		-	$DRV	1	$DRV
+		ALDVlvRstCnt04		-	$DRV	1	$DRV
+		ALDVlvRstCnt05		-	$DRV	1	$DRV
+		ALDVlvRstCnt06		-	$DRV	1	$DRV
+		ALDVlvRstCnt07		-	$DRV	1	$DRV
+		ALDVlvRstCnt08		-	$DRV	1	$DRV
+		ALDVlvRstCnt09		-	$DRV	1	$DRV
+		ALDVlvRstCnt10		-	$DRV	1	$DRV
+
+
+	$$$ String
+		ALD97VlvRstTime		$DRV	-	1	$DRV	-
+		ALD98VlvRstTime		$DRV	-	1	$DRV	-
+		ALD100VlvRstTime	$DRV	-	1	$DRV	-
+		ALD101VlvRstTime	$DRV	-	1	$DRV	-
+		ALD102VlvRstTime	$DRV	-	1	$DRV	-
+		ALD105VlvRstTime	$DRV	-	1	$DRV	-
+		ALD106VlvRstTime	$DRV	-	1	$DRV	-
+		ALD108VlvRstTime	$DRV	-	1	$DRV	-
+		ALD109VlvRstTime	$DRV	-	1	$DRV	-
+		ALD110VlvRstTime	$DRV	-	1	$DRV	-
+
+		# 2015.04.28 Add Canister ALD Valve
+		ALD11VlvRstTime		$DRV	-	1	$DRV	-
+		ALD12VlvRstTime		$DRV	-	1	$DRV	-
+		ALD17VlvRstTime		$DRV	-	1	$DRV	-
+
+		ALDVlvRstTime01		$DRV	-	1	$DRV	-
+		ALDVlvRstTime02		$DRV	-	1	$DRV	-
+		ALDVlvRstTime03		$DRV	-	1	$DRV	-
+		ALDVlvRstTime04		$DRV	-	1	$DRV	-
+		ALDVlvRstTime05		$DRV	-	1	$DRV	-
+		ALDVlvRstTime06		$DRV	-	1	$DRV	-
+		ALDVlvRstTime07		$DRV	-	1	$DRV	-
+		ALDVlvRstTime08		$DRV	-	1	$DRV	-
+		ALDVlvRstTime09		$DRV	-	1	$DRV	-
+		ALDVlvRstTime10		$DRV	-	1	$DRV	-
+
+################################################################################
+## 2015.03.01 Add Verification Virtual IO (ALD Valve, Motor, MFC Flow)
+
+	$$$ Digital
+
+	#--------------------------
+	# ALD VALVE VERIFICATION
+	#--------------------------
+
+		M_AVlv_ResultDM		-	$DRV	1
+		M_AVlv_IntCheckDM    	-	$DRV	1	$DRV
+
+	#--------------------------
+	# MFC FLOW VERIFICATION
+	#--------------------------
+
+		MFC_FLOW_TEST		-	$DRV	1
+		MFlow_MFC01		-	$DRV	1	$DRV
+		MFlow_MFC02		-	$DRV	1	$DRV
+		MFlow_MFC03		-	$DRV	1	$DRV
+		MFlow_MFC04		-	$DRV	1	$DRV
+		MFlow_MFC05		-	$DRV	1	$DRV
+		MFlow_MFC06		-	$DRV	1	$DRV
+		MFlow_MFC07		-	$DRV	1	$DRV
+		MFlow_MFC08		-	$DRV	1	$DRV
+		MFlow_MFC09		-	$DRV	1	$DRV
+
+		MFlow_MFC01_Result	-	$DRV	1
+		MFlow_MFC02_Result	-	$DRV	1
+		MFlow_MFC03_Result	-	$DRV	1
+		MFlow_MFC04_Result	-	$DRV	1
+		MFlow_MFC05_Result	-	$DRV	1
+		MFlow_MFC06_Result	-	$DRV	1
+		MFlow_MFC07_Result	-	$DRV	1
+		MFlow_MFC08_Result	-	$DRV	1
+		MFlow_MFC09_Result	-	$DRV	1
+
+		MFlow_FlwErrLmtDM	-	$DRV	1	$DRV
+
+		MFlow_MFC01_FlwErr1DM	-	$DRV	1
+		MFlow_MFC01_FlwErr2DM	-	$DRV	1
+		MFlow_MFC01_FlwErr3DM	-	$DRV	1
+		MFlow_MFC01_FlwErr4DM	-	$DRV	1
+		MFlow_MFC01_FlwErr5DM	-	$DRV	1
+		MFlow_MFC02_FlwErr1DM	-	$DRV	1
+		MFlow_MFC02_FlwErr2DM	-	$DRV	1
+		MFlow_MFC02_FlwErr3DM	-	$DRV	1
+		MFlow_MFC02_FlwErr4DM	-	$DRV	1
+		MFlow_MFC02_FlwErr5DM	-	$DRV	1
+		MFlow_MFC03_FlwErr1DM	-	$DRV	1
+		MFlow_MFC03_FlwErr2DM	-	$DRV	1
+		MFlow_MFC03_FlwErr3DM	-	$DRV	1
+		MFlow_MFC03_FlwErr4DM	-	$DRV	1
+		MFlow_MFC03_FlwErr5DM	-	$DRV	1
+		MFlow_MFC04_FlwErr1DM	-	$DRV	1
+		MFlow_MFC04_FlwErr2DM	-	$DRV	1
+		MFlow_MFC04_FlwErr3DM	-	$DRV	1
+		MFlow_MFC04_FlwErr4DM	-	$DRV	1
+		MFlow_MFC04_FlwErr5DM	-	$DRV	1
+		MFlow_MFC05_FlwErr1DM	-	$DRV	1
+		MFlow_MFC05_FlwErr2DM	-	$DRV	1
+		MFlow_MFC05_FlwErr3DM	-	$DRV	1
+		MFlow_MFC05_FlwErr4DM	-	$DRV	1
+		MFlow_MFC05_FlwErr5DM	-	$DRV	1
+		MFlow_MFC06_FlwErr1DM	-	$DRV	1
+		MFlow_MFC06_FlwErr2DM	-	$DRV	1
+		MFlow_MFC06_FlwErr3DM	-	$DRV	1
+		MFlow_MFC06_FlwErr4DM	-	$DRV	1
+		MFlow_MFC06_FlwErr5DM	-	$DRV	1
+		MFlow_MFC07_FlwErr1DM	-	$DRV	1
+		MFlow_MFC07_FlwErr2DM	-	$DRV	1
+		MFlow_MFC07_FlwErr3DM	-	$DRV	1
+		MFlow_MFC07_FlwErr4DM	-	$DRV	1
+		MFlow_MFC07_FlwErr5DM	-	$DRV	1
+		MFlow_MFC08_FlwErr1DM	-	$DRV	1
+		MFlow_MFC08_FlwErr2DM	-	$DRV	1
+		MFlow_MFC08_FlwErr3DM	-	$DRV	1
+		MFlow_MFC08_FlwErr4DM	-	$DRV	1
+		MFlow_MFC08_FlwErr5DM	-	$DRV	1
+		MFlow_MFC09_FlwErr1DM	-	$DRV	1
+		MFlow_MFC09_FlwErr2DM	-	$DRV	1
+		MFlow_MFC09_FlwErr3DM	-	$DRV	1
+		MFlow_MFC09_FlwErr4DM	-	$DRV	1
+		MFlow_MFC09_FlwErr5DM	-	$DRV	1
+
+	#--------------------------
+	# MOTOR VERIFICATION
+	#--------------------------
+		M_MT_CycMvSelDM		-	$DRV	1	$DRV
+	#--------------------------
+	# MANUAL MFC FLOW
+	#--------------------------
+		MANUAL_SET_MFC_SEQ	-	$DRV	1	$DRV
+
+	$$$ Analog
+	#--------------------------
+	# MANUAL MFC FLOW
+	#--------------------------
+		MANUAL_SET_MFC01	-	$DRV	1	$DRV
+		MANUAL_SET_MFC02	-	$DRV	1	$DRV
+		MANUAL_SET_MFC03	-	$DRV	1	$DRV
+		MANUAL_SET_MFC04	-	$DRV	1	$DRV
+		MANUAL_SET_MFC05	-	$DRV	1	$DRV
+		MANUAL_SET_MFC06	-	$DRV	1	$DRV
+		MANUAL_SET_MFC07	-	$DRV	1	$DRV
+		MANUAL_SET_MFC08	-	$DRV	1	$DRV
+		MANUAL_SET_MFC09	-	$DRV	1	$DRV
+
+	#--------------------------
+	# ALD VALVE VERIFICATION
+	#--------------------------
+
+		M_AVlv_CycTgtCntAM	-	$DRV	1	$DRV
+		M_AVlv_CycCurCntAM	-	$DRV	1
+
+		M_AVlv01_OP_MinTmAM	-	$DRV	1
+		M_AVlv02_OP_MinTmAM	-	$DRV	1
+		M_AVlv03_OP_MinTmAM	-	$DRV	1
+		M_AVlv04_OP_MinTmAM	-	$DRV	1
+		M_AVlv05_OP_MinTmAM	-	$DRV	1
+		M_AVlv06_OP_MinTmAM	-	$DRV	1
+		M_AVlv07_OP_MinTmAM	-	$DRV	1
+		M_AVlv08_OP_MinTmAM	-	$DRV	1
+		M_AVlv09_OP_MinTmAM	-	$DRV	1
+		M_AVlv10_OP_MinTmAM	-	$DRV	1
+		M_AVlv11_OP_MinTmAM	-	$DRV	1
+		M_AVlv12_OP_MinTmAM	-	$DRV	1
+		M_AVlv13_OP_MinTmAM	-	$DRV	1
+
+		M_AVlv01_OP_MaxTmAM	-	$DRV	1
+		M_AVlv02_OP_MaxTmAM	-	$DRV	1
+		M_AVlv03_OP_MaxTmAM	-	$DRV	1
+		M_AVlv04_OP_MaxTmAM	-	$DRV	1
+		M_AVlv05_OP_MaxTmAM	-	$DRV	1
+		M_AVlv06_OP_MaxTmAM	-	$DRV	1
+		M_AVlv07_OP_MaxTmAM	-	$DRV	1
+		M_AVlv08_OP_MaxTmAM	-	$DRV	1
+		M_AVlv09_OP_MaxTmAM	-	$DRV	1
+		M_AVlv10_OP_MaxTmAM	-	$DRV	1
+		M_AVlv11_OP_MaxTmAM	-	$DRV	1
+		M_AVlv12_OP_MaxTmAM	-	$DRV	1
+		M_AVlv13_OP_MaxTmAM	-	$DRV	1
+
+		M_AVlv01_OP_AvgTmAM	-	$DRV	1
+		M_AVlv02_OP_AvgTmAM	-	$DRV	1
+		M_AVlv03_OP_AvgTmAM	-	$DRV	1
+		M_AVlv04_OP_AvgTmAM	-	$DRV	1
+		M_AVlv05_OP_AvgTmAM	-	$DRV	1
+		M_AVlv06_OP_AvgTmAM	-	$DRV	1
+		M_AVlv07_OP_AvgTmAM	-	$DRV	1
+		M_AVlv08_OP_AvgTmAM	-	$DRV	1
+		M_AVlv09_OP_AvgTmAM	-	$DRV	1
+		M_AVlv10_OP_AvgTmAM	-	$DRV	1
+		M_AVlv11_OP_AvgTmAM	-	$DRV	1
+		M_AVlv12_OP_AvgTmAM	-	$DRV	1
+		M_AVlv13_OP_AvgTmAM	-	$DRV	1
+
+		M_AVlv01_CL_MinTmAM	-	$DRV	1
+		M_AVlv02_CL_MinTmAM	-	$DRV	1
+		M_AVlv03_CL_MinTmAM	-	$DRV	1
+		M_AVlv04_CL_MinTmAM	-	$DRV	1
+		M_AVlv05_CL_MinTmAM	-	$DRV	1
+		M_AVlv06_CL_MinTmAM	-	$DRV	1
+		M_AVlv07_CL_MinTmAM	-	$DRV	1
+		M_AVlv08_CL_MinTmAM	-	$DRV	1
+		M_AVlv09_CL_MinTmAM	-	$DRV	1
+		M_AVlv10_CL_MinTmAM	-	$DRV	1
+		M_AVlv11_CL_MinTmAM	-	$DRV	1
+		M_AVlv12_CL_MinTmAM	-	$DRV	1
+		M_AVlv13_CL_MinTmAM	-	$DRV	1
+
+		M_AVlv01_CL_MaxTmAM	-	$DRV	1
+		M_AVlv02_CL_MaxTmAM	-	$DRV	1
+		M_AVlv03_CL_MaxTmAM	-	$DRV	1
+		M_AVlv04_CL_MaxTmAM	-	$DRV	1
+		M_AVlv05_CL_MaxTmAM	-	$DRV	1
+		M_AVlv06_CL_MaxTmAM	-	$DRV	1
+		M_AVlv07_CL_MaxTmAM	-	$DRV	1
+		M_AVlv08_CL_MaxTmAM	-	$DRV	1
+		M_AVlv09_CL_MaxTmAM	-	$DRV	1
+		M_AVlv10_CL_MaxTmAM	-	$DRV	1
+		M_AVlv11_CL_MaxTmAM	-	$DRV	1
+		M_AVlv12_CL_MaxTmAM	-	$DRV	1
+		M_AVlv13_CL_MaxTmAM	-	$DRV	1
+
+		M_AVlv01_CL_AvgTmAM	-	$DRV	1
+		M_AVlv02_CL_AvgTmAM	-	$DRV	1
+		M_AVlv03_CL_AvgTmAM	-	$DRV	1
+		M_AVlv04_CL_AvgTmAM	-	$DRV	1
+		M_AVlv05_CL_AvgTmAM	-	$DRV	1
+		M_AVlv06_CL_AvgTmAM	-	$DRV	1
+		M_AVlv07_CL_AvgTmAM	-	$DRV	1
+		M_AVlv08_CL_AvgTmAM	-	$DRV	1
+		M_AVlv09_CL_AvgTmAM	-	$DRV	1
+		M_AVlv10_CL_AvgTmAM	-	$DRV	1
+		M_AVlv11_CL_AvgTmAM	-	$DRV	1
+		M_AVlv12_CL_AvgTmAM	-	$DRV	1
+		M_AVlv13_CL_AvgTmAM	-	$DRV	1
+
+	#--------------------------
+	# MFC FLOW VERIFICATION
+	#--------------------------
+
+		MFC_PUMP_TIME		-	$DRV	1	$DRV
+		MFC_CHECK_DELAY		-	$DRV	1	$DRV
+		MFC_CHECK_TIME		-	$DRV	1	$DRV
+		MFC_FL0W_TOL		-	$DRV	1	$DRV
+
+		MFlow_MFC01_SET1	-	$DRV	1
+		MFlow_MFC01_SET2	-	$DRV	1
+		MFlow_MFC01_SET3	-	$DRV	1
+		MFlow_MFC01_SET4	-	$DRV	1
+		MFlow_MFC01_SET5	-	$DRV	1
+		MFlow_MFC02_SET1	-	$DRV	1
+		MFlow_MFC02_SET2	-	$DRV	1
+		MFlow_MFC02_SET3	-	$DRV	1
+		MFlow_MFC02_SET4	-	$DRV	1
+		MFlow_MFC02_SET5	-	$DRV	1
+		MFlow_MFC03_SET1	-	$DRV	1
+		MFlow_MFC03_SET2	-	$DRV	1
+		MFlow_MFC03_SET3	-	$DRV	1
+		MFlow_MFC03_SET4	-	$DRV	1
+		MFlow_MFC03_SET5	-	$DRV	1
+		MFlow_MFC04_SET1	-	$DRV	1
+		MFlow_MFC04_SET2	-	$DRV	1
+		MFlow_MFC04_SET3	-	$DRV	1
+		MFlow_MFC04_SET4	-	$DRV	1
+		MFlow_MFC04_SET5	-	$DRV	1
+		MFlow_MFC05_SET1	-	$DRV	1
+		MFlow_MFC05_SET2	-	$DRV	1
+		MFlow_MFC05_SET3	-	$DRV	1
+		MFlow_MFC05_SET4	-	$DRV	1
+		MFlow_MFC05_SET5	-	$DRV	1
+		MFlow_MFC06_SET1	-	$DRV	1
+		MFlow_MFC06_SET2	-	$DRV	1
+		MFlow_MFC06_SET3	-	$DRV	1
+		MFlow_MFC06_SET4	-	$DRV	1
+		MFlow_MFC06_SET5	-	$DRV	1
+		MFlow_MFC07_SET1	-	$DRV	1
+		MFlow_MFC07_SET2	-	$DRV	1
+		MFlow_MFC07_SET3	-	$DRV	1
+		MFlow_MFC07_SET4	-	$DRV	1
+		MFlow_MFC07_SET5	-	$DRV	1
+		MFlow_MFC08_SET1	-	$DRV	1
+		MFlow_MFC08_SET2	-	$DRV	1
+		MFlow_MFC08_SET3	-	$DRV	1
+		MFlow_MFC08_SET4	-	$DRV	1
+		MFlow_MFC08_SET5	-	$DRV	1
+		MFlow_MFC09_SET1	-	$DRV	1
+		MFlow_MFC09_SET2	-	$DRV	1
+		MFlow_MFC09_SET3	-	$DRV	1
+		MFlow_MFC09_SET4	-	$DRV	1
+		MFlow_MFC09_SET5	-	$DRV	1
+
+		MFlow_MFC01_FLOW1	-	$DRV	1
+		MFlow_MFC01_FLOW2	-	$DRV	1
+		MFlow_MFC01_FLOW3	-	$DRV	1
+		MFlow_MFC01_FLOW4	-	$DRV	1
+		MFlow_MFC01_FLOW5	-	$DRV	1
+		MFlow_MFC02_FLOW1	-	$DRV	1
+		MFlow_MFC02_FLOW2	-	$DRV	1
+		MFlow_MFC02_FLOW3	-	$DRV	1
+		MFlow_MFC02_FLOW4	-	$DRV	1
+		MFlow_MFC02_FLOW5	-	$DRV	1
+		MFlow_MFC03_FLOW1	-	$DRV	1
+		MFlow_MFC03_FLOW2	-	$DRV	1
+		MFlow_MFC03_FLOW3	-	$DRV	1
+		MFlow_MFC03_FLOW4	-	$DRV	1
+		MFlow_MFC03_FLOW5	-	$DRV	1
+		MFlow_MFC04_FLOW1	-	$DRV	1
+		MFlow_MFC04_FLOW2	-	$DRV	1
+		MFlow_MFC04_FLOW3	-	$DRV	1
+		MFlow_MFC04_FLOW4	-	$DRV	1
+		MFlow_MFC04_FLOW5	-	$DRV	1
+		MFlow_MFC05_FLOW1	-	$DRV	1
+		MFlow_MFC05_FLOW2	-	$DRV	1
+		MFlow_MFC05_FLOW3	-	$DRV	1
+		MFlow_MFC05_FLOW4	-	$DRV	1
+		MFlow_MFC05_FLOW5	-	$DRV	1
+		MFlow_MFC06_FLOW1	-	$DRV	1
+		MFlow_MFC06_FLOW2	-	$DRV	1
+		MFlow_MFC06_FLOW3	-	$DRV	1
+		MFlow_MFC06_FLOW4	-	$DRV	1
+		MFlow_MFC06_FLOW5	-	$DRV	1
+		MFlow_MFC07_FLOW1	-	$DRV	1
+		MFlow_MFC07_FLOW2	-	$DRV	1
+		MFlow_MFC07_FLOW3	-	$DRV	1
+		MFlow_MFC07_FLOW4	-	$DRV	1
+		MFlow_MFC07_FLOW5	-	$DRV	1
+		MFlow_MFC08_FLOW1	-	$DRV	1
+		MFlow_MFC08_FLOW2	-	$DRV	1
+		MFlow_MFC08_FLOW3	-	$DRV	1
+		MFlow_MFC08_FLOW4	-	$DRV	1
+		MFlow_MFC08_FLOW5	-	$DRV	1
+		MFlow_MFC09_FLOW1	-	$DRV	1
+		MFlow_MFC09_FLOW2	-	$DRV	1
+		MFlow_MFC09_FLOW3	-	$DRV	1
+		MFlow_MFC09_FLOW4	-	$DRV	1
+		MFlow_MFC09_FLOW5	-	$DRV	1
+
+		MFlow_MFC01_ResultPrs1	-	$DRV	1
+		MFlow_MFC01_ResultPrs2	-	$DRV	1
+		MFlow_MFC01_ResultPrs3	-	$DRV	1
+		MFlow_MFC01_ResultPrs4	-	$DRV	1
+		MFlow_MFC01_ResultPrs5	-	$DRV	1
+		MFlow_MFC02_ResultPrs1	-	$DRV	1
+		MFlow_MFC02_ResultPrs2	-	$DRV	1
+		MFlow_MFC02_ResultPrs3	-	$DRV	1
+		MFlow_MFC02_ResultPrs4	-	$DRV	1
+		MFlow_MFC02_ResultPrs5	-	$DRV	1
+		MFlow_MFC03_ResultPrs1	-	$DRV	1
+		MFlow_MFC03_ResultPrs2	-	$DRV	1
+		MFlow_MFC03_ResultPrs3	-	$DRV	1
+		MFlow_MFC03_ResultPrs4	-	$DRV	1
+		MFlow_MFC03_ResultPrs5	-	$DRV	1
+		MFlow_MFC04_ResultPrs1	-	$DRV	1
+		MFlow_MFC04_ResultPrs2	-	$DRV	1
+		MFlow_MFC04_ResultPrs3	-	$DRV	1
+		MFlow_MFC04_ResultPrs4	-	$DRV	1
+		MFlow_MFC04_ResultPrs5	-	$DRV	1
+		MFlow_MFC05_ResultPrs1	-	$DRV	1
+		MFlow_MFC05_ResultPrs2	-	$DRV	1
+		MFlow_MFC05_ResultPrs3	-	$DRV	1
+		MFlow_MFC05_ResultPrs4	-	$DRV	1
+		MFlow_MFC05_ResultPrs5	-	$DRV	1
+		MFlow_MFC06_ResultPrs1	-	$DRV	1
+		MFlow_MFC06_ResultPrs2	-	$DRV	1
+		MFlow_MFC06_ResultPrs3	-	$DRV	1
+		MFlow_MFC06_ResultPrs4	-	$DRV	1
+		MFlow_MFC06_ResultPrs5	-	$DRV	1
+		MFlow_MFC07_ResultPrs1	-	$DRV	1
+		MFlow_MFC07_ResultPrs2	-	$DRV	1
+		MFlow_MFC07_ResultPrs3	-	$DRV	1
+		MFlow_MFC07_ResultPrs4	-	$DRV	1
+		MFlow_MFC07_ResultPrs5	-	$DRV	1
+		MFlow_MFC08_ResultPrs1	-	$DRV	1
+		MFlow_MFC08_ResultPrs2	-	$DRV	1
+		MFlow_MFC08_ResultPrs3	-	$DRV	1
+		MFlow_MFC08_ResultPrs4	-	$DRV	1
+		MFlow_MFC08_ResultPrs5	-	$DRV	1
+		MFlow_MFC09_ResultPrs1	-	$DRV	1
+		MFlow_MFC09_ResultPrs2	-	$DRV	1
+		MFlow_MFC09_ResultPrs3	-	$DRV	1
+		MFlow_MFC09_ResultPrs4	-	$DRV	1
+		MFlow_MFC09_ResultPrs5	-	$DRV	1
+
+		MFlow_StartChmPrs	-	$DRV	1
+		MFlow_StartPumpPrs	-	$DRV	1
+
+	#--------------------------
+	# MOTOR VERIFICATION
+	#--------------------------
+		M_MT_CycMvPosAM		-	$DRV	1	$DRV
+		M_MT_CycMvTgtCntAM	-	$DRV	1	$DRV
+		M_MT_CycMvCurCntAM	-	$DRV	1
+		M_MT_CycMvUpTmAM	-	$DRV	1
+		M_MT_CycMvDnTmAM	-	$DRV	1
+
+	$$$ String
+
+	#--------------------------
+	# MFC FLOW VERIFICATION
+	#--------------------------
+
+		MFlow_MFC01_Name	$DRV	-	1
+		MFlow_MFC02_Name	$DRV	-	1
+		MFlow_MFC03_Name	$DRV	-	1
+		MFlow_MFC04_Name	$DRV	-	1
+		MFlow_MFC05_Name	$DRV	-	1
+		MFlow_MFC06_Name	$DRV	-	1
+		MFlow_MFC07_Name	$DRV	-	1
+		MFlow_MFC08_Name	$DRV	-	1
+		MFlow_MFC09_Name	$DRV	-	1
+	$$$ Digital
+		ALECHK_RCPDM		-	$DRV	1	$DRV	
+		ALECHK_NormDM		-	$DRV	1	$DRV
+		ALECHK_GASLnDM		-	$DRV	1	$DRV
+		ALECHK_MTRDM		-	$DRV	1	$DRV
+		ALECHK_VLVDM		-	$DRV	1	$DRV
+		ALECHK_DynCntDM		-	$DRV	1	$DRV
+		LKMacroType1DM		-	$DRV	1	$DRV	
+		LKMacroType2DM		-	$DRV	1	$DRV
+		RF_MAT_ParmSaveDM	-	$DRV	1	$DRV
+		LeakChk_ParmSaveDM	-	$DRV	1	$DRV	
+		SysLeakChkDM		-	$DRV	1	$DRV	
+	$$$ Analog	
+		Chuck_UpPos_AM  	-	$DRV	1	$DRV
+		Chuck_DnPos_AM  	-	$DRV	1	$DRV
+		MFC_PurgeTmAM	  	-	$DRV	1	$DRV
+		RoRLimitAM	  	-	$DRV	1	$DRV
+		LnRoRLimitAM	  	-	$DRV	1	$DRV
+		ALDRoRLimitAM	  	-	$DRV	1	$DRV
+		UrRoRLimitAM	  	-	$DRV	1	$DRV
+$$$ END
+

@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AE_RFMatcher - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/Resource.res" /d "NDEBUG" "D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.24\PEALD_PMA\Driver\EIP_Matcher_Driver\Source\Resource.rc"" 
+Creating temporary file "C:\Users\gwlee\AppData\Local\Temp\RSP5E4D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\h" /I "k:\h" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.24\PEALD_PMA\Driver\EIP_Matcher_Driver\Source\driver.cpp"
+"D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.24\PEALD_PMA\Driver\EIP_Matcher_Driver\Source\TextParser_C.c"
+]
+Creating command line "cl.exe @C:\Users\gwlee\AppData\Local\Temp\RSP5E4D.tmp" 
+Creating temporary file "C:\Users\gwlee\AppData\Local\Temp\RSP5E4E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib CimWSock.lib cimserhd.lib ws2_32.lib /nologo /subsystem:windows /dll /pdb:none /machine:I386 /nodefaultlib:"libcmt.lib" /out:"..\..\EIP_MATCH1.dll" /implib:"Release/EIP_MATCH1.lib" /libpath:"k:\lib" 
+".\Release\driver.obj"
+".\Release\TextParser_C.obj"
+".\Release\Resource.res"
+]
+Creating command line "link.exe @C:\Users\gwlee\AppData\Local\Temp\RSP5E4E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+driver.cpp
+Generating Code...
+Compiling...
+TextParser_C.c
+Generating Code...
+Linking...
+   Creating library Release/EIP_MATCH1.lib and object Release/EIP_MATCH1.exp
+
+
+
+<h3>Results</h3>
+EIP_MATCH1.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

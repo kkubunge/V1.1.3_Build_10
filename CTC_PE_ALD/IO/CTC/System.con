@@ -1,0 +1,421 @@
+#----------------------------------------------------------------------------------------
+$$$ Digital
+	PM1_MFC01_UseDM		OffOn	On
+	PM1_MFC02_UseDM		OffOn	On
+	PM1_MFC03_UseDM		OffOn	On
+	PM1_MFC04_UseDM		OffOn	On
+	PM1_MFC05_UseDM		OffOn	On
+	PM1_MFC06_UseDM		OffOn	On
+	PM1_MFC07_UseDM		OffOn	On
+	PM1_MFC08_UseDM		OffOn	On
+	PM1_MFC09_UseDM		OffOn	On
+	PM1_MFC10_UseDM		OffOn	Off
+	PM1_MFC11_UseDM		OffOn	Off
+	PM1_MFC12_UseDM		OffOn	Off
+	PM1_MFC13_UseDM		OffOn	Off
+	PM1_MFC14_UseDM		OffOn	Off
+	PM1_MFC15_UseDM		OffOn	Off
+	PM1_MFC16_UseDM		OffOn	Off
+	PM1_MFC17_UseDM		OffOn	Off
+	PM1_MFC18_UseDM		OffOn	Off
+	PM1_MFC19_UseDM		OffOn	Off
+	PM1_MFC20_UseDM		OffOn	Off
+
+	PM1_MAX_MFC01		-	5000
+	PM1_MAX_MFC02		-	1000
+	PM1_MAX_MFC03		-	5000
+	PM1_MAX_MFC04		-	1000
+	PM1_MAX_MFC05		-	5000
+	PM1_MAX_MFC06		-	5000
+	PM1_MAX_MFC07		-	5000
+	PM1_MAX_MFC08		-	1000
+	PM1_MAX_MFC09		-	5000
+	PM1_MAX_MFC10		-	0
+	PM1_MAX_MFC11		-	0
+	PM1_MAX_MFC12		-	0
+	PM1_MAX_MFC13		-	0
+	PM1_MAX_MFC14		-	0
+	PM1_MAX_MFC15		-	0
+	PM1_MAX_MFC16		-	0
+	PM1_MAX_MFC17		-	0
+	PM1_MAX_MFC18		-	0
+	PM1_MAX_MFC19		-	0
+	PM1_MAX_MFC20		-	0
+
+	PM2_MFC01_UseDM		OffOn	On
+	PM2_MFC02_UseDM		OffOn	On
+	PM2_MFC03_UseDM		OffOn	On
+	PM2_MFC04_UseDM		OffOn	On
+	PM2_MFC05_UseDM		OffOn	On
+	PM2_MFC06_UseDM		OffOn	On
+	PM2_MFC07_UseDM		OffOn	On
+	PM2_MFC08_UseDM		OffOn	On
+	PM2_MFC09_UseDM		OffOn	On
+	PM2_MFC10_UseDM		OffOn	Off
+	PM2_MFC11_UseDM		OffOn	Off
+	PM2_MFC12_UseDM		OffOn	Off
+	PM2_MFC13_UseDM		OffOn	Off
+	PM2_MFC14_UseDM		OffOn	Off
+	PM2_MFC15_UseDM		OffOn	Off
+	PM2_MFC16_UseDM		OffOn	Off
+	PM2_MFC17_UseDM		OffOn	Off
+	PM2_MFC18_UseDM		OffOn	Off
+	PM2_MFC19_UseDM		OffOn	Off
+	PM2_MFC20_UseDM		OffOn	Off
+
+	PM2_MAX_MFC01		-	5000
+	PM2_MAX_MFC02		-	1000
+	PM2_MAX_MFC03		-	5000
+	PM2_MAX_MFC04		-	1000
+	PM2_MAX_MFC05		-	5000
+	PM2_MAX_MFC06		-	5000
+	PM2_MAX_MFC07		-	5000
+	PM2_MAX_MFC08		-	1000
+	PM2_MAX_MFC09		-	5000
+	PM2_MAX_MFC10		-	0
+	PM2_MAX_MFC11		-	0
+	PM2_MAX_MFC12		-	0
+	PM2_MAX_MFC13		-	0
+	PM2_MAX_MFC14		-	0
+	PM2_MAX_MFC15		-	0
+	PM2_MAX_MFC16		-	0
+	PM2_MAX_MFC17		-	0
+	PM2_MAX_MFC18		-	0
+	PM2_MAX_MFC19		-	0
+	PM2_MAX_MFC20		-	0
+
+	PM3_MFC01_UseDM		OffOn	On
+	PM3_MFC02_UseDM		OffOn	On
+	PM3_MFC03_UseDM		OffOn	On
+	PM3_MFC04_UseDM		OffOn	On
+	PM3_MFC05_UseDM		OffOn	On
+	PM3_MFC06_UseDM		OffOn	On
+	PM3_MFC07_UseDM		OffOn	On
+	PM3_MFC08_UseDM		OffOn	On
+	PM3_MFC09_UseDM		OffOn	On
+	PM3_MFC10_UseDM		OffOn	Off
+	PM3_MFC11_UseDM		OffOn	Off
+	PM3_MFC12_UseDM		OffOn	Off
+	PM3_MFC13_UseDM		OffOn	Off
+	PM3_MFC14_UseDM		OffOn	Off
+	PM3_MFC15_UseDM		OffOn	Off
+	PM3_MFC16_UseDM		OffOn	Off
+	PM3_MFC17_UseDM		OffOn	Off
+	PM3_MFC18_UseDM		OffOn	Off
+	PM3_MFC19_UseDM		OffOn	Off
+	PM3_MFC20_UseDM		OffOn	Off
+
+	PM3_MAX_MFC01		-	5000
+	PM3_MAX_MFC02		-	1000
+	PM3_MAX_MFC03		-	5000
+	PM3_MAX_MFC04		-	1000
+	PM3_MAX_MFC05		-	5000
+	PM3_MAX_MFC06		-	5000
+	PM3_MAX_MFC07		-	5000
+	PM3_MAX_MFC08		-	1000
+	PM3_MAX_MFC09		-	5000
+	PM3_MAX_MFC10		-	0
+	PM3_MAX_MFC11		-	0
+	PM3_MAX_MFC12		-	0
+	PM3_MAX_MFC13		-	0
+	PM3_MAX_MFC14		-	0
+	PM3_MAX_MFC15		-	0
+	PM3_MAX_MFC16		-	0
+	PM3_MAX_MFC17		-	0
+	PM3_MAX_MFC18		-	0
+	PM3_MAX_MFC19		-	0
+	PM3_MAX_MFC20		-	0
+
+#-------------------------------------------
+#2006.1.20
+$$$ Enum
+AbCtrlEnum	Idle	Abort	Aborting
+
+$$$ Digital
+CTC.AbortControl	AbCtrlEnum	Idle
+
+#Wafer Sync Confirm
+CTC.WfrSyncConfirm	UnknownOkEnum	Unknown
+CTC.ManualTRConfirm	UnknownOkEnum	Unknown
+
+#Chamber Condition Control
+PM1_ModeChangeIgnore	OffOn	Off
+PM2_ModeChangeIgnore	OffOn	Off
+PM3_ModeChangeIgnore	OffOn	Off
+PM4_ModeChangeIgnore	OffOn	Off
+PM5_ModeChangeIgnore	OffOn	Off
+#-------------------------------------------
+$$$ Enum
+PMSelect	PM2	PM4
+#PageSelect	Off	On
+OFF_ON		OFF	ON
+SAVE_NO_YES	NO	YES
+
+MSG_CONTROL	Idle	Running
+
+Vlv_Ctrl	Vlv_Ukn	Vlv_Cls
+
+$$$ Digital
+Version_View
+Module_Select	PMSelect
+LotPre_Config_Next	PageSelect
+LotPre_Config_Prev	PageSelect
+
+TM_Config_Next	PageSelect
+TM_Config_Prev	PageSelect
+
+vInterlock_Pass OFF_ON
+CTC.TR_Clear	OFF_ON
+
+MsgBox	OFF_ON
+
+PM2.vRCP.Save	SAVE_NO_YES
+PM4.vRCP.Save	SAVE_NO_YES
+PM2.vIdleRCP.Save	SAVE_NO_YES
+PM4.vIdleRCP.Save	SAVE_NO_YES
+
+MSG.PM2_CONTROL		MSG_CONTROL
+MSG.PM4_CONTROL		MSG_CONTROL
+
+
+vPump_TM.Valve		Vlv_Ctrl
+vPump_BM1.Valve		Vlv_Ctrl
+vPump_BM2.Valve		Vlv_Ctrl
+
+$$$ Digital
+	CTC.PM1_PROCESS_WAFER_NUMBER
+	CTC.PM1_PROCESS_WAFER_NUMBER2
+	CTC.PM2_PROCESS_WAFER_NUMBER
+	CTC.PM2_PROCESS_WAFER_NUMBER2
+	CTC.PM3_PROCESS_WAFER_NUMBER
+	CTC.PM3_PROCESS_WAFER_NUMBER2
+	CTC.PM4_PROCESS_WAFER_NUMBER
+	CTC.PM5_PROCESS_WAFER_NUMBER
+	CTC.PM6_PROCESS_WAFER_NUMBER
+
+	CTC.PM_MODE		-	0
+
+$$$ Analog
+	CTC.LIMIT_SET_VALUE		-	-       -  -  -  2   0    999999999	1	-	-  -  -  2   0	   999999999
+	CTC.LIMIT_CURRENT_VALUE		-	-       -  -  -  2   0    999999999	1	-	-  -  -  2   0	   999999999
+
+$$$ String
+	CTC.LIMIT_PARAM_NAME		""
+
+	PRMS_IdleRCPName_PM1	""
+	PRMS_IdleRCPName_PM2	""
+	PRMS_IdleRCPName_PM3	""
+	PRMS_IdleRCPName_PM4	""
+	PRMS_IdleRCPName_PM5	""
+
+$$$ Enum
+	MdlRunSts	Idle	Running		Enable
+	StartOption	CONCURRENT	CONTINUE 	SEQUENTIAL
+	IdleDisEnEnum	Disable  Enable
+
+$$$ Digital
+	PM1.MAINT_CONTROL		MdlRunSts
+	PM2.MAINT_CONTROL		MdlRunSts
+	PM3.MAINT_CONTROL		MdlRunSts
+	PM4.MAINT_CONTROL		MdlRunSts
+	PM5.MAINT_CONTROL		MdlRunSts
+
+	PRMD_IdleRCPUse_PM1		IdleDisEnEnum
+	PRMD_IdleRCPUse_PM2		IdleDisEnEnum
+	PRMD_IdleRCPUse_PM3		IdleDisEnEnum
+	PRMD_IdleRCPUse_PM4		IdleDisEnEnum
+	PRMD_IdleRCPUse_PM5		IdleDisEnEnum
+
+$$$ Digital
+	START_CONTROL_OPTION		StartOption	SEQUENTIAL
+
+	FEM.CONFIG_ADAPT			-
+##-------------------------------------------------
+## 2006.08.08 (Cycle Purge)
+$$$ Enum
+CyclePurgeState		Stop	Pump	Vent
+
+$$$ Digital
+TM.CYCLE_PURGE_RCNT_DM		-
+TM.CYCLE_PURGE_STS_DM		CyclePurgeState
+
+BM1.CYCLE_PURGE_RCNT_DM		-
+BM1.CYCLE_PURGE_STS_DM		CyclePurgeState
+
+BM2.CYCLE_PURGE_RCNT_DM		-
+BM2.CYCLE_PURGE_STS_DM		CyclePurgeState
+##-------------------------------------------------
+#TM,LL,EFEM KeySensor Add
+$$$ Digital
+	FM_AL_Wafer_StatusDM	-	0
+	FA_Wafer_StatusDM	-	0
+	FB_Wafer_StatusDM	-	0
+	FA_Wafer_SourceDM	-	0
+	FB_Wafer_SourceDM       -	0
+	FM_AL_Wafer_SourceDM	-	0
+
+	TA_Wafer_StatusDM	-	0
+	TA_Wafer_Status2DM	-	0
+	TB_Wafer_StatusDM	-	0
+	TB_Wafer_Status2DM	-	0
+	TA_Wafer_SourceDM	-	0
+	TA_Wafer_Source2DM	-	0
+	TB_Wafer_SourceDM	-	0
+	TB_Wafer_Source2DM	-	0
+
+	BM1_Wafer_StatusDM	-	0
+	BM1_Wafer_Status2DM	-	0
+	BM1_Wafer_Status3DM	-	0
+	BM1_Wafer_Status4DM	-	0
+	BM2_Wafer_StatusDM	-	0
+	BM2_Wafer_Status2DM	-	0
+	BM2_Wafer_Status3DM	-	0
+	BM2_Wafer_Status4DM	-	0
+	BM1_Wafer_SourceDM	-	0
+	BM1_Wafer_Source2DM	-	0
+	BM1_Wafer_Source3DM	-	0
+	BM1_Wafer_Source4DM	-	0
+	BM2_Wafer_SourceDM	-	0
+	BM2_Wafer_Source2DM	-	0
+	BM2_Wafer_Source3DM	-	0
+	BM2_Wafer_Source4DM	-	0
+
+	TM_RB_WAFERID1		-	0
+	TM_RB_WAFERID2		-	0
+
+	FM_RB_WAFERID1		-	0
+	FM_RB_WAFERID2		-	0
+$$$ String
+	FM_AL_Wafer_PPIDSM	""
+	FA_Wafer_PPIDSM		""
+	FB_Wafer_PPIDSM		""
+	FA_Wafer_LOTIDSM	""
+	FB_Wafer_LOTIDSM	""
+	FM_AL_Wafer_LOTIDSM	""
+
+	TA_Wafer_PPIDSM		""
+	TA_Wafer_PPID2SM	""
+	TB_Wafer_PPIDSM		""
+	TB_Wafer_PPID2SM	""
+	TA_Wafer_LOTIDSM	""
+	TA_Wafer_LOTID2SM	""
+	TB_Wafer_LOTIDSM	""
+	TB_Wafer_LOTID2SM	""
+
+	BM1_Wafer_PPIDSM	""
+	BM1_Wafer_PPID2SM	""
+	BM1_Wafer_PPID3SM	""
+	BM1_Wafer_PPID4SM	""
+	BM2_Wafer_PPIDSM	""
+	BM2_Wafer_PPID2SM	""
+	BM2_Wafer_PPID3SM	""
+	BM2_Wafer_PPID4SM	""
+	BM1_Wafer_LOTIDSM	""
+	BM1_Wafer_LOTID2SM	""
+	BM1_Wafer_LOTID3SM	""
+	BM1_Wafer_LOTID4SM	""
+	BM2_Wafer_LOTIDSM	""
+	BM2_Wafer_LOTID2SM	""
+	BM2_Wafer_LOTID3SM	""
+	BM2_Wafer_LOTID4SM	""
+
+	Key_TMVacuumStepSM	""
+	Key_BM1VacuumStepSM	""
+	Key_BM2VacuumStepSM	""
+
+	TM_RB_LOTID1		""
+	TM_RB_LOTID2		""
+	TM_RB_MIDID1		""
+	TM_RB_MIDID2		""
+
+	FM_RB_LOTID1		""
+	FM_RB_LOTID2		""
+	FM_RB_MIDID1		""
+	FM_RB_MIDID2		""
+	INFO_MFCPATH_NAME	""
+##-------------------------------------------------
+##2015.06.17
+$$$ Analog
+	PM1_RF1FreqLAvrAI		-	-       -  -  -  3   0    999999999	1	-	-  -  -  2   0	   999999999   	
+	PM1_RF1RefPwLAvrAI		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_RF1LoadPwLAvrAI	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_RF2FreqLAvrAI		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_RF2RefPwLAvrAI		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_RF2LoadPwLAvrAI	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+                                     
+	PM1_HF1LoadPosLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_HF1TunePosLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_HF1Z_ScanRLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_HF1Z_ScanXLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_HF1Z_ScanVltLAvr	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_HF1Z_ScanCurLAvr	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_HF1Z_ScanPhsLAvr	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_HF1Z_ScanPwrLAvr	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+                                      
+	PM1_HF2LoadPosLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_HF2TunePosLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_HF2Z_ScanRLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_HF2Z_ScanXLAvr	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_HF2Z_ScanVltLAvr	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_HF2Z_ScanCurLAvr           -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_HF2Z_ScanPhsLAvr           -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM1_HF2Z_ScanPwrLAvr	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+                                       
+	PM2_RF1FreqLAvrAI		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_RF1RefPwLAvrAI		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_RF1LoadPwLAvrAI	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_RF2FreqLAvrAI		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_RF2RefPwLAvrAI		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_RF2LoadPwLAvrAI            -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+                                       
+	PM2_HF1LoadPosLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_HF1TunePosLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_HF1Z_ScanRLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_HF1Z_ScanXLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_HF1Z_ScanVltLAvr	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_HF1Z_ScanCurLAvr           -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_HF1Z_ScanPhsLAvr           -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_HF1Z_ScanPwrLAvr           -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+                                       
+	PM2_HF2LoadPosLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_HF2TunePosLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_HF2Z_ScanRLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_HF2Z_ScanXLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_HF2Z_ScanVltLAvr           -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_HF2Z_ScanCurLAvr	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_HF2Z_ScanPhsLAvr           -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM2_HF2Z_ScanPwrLAvr           -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+                                      
+	PM3_RF1FreqLAvrAI		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_RF1RefPwLAvrAI		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_RF1LoadPwLAvrAI	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_RF2FreqLAvrAI		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_RF2RefPwLAvrAI		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_RF2LoadPwLAvrAI	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+                                     
+	PM3_HF1LoadPosLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_HF1TunePosLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_HF1Z_ScanRLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_HF1Z_ScanXLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_HF1Z_ScanVltLAvr	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_HF1Z_ScanCurLAvr	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_HF1Z_ScanPhsLAvr	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_HF1Z_ScanPwrLAvr	        -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+                                       
+	PM3_HF2LoadPosLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_HF2TunePosLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_HF2Z_ScanRLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_HF2Z_ScanXLAvr		-	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_HF2Z_ScanVltLAvr           -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_HF2Z_ScanCurLAvr           -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_HF2Z_ScanPhsLAvr           -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+	PM3_HF2Z_ScanPwrLAvr           -	-	-  -  -  3   0    999999999     1       -       -  -  -  3   0     999999999
+#####################################################################################################################################	
+#2015.09.06
+$$$ Enum
+IOEnum		Lock	Unlock
+
+$$$ Digital
+IOLockDO	IOEnum	Lock
+#####################################################################################################################################
+

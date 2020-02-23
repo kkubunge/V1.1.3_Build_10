@@ -1,0 +1,1017 @@
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+#	CM3.	 ALARM ......700 ~ 999
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+701 CM3.NOTCARRIER {
+	"CM3 'S NOTCARRIER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+702 CM3.CARRIER {
+	"CM3 'S CARRIER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+703 CM3.EXTEND {
+	"CM3 'S EXTEND ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+704 CM3.RETRACT{
+	"CM3 'S  RETRACT ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+705 CM3.CLOSE{
+	"CM3 'S CLOSE ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+706 CM3.OPEN{
+	"CM3 'S OPEN ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+707 CM3.DOORDOWN{
+	"CM3 'S  DOORDOWN ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+708 CM3.DOORUP{
+	"CM3 'S  DOORUP ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+709 CM3.DOCKING{
+	"CM3 'S  DOCKING ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+710 CM3.UNDOCKING{
+	"CM3 'S  UNDOCKING ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+711 CM3.CLAMP{
+	"CM3 'S CLAMP ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+712 CM3.UNCLAMP{
+	"CM3 'S  UNCLAMP ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+713 CM3.SLIDE{
+	"CM3 'S  SLIDE ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+714 CM3.TMO{
+	"CM3 'S  Initialize Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+715 CM3.DoorSnsChk{
+	"CM3 'S  Door sensor check"
+	CLEAR		"Clear Operation"
+}
+
+716 CM3.PaddleSnsChk{
+	"CM3 'S  Paddle sensor check"
+	CLEAR		"Clear Operation"
+}
+
+717 CM3.CassChk{
+	"CM3 'S  Cassette Check"
+	CLEAR		"Clear Operation"
+}
+
+718 CM3.VACUUM{
+	"CM3 'S  VACUUM ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+719 CM3.LATCH{
+	"CM3 'S  LATCH ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#--------------------------------------------------------------------
+# Fixload 6M 
+#--------------------------------------------------------------------
+720 CM3.6MCommErr{
+	"CM3 'S Communitcation check"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"	
+}
+
+721 CM3.6MMapErr{
+	"CM3 'S Mapping Error"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"	
+}
+
+722 CM3.NoCompAir{
+	"No Compressed air(0xc018)! Check & Init again!"
+	CLEAR		"Clear Operation"
+}
+
+723 CM3.NoVacuum{
+	"No Vacuum(0xc019)! Check & Init again!"
+	CLEAR		"Clear Operation"
+}
+
+724 CM3.24VMissing{
+	"Voltage 24 missing(0xc01f)! Check & Init again!"
+	CLEAR		"Clear Operation"
+}
+
+725 CM3.WaferProtTrig{
+	"Wafer Protrusion Sensor Triggered(0xc01b)! Check again!"
+	CLEAR		"Clear Operation"
+}
+
+726 CM3.InitNotReady{
+	"Initialization Not Ready(0xc01d)! Check again!"
+	CLEAR		"Clear Operation"
+}
+
+727 CM3.WaferProtDef{
+	"Wafer Protrusion Sensor Defective(0xc01e)! Check again!"
+	CLEAR		"Clear Operation"
+}
+
+728 CM3.VacSensorNotAct{
+	"Vacuum Sensor Not Active(0xc022)! Check & Init again!"
+	CLEAR		"Clear Operation"
+}
+
+730 CM3.6MErr{
+	"CM3 6MErr"
+	CLEAR		"Clear Operation"
+}
+
+#--------------------------------------------------------------------
+# N2 Purge Alarm
+#--------------------------------------------------------------------
+
+731 CM3.N2FrontAbortTolOver{
+	"CM3 N2 Front Abort Tolerance is Over"
+	CLEAR		"Clear Operation"
+}
+
+732 CM3.N2RearAbortTolOver{
+	"CM3 N2 Rear Abort Tolerance is Over"
+	CLEAR		"Clear Operation"
+}
+
+733 CM3.N2FrontWarnTolOver{
+	"CM3 N2 Front Warning Tolerance is Over"
+	CLEAR		"Clear Operation"
+}
+
+734 CM3.N2RearWarnTolOver{
+	"CM3 N2 Rear Warninig Tolerance is Over"
+	CLEAR		"Clear Operation"
+}
+
+735 CM3.N2MainPrsLow{
+	"CM3 N2 Main Pressure is Low"
+	CLEAR		"Clear Operation"
+}
+
+736 CM3.N2MainPrsHigh{
+	"CM3 N2 Main Pressure is High"
+	CLEAR		"Clear Operation"
+}
+
+737 CM3.N2PurgeAbnorStop{
+	"CM3 N2 Purge Abnormal Stop"
+	CLEAR		"Clear Operation"
+}
+
+740 CM3.N2BlowControlFail{
+	"CM3 N2 Blow Control Fail!(Need to Remove FOUP on LoadPort)"
+	CLEAR		"Clear Operation"
+}
+
+741 CM3.N2PurgeControlFail{
+	"CM3 N2 Purge Control Fail!(Need to Place FOUP on LoadPort)"
+	CLEAR		"Clear Operation"
+}
+
+742 CM3.N2PurgeFlowRateFail {
+	"CM3 N2 Purge Flow Rate Alarm Is Posting So Check N2 Control"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+#--------------------------------------------------------------------
+# Bar Code
+#--------------------------------------------------------------------
+
+751 CM3.CODE.READ_ERROR{
+	"CM3 'S READ ERROR "
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#--------------------------------------------------------------------
+# Append 2002.02.01 from KORNIC for AGV(760-790) Load/Unload(791-799)
+#--------------------------------------------------------------------
+759 CM3.CommFail {
+	"CM3 Communication Fail!!!"
+	CLEAR		"Clear Operation"
+}
+
+760 CM3.CommError {
+	"CM3 DeviceNet/AMHS Communication Fail!!!"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+761 CM3.AMHSValidTmo {
+	"CM3 AMHS Valid(TP6) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+762 CM3.AMHSTRReqTmo {
+	"CM3 AMHS TRREQ(TP1) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+763 CM3.AMHSBusyTmo {
+	"CM3 AMHS Busy(TP2) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+764 CM3.AMHSRecvTmo {
+	"CM3 AMHS Foup Receive(TP3) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+765 CM3.AMHSRemoveTmo {
+	"CM3 AMHS Foup Remove(TP3) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+766 CM3.AMHSComptTmo {
+	"CM3 AMHS Complete(TP4) On Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+767 CM3.AMHSCompOffTmo {
+	"CM3 AMHS Complete Off Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+768 CM3.AMHSCSOffTmo {
+	"CM3 EFEM AMHS CS Off Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+769 CM3.AMHSContTmo {
+	"CM3 AMHS Continue(TP6) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+770 CM3.AMHSValidOff {
+	"CM3 AMHS Valid Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+771 CM3.UnldFoupAbsent {
+	"CM3 Before AMHS Unloading, Foup is Absent"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+772 CM3.LoadFoupPresent {
+	"CM3 Before AMHS Loading, Foup is Present"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+773 CM3.AbnFoupChange {
+	"CM3 Abnormal Foup Change"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+	DESCRIPTION	"Alarm/AlarmText/CM3/113.txt"
+}
+
+774 CM3.AMHSHOAvblOff {
+	"CM3 AMHS HandOff Available Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+775 CM3.AMHSCSOff {
+	"CM3 AMHS CS Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+776 CM3.AMHSTRReqOff {
+	"CM3 AMHS TR Req. Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+777 CM3.AMHSBusyOff {
+	"CM3 AMHS Busy Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+778 CM3.AMHSCompltOff {
+	"CM3 AMHS Complete Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+779 CM3.AMHSContOff {
+	"CM3 AMHS Continue Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+780 CM3.AMHSHasError {
+	"CM3 AMHS has a Error"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+781 CM3.AMHSCommFail {
+	"CM3 AMHS Communication Fail"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+785 CM3.AMHSLREQON {
+	"CM3 AMHS Load Request Signal ON Fail"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+786 CM3.AMHSERROR {
+	"CM3 AMHS Signal Scenario Fail"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+791 CM3.ClampTimeout {
+	"CM3 Clamp Timeout"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+792 CM3.UnclampTimeout {
+	"CM3 Unclamp Timeout"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+793 EFEM.LIGHT_CURTAIN_OFF {
+	"EFEM LIGHT_CURTAIN_OFF WHEN PIO COMMUNICATION AT CM3"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+795 CM3.UnldFoupAbsent {
+	"CM3 Before AMHS Loading, Foup is Absent"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+796 CM3.LoadFoupPresent {
+	"CM3 Before AMHS UnLoading, Foup is Present"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+797 CM3.FOUP_CHECK_SENSOR_DIFFERENT {
+	"CM3 FOUP Check Sensor Different(PlacementSensor and PresnetSensor)"
+	RETRY		"Retry Operation"
+#	ABORT		"Abort Operation => RETRY"
+#	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+798 CM3.LoadFoupPresent {
+	"CM3 AMHS MODE IS AUTO, BUT FUOP WAS MANUAL LOADED"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+799 CM3.LoadFoupAbsent {
+	"CM3 AMHS MODE IS AUTO, BUT FUOP WAS MANUAL UNLOADED"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+#
+800 CM3.RFIDCommError {
+	"CM3 RFID Communication Error"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+801 CM3.RFIDHasError {
+	"CM3 RFID has a Error"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+802 CM3.RFIDUnkRange {
+	"CM3 RFID Unknown Range(0~17)"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+803 CM3.RFIDFoupAbsent {
+	"CM3 Foup Absent When RFID Read"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+804 CM3.RFIDNotUndock {
+	"CM3 Foup is not Undock When RFID Read"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+# 2015.02.16 Add Change AMHS Mode to Manual for OHT Not Access
+870 CM3_AMHS_ChangeManual {
+	"CM3 AMHS Mode Changed to Manual for Wafer Manual Move"
+	CLEAR		"CLEAR Operation"
+}
+
+#============================= Jelee Add Start 2006.11.27 ============================
+871 CM3.Wafer_Processed_Count_Error {
+	"[CM3 Warning] Wafer Processed Count Error."
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Warning] Wafer Processed count is different to Mapped count."
+}
+872 CM3.MID_Double_Checked_Error {
+	"[CM3 Abort]Current MID is Same, it is one of Processed MID List. Pls Check MID!!!"
+	CLEAR		"Clear"
+}
+
+881 CM3.Cluster_Recipe_Different_Error_In_LotRecipe {
+	"[CM3 Abort] LotRecipe Check Error(Cluster Recipe Different or Empty In LotRecipe)"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] Cluster Recipe Different Error In LotRecipe"
+}
+882 CM3.LotRecipe_Check_Skip_Error {
+	"[CM3 Warning] LotRecipe Check Option is Skip, Please check Lot Recipe Check option."
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[CM3 Warning] LotRecipe Check Option is Skip, Please check Lot Recipe Check option."
+}
+883 CM3.RUN_START_ERROR {
+	"CM3 Run start Error - All Chamber Status are DryCleaning_Reserved or DryCleaning)"
+	RETRY		"Retry Operation"
+#	ABORT		"Abort Operation => RETRY"
+#	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+884 CM3.Recipe_TunningData_Check_Error {
+	"[CM3 Abort] ProcessRecipe Tunning Data Check Error, Please check Tunning Data of Host."
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[CM3 Abort] ProcessRecipe Tunning Data Check Error, Please check Tunning Data of Host."
+}
+891 CM3.Run_Recipe_File_Select_Error {
+	"[Reject] Run Recipe File Select Error(Empty or N/A File) - Error No 6"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Reject] Run Recipe File Select Error(Empty or N/A File) Error No 6"
+}
+892 CM3.Select_Job_is_Run_Already {
+	"[Reject] Select Job is Run Already - Error No 8"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Reject] Select Job is Run Already - Error No 8"
+}
+893 CM3.Select_Job_Parameter_Error {
+	"[Reject] Select Job Parameter Error - Error No 9"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Reject] Select Job Parameter Error - Error No 9"
+}
+894 CM3.Lot_Recipe_Data_Reading_Error {
+	"[Abort] Lot Recipe Data Reading Error(N/A File) - Error No 11"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] Lot Recipe Data Reading Error(N/A File) - Error No 11"
+}
+895 CM3.Cluster_Recipe_Data_Reading_Error {
+	"[Abort] Cluster Recipe Data Reading Error(N/A File) - Error No 12"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] Cluster Recipe Data Reading Error(N/A File) - Error No 12"
+}
+896 CM3.PM_Recipe_Not_Exist_Error {
+	"[Abort] PM Recipe Not Exist Error - Error No 18"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] PM Recipe Not Exist Error - Error No 18"
+}
+897 CM3.Run_Chamber_Is_Not_Enable {
+	"[Abort] Run Chamber is Not Enable Chamber - Error No 14"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] Run Chamber is Not Enable Chamber - Error No 14"
+}
+898 CM3.Run_Chamber_Is_Not_Manual {
+	"[Abort] Run Chamber is Not Manual Chamber - Error No 15"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] Run Chamber is Not Enable Chamber - Error No 15"
+}
+#============================= Jelee Add End 2006.11.27 ============================
+
+901 CM3.Slot1Crossed {
+	"CM3 Slot1 is crossed"
+	ABORT		"Abort Operation"
+}
+
+902 CM3.Slot2Crossed {
+	"CM3 Slot2 is crossed"
+	ABORT		"Abort Operation"
+}
+
+903 CM3.Slot3Crossed {
+	"CM3 Slot3 is crossed"
+	ABORT		"Abort Operation"
+}
+
+904 CM3.Slot4Crossed {
+	"CM3 Slot4 is crossed"
+	ABORT		"Abort Operation"
+}
+
+905 CM3.Slot5Crossed {
+	"CM3 Slot5 is crossed"
+	ABORT		"Abort Operation"
+}
+
+906 CM3.Slot6Crossed {
+	"CM3 Slot6 is crossed"
+	ABORT		"Abort Operation"
+}
+
+907 CM3.Slot7Crossed {
+	"CM3 Slot7 is crossed"
+	ABORT		"Abort Operation"
+}
+
+908 CM3.Slot8Crossed {
+	"CM3 Slot8 is crossed"
+	ABORT		"Abort Operation"
+}
+
+909 CM3.Slot9Crossed {
+	"CM3 Slot9 is crossed"
+	ABORT		"Abort Operation"
+}
+
+910 CM3.Slot10Crossed {
+	"CM3 Slot10 is crossed"
+	ABORT		"Abort Operation"
+}
+
+911 CM3.Slot11Crossed {
+	"CM3 Slot11 is crossed"
+	ABORT		"Abort Operation"
+}
+
+912 CM3.Slot12Crossed {
+	"CM3 Slot12 is crossed"
+	ABORT		"Abort Operation"
+}
+
+913 CM3.Slot13Crossed {
+	"CM3 Slot13 is crossed"
+	ABORT		"Abort Operation"
+}
+
+914 CM3.Slot14Crossed {
+	"CM3 Slot14 is crossed"
+	ABORT		"Abort Operation"
+}
+
+915 CM3.Slot15Crossed {
+	"CM3 Slot15 is crossed"
+	ABORT		"Abort Operation"
+}
+
+916 CM3.Slot16Crossed {
+	"CM3 Slot16 is crossed"
+	ABORT		"Abort Operation"
+}
+
+917 CM3.Slot17Crossed {
+	"CM3 Slot17 is crossed"
+	ABORT		"Abort Operation"
+}
+
+918 CM3.Slot18Crossed {
+	"CM3 Slot18 is crossed"
+	ABORT		"Abort Operation"
+}
+
+919 CM3.Slot19Crossed {
+	"CM3 Slot19 is crossed"
+	ABORT		"Abort Operation"
+}
+
+920 CM3.Slot20Crossed {
+	"CM3 Slot20 is crossed"
+	ABORT		"Abort Operation"
+}
+
+921 CM3.Slot21Crossed {
+	"CM3 Slot21 is crossed"
+	ABORT		"Abort Operation"
+}
+
+922 CM3.Slot22Crossed {
+	"CM3 Slot22 is crossed"
+	ABORT		"Abort Operation"
+}
+
+923 CM3.Slot23Crossed {
+	"CM3 Slot23 is crossed"
+	ABORT		"Abort Operation"
+}
+
+924 CM3.Slot24Crossed {
+	"CM3 Slot24 is crossed"
+	ABORT		"Abort Operation"
+}
+
+925 CM3.Slot25Crossed {
+	"CM3 Slot25 is crossed"
+	ABORT		"Abort Operation"
+}
+
+926 CM3.Slot26Crossed {
+	"CM3 Slot26 is crossed"
+	ABORT		"Abort Operation"
+}
+
+931 CM3.Slot1Crossed {
+	"CM3 Slot1 is doubled"
+	ABORT		"Abort Operation"
+}
+
+932 CM3.Slot2Crossed {
+	"CM3 Slot2 is doubled"
+	ABORT		"Abort Operation"
+}
+
+933 CM3.Slot3Crossed {
+	"CM3 Slot3 is doubled"
+	ABORT		"Abort Operation"
+}
+
+934 CM3.Slot4Crossed {
+	"CM3 Slot4 is doubled"
+	ABORT		"Abort Operation"
+}
+
+935 CM3.Slot5Crossed {
+	"CM3 Slot5 is doubled"
+	ABORT		"Abort Operation"
+}
+
+936 CM3.Slot6Crossed {
+	"CM3 Slot6 is doubled"
+	ABORT		"Abort Operation"
+}
+
+937 CM3.Slot7Crossed {
+	"CM3 Slot7 is doubled"
+	ABORT		"Abort Operation"
+}
+
+938 CM3.Slot8Crossed {
+	"CM3 Slot8 is doubled"
+	ABORT		"Abort Operation"
+}
+
+939 CM3.Slot9Crossed {
+	"CM3 Slot9 is doubled"
+	ABORT		"Abort Operation"
+}
+
+940 CM3.Slot10Crossed {
+	"CM3 Slot10 is doubled"
+	ABORT		"Abort Operation"
+}
+
+941 CM3.Slot11Crossed {
+	"CM3 Slot11 is doubled"
+	ABORT		"Abort Operation"
+}
+
+942 CM3.Slot12Crossed {
+	"CM3 Slot12 is doubled"
+	ABORT		"Abort Operation"
+}
+
+943 CM3.Slot13Crossed {
+	"CM3 Slot13 is doubled"
+	ABORT		"Abort Operation"
+}
+
+944 CM3.Slot14Crossed {
+	"CM3 Slot14 is doubled"
+	ABORT		"Abort Operation"
+}
+
+945 CM3.Slot15Crossed {
+	"CM3 Slot15 is doubled"
+	ABORT		"Abort Operation"
+}
+
+946 CM3.Slot16Crossed {
+	"CM3 Slot16 is doubled"
+	ABORT		"Abort Operation"
+}
+
+947 CM3.Slot17Crossed {
+	"CM3 Slot17 is doubled"
+	ABORT		"Abort Operation"
+}
+
+948 CM3.Slot18Crossed {
+	"CM3 Slot18 is doubled"
+	ABORT		"Abort Operation"
+}
+
+949 CM3.Slot19Crossed {
+	"CM3 Slot19 is doubled"
+	ABORT		"Abort Operation"
+}
+
+950 CM3.Slot20Crossed {
+	"CM3 Slot20 is doubled"
+	ABORT		"Abort Operation"
+}
+
+951 CM3.Slot21Crossed {
+	"CM3 Slot21 is doubled"
+	ABORT		"Abort Operation"
+}
+
+952 CM3.Slot22Crossed {
+	"CM3 Slot22 is doubled"
+	ABORT		"Abort Operation"
+}
+
+953 CM3.Slot23Crossed {
+	"CM3 Slot23 is doubled"
+	ABORT		"Abort Operation"
+}
+
+954 CM3.Slot24Crossed {
+	"CM3 Slot24 is doubled"
+	ABORT		"Abort Operation"
+}
+
+955 CM3.Slot25Crossed {
+	"CM3 Slot25 is doubled"
+	ABORT		"Abort Operation"
+}
+
+956 CM3.Slot26Crossed {
+	"CM3 Slot26 is doubled"
+	ABORT		"Abort Operation"
+}
+
+
+961 CM3.Slot1NotMatched {
+        "CM3 Lot and Map Slot1 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+962 CM3.Slot2NotMatched {
+        "CM3 Lot and Map Slot2 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+963 CM3.Slot3NotMatched {
+        "CM3 Lot and Map Slot3 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+964 CM3.Slot4NotMatched {
+        "CM3 Lot and Map Slot4 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+965 CM3.Slot5NotMatched {
+        "CM3 Lot and Map Slot5 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+966 CM3.Slot6NotMatched {
+        "CM3 Lot and Map Slot6 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+967 CM3.Slot7NotMatched {
+        "CM3 Lot and Map Slot7 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+968 CM3.Slot8NotMatched {
+        "CM3 Lot and Map Slot8 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+969 CM3.Slot9NotMatched {
+        "CM3 Lot and Map Slot9 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+970 CM3.Slot10NotMatched {
+        "CM3 Lot and Map Slot10 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+971 CM3.Slot11NotMatched {
+        "CM3 Lot and Map Slot11 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+972 CM3.Slot12NotMatched {
+        "CM3 Lot and Map Slot12 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+973 CM3.Slot13NotMatched {
+        "CM3 Lot and Map Slot13 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+974 CM3.Slot14NotMatched {
+        "CM3 Lot and Map Slot14 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+975 CM3.Slot15NotMatched {
+        "CM3 Lot and Map Slot15 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+976 CM3.Slot16NotMatched {
+        "CM3 Lot and Map Slot16 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+977 CM3.Slot17NotMatched {
+        "CM3 Lot and Map Slot17 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+978 CM3.Slot18NotMatched {
+        "CM3 Lot and Map Slot18 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+979 CM3.Slot19NotMatched {
+        "CM3 Lot and Map Slot19 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+980 CM3.Slot20NotMatched {
+        "CM3 Lot and Map Slot20 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+981 CM3.Slot21NotMatched {
+        "CM3 Lot and Map Slot21 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+982 CM3.Slot22NotMatched {
+        "CM3 Lot and Map Slot22 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+983 CM3.Slot23NotMatched {
+        "CM3 Lot and Map Slot23 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+984 CM3.Slot24NotMatched {
+        "CM3 Lot and Map Slot24 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+985 CM3.Slot25NotMatched {
+        "CM3 Lot and Map Slot25 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+986 CM3.Slot26NotMatched {
+        "CM3 Lot and Map Slot26 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+987 CM3.FanAlarm{
+        "CM3 Fan Alarm Detected"
+	ABORT		"Abort Operation"
+}
+
+988 CM3.FoupAbsentAlarm {
+        "CM3 Foup is Absent when Running"
+	CLEAR		"Clear Operation"
+}

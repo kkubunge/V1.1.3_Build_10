@@ -1,0 +1,4 @@
+; Ethernet Type
+EthernetRF1	192.168.100.111
+EthernetRF2	192.168.100.112
+PortNum		502

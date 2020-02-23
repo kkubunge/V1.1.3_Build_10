@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Image_Library - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/Image_Library.res" /d "NDEBUG" "D:\02_MAHA_MP\03) P1_3L_ALD Oxide(DPT)\1_Backup\2020.01.20_V1.1.3_Build_10_RPGGate\PEALD_PM\GUI\PMC\Imglib\Image_Library.rc"" 
+Creating temporary file "C:\Users\gjyu\AppData\Local\Temp\RSP1152.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\02_MAHA_MP\03) P1_3L_ALD Oxide(DPT)\1_Backup\2020.01.20_V1.1.3_Build_10_RPGGate\PEALD_PM\GUI\PMC\Imglib\dllmain.c"
+]
+Creating command line "cl.exe @C:\Users\gjyu\AppData\Local\Temp\RSP1152.tmp" 
+Creating temporary file "C:\Users\gjyu\AppData\Local\Temp\RSP1163.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /pdb:none /machine:I386 /out:"Image_Library.dll" /implib:"Release/Image_Library.lib" 
+".\Release\dllmain.obj"
+".\Release\Image_Library.res"
+]
+Creating command line "link.exe @C:\Users\gjyu\AppData\Local\Temp\RSP1163.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+dllmain.c
+Linking...
+
+
+
+<h3>Results</h3>
+Image_Library.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

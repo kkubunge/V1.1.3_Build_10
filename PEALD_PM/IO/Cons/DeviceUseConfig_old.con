@@ -1,0 +1,138 @@
+#--------------------------------------------------------------------------------------------------
+$$$ String
+IPS_VERSION		"Ver 1.0.0.0"
+ModuleNameSM		"PMA"
+#--------------------------------------------------------------------------------------------------
+
+$$$ Enum
+UseStateEnum	NotUse	Use
+
+#--------------------------------------------------------------------------------------------------
+# Simulation Option
+# If real machine, 'SimModeDM' must be 'NotSim'
+
+$$$ Enum
+SimModeEnum	NotSim	Simul	PLCTest
+$$$ Digital
+SimModeDM	SimModeEnum	NotSim
+
+#--------------------------------------------------------------------------------------------------
+# RF, ACV, DryPump and else. . .  Controller Use or NotUse
+
+$$$ Digital
+RF_UseDM	UseStateEnum	Use
+RPG_UseDM	UseStateEnum	Use
+CVGIsoUseDM	UseStateEnum	NotUse
+HTE_UseDM	UseStateEnum	Use
+
+$$$ Enum
+ACVModeEnum	Proc	Clean	Auto	ClnAuto
+$$$ Digital
+ACV_UseDM	UseStateEnum	NotUse
+ACV_ModeDM	ACVModeEnum	Auto
+
+# DryPump Check Option => If Real Machine, 'DP_ChkUseDM' must be 'Use'.  If 'NotUse', Ignored DP Status
+DP_ChkUseDM	UseStateEnum	Use
+
+ALD_LeakCheck_Sts UseStateEnum	Use
+#--------------------------------------------------------------------------------------------------
+# Time Tick ( On->Off->On per TickTime )
+
+$$$ Digital
+Tick_MinDM	OnOffEnum	On
+Tick_10MinDM	OnOffEnum	On
+Tick_30MinDM	OnOffEnum	On
+Tick_HourDM	OnOffEnum	On
+Tick_2HourDM	OnOffEnum	On
+
+ProTimeLmtDM	OffOnEnum	Off
+
+# Refill Status IO
+$$$ Enum
+SrcNoEnum	Src_1	Src_2	Src_3
+
+$$$ Digital
+RefillSrcNoDM	SrcNoEnum	Src_1
+RefillStatusDM	RefillStsEnum	Normal
+#--------------------------------------------------------------------------------------------------
+$$$ Analog
+ALD97OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD98OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD99OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD100OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD101OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD102OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD103OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD105OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD106OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD107OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD108OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD109OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD110OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD111OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+
+ALD97CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD98CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD99CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD100CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD101CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD102CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD103CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD105CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD106CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD107CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD108CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD109CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD110CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD111CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+
+# 2015.04.20 Reserved Canister ALD Valve
+ALD11OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD12OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD17OpenCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+
+ALD11CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD12CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+ALD17CloseCnAM		-	- - - - 0 0 99999999 1 - - - - 0 0 99999999 - - - - 0.0
+
+$$$ Digital
+ALDVlvRstCnt		-  * *  - - - - -    0    999999999
+ALDVlvRstCnt01		-  * *  - - - - -    0    999999999
+ALDVlvRstCnt02		-  * *  - - - - -    0    999999999
+ALDVlvRstCnt03		-  * *  - - - - -    0    999999999
+ALDVlvRstCnt04		-  * *  - - - - -    0    999999999
+ALDVlvRstCnt05		-  * *  - - - - -    0    999999999
+ALDVlvRstCnt06		-  * *  - - - - -    0    999999999
+ALDVlvRstCnt07		-  * *  - - - - -    0    999999999
+ALDVlvRstCnt08		-  * *  - - - - -    0    999999999
+ALDVlvRstCnt09		-  * *  - - - - -    0    999999999
+ALDVlvRstCnt10		-  * *  - - - - -    0    999999999
+
+$$$ String
+ALD97VlvRstTime		"00 / 00 / 00"
+ALD98VlvRstTime		"00 / 00 / 00"
+ALD100VlvRstTime	"00 / 00 / 00"
+ALD101VlvRstTime	"00 / 00 / 00"
+ALD102VlvRstTime	"00 / 00 / 00"
+ALD105VlvRstTime	"00 / 00 / 00"
+ALD106VlvRstTime	"00 / 00 / 00"
+ALD108VlvRstTime	"00 / 00 / 00"
+ALD109VlvRstTime	"00 / 00 / 00"
+ALD110VlvRstTime	"00 / 00 / 00"
+
+# 2015.04.20 Reserved Canister ALD Valve
+ALD11VlvRstTime		"00 / 00 / 00"
+ALD12VlvRstTime		"00 / 00 / 00"
+ALD17VlvRstTime		"00 / 00 / 00"
+
+ALDVlvRstTime01		"00 / 00 / 00  00:00:00"
+ALDVlvRstTime02		"00 / 00 / 00  00:00:00"
+ALDVlvRstTime03		"00 / 00 / 00  00:00:00"
+ALDVlvRstTime04		"00 / 00 / 00  00:00:00"
+ALDVlvRstTime05		"00 / 00 / 00  00:00:00"
+ALDVlvRstTime06		"00 / 00 / 00  00:00:00"
+ALDVlvRstTime07		"00 / 00 / 00  00:00:00"
+ALDVlvRstTime08		"00 / 00 / 00  00:00:00"
+ALDVlvRstTime09		"00 / 00 / 00  00:00:00"
+ALDVlvRstTime10		"00 / 00 / 00  00:00:00"
+

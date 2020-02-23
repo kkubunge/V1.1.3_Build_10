@@ -1,0 +1,53 @@
+#
+#
+$$$ Digital
+BM1.Sys.Year		-
+BM1.Sys.Month		-
+BM1.Sys.Day		-
+BM1.Sys.Hour		-
+BM1.Sys.Min		-
+BM1.Sys.Sec		-
+BM1.Leak_PumpingTime_H	-  * *  - - - - -    0    24
+BM1.Leak_PumpingTime_M	-  * *  - - - - -    0    59
+BM1.Leak_WaitingTime_H	-  * *  - - - - -    0    24
+BM1.Leak_WaitingTime_M	-  * *  - - - - -    0    59
+BM1.Leak_Test_Number	-  * *  - - - - -    1    10
+BM1.Leak_Remain_Time	-  * *  - - - - -    0    59
+BM1.Leak_End		OffOn
+
+#2008.04.04
+BM1.LeakChk_Log_Rate1	-  * *  - - - - -    0    30000
+BM1.LeakChk_Log_Rate2	-  * *  - - - - -    0    30000
+BM1.LeakChk_Log_Rate3	-  * *  - - - - -    0    30000
+BM1.LeakChk_Log_Rate4	-  * *  - - - - -    0    30000
+BM1.LeakChk_Log_Rate5	-  * *  - - - - -    0    30000
+
+BM1.LeakChk_Log_Avg1	-  * *  - - - - -    0    30000
+BM1.LeakChk_Log_Avg2	-  * *  - - - - -    0    30000
+BM1.LeakChk_Log_Avg3	-  * *  - - - - -    0    30000
+BM1.LeakChk_Log_Avg4	-  * *  - - - - -    0    30000
+BM1.LeakChk_Log_Avg5	-  * *  - - - - -    0    30000
+$$$ Analog
+BM1.Leak_LastRate		mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0
+
+BM1.Leak_Rate1			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0  
+BM1.Leak_Rate2			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0  
+BM1.Leak_Rate3			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0  
+BM1.Leak_Rate4			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0  
+BM1.Leak_Rate5			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0  
+BM1.Leak_Rate6			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0  
+BM1.Leak_Rate7			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0  
+BM1.Leak_Rate8			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0  
+BM1.Leak_Rate9			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0  
+BM1.Leak_Rate10			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0  
+
+$$$ String
+BM1.LeakChk_Message		""
+BM1.Leak_PumpRemain_Time	""
+BM1.Leak_WaitRemain_Time	""
+#2008.04.04
+BM1.LeakChk_Log_Time1		""
+BM1.LeakChk_Log_Time2		""
+BM1.LeakChk_Log_Time3		""
+BM1.LeakChk_Log_Time4		""
+BM1.LeakChk_Log_Time5		""

@@ -1,0 +1,1469 @@
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+//============================================================
+// Main Screen Button Image
+
+B_0001_0000000000	BITMAP			IMAGE/Button/Button_Start_Enable.bmp
+B_0001_0000000001	BITMAP			IMAGE/Button/Button_Start_Disable.bmp
+
+B_0002_0000000000	BITMAP			IMAGE/Button/Button_Pause_Disable.bmp
+B_0002_0000000001	BITMAP			IMAGE/Button/Button_Pause_Enable.bmp
+B_0002_0000000002	BITMAP			IMAGE/Button/Button_Pause_Press.bmp
+B_0002_0000000003	BITMAP			IMAGE/Button/Button_Pause_Disable.bmp
+B_0002_0000000004	BITMAP			IMAGE/Button/Button_Pause_Disable.bmp
+B_0002_0000000005	BITMAP			IMAGE/Button/Button_Pause_Disable.bmp
+B_0002_0000000006	BITMAP			IMAGE/Button/Button_Pause_Enable.bmp
+B_0002_0000000007	BITMAP			IMAGE/Button/Button_Pause_Disable.bmp
+
+B_0003_0000000000	BITMAP			IMAGE/Button/Button_Continue_Disable.bmp
+B_0003_0000000001	BITMAP			IMAGE/Button/Button_Continue_Disable.bmp
+B_0003_0000000002	BITMAP			IMAGE/Button/Button_Continue_Disable.bmp
+B_0003_0000000003	BITMAP			IMAGE/Button/Button_Continue_Enable.bmp
+B_0003_0000000004	BITMAP			IMAGE/Button/Button_Continue_Disable.bmp
+B_0003_0000000005	BITMAP			IMAGE/Button/Button_Continue_Disable.bmp
+B_0003_0000000006	BITMAP			IMAGE/Button/Button_Continue_Disable.bmp
+B_0003_0000000007	BITMAP			IMAGE/Button/Button_Continue_Disable.bmp
+
+B_0004_0000000000	BITMAP			IMAGE/Button/Button_Abort_Disable.bmp
+B_0004_0000000001	BITMAP			IMAGE/Button/Button_Abort_Enable.bmp
+B_0004_0000000002	BITMAP			IMAGE/Button/Button_Abort_Disable.bmp
+B_0004_0000000003	BITMAP			IMAGE/Button/Button_Abort_Enable.bmp
+B_0004_0000000004	BITMAP			IMAGE/Button/Button_Abort_Press.bmp
+B_0004_0000000005	BITMAP			IMAGE/Button/Button_Abort_Disable.bmp
+B_0004_0000000006	BITMAP			IMAGE/Button/Button_Abort_Enable.bmp
+B_0004_0000000007	BITMAP			IMAGE/Button/Button_Abort_Disable.bmp
+
+B_0005_0000000000	BITMAP			IMAGE/Button/Button_End_Disable.bmp
+B_0005_0000000001	BITMAP			IMAGE/Button/Button_End_Enable.bmp
+
+B_0006_0000000000	BITMAP			IMAGE/Button/Button_Move_Enable.bmp
+B_0006_0000000001	BITMAP			IMAGE/Button/Button_Move_Disable.bmp
+
+B_0007_0000000000	BITMAP			IMAGE/Button/Button_Pick_Enable.bmp
+B_0007_0000000001	BITMAP			IMAGE/Button/Button_Pick_Disable.bmp
+
+B_0008_0000000000	BITMAP			IMAGE/Button/Button_Place_Enable.bmp
+B_0008_0000000001	BITMAP			IMAGE/Button/Button_Place_Disable.bmp
+
+B_0009_0000000000	BITMAP			IMAGE/Button/Button_Clear_Enable.bmp
+B_0009_0000000001	BITMAP			IMAGE/Button/Button_Clear_Disable.bmp
+
+B_0010_0000000000	BITMAP			IMAGE/Button/Button_LotControl_0.bmp
+B_0010_0000000001       BITMAP			IMAGE/Button/Button_LotControl_1.bmp
+
+
+B_0012_0000000000	BITMAP			IMAGE/Button/Button_WfrSyncConfirm_Red.bmp
+B_0012_0000000000_1	BITMAP			IMAGE/Button/Button_WfrSyncConfirm_White.bmp
+
+B_0013_0000000000	BITMAP			IMAGE/Button/Button_WfrConfim_Unknown.bmp
+B_0013_0000000001	BITMAP			IMAGE/Button/Button_WfrConfirm_OK.bmp
+
+
+B_0015_0000000000	BITMAP			IMAGE/Button/Button_Pause2_Disable.bmp
+B_0015_0000000001	BITMAP			IMAGE/Button/Button_Pause2_Enable.bmp
+B_0015_0000000002	BITMAP			IMAGE/Button/Button_Pause2_Press.bmp
+B_0015_0000000003	BITMAP			IMAGE/Button/Button_Pause2_Disable.bmp
+B_0015_0000000004	BITMAP			IMAGE/Button/Button_Pause2_Disable.bmp
+B_0015_0000000005	BITMAP			IMAGE/Button/Button_Pause2_Disable.bmp
+B_0015_0000000006	BITMAP			IMAGE/Button/Button_Pause2_Enable.bmp
+B_0015_0000000007	BITMAP			IMAGE/Button/Button_Pause2_Disable.bmp
+
+B_0016_0000000000	BITMAP			IMAGE/Button/Button_Continue2_Disable.bmp
+B_0016_0000000001	BITMAP			IMAGE/Button/Button_Continue2_Disable.bmp
+B_0016_0000000002	BITMAP			IMAGE/Button/Button_Continue2_Disable.bmp
+B_0016_0000000003	BITMAP			IMAGE/Button/Button_Continue2_Enable.bmp
+B_0016_0000000004	BITMAP			IMAGE/Button/Button_Continue2_Disable.bmp
+B_0016_0000000005	BITMAP			IMAGE/Button/Button_Continue2_Disable.bmp
+B_0016_0000000006	BITMAP			IMAGE/Button/Button_Continue2_Disable.bmp
+B_0016_0000000007	BITMAP			IMAGE/Button/Button_Continue2_Disable.bmp
+
+B_0017_0000000000	BITMAP			IMAGE/Button/Button_Abort2_Disable.bmp
+B_0017_0000000001	BITMAP			IMAGE/Button/Button_Abort2_Enable.bmp
+B_0017_0000000002	BITMAP			IMAGE/Button/Button_Abort2_Disable.bmp
+B_0017_0000000003	BITMAP			IMAGE/Button/Button_Abort2_Enable.bmp
+B_0017_0000000004	BITMAP			IMAGE/Button/Button_Abort2_Press.bmp
+B_0017_0000000005	BITMAP			IMAGE/Button/Button_Abort2_Disable.bmp
+B_0017_0000000006	BITMAP			IMAGE/Button/Button_Abort2_Enable.bmp
+B_0017_0000000007	BITMAP			IMAGE/Button/Button_Abort2_Disable.bmp
+
+B_0021_0000000000	BITMAP			IMAGE/Wafer/Veri_CassWfr_Unknown.bmp
+B_0021_0000000001	BITMAP			IMAGE/Wafer/Veri_CassWfr_Absent.bmp
+B_0021_0000000002	BITMAP			IMAGE/Wafer/Veri_CassWfr_Present.bmp
+B_0021_0000000003	BITMAP			IMAGE/Wafer/Veri_CassWfr_Process.bmp
+B_0021_0000000004	BITMAP			IMAGE/Wafer/Veri_CassWfr_Fail.bmp
+
+B_0022_0000000000	BITMAP			IMAGE/Wafer/CassWfr_Unknown.bmp
+B_0022_0000000001	BITMAP			IMAGE/Wafer/CassWfr_Absent.bmp
+B_0022_0000000002	BITMAP			IMAGE/Wafer/CassWfr_Present.bmp
+B_0022_0000000003	BITMAP			IMAGE/Wafer/CassWfr_Process.bmp
+B_0022_0000000004	BITMAP			IMAGE/Wafer/CassWfr_Fail.bmp
+
+B_0024_0000000000	BITMAP			IMAGE/wafer/BMWfr_Present.bmp
+B_0024_0000000001	BITMAP			IMAGE/wafer/BMWfr_Success.bmp
+B_0024_0000000002	BITMAP			IMAGE/wafer/BMWfr_Fail.bmp
+B_0024_0000000003	BITMAP			IMAGE/wafer/BMWfr_unknown.bmp
+
+B_0026_0000000000	BITMAP			IMAGE/Wafer/SyncWfr_Unknown.bmp
+B_0026_0000000001	BITMAP			IMAGE/Wafer/SyncWfr_Absent.bmp
+B_0026_0000000002	BITMAP			IMAGE/Wafer/SyncWfr_Present.bmp
+B_0026_0000000003	BITMAP			IMAGE/Wafer/SyncWfr_Process.bmp
+B_0026_0000000004	BITMAP			IMAGE/Wafer/SyncWfr_Fail.bmp
+
+B_0027_0000000000	BITMAP			IMAGE/Wafer/AtmWfr_Present.bmp
+B_0027_0000000001	BITMAP			IMAGE/Wafer/AtmWfr_Success.bmp
+B_0027_0000000002	BITMAP			IMAGE/Wafer/AtmWfr_Fail.bmp
+B_0027_0000000003	BITMAP			IMAGE/Wafer/AtmWfr_Unknown.bmp
+
+B_0028_0000000000	BITMAP			IMAGE/Wafer/Veri_CassWfr_Present.bmp
+B_0028_0000000001	BITMAP			IMAGE/Wafer/Veri_CassWfr_Process.bmp
+B_0028_0000000002	BITMAP			IMAGE/Wafer/Veri_CassWfr_Fail.bmp
+B_0028_0000000003	BITMAP			IMAGE/Wafer/Veri_CassWfr_Unknown.bmp
+
+B_0029_0000000000	BITMAP			IMAGE/Wafer/CassWfr_Present.bmp
+B_0029_0000000001	BITMAP			IMAGE/Wafer/CassWfr_Absent.bmp
+B_0029_0000000002	BITMAP			IMAGE/Wafer/CassWfr_Fail.bmp
+B_0029_0000000003	BITMAP			IMAGE/Wafer/CassWfr_Process.bmp
+B_0029_0000000004	BITMAP			IMAGE/Wafer/CassWfr_Unknown.bmp
+
+B_0030_0000000000	BITMAP			IMAGE/Wafer/Veri_CassWfr_Unknown.bmp
+B_0030_0000000001	BITMAP			IMAGE/Wafer/Veri_CassWfr_Absent.bmp
+B_0030_0000000002	BITMAP			IMAGE/Wafer/Veri_CassWfr_Present.bmp
+B_0030_0000000003	BITMAP			IMAGE/Wafer/Veri_CassWfr_Process.bmp
+B_0030_0000000004	BITMAP			IMAGE/Wafer/Veri_CassWfr_Fail.bmp
+
+B_0031_0000000000	BITMAP			IMAGE/DummyWafer/nonselectslot.bmp
+B_0031_0000000001	BITMAP			IMAGE/DummyWafer/selectslot.bmp
+
+B_0033_0000000000	BITMAP			IMAGE/Button/Button_AWCSCAN_Enable.bmp
+B_0033_0000000001	BITMAP			IMAGE/Button/Button_AWCSCAN_Disable.bmp
+
+B_0034_0000000000	BITMAP			IMAGE/Button/Button_AWCRANGE_Enable.bmp
+B_0034_0000000001	BITMAP			IMAGE/Button/Button_AWCRANGE_Disable.bmp
+
+B_0041_0000000000	BITMAP			IMAGE/Button/Button_ConfigLoad_Disable.bmp
+B_0041_0000000001	BITMAP			IMAGE/Button/Button_ConfigLoad_Enable.bmp
+B_0042_0000000000	BITMAP			IMAGE/Button/Button_ConfigSave_Disable.bmp
+B_0042_0000000001	BITMAP			IMAGE/Button/Button_ConfigSave_Enable.bmp
+B_0043_0000000000	BITMAP			IMAGE/Button/Button_ConfigCancel_Disable.bmp
+B_0043_0000000001	BITMAP			IMAGE/Button/Button_ConfigCancel_Enable.bmp
+B_0044_0000000000	BITMAP			IMAGE/Button/Button_ConfigAdapt_Disable.bmp
+B_0044_0000000001	BITMAP			IMAGE/Button/Button_ConfigAdapt_Enable.bmp
+
+B_0045_0000000000	BITMAP			IMAGE/Button/Button_ConfigLoad_Disable_Small.bmp
+B_0045_0000000001	BITMAP			IMAGE/Button/Button_ConfigLoad_Enable_Small.bmp
+B_0046_0000000000	BITMAP			IMAGE/Button/Button_ConfigSave_Disable_Small.bmp
+B_0046_0000000001	BITMAP			IMAGE/Button/Button_ConfigSave_Enable_Small.bmp
+B_0047_0000000000	BITMAP			IMAGE/Button/Button_ConfigCancel_Disable_Small.bmp
+B_0047_0000000001	BITMAP			IMAGE/Button/Button_ConfigCancel_Enable_Small.bmp
+B_0048_0000000000	BITMAP			IMAGE/Button/Button_Edit_Enable_Small.bmp
+B_0048_0000000001	BITMAP			IMAGE/Button/Button_Edit_Disable_Press.bmp
+
+B_0050_0000000000	BITMAP			IMAGE/PMC_Img/OFFON_On.BMP
+B_0050_0000000001	BITMAP			IMAGE/PMC_Img/ERROK_ERR.BMP
+
+B_0051_0000000000	BITMAP			IMAGE/Button/Button_LotpreLoad_Disable.bmp
+B_0051_0000000001	BITMAP			IMAGE/Button/Button_LotpreLoad_Enable.bmp
+B_0052_0000000000	BITMAP			IMAGE/Button/Button_LotpreSave_Disable.bmp
+B_0052_0000000001	BITMAP			IMAGE/Button/Button_LotpreSave_Enable.bmp
+B_0053_0000000000	BITMAP			IMAGE/Button/Button_LotpreCancel_Disable.bmp
+B_0053_0000000001	BITMAP			IMAGE/Button/Button_LotpreCancel_Enable.bmp
+B_0054_0000000000	BITMAP			IMAGE/Button/Button_LotpreAdapt_Disable.bmp
+B_0054_0000000001	BITMAP			IMAGE/Button/Button_LotpreAdapt_Enable.bmp
+B_0055_0000000000	BITMAP			IMAGE/Button/Button_Start_Small.bmp
+B_0056_0000000000	BITMAP			IMAGE/Button/Button_Stop_Small.bmp
+B_0057_0000000000	BITMAP			IMAGE/Button/Button_ConfigAdapt_Small.bmp
+
+B_0062_0000000000	BITMAP			IMAGE/Button/IDok_Disable.bmp
+B_0062_0000000001	BITMAP			IMAGE/Button/IDok_Enable.bmp
+B_0062_0000000002	BITMAP			IMAGE/Button/IDok_Press.bmp
+
+B_0063_0000000000	BITMAP			IMAGE/Button/IDcancel_Disable.bmp
+B_0063_0000000001	BITMAP			IMAGE/Button/IDcancel_Enable.bmp
+B_0063_0000000002	BITMAP			IMAGE/Button/IDcancel_Press.bmp
+
+B_0064_0000000000	BITMAP			IMAGE/Button/Mapok_Disable.bmp
+B_0064_0000000001	BITMAP			IMAGE/Button/Mapok_Enable.bmp
+B_0064_0000000002	BITMAP			IMAGE/Button/Mapok_Press.bmp
+
+B_0065_0000000000	BITMAP			IMAGE/Button/Mapcancel_Disable.bmp
+B_0065_0000000001	BITMAP			IMAGE/Button/Mapcancel_Enable.bmp
+B_0065_0000000002	BITMAP			IMAGE/Button/Mapcancel_Press.bmp
+
+B_0066_0000000000	BITMAP			IMAGE/Button/Reserve_Disable.bmp
+B_0066_0000000001	BITMAP			IMAGE/Button/Reserve_Enable.bmp
+B_0066_0000000002	BITMAP			IMAGE/Button/Reserve_Press.bmp
+
+B_0067_0000000000	BITMAP			IMAGE/Button/Reservecancel_Disable.bmp
+B_0067_0000000001	BITMAP			IMAGE/Button/Reservecancel_Enable.bmp
+B_0067_0000000002	BITMAP			IMAGE/Button/Reservecancel_Press.bmp
+
+B_0068_0000000000	BITMAP			IMAGE/Button/Button_VeriLoad_Enable.bmp
+B_0068_0000000001	BITMAP			IMAGE/Button/Button_VeriLoad_Press.bmp
+B_0068_0000000002	BITMAP			IMAGE/Button/Button_VeriLoad_Disable.bmp
+
+B_0069_0000000000	BITMAP			IMAGE/Button/Button_VeriUnLoad_Enable.bmp
+B_0069_0000000001	BITMAP			IMAGE/Button/Button_VeriUnLoad_Press.bmp
+B_0069_0000000002	BITMAP			IMAGE/Button/Button_VeriUnLoad_Disable.bmp
+
+B_0070_0000000000	BITMAP			IMAGE/Button/Button_Pump_Enable.bmp
+
+B_0071_0000000000	BITMAP			IMAGE/Button/Button_Vent_Enable.bmp
+
+B_0072_0000000001	BITMAP			IMAGE/Button/Button_abortPump_Enable.bmp
+B_0072_0000000002	BITMAP			IMAGE/Button/Button_abortPump_Enable.bmp
+B_0072_0000000003	BITMAP			IMAGE/Button/Button_abortPump_Enable.bmp
+B_0072_0000000004	BITMAP			IMAGE/Button/Button_abortPump_Enable.bmp
+B_0072_0000000005	BITMAP			IMAGE/Button/Button_abortPump_Enable.bmp
+B_0072_0000000006	BITMAP			IMAGE/Button/Button_abortPump_Enable.bmp
+B_0072_0000000007	BITMAP			IMAGE/Button/Button_abortPump_Enable.bmp
+
+B_0073_0000000000	BITMAP			IMAGE/Button/Button_ModeEnable_On.bmp
+B_0073_0000000001	BITMAP			IMAGE/Button/Button_ModeEnable_Off.bmp
+
+B_0074_0000000000	BITMAP			IMAGE/Button/Button_ModeDisable_On.bmp
+B_0074_0000000001	BITMAP			IMAGE/Button/Button_ModeDisable_Off.bmp
+
+B_0075_0000000000	BITMAP			IMAGE/Button/Button_ModeMaint_On.bmp
+B_0075_0000000001	BITMAP			IMAGE/Button/Button_ModeMaint_Off.bmp
+
+B_0076_0000000000	BITMAP			IMAGE/Button/Button_Cpurge_Enable.bmp
+
+B_0077_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/CyclePurge/CyclePurge_Stop.bmp"
+B_0077_0000000001_1     BITMAP  MOVEABLE PURE   "IMAGE/CyclePurge/CyclePurge_State.bmp"
+B_0077_0000000001_2     BITMAP  MOVEABLE PURE   "IMAGE/CyclePurge/CyclePurge_Pump.bmp"
+B_0077_0000000002_1     BITMAP  MOVEABLE PURE   "IMAGE/CyclePurge/CyclePurge_State.bmp"
+B_0077_0000000002_2     BITMAP  MOVEABLE PURE   "IMAGE/CyclePurge/CyclePurge_Vent.bmp"
+
+B_0078_0000000000	BITMAP			IMAGE/Button/Button_ModeEnable_Off.bmp
+B_0078_0000000001	BITMAP			IMAGE/Button/Button_ModeEnable_Off.bmp
+B_0078_0000000002	BITMAP			IMAGE/Button/Button_ModeEnable_On.bmp
+B_0078_0000000003	BITMAP			IMAGE/Button/Button_ModeEnable_On.bmp
+B_0078_0000000004	BITMAP			IMAGE/Button/Button_ModeEnable_On.bmp
+
+B_0079_0000000000	BITMAP			IMAGE/Button/Button_ModeDisable_Off.bmp
+B_0079_0000000001	BITMAP			IMAGE/Button/Button_ModeDisable_On.bmp
+B_0079_0000000002	BITMAP			IMAGE/Button/Button_ModeDisable_On.bmp
+B_0079_0000000003	BITMAP			IMAGE/Button/Button_ModeDisable_On.bmp
+B_0079_0000000004	BITMAP			IMAGE/Button/Button_ModeDisable_On.bmp
+
+B_0090_0000000000	BITMAP			IMAGE/Button/Button_TIME1_Enable.bmp
+B_0090_0000000001	BITMAP			IMAGE/Button/Button_TIME1_Enable.bmp
+
+B_0091_0000000000	BITMAP			IMAGE/Button/Button_TIME2_Enable.bmp
+B_0091_0000000001	BITMAP			IMAGE/Button/Button_TIME2_Enable.bmp
+
+
+B_0100_0000000000	BITMAP			IMAGE/Valve/Valve_smallwidth_Close.bmp
+B_0100_0000000001	BITMAP			IMAGE/Valve/Valve_smallwidth_Open.bmp
+B_0101_0000000000	BITMAP			IMAGE/Valve/Valve_smallheight_Close.bmp
+B_0101_0000000001	BITMAP			IMAGE/Valve/Valve_smallheight_Open.bmp
+
+B_0102_0000000000	BITMAP			IMAGE/Valve/Valve_bigwidth_Close.bmp
+B_0102_0000000001	BITMAP			IMAGE/Valve/Valve_bigwidth_Open.bmp
+
+B_0103_0000000000	BITMAP			IMAGE/Valve/Valve_bigheight_Close.bmp
+B_0103_0000000001	BITMAP			IMAGE/Valve/Valve_bigheight_Open.bmp
+
+B_0104_0000000000	BITMAP			IMAGE/Valve/Valve_bigwidth_Unknown.bmp
+B_0104_0000000001	BITMAP			IMAGE/Valve/Valve_bigwidth_Open.bmp
+B_0104_0000000002	BITMAP			IMAGE/Valve/Valve_bigwidth_Close.bmp
+
+
+B_0110_0000000000	BITMAP			IMAGE/Valve/Valve_bigwidth_Close.bmp
+B_0110_0000000001	BITMAP			IMAGE/Valve/Valve_bigwidth_Openslow.bmp
+B_0110_0000000002	BITMAP			IMAGE/Valve/Valve_bigwidth_Open.bmp
+
+B_0111_0000000000	BITMAP			IMAGE/Valve/Valve_bigheight_Close.bmp
+B_0111_0000000001	BITMAP			IMAGE/Valve/Valve_bigheight_Openslow.bmp
+B_0111_0000000002	BITMAP			IMAGE/Valve/Valve_bigheight_Open.bmp
+
+B_0120_0000000000	BITMAP			IMAGE/User/AutoPCCheck/Button_Not_Click.bmp
+B_0120_0000000001	BITMAP			IMAGE/User/AutoPCCheck/Button_Click.bmp
+B_0121_0000000000	BITMAP			IMAGE/User/AutoPCCheck/Button_ConfigLoad2_Disable.bmp
+B_0121_0000000001	BITMAP			IMAGE/User/AutoPCCheck/Button_ConfigLoad2_Enable.bmp
+B_0122_0000000000	BITMAP			IMAGE/User/AutoPCCheck/Button_ConfigSave2_Disable.bmp
+B_0122_0000000001	BITMAP			IMAGE/User/AutoPCCheck/Button_ConfigSave2_Enable.bmp
+B_0123_0000000000	BITMAP			IMAGE/User/AutoPCCheck/Button_ConfigCancel2_Disable.bmp
+B_0123_0000000001	BITMAP			IMAGE/User/AutoPCCheck/Button_ConfigCancel2_Enable.bmp
+
+B_0124_0000000000	BITMAP			IMAGE/User/AutoPCCheck/Button_AutoPCCAbort_Disable.bmp
+B_0124_0000000001	BITMAP			IMAGE/User/AutoPCCheck/Button_AutoPCCAbort_Enable.bmp
+B_0124_0000000002	BITMAP			IMAGE/User/AutoPCCheck/Button_AutoPCCAbort_Disable.bmp
+B_0124_0000000003	BITMAP			IMAGE/User/AutoPCCheck/Button_AutoPCCAbort_Disable.bmp
+B_0124_0000000004	BITMAP			IMAGE/User/AutoPCCheck/Button_AutoPCCAbort_Disable.bmp
+B_0124_0000000005	BITMAP			IMAGE/User/AutoPCCheck/Button_AutoPCCAbort_Disable.bmp
+B_0124_0000000006	BITMAP			IMAGE/User/AutoPCCheck/Button_AutoPCCAbort_Disable.bmp
+B_0124_0000000007	BITMAP			IMAGE/User/AutoPCCheck/Button_AutoPCCAbort_Disable.bmp
+
+B_0125_0000000000	BITMAP			IMAGE/User/AutoPCCheck/Button_AutoPCClear_Enable.bmp
+B_0125_0000000001	BITMAP			IMAGE/User/AutoPCCheck/Button_AutoPCClear_Disable.bmp
+
+B_0126_0000000000	BITMAP			IMAGE/User/AutoPCCheck/Button_AutoPCCheck_Enable.bmp
+B_0126_0000000001	BITMAP			IMAGE/User/AutoPCCheck/Button_AutoPCCheck_Disable.bmp
+
+B_0127_0000000000	BITMAP			IMAGE/User/AutoPCCheck/PCJobSelection.bmp
+B_0127_0000000000_1	BITMAP			IMAGE/User/AutoPCCheck/PCJobSelection.bmp
+B_0127_0000000001	BITMAP			IMAGE/User/AutoPCCheck/PCJobSelection.bmp
+B_0127_0000000001_1	BITMAP			IMAGE/User/AutoPCCheck/PCJobSelection1.bmp
+B_0127_0000000002	BITMAP			IMAGE/User/AutoPCCheck/PCJobSelection.bmp
+B_0127_0000000002_1	BITMAP			IMAGE/User/AutoPCCheck/PCJobSelection2.bmp
+B_0127_0000000003	BITMAP			IMAGE/User/AutoPCCheck/PCJobSelection.bmp
+B_0127_0000000003_1	BITMAP			IMAGE/User/AutoPCCheck/PCJobSelection3.bmp
+B_0127_0000000004	BITMAP			IMAGE/User/AutoPCCheck/PCJobSelection.bmp
+B_0127_0000000004_1	BITMAP			IMAGE/User/AutoPCCheck/PCJobSelection4.bmp
+B_0127_0000000005	BITMAP			IMAGE/User/AutoPCCheck/PCJobSelection.bmp
+B_0127_0000000005_1	BITMAP			IMAGE/User/AutoPCCheck/PCJobSelection5.bmp
+
+B_0128_0000000000	BITMAP			IMAGE/User/AutoPCCheck/AutoParticle_none.bmp
+B_0128_0000000000_1	BITMAP			IMAGE/User/AutoPCCheck/AutoParticle.bmp
+B_0128_0000000001	BITMAP			IMAGE/User/AutoPCCheck/AutoParticle_none.bmp
+B_0128_0000000001_1	BITMAP			IMAGE/User/AutoPCCheck/AutoParticle.bmp
+B_0128_0000000002	BITMAP			IMAGE/User/AutoPCCheck/AutoParticle_none.bmp
+B_0128_0000000002_1	BITMAP			IMAGE/User/AutoPCCheck/AutoParticle.bmp
+B_0128_0000000003	BITMAP			IMAGE/User/AutoPCCheck/AutoParticle_none.bmp
+B_0128_0000000003_1	BITMAP			IMAGE/User/AutoPCCheck/AutoParticle.bmp
+B_0128_0000000004	BITMAP			IMAGE/User/AutoPCCheck/AutoParticle_none.bmp
+B_0128_0000000004_1	BITMAP			IMAGE/User/AutoPCCheck/AutoParticle.bmp
+B_0128_0000000005	BITMAP			IMAGE/User/AutoPCCheck/AutoParticle_none.bmp
+B_0128_0000000005_1	BITMAP			IMAGE/User/AutoPCCheck/AutoParticle.bmp
+
+
+B_0151_0000000000  	BITMAP			IMAGE/Switch/Switch_NC_None.bmp
+B_0151_0000000001  	BITMAP			IMAGE/Switch/Switch_NC_Check.bmp
+B_0152_0000000000  	BITMAP			IMAGE/Switch/Switch_XOK_X.bmp
+B_0152_0000000001  	BITMAP			IMAGE/Switch/Switch_XOK_OK.bmp
+B_0153_0000000000  	BITMAP			IMAGE/Switch/SWITCH_BS_BLANK.bmp
+B_0153_0000000001  	BITMAP			IMAGE/Switch/SWITCH_BS_SEL.bmp
+B_0154_0000000000  	BITMAP			IMAGE/Switch/SWITCH_SELUD_UP.bmp
+B_0154_0000000001  	BITMAP			IMAGE/Switch/SWITCH_SELUD_DOWN.bmp
+B_0155_0000000000  	BITMAP			IMAGE/Switch/Switch_OffOn_Off.bmp
+B_0155_0000000001  	BITMAP			IMAGE/Switch/Switch_OffOn_On.bmp
+B_0156_0000000000  	BITMAP			IMAGE/Switch/Switch_OffOn_Off2.bmp
+B_0156_0000000001  	BITMAP			IMAGE/Switch/Switch_OffOn_On2.bmp
+B_0157_0000000000  	BITMAP			IMAGE/Switch/SWITCH_OE_OK.bmp
+B_0157_0000000001  	BITMAP			IMAGE/Switch/SWITCH_OE_ERROR.bmp
+B_0157_0000000001_1	BITMAP			IMAGE/Switch/SWITCH_OE_ERROR_1.bmp
+B_0158_0000000000  	BITMAP			IMAGE/Switch/Switch_NUDE_None.bmp
+B_0158_0000000001  	BITMAP			IMAGE/Switch/Switch_NUDE_Up.bmp
+B_0158_0000000002  	BITMAP			IMAGE/Switch/Switch_NUDE_Down.bmp
+B_0158_0000000003  	BITMAP			IMAGE/Switch/Switch_NUDE_Error.bmp
+
+//B_0200_0000000000	BITMAP			IMAGE/User/Chamber_Body_PM123_3CM_2AL.bmp	// 3PM_2Align type
+B_0200_0000000000	BITMAP			IMAGE/User/Chamber_Body_PM123_3CM.bmp	// 3PM_1Align type
+// B_0200_0000000000	BITMAP			IMAGE/User/Chamber_Body_PM123_2CM.bmp	// 3PM_1Align type
+
+B_0202_0000000001  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000001_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000002  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000002_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000003  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000003_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000004  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000004_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000005  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000005_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000006  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000006_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000007  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000007_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000008  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000008_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000009  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000009_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000010  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000010_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000011  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000011_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000012  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000012_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000013  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000013_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000014  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000014_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000015  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000015_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000016  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000016_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000017  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000017_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000018  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000018_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000019  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000019_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000020  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000020_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000021  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000021_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000022  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000022_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000023  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000023_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000024  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000024_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000025  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000025_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000026  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000026_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000027  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000027_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000028  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000028_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000029  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000029_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+B_0202_0000000030  	BITMAP			IMAGE/User/Chamber_Wafer_Yes.bmp
+B_0202_0000000030_X	BITMAP			IMAGE/User/Chamber_Wafer_Yes_X.bmp
+
+/////////////////////////////////// 2001.04.10
+B_0203_0000000000       BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Yes.bmp"
+B_0203_0000000000_X     BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Yes_X.bmp"
+B_0203_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Success.bmp"
+B_0203_0000000001_X	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Success_X.bmp"
+B_0203_0000000002  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Fail.bmp"
+B_0203_0000000002_X  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Fail_X.bmp"
+B_0203_0000000003  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing.bmp"
+B_0203_0000000003_X  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing_X.bmp"
+B_0203_0000000003_1  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing1.bmp"
+B_0203_0000000003_1_X  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing1_X.bmp"
+B_0203_0000000003_2  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing2.bmp"
+B_0203_0000000003_2_X  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing2_X.bmp"
+B_0203_0000000003_3  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing3.bmp"
+B_0203_0000000003_3_X  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing3_X.bmp"
+B_0203_0000000003_4  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing4.bmp"
+B_0203_0000000003_4_X  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing4_X.bmp"
+B_0203_0000000003_5  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing5.bmp"
+B_0203_0000000003_5_X  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing5_X.bmp"
+B_0203_0000000003_6  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing6.bmp"
+B_0203_0000000003_6_X  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing6_X.bmp"
+B_0203_0000000003_7  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing7.bmp"
+B_0203_0000000003_7_X  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/Chamber_Wafer_Processing7_X.bmp"
+/////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////// 2009.03.30
+B_0160_0000000000       BITMAP	MOVEABLE PURE   "IMAGE/Wafer/BMWafer/BMWfr_Present.bmp"
+B_0160_0000000000_X     BITMAP	MOVEABLE PURE   "IMAGE/Wafer/BMWafer/BMWfr_Present_X.bmp"
+
+B_0160_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/BMWafer/BMWfr_Success.bmp"
+B_0160_0000000001_X	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/BMWafer/BMWfr_Success_X.bmp"
+
+B_0160_0000000002  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/BMWafer/BMWfr_Fail.bmp"
+B_0160_0000000002_X  	BITMAP	MOVEABLE PURE   "IMAGE/Wafer/BMWafer/BMWfr_Fail_X.bmp"
+
+/////////////////////////////////////////////////////////////////
+
+
+//B_0204_0000000000       BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Yes.bmp"
+//B_0204_0000000000_X     BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Yes_X.bmp"
+//B_0204_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Success.bmp"
+//B_0204_0000000001_X	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Success_X.bmp"
+//B_0204_0000000002  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Fail.bmp"
+//B_0204_0000000002_X  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Fail_X.bmp"
+//B_0204_0000000003  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing.bmp"
+//B_0204_0000000003_X  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing_X.bmp"
+//B_0204_0000000003_1  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing1.bmp"
+//B_0204_0000000003_1_X  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing1_X.bmp"
+//B_0204_0000000003_2  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing2.bmp"
+//B_0204_0000000003_2_X  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing2_X.bmp"
+//B_0204_0000000003_3  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing3.bmp"
+//B_0204_0000000003_3_X  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing3_X.bmp"
+//B_0204_0000000003_4  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing4.bmp"
+//B_0204_0000000003_4_X  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing4_X.bmp"
+//B_0204_0000000003_5  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing5.bmp"
+//B_0204_0000000003_5_X  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing5_X.bmp"
+//B_0204_0000000003_6  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing6.bmp"
+//B_0204_0000000003_6_X  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing6_X.bmp"
+//B_0204_0000000003_7  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing7.bmp"
+//B_0204_0000000003_7_X  	BITMAP	MOVEABLE PURE   "IMAGE/User/SQChamber_Wafer_Processing7_X.bmp"
+
+B_0211_0000000000  	BITMAP			IMAGE/User/Cassette_CM_Yes_Out.bmp
+B_0211_0000000000_X	BITMAP			IMAGE/User/Cassette_CM_Yes_Out_X.bmp
+B_0211_0000000001  	BITMAP			IMAGE/User/Cassette_CM_Yes_Out.bmp
+B_0211_0000000001_X	BITMAP			IMAGE/User/Cassette_CM_Yes_Out_X.bmp
+B_0211_0000000010  	BITMAP			IMAGE/User/Cassette_CM_Yes_In.bmp
+B_0211_0000000010_X	BITMAP			IMAGE/User/Cassette_CM_Yes_In_X.bmp
+B_0211_0000000011  	BITMAP			IMAGE/User/Cassette_CM_Yes.bmp
+B_0211_0000000011_X	BITMAP			IMAGE/User/Cassette_CM_Yes_X.bmp
+
+B_0212_0000000000  	BITMAP			IMAGE/cassette/Cassette_CM_None.bmp
+B_0212_0000000000_X	BITMAP			IMAGE/cassette/Cassette_CM_None_X.bmp
+B_0212_0000000001  	BITMAP			IMAGE/cassette/Cassette_CM_Yes_In.bmp
+B_0212_0000000001_X	BITMAP			IMAGE/cassette/Cassette_CM_Yes_In_X.bmp
+
+B_0213_0000000000  	BITMAP			IMAGE/cassette/N2PurgeStatus.bmp
+B_0213_0000000001  	BITMAP			IMAGE/cassette/N2PurgeStatus.bmp
+
+B_0221_0000000000	BITMAP			IMAGE/User/Chamber_Sel_CM1.bmp
+B_0221_0000000001	BITMAP			IMAGE/User/Chamber_Sel_CM2.bmp
+B_0221_0000000002	BITMAP			IMAGE/User/Chamber_Sel_CM3.bmp
+B_0221_0000000003	BITMAP			IMAGE/User/Chamber_Sel_CM2.bmp
+B_0221_0000000004	BITMAP			IMAGE/User/Chamber_Sel_PM2.bmp
+B_0221_0000000005	BITMAP			IMAGE/User/Chamber_Sel_PM1.bmp
+B_0221_0000000006	BITMAP			IMAGE/User/Chamber_Sel_PM3.bmp
+B_0221_0000000007	BITMAP			IMAGE/User/Chamber_Sel_PM4.bmp
+B_0221_0000000008	BITMAP			IMAGE/User/Chamber_Sel_PM5.bmp
+B_0221_0000000009	BITMAP			IMAGE/User/Chamber_Sel_PM6.bmp
+B_0221_0000000010	BITMAP			IMAGE/User/Chamber_Sel_PM6.bmp
+B_0221_0000000011	BITMAP			IMAGE/User/Chamber_Sel_PM6.bmp
+B_0221_0000000012	BITMAP			IMAGE/User/Chamber_Sel_PM6.bmp
+B_0221_0000000013	BITMAP			IMAGE/User/Chamber_Sel_PM6.bmp
+B_0221_0000000014	BITMAP			IMAGE/User/Chamber_Sel_PM6.bmp
+B_0221_0000000015	BITMAP			IMAGE/User/Chamber_Sel_PM6.bmp
+B_0221_0000000016	BITMAP			IMAGE/User/Chamber_Sel_AL.bmp
+B_0221_0000000017	BITMAP			IMAGE/User/Chamber_Sel_BM2.bmp
+B_0221_0000000018	BITMAP			IMAGE/User/Chamber_Sel_BM1.bmp
+B_0221_0000000019	BITMAP			IMAGE/User/Chamber_Sel_BM2.bmp
+B_0221_0000000020	BITMAP			IMAGE/User/Chamber_Sel_BM3.bmp
+B_0221_0000000021	BITMAP			IMAGE/User/Chamber_Sel_BM2.bmp
+
+
+
+B_0230_0000000000       BITMAP  		IMAGE/Cassette/Cassette_View_Mapping.bmp
+B_0230_0000000001       BITMAP  		IMAGE/Cassette/Cassette_View_Mapping.bmp
+B_0230_0000000001_1     BITMAP  		IMAGE/Cassette/Cassette_View_Mapping_1.bmp
+
+B_0231_0000000000       BITMAP  		IMAGE/User/LL_WaferStatus_Left.bmp
+
+B_0232_0000000000       BITMAP  		IMAGE/User/LL_WaferStatus_Right.bmp
+
+B_0233_0000000000       BITMAP  		IMAGE/User/ATMSlot_View.bmp
+
+B_0234_0000000000       BITMAP  		IMAGE/Cassette/DummyCassette_View_M_Mapping.bmp
+B_0234_0000000001       BITMAP  		IMAGE/Cassette/DummyCassette_View_M_Mapping.bmp
+B_0234_0000000001_1     BITMAP  		IMAGE/Cassette/DummyCassette_View_M_Mapping_1.bmp
+
+B_0235_0000000000       BITMAP  		IMAGE/Cassette/Veri_Cassette_View.bmp
+B_0235_0000000001       BITMAP  		IMAGE/Cassette/Veri_Cassette_View_Mapping.bmp
+B_0235_0000000001_1     BITMAP  		IMAGE/Cassette/Veri_Cassette_View_Mapping_1.bmp
+B_0236_0000000000       BITMAP  		IMAGE/User/Dummy_Stacker_View.bmp
+
+B_0237_0000000000       BITMAP  		IMAGE/User/ATMVTMstatus.bmp
+
+//=============================================================
+// PM.PRO_RunStsDM Stop/Running  Status Display
+//=============================================================
+B_0320_0000000000  	BITMAP			IMAGE/User/PM_CommSts/PMProcess_Status.bmp
+B_0320_0000000001  	BITMAP			IMAGE/User/PM_CommSts/PMProcess_Status.bmp
+B_0320_0000000001_1	BITMAP			IMAGE/User/PM_CommSts/PMProcess_Status_R.bmp
+
+//=============================================================
+// CTC.MAIN_CONTROL CTC.MAIN_CONTROL2 CTC.MAIN_CONTROL3
+// Idle/Running/Pausing/Paused/Aborting/Disable/Waiting/Wait-HandOff Status Display
+//=============================================================
+B_0321_0000000000	BITMAP			IMAGE/User/PM_CommSts/CM1Process_Status.bmp
+B_0321_0000000001	BITMAP			IMAGE/User/PM_CommSts/CM1Process_Status_R.bmp
+B_0321_0000000002	BITMAP			IMAGE/User/PM_CommSts/CM1Process_Status_R.bmp
+B_0321_0000000003	BITMAP			IMAGE/User/PM_CommSts/CM1Process_Status_R.bmp
+B_0321_0000000004	BITMAP			IMAGE/User/PM_CommSts/CM1Process_Status_R.bmp
+B_0321_0000000005	BITMAP			IMAGE/User/PM_CommSts/CM1Process_Status.bmp
+B_0321_0000000006	BITMAP			IMAGE/User/PM_CommSts/CM1Process_Status_R.bmp
+B_0321_0000000007	BITMAP			IMAGE/User/PM_CommSts/CM1Process_Status.bmp
+
+B_0322_0000000000	BITMAP			IMAGE/User/PM_CommSts/CM2Process_Status.bmp
+B_0322_0000000001	BITMAP			IMAGE/User/PM_CommSts/CM2Process_Status_R.bmp
+B_0322_0000000002	BITMAP			IMAGE/User/PM_CommSts/CM2Process_Status_R.bmp
+B_0322_0000000003	BITMAP			IMAGE/User/PM_CommSts/CM2Process_Status_R.bmp
+B_0322_0000000004	BITMAP			IMAGE/User/PM_CommSts/CM2Process_Status_R.bmp
+B_0322_0000000005	BITMAP			IMAGE/User/PM_CommSts/CM2Process_Status.bmp
+B_0322_0000000006	BITMAP			IMAGE/User/PM_CommSts/CM2Process_Status_R.bmp
+B_0322_0000000007	BITMAP			IMAGE/User/PM_CommSts/CM2Process_Status.bmp
+
+B_0323_0000000000	BITMAP			IMAGE/User/PM_CommSts/CM3Process_Status.bmp
+B_0323_0000000001	BITMAP			IMAGE/User/PM_CommSts/CM3Process_Status_R.bmp
+B_0323_0000000002	BITMAP			IMAGE/User/PM_CommSts/CM3Process_Status_R.bmp
+B_0323_0000000003	BITMAP			IMAGE/User/PM_CommSts/CM3Process_Status_R.bmp
+B_0323_0000000004	BITMAP			IMAGE/User/PM_CommSts/CM3Process_Status_R.bmp
+B_0323_0000000005	BITMAP			IMAGE/User/PM_CommSts/CM3Process_Status.bmp
+B_0323_0000000006	BITMAP			IMAGE/User/PM_CommSts/CM3Process_Status_R.bmp
+B_0323_0000000007	BITMAP			IMAGE/User/PM_CommSts/CM3Process_Status.bmp
+
+//==================================================================
+// PM.CommStatus Standby/Maint/Disconnect/Etc.. All Status Display
+//==================================================================
+B_0325_0000000000	BITMAP			IMAGE/User/PM_CommSts/Commst_Unuse.bmp
+B_0325_0000000001	BITMAP			IMAGE/User/PM_CommSts/Commst_Local.bmp
+B_0325_0000000002	BITMAP			IMAGE/User/PM_CommSts/Commst_DisConn.bmp
+B_0325_0000000003	BITMAP			IMAGE/User/PM_CommSts/Commst_Standby.bmp
+B_0325_0000000004	BITMAP			IMAGE/User/PM_CommSts/Commst_Maint.bmp
+B_0325_0000000005	BITMAP			IMAGE/User/PM_CommSts/Commst_Uninit.bmp
+B_0325_0000000006	BITMAP			IMAGE/User/PM_CommSts/Commst_EnablePM.bmp
+B_0325_0000000007	BITMAP			IMAGE/User/PM_CommSts/Commst_CTCinUSE.bmp
+B_0325_0000000008	BITMAP			IMAGE/User/PM_CommSts/Commst_CTCDis.bmp
+B_0325_0000000009	BITMAP			IMAGE/User/PM_CommSts/Commst_CTCDis2.bmp
+B_0325_0000000010	BITMAP			IMAGE/User/PM_CommSts/Commst_CTCEnaPM.bmp
+B_0325_0000000011	BITMAP			IMAGE/User/PM_CommSts/Commst_CTCDisHW.bmp
+B_0325_0000000012	BITMAP			IMAGE/User/PM_CommSts/Commst_CTCDisHW2.bmp
+
+B_0403_0000000000  	BITMAP			IMAGE/Gate/BM/Gate_None_BM.bmp
+B_0403_0000000000_X	BITMAP			IMAGE/Gate/BM/Gate_None_BM_X.bmp
+B_0403_0000000001  	BITMAP			IMAGE/Gate/BM/Gate_Open_BM.bmp
+B_0403_0000000001_X	BITMAP			IMAGE/Gate/BM/Gate_Open_BM_X.bmp
+B_0403_0000000002  	BITMAP			IMAGE/Gate/BM/Gate_Close_BM.bmp
+B_0403_0000000002_X	BITMAP			IMAGE/Gate/BM/Gate_Close_BM_X.bmp
+B_0403_0000000003  	BITMAP			IMAGE/Gate/BM/Gate_Error_BM.bmp
+B_0403_0000000003_X	BITMAP			IMAGE/Gate/BM/Gate_Error_BM_X.bmp
+// D_INM 을 이용한....TM.PM1.SlotValve 의 4가지 status...!!!
+B_0405_0000000000  	BITMAP			IMAGE/Gate/PM1/Gate_None_PM1.bmp
+B_0405_0000000000_X	BITMAP			IMAGE/Gate/PM1/Gate_None_PM1_X.bmp
+B_0405_0000000001  	BITMAP			IMAGE/Gate/PM1/Gate_Open_PM1.bmp
+B_0405_0000000001_X	BITMAP			IMAGE/Gate/PM1/Gate_Open_PM1_X.bmp
+B_0405_0000000002  	BITMAP			IMAGE/Gate/PM1/Gate_Close_PM1.bmp
+B_0405_0000000002_X	BITMAP			IMAGE/Gate/PM1/Gate_Close_PM1_X.bmp
+B_0405_0000000003  	BITMAP			IMAGE/Gate/PM1/Gate_Error_PM1.bmp
+B_0405_0000000003_X	BITMAP			IMAGE/Gate/PM1/Gate_Error_PM1_X.bmp
+
+// D_INM 을 이용한....TM.PM2.SlotValve 의 4가지 status...!!!
+B_0406_0000000000  	BITMAP			IMAGE/Gate/PM2/Gate_None_PM2.bmp
+B_0406_0000000000_X	BITMAP			IMAGE/Gate/PM2/Gate_None_PM2_X.bmp
+B_0406_0000000001  	BITMAP			IMAGE/Gate/PM2/Gate_Open_PM2.bmp
+B_0406_0000000001_X	BITMAP			IMAGE/Gate/PM2/Gate_Open_PM2_X.bmp
+B_0406_0000000002  	BITMAP			IMAGE/Gate/PM2/Gate_Close_PM2.bmp
+B_0406_0000000002_X	BITMAP			IMAGE/Gate/PM2/Gate_Close_PM2_X.bmp
+B_0406_0000000003  	BITMAP			IMAGE/Gate/PM2/Gate_Error_PM2.bmp
+B_0406_0000000003_X	BITMAP			IMAGE/Gate/PM2/Gate_Error_PM2_X.bmp
+
+// D_INM 을 이용한....TM.PM3.SlotValve 의 4가지 status...!!!
+B_0407_0000000000  	BITMAP			IMAGE/Gate/PM3/Gate_None_PM3.bmp
+B_0407_0000000000_X	BITMAP			IMAGE/Gate/PM3/Gate_None_PM3_X.bmp
+B_0407_0000000001  	BITMAP			IMAGE/Gate/PM3/Gate_Open_PM3.bmp
+B_0407_0000000001_X	BITMAP			IMAGE/Gate/PM3/Gate_Open_PM3_X.bmp
+B_0407_0000000002  	BITMAP			IMAGE/Gate/PM3/Gate_Close_PM3.bmp
+B_0407_0000000002_X	BITMAP			IMAGE/Gate/PM3/Gate_Close_PM3_X.bmp
+B_0407_0000000003  	BITMAP			IMAGE/Gate/PM3/Gate_Error_PM3.bmp
+B_0407_0000000003_X	BITMAP			IMAGE/Gate/PM3/Gate_Error_PM3_X.bmp
+
+
+//D_INM 을 이용한....LLA.Door 의 4가지 status...!!!
+B_0410_0000000000  	BITMAP			IMAGE/User/CassDoor_None_CM1.bmp
+B_0410_0000000000_X	BITMAP			IMAGE/User/CassDoor_None_CM1_X.bmp
+B_0410_0000000001  	BITMAP			IMAGE/User/CassDoor_Open_CM1.bmp
+B_0410_0000000001_X	BITMAP			IMAGE/User/CassDoor_Open_CM1_X.bmp
+B_0410_0000000002  	BITMAP			IMAGE/User/CassDoor_Close_CM1.bmp
+B_0410_0000000002_X	BITMAP			IMAGE/User/CassDoor_Close_CM1_X.bmp
+B_0410_0000000003  	BITMAP			IMAGE/User/CassDoor_Error_CM1.bmp
+B_0410_0000000003_X	BITMAP			IMAGE/User/CassDoor_Error_CM1_X.bmp
+
+//====================================================================
+//== TM.LLA, TM.LLB, TM.PM2~TM.PM4, LLA, LLB 의 GATE STATUS ..END...
+//====================================================================
+
+//B_0501_0000000000  	BITMAP			IMAGE/User/VacSts_Vacuum_CM1.bmp
+//B_0501_0000000000_X	BITMAP			IMAGE/User/VacSts_Vacuum_CM1_X.bmp
+//B_0501_0000000001  	BITMAP			IMAGE/User/VacSts_ATM_CM1.bmp
+//B_0501_0000000001_X	BITMAP			IMAGE/User/VacSts_ATM_CM1_X.bmp
+//B_0501_0000000002  	BITMAP			IMAGE/User/VacSts_GoVac_CM1.bmp
+//B_0501_0000000002_X	BITMAP			IMAGE/User/VacSts_GoVac_CM1_X.bmp
+//B_0501_0000000003  	BITMAP			IMAGE/User/VacSts_GoATM_CM1.bmp
+//B_0501_0000000003_X	BITMAP			IMAGE/User/VacSts_GoATM_CM1_X.bmp
+
+//B_0502_0000000000  	BITMAP			IMAGE/User/VacSts_Vacuum_CM2.bmp
+//B_0502_0000000000_X	BITMAP			IMAGE/User/VacSts_Vacuum_CM2_X.bmp
+//B_0502_0000000001  	BITMAP			IMAGE/User/VacSts_ATM_CM2.bmp
+//B_0502_0000000001_X	BITMAP			IMAGE/User/VacSts_ATM_CM2_X.bmp
+//B_0502_0000000002  	BITMAP			IMAGE/User/VacSts_GoVac_CM2.bmp
+//B_0502_0000000002_X	BITMAP			IMAGE/User/VacSts_GoVac_CM2_X.bmp
+//B_0502_0000000003  	BITMAP			IMAGE/User/VacSts_GoATM_CM2.bmp
+//B_0502_0000000003_X	BITMAP			IMAGE/User/VacSts_GoATM_CM2_X.bmp
+
+//B_0508_0000000000  	BITMAP			IMAGE/User/VacSts_Vacuum_PM4.bmp
+//B_0508_0000000000_X	BITMAP			IMAGE/User/VacSts_Vacuum_PM4_X.bmp
+//B_0508_0000000001  	BITMAP			IMAGE/User/VacSts_ATM_PM4.bmp
+//B_0508_0000000001_X	BITMAP			IMAGE/User/VacSts_ATM_PM4_X.bmp
+//B_0508_0000000002  	BITMAP			IMAGE/User/VacSts_GoVac_PM4.bmp
+//B_0508_0000000002_X	BITMAP			IMAGE/User/VacSts_GoVac_PM4_X.bmp
+//B_0508_0000000003  	BITMAP			IMAGE/User/VacSts_GoATM_PM4.bmp
+//B_0508_0000000003_X	BITMAP			IMAGE/User/VacSts_GoATM_PM4_X.bmp
+
+B_0650_0000000000	BITMAP  MOVEABLE PURE   "IMAGE/User/PM1_Header_0.bmp"
+B_0650_0000000001	BITMAP  MOVEABLE PURE   "IMAGE/User/PM1_Header_1.bmp"
+
+B_0651_0000000000	BITMAP  MOVEABLE PURE   "IMAGE/User/PM2_Header_0.bmp"
+B_0651_0000000001	BITMAP  MOVEABLE PURE   "IMAGE/User/PM2_Header_1.bmp"
+
+B_0652_0000000000	BITMAP  MOVEABLE PURE   "IMAGE/User/PM3_Header_0.bmp"
+B_0652_0000000001	BITMAP  MOVEABLE PURE   "IMAGE/User/PM3_Header_1.bmp"
+
+
+//============================================================
+//MAIN SCREEN 의 각 MODULE 의 PRESSURE(VACUUM STATUS....) START..
+//============================================================
+//B_0701_0000000000	BITMAP			IMAGE/User/ATM_TMSQ2.bmp
+//B_0701_0000000000_X	BITMAP			IMAGE/User/ATM_TMSQ_W2.bmp
+//B_0701_0000000001	BITMAP			IMAGE/User/Vacuum_TMSQ2.bmp
+//B_0701_0000000001_X	BITMAP			IMAGE/User/Vacuum_TMSQ_W2.bmp
+//B_0701_0000000002_1	BITMAP			IMAGE/User/ATM_TMSQ2.bmp
+//B_0701_0000000002_1_X	BITMAP			IMAGE/User/ATM_TMSQ_W2.bmp
+//B_0701_0000000002_2	BITMAP			IMAGE/User/Black_TMSQ2.bmp
+//B_0701_0000000002_2_X	BITMAP			IMAGE/User/White_TMSQ2.bmp
+//B_0701_0000000003_1	BITMAP			IMAGE/User/Vacuum_TMSQ2.bmp
+//B_0701_0000000003_1_X	BITMAP			IMAGE/User/Vacuum_TMSQ_W2.bmp
+//B_0701_0000000003_2	BITMAP			IMAGE/User/Black_TMSQ2.bmp
+//B_0701_0000000003_2_X	BITMAP			IMAGE/User/White_TMSQ2.bmp
+//B_0701_0000000004	BITMAP			IMAGE/User/Intermediate_TMSQ2.bmp
+//B_0701_0000000004_X	BITMAP			IMAGE/User/Intermediate_TMSQ_W2.bmp
+
+B_0715_0000000000	BITMAP			IMAGE/Vacuum_Status/PM1/ATM_PM1SQ.bmp
+B_0715_0000000000_X	BITMAP			IMAGE/Vacuum_Status/PM1/ATM_PM1SQ_W.bmp
+B_0715_0000000001	BITMAP			IMAGE/Vacuum_Status/PM1/Vacuum_PM1SQ.bmp
+B_0715_0000000001_X	BITMAP			IMAGE/Vacuum_Status/PM1/Vacuum_PM1SQ_W.bmp
+B_0715_0000000002_1	BITMAP			IMAGE/Vacuum_Status/PM1/ATM_PM1SQ.bmp
+B_0715_0000000002_1_X	BITMAP			IMAGE/Vacuum_Status/PM1/ATM_PM1SQ_W.bmp
+B_0715_0000000002_2	BITMAP			IMAGE/Vacuum_Status/PM1/Black_PM1SQ.bmp
+B_0715_0000000002_2_X	BITMAP			IMAGE/Vacuum_Status/PM1/White_PM1SQ.bmp
+B_0715_0000000003_1	BITMAP			IMAGE/Vacuum_Status/PM1/Vacuum_PM1SQ.bmp
+B_0715_0000000003_1_X	BITMAP			IMAGE/Vacuum_Status/PM1/Vacuum_PM1SQ_W.bmp
+B_0715_0000000003_2	BITMAP			IMAGE/Vacuum_Status/PM1/Black_PM1SQ.bmp
+B_0715_0000000003_2_X	BITMAP			IMAGE/Vacuum_Status/PM1/White_PM1SQ.bmp
+B_0715_0000000004	BITMAP			IMAGE/Vacuum_Status/PM1/Intermediate_PM1SQ.bmp
+B_0715_0000000004_X	BITMAP			IMAGE/Vacuum_Status/PM1/Intermediate_PM1SQ_W.bmp
+
+B_0702_0000000000	BITMAP			IMAGE/Vacuum_Status/PM2/ATM_PM2SQ.bmp
+B_0702_0000000000_X	BITMAP			IMAGE/Vacuum_Status/PM2/ATM_PM2SQ_W.bmp
+B_0702_0000000001	BITMAP			IMAGE/Vacuum_Status/PM2/Vacuum_PM2SQ.bmp
+B_0702_0000000001_X	BITMAP			IMAGE/Vacuum_Status/PM2/Vacuum_PM2SQ_W.bmp
+B_0702_0000000002_1	BITMAP			IMAGE/Vacuum_Status/PM2/ATM_PM2SQ.bmp
+B_0702_0000000002_1_X	BITMAP			IMAGE/Vacuum_Status/PM2/ATM_PM2SQ_W.bmp
+B_0702_0000000002_2	BITMAP			IMAGE/Vacuum_Status/PM2/Black_PM2SQ.bmp
+B_0702_0000000002_2_X	BITMAP			IMAGE/Vacuum_Status/PM2/White_PM2SQ.bmp
+B_0702_0000000003_1	BITMAP			IMAGE/Vacuum_Status/PM2/Vacuum_PM2SQ.bmp
+B_0702_0000000003_1_X	BITMAP			IMAGE/Vacuum_Status/PM2/Vacuum_PM2SQ_W.bmp
+B_0702_0000000003_2	BITMAP			IMAGE/Vacuum_Status/PM2/Black_PM2SQ.bmp
+B_0702_0000000003_2_X	BITMAP			IMAGE/Vacuum_Status/PM2/White_PM2SQ.bmp
+B_0702_0000000004	BITMAP			IMAGE/Vacuum_Status/PM2/Intermediate_PM2SQ.bmp
+B_0702_0000000004_X	BITMAP			IMAGE/Vacuum_Status/PM2/Intermediate_PM2SQ_W.bmp
+
+B_0703_0000000000	BITMAP			IMAGE/Vacuum_Status/PM3/ATM_PM3SQ.bmp
+B_0703_0000000000_X	BITMAP			IMAGE/Vacuum_Status/PM3/ATM_PM3SQ_W.bmp
+B_0703_0000000001	BITMAP			IMAGE/Vacuum_Status/PM3/Vacuum_PM3SQ.bmp
+B_0703_0000000001_X	BITMAP			IMAGE/Vacuum_Status/PM3/Vacuum_PM3SQ_W.bmp
+B_0703_0000000002_1	BITMAP			IMAGE/Vacuum_Status/PM3/ATM_PM3SQ.bmp
+B_0703_0000000002_1_X	BITMAP			IMAGE/Vacuum_Status/PM3/ATM_PM3SQ_W.bmp
+B_0703_0000000002_2	BITMAP			IMAGE/Vacuum_Status/PM3/Black_PM3SQ.bmp
+B_0703_0000000002_2_X	BITMAP			IMAGE/Vacuum_Status/PM3/White_PM3SQ.bmp
+B_0703_0000000003_1	BITMAP			IMAGE/Vacuum_Status/PM3/Vacuum_PM3SQ.bmp
+B_0703_0000000003_1_X	BITMAP			IMAGE/Vacuum_Status/PM3/Vacuum_PM3SQ_W.bmp
+B_0703_0000000003_2	BITMAP			IMAGE/Vacuum_Status/PM3/Black_PM3SQ.bmp
+B_0703_0000000003_2_X	BITMAP			IMAGE/Vacuum_Status/PM3/White_PM3SQ.bmp
+B_0703_0000000004	BITMAP			IMAGE/Vacuum_Status/PM3/Intermediate_PM3SQ.bmp
+B_0703_0000000004_X	BITMAP			IMAGE/Vacuum_Status/PM3/Intermediate_PM3SQ_W.bmp
+
+//B_0704_0000000000	BITMAP			IMAGE/User/ATM_PM4.bmp
+//B_0704_0000000000_X	BITMAP			IMAGE/User/ATM_PM4_W.bmp
+//B_0704_0000000001	BITMAP			IMAGE/User/Vacuum_PM4.bmp
+//B_0704_0000000001_X	BITMAP			IMAGE/User/Vacuum_PM4_W.bmp
+//B_0704_0000000002_1	BITMAP			IMAGE/User/ATM_PM4.bmp
+//B_0704_0000000002_1_X	BITMAP			IMAGE/User/ATM_PM4_W.bmp
+//B_0704_0000000002_2	BITMAP			IMAGE/User/Black_PM4.bmp
+//B_0704_0000000002_2_X	BITMAP			IMAGE/User/White_PM4.bmp
+//B_0704_0000000003_1	BITMAP			IMAGE/User/Vacuum_PM4.bmp
+//B_0704_0000000003_1_X	BITMAP			IMAGE/User/Vacuum_PM4_W.bmp
+//B_0704_0000000003_2	BITMAP			IMAGE/User/Black_PM4.bmp
+//B_0704_0000000003_2_X	BITMAP			IMAGE/User/White_PM4.bmp
+//B_0704_0000000004	BITMAP			IMAGE/User/Intermediate_PM4.bmp
+//B_0704_0000000004_X	BITMAP			IMAGE/User/Intermediate_PM4_W.bmp
+
+//B_0705_0000000000	BITMAP			IMAGE/User/ATM_PM5.bmp
+//B_0705_0000000000_X	BITMAP			IMAGE/User/ATM_PM5_W.bmp
+//B_0705_0000000001	BITMAP			IMAGE/User/Vacuum_PM5.bmp
+//B_0705_0000000001_X	BITMAP			IMAGE/User/Vacuum_PM5_W.bmp
+//B_0705_0000000002_1	BITMAP			IMAGE/User/ATM_PM5.bmp
+//B_0705_0000000002_1_X	BITMAP			IMAGE/User/ATM_PM5_W.bmp
+//B_0705_0000000002_2	BITMAP			IMAGE/User/Black_PM5.bmp
+//B_0705_0000000002_2_X	BITMAP			IMAGE/User/White_PM5.bmp
+//B_0705_0000000003_1	BITMAP			IMAGE/User/Vacuum_PM5.bmp
+//B_0705_0000000003_1_X	BITMAP			IMAGE/User/Vacuum_PM5_W.bmp
+//B_0705_0000000003_2	BITMAP			IMAGE/User/Black_PM5.bmp
+//B_0705_0000000003_2_X	BITMAP			IMAGE/User/White_PM5.bmp
+//B_0705_0000000004	BITMAP			IMAGE/User/Intermediate_PM5.bmp
+//B_0705_0000000004_X	BITMAP			IMAGE/User/Intermediate_PM5_W.bmp
+
+B_0706_0000000000	BITMAP			IMAGE/Vacuum_Status/TM/ATM_TMSQ.bmp
+B_0706_0000000000_X	BITMAP			IMAGE/Vacuum_Status/TM/ATM_TMSQ_W.bmp
+B_0706_0000000001	BITMAP			IMAGE/Vacuum_Status/TM/Vacuum_TMSQ.bmp
+B_0706_0000000001_X	BITMAP			IMAGE/Vacuum_Status/TM/Vacuum_TMSQ_W.bmp
+B_0706_0000000002_1	BITMAP			IMAGE/Vacuum_Status/TM/ATM_TMSQ.bmp
+B_0706_0000000002_1_X	BITMAP			IMAGE/Vacuum_Status/TM/ATM_TMSQ_W.bmp
+B_0706_0000000002_2	BITMAP			IMAGE/Vacuum_Status/TM/Black_TMSQ.bmp
+B_0706_0000000002_2_X	BITMAP			IMAGE/Vacuum_Status/TM/White_TMSQ.bmp
+B_0706_0000000003_1	BITMAP			IMAGE/Vacuum_Status/TM/Vacuum_TMSQ.bmp
+B_0706_0000000003_1_X	BITMAP			IMAGE/Vacuum_Status/TM/Vacuum_TMSQ_W.bmp
+B_0706_0000000003_2	BITMAP			IMAGE/Vacuum_Status/TM/Black_TMSQ.bmp
+B_0706_0000000003_2_X	BITMAP			IMAGE/Vacuum_Status/TM/White_TMSQ.bmp
+B_0706_0000000004	BITMAP			IMAGE/Vacuum_Status/TM/Intermediate_TMSQ.bmp
+B_0706_0000000004_X	BITMAP			IMAGE/Vacuum_Status/TM/Intermediate_TMSQ_W.bmp
+
+B_0707_0000000000	BITMAP			IMAGE/Vacuum_Status/BM1/ATM_LLASQ.bmp
+B_0707_0000000000_X	BITMAP			IMAGE/Vacuum_Status/BM1/ATM_LLASQ_W.bmp
+B_0707_0000000001	BITMAP			IMAGE/Vacuum_Status/BM1/Vacuum_LLASQ.bmp
+B_0707_0000000001_X	BITMAP			IMAGE/Vacuum_Status/BM1/Vacuum_LLASQ_W.bmp
+B_0707_0000000002_1	BITMAP			IMAGE/Vacuum_Status/BM1/ATM_LLASQ.bmp
+B_0707_0000000002_1_X	BITMAP			IMAGE/Vacuum_Status/BM1/ATM_LLASQ_W.bmp
+B_0707_0000000002_2	BITMAP			IMAGE/Vacuum_Status/BM1/Black_LLASQ.bmp
+B_0707_0000000002_2_X	BITMAP			IMAGE/Vacuum_Status/BM1/White_LLASQ.bmp
+B_0707_0000000003_1	BITMAP			IMAGE/Vacuum_Status/BM1/Vacuum_LLASQ.bmp
+B_0707_0000000003_1_X	BITMAP			IMAGE/Vacuum_Status/BM1/Vacuum_LLASQ_W.bmp
+B_0707_0000000003_2	BITMAP			IMAGE/Vacuum_Status/BM1/Black_LLASQ.bmp
+B_0707_0000000003_2_X	BITMAP			IMAGE/Vacuum_Status/BM1/White_LLASQ.bmp
+B_0707_0000000004	BITMAP			IMAGE/Vacuum_Status/BM1/Intermediate_LLASQ.bmp
+B_0707_0000000004_X	BITMAP			IMAGE/Vacuum_Status/BM1/Intermediate_LLASQ_W.bmp
+
+B_0708_0000000000	BITMAP			IMAGE/Vacuum_Status/BM2/ATM_LLBSQ.bmp
+B_0708_0000000000_X	BITMAP			IMAGE/Vacuum_Status/BM2/ATM_LLBSQ_W.bmp
+B_0708_0000000001	BITMAP			IMAGE/Vacuum_Status/BM2/Vacuum_LLBSQ.bmp
+B_0708_0000000001_X	BITMAP			IMAGE/Vacuum_Status/BM2/Vacuum_LLBSQ_W.bmp
+B_0708_0000000002_1	BITMAP			IMAGE/Vacuum_Status/BM2/ATM_LLBSQ.bmp
+B_0708_0000000002_1_X	BITMAP			IMAGE/Vacuum_Status/BM2/ATM_LLBSQ_W.bmp
+B_0708_0000000002_2	BITMAP			IMAGE/Vacuum_Status/BM2/Black_LLBSQ.bmp
+B_0708_0000000002_2_X	BITMAP			IMAGE/Vacuum_Status/BM2/White_LLBSQ.bmp
+B_0708_0000000003_1	BITMAP			IMAGE/Vacuum_Status/BM2/Vacuum_LLBSQ.bmp
+B_0708_0000000003_1_X	BITMAP			IMAGE/Vacuum_Status/BM2/Vacuum_LLBSQ_W.bmp
+B_0708_0000000003_2	BITMAP			IMAGE/Vacuum_Status/BM2/Black_LLBSQ.bmp
+B_0708_0000000003_2_X	BITMAP			IMAGE/Vacuum_Status/BM2/White_LLBSQ.bmp
+B_0708_0000000004	BITMAP			IMAGE/Vacuum_Status/BM2/Intermediate_LLBSQ.bmp
+B_0708_0000000004_X	BITMAP			IMAGE/Vacuum_Status/BM2/Intermediate_LLBSQ_W.bmp
+
+B_0709_0000000000	BITMAP			IMAGE/Vacuum_Status/Main_BM/ATM_MLLSQ.bmp
+B_0709_0000000000_X	BITMAP			IMAGE/Vacuum_Status/Main_BM/ATM_MLLSQ_W.bmp
+B_0709_0000000001	BITMAP			IMAGE/Vacuum_Status/Main_BM/Vacuum_MLLSQ.bmp
+B_0709_0000000001_X	BITMAP			IMAGE/Vacuum_Status/Main_BM/Vacuum_MLLSQ_W.bmp
+B_0709_0000000002_1	BITMAP			IMAGE/Vacuum_Status/Main_BM/ATM_MLLSQ.bmp
+B_0709_0000000002_1_X	BITMAP			IMAGE/Vacuum_Status/Main_BM/ATM_MLLSQ_W.bmp
+B_0709_0000000002_2	BITMAP			IMAGE/Vacuum_Status/Main_BM/Black_MLLSQ.bmp
+B_0709_0000000002_2_X	BITMAP			IMAGE/Vacuum_Status/Main_BM/White_MLLSQ.bmp
+B_0709_0000000003_1	BITMAP			IMAGE/Vacuum_Status/Main_BM/Vacuum_MLLSQ.bmp
+B_0709_0000000003_1_X	BITMAP			IMAGE/Vacuum_Status/Main_BM/Vacuum_MLLSQ_W.bmp
+B_0709_0000000003_2	BITMAP			IMAGE/Vacuum_Status/Main_BM/Black_MLLSQ.bmp
+B_0709_0000000003_2_X	BITMAP			IMAGE/Vacuum_Status/Main_BM/White_MLLSQ.bmp
+B_0709_0000000004	BITMAP			IMAGE/Vacuum_Status/Main_BM/Intermediate_MLLSQ.bmp
+B_0709_0000000004_X	BITMAP			IMAGE/Vacuum_Status/Main_BM/Intermediate_MLLSQ_W.bmp
+
+//============================================================
+// TM Maintenance screen Button Image
+B_0801_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Home_Enable.bmp"
+B_0801_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Home_Disable.bmp"
+
+B_0802_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Home2_Enable.bmp"
+B_0802_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Home2_Disable.bmp"
+
+B_0803_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Open_Enable.bmp"
+B_0803_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Open_Disable.bmp"
+
+B_0804_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Close_Enable.bmp"
+B_0804_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Close_Disable.bmp"
+
+B_0805_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_DummyMapping_Enable.bmp"
+B_0805_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_DummyMapping_Disable.bmp"
+
+B_0806_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Mapping_Enable.bmp"
+B_0806_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Mapping_Disable.bmp"
+
+B_0807_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_PinUp_Enable.bmp"
+B_0807_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_PinUp_Disable.bmp"
+
+B_0808_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_PinDown_Enable.bmp"
+B_0808_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_PinDown_Disable.bmp"
+
+B_0809_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_AWCCheck_Enable.bmp"
+B_0809_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_AWCCheck_Disable.bmp"
+
+B_0811_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_DummyAbort_Disable.bmp"
+B_0811_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_DummyAbort_Enable.bmp"
+B_0811_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_DummyAbort_Disable.bmp"
+B_0811_0000000003       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_DummyAbort_Enable.bmp"
+B_0811_0000000004       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_DummyAbort_Disable.bmp"
+B_0811_0000000005       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_DummyAbort_Disable.bmp"
+B_0811_0000000006       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_DummyAbort_Enable.bmp"
+B_0811_0000000007       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_DummyAbort_Disable.bmp"
+
+B_0812_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Init_Enable.bmp"
+B_0812_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Init_Disable.bmp"
+
+B_0813_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_TMPick_Enable.bmp"
+B_0813_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_TMPick_Disable.bmp"
+
+B_0814_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_TMPlace_Enable.bmp"
+B_0814_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_TMPlace_Disable.bmp"
+
+B_0815_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_RotPick_Enable.bmp"
+B_0815_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_RotPick_Disable.bmp"
+
+B_0816_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_GoLoad_Enable.bmp"
+B_0816_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_GoLoad_Disable.bmp"
+
+B_0817_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_RotPlace_Enable.bmp"
+B_0817_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_RotPlace_Disable.bmp"
+
+B_0818_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_GoUnload_Enable.bmp"
+B_0818_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_GoUnload_Disable.bmp"
+
+B_0819_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Rotate_Enable.bmp"
+B_0819_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Rotate_Disable.bmp"
+
+B_0820_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Pump_Enable.bmp"
+B_0820_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Pump_Disable.bmp"
+
+B_0821_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Vent_Enable.bmp"
+B_0821_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Vent_Disable.bmp"
+
+B_0822_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Dummy_AutoEX_Enable.bmp"
+B_0822_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Dummy_AutoEX_Disable.bmp"
+
+B_0823_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Dummy_SelectEX_Enable.bmp"
+B_0823_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Dummy_SelectEX_Disable.bmp"
+
+B_0824_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Clamp_Enable.bmp"
+B_0824_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Clamp_Disable.bmp"
+
+B_0825_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_UnClamp_Enable.bmp"
+B_0825_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_UnClamp_Disable.bmp"
+
+B_0826_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Cool_Enable.bmp"
+B_0826_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Cool_Disable.bmp"
+
+B_0827_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Load_Enable.bmp"
+B_0827_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Load_Disable.bmp"
+
+B_0828_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_UnLoad_Enable.bmp"
+B_0828_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_UnLoad_Disable.bmp"
+
+B_0830_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Extend_Enable.bmp"
+B_0830_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Extend_Disable.bmp"
+
+B_0831_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Retract_Enable.bmp"
+B_0831_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Retract_Disable.bmp"
+
+B_0835_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Reset_Enable.bmp"
+B_0835_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Reset_Disable.bmp"
+
+B_0838_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Up_Enable.bmp"
+B_0838_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Up_Disable.bmp"
+
+B_0839_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Down_Enable.bmp"
+B_0839_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_Down_Disable.bmp"
+
+B_0841_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_LeakStart_Enable.bmp"
+B_0841_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_LeakStart_Disable.bmp"
+
+B_0842_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_LeakStop_Enable.bmp"
+B_0842_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_LeakStop_Disable.bmp"
+
+B_0843_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_LeakStop_Disable.bmp"
+B_0843_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_LeakStop_Disable.bmp"
+
+B_0844_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_LeakAbort_Enable.bmp"
+B_0844_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_LeakAbort_Enable.bmp"
+
+B_0845_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_LeakTM_Enable.bmp"
+B_0845_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_LeakTM_Press.bmp"
+
+B_0846_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_LeakBM1_Enable.bmp"
+B_0846_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_LeakBM1_Press.bmp"
+
+B_0847_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_LeakBM2_Enable.bmp"
+B_0847_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_LeakBM2_Press.bmp"
+
+B_0850_0000000000	BITMAP			IMAGE/Button/Button_TMLeakAbort_Disable.bmp
+B_0850_0000000001	BITMAP			IMAGE/Button/Button_TMLeakAbort_Enable.bmp
+B_0850_0000000002	BITMAP			IMAGE/Button/Button_TMLeakAbort_Enable.bmp
+B_0850_0000000003	BITMAP			IMAGE/Button/Button_TMLeakAbort_Disable.bmp
+B_0850_0000000004	BITMAP			IMAGE/Button/Button_TMLeakAbort_Disable.bmp
+B_0850_0000000005	BITMAP			IMAGE/Button/Button_TMLeakAbort_Disable.bmp
+B_0850_0000000006	BITMAP			IMAGE/Button/Button_TMLeakAbort_Disable.bmp
+
+B_0851_0000000000	BITMAP			IMAGE/Button/Button_Log_Enable.bmp
+B_0851_0000000001	BITMAP			IMAGE/Button/Button_Log_Enable.bmp
+B_0851_0000000002	BITMAP			IMAGE/Button/Button_Log_Enable.bmp
+
+B_0852_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_DoorOpen_Enable.bmp"
+B_0852_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_DoorOpen_Disable.bmp"
+
+B_0853_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_DoorClose_Enable.bmp"
+B_0853_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button/Button_DoorClose_Disable.bmp"
+
+B_0911_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/button/DivertOff.bmp"
+B_0911_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/button/DivertOn.bmp"
+B_0911_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/button/DivertOff.bmp"
+B_0911_0000000003       BITMAP  MOVEABLE PURE   "IMAGE/button/DivertOff.bmp"
+
+
+B_1000_0000000000	BITMAP			IMAGE/Button/Button_PopupClose_Idle.bmp
+B_1000_0000000001	BITMAP			IMAGE/Button/Button_PopupClose_Press.bmp
+
+// PMC Image
+B_1101_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/DP_ON.bmp"
+
+/*
+B_1102_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/DP_None.bmp"
+B_1102_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/DP_Ready.bmp"
+B_1102_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/DP_Start.bmp"
+B_1102_0000000003       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/DP_Unknown.bmp"
+B_1102_0000000004       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/DP_Halt.bmp"
+B_1102_0000000005       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/DP_Wait.bmp"
+B_1102_0000000006       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/DP_ON.bmp"
+B_1102_0000000007       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/DP_Standby.bmp"
+B_1102_0000000008       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/DP_Flush.bmp"
+B_1102_0000000009       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/DP_OFF.bmp"
+*/
+
+B_1102_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/DP_OFF.bmp"
+B_1102_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/DP_ON.bmp"
+
+//B_1103_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/Turbo_Pump_Off.bmp"
+//B_1103_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/Turbo_Pump_On.bmp"
+
+/*
+B_1104_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/OFFON_OFF.bmp"
+B_1104_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/OFFON_ON.bmp"
+*/
+
+B_1104_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/ATMVAC_Unk.bmp"
+B_1104_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/ATMVAC_ATM.bmp"
+B_1104_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/ATMVAC_VAC.bmp"
+B_1104_0000000003       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/ATMVAC_ERR.bmp"
+
+
+B_1105_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/ERROK_ERR.bmp"
+B_1105_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/OFFON_OFF.bmp"
+
+//B_1106_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/Turbo_Pump_Stop.bmp"
+//B_1106_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/Turbo_Pump_Wait.bmp"
+//B_1106_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/Turbo_Pump_Start.bmp"
+//B_1106_0000000003       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/Turbo_Pump_Reg.bmp"
+//B_1106_0000000004       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/Turbo_Pump_Brake.bmp"
+//B_1106_0000000005       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/Turbo_Pump_Normal.bmp"
+//B_1106_0000000006       BITMAP  MOVEABLE PURE   "IMAGE/PMC_Img/Turbo_Pump_Fail.bmp"
+
+B_1201_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_CM1_TMC.bmp"
+B_1201_0000000000_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_CM1_X_TMC.bmp"
+B_1201_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_CM1_TMC.bmp"
+B_1201_0000000001_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_CM1_X_TMC.bmp"
+B_1201_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_CM1_TMC.bmp"
+B_1201_0000000002_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_CM1_X_TMC.bmp"
+B_1201_0000000003       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_CM1_TMC.bmp"
+B_1201_0000000003_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_CM1_X_TMC.bmp"
+
+B_1202_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_CM2_TMC.bmp"
+B_1202_0000000000_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_CM2_X_TMC.bmp"
+B_1202_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_CM2_TMC.bmp"
+B_1202_0000000001_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_CM2_X_TMC.bmp"
+B_1202_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_CM2_TMC.bmp"
+B_1202_0000000002_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_CM2_X_TMC.bmp"
+B_1202_0000000003       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_CM2_TMC.bmp"
+B_1202_0000000003_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_CM2_X_TMC.bmp"
+
+B_1203_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_PM1_TMC.bmp"
+B_1203_0000000000_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_PM1_X_TMC.bmp"
+B_1203_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_PM1_TMC.bmp"
+B_1203_0000000001_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_PM1_X_TMC.bmp"
+B_1203_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_PM1_TMC.bmp"
+B_1203_0000000002_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_PM1_X_TMC.bmp"
+B_1203_0000000003       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_PM1_TMC.bmp"
+B_1203_0000000003_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_PM1_X_TMC.bmp"
+
+B_1204_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_PM2_TMC.bmp"
+B_1204_0000000000_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_PM2_X_TMC.bmp"
+B_1204_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_PM2_TMC.bmp"
+B_1204_0000000001_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_PM2_X_TMC.bmp"
+B_1204_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_PM2_TMC.bmp"
+B_1204_0000000002_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_PM2_X_TMC.bmp"
+B_1204_0000000003       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_PM2_TMC.bmp"
+B_1204_0000000003_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_PM2_X_TMC.bmp"
+
+B_1205_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_PM3_TMC.bmp"
+B_1205_0000000000_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_PM3_X_TMC.bmp"
+B_1205_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_PM3_TMC.bmp"
+B_1205_0000000001_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_PM3_X_TMC.bmp"
+B_1205_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_PM3_TMC.bmp"
+B_1205_0000000002_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_PM3_X_TMC.bmp"
+B_1205_0000000003       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_PM3_TMC.bmp"
+B_1205_0000000003_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_PM3_X_TMC.bmp"
+
+B_1206_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_PM4_TMC.bmp"
+B_1206_0000000000_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_PM4_X_TMC.bmp"
+B_1206_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_PM4_TMC.bmp"
+B_1206_0000000001_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_PM4_X_TMC.bmp"
+B_1206_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_PM4_TMC.bmp"
+B_1206_0000000002_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_PM4_X_TMC.bmp"
+B_1206_0000000003       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_PM4_TMC.bmp"
+B_1206_0000000003_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_PM4_X_TMC.bmp"
+
+B_1207_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_PM5_TMC.bmp"
+B_1207_0000000000_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_PM5_X_TMC.bmp"
+B_1207_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_PM5_TMC.bmp"
+B_1207_0000000001_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_PM5_X_TMC.bmp"
+B_1207_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_PM5_TMC.bmp"
+B_1207_0000000002_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_PM5_X_TMC.bmp"
+B_1207_0000000003       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_PM5_TMC.bmp"
+B_1207_0000000003_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_PM5_X_TMC.bmp"
+
+B_1208_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_TMC.bmp"
+B_1208_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_TMC.bmp"
+
+
+B_1209_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_TMC.bmp"
+
+B_1210_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_PM7_TMC.bmp"
+B_1210_0000000000_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_None_PM7_X_TMC.bmp"
+B_1210_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_PM7_TMC.bmp"
+B_1210_0000000001_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Open_PM7_X_TMC.bmp"
+B_1210_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_PM7_TMC.bmp"
+B_1210_0000000002_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Close_PM7_X_TMC.bmp"
+B_1210_0000000003       BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_PM7_TMC.bmp"
+B_1210_0000000003_X     BITMAP  MOVEABLE PURE   "IMAGE/TMC_Gate/Gate_Error_PM7_X_TMC.bmp"
+
+B_1211_0000000000	BITMAP  MOVEABLE PURE   "IMAGE/User/FOUP_Status.bmp"
+
+B_1212_0000000000	BITMAP  MOVEABLE PURE   "IMAGE/Switch/Switch_OnOff_Null.bmp"
+B_1212_0000000001	BITMAP  MOVEABLE PURE   "IMAGE/Switch/Switch_OnOff_Green.bmp"
+
+B_1213_0000000000	BITMAP  MOVEABLE PURE   "IMAGE/Switch/Switch_OnOff_Null.bmp"
+B_1213_0000000001	BITMAP  MOVEABLE PURE   "IMAGE/Switch/Switch_OnOff_Yellow.bmp"
+
+B_1214_0000000000	BITMAP  MOVEABLE PURE   "IMAGE/User/BM1_MTSensor_Unknown.bmp"
+B_1214_0000000001	BITMAP  MOVEABLE PURE   "IMAGE/User/BM1_MTSensor_Load.bmp"
+B_1214_0000000002	BITMAP  MOVEABLE PURE   "IMAGE/User/BM1_MTSensor_Unload.bmp"
+B_1214_0000000003	BITMAP  MOVEABLE PURE   "IMAGE/User/BM1_MTSensor_error.bmp"
+
+B_1216_0000000000	BITMAP  MOVEABLE PURE   "IMAGE/User/BM2_MTSensor_Unknown.bmp"
+B_1216_0000000001	BITMAP  MOVEABLE PURE   "IMAGE/User/BM2_MTSensor_Load.bmp"
+B_1216_0000000002	BITMAP  MOVEABLE PURE   "IMAGE/User/BM2_MTSensor_Unload.bmp"
+B_1216_0000000003	BITMAP  MOVEABLE PURE   "IMAGE/User/BM2_MTSensor_error.bmp"
+
+B_1215_0000000000	BITMAP  MOVEABLE PURE   "IMAGE/User/ClampUnclamp_Unknown.bmp"
+B_1215_0000000001	BITMAP  MOVEABLE PURE   "IMAGE/User/ClampUnclamp_Clamped.bmp"
+B_1215_0000000002	BITMAP  MOVEABLE PURE   "IMAGE/User/ClampUnclamp_UnClamped.bmp"
+B_1215_0000000003	BITMAP  MOVEABLE PURE   "IMAGE/User/ClampUnclamp_Error.bmp"
+
+B_1300_0000000000	BITMAP	MOVEABLE PURE   "IMAGE/Button/Button_LoadFactor_1.bmp"
+B_1300_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/Button/Button_LoadFactor_2.bmp"
+
+B_1301_0000000000	BITMAP  MOVEABLE PURE   "IMAGE/User/Robot_Status.bmp"
+
+B_1320_0000000000	BITMAP  MOVEABLE PURE   "IMAGE/User/OKERR_ERR.bmp"
+B_1320_0000000001	BITMAP  MOVEABLE PURE   "IMAGE/User/OKERR_OK.bmp"
+
+B_1321_0000000000	BITMAP  MOVEABLE PURE   "IMAGE/User/WARNOK_WARN2.bmp"
+B_1321_0000000001	BITMAP  MOVEABLE PURE   "IMAGE/User/OKERR_OK.bmp"
+
+//============================================================
+// Preventive Maintenance screen image
+B_2000_0000000000	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/WET_Cleaning.bmp"
+B_2000_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/WET_Cleaning.bmp"
+
+B_2001_0000000000	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/DRY_Cleaning.bmp"
+B_2001_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/DRY_Cleaning.bmp"
+
+B_2002_0000000000	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/SRC_Exchange.bmp"
+B_2002_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/SRC_Exchange.bmp"
+
+B_2003_0000000000	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/STG_Heater.bmp"
+B_2003_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/STG_Heater.bmp"
+
+B_2004_0000000000	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/STG_Heater2.bmp"
+B_2004_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/STG_Heater2.bmp"
+
+B_2005_0000000000	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/DP_Exchange.bmp"
+B_2005_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/DP_Exchange.bmp"
+
+B_2006_0000000000	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/TRAP_Exchange.bmp"
+B_2006_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/TRAP_Exchange.bmp"
+
+B_2007_0000000000	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/PERIOD_A.bmp"
+B_2007_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/PERIOD_A.bmp"
+
+B_2008_0000000000	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/PERIOD_B.bmp"
+B_2008_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/PERIOD_B.bmp"
+
+B_2009_0000000000	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/PERIOD_C.bmp"
+B_2009_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/PERIOD_C.bmp"
+
+B_2010_0000000000	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/MFC_Count.bmp"
+B_2010_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/MFC_Count.bmp"
+
+B_2011_0000000000	BITMAP			IMAGE/Preventive/ButtonEnable_DISABLE.bmp
+B_2011_0000000001	BITMAP			IMAGE/Preventive/ButtonEnable_ENABLE.bmp
+
+B_2013_0000000000	BITMAP			IMAGE/Preventive/Button_RESET.bmp
+B_2013_0000000001	BITMAP			IMAGE/Preventive/Button_RESET.bmp
+
+B_2014_0000000000	BITMAP			IMAGE/Preventive/ButtonEnable_DISABLE.bmp
+B_2014_0000000001	BITMAP			IMAGE/Preventive/ButtonEnable_ENABLE.bmp
+
+B_2015_0000000000	BITMAP			IMAGE/Preventive/Button_Preventive_RESET.bmp
+B_2015_0000000001	BITMAP			IMAGE/Preventive/Button_Preventive_RESET.bmp
+
+B_2016_0000000000	BITMAP			IMAGE/Preventive/Button_EDIT_Enable.bmp
+B_2016_0000000001	BITMAP			IMAGE/Preventive/Button_EDIT_Press.bmp
+
+B_2017_0000000000	BITMAP			IMAGE/Preventive/Button_APPLY_Enable.bmp
+B_2017_0000000001	BITMAP			IMAGE/Preventive/Button_APPLY_Press.bmp
+
+B_2018_0000000000	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/ALDVlv_Count.bmp"
+B_2018_0000000001	BITMAP	MOVEABLE PURE   "IMAGE/Preventive/ALDVlv_Count.bmp"
+
+B_3016_0000000000	BITMAP			IMAGE/User/ChmConCtl/Button_EDIT_Enable.bmp
+B_3016_0000000001	BITMAP			IMAGE/User/ChmConCtl/Button_EDIT_Press.bmp
+
+B_3018_0000000000	BITMAP			IMAGE/User/ChmConCtl/RunningStatus_IDLE.bmp
+B_3018_0000000001	BITMAP			IMAGE/User/ChmConCtl/RunningStatus_RUNNING.bmp
+B_3018_0000000002	BITMAP			IMAGE/User/ChmConCtl/RunningStatus_ABORT.bmp
+B_3018_0000000003	BITMAP			IMAGE/User/ChmConCtl/RunningStatus_RESERV.bmp
+
+B_3019_0000000000	BITMAP			IMAGE/User/ChmConCtl/Button_Disable_Big.bmp
+B_3019_0000000001	BITMAP			IMAGE/User/ChmConCtl/Button_Enable_Big.bmp
+
+B_3020_0000000000	BITMAP			IMAGE/User/ChmConCtl/Button_RUN_ENABLE.bmp
+B_3020_0000000001	BITMAP			IMAGE/User/ChmConCtl/Button_RUN_DISABLE.bmp
+B_3020_0000000002	BITMAP			IMAGE/User/ChmConCtl/Button_RUN_DISABLE.bmp
+
+B_3021_0000000000	BITMAP			IMAGE/User/ChmConCtl/Button_ABORT_DISABLE.bmp
+B_3021_0000000001	BITMAP			IMAGE/User/ChmConCtl/Button_ABORT_ENABLE.bmp
+B_3021_0000000002	BITMAP			IMAGE/User/ChmConCtl/Button_ABORT_DISABLE.bmp
+
+B_3022_0000000000	BITMAP			IMAGE/User/ChmConCtl/Button_STOP_DISABLE.bmp
+B_3022_0000000001	BITMAP			IMAGE/User/ChmConCtl/Button_STOP_ENABLE.bmp
+B_3022_0000000002	BITMAP			IMAGE/User/ChmConCtl/Button_STOP_DISABLE.bmp
+
+B_5000_0000000000	BITMAP  MOVEABLE PURE   "IMAGE/Dummy/NoPMSelect.bmp"
+B_5000_0000000005	BITMAP  MOVEABLE PURE   "IMAGE/Dummy/PM1Select.bmp"
+B_5000_0000000006	BITMAP  MOVEABLE PURE   "IMAGE/Dummy/PM2Select.bmp"
+B_5000_0000000007	BITMAP  MOVEABLE PURE   "IMAGE/Dummy/PM3Select.bmp"
+B_5000_000000000G	BITMAP  MOVEABLE PURE   "IMAGE/Dummy/AnyPMSelect.bmp"
+
+B_5001_0000000000	BITMAP  MOVEABLE PURE   "IMAGE/Dummy/PMSelect.bmp"
+
+B_5002_0000000000	BITMAP  MOVEABLE PURE   "IMAGE/Dummy/Dummy_Exchange.bmp"
+
+
+//2007.07.30 add by chs
+//==================================================================
+// CM.CommStatus Enable/Disable.. All Status Display
+//==================================================================
+B_4001_0000000000	BITMAP			IMAGE/User/PM_CommSts/Commst_CMDisable.bmp
+B_4001_0000000001	BITMAP			IMAGE/User/PM_CommSts/Commst_CMEnable.bmp
+B_4001_0000000002	BITMAP			IMAGE/User/PM_CommSts/Commst_CMDisable.bmp
+B_4001_0000000003	BITMAP			IMAGE/User/PM_CommSts/Commst_CMDisableHW.bmp
+B_4001_0000000004	BITMAP			IMAGE/User/PM_CommSts/Commst_CMEnablePM.bmp
+
+B_4002_0000000000	BITMAP			IMAGE/User/CMDisable.bmp
+B_4002_0000000001	BITMAP			IMAGE/User/CMEnable.bmp
+B_4002_0000000002	BITMAP			IMAGE/User/CMDisable.bmp
+B_4002_0000000003	BITMAP			IMAGE/User/CMDisableHW.bmp
+B_4002_0000000004	BITMAP			IMAGE/User/CMEnablePM.bmp
+
+B_4003_0000000000  	BITMAP			IMAGE/DryStatus/PMEnable.bmp
+B_4003_0000000000_1	BITMAP			IMAGE/DryStatus/PMEnable.bmp
+B_4003_0000000001  	BITMAP			IMAGE/DryStatus/ReserveDry.bmp
+B_4003_0000000001_1	BITMAP			IMAGE/DryStatus/ReserveDry_R.bmp
+B_4003_0000000002  	BITMAP			IMAGE/DryStatus/RunDry.bmp
+B_4003_0000000002_1	BITMAP			IMAGE/DryStatus/RunDry_R.bmp
+
+
+B_4004_0000000000  	BITMAP			IMAGE/TMLeakStatus/TMLeakCheck_Ready.bmp
+B_4004_0000000001  	BITMAP			IMAGE/TMLeakStatus/TMLeakCheck_Reserved.bmp
+B_4004_0000000001_1	BITMAP			IMAGE/TMLeakStatus/TMLeakCheck_Reserved_R.bmp
+B_4004_0000000002  	BITMAP			IMAGE/TMLeakStatus/TMLeakCheck_Running.bmp
+B_4004_0000000002_1	BITMAP			IMAGE/TMLeakStatus/TMLeakCheck_Running_R.bmp
+
+B_4005_0000000000  	BITMAP			IMAGE/DryStatus/PM1_PMEnable.bmp
+B_4005_0000000000_1	BITMAP			IMAGE/DryStatus/PM1_PMEnable.bmp
+B_4005_0000000001  	BITMAP			IMAGE/DryStatus/PM1_ReserveDry.bmp
+B_4005_0000000001_1	BITMAP			IMAGE/DryStatus/PM1_ReserveDry_R.bmp
+B_4005_0000000002  	BITMAP			IMAGE/DryStatus/PM1_RunDry.bmp
+B_4005_0000000002_1	BITMAP			IMAGE/DryStatus/PM1_RunDry_R.bmp
+B_4005_0000000003  	BITMAP			IMAGE/DryStatus/PM1_FailDry.bmp
+B_4005_0000000003_1	BITMAP			IMAGE/DryStatus/PM1_FailDry_R.bmp
+
+B_4006_0000000000  	BITMAP			IMAGE/DryStatus/PM2_PMEnable.bmp
+B_4006_0000000000_1	BITMAP			IMAGE/DryStatus/PM2_PMEnable.bmp
+B_4006_0000000001  	BITMAP			IMAGE/DryStatus/PM2_ReserveDry.bmp
+B_4006_0000000001_1	BITMAP			IMAGE/DryStatus/PM2_ReserveDry_R.bmp
+B_4006_0000000002  	BITMAP			IMAGE/DryStatus/PM2_RunDry.bmp
+B_4006_0000000002_1	BITMAP			IMAGE/DryStatus/PM2_RunDry_R.bmp
+B_4006_0000000003  	BITMAP			IMAGE/DryStatus/PM2_FailDry.bmp
+B_4006_0000000003_1	BITMAP			IMAGE/DryStatus/PM2_FailDry_R.bmp
+
+B_4007_0000000000  	BITMAP			IMAGE/DryStatus/PM3_PMEnable.bmp
+B_4007_0000000000_1	BITMAP			IMAGE/DryStatus/PM3_PMEnable.bmp
+B_4007_0000000001  	BITMAP			IMAGE/DryStatus/PM3_ReserveDry.bmp
+B_4007_0000000001_1	BITMAP			IMAGE/DryStatus/PM3_ReserveDry_R.bmp
+B_4007_0000000002  	BITMAP			IMAGE/DryStatus/PM3_RunDry.bmp
+B_4007_0000000002_1	BITMAP			IMAGE/DryStatus/PM3_RunDry_R.bmp
+B_4007_0000000003  	BITMAP			IMAGE/DryStatus/PM3_FailDry.bmp
+B_4007_0000000003_1	BITMAP			IMAGE/DryStatus/PM3_FailDry_R.bmp
+
+B_4008_0000000000  	BITMAP			IMAGE/DryStatus/PM4_PMEnable.bmp
+B_4008_0000000000_1	BITMAP			IMAGE/DryStatus/PM4_PMEnable.bmp
+B_4008_0000000001  	BITMAP			IMAGE/DryStatus/PM4_ReserveDry.bmp
+B_4008_0000000001_1	BITMAP			IMAGE/DryStatus/PM4_ReserveDry_R.bmp
+B_4008_0000000002  	BITMAP			IMAGE/DryStatus/PM4_RunDry.bmp
+B_4008_0000000002_1	BITMAP			IMAGE/DryStatus/PM4_RunDry_R.bmp
+B_4008_0000000003  	BITMAP			IMAGE/DryStatus/PM4_FailDry.bmp
+B_4008_0000000003_1	BITMAP			IMAGE/DryStatus/PM4_FailDry_R.bmp
+
+//2008.01.01 PMC Display 5000~
+B_5101_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Valve_bigwidth_Close.bmp"
+B_5101_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Valve_bigwidth_Open.bmp"
+
+B_5102_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Valve_smallwidth_Close.bmp"
+B_5102_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Valve_smallwidth_Open.bmp"
+
+B_5103_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Valve_bigheight_Close.bmp"
+B_5103_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Valve_bigheight_Open.bmp"
+
+B_5104_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Valve_smallheight_Close.bmp"
+B_5104_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Valve_smallheight_Open.bmp"
+
+B_5504_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC/VacuumSensor_Unknown.bmp"
+B_5504_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC/VacuumSensor_Atm.bmp"
+B_5504_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/PMC/VacuumSensor_Vacuum.bmp"
+B_5504_0000000004       BITMAP  MOVEABLE PURE   "IMAGE/PMC/VacuumSensor_Unknown.bmp"
+
+B_5506_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Throttle-Release.bmp"
+B_5506_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Throttle-Open.bmp"
+B_5506_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Throttle-Close.bmp"
+
+B_5507_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC/DryPump-TurnOff.bmp"
+B_5507_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC/DryPump-TurnOn.bmp"
+B_5507_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/PMC/DryPump-TurnOn.bmp"
+B_5507_0000000003       BITMAP  MOVEABLE PURE   "IMAGE/PMC/DryPump-TurnOn.bmp"
+
+B_5509_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC/iScrubber-Alarm.bmp"
+B_5509_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC/iScrubber-Normal.bmp"
+
+B_5510_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Pin-Mid.bmp"
+B_5510_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Pin-Up.bmp"
+B_5510_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Pin-Down.bmp"
+B_5510_0000000010       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Pin-Mid-Wafer.bmp"
+B_5510_0000000011       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Pin-Up-Wafer.bmp"
+B_5510_0000000012       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Pin-Down-Wafer.bmp"
+B_5510_0000000020       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Pin-Mid-Wafer.bmp"
+B_5510_0000000021       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Pin-Up-Wafer.bmp"
+B_5510_0000000022       BITMAP  MOVEABLE PURE   "IMAGE/PMC/Pin-Down-Wafer.bmp"
+
+B_5519_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC/iACV_none.bmp"
+B_5519_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC/iACV_process.bmp"
+B_5520_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC/iACV_none.bmp"
+B_5520_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC/iACV_cleaning.bmp"
+
+B_5530_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC/BUTTON_MFC_RELEASE.bmp"
+B_5530_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC/BUTTON_MFC_OPEN.bmp"
+B_5530_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/PMC/BUTTON_MFC_CLOSE.bmp"
+
+B_0551_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/PMC/iPlasma_OFF.bmp"
+B_0551_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/PMC/iPlasma_ON.bmp"
+//=============================================================
+// AutoPM Flow Status Display
+//=============================================================
+B_3030_0000000000	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3030_0000000001	BITMAP			IMAGE/User/AutoPM/AutoPM_Enable.bmp
+B_3030_0000000002	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3030_0000000003	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3030_0000000004	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3030_0000000005	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3030_0000000006	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+
+B_3031_0000000000	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3031_0000000001	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3031_0000000002	BITMAP			IMAGE/User/AutoPM/AutoPM_Enable.bmp
+B_3031_0000000003	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3031_0000000004	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3031_0000000005	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3031_0000000006	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+
+B_3032_0000000000	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3032_0000000001	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3032_0000000002	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3032_0000000003	BITMAP			IMAGE/User/AutoPM/AutoPM_Enable.bmp
+B_3032_0000000004	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3032_0000000005	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3032_0000000006	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+
+B_3033_0000000000	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3033_0000000001	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3033_0000000002	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3033_0000000003	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3033_0000000004	BITMAP			IMAGE/User/AutoPM/AutoPM_Enable.bmp
+B_3033_0000000005	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3033_0000000006	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+
+B_3034_0000000000	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3034_0000000001	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3034_0000000002	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3034_0000000003	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3034_0000000004	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3034_0000000005	BITMAP			IMAGE/User/AutoPM/AutoPM_Enable.bmp
+B_3034_0000000006	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+
+B_3035_0000000000	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3035_0000000001	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3035_0000000002	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3035_0000000003	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3035_0000000004	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3035_0000000005	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3035_0000000006	BITMAP			IMAGE/User/AutoPM/AutoPM_Enable.bmp
+
+B_3036_0000000000	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3036_0000000001	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3036_0000000002	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3036_0000000003	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3036_0000000004	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3036_0000000005	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+B_3036_0000000006	BITMAP			IMAGE/User/AutoPM/AutoPM_Disable.bmp
+
+B_3050_0000000000  	BITMAP			IMAGE/User/AutoPM/PreMacroStart.bmp
+B_3050_0000000001  	BITMAP			IMAGE/User/AutoPM/PreMacroStart.bmp
+B_3050_0000000001_1	BITMAP			IMAGE/User/AutoPM/PreMacroStart_R.bmp
+
+B_3051_0000000000  	BITMAP			IMAGE/User/AutoPM/PreMacroEnd.bmp
+B_3051_0000000001  	BITMAP			IMAGE/User/AutoPM/PreMacroEnd.bmp
+B_3051_0000000002  	BITMAP			IMAGE/User/AutoPM/PreMacroEnd.bmp
+B_3051_0000000002_1  	BITMAP			IMAGE/User/AutoPM/PreMacroEnd_R.bmp
+
+B_3052_0000000000  	BITMAP			IMAGE/User/AutoPM/PhysicalPMStart.bmp
+B_3052_0000000001  	BITMAP			IMAGE/User/AutoPM/PhysicalPMStart.bmp
+B_3052_0000000002  	BITMAP			IMAGE/User/AutoPM/PhysicalPMStart.bmp
+B_3052_0000000003  	BITMAP			IMAGE/User/AutoPM/PhysicalPMStart.bmp
+B_3052_0000000003_1  	BITMAP			IMAGE/User/AutoPM/PhysicalPMStart_R.bmp
+
+B_3053_0000000000  	BITMAP			IMAGE/User/AutoPM/PhysicalPMEnd.bmp
+B_3053_0000000001  	BITMAP			IMAGE/User/AutoPM/PhysicalPMEnd.bmp
+B_3053_0000000002  	BITMAP			IMAGE/User/AutoPM/PhysicalPMEnd.bmp
+B_3053_0000000003  	BITMAP			IMAGE/User/AutoPM/PhysicalPMEnd.bmp
+B_3053_0000000004  	BITMAP			IMAGE/User/AutoPM/PhysicalPMEnd.bmp
+B_3053_0000000004_1  	BITMAP			IMAGE/User/AutoPM/PhysicalPMEnd_R.bmp
+
+
+B_3054_0000000000  	BITMAP			IMAGE/User/AutoPM/PostMacroStart.bmp
+B_3054_0000000001  	BITMAP			IMAGE/User/AutoPM/PostMacroStart.bmp
+B_3054_0000000002  	BITMAP			IMAGE/User/AutoPM/PostMacroStart.bmp
+B_3054_0000000003  	BITMAP			IMAGE/User/AutoPM/PostMacroStart.bmp
+B_3054_0000000004  	BITMAP			IMAGE/User/AutoPM/PostMacroStart.bmp
+B_3054_0000000005  	BITMAP			IMAGE/User/AutoPM/PostMacroStart.bmp
+B_3054_0000000005_1  	BITMAP			IMAGE/User/AutoPM/PostMacroStart_R.bmp
+
+B_3055_0000000000  	BITMAP			IMAGE/User/AutoPM/PostMacroEnd.bmp
+B_3055_0000000001  	BITMAP			IMAGE/User/AutoPM/PostMacroEnd.bmp
+B_3055_0000000002  	BITMAP			IMAGE/User/AutoPM/PostMacroEnd.bmp
+B_3055_0000000003  	BITMAP			IMAGE/User/AutoPM/PostMacroEnd.bmp
+B_3055_0000000004  	BITMAP			IMAGE/User/AutoPM/PostMacroEnd.bmp
+B_3055_0000000005  	BITMAP			IMAGE/User/AutoPM/PostMacroEnd.bmp
+B_3055_0000000006  	BITMAP			IMAGE/User/AutoPM/PostMacroEnd.bmp
+B_3055_0000000006_1  	BITMAP			IMAGE/User/AutoPM/PostMacroEnd_R.bmp
+
+B_3080_0000000000  	BITMAP			IMAGE/User/AutoPM/PreMacroAbort.bmp
+B_3081_0000000000  	BITMAP			IMAGE/User/AutoPM/PostMacroAbort.bmp
+
+B_3090_0000000000  	BITMAP			IMAGE/User/NEW_ITEM.bmp
+
+B_3100_0000000000  	BITMAP			IMAGE/User/AutoPM/AutoPMNone.bmp
+B_3100_0000000000_X  	BITMAP			IMAGE/User/AutoPM/AutoPMNone_R.bmp
+B_3100_0000000001_1  	BITMAP			IMAGE/User/AutoPM/AutoPMRev.bmp
+B_3100_0000000001_1_X  	BITMAP			IMAGE/User/AutoPM/AutoPMRev_R.bmp
+B_3100_0000000002_1  	BITMAP			IMAGE/User/AutoPM/AutoPMRunning.bmp
+B_3100_0000000002_1_X  	BITMAP			IMAGE/User/AutoPM/AutoPMRunning_R.bmp
+B_3100_0000000003_1  	BITMAP			IMAGE/User/AutoPM/AutoPMEnd.bmp
+B_3100_0000000003_1_X  	BITMAP			IMAGE/User/AutoPM/AutoPMEnd_R.bmp

@@ -1,0 +1,7 @@
+$$$ Enum
+TrapHtrStsEnum	UnKnown	Ready	HeatUp	HeatDown	Stable	Aborted
+TrapCtrlStsEnum	Idle	Running
+
+$$$ Digital
+Trap_Htr_Status		TrapHtrStsEnum	UnKnown
+Trap_Ctrl_Status	TrapCtrlStsEnum	Idle

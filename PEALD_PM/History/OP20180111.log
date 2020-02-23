@@ -1,0 +1,70 @@
+2018/1/11 10:12:57	USERCONTROL	[SYSTEM_START]
+2018/1/11 10:13:18	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/11 10:13:22	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/11 10:13:23	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/11 10:13:23	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/11 10:13:31	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2018/1/11 10:13:31	BUTTON	[RIGHT CLICK] Right_System_Control
+2018/1/11 10:13:32	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2018/1/11 10:13:32	BUTTON	[RIGHT CLICK] Right_System_Main
+2018/1/11 10:14:11	USERCONTROL	[SYSTEM_START]
+2018/1/11 10:14:31	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/11 10:14:33	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/11 10:14:34	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/11 10:14:34	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/11 10:14:40	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2018/1/11 10:14:40	BUTTON	[RIGHT CLICK] Right_System_Control
+2018/1/11 10:14:41	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2018/1/11 10:14:41	BUTTON	[RIGHT CLICK] Right_System_Main
+2018/1/11 10:21:32	USERCONTROL	[SYSTEM_START]
+2018/1/11 10:22:0	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/11 10:22:2	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/11 10:22:3	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/11 10:22:3	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/11 10:22:8	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2018/1/11 10:22:8	BUTTON	[RIGHT CLICK] Right_System_Control
+2018/1/11 10:22:11	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/11 10:22:11	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/11 10:22:13	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/11 10:22:13	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/11 10:22:14	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/11 10:22:14	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/11 10:22:15	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/11 10:22:15	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/11 10:22:16	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2018/1/11 10:22:16	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2018/1/11 10:22:16	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/11 10:22:16	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/11 10:25:12	USERCONTROL	[SYSTEM_START]
+2018/1/11 10:25:33	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/11 10:25:34	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/11 10:25:35	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/11 10:25:35	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/11 10:25:37	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/1/11 10:25:37	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/1/11 10:25:38	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/11 10:25:38	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/11 10:25:40	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/11 10:25:40	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/11 10:25:40	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/1/11 10:25:40	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/1/11 10:25:43	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/1/11 10:25:43	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/1/11 10:25:44	SETTING	[DIO] Right_Service_Water with [1] at Page = 0(PAGE 1)
+2018/1/11 10:25:44	BUTTON	[RIGHT CLICK] Right_Service_Water
+2018/1/11 10:25:44	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2018/1/11 10:25:44	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2018/1/11 10:25:46	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2018/1/11 10:25:46	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2018/1/11 10:25:47	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/11 10:25:47	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/11 10:25:49	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2018/1/11 10:25:49	BUTTON	[RIGHT CLICK] Right_System_Control
+2018/1/11 10:25:49	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/1/11 10:25:49	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/1/11 10:25:50	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/11 10:25:50	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/11 10:25:51	SETTING	[DIO] Bottom_Utility with [1] at Page = 0(PAGE 1)
+2018/1/11 10:25:51	BUTTON	[BOTTOM CLICK] Bottom_Utility
+2018/1/11 10:25:52	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/11 10:25:52	BUTTON	[BOTTOM CLICK] Bottom_System

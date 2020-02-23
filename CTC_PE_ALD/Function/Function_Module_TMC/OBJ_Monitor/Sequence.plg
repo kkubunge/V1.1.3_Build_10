@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Sequence - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/OBJ_Monitor.res" /i "Source" /d "NDEBUG" "D:\02_MAHA_MP\03) P1_3L_ALD Oxide(DPT)\1_Backup\2020.01.15_V1.1.3_Build_10_SignalTower\CTC_PE_ALD\Function\Function_Module_TMC\OBJ_Monitor\Source\OBJ_Monitor.rc"" 
+Creating temporary file "C:\Users\gjyu\AppData\Local\Temp\RSP1980.tmp" with contents
+[
+/nologo /MT /W3 /GX /I "h" /I "k:\h" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\02_MAHA_MP\03) P1_3L_ALD Oxide(DPT)\1_Backup\2020.01.15_V1.1.3_Build_10_SignalTower\CTC_PE_ALD\Function\Function_Module_TMC\OBJ_Monitor\Source\prg_code.c"
+"D:\02_MAHA_MP\03) P1_3L_ALD Oxide(DPT)\1_Backup\2020.01.15_V1.1.3_Build_10_SignalTower\CTC_PE_ALD\Function\Function_Module_TMC\OBJ_Monitor\Source\usr_code.c"
+]
+Creating command line "cl.exe @C:\Users\gjyu\AppData\Local\Temp\RSP1980.tmp" 
+Creating temporary file "C:\Users\gjyu\AppData\Local\Temp\RSP1981.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cimsqcon.lib /nologo /subsystem:console /pdb:none /machine:I386 /out:"Sequence.exe" /libpath:"k:\lib" 
+".\Release\prg_code.obj"
+".\Release\usr_code.obj"
+".\Release\OBJ_Monitor.res"
+"K:\lib\kutlAnal.lib"
+"K:\lib\kutlEtc.lib"
+"K:\lib\kutlFile.lib"
+"K:\lib\kutlStr.lib"
+"K:\lib\kutlTime.lib"
+]
+Creating command line "link.exe @C:\Users\gjyu\AppData\Local\Temp\RSP1981.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+prg_code.c
+usr_code.c
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Sequence.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

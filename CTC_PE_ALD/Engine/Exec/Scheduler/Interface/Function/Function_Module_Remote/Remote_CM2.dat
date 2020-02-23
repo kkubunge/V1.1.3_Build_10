@@ -1,0 +1,38 @@
+#-------------------------------------------------------------------------------
+# CM2 Part Scheduler Interface Function
+#-------------------------------------------------------------------------------
+
+CM2.HAND_OFF_IN		50	-	SUCCESS
+CM2.HAND_OFF_OUT	50	-	SUCCESS
+
+CM2.READY		50	-	SUCCESS
+CM2.END			50	-	SUCCESS
+
+CM2.CASSETTE_MAP	50	-	SUCCESS
+CM2.PREPARE_SEND	50	-	SUCCESS
+CM2.POST_SEND		50	-	SUCCESS
+CM2.PREPARE_RECV	50	-	SUCCESS
+CM2.POST_RECV		50	-	SUCCESS
+
+CM2.PREPARE_PICK	50	-	SUCCESS
+CM2.WAFER_PICK		50	-	SUCCESS
+CM2.PREPARE_PLACE	50	-	SUCCESS
+CM2.WAFER_PLACE		50	-	SUCCESS
+
+#-------------------------------------------------------------------------------
+# HandOff Extended Message
+#-------------------------------------------------------------------------------
+
+CM2.HAND_OFF_IN_ENTER	50	-	SUCCESS
+CM2.HAND_OFF_IN_LEAVE	50	-	SUCCESS
+
+CM2.HAND_OFF_OUT_ENTER	50	-	SUCCESS
+CM2.HAND_OFF_OUT_LEAVE	50	-	SUCCESS
+
+#-------------------------------------
+# Transfer Clear Function for Remote
+#-------------------------------------
+
+CM2.CLEAR		50	-	SUCCESS
+
+

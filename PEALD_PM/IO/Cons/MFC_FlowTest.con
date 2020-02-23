@@ -1,0 +1,435 @@
+$$$ Enum
+	MFlowResult	NONE	ERROR	OK
+
+$$$ Digital
+
+	MFC_FLOW_TEST		OFF_ON
+
+	MFlow_MFC01		OFF_ON
+	MFlow_MFC02		OFF_ON
+	MFlow_MFC03		OFF_ON
+	MFlow_MFC04		OFF_ON
+	MFlow_MFC05		OFF_ON
+	MFlow_MFC06		OFF_ON
+	MFlow_MFC07		OFF_ON
+	MFlow_MFC08		OFF_ON
+	MFlow_MFC09		OFF_ON
+	MFlow_MFC10		OFF_ON
+	MFlow_MFC11		OFF_ON
+	MFlow_MFC12		OFF_ON
+	MFlow_MFC13		OFF_ON
+	MFlow_MFC14		OFF_ON
+	MFlow_MFC15		OFF_ON
+	MFlow_MFC16		OFF_ON
+	MFlow_MFC17		OFF_ON
+
+	MFlow_MFC01_Result	MFlowResult
+	MFlow_MFC02_Result	MFlowResult
+	MFlow_MFC03_Result	MFlowResult
+	MFlow_MFC04_Result	MFlowResult
+	MFlow_MFC05_Result	MFlowResult
+	MFlow_MFC06_Result	MFlowResult
+	MFlow_MFC07_Result	MFlowResult
+	MFlow_MFC08_Result	MFlowResult
+	MFlow_MFC09_Result	MFlowResult
+	MFlow_MFC10_Result	MFlowResult
+	MFlow_MFC11_Result	MFlowResult
+	MFlow_MFC12_Result	MFlowResult
+	MFlow_MFC13_Result	MFlowResult
+	MFlow_MFC14_Result	MFlowResult
+	MFlow_MFC15_Result	MFlowResult
+	MFlow_MFC16_Result	MFlowResult
+	MFlow_MFC17_Result	MFlowResult
+
+$$$ String
+
+	MFlow_MFC01_Name	""
+	MFlow_MFC02_Name	""
+	MFlow_MFC03_Name	""
+	MFlow_MFC04_Name	""
+	MFlow_MFC05_Name	""
+	MFlow_MFC06_Name	""
+	MFlow_MFC07_Name	""
+	MFlow_MFC08_Name	""
+	MFlow_MFC09_Name	""
+	MFlow_MFC10_Name	""
+	MFlow_MFC11_Name	""
+	MFlow_MFC12_Name	""
+	MFlow_MFC13_Name	""
+	MFlow_MFC14_Name	""
+	MFlow_MFC15_Name	""
+	MFlow_MFC16_Name	""
+	MFlow_MFC17_Name	""
+
+	MFC_TEST_INFO		""
+
+$$$ Analog
+
+	MFC_PUMP_TIME		Sec	-    -  -  -  0  0  10000  1    -   -  -  -  0  0  10000  --- --- --- ---
+	MFC_CHECK_DELAY		Sec	-    -  -  -  0  0  1000   1    -   -  -  -  0  0  1000   --- --- --- ---
+	MFC_CHECK_TIME		Sec	-    -  -  -  0  0  1000   1    -   -  -  -  0  0  1000   --- --- --- ---
+	MFC_FL0W_TOL		%	-    -  -  -  0  0  100    1    -   -  -  -  0  0  100    --- --- --- ---
+
+	MFlow_MFC01_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC01_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC01_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC01_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC01_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC02_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC02_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC02_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC02_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC02_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC03_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC03_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC03_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC03_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC03_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC04_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC04_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC04_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC04_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC04_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC05_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC05_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC05_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC05_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC05_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC06_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC06_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC06_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC06_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC06_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC07_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC07_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC07_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC07_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC07_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC08_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC08_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC08_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC08_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC08_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC09_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC09_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC09_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC09_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC09_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC10_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC10_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC10_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC10_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC10_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC11_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC11_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC11_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC11_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC11_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC12_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC12_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC12_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC12_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC12_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC13_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC13_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC13_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC13_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC13_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC14_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC14_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC14_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC14_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC14_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC15_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC15_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC15_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC15_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC15_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC16_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC16_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC16_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC16_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC16_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC17_SET1	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC17_SET2	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC17_SET3	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC17_SET4	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+	MFlow_MFC17_SET5	Sccm	-    -  -  -  1  0  30000  1    -   -  -  -  1  0  30000  --- --- --- ---
+
+	MFlow_MFC01_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC01_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC01_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC01_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC01_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC02_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC02_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC02_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC02_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC02_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC03_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC03_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC03_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC03_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC03_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC04_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC04_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC04_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC04_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC04_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC05_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC05_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC05_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC05_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC05_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC06_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC06_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC06_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC06_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC06_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC07_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC07_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC07_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC07_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC07_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC08_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC08_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC08_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC08_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC08_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC09_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC09_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC09_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC09_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC09_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC10_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC10_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC10_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC10_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC10_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC11_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC11_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC11_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC11_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC11_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC12_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC12_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC12_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC12_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC12_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC13_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC13_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC13_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC13_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC13_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC14_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC14_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC14_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC14_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC14_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC15_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC15_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC15_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC15_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC15_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC16_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC16_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC16_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC16_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC16_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC17_FLOW1	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC17_FLOW2	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC17_FLOW3	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC17_FLOW4	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+	MFlow_MFC17_FLOW5	Sccm	-    -  -  -  1  -9999  30000  1    -   -  -  -  1  -9999  30000  --- --- --- ---
+
+ 	MFlow_MFC01_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC01_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC01_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC01_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC01_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+ 	MFlow_MFC02_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC02_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC02_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC02_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC02_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+ 	MFlow_MFC03_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC03_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC03_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC03_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC03_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+ 	MFlow_MFC04_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC04_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC04_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC04_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC04_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+ 	MFlow_MFC05_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC05_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC05_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC05_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC05_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+ 	MFlow_MFC06_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC06_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC06_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC06_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC06_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+ 	MFlow_MFC07_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC07_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC07_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC07_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC07_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+ 	MFlow_MFC08_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC08_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC08_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC08_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC08_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+ 	MFlow_MFC09_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC09_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC09_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC09_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC09_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+ 	MFlow_MFC10_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC10_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC10_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC10_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC10_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+ 	MFlow_MFC11_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC11_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC11_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC11_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC11_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+ 	MFlow_MFC12_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC12_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC12_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC12_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC12_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+ 	MFlow_MFC13_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC13_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC13_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC13_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC13_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+ 	MFlow_MFC14_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC14_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC14_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC14_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC14_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+ 	MFlow_MFC15_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC15_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC15_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC15_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC15_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+ 	MFlow_MFC16_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC16_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC16_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC16_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC16_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC17_ResultPrs1	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC17_ResultPrs2	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC17_ResultPrs3	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC17_ResultPrs4	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+	MFlow_MFC17_ResultPrs5	Sccm	-    -  -  -  3  -9999  30000  1    -   -  -  -  3  -9999  30000  --- --- --- ---
+
+	MFlow_StartChmPrs	Torr	-    -  -  -  3  0      1000   1    -   -  -  -  3  0      1000   --- --- --- ---
+	MFlow_StartPumpPrs	Torr	-    -  -  -  3  0      1000   1    -   -  -  -  3  0      1000   --- --- --- ---
+	
+	MANUAL_SET_MFC01	Sccm	-    -  -  -  0  0  5000  1    -   -  -  -  0  0  5000 	--- --- --- ---
+	MANUAL_SET_MFC02	Sccm	-    -  -  -  0  0  1000  1    -   -  -  -  0  0  1000 	--- --- --- ---
+	MANUAL_SET_MFC03	Sccm	-    -  -  -  0  0  5000  1    -   -  -  -  0  0  5000 	--- --- --- ---
+	MANUAL_SET_MFC04	Sccm	-    -  -  -  0  0  1000  1    -   -  -  -  0  0  1000 	--- --- --- ---
+	MANUAL_SET_MFC05	Sccm	-    -  -  -  0  0  5000  1    -   -  -  -  0  0  5000 	--- --- --- ---
+	MANUAL_SET_MFC06	Sccm	-    -  -  -  0  0  5000  1    -   -  -  -  0  0  5000 	--- --- --- ---
+	MANUAL_SET_MFC07	Sccm	-    -  -  -  0  0  5000  1    -   -  -  -  0  0  5000 	--- --- --- ---
+	MANUAL_SET_MFC08	Sccm	-    -  -  -  0  0  1000  1    -   -  -  -  0  0  1000 	--- --- --- ---
+	MANUAL_SET_MFC09	Sccm	-    -  -  -  0  0  5000  1    -   -  -  -  0  0  5000 	--- --- --- ---	
+$$$ Digital
+	MANUAL_SET_MFC_SEQ	MFCSEQEnum	NotUse
+	
+	MFlow_MFC_ParmSaveDM	OffOnEnum	Off
+	
+	MFlow_FlwErrLmtDM	- * *  - - - - -    0    1000
+
+	MFlow_MFC01_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC01_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC01_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC01_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC01_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC02_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC02_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC02_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC02_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC02_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC03_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC03_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC03_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC03_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC03_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC04_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC04_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC04_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC04_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC04_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC05_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC05_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC05_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC05_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC05_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC06_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC06_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC06_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC06_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC06_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC07_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC07_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC07_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC07_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC07_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC08_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC08_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC08_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC08_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC08_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC09_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC09_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC09_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC09_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC09_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC10_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC10_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC10_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC10_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC10_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC11_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC11_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC11_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC11_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC11_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC12_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC12_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC12_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC12_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC12_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC13_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC13_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC13_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC13_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC13_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC14_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC14_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC14_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC14_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC14_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC15_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC15_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC15_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC15_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC15_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC16_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC16_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC16_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC16_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC16_FlwErr5DM	- * *  - - - - -    0    999999
+	MFlow_MFC17_FlwErr1DM	- * *  - - - - -    0    999999
+	MFlow_MFC17_FlwErr2DM	- * *  - - - - -    0    999999
+	MFlow_MFC17_FlwErr3DM	- * *  - - - - -    0    999999
+	MFlow_MFC17_FlwErr4DM	- * *  - - - - -    0    999999
+	MFlow_MFC17_FlwErr5DM	- * *  - - - - -    0    999999
+

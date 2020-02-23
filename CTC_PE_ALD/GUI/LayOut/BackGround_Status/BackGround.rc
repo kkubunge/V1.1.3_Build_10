@@ -1,0 +1,12 @@
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BACKGROUND			BITMAP	BACKGROUND.bmp
+
+IDB_BACKGROUND_POPUP_01		BITMAP	BACKGROUND_Popup_Mode.bmp
+IDB_BACKGROUND_POPUP_02		BITMAP	BackHostCommunication.bmp
+IDB_BACKGROUND_POPUP_03		BITMAP	BackSignalTow.bmp
+IDB_BACKGROUND_POPUP_04		BITMAP	BackSystemInfo.bmp

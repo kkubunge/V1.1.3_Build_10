@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Sequence - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/Sequence.res" /d "NDEBUG" "D:\1_PEALD\1_SEC\_17L\Simulation\2016.11.01_V1.1.1_Build_2_APPC\CTC_PE_ALD\Function\Function_Scheduler\Gui_Plotter2\Sequence.rc"" 
+Creating temporary file "C:\Users\gwlee\AppData\Local\Temp\RSPF81C.tmp" with contents
+[
+/nologo /MT /W3 /GX /I "." /I "h" /I "k:\h" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\1_PEALD\1_SEC\_17L\Simulation\2016.11.01_V1.1.1_Build_2_APPC\CTC_PE_ALD\Function\Function_Scheduler\Gui_Plotter2\Source\ctl_code.c"
+"D:\1_PEALD\1_SEC\_17L\Simulation\2016.11.01_V1.1.1_Build_2_APPC\CTC_PE_ALD\Function\Function_Scheduler\Gui_Plotter2\Source\dat_code.c"
+"D:\1_PEALD\1_SEC\_17L\Simulation\2016.11.01_V1.1.1_Build_2_APPC\CTC_PE_ALD\Function\Function_Scheduler\Gui_Plotter2\Source\plt_code.c"
+"D:\1_PEALD\1_SEC\_17L\Simulation\2016.11.01_V1.1.1_Build_2_APPC\CTC_PE_ALD\Function\Function_Scheduler\Gui_Plotter2\Source\plt_parm.c"
+"D:\1_PEALD\1_SEC\_17L\Simulation\2016.11.01_V1.1.1_Build_2_APPC\CTC_PE_ALD\Function\Function_Scheduler\Gui_Plotter2\Source\prg_code.c"
+"D:\1_PEALD\1_SEC\_17L\Simulation\2016.11.01_V1.1.1_Build_2_APPC\CTC_PE_ALD\Function\Function_Scheduler\Gui_Plotter2\Source\usr_code.c"
+]
+Creating command line "cl.exe @C:\Users\gwlee\AppData\Local\Temp\RSPF81C.tmp" 
+Creating temporary file "C:\Users\gwlee\AppData\Local\Temp\RSPF81D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib cimsqcon.lib cimsqconIO.lib CimSqConKNFS.lib ws2_32.lib /nologo /subsystem:console /pdb:none /machine:I386 /out:"Gui_Plotter2.exe" /libpath:"k:\lib" /libpath:"p:\Control.PRO\LIB\NT386\nodebug" 
+.\Release\ctl_code.obj
+.\Release\dat_code.obj
+.\Release\plt_code.obj
+.\Release\plt_parm.obj
+.\Release\prg_code.obj
+.\Release\usr_code.obj
+.\Release\Sequence.res
+K:\lib\kutlAnal.lib
+K:\lib\kutlEtc.lib
+K:\lib\kutlFile.lib
+K:\lib\kutlgui.lib
+K:\lib\kutlgui2.lib
+K:\lib\kutlStr.lib
+K:\lib\kutlTime.lib
+]
+Creating command line "link.exe @C:\Users\gwlee\AppData\Local\Temp\RSPF81D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+ctl_code.c
+dat_code.c
+plt_code.c
+plt_parm.c
+prg_code.c
+usr_code.c
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Gui_Plotter2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

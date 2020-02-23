@@ -1,0 +1,6413 @@
+#------------------------------------------------------------------------------
+# FEM Alarm		4000 - 5999
+#------------------------------------------------------------------------------
+
+
+#------------------------------------------------------------------------------
+# TMC_FMROBOT_CONTROL
+#------------------------------------------------------------------------------
+
+#301
+4001 FEM.ROBOT.COMM_ERROR {
+	"FEM Robot Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#302
+4002 FEM.ROBOT.FATAL {
+	"FEM Robot has Fatal Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#303
+4003 FEM.ROBOT.NOT_HOME {
+	"FEM Robot Not Home yet"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#304
+4004 FEM.ROBOT.MOTION {
+	"FEM Robot has Motion Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#305
+4005 FEM.ROBOT.OTHER {
+	"FEM Robot has Other Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#311
+4011 FEM.ROBOT.HOME_POSITION {
+	"FEM Robot Home Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#312
+4012 FEM.ROBOT.PICK_WAFER {
+	"FEM Robot Pick Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#313
+4013 FEM.ROBOT.PLACE_WAFER {
+	"FEM Robot Place Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#314
+4014 FEM.ROBOT.ROTATE_WAFER {
+	"FEM Robot Rotate Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#315
+4015 FEM.ROBOT.EXTEND_WAFER {
+	"FEM Robot Extend Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#316
+4016 FEM.ROBOT.RETRACT_WAFER {
+	"FEM Robot Retract Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#317
+4017 FEM.ROBOT.UP_WAFER {
+	"FEM Robot Up Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#318
+4018 FEM.ROBOT.DOWN_WAFER {
+	"FEM Robot Down Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#319
+4019 FEM.ROBOT.ALIGN_WAFER {
+	"FEM Robot Align Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#320
+4020 FEM.CASS.SLIDEDCT {
+	"Cassette Sliding Detect"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+4021 FEM.ROBOT.MAP_WAFER {
+	"FEM Robot Mapping Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# TMC_FMWFRSNS_CONTROL
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+#361
+4061 FEM.WFRSNS.ABS_PIC {
+	"Wafer is Present When FM Robot try to Pick the Wafer"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#362
+4062 FEM.WFRSNS.PRS_PIC {
+	"Wafer is Absent After FM Robot try to Pick the Wafer"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#363
+4063 FEM.WFRSNS.ABS_PLC {
+	"Wafer is Present After FM Robot try to Place the Wafer"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#364
+4064 FEM.WFRSNS.PRS_PLC {
+	"Wafer is Absent When FM Robot try to Place the Wafer"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+# Robot Error Code (Update 2011.03.09 YASKAWA)
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# Warning1_Error_Code 
+#------------------------------------------------------------------------------
+4101 FEM.ROBOT.ERROR_CODE {
+	"Voltage drop warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4102 FEM.ROBOT.ERROR_CODE {
+	"Character Interval Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4103 FEM.ROBOT.ERROR_CODE {
+	"Received Data Checksum Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4104 FEM.ROBOT.ERROR_CODE {
+	"Unit Number Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4105 FEM.ROBOT.ERROR_CODE {
+	"Undefined Command Received"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4106 FEM.ROBOT.ERROR_CODE {
+	"Message Parameter Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4107 FEM.ROBOT.ERROR_CODE {
+	"Receiving Time-out Error for Confirmation of Execution Completion"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4108 FEM.ROBOT.ERROR_CODE {
+	"Sequence Number Error(Not Number)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4109 FEM.ROBOT.ERROR_CODE {
+	"Double message(Same Number)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+# Warning2_Error_Code 
+#------------------------------------------------------------------------------
+4110 FEM.ROBOT.ERROR_CODE {
+	"Secondary power off"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4111 FEM.ROBOT.ERROR_CODE {
+	"Homing not completed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4112 FEM.ROBOT.ERROR_CODE {
+	"In TEACH Mode"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4113 FEM.ROBOT.ERROR_CODE {
+	"Unit is in motion"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4114 FEM.ROBOT.ERROR_CODE {
+	"Unable to set pitch between slots"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4115 FEM.ROBOT.ERROR_CODE {
+	"Unable to restart motion"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4116 FEM.ROBOT.ERROR_CODE {
+	"Get/Put (or exchange) command was rejected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4117 FEM.ROBOT.ERROR_CODE {
+	"Wafer alignment command was rejected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4118 FEM.ROBOT.ERROR_CODE {
+	"Improper station type"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4119 FEM.ROBOT.ERROR_CODE {
+	"Requested function is not enabled"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4120 FEM.ROBOT.ERROR_CODE {
+	"Maintenance tool in use"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4121 FEM.ROBOT.ERROR_CODE {
+	"Command not supported"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4122 FEM.ROBOT.ERROR_CODE {
+	"Invalid transfer point"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4123 FEM.ROBOT.ERROR_CODE {
+	"Linear motion failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4124 FEM.ROBOT.ERROR_CODE {
+	"Unable to shunt the passive wrist axis"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4125 FEM.ROBOT.ERROR_CODE {
+	"Unable to read alignment data"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4126 FEM.ROBOT.ERROR_CODE {
+	"Unable to perform arm calibration"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4127 FEM.ROBOT.ERROR_CODE {
+	"Unable to read mapping data"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4128 FEM.ROBOT.ERROR_CODE {
+	"Data Upload/Download in progress"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4129 FEM.ROBOT.ERROR_CODE {
+	"Not in flipping position"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4130 FEM.ROBOT.ERROR_CODE {
+	"Unable to home"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4131 FEM.ROBOT.ERROR_CODE {
+	"Unable to perform exchange command"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4132 FEM.ROBOT.ERROR_CODE {
+	"Lifter interference error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4133 FEM.ROBOT.ERROR_CODE {
+	"interference check (At the time of single axis operation other than JOG operation)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4134 FEM.ROBOT.ERROR_CODE {
+	"interference check (Minimum sweep posture)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4135 FEM.ROBOT.ERROR_CODE {
+	"interference check (Transportation route passes through)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4136 FEM.ROBOT.ERROR_CODE {
+	"interference check (Minimum sweep posture)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4137 FEM.ROBOT.ERROR_CODE {
+	"Bottom slot position record incomplete"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4138 FEM.ROBOT.ERROR_CODE {
+	"Top slot position record incomplete"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4139 FEM.ROBOT.ERROR_CODE {
+	"Via position not recorded"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4140 FEM.ROBOT.ERROR_CODE {
+	"Cylinder linear path generation incomplete"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4141 FEM.ROBOT.ERROR_CODE {
+	"Invalid posture"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4142 FEM.ROBOT.ERROR_CODE {
+	"Minimum sweep posture generation error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4143 FEM.ROBOT.ERROR_CODE {
+	"Intermediate position W2 generation error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4144 FEM.ROBOT.ERROR_CODE {
+	"Intermediate position W generation error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4145 FEM.ROBOT.ERROR_CODE {
+	"Ready position generation error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4146 FEM.ROBOT.ERROR_CODE {
+	"Intermediate position S generation error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4147 FEM.ROBOT.ERROR_CODE {
+	"Teach position generation error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4148 FEM.ROBOT.ERROR_CODE {
+	"Cylinder linear position generation error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4149 FEM.ROBOT.ERROR_CODE {
+	"Teach position corrected value allowable range error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4150 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Absolute Encoder Battery Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4151 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Absolute Encoder Battery Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4152 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Absolute Encoder Battery Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4153 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Absolute Encoder Battery Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4154 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Absolute Encoder Battery Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4155 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Absolute Encoder Battery Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4156 FEM.ROBOT.ERROR_CODE {
+	"CCD sensor head power source alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4157 FEM.ROBOT.ERROR_CODE {
+	"CCD light source off error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4158 FEM.ROBOT.ERROR_CODE {
+	"CCD light source LED light intensity decent error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4159 FEM.ROBOT.ERROR_CODE {
+	"Alignment sampling error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4160 FEM.ROBOT.ERROR_CODE {
+	"Alignment sampling synchronization error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4161 FEM.ROBOT.ERROR_CODE {
+	"Alignment sampling velocity error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4162 FEM.ROBOT.ERROR_CODE {
+	"Alignment sampling data update error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4163 FEM.ROBOT.ERROR_CODE {
+	"Alignment sampling data buffer full"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4164 FEM.ROBOT.ERROR_CODE {
+	"P/A board defect"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4165 FEM.ROBOT.ERROR_CODE {
+	"P/A board initialization error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4166 FEM.ROBOT.ERROR_CODE {
+	"P/A board data capture error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4167 FEM.ROBOT.ERROR_CODE {
+	"Servo control board response timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4168 FEM.ROBOT.ERROR_CODE {
+	"Parity error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4169 FEM.ROBOT.ERROR_CODE {
+	"Framing error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4170 FEM.ROBOT.ERROR_CODE {
+	"Overrun error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4171 FEM.ROBOT.ERROR_CODE {
+	"Break detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4172 FEM.ROBOT.ERROR_CODE {
+	"Receive buffer overflow"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4173 FEM.ROBOT.ERROR_CODE {
+	"Message buffer overflow"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4174 FEM.ROBOT.ERROR_CODE {
+	"Data length exceeded the predefined fixed data length"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4175 FEM.ROBOT.ERROR_CODE {
+	"LAN device setting error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4176 FEM.ROBOT.ERROR_CODE {
+	"IP address error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4177 FEM.ROBOT.ERROR_CODE {
+	"Subnet mask error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4178 FEM.ROBOT.ERROR_CODE {
+	"Default gateway error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4179 FEM.ROBOT.ERROR_CODE {
+	"Ethernet receive error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4180 FEM.ROBOT.ERROR_CODE {
+	"Power cycling required after data uploading"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4181 FEM.ROBOT.ERROR_CODE {
+	"Internal data destruction"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4182 FEM.ROBOT.ERROR_CODE {
+	"Controllere Fan 1 Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4183 FEM.ROBOT.ERROR_CODE {
+	"Controllere Fan 2 Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4184 FEM.ROBOT.ERROR_CODE {
+	"Controllere Fan 3 Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4185 FEM.ROBOT.ERROR_CODE {
+	"Controllere Fan 4 Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4186 FEM.ROBOT.ERROR_CODE {
+	"CPS power Fan Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4187 FEM.ROBOT.ERROR_CODE {
+	"Unit fan 1 error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4188 FEM.ROBOT.ERROR_CODE {
+	"Unit fan 2 error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4189 FEM.ROBOT.ERROR_CODE {
+	"Backup SRAM battery alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4190 FEM.ROBOT.ERROR_CODE {
+	"HOST Mode Switching Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4191 FEM.ROBOT.ERROR_CODE {
+	"TEACH Mode Switching Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4192 FEM.ROBOT.ERROR_CODE {
+	"Deadman switch error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4193 FEM.ROBOT.ERROR_CODE {
+	"Axis-1 Positive (+) Direction Software-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4194 FEM.ROBOT.ERROR_CODE {
+	"Axis-2 Positive (+) Direction Software-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4195 FEM.ROBOT.ERROR_CODE {
+	"Axis-3 Positive (+) Direction Software-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4196 FEM.ROBOT.ERROR_CODE {
+	"Axis-4 Positive (+) Direction Software-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4197 FEM.ROBOT.ERROR_CODE {
+	"Axis-5 Positive (+) Direction Software-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4198 FEM.ROBOT.ERROR_CODE {
+	"Axis-6 Positive (+) Direction Software-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4199 FEM.ROBOT.ERROR_CODE {
+	"Axis-1 Negative (-) Direction Software-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4200 FEM.ROBOT.ERROR_CODE {
+	"Axis-2 Negative (-) Direction Software-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4201 FEM.ROBOT.ERROR_CODE {
+	"Axis-3 Negative (-) Direction Software-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4202 FEM.ROBOT.ERROR_CODE {
+	"Axis-4 Negative (-) Direction Software-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4203 FEM.ROBOT.ERROR_CODE {
+	"Axis-5 Negative (-) Direction Software-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4204 FEM.ROBOT.ERROR_CODE {
+	"Axis-6 Negative (-) Direction Software-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4205 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal1 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4206 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal2 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4207 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal3 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4208 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal4 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4209 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal5 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4210 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal6 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4211 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal7 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4212 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal8 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4213 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal9 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4214 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal10 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4215 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal11 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4216 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal12 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4217 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal13 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4218 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal14 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4219 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal15 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4220 FEM.ROBOT.ERROR_CODE {
+	"Access Permission Signal16 Time-out Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4221 FEM.ROBOT.ERROR_CODE {
+	"Access Permission to PA Stage Time-out Error1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4222 FEM.ROBOT.ERROR_CODE {
+	"Access Permission to PA Stage Time-out Error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4223 FEM.ROBOT.ERROR_CODE {
+	"Access Permission to PA Stage Time-out Error3"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4224 FEM.ROBOT.ERROR_CODE {
+	"P/A stage access permission timeout error4"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4225 FEM.ROBOT.ERROR_CODE {
+	"P/A stage access permission timeout error5"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4226 FEM.ROBOT.ERROR_CODE {
+	"P/A stage access permission timeout error6"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4227 FEM.ROBOT.ERROR_CODE {
+	"P/A stage access permission timeout error7"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4228 FEM.ROBOT.ERROR_CODE {
+	"P/A motion permission timeout error1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4229 FEM.ROBOT.ERROR_CODE {
+	"SS signal detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4230 FEM.ROBOT.ERROR_CODE {
+	"Fork1: Workpiece Presence Confirmation Time-out Error1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4231 FEM.ROBOT.ERROR_CODE {
+	"Fork1: Workpiece Absence Confirmation Time-out Error1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4232 FEM.ROBOT.ERROR_CODE {
+	"Fork1: Workpiece Presence Confirmation Time-out Error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4233 FEM.ROBOT.ERROR_CODE {
+	"Fork1: Workpiece Absence Confirmation Time-out Error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4234 FEM.ROBOT.ERROR_CODE {
+	"Gripping sensor ON timeout error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4235 FEM.ROBOT.ERROR_CODE {
+	"Gripping sensor OFF timeout error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4236 FEM.ROBOT.ERROR_CODE {
+	"Ungripping sensor ON timeout error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4237 FEM.ROBOT.ERROR_CODE {
+	"Ungripping sensor OFF timeout error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4238 FEM.ROBOT.ERROR_CODE {
+	"Fork2: Workpiece Presence Confirmation Time-out Error1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4239 FEM.ROBOT.ERROR_CODE {
+	"Fork2: Workpiece Absence Confirmation Time-out Error1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4240 FEM.ROBOT.ERROR_CODE {
+	"Fork2: Workpiece Presence Confirmation Time-out Error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4241 FEM.ROBOT.ERROR_CODE {
+	"Fork2: Workpiece Absence Confirmation Time-out Error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4242 FEM.ROBOT.ERROR_CODE {
+	"Lifter up sensor ON timeout error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4243 FEM.ROBOT.ERROR_CODE {
+	"Lifter up sensor OFF timeout error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4244 FEM.ROBOT.ERROR_CODE {
+	"Lifter down sensor ON timeout error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4245 FEM.ROBOT.ERROR_CODE {
+	"Lifter down sensor OFF timeout error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4246 FEM.ROBOT.ERROR_CODE {
+	"Fork1: Wafer Absence Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4247 FEM.ROBOT.ERROR_CODE {
+	"Fork1: Sensor Logic Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4248 FEM.ROBOT.ERROR_CODE {
+	"Gripping sensor status error1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4249 FEM.ROBOT.ERROR_CODE {
+	"Gripping sensor status error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4250 FEM.ROBOT.ERROR_CODE {
+	"Ungripping sensor status error1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4251 FEM.ROBOT.ERROR_CODE {
+	"Ungripping sensor status error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4252 FEM.ROBOT.ERROR_CODE {
+	"Gripping sensor logic error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4253 FEM.ROBOT.ERROR_CODE {
+	"Lifter/Gripping sensor status inconsistent"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4254 FEM.ROBOT.ERROR_CODE {
+	"Fork2: Wafer Absence Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4255 FEM.ROBOT.ERROR_CODE {
+	"Fork2: Sensor Logic Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4256 FEM.ROBOT.ERROR_CODE {
+	"Lifter up sensor status error1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4257 FEM.ROBOT.ERROR_CODE {
+	"Lifter up sensor status error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4258 FEM.ROBOT.ERROR_CODE {
+	"Lifter down sensor status error1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4259 FEM.ROBOT.ERROR_CODE {
+	"Lifter down sensor status error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4260 FEM.ROBOT.ERROR_CODE {
+	"Lifter sensor status inconsistent"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4261 FEM.ROBOT.ERROR_CODE {
+	"Axis-1 Positive (+) Direction Hardware-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4262 FEM.ROBOT.ERROR_CODE {
+	"Axis-2 Positive (+) Direction Hardware-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4263 FEM.ROBOT.ERROR_CODE {
+	"Axis-3 Positive (+) Direction Hardware-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4264 FEM.ROBOT.ERROR_CODE {
+	"Axis-4 Positive (+) Direction Hardware-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4265 FEM.ROBOT.ERROR_CODE {
+	"Axis-5 Positive (+) Direction Hardware-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4266 FEM.ROBOT.ERROR_CODE {
+	"Axis-6 Positive (+) Direction Hardware-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4267 FEM.ROBOT.ERROR_CODE {
+	"Axis-1 Negative (-) Direction Hardware-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4268 FEM.ROBOT.ERROR_CODE {
+	"Axis-2 Negative (-) Direction Hardware-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4269 FEM.ROBOT.ERROR_CODE {
+	"Axis-3 Negative (-) Direction Hardware-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4270 FEM.ROBOT.ERROR_CODE {
+	"Axis-4 Negative (-) Direction Hardware-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4271 FEM.ROBOT.ERROR_CODE {
+	"Axis-5 Negative (-) Direction Hardware-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4272 FEM.ROBOT.ERROR_CODE {
+	"Axis-6 Negative (-) Direction Hardware-limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4273 FEM.ROBOT.ERROR_CODE {
+	"Stopped by HOLD signal"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4274 FEM.ROBOT.ERROR_CODE {
+	"Pre-aligner CCD data error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4275 FEM.ROBOT.ERROR_CODE {
+	"Notch/Orientation flat position analysis error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4276 FEM.ROBOT.ERROR_CODE {
+	"Notch position detection error1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4277 FEM.ROBOT.ERROR_CODE {
+	"Notch position detection width error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4278 FEM.ROBOT.ERROR_CODE {
+	"Notch position detection error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4279 FEM.ROBOT.ERROR_CODE {
+	"Center position detection error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4280 FEM.ROBOT.ERROR_CODE {
+	"Excessive wafer eccentric amount"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4281 FEM.ROBOT.ERROR_CODE {
+	"Notch/Orientation flat detection error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4282 FEM.ROBOT.ERROR_CODE {
+	"Excessive arm correction amount"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4283 FEM.ROBOT.ERROR_CODE {
+	"Robot pre-aligner distance calculation error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4284 FEM.ROBOT.ERROR_CODE {
+	"Mapping sensor error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4285 FEM.ROBOT.ERROR_CODE {
+	"Mapping calibration error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4286 FEM.ROBOT.ERROR_CODE {
+	"Mapping calibration incomplete"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4287 FEM.ROBOT.ERROR_CODE {
+	"Mapping sampling data error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4288 FEM.ROBOT.ERROR_CODE {
+	"Protruded wafer detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4289 FEM.ROBOT.ERROR_CODE {
+	"Mapping data chattering detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4290 FEM.ROBOT.ERROR_CODE {
+	"Mapping motion failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4291 FEM.ROBOT.ERROR_CODE {
+	"NXC100 board software version inconsistent"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4292 FEM.ROBOT.ERROR_CODE {
+	"NXC100 board version inconsistent"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4293 FEM.ROBOT.ERROR_CODE {
+	"NXC100 board version inconsistent"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4294 FEM.ROBOT.ERROR_CODE {
+	"Real type common parameter set value warning1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4295 FEM.ROBOT.ERROR_CODE {
+	"Integer type common parameter set value warning1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4296 FEM.ROBOT.ERROR_CODE {
+	"Real type unit parameter set value warning1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4297 FEM.ROBOT.ERROR_CODE {
+	"Integer type unit parameter set value warning1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4298 FEM.ROBOT.ERROR_CODE {
+	"Invalid data in Format request file"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4299 FEM.ROBOT.ERROR_CODE {
+	"Invalid data in Auto update request file"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4300 FEM.ROBOT.ERROR_CODE {
+	"Servo parameter file data error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4301 FEM.ROBOT.ERROR_CODE {
+	"Invalid data in Common parameter file"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4302 FEM.ROBOT.ERROR_CODE {
+	"Invalid data in Unit parameter file"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4303 FEM.ROBOT.ERROR_CODE {
+	"Invalid data in Position data file"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4304 FEM.ROBOT.ERROR_CODE {
+	"Servo parameter automatic parameter update file data error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4305 FEM.ROBOT.ERROR_CODE {
+	"Invalid data in Common parameter auto update file"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4306 FEM.ROBOT.ERROR_CODE {
+	"Invalid data in Unit parameter auto update file"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4307 FEM.ROBOT.ERROR_CODE {
+	"The file data in the controller is abnormal 1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4308 FEM.ROBOT.ERROR_CODE {
+	"The file data in the controller is abnormal 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+# Alarm1_Error_Code 
+#------------------------------------------------------------------------------
+
+4309 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Momentary Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4310 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Continuous Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4311 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Dynamic Brake (DB) Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4312 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Surge Resistor Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4313 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Converter Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4314 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Heat-sink Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4315 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Amplifier Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4316 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Amplifier Overload (Continuously)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4317 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Amplifier Overload (Momentarily)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4318 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Positioning Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4319 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Excessive Speed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4320 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Reference Speed Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4321 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Speed Reference Input Level Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4322 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Servo On Speed Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4323 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Full close serial conversion unit Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4324 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Vibration alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4325 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Motor runaway detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4326 FEM.ROBOT.ERROR_CODE {
+	"Axis1 The phase data exceeds +/-30 in an encoder data cycle"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4327 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Phase difference detected in a serial encoder"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4328 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Ground Fault detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4329 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Linear Motor Magnetic Pole Matching Failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4330 FEM.ROBOT.ERROR_CODE {
+	"Axis1 serial encoder module failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4331 FEM.ROBOT.ERROR_CODE {
+	"Axis1 serial encoder sensor failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4332 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Absolute Encoder Clear Error, Multi-turn Limit Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4333 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Encoder Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4334 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Encoder Parameter Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4335 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Encoder Echo Back Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4336 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Multi-turn Limit Value Mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4337 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Correction Limit Over by a serial encoder"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4338 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Servo On Command Invalid alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4339 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Excessive Voltage (converter)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4340 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Insufficient Voltage (converter)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4341 FEM.ROBOT.ERROR_CODE {
+	"Axis1 AC input over voltage"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4342 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Base block transaction error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4343 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Contactor Error / Main Power Ready Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4344 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Brake circuit Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4345 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Converter ready signal Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4346 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Converter input power Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4347 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Converter main circuit charge Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4348 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Amplifier lady signal Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4349 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Converter error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4350 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Regeneration Error Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4351 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Regeneration Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4352 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Main Power Supply Connection Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4353 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Servo tracking error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4354 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Excessive Position Error Between Motor and Load"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4355 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Position Data Over Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4356 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Servo Tracking Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4357 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Power Line Open Phase"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4358 FEM.ROBOT.ERROR_CODE {
+	"Axis1 MC answer error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4359 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Motor wire disconnection alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4360 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Motor wire disconnection alarm 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4361 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Overflow Current or Heat sink Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4362 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Converter temperature Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4363 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Parameter Destroyed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4364 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Main Circuit Detecting Element Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4365 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Parameter Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4366 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Matching Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4367 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Amplifier type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4368 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Encoder type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4369 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Linear Scale Pitch Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4370 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Resolution value error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4371 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Encoder type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4372 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Absolute Encoder Back-up Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4373 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Absolute Encoder Sum Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4374 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Full close serial Encoder Sum Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4375 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Absolute Encoder Reset not completed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4376 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Absolute Encoder Data Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4377 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Absolute Encoder Excessive Speed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4378 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Absolute Encoder Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4379 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Serial encoder Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4380 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Serial Encoder Command failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4381 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Serial Encoder multi-turn range error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4382 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Full close serial Encoder Data Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4383 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Module Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4384 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Full close serial Encoder Scale Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4385 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Position deviation warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4386 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Overload Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4387 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Regeneration Overload Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4388 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Constant setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4389 FEM.ROBOT.ERROR_CODE {
+	"Axis1 External driver servo pack communication data warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4390 FEM.ROBOT.ERROR_CODE {
+	"Axis1 External driver servo pack communication error warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4391 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Under voltage Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4392 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Servo parameter error 1Main circuit power is not tuned on"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4393 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Endless Motion failedPositioning timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4394 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Servo parameter error 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4395 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Servo parameter error 3"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4396 FEM.ROBOT.ERROR_CODE {
+	"Axis1 NS600 error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4397 FEM.ROBOT.ERROR_CODE {
+	"Axis1 External servo pack communication unit is not installed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4398 FEM.ROBOT.ERROR_CODE {
+	"Axis1 External servo pack communication unit time out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4399 FEM.ROBOT.ERROR_CODE {
+	"Axis1 External servo pack communication unit WDC error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4400 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Mechatrolink Transmission Cycle Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4401 FEM.ROBOT.ERROR_CODE {
+	"Axis1 External servo pack WDT error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4402 FEM.ROBOT.ERROR_CODE {
+	"Axis1 External servo pack communication error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4403 FEM.ROBOT.ERROR_CODE {
+	"Axis1 External servo pack defect"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4404 FEM.ROBOT.ERROR_CODE {
+	"Axis1 External servo pack initial access error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4405 FEM.ROBOT.ERROR_CODE {
+	"Axis1 External servo pack WDC error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4406 FEM.ROBOT.ERROR_CODE {
+	"Axis1 External servo pack Command execution not completed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4407 FEM.ROBOT.ERROR_CODE {
+	"Axis1 A/D Command Speed Invalid"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4408 FEM.ROBOT.ERROR_CODE {
+	"Axis1 A/D Command Torque Invalid"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4409 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Current check error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4410 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Micro program transfer error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4411 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Error Gate Array"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4412 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Serial Encoder correction failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4413 FEM.ROBOT.ERROR_CODE {
+	"Axis1 System Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4414 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Network Channel Not Connected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4415 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Command reception ready timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4416 FEM.ROBOT.ERROR_CODE {
+	"Axis1 Servo control board response timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4417 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Momentary Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4418 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Continuous Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4419 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Dynamic Brake (DB) Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4420 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Surge Resistor Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4421 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Converter Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4422 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Heat-sink Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4423 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Amplifier Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4424 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Amplifier Overload (Continuously)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4425 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Amplifier Overload (Momentarily)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4426 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Positioning Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4427 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Excessive Speed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4428 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Reference Speed Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4429 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Speed Reference Input Level Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4430 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Servo On Speed Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4431 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Full close serial conversion unit Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4432 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Vibration alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4433 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Motor runaway detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4434 FEM.ROBOT.ERROR_CODE {
+	"Axis2 The phase data exceeds +/-30 in an encoder data cycle"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4435 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Phase difference detected in a serial encoder"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4436 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Ground Fault detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4437 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Linear Motor Magnetic Pole Matching Failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4438 FEM.ROBOT.ERROR_CODE {
+	"Axis2 serial encoder module failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4439 FEM.ROBOT.ERROR_CODE {
+	"Axis2 serial encoder sensor failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4440 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Absolute Encoder Clear Error, Multi-turn Limit Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4441 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Encoder Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4442 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Encoder Parameter Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4443 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Encoder Echo Back Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4444 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Multi-turn Limit Value Mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4445 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Correction Limit Over by a serial encoder"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4446 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Servo On Command Invalid alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4447 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Excessive Voltage (converter)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4448 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Insufficient Voltage (converter)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4449 FEM.ROBOT.ERROR_CODE {
+	"Axis2 AC input over voltage"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4450 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Base block transaction error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4451 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Contactor Error / Main Power Ready Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4452 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Brake circuit Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4453 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Converter ready signal Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4454 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Converter input power Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4455 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Converter main circuit charge Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4456 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Amplifier lady signal Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4457 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Converter error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4458 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Regeneration Error Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4459 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Regeneration Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4460 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Main Power Supply Connection Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4461 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Servo tracking error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4462 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Excessive Position Error Between Motor and Load"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4463 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Position Data Over Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4464 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Servo Tracking Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4465 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Power Line Open Phase"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4466 FEM.ROBOT.ERROR_CODE {
+	"Axis2 MC answer error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4467 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Motor wire disconnection alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4468 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Motor wire disconnection alarm 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4469 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Overflow Current or Heat sink Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4470 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Converter temperature Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4471 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Parameter Destroyed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4472 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Main Circuit Detecting Element Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4473 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Parameter Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4474 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Matching Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4475 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Amplifier type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4476 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Encoder type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4477 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Linear Scale Pitch Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4478 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Resolution value error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4479 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Encoder type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4480 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Absolute Encoder Back-up Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4481 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Absolute Encoder Sum Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4482 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Full close serial Encoder Sum Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4483 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Absolute Encoder Reset not completed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4484 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Absolute Encoder Data Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4485 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Absolute Encoder Excessive Speed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4486 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Absolute Encoder Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4487 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Serial encoder Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4488 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Serial Encoder Command failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4489 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Serial Encoder multi-turn range error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4490 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Full close serial Encoder Data Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4491 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Module Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4492 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Full close serial Encoder Scale Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4493 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Position deviation warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4494 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Overload Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4495 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Regeneration Overload Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4496 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Constant setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4497 FEM.ROBOT.ERROR_CODE {
+	"Axis2 External driver servo pack communication data warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4498 FEM.ROBOT.ERROR_CODE {
+	"Axis2 External driver servo pack communication error warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4499 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Under voltage Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4500 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Servo parameter error 1Main circuit power is not tuned on"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4501 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Endless Motion failedPositioning timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4502 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Servo parameter error 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4503 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Servo parameter error 3"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4504 FEM.ROBOT.ERROR_CODE {
+	"Axis2 NS600 error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4505 FEM.ROBOT.ERROR_CODE {
+	"Axis2 External servo pack communication unit is not installed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4506 FEM.ROBOT.ERROR_CODE {
+	"Axis2 External servo pack communication unit time out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4507 FEM.ROBOT.ERROR_CODE {
+	"Axis2 External servo pack communication unit WDC error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4508 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Mechatrolink Transmission Cycle Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4509 FEM.ROBOT.ERROR_CODE {
+	"Axis2 External servo pack WDT error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4510 FEM.ROBOT.ERROR_CODE {
+	"Axis2 External servo pack communication error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4511 FEM.ROBOT.ERROR_CODE {
+	"Axis2 External servo pack defect"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4512 FEM.ROBOT.ERROR_CODE {
+	"Axis2 External servo pack initial access error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4513 FEM.ROBOT.ERROR_CODE {
+	"Axis2 External servo pack WDC error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4514 FEM.ROBOT.ERROR_CODE {
+	"Axis2 External servo pack Command execution not completed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4515 FEM.ROBOT.ERROR_CODE {
+	"Axis2 A/D Command Speed Invalid"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4516 FEM.ROBOT.ERROR_CODE {
+	"Axis2 A/D Command Torque Invalid"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4517 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Current check error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4518 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Micro program transfer error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4519 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Error Gate Array"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4520 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Serial Encoder correction failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4521 FEM.ROBOT.ERROR_CODE {
+	"Axis2 System Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4522 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Network Channel Not Connected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4523 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Command reception ready timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4524 FEM.ROBOT.ERROR_CODE {
+	"Axis2 Servo control board response timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4525 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Momentary Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4526 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Continuous Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4527 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Dynamic Brake (DB) Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4528 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Surge Resistor Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4529 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Converter Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4530 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Heat-sink Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4531 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Amplifier Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4532 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Amplifier Overload (Continuously)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4533 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Amplifier Overload (Momentarily)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4534 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Positioning Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4535 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Excessive Speed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4536 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Reference Speed Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4537 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Speed Reference Input Level Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4538 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Servo On Speed Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4539 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Full close serial conversion unit Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4540 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Vibration alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4541 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Motor runaway detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4542 FEM.ROBOT.ERROR_CODE {
+	"Axis3 The phase data exceeds ?30‹in an encoder data cycle"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4543 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Phase difference detected in a serial encoder"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4544 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Ground Fault detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4545 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Linear Motor Magnetic Pole Matching Failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4546 FEM.ROBOT.ERROR_CODE {
+	"Axis3 serial encoder module failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4547 FEM.ROBOT.ERROR_CODE {
+	"Axis3 serial encoder sensor failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4548 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Absolute Encoder Clear Error, Multi-turn Limit Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4549 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Encoder Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4550 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Encoder Parameter Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4551 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Encoder Echo Back Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4552 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Multi-turn Limit Value Mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4553 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Correction Limit Over by a serial encoder"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4554 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Servo On Command Invalid alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4555 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Excessive Voltage (converter)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4556 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Insufficient Voltage (converter)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4557 FEM.ROBOT.ERROR_CODE {
+	"Axis3 AC input over voltage"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4558 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Base block transaction error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4559 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Contactor Error / Main Power Ready Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4560 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Brake circuit Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4561 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Converter ready signal Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4562 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Converter input power Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4563 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Converter main circuit charge Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4564 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Amplifier lady signal Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4565 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Converter error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4566 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Regeneration Error Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4567 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Regeneration Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4568 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Main Power Supply Connection Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4569 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Servo tracking error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4570 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Excessive Position Error Between Motor and Load"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4571 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Position Data Over Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4572 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Servo Tracking Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4573 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Power Line Open Phase"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4574 FEM.ROBOT.ERROR_CODE {
+	"Axis3 MC answer error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4575 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Motor wire disconnection alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4576 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Motor wire disconnection alarm 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4577 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Overflow Current or Heat sink Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4578 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Converter temperature Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4579 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Parameter Destroyed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4580 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Main Circuit Detecting Element Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4581 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Parameter Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4582 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Matching Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4583 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Amplifier type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4584 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Encoder type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4585 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Linear Scale Pitch Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4586 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Resolution value error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4587 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Encoder type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4588 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Absolute Encoder Back-up Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4589 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Absolute Encoder Sum Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4590 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Full close serial Encoder Sum Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4591 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Absolute Encoder Reset not completed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4592 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Absolute Encoder Data Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4593 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Absolute Encoder Excessive Speed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4594 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Absolute Encoder Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4595 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Serial encoder Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4596 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Serial Encoder Command failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4597 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Serial Encoder multi-turn range error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4598 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Full close serial Encoder Data Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4599 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Module Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4600 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Full close serial Encoder Scale Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4601 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Position deviation warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4602 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Overload Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4603 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Regeneration Overload Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4604 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Constant setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4605 FEM.ROBOT.ERROR_CODE {
+	"Axis3 External driver servo pack communication data warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4606 FEM.ROBOT.ERROR_CODE {
+	"Axis3 External driver servo pack communication error warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4607 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Under voltage Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4608 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Servo parameter error 1Main circuit power is not tuned on"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4609 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Endless Motion failedPositioning timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4610 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Servo parameter error 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4611 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Servo parameter error 3"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4612 FEM.ROBOT.ERROR_CODE {
+	"Axis3 NS600 error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4613 FEM.ROBOT.ERROR_CODE {
+	"Axis3 External servo pack communication unit is not installed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4614 FEM.ROBOT.ERROR_CODE {
+	"Axis3 External servo pack communication unit time out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4615 FEM.ROBOT.ERROR_CODE {
+	"Axis3 External servo pack communication unit WDC error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4616 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Mechatrolink Transmission Cycle Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4617 FEM.ROBOT.ERROR_CODE {
+	"Axis3 External servo pack WDT error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4618 FEM.ROBOT.ERROR_CODE {
+	"Axis3 External servo pack communication error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4619 FEM.ROBOT.ERROR_CODE {
+	"Axis3 External servo pack defect"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4620 FEM.ROBOT.ERROR_CODE {
+	"Axis3 External servo pack initial access error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4621 FEM.ROBOT.ERROR_CODE {
+	"Axis3 External servo pack WDC error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4622 FEM.ROBOT.ERROR_CODE {
+	"Axis3 External servo pack Command execution not completed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4623 FEM.ROBOT.ERROR_CODE {
+	"Axis3 A/D Command Speed Invalid"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4624 FEM.ROBOT.ERROR_CODE {
+	"Axis3 A/D Command Torque Invalid"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4625 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Current check error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4626 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Micro program transfer error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4627 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Error Gate Array"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4628 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Serial Encoder correction failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4629 FEM.ROBOT.ERROR_CODE {
+	"Axis3 System Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4630 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Network Channel Not Connected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4631 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Command reception ready timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4632 FEM.ROBOT.ERROR_CODE {
+	"Axis3 Servo control board response timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4633 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Momentary Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4634 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Continuous Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4635 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Dynamic Brake (DB) Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4636 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Surge Resistor Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4637 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Converter Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4638 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Heat-sink Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4639 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Amplifier Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4640 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Amplifier Overload (Continuously)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4641 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Amplifier Overload (Momentarily)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4642 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Positioning Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4643 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Excessive Speed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4644 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Reference Speed Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4645 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Speed Reference Input Level Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4646 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Servo On Speed Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4647 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Full close serial conversion unit Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4648 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Vibration alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4649 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Motor runaway detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4650 FEM.ROBOT.ERROR_CODE {
+	"Axis4 The phase data exceeds ?30‹in an encoder data cycle"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4651 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Phase difference detected in a serial encoder"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4652 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Ground Fault detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4653 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Linear Motor Magnetic Pole Matching Failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4654 FEM.ROBOT.ERROR_CODE {
+	"Axis4 serial encoder module failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4655 FEM.ROBOT.ERROR_CODE {
+	"Axis4 serial encoder sensor failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4656 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Absolute Encoder Clear Error, Multi-turn Limit Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4657 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Encoder Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4658 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Encoder Parameter Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4659 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Encoder Echo Back Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4660 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Multi-turn Limit Value Mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4661 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Correction Limit Over by a serial encoder"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4662 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Servo On Command Invalid alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4663 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Excessive Voltage (converter)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4664 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Insufficient Voltage (converter)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4665 FEM.ROBOT.ERROR_CODE {
+	"Axis4 AC input over voltage"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4666 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Base block transaction error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4667 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Contactor Error / Main Power Ready Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4668 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Brake circuit Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4669 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Converter ready signal Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4670 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Converter input power Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4671 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Converter main circuit charge Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4672 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Amplifier lady signal Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4673 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Converter error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4674 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Regeneration Error Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4675 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Regeneration Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4676 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Main Power Supply Connection Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4677 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Servo tracking error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4678 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Excessive Position Error Between Motor and Load"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4679 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Position Data Over Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4680 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Servo Tracking Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4681 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Power Line Open Phase"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4682 FEM.ROBOT.ERROR_CODE {
+	"Axis4 MC answer error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4683 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Motor wire disconnection alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4684 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Motor wire disconnection alarm 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4685 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Overflow Current or Heat sink Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4686 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Converter temperature Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4687 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Parameter Destroyed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4688 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Main Circuit Detecting Element Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4689 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Parameter Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4690 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Matching Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4691 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Amplifier type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4692 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Encoder type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4693 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Linear Scale Pitch Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4694 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Resolution value error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4695 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Encoder type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4696 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Absolute Encoder Back-up Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4697 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Absolute Encoder Sum Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4698 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Full close serial Encoder Sum Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4699 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Absolute Encoder Reset not completed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4700 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Absolute Encoder Data Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4701 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Absolute Encoder Excessive Speed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4702 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Absolute Encoder Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4703 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Serial encoder Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4704 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Serial Encoder Command failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4705 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Serial Encoder multi-turn range error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4706 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Full close serial Encoder Data Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4707 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Module Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4708 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Full close serial Encoder Scale Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4709 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Position deviation warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4710 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Overload Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4711 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Regeneration Overload Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4712 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Constant setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4713 FEM.ROBOT.ERROR_CODE {
+	"Axis4 External driver servo pack communication data warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4714 FEM.ROBOT.ERROR_CODE {
+	"Axis4 External driver servo pack communication error warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4715 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Under voltage Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4716 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Servo parameter error 1Main circuit power is not tuned on"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4717 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Endless Motion failedPositioning timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4718 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Servo parameter error 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4719 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Servo parameter error 3"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4720 FEM.ROBOT.ERROR_CODE {
+	"Axis4 NS600 error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4721 FEM.ROBOT.ERROR_CODE {
+	"Axis4 External servo pack communication unit is not installed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4722 FEM.ROBOT.ERROR_CODE {
+	"Axis4 External servo pack communication unit time out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4723 FEM.ROBOT.ERROR_CODE {
+	"Axis4 External servo pack communication unit WDC error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4724 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Mechatrolink Transmission Cycle Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4725 FEM.ROBOT.ERROR_CODE {
+	"Axis4 External servo pack WDT error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4726 FEM.ROBOT.ERROR_CODE {
+	"Axis4 External servo pack communication error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4727 FEM.ROBOT.ERROR_CODE {
+	"Axis4 External servo pack defect"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4728 FEM.ROBOT.ERROR_CODE {
+	"Axis4 External servo pack initial access error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4729 FEM.ROBOT.ERROR_CODE {
+	"Axis4 External servo pack WDC error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4730 FEM.ROBOT.ERROR_CODE {
+	"Axis4 External servo pack Command execution not completed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4731 FEM.ROBOT.ERROR_CODE {
+	"Axis4 A/D Command Speed Invalid"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4732 FEM.ROBOT.ERROR_CODE {
+	"Axis4 A/D Command Torque Invalid"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4733 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Current check error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4734 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Micro program transfer error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4735 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Error Gate Array"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4736 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Serial Encoder correction failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4737 FEM.ROBOT.ERROR_CODE {
+	"Axis4 System Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4738 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Network Channel Not Connected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4739 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Command reception ready timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4740 FEM.ROBOT.ERROR_CODE {
+	"Axis4 Servo control board response timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4741 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Momentary Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4742 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Continuous Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4743 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Dynamic Brake (DB) Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4744 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Surge Resistor Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4745 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Converter Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4746 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Heat-sink Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4747 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Amplifier Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4748 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Amplifier Overload (Continuously)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4749 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Amplifier Overload (Momentarily)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4750 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Positioning Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4751 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Excessive Speed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4752 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Reference Speed Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4753 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Speed Reference Input Level Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4754 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Servo On Speed Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4755 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Full close serial conversion unit Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4756 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Vibration alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4757 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Motor runaway detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4758 FEM.ROBOT.ERROR_CODE {
+	"Axis5 The phase data exceeds ?30‹in an encoder data cycle"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4759 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Phase difference detected in a serial encoder"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4760 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Ground Fault detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4761 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Linear Motor Magnetic Pole Matching Failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4762 FEM.ROBOT.ERROR_CODE {
+	"Axis5 serial encoder module failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4763 FEM.ROBOT.ERROR_CODE {
+	"Axis5 serial encoder sensor failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4764 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Absolute Encoder Clear Error, Multi-turn Limit Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4765 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Encoder Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4766 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Encoder Parameter Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4767 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Encoder Echo Back Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4768 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Multi-turn Limit Value Mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4769 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Correction Limit Over by a serial encoder"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4770 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Servo On Command Invalid alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4771 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Excessive Voltage (converter)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4772 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Insufficient Voltage (converter)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4773 FEM.ROBOT.ERROR_CODE {
+	"Axis5 AC input over voltage"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4774 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Base block transaction error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4775 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Contactor Error / Main Power Ready Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4776 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Brake circuit Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4777 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Converter ready signal Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4778 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Converter input power Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4779 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Converter main circuit charge Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4780 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Amplifier lady signal Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4781 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Converter error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4782 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Regeneration Error Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4783 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Regeneration Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4784 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Main Power Supply Connection Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4785 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Servo tracking error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4786 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Excessive Position Error Between Motor and Load"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4787 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Position Data Over Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4788 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Servo Tracking Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4789 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Power Line Open Phase"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4790 FEM.ROBOT.ERROR_CODE {
+	"Axis5 MC answer error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4791 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Motor wire disconnection alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4792 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Motor wire disconnection alarm 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4793 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Overflow Current or Heat sink Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4794 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Converter temperature Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4795 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Parameter Destroyed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4796 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Main Circuit Detecting Element Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4797 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Parameter Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4798 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Matching Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4799 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Amplifier type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4800 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Encoder type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4801 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Linear Scale Pitch Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4802 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Resolution value error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4803 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Encoder type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4804 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Absolute Encoder Back-up Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4805 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Absolute Encoder Sum Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4806 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Full close serial Encoder Sum Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4807 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Absolute Encoder Reset not completed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4808 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Absolute Encoder Data Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4809 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Absolute Encoder Excessive Speed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4810 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Absolute Encoder Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4811 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Serial encoder Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4812 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Serial Encoder Command failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4813 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Serial Encoder multi-turn range error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4814 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Full close serial Encoder Data Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4815 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Module Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4816 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Full close serial Encoder Scale Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4817 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Position deviation warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4818 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Overload Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4819 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Regeneration Overload Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4820 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Constant setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4821 FEM.ROBOT.ERROR_CODE {
+	"Axis5 External driver servo pack communication data warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4822 FEM.ROBOT.ERROR_CODE {
+	"Axis5 External driver servo pack communication error warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4823 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Under voltage Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4824 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Servo parameter error 1Main circuit power is not tuned on"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4825 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Endless Motion failedPositioning timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4826 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Servo parameter error 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4827 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Servo parameter error 3"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4828 FEM.ROBOT.ERROR_CODE {
+	"Axis5 NS600 error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4829 FEM.ROBOT.ERROR_CODE {
+	"Axis5 External servo pack communication unit is not installed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4830 FEM.ROBOT.ERROR_CODE {
+	"Axis5 External servo pack communication unit time out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4831 FEM.ROBOT.ERROR_CODE {
+	"Axis5 External servo pack communication unit WDC error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4832 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Mechatrolink Transmission Cycle Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4833 FEM.ROBOT.ERROR_CODE {
+	"Axis5 External servo pack WDT error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4834 FEM.ROBOT.ERROR_CODE {
+	"Axis5 External servo pack communication error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4835 FEM.ROBOT.ERROR_CODE {
+	"Axis5 External servo pack defect"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4836 FEM.ROBOT.ERROR_CODE {
+	"Axis5 External servo pack initial access error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4837 FEM.ROBOT.ERROR_CODE {
+	"Axis5 External servo pack WDC error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4838 FEM.ROBOT.ERROR_CODE {
+	"Axis5 External servo pack Command execution not completed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4839 FEM.ROBOT.ERROR_CODE {
+	"Axis5 A/D Command Speed Invalid"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4840 FEM.ROBOT.ERROR_CODE {
+	"Axis5 A/D Command Torque Invalid"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4841 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Current check error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4842 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Micro program transfer error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4843 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Error Gate Array"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4844 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Serial Encoder correction failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4845 FEM.ROBOT.ERROR_CODE {
+	"Axis5 System Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4846 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Network Channel Not Connected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4847 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Command reception ready timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4848 FEM.ROBOT.ERROR_CODE {
+	"Axis5 Servo control board response timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4849 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Momentary Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4850 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Continuous Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4851 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Dynamic Brake (DB) Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4852 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Surge Resistor Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4853 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Converter Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4854 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Heat-sink Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4855 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Amplifier Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4856 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Amplifier Overload (Continuously)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4857 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Amplifier Overload (Momentarily)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4858 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Positioning Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4859 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Excessive Speed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4860 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Reference Speed Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4861 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Speed Reference Input Level Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4862 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Servo On Speed Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4863 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Full close serial conversion unit Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4864 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Vibration alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4865 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Motor runaway detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4866 FEM.ROBOT.ERROR_CODE {
+	"Axis6 The phase data exceeds ?30‹in an encoder data cycle"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4867 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Phase difference detected in a serial encoder"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4868 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Ground Fault detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4869 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Linear Motor Magnetic Pole Matching Failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4870 FEM.ROBOT.ERROR_CODE {
+	"Axis6 serial encoder module failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4871 FEM.ROBOT.ERROR_CODE {
+	"Axis6 serial encoder sensor failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4872 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Absolute Encoder Clear Error, Multi-turn Limit Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4873 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Encoder Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4874 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Encoder Parameter Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4875 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Encoder Echo Back Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4876 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Multi-turn Limit Value Mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4877 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Correction Limit Over by a serial encoder"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4878 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Servo On Command Invalid alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4879 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Excessive Voltage (converter)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4880 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Insufficient Voltage (converter)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4881 FEM.ROBOT.ERROR_CODE {
+	"Axis6 AC input over voltage"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4882 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Base block transaction error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4883 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Contactor Error / Main Power Ready Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4884 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Brake circuit Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4885 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Converter ready signal Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4886 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Converter input power Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4887 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Converter main circuit charge Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4888 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Amplifier lady signal Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4889 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Converter error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4890 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Regeneration Error Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4891 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Regeneration Overload"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4892 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Main Power Supply Connection Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4893 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Servo tracking error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4894 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Excessive Position Error Between Motor and Load"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4895 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Position Data Over Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4896 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Servo Tracking Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4897 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Power Line Open Phase"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4898 FEM.ROBOT.ERROR_CODE {
+	"Axis6 MC answer error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4899 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Motor wire disconnection alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4900 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Motor wire disconnection alarm 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4901 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Overflow Current or Heat sink Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4902 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Converter temperature Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4903 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Parameter Destroyed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4904 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Main Circuit Detecting Element Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4905 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Parameter Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4906 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Matching Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4907 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Amplifier type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4908 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Encoder type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4909 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Linear Scale Pitch Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4910 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Resolution value error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4911 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Encoder type mismatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4912 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Absolute Encoder Back-up Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4913 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Absolute Encoder Sum Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4914 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Full close serial Encoder Sum Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4915 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Absolute Encoder Reset not completed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4916 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Absolute Encoder Data Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4917 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Absolute Encoder Excessive Speed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4918 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Absolute Encoder Overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4919 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Serial encoder Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4920 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Serial Encoder Command failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4921 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Serial Encoder multi-turn range error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4922 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Full close serial Encoder Data Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4923 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Module Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4924 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Full close serial Encoder Scale Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4925 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Position deviation warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4926 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Overload Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4927 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Regeneration Overload Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4928 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Constant setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4929 FEM.ROBOT.ERROR_CODE {
+	"Axis6 External driver servo pack communication data warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4930 FEM.ROBOT.ERROR_CODE {
+	"Axis6 External driver servo pack communication error warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4931 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Under voltage Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4932 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Servo parameter error 1Main circuit power is not tuned on"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4933 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Endless Motion failedPositioning timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4934 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Servo parameter error 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4935 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Servo parameter error 3"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4936 FEM.ROBOT.ERROR_CODE {
+	"Axis6 NS600 error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4937 FEM.ROBOT.ERROR_CODE {
+	"Axis6 External servo pack communication unit is not installed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4938 FEM.ROBOT.ERROR_CODE {
+	"Axis6 External servo pack communication unit time out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4939 FEM.ROBOT.ERROR_CODE {
+	"Axis6 External servo pack communication unit WDC error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4940 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Mechatrolink Transmission Cycle Setting Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4941 FEM.ROBOT.ERROR_CODE {
+	"Axis6 External servo pack WDT error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4942 FEM.ROBOT.ERROR_CODE {
+	"Axis6 External servo pack communication error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4943 FEM.ROBOT.ERROR_CODE {
+	"Axis6 External servo pack defect"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4944 FEM.ROBOT.ERROR_CODE {
+	"Axis6 External servo pack initial access error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4945 FEM.ROBOT.ERROR_CODE {
+	"Axis6 External servo pack WDC error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4946 FEM.ROBOT.ERROR_CODE {
+	"Axis6 External servo pack Command execution not completed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4947 FEM.ROBOT.ERROR_CODE {
+	"Axis6 A/D Command Speed Invalid"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4948 FEM.ROBOT.ERROR_CODE {
+	"Axis6 A/D Command Torque Invalid"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4949 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Current check error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4950 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Micro program transfer error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4951 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Error Gate Array"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4952 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Serial Encoder correction failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4953 FEM.ROBOT.ERROR_CODE {
+	"Axis6 System Alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4954 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Network Channel Not Connected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4955 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Command reception ready timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4956 FEM.ROBOT.ERROR_CODE {
+	"Axis6 Servo control board response timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4957 FEM.ROBOT.ERROR_CODE {
+	"Brake fuse broken"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4958 FEM.ROBOT.ERROR_CODE {
+	"Over run detection 1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4959 FEM.ROBOT.ERROR_CODE {
+	"Over run detection 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4960 FEM.ROBOT.ERROR_CODE {
+	"Safe circuit signal disagreement"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4961 FEM.ROBOT.ERROR_CODE {
+	"PA board Not attached"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4962 FEM.ROBOT.ERROR_CODE {
+	"P/A board initialization error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4963 FEM.ROBOT.ERROR_CODE {
+	"Undefined error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4964 FEM.ROBOT.ERROR_CODE {
+	"I/O emergency stop 1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4965 FEM.ROBOT.ERROR_CODE {
+	"T.P. emergency stop"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4966 FEM.ROBOT.ERROR_CODE {
+	"I/O emergency stop 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4967 FEM.ROBOT.ERROR_CODE {
+	"Emergency stop"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4968 FEM.ROBOT.ERROR_CODE {
+	"Extended I/O unit 1 cinnection error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4969 FEM.ROBOT.ERROR_CODE {
+	"Safety fence signal detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4970 FEM.ROBOT.ERROR_CODE {
+	"External Servo On input signal Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4971 FEM.ROBOT.ERROR_CODE {
+	"Axis1 hard limit sensor failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4972 FEM.ROBOT.ERROR_CODE {
+	"Axis2 hard limit sensor failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4973 FEM.ROBOT.ERROR_CODE {
+	"Axis3 hard limit sensor failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4974 FEM.ROBOT.ERROR_CODE {
+	"Axis4 hard limit sensor failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4975 FEM.ROBOT.ERROR_CODE {
+	"Axis5 hard limit sensor failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4976 FEM.ROBOT.ERROR_CODE {
+	"Axis6 hard limit sensor failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4977 FEM.ROBOT.ERROR_CODE {
+	"Axis-1 Speed Limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4978 FEM.ROBOT.ERROR_CODE {
+	"Axis-2 Speed Limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4979 FEM.ROBOT.ERROR_CODE {
+	"Axis-3 Speed Limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4980 FEM.ROBOT.ERROR_CODE {
+	"Axis-4 Speed Limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4981 FEM.ROBOT.ERROR_CODE {
+	"Axis-5 Speed Limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4982 FEM.ROBOT.ERROR_CODE {
+	"Axis-6 Speed Limit Detection"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4983 FEM.ROBOT.ERROR_CODE {
+	"System trap D-0"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4984 FEM.ROBOT.ERROR_CODE {
+	"System trap D-1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4985 FEM.ROBOT.ERROR_CODE {
+	"System trap D-2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4986 FEM.ROBOT.ERROR_CODE {
+	"System trap D-3"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4987 FEM.ROBOT.ERROR_CODE {
+	"System trap D-4"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4988 FEM.ROBOT.ERROR_CODE {
+	"System trap D-5"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4989 FEM.ROBOT.ERROR_CODE {
+	"System trap D-6"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4990 FEM.ROBOT.ERROR_CODE {
+	"System trap D-7"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4991 FEM.ROBOT.ERROR_CODE {
+	"System trap D-8"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4992 FEM.ROBOT.ERROR_CODE {
+	"System trap D-9"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4993 FEM.ROBOT.ERROR_CODE {
+	"System trap D-10"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4994 FEM.ROBOT.ERROR_CODE {
+	"System trap D-11"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4995 FEM.ROBOT.ERROR_CODE {
+	"System trap D-12"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4996 FEM.ROBOT.ERROR_CODE {
+	"System trap D-13"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4997 FEM.ROBOT.ERROR_CODE {
+	"System trap D-14"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+4998 FEM.ROBOT.ERROR_CODE {
+	"System trap D-15"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+# Alarm2_Error_Code 
+#------------------------------------------------------------------------------
+4999 FEM.ROBOT.ERROR_CODE {
+	"Servo control board synchronization error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5000 FEM.ROBOT.ERROR_CODE {
+	"ROM Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5001 FEM.ROBOT.ERROR_CODE {
+	"Power lost detected(CPS Power Error)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5002 FEM.ROBOT.ERROR_CODE {
+	"CERF Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5003 FEM.ROBOT.ERROR_CODE {
+	"Servo I/O communication error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5004 FEM.ROBOT.ERROR_CODE {
+	"Communication Error(Converter)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5005 FEM.ROBOT.ERROR_CODE {
+	"System error occurs in AXA board"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5006 FEM.ROBOT.ERROR_CODE {
+	"Control calculation error happened at servo control board"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5007 FEM.ROBOT.ERROR_CODE {
+	"Servo control board recognizes that external board is not installed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5008 FEM.ROBOT.ERROR_CODE {
+	"Servo control board recognizes power board type unmatch"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5009 FEM.ROBOT.ERROR_CODE {
+	"The converter type is mismatched"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5010 FEM.ROBOT.ERROR_CODE {
+	"Servo control board response timeout error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5011 FEM.ROBOT.ERROR_CODE {
+	"Converter hard Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5012 FEM.ROBOT.ERROR_CODE {
+	"Converter charge Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5013 FEM.ROBOT.ERROR_CODE {
+	"Converter A/D detection Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5014 FEM.ROBOT.ERROR_CODE {
+	"Converter ID Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5015 FEM.ROBOT.ERROR_CODE {
+	"PLD internal mutual monitor error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5016 FEM.ROBOT.ERROR_CODE {
+	"SVMX relay sticking Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5017 FEM.ROBOT.ERROR_CODE {
+	"TACTOR sticking Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5018 FEM.ROBOT.ERROR_CODE {
+	"Input comparison error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5019 FEM.ROBOT.ERROR_CODE {
+	"TUSON relay sticking Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5020 FEM.ROBOT.ERROR_CODE {
+	"B_ON relay fuse broken line"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5021 FEM.ROBOT.ERROR_CODE {
+	"Main TACTOR relay fuse broken line"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5022 FEM.ROBOT.ERROR_CODE {
+	"S_ON relay fuse broken line"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5023 FEM.ROBOT.ERROR_CODE {
+	"SON_OUT relay stuck error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5024 FEM.ROBOT.ERROR_CODE {
+	"Mutual WDT error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5025 FEM.ROBOT.ERROR_CODE {
+	"External WDT error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5026 FEM.ROBOT.ERROR_CODE {
+	"External WDT broken"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5027 FEM.ROBOT.ERROR_CODE {
+	"Serial communication toggle check error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5028 FEM.ROBOT.ERROR_CODE {
+	"Power sourse unit fan alarm"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5029 FEM.ROBOT.ERROR_CODE {
+	"Power sourse unit overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5030 FEM.ROBOT.ERROR_CODE {
+	"Invalid Axis specified"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5031 FEM.ROBOT.ERROR_CODE {
+	"DC power output shutdown warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5032 FEM.ROBOT.ERROR_CODE {
+	"Re-detection of a power Supply voltage fall"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5033 FEM.ROBOT.ERROR_CODE {
+	"CPS power overheat"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5034 FEM.ROBOT.ERROR_CODE {
+	"DI/DO 24V power supply Off error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5035 FEM.ROBOT.ERROR_CODE {
+	"External 24V power supply Off error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5036 FEM.ROBOT.ERROR_CODE {
+	"SON Relay fuse broken line Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5037 FEM.ROBOT.ERROR_CODE {
+	"Main CPU board Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5038 FEM.ROBOT.ERROR_CODE {
+	"Interference area setting error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5039 FEM.ROBOT.ERROR_CODE {
+	"An error occurred due to welding of the PBESP relay"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5040 FEM.ROBOT.ERROR_CODE {
+	"An error occurred due to welding of the PPESP relay"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5041 FEM.ROBOT.ERROR_CODE {
+	"An error occurred due to welding of the EXESP relay"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5042 FEM.ROBOT.ERROR_CODE {
+	"An error occurred due to welding of the S_ON relay"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5043 FEM.ROBOT.ERROR_CODE {
+	"Input Comparison Error occurs"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5044 FEM.ROBOT.ERROR_CODE {
+	"Safety board PLD Mutual Monitor Error occurs"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5045 FEM.ROBOT.ERROR_CODE {
+	"Safety Mutual WDT Error occurs"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5046 FEM.ROBOT.ERROR_CODE {
+	"An error occurred due to welding of the B_ON relay"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5047 FEM.ROBOT.ERROR_CODE {
+	"Dead man switch disagreement occurs"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5048 FEM.ROBOT.ERROR_CODE {
+	"External Dead man switch disagreement occurs"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5049 FEM.ROBOT.ERROR_CODE {
+	"RIF circuit External WDT circuit Error occurs"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5050 FEM.ROBOT.ERROR_CODE {
+	"Axis-1 Position error detection(when servo off)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5051 FEM.ROBOT.ERROR_CODE {
+	"Axis-2 Position error detection(when servo off)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5052 FEM.ROBOT.ERROR_CODE {
+	"Axis-3 Position error detection(when servo off)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5053 FEM.ROBOT.ERROR_CODE {
+	"Axis-4 Position error detection(when servo off)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5054 FEM.ROBOT.ERROR_CODE {
+	"Axis-5 Position error detection(when servo off)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5055 FEM.ROBOT.ERROR_CODE {
+	"Axis-6 Position error detection(when servo off)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5056 FEM.ROBOT.ERROR_CODE {
+	"System configuration error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5057 FEM.ROBOT.ERROR_CODE {
+	"Unit configuration error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5058 FEM.ROBOT.ERROR_CODE {
+	"Real type common parameter set value error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5059 FEM.ROBOT.ERROR_CODE {
+	"Integer type common parameter set value error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5060 FEM.ROBOT.ERROR_CODE {
+	"Real type unit parameter set value error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5061 FEM.ROBOT.ERROR_CODE {
+	"Integer type unit parameter set value error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5062 FEM.ROBOT.ERROR_CODE {
+	"Development Management Number Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5063 FEM.ROBOT.ERROR_CODE {
+	"Happened system log area collection error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5064 FEM.ROBOT.ERROR_CODE {
+	"Happened unit log area collection error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5065 FEM.ROBOT.ERROR_CODE {
+	"Failed to open file"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5066 FEM.ROBOT.ERROR_CODE {
+	"Failed to close file"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5067 FEM.ROBOT.ERROR_CODE {
+	"Failed to read file"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5068 FEM.ROBOT.ERROR_CODE {
+	"Failed to write file"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5069 FEM.ROBOT.ERROR_CODE {
+	"Failed to delete file"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5070 FEM.ROBOT.ERROR_CODE {
+	"Size of parameter initialize file is invalid"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5071 FEM.ROBOT.ERROR_CODE {
+	"Failed to create folder in compact flash memory"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5072 FEM.ROBOT.ERROR_CODE {
+	"Main control board initialization error0"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5073 FEM.ROBOT.ERROR_CODE {
+	"Main control board initialization error1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5074 FEM.ROBOT.ERROR_CODE {
+	"Main control board initialization error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5075 FEM.ROBOT.ERROR_CODE {
+	"Main control board initialization error4"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5076 FEM.ROBOT.ERROR_CODE {
+	"Main control board - servo control board initialization error0"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5077 FEM.ROBOT.ERROR_CODE {
+	"Main control board - servo control board initialization error1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5078 FEM.ROBOT.ERROR_CODE {
+	"Main control board - servo control board initialization error2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5079 FEM.ROBOT.ERROR_CODE {
+	"Communication LSI error0 (Main control board and servo control board)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5080 FEM.ROBOT.ERROR_CODE {
+	"Communication LSI error1 (Main control board and servo control board)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5081 FEM.ROBOT.ERROR_CODE {
+	"Communication LSI error2 (Main control board and servo control board)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5082 FEM.ROBOT.ERROR_CODE {
+	"Communication LSI error3 (Main control board and servo control board)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5083 FEM.ROBOT.ERROR_CODE {
+	"Communication LSI error4 (Main control board and servo control board)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5084 FEM.ROBOT.ERROR_CODE {
+	"Communication LSI error8 (Main control board and option I/O module)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5085 FEM.ROBOT.ERROR_CODE {
+	"Communication LSI error9 (Main control board and option I/O module)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5086 FEM.ROBOT.ERROR_CODE {
+	"Communication LSI error11 (Main control board and option I/O module)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5087 FEM.ROBOT.ERROR_CODE {
+	"Communication LSI error12 (Main control board and option I/O module)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+# FATAL_Error_Code 
+#------------------------------------------------------------------------------
+
+5088 FEM.ROBOT.ERROR_CODE {
+	"Watch dog time out error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5089 FEM.ROBOT.ERROR_CODE {
+	"CMOS memory error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5090 FEM.ROBOT.ERROR_CODE {
+	"CMOS memory initialization incomplete"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5091 FEM.ROBOT.ERROR_CODE {
+	"Kernel error 2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5092 FEM.ROBOT.ERROR_CODE {
+	"Kernel error 3"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5093 FEM.ROBOT.ERROR_CODE {
+	"Kernel error 4"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5094 FEM.ROBOT.ERROR_CODE {
+	"Kernel error 6"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5095 FEM.ROBOT.ERROR_CODE {
+	"Kernel error 8"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5096 FEM.ROBOT.ERROR_CODE {
+	"System trap 9-0"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5097 FEM.ROBOT.ERROR_CODE {
+	"System trap 9-1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5098 FEM.ROBOT.ERROR_CODE {
+	"System trap 9-2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5099 FEM.ROBOT.ERROR_CODE {
+	"System trap 9-3"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5100 FEM.ROBOT.ERROR_CODE {
+	"System trap 9-4"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5101 FEM.ROBOT.ERROR_CODE {
+	"System trap 9-5"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5102 FEM.ROBOT.ERROR_CODE {
+	"System trap 9-8"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5103 FEM.ROBOT.ERROR_CODE {
+	"System trap 9-9"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5104 FEM.ROBOT.ERROR_CODE {
+	"System trap 9-10"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5105 FEM.ROBOT.ERROR_CODE {
+	"System trap 9-11"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5106 FEM.ROBOT.ERROR_CODE {
+	"System trap 9-12"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5107 FEM.ROBOT.ERROR_CODE {
+	"System trap 9-13"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5108 FEM.ROBOT.ERROR_CODE {
+	"System trap A-0"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5109 FEM.ROBOT.ERROR_CODE {
+	"System trap A-1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5110 FEM.ROBOT.ERROR_CODE {
+	"System trap A-2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5111 FEM.ROBOT.ERROR_CODE {
+	"System trap A-3"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5112 FEM.ROBOT.ERROR_CODE {
+	"System trap A-4"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5113 FEM.ROBOT.ERROR_CODE {
+	"System trap A-8"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5114 FEM.ROBOT.ERROR_CODE {
+	"System trap A-9"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5115 FEM.ROBOT.ERROR_CODE {
+	"System trap A-10"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5116 FEM.ROBOT.ERROR_CODE {
+	"System trap A-11"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5117 FEM.ROBOT.ERROR_CODE {
+	"System trap B-0"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5118 FEM.ROBOT.ERROR_CODE {
+	"System trap B-1"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5119 FEM.ROBOT.ERROR_CODE {
+	"System trap B-8"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5120 FEM.ROBOT.ERROR_CODE {
+	"System trap B-9"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5121 FEM.ROBOT.ERROR_CODE {
+	"System trap C-0"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5122 FEM.ROBOT.ERROR_CODE {
+	"System trap C-4"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5123 FEM.ROBOT.ERROR_CODE {
+	"System trap C-5"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5124 FEM.ROBOT.ERROR_CODE {
+	"System trap C-8"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5125 FEM.ROBOT.ERROR_CODE {
+	"System trap C-12"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5126 FEM.ROBOT.ERROR_CODE {
+	"System trap E-0"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5127 FEM.ROBOT.ERROR_CODE {
+	"System trap E-2"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5128 FEM.ROBOT.ERROR_CODE {
+	"System trap E-4"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5129 FEM.ROBOT.ERROR_CODE {
+	"System trap E-6"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5130 FEM.ROBOT.ERROR_CODE {
+	"System trap E-8"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5131 FEM.ROBOT.ERROR_CODE {
+	"System trap E-10"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+5132 FEM.ROBOT.ERROR_CODE {
+	"System trap E-12"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#2008.04.28 ATM ROBOT ABNORMAL STATE ALARM
+5500 FEM.ROBOT.IO_TIMEOUT {
+	"ATM Robot IO Fail due to TimeOut"
+	ABORT		"Abort"
+}
+
+
+5501 FEM.MCUL_STATUS_ALARM {
+	"MCUL Status Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+5502 FEM.RPM1_ALARM {
+	"MCUL RPM1 Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+5503 FEM.RPM1_ALARM {
+	"MCUL RPM2 Alarm Detected"
+	CLEAR		"Clear Operation"
+}

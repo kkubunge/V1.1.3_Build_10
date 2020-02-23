@@ -1,0 +1,44 @@
+2020/1/23 9:29:28	USERCONTROL	[SYSTEM_START]
+2020/1/23 9:29:38	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/23 9:29:40	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/23 9:29:41	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/23 9:29:41	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/23 9:29:43	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/23 9:29:43	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/23 9:29:44	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2020/1/23 9:29:44	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2020/1/23 9:29:46	SETTING	[DIO] Right_Service_Leak_Nav with [2] at Page = 1(Leak Check)
+2020/1/23 9:29:46	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 2
+2020/1/23 9:29:47	SETTING	[DIO] Right_Service_Leak_Nav with [3] at Page = 2(ALD ValveLeak Check)
+2020/1/23 9:29:47	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 3
+2020/1/23 9:29:49	SETTING	[DIO] Right_Service_Leak_Nav with [2] at Page = 3(GasLine Leak Check)
+2020/1/23 9:29:49	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 2
+2020/1/23 9:29:50	SETTING	[DIO] Right_Service_Leak_Nav with [1] at Page = 2(ALD ValveLeak Check)
+2020/1/23 9:29:50	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 1
+2020/1/23 9:29:51	SETTING	[DIO] Right_Service_Leak_Nav with [2] at Page = 1(Leak Check)
+2020/1/23 9:29:51	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 2
+2020/1/23 9:29:51	SETTING	[DIO] Right_Service_Leak_Nav with [3] at Page = 2(ALD ValveLeak Check)
+2020/1/23 9:29:51	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 3
+2020/1/23 9:29:52	SETTING	[DIO] Right_Service_Leak_Nav with [2] at Page = 3(GasLine Leak Check)
+2020/1/23 9:29:52	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 2
+2020/1/23 9:29:53	SETTING	[DIO] Right_Service_Leak_Nav with [1] at Page = 2(ALD ValveLeak Check)
+2020/1/23 9:29:53	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 1
+2020/1/23 9:30:33	SETTING	[DIO] Right_Service_Leak_Nav with [2] at Page = 1(Leak Check)
+2020/1/23 9:30:33	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 2
+2020/1/23 9:48:57	SETTING	[DIO] Right_Service_Leak_Nav with [3] at Page = 2(ALD ValveLeak Check)
+2020/1/23 9:48:57	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 3
+2020/1/23 9:51:52	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/23 9:51:52	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/23 9:51:54	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/23 9:51:54	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/23 10:1:59	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/23 10:1:59	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/23 10:2:1	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/23 10:2:1	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/23 10:2:6	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 6(PM Param 1)
+2020/1/23 10:2:6	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2020/1/23 12:35:52	USERCONTROL	[SYSTEM_START]
+2020/1/23 14:23:28	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/23 14:23:29	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/23 14:23:30	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/23 14:23:30	BUTTON	[BOTTOM CLICK] Bottom_Config

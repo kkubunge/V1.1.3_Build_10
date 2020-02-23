@@ -1,0 +1,98 @@
+#
+#
+#
+# Possible Recovery Action String
+#      - CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+###################### not used ##############################
+
+2501	ChuckMotorErr	{
+	"Chuck Motor Error"
+	CLEAR		"Clear Operation"
+	}
+
+2502	ChuckAllHomeTMO	{
+	"Chuck Home All Moving Timeout"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	}
+
+2503	ChuckAllMoveTMO	{
+	"Chuck Moving All Error Timeout"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	}
+
+
+2511	Chuck1HomeTMO	{
+	"Chuck 1 Home Timeout"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	}
+
+2512	Chuck1MoveTMO	{
+	"Chuck 1 Moving Timeout"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	}
+
+2513	Chuck1PosErr	{
+	"Invalid Chuck 1 Position Error"
+	CLEAR		"Clear Operation"	
+	}
+
+2514	Chuck1PosOut	{
+	"Chuck 1 Home Sensor is Checked, Chuck Position is Not Home"
+	CLEAR		"Clear Operation"	
+	}
+
+2515	Chuck1MovIntlk	{
+	"Chuck 1 Can't Move : Chuck Home Sensor is Not Home."
+	CLEAR		"Clear Operation"	
+	}
+
+
+2521	Chuck2HomeTMO	{
+	"Chuck 2 Home Timeout"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	}
+
+2522	Chuck2MoveTMO	{
+	"Chuck 2 Moving Timeout"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	}
+
+2523	Chuck2PosErr	{
+	"Invalid Chuck 2 Position Error"
+	CLEAR		"Clear Operation"	
+	}
+
+2524	Chuck2PosOut	{
+	"Chuck 2 Home Sensor is Checked, Chuck Position is Not Home"
+	CLEAR		"Clear Operation"	
+	}
+
+2525	Chuck2MovIntlk	{
+	"Chuck 2 Can't Move : Chuck Home Sensor is Not Home."
+	CLEAR		"Clear Operation"	
+	}
+
+# 2015.03.20 Add Need Home Check for MC OFF Case
+2530	ChuckAllNeedHome {
+	"Chuck All Need Home After Motor MC Off/On Status"
+	CLEAR		"Clear Operation"	
+	}
+
+2531   ChuckFuncFail {
+	"Recipe Chuck Moving Step is Changed so many time & Short term"
+	CLEAR		"Clear Operation"	
+	}	
+	
+	

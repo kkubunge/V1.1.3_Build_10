@@ -1,0 +1,146 @@
+2018/1/22 9:33:43	USERCONTROL	[SYSTEM_START]
+2018/1/22 9:34:4	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/22 9:34:7	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/22 9:34:8	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/22 9:34:8	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/22 9:34:12	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 6(PM Param 1)
+2018/1/22 9:34:12	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7
+2018/1/22 9:34:13	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 12(PM Param 7)
+2018/1/22 9:34:13	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2018/1/22 9:34:13	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 11(PM Param 6)
+2018/1/22 9:34:13	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/1/22 9:47:17	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 10(PM Param 5)
+2018/1/22 9:47:17	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2018/1/22 9:47:18	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 8(PM Param 3)
+2018/1/22 9:47:18	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2018/1/22 9:47:18	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 9(PM Param 4)
+2018/1/22 9:47:18	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/1/22 9:47:36	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/22 9:47:40	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/22 9:47:41	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 10(PM Param 5)
+2018/1/22 9:47:41	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2018/1/22 9:47:41	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 7(PM Param 2)
+2018/1/22 9:47:41	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/1/22 9:47:41	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 10(PM Param 5)
+2018/1/22 9:47:41	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/1/22 9:47:45	SETTING	[DIO] Right_Config_Parm_Nav with [1] at Page = 10(PM Param 5)
+2018/1/22 9:47:45	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 1
+2018/1/22 9:47:57	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/1/22 9:47:57	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/1/22 9:47:58	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2018/1/22 9:47:58	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2018/1/22 9:47:59	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/22 9:47:59	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/22 9:48:0	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2018/1/22 9:48:0	BUTTON	[RIGHT CLICK] Right_System_Control
+2018/1/22 9:48:2	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/22 9:48:2	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/22 9:48:3	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 6(PM Param 1)
+2018/1/22 9:48:3	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/1/22 9:48:10	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2018/1/22 9:48:10	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2018/1/22 9:48:13	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/22 9:48:13	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/22 10:35:0	USERCONTROL	[SYSTEM_START]
+2018/1/22 10:35:28	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/22 10:35:30	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/22 10:35:32	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/22 10:35:32	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/22 10:35:33	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/22 10:35:33	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/22 10:35:35	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 6(PM Param 1)
+2018/1/22 10:35:35	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/1/22 10:57:7	USERCONTROL	[SYSTEM_START]
+2018/1/22 10:57:27	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/22 10:57:29	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/22 10:57:31	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/22 10:57:31	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/22 10:57:32	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/22 10:57:32	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/22 10:57:34	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 6(PM Param 1)
+2018/1/22 10:57:34	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/1/22 10:58:55	USERCONTROL	[SYSTEM_START]
+2018/1/22 10:59:43	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/22 10:59:45	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/22 10:59:46	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/22 10:59:46	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/22 10:59:47	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/22 10:59:47	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/22 10:59:49	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 6(PM Param 1)
+2018/1/22 10:59:49	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/1/22 11:16:29	USERCONTROL	[SYSTEM_START]
+2018/1/22 11:17:4	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/22 11:17:6	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/22 11:17:9	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/22 11:17:9	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/22 11:17:10	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/22 11:17:10	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/22 11:17:12	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 6(PM Param 1)
+2018/1/22 11:17:12	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/1/22 11:22:23	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/1/22 11:22:23	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/1/22 11:22:32	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2018/1/22 11:22:32	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2018/1/22 11:22:37	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2018/1/22 11:22:37	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2018/1/22 11:22:38	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2018/1/22 11:22:38	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2018/1/22 11:22:39	SETTING	[DIO] Right_Service_Water with [1] at Page = 0(PAGE 1)
+2018/1/22 11:22:39	BUTTON	[RIGHT CLICK] Right_Service_Water
+2018/1/22 11:22:41	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2018/1/22 11:22:41	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2018/1/22 11:22:46	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2018/1/22 11:22:46	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2018/1/22 14:27:18	USERCONTROL	[SYSTEM_START]
+2018/1/22 14:27:40	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/22 14:27:43	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/22 14:27:45	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/22 14:27:45	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/22 14:27:47	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/1/22 14:27:47	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/1/22 14:27:48	SETTING	[DIO] Right_Service_Water with [1] at Page = 0(PAGE 1)
+2018/1/22 14:27:48	BUTTON	[RIGHT CLICK] Right_Service_Water
+2018/1/22 14:27:49	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/22 14:27:49	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/22 14:27:53	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 6(PM Param 1)
+2018/1/22 14:27:53	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/1/22 14:38:35	USERCONTROL	[SYSTEM_START]
+2018/1/22 14:38:59	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/22 14:39:1	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/22 14:39:2	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/22 14:39:2	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/22 14:39:3	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/22 14:39:3	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/22 14:39:5	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 6(PM Param 1)
+2018/1/22 14:39:5	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/1/22 14:40:0	USERCONTROL	[SYSTEM_START]
+2018/1/22 14:40:20	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/22 14:40:22	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/22 14:40:24	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/22 14:40:24	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/22 14:40:25	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 6(PM Param 1)
+2018/1/22 14:40:25	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/1/22 15:52:12	USERCONTROL	[SYSTEM_START]
+2018/1/22 15:52:46	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/22 15:52:49	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/22 15:53:13	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/22 15:53:13	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/22 15:53:14	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/22 15:53:14	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/22 15:53:16	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 6(PM Param 1)
+2018/1/22 15:53:16	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/1/22 16:5:35	USERCONTROL	[SYSTEM_START]
+2018/1/22 16:5:56	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/22 16:5:59	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/22 16:6:0	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/22 16:6:0	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/22 16:6:2	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/22 16:6:2	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/1/22 16:6:3	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 6(PM Param 1)
+2018/1/22 16:6:3	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/1/22 16:10:35	SETTING	[DIO] Right_Config_Parm with [1] at Page = 0(PAGE 1)
+2018/1/22 16:10:35	BUTTON	[RIGHT CLICK] Right_Config_Parm
+2018/1/22 16:29:30	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/22 16:29:30	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/22 16:29:30	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/1/22 16:29:30	BUTTON	[BOTTOM CLICK] Bottom_Config

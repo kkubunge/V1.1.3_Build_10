@@ -1,0 +1,218 @@
+
+$$$ Digital
+
+HT01_UseDM	HT_UseEnum	Use
+HT02_UseDM	HT_UseEnum	Use
+HT03_UseDM	HT_UseEnum	Use
+HT04_UseDM	HT_UseEnum	Use
+HT05_UseDM	HT_UseEnum	Use
+HT06_UseDM	HT_UseEnum	Use
+HT07_UseDM	HT_UseEnum	Use
+HT08_UseDM	HT_UseEnum	Use
+HT09_UseDM	HT_UseEnum	Use
+HT10_UseDM	HT_UseEnum	Use
+HT11_UseDM	HT_UseEnum	Use
+HT12_UseDM	HT_UseEnum	Use
+HT13_UseDM	HT_UseEnum	Use
+HT14_UseDM	HT_UseEnum	Use
+HT15_UseDM	HT_UseEnum	Use
+HT16_UseDM	HT_UseEnum	Use
+HT17_UseDM	HT_UseEnum	Use
+HT18_UseDM	HT_UseEnum 	Use
+HT19_UseDM	HT_UseEnum	Use
+HT20_UseDM	HT_UseEnum	Use
+HT21_UseDM	HT_UseEnum	Use
+HT22_UseDM	HT_UseEnum	Use
+HT23_UseDM	HT_UseEnum	Use
+HT24_UseDM	HT_UseEnum	Use
+HT25_UseDM	HT_UseEnum	Use
+HT26_UseDM	HT_UseEnum	Use
+HT27_UseDM	HT_UseEnum	NotUse
+HT28_UseDM	HT_UseEnum	Use
+HT29_UseDM	HT_UseEnum	Use
+HT30_UseDM	HT_UseEnum	Use
+HT31_UseDM	HT_UseEnum	Use
+HT32_UseDM	HT_UseEnum	Use
+
+$$$ String
+HT01_NameSM	-	-	1	-	-	"(01) A_S/H_1_CoolFan"
+HT02_NameSM	-	-	1	-	-	"(02) A_DIPAS_Line"
+HT03_NameSM	-	-	1	-	-	"(03) A_O2_Line"
+HT04_NameSM	-	-	1	-	-	"(04) A_Block_1"
+HT05_NameSM	-	-	1	-	-	"(05) A_Block_2"
+HT06_NameSM	-	-	1	-	-	"(06) A_Block_3"
+HT07_NameSM	-	-	1	-	-	"(07) A_Sourece_Divert"
+HT08_NameSM	-	-	1	-	-	"(08) A_Canister"
+HT09_NameSM	-	-	1	-	-	"(09) A_Foreline_1"
+HT10_NameSM	-	-	1	-	-	"(10) A_Foreline_2"
+HT11_NameSM	-	-	1	-	-	"(11) A_Foreline_3"
+HT12_NameSM	-	-	1	-	-	"(12) A_ALD_Cartridge"
+HT13_NameSM	-	-	1	-	-	"(13) A_BLOCK4_Cartridge"
+HT14_NameSM	-	-	1	-	-	"(14) A_BLOCK5_Cartridge"
+HT15_NameSM	-	-	1	-	-	"(15) A_SlotVlv_Cartridge"
+HT16_NameSM	-	-	1	-	-	"(16) A_GasBox_Exhaust_1"
+HT17_NameSM	-	-	1	-	-	"(17) B_S/H_2_CoolFan"
+HT18_NameSM	-	-	1	-	-	"(18) B_DIPAS_Line"
+HT19_NameSM	-	-	1	-	-	"(19) B_O2_Line"
+HT20_NameSM	-	-	1	-	-	"(20) B_Block_1"
+HT21_NameSM	-	-	1	-	-	"(21) B_Block_2"
+HT22_NameSM	-	-	1	-	-	"(22) B_Block_3"
+HT23_NameSM	-	-	1	-	-	"(23) B_Reactant_Divert1"
+HT24_NameSM	-	-	1	-	-	"(24) B_Canister_Line"
+HT25_NameSM	-	-	1	-	-	"(25) B_Sourece_Divert"
+HT26_NameSM	-	-	1	-	-	"(26) B_Reactant_Divert2"
+HT27_NameSM	-	-	1	-	-	"(27) B_Spare"
+HT28_NameSM	-	-	1	-	-	"(28) B_ALD_Cartridge"
+HT29_NameSM	-	-	1	-	-	"(29) B_BLOCK4_Cartridge"
+HT30_NameSM	-	-	1	-	-	"(30) B_BLOCK5_Cartridge"
+HT31_NameSM	-	-	1	-	-	"(31) B_SlotVlv_Cartridge"
+HT32_NameSM	-	-	1	-	-	"(32) Canister_Monitor"
+
+$$$ Enum
+HT_MonOptEnum	Ignore	Warning	ChmDis	Abort Retry
+
+$$$ Digital
+HT01_MonOptDM	HT_MonOptEnum	Retry
+HT02_MonOptDM	HT_MonOptEnum	Retry
+HT03_MonOptDM	HT_MonOptEnum	Retry
+HT04_MonOptDM	HT_MonOptEnum	Retry
+HT05_MonOptDM	HT_MonOptEnum	Retry
+HT06_MonOptDM	HT_MonOptEnum	Retry
+HT07_MonOptDM	HT_MonOptEnum	Retry
+HT08_MonOptDM	HT_MonOptEnum	Retry
+HT09_MonOptDM	HT_MonOptEnum	Retry
+HT10_MonOptDM	HT_MonOptEnum	Retry
+HT11_MonOptDM	HT_MonOptEnum	Retry
+HT12_MonOptDM	HT_MonOptEnum	Retry
+HT13_MonOptDM	HT_MonOptEnum	Retry
+HT14_MonOptDM	HT_MonOptEnum	Retry
+HT15_MonOptDM	HT_MonOptEnum	Retry
+HT16_MonOptDM	HT_MonOptEnum	Retry
+HT17_MonOptDM	HT_MonOptEnum	Retry
+HT18_MonOptDM	HT_MonOptEnum	Retry
+HT19_MonOptDM	HT_MonOptEnum	Retry
+HT20_MonOptDM	HT_MonOptEnum	Retry
+HT21_MonOptDM	HT_MonOptEnum	Retry
+HT22_MonOptDM	HT_MonOptEnum	Retry
+HT23_MonOptDM	HT_MonOptEnum	Retry
+HT24_MonOptDM	HT_MonOptEnum	Retry
+HT25_MonOptDM	HT_MonOptEnum	Retry
+HT26_MonOptDM	HT_MonOptEnum	Retry
+HT27_MonOptDM	HT_MonOptEnum	Retry
+HT28_MonOptDM	HT_MonOptEnum	Retry
+HT29_MonOptDM	HT_MonOptEnum	Retry
+HT30_MonOptDM	HT_MonOptEnum	Retry
+HT31_MonOptDM	HT_MonOptEnum	Retry
+HT32_MonOptDM	HT_MonOptEnum	Warning
+
+#--------------------------------------------------------------------------------------------
+# 2005.04.25 by cskim
+$$$ Enum
+HT_CtrlMd2Enum	Stable	SetTemp	Unstable
+$$$ Digital
+HT01_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT02_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT03_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT04_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT05_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT06_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT07_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT08_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT09_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT10_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT11_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT12_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT13_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT14_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT15_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT16_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT17_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT18_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT19_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT20_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT21_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT22_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT23_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT24_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT25_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT26_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT27_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT28_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT29_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT30_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT31_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+HT32_CtrlMd2DM	HT_CtrlMd2Enum	Stable
+
+#--------------------------------------------------------------------------------------------
+# 2006.05.22 by ycchoi
+$$$ Enum
+HT_UPDnStsEnum	Stable	Up	Down
+$$$ Digital
+HT01_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT02_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT03_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT04_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT05_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT06_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT07_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT08_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT09_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT10_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT11_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT12_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT13_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT14_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT15_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT16_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT17_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT18_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT19_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT20_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT21_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT22_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT23_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT24_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT25_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT26_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT27_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT28_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT29_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT30_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT31_UpDnStsDM	HT_UPDnStsEnum	Stable
+HT32_UpDnStsDM	HT_UPDnStsEnum	Stable
+#--------------------------------------------------------------------------------------------
+# 2018.06.17 ghlee
+
+HT01_AutoOffDM	HT_UseEnum	NotUse
+HT02_AutoOffDM	HT_UseEnum	NotUse
+HT03_AutoOffDM	HT_UseEnum	NotUse
+HT04_AutoOffDM	HT_UseEnum	NotUse
+HT05_AutoOffDM	HT_UseEnum	NotUse
+HT06_AutoOffDM	HT_UseEnum	NotUse
+HT07_AutoOffDM	HT_UseEnum	NotUse
+HT08_AutoOffDM	HT_UseEnum	NotUse
+HT09_AutoOffDM	HT_UseEnum	NotUse
+HT10_AutoOffDM	HT_UseEnum	NotUse
+HT11_AutoOffDM	HT_UseEnum	NotUse
+HT12_AutoOffDM	HT_UseEnum	Use
+HT13_AutoOffDM	HT_UseEnum	Use
+HT14_AutoOffDM	HT_UseEnum	Use
+HT15_AutoOffDM	HT_UseEnum	NotUse
+HT16_AutoOffDM	HT_UseEnum	NotUse
+HT17_AutoOffDM	HT_UseEnum	NotUse
+HT18_AutoOffDM	HT_UseEnum 	NotUse
+HT19_AutoOffDM	HT_UseEnum	NotUse
+HT20_AutoOffDM	HT_UseEnum	NotUse
+HT21_AutoOffDM	HT_UseEnum	NotUse
+HT22_AutoOffDM	HT_UseEnum	NotUse
+HT23_AutoOffDM	HT_UseEnum	NotUse
+HT24_AutoOffDM	HT_UseEnum	NotUse
+HT25_AutoOffDM	HT_UseEnum	NotUse
+HT26_AutoOffDM	HT_UseEnum	NotUse
+HT27_AutoOffDM	HT_UseEnum	NotUse
+HT28_AutoOffDM	HT_UseEnum	Use
+HT29_AutoOffDM	HT_UseEnum	Use
+HT30_AutoOffDM	HT_UseEnum	Use
+HT31_AutoOffDM	HT_UseEnum	NotUse
+HT32_AutoOffDM	HT_UseEnum	NotUse
+

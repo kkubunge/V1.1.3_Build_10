@@ -1,0 +1,134 @@
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+//B_0001_0000000000		BITMAP		IMAGE/Button_Enable_N_Operate.bmp
+//B_0001_0000000001		BITMAP		IMAGE/Button_Press_N_Operate.bmp
+//B_0001_0000000002		BITMAP		IMAGE/Button_Disable_N_Operate.bmp
+
+B_0002_0000000000		BITMAP		IMAGE/Button_Enable_N_Config.bmp
+B_0002_0000000001		BITMAP		IMAGE/Button_Press_N_Config.bmp
+B_0002_0000000002		BITMAP		IMAGE/Button_Disable_N_Config.bmp
+
+B_0003_0000000000		BITMAP		IMAGE/Button_Enable_N_Recipe.bmp
+B_0003_0000000001		BITMAP		IMAGE/Button_Press_N_Recipe.bmp
+B_0003_0000000002		BITMAP		IMAGE/Button_Disable_N_Recipe.bmp
+
+//B_0004_0000000000		BITMAP		IMAGE/Button_Enable_N_Maint.bmp
+//B_0004_0000000001		BITMAP		IMAGE/Button_Press_N_Maint.bmp
+//B_0004_0000000002		BITMAP		IMAGE/Button_Disable_N_Maint.bmp
+
+B_0005_0000000000		BITMAP		IMAGE/Button_Enable_N_Datalog.bmp
+B_0005_0000000001		BITMAP		IMAGE/Button_Press_N_Datalog.bmp
+B_0005_0000000002		BITMAP		IMAGE/Button_Disable_N_Datalog.bmp
+
+B_0006_0000000000		BITMAP		IMAGE/Button_Enable_N_Utility.bmp
+B_0006_0000000001		BITMAP		IMAGE/Button_Press_N_Utility.bmp
+B_0006_0000000002		BITMAP		IMAGE/Button_Disable_N_Utility.bmp
+
+//B_0007_0000000000		BITMAP		IMAGE/Button_Enable_N_TMC.bmp
+//B_0007_0000000001		BITMAP		IMAGE/Button_Press_N_TMC.bmp
+//B_0007_0000000002		BITMAP		IMAGE/Button_Disable_N_TMC.bmp
+
+//B_0008_0000000000		BITMAP		IMAGE/Button_Enable_N_PM2.bmp
+//B_0008_0000000001		BITMAP		IMAGE/Button_Press_N_PM2.bmp
+//B_0008_0000000002		BITMAP		IMAGE/Button_Disable_N_PM2.bmp
+
+//B_0009_0000000000		BITMAP		IMAGE/Button_Enable_N_PM4.bmp
+//B_0009_0000000001		BITMAP		IMAGE/Button_Press_N_PM4.bmp
+//B_0009_0000000002		BITMAP		IMAGE/Button_Disable_N_PM4.bmp
+
+//B_0010_0000000000		BITMAP		IMAGE/Button_Enable_N_PM6.bmp
+//B_0010_0000000001		BITMAP		IMAGE/Button_Press_N_PM6.bmp
+//B_0010_0000000002		BITMAP		IMAGE/Button_Disable_N_PM6.bmp
+
+B_0011_0000000000		BITMAP		IMAGE/Button_Enable_N_System.bmp
+B_0011_0000000001		BITMAP		IMAGE/Button_Press_N_System.bmp
+B_0011_0000000002		BITMAP		IMAGE/Button_Disable_N_System.bmp
+
+B_0012_0000000000		BITMAP		IMAGE/Button_Enable_N_Service.bmp
+B_0012_0000000001		BITMAP		IMAGE/Button_Press_N_Service.bmp
+B_0012_0000000002		BITMAP		IMAGE/Button_Disable_N_Service.bmp
+
+//B_0013_0000000000		BITMAP		IMAGE/Button_Enable_N_Alarm.bmp
+//B_0013_0000000001		BITMAP		IMAGE/Button_Press_N_Alarm.bmp
+//B_0013_0000000002		BITMAP		IMAGE/Button_Disable_N_Alarm.bmp
+
+//B_0014_0000000000		BITMAP		IMAGE/Button_Enable_N_PM1.bmp
+//B_0014_0000000001		BITMAP		IMAGE/Button_Press_N_PM1.bmp
+//B_0014_0000000002		BITMAP		IMAGE/Button_Disable_N_PM1.bmp
+
+//B_0015_0000000000		BITMAP		IMAGE/Button_Enable_N_PM3.bmp
+//B_0015_0000000001		BITMAP		IMAGE/Button_Press_N_PM3.bmp
+//B_0015_0000000002		BITMAP		IMAGE/Button_Disable_N_PM3.bmp
+
+//B_0016_0000000000		BITMAP		IMAGE/Button_Enable_N_PM5.bmp
+//B_0016_0000000001		BITMAP		IMAGE/Button_Press_N_PM5.bmp
+//B_0016_0000000002		BITMAP		IMAGE/Button_Disable_N_PM5.bmp
+
+//B_0017_0000000000		BITMAP		IMAGE/Button_Enable_N_PM7.bmp
+//B_0017_0000000001		BITMAP		IMAGE/Button_Press_N_PM7.bmp
+//B_0017_0000000002		BITMAP		IMAGE/Button_Disable_N_PM7.bmp
+
+B_0018_0000000000       	BITMAP       	IMAGE/Button_N_blank.bmp
+B_0018_0000000000_X     	BITMAP       	IMAGE/Button_N_blank_X.bmp
+B_0018_0000000001       	BITMAP       	IMAGE/Button_Press_N_Service.bmp
+B_0018_0000000001_X     	BITMAP       	IMAGE/Button_Press_N_Service.bmp
+B_0018_0000000002       	BITMAP       	IMAGE/Button_Disable_N_Service.bmp
+B_0018_0000000002_X     	BITMAP       	IMAGE/Button_Disable_N_Service.bmp
+
+B_0019_0000000000		BITMAP		IMAGE/Button_Enable_N_ServiceTM.bmp
+B_0019_0000000001		BITMAP		IMAGE/Button_Press_N_ServiceTM.bmp
+B_0019_0000000002		BITMAP		IMAGE/Button_Disable_N_ServiceTM.bmp
+
+B_0020_0000000000		BITMAP		IMAGE/Button_Enable_N_ServicePM.bmp
+B_0020_0000000001		BITMAP		IMAGE/Button_Press_N_ServicePM.bmp
+B_0020_0000000002		BITMAP		IMAGE/Button_Disable_N_ServicePM.bmp
+
+//B_0099_0000000000		BITMAP		IMAGE/Button_Enable_N_Alarm_X.bmp
+//B_0099_0000000001		BITMAP		IMAGE/Button_Press_N_Alarm_X.bmp
+//B_0099_0000000002		BITMAP		IMAGE/Button_Disable_N_Alarm_X.bmp
+//B_0099_0000000010		BITMAP		IMAGE/Button_Enable_N_Alarm_O.bmp
+//B_0099_0000000011		BITMAP		IMAGE/Button_Press_N_Alarm_O.bmp
+//B_0099_0000000012		BITMAP		IMAGE/Button_Disable_N_Alarm_O.bmp
+
+//B_0100_0000000000		BITMAP		IMAGE/LogInOut_0.bmp
+//B_0100_0000000001		BITMAP		IMAGE/LogInOut_1.bmp
+
+//B_0101_0000000001		BITMAP		IMAGE/Ball_Yellow.bmp
+//B_0101_0000000002_1		BITMAP		IMAGE/Ball_Red.bmp
+//B_0101_0000000003		BITMAP		IMAGE/Ball_Blue.bmp
+//B_0101_0000000004_1		BITMAP		IMAGE/Ball_Gray.bmp
+
+//B_0102_0000000001_1		BITMAP		IMAGE/Ball_Red.bmp
+
+//B_0103_0000000000		BITMAP		IMAGE/Local.bmp
+//B_0103_0000000001		BITMAP		IMAGE/Remote.bmp
+
+
+//B_0200_0000000000       	BITMAP		IMAGE/Button_Enable_N_Main.bmp
+//B_0200_0000000001       	BITMAP		IMAGE/Button_Press_N_Main.bmp
+//B_0200_0000000002       	BITMAP		IMAGE/Button_Disable_N_Main.bmp
+
+B_0500_0000000000		BITMAP		IMAGE/Button_Abort_Disable.bmp
+B_0500_0000000001		BITMAP		IMAGE/Button_Abort_Enable.bmp
+B_0500_0000000002		BITMAP		IMAGE/Button_Abort_Disable.bmp
+B_0500_0000000003		BITMAP		IMAGE/Button_Abort_Enable.bmp
+B_0500_0000000004		BITMAP		IMAGE/Button_Abort_Press.bmp
+B_0500_0000000005		BITMAP		IMAGE/Button_Abort_Disable.bmp
+
+B_0501_0000000000		BITMAP		IMAGE/Button_Abort2_Disable.bmp
+B_0501_0000000001		BITMAP		IMAGE/Button_Abort2_Enable.bmp
+B_0501_0000000002		BITMAP		IMAGE/Button_Abort2_Disable.bmp
+B_0501_0000000003		BITMAP		IMAGE/Button_Abort2_Enable.bmp
+B_0501_0000000004		BITMAP		IMAGE/Button_Abort2_Disable.bmp
+B_0501_0000000005		BITMAP		IMAGE/Button_Abort2_Disable.bmp
+                      
+B_0502_0000000000		BITMAP		IMAGE/Button_PopupClose_Idle.bmp                   
+B_0502_0000000001		BITMAP		IMAGE/Button_PopupClose_Press.bmp
+
+B_0300_0000000000       	BITMAP		IMAGE/Button_Enable_N_AutoPM.bmp
+B_0300_0000000001       	BITMAP		IMAGE/Button_Press_N_AutoPM.bmp
+B_0300_0000000002       	BITMAP		IMAGE/Button_Disable_N_AutoPM.bmp

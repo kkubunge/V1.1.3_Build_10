@@ -1,0 +1,52 @@
+//=============================================================                 
+// PM.PRO_RunStsDM Stop/Running  Status Display       
+//=============================================================                 
+B_0720_0000000000       BITMAP		IMAGE/User/PM_CommSts/PMProcess_Status.bmp
+B_0720_0000000001       BITMAP		IMAGE/User/PM_CommSts/PMProcess_Status.bmp
+B_0720_0000000001_1     BITMAP		IMAGE/User/PM_CommSts/PMProcess_Status_R.bmp
+//=============================================================                 
+// CTC.MAIN_CONTROL CTC.MAIN_CONTROL2 CTC.MAIN_CONTROL3 
+// Idle/Running/Pausing/Paused/Aborting/Disable/Waiting/Wait-HandOff Status Display       
+//=============================================================                 
+B_0721_0000000000       BITMAP		IMAGE/User/PM_CommSts/CM1Process_Status.bmp
+B_0721_0000000001       BITMAP		IMAGE/User/PM_CommSts/CM1Process_Status_R.bmp
+B_0721_0000000002       BITMAP		IMAGE/User/PM_CommSts/CM1Process_Status_R.bmp
+B_0721_0000000003       BITMAP		IMAGE/User/PM_CommSts/CM1Process_Status_R.bmp
+B_0721_0000000004       BITMAP		IMAGE/User/PM_CommSts/CM1Process_Status_R.bmp
+B_0721_0000000005       BITMAP		IMAGE/User/PM_CommSts/CM1Process_Status.bmp
+B_0721_0000000006       BITMAP		IMAGE/User/PM_CommSts/CM1Process_Status_R.bmp
+B_0721_0000000007       BITMAP		IMAGE/User/PM_CommSts/CM1Process_Status.bmp
+
+B_0722_0000000000       BITMAP		IMAGE/User/PM_CommSts/CM2Process_Status.bmp
+B_0722_0000000001       BITMAP		IMAGE/User/PM_CommSts/CM2Process_Status_R.bmp
+B_0722_0000000002       BITMAP		IMAGE/User/PM_CommSts/CM2Process_Status_R.bmp
+B_0722_0000000003       BITMAP		IMAGE/User/PM_CommSts/CM2Process_Status_R.bmp
+B_0722_0000000004       BITMAP		IMAGE/User/PM_CommSts/CM2Process_Status_R.bmp
+B_0722_0000000005       BITMAP		IMAGE/User/PM_CommSts/CM2Process_Status.bmp
+B_0722_0000000006       BITMAP		IMAGE/User/PM_CommSts/CM2Process_Status_R.bmp
+B_0722_0000000007       BITMAP		IMAGE/User/PM_CommSts/CM2Process_Status.bmp
+
+B_0723_0000000000       BITMAP		IMAGE/User/PM_CommSts/CM3Process_Status.bmp
+B_0723_0000000001       BITMAP		IMAGE/User/PM_CommSts/CM3Process_Status_R.bmp
+B_0723_0000000002       BITMAP		IMAGE/User/PM_CommSts/CM3Process_Status_R.bmp
+B_0723_0000000003       BITMAP		IMAGE/User/PM_CommSts/CM3Process_Status_R.bmp
+B_0723_0000000004       BITMAP		IMAGE/User/PM_CommSts/CM3Process_Status_R.bmp
+B_0723_0000000005       BITMAP		IMAGE/User/PM_CommSts/CM3Process_Status.bmp
+B_0723_0000000006       BITMAP		IMAGE/User/PM_CommSts/CM3Process_Status_R.bmp
+B_0723_0000000007       BITMAP		IMAGE/User/PM_CommSts/CM3Process_Status.bmp
+//==================================================================
+// PM.CommStatus Standby/Maint/Disconnect/Etc.. All Status Display       
+//==================================================================
+B_0725_0000000000	BITMAP		IMAGE/User/PM_CommSts/Commst_Unuse.bmp
+B_0725_0000000001	BITMAP		IMAGE/User/PM_CommSts/Commst_Local.bmp
+B_0725_0000000002	BITMAP		IMAGE/User/PM_CommSts/Commst_DisConn.bmp
+B_0725_0000000003	BITMAP		IMAGE/User/PM_CommSts/Commst_Standby.bmp
+B_0725_0000000004	BITMAP		IMAGE/User/PM_CommSts/Commst_Maint.bmp  
+B_0725_0000000005	BITMAP		IMAGE/User/PM_CommSts/Commst_Uninit.bmp
+B_0725_0000000006	BITMAP		IMAGE/User/PM_CommSts/Commst_EnablePM.bmp
+B_0725_0000000007	BITMAP		IMAGE/User/PM_CommSts/Commst_CTCinUSE.bmp
+B_0725_0000000008	BITMAP		IMAGE/User/PM_CommSts/Commst_CTCDis.bmp  
+B_0725_0000000009	BITMAP		IMAGE/User/PM_CommSts/Commst_CTCDis2.bmp  
+B_0725_0000000010	BITMAP		IMAGE/User/PM_CommSts/Commst_CTCEnaPM.bmp
+B_0725_0000000011	BITMAP		IMAGE/User/PM_CommSts/Commst_CTCDisHW.bmp
+B_0725_0000000012	BITMAP		IMAGE/User/PM_CommSts/Commst_CTCDisHW2.bmp

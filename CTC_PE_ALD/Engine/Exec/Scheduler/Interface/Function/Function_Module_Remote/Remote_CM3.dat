@@ -1,0 +1,37 @@
+#-------------------------------------------------------------------------------
+# CM3 Part Scheduler Interface Function
+#-------------------------------------------------------------------------------
+
+CM3.HAND_OFF_IN		50	-	SUCCESS
+CM3.HAND_OFF_OUT	50	-	SUCCESS
+
+CM3.READY		50	-	SUCCESS
+CM3.END			50	-	SUCCESS
+
+CM3.CASSETTE_MAP	50	-	SUCCESS
+CM3.PREPARE_SEND	50	-	SUCCESS
+CM3.POST_SEND		50	-	SUCCESS
+CM3.PREPARE_RECV	50	-	SUCCESS
+CM3.POST_RECV		50	-	SUCCESS
+
+CM3.PREPARE_PICK	50	-	SUCCESS
+CM3.WAFER_PICK		50	-	SUCCESS
+CM3.PREPARE_PLACE	50	-	SUCCESS
+CM3.WAFER_PLACE		50	-	SUCCESS
+
+#-------------------------------------------------------------------------------
+# HandOff Extended Message
+#-------------------------------------------------------------------------------
+
+CM3.HAND_OFF_IN_ENTER	50	-	SUCCESS
+CM3.HAND_OFF_IN_LEAVE	50	-	SUCCESS
+
+CM3.HAND_OFF_OUT_ENTER	50	-	SUCCESS
+CM3.HAND_OFF_OUT_LEAVE	50	-	SUCCESS
+
+#-------------------------------------
+# Transfer Clear Function for Remote
+#-------------------------------------
+
+CM3.CLEAR		50	-	SUCCESS
+

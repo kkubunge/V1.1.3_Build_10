@@ -1,0 +1,98 @@
+#
+#
+#
+# Possible Recovery Action String
+#      - CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+###################### not used ##############################
+1300	HT300InitFail	{
+	"MLS300 Heater Initialization failed"
+	RETRY	"Clear Operation"
+	ABORT	"Abort Operation"
+	}
+
+1301	StgHtrRelayOnFail {
+	"Stage Heater Relay On Failed"
+	CLEAR	"Clear Operation"
+	}
+
+1302	GasHtrRelayOnFail {
+	"GasLine Heater Relay On Failed"
+	CLEAR	"Clear Operation"
+	}
+
+1303	ChmHtrRelayOnFail {
+	"Chamber Heater Relay On Failed"
+	CLEAR	"Clear Operation"
+	}
+
+1304	StgHtrRelayOffFail {
+	"Stage Heater Relay Off Failed"
+	CLEAR	"Clear Operation"
+	}
+
+1305	GasHtrRelayOffFail {
+	"GasLine Heater Relay Off Failed"
+	CLEAR	"Clear Operation"
+	}
+
+1306	ChmHtrRelayOffFail {
+	"Chamber Heater Relay Off Failed"
+	CLEAR	"Clear Operation"
+	}
+
+1307	SWGlobalInterlockAct {
+	"Process Module Interlock Is Activated"
+	CLEAR	"Clear Operation"
+	}
+
+1308	PLCGlobalInterlockAct {
+	"PLC Interlock Is Activated"
+	CLEAR	"Clear Operation"
+	}
+
+1309	SWModuleFailed{
+	"Module Is Failed"
+	CLEAR	"Clear Operation"
+	}
+
+1311	StgHtr2RelayOnFail {
+	"Stage Heater 2 Relay On Failed"
+	CLEAR	"Clear Operation"
+	}
+
+1312	GasHtr2RelayOnFail {
+	"GasLine Heater 2 Relay On Failed"
+	CLEAR	"Clear Operation"
+	}
+
+1313	ChmHtr2RelayOnFail {
+	"Chamber Heater 2 Relay On Failed"
+	CLEAR	"Clear Operation"
+	}
+
+1314	StgHtr2RelayOffFail {
+	"Stage Heater 2 Relay Off Failed"
+	CLEAR	"Clear Operation"
+	}
+
+1315	GasHtr2RelayOffFail {
+	"GasLine Heater 2 Relay Off Failed"
+	CLEAR	"Clear Operation"
+	}
+
+1316	ChmHtr2RelayOffFail {
+	"Chamber Heater 2 Relay Off Failed"
+	CLEAR	"Clear Operation"
+	}
+
+
+1330	RoughValveControlFail	{	
+	"Rough Valve Control Is Failed"		
+	CLEAR	"Clear Operation"
+	}		

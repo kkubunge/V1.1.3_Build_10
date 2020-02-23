@@ -1,0 +1,69 @@
+2016/8/17 13:24:45	USERCONTROL	[SYSTEM_START]
+2016/8/17 13:25:51	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2016/8/17 13:25:53	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2016/8/17 13:25:54	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/8/17 13:25:54	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/8/17 13:25:56	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2016/8/17 13:25:56	BUTTON	[RIGHT CLICK] Right_System_Control
+2016/8/17 13:25:57	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/17 13:25:57	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/17 13:25:58	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2016/8/17 13:25:58	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2016/8/17 13:26:0	SETTING	[DIO] Right_Service_Leak_Nav with [2] at Page = 1(Leak Check)
+2016/8/17 13:26:0	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 2
+2016/8/17 13:26:0	SETTING	[DIO] Right_Service_Leak_Nav with [3] at Page = 2(ALD ValveLeak Check)
+2016/8/17 13:26:0	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 3
+2016/8/17 13:26:7	SETTING	[DIO] PurgeLineLK_DM with [On(1)] at Page = 3(GasLine Leak Check)
+2016/8/17 13:26:9	SETTING	[DIO] CleanLineLK_DM with [On(1)] at Page = 3(GasLine Leak Check)
+2016/8/17 13:26:11	SETTING	[DIO] ALECHK_VLVDM with [On(1)] at Page = 3(GasLine Leak Check)
+2016/8/17 13:26:17	SETTING	[DIO] ALECHK_VLVDM with [Off(0)] at Page = 3(GasLine Leak Check)
+2016/8/17 13:26:24	SETTING	[AIO] LnLkChkBasePressAM with [0.250] at Page = 3(GasLine Leak Check)
+2016/8/17 13:26:26	SETTING	[AIO] LnLkChkLimitPressAM with [1.000] at Page = 3(GasLine Leak Check)
+2016/8/17 13:26:29	SETTING	[AIO] LnLkChkDelayTimeAM with [5.000] at Page = 3(GasLine Leak Check)
+2016/8/17 13:26:31	SETTING	[AIO] LnLkChkPumpTimeOutAM with [5.000] at Page = 3(GasLine Leak Check)
+2016/8/17 13:26:36	SETTING	[AIO] LnLkChkCountSPAM with [5.000] at Page = 3(GasLine Leak Check)
+2016/8/17 13:26:41	SETTING	[AIO] LnLkChkCountSPAM with [3.000] at Page = 3(GasLine Leak Check)
+2016/8/17 13:26:43	SETTING	[AIO] LnBaseDelayTimeAM with [5.000] at Page = 3(GasLine Leak Check)
+2016/8/17 13:26:47	FUNCTION	[START] SERV_MAIN with [GAS_CHECK] at Page = 3(GasLine Leak Check)
+2016/8/17 13:26:47	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2016/8/17 13:26:47	BUTTON	[BOTTOM CLICK] Bottom_System
+2016/8/17 13:26:49	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2016/8/17 13:26:49	BUTTON	[RIGHT CLICK] Right_System_Main
+2016/8/17 13:44:51	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2016/8/17 13:44:51	BUTTON	[RIGHT CLICK] Right_System_Control
+2016/8/17 13:44:53	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/17 13:44:53	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/17 13:44:55	FUNCTION	[START] SERV_MAIN with [GAS_CHECK] at Page = 3(GasLine Leak Check)
+2016/8/17 13:44:56	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2016/8/17 13:44:56	BUTTON	[BOTTOM CLICK] Bottom_System
+2016/8/17 13:44:57	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2016/8/17 13:44:57	BUTTON	[RIGHT CLICK] Right_System_Main
+2016/8/17 13:45:27	SETTING	[DIO] V1ValveDO with [Open(1)] at Page = 0(Main)
+2016/8/17 13:45:35	SETTING	[DIO] V1ValveDO with [Close(0)] at Page = 0(Main)
+2016/8/17 13:45:49	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/17 13:45:49	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/17 13:46:16	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2016/8/17 13:46:16	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2016/8/17 13:46:21	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/17 13:46:21	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/17 13:46:53	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/8/17 13:46:53	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/8/17 13:46:55	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2016/8/17 13:46:55	BUTTON	[RIGHT CLICK] Right_System_Control
+2016/8/17 13:46:55	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2016/8/17 13:46:55	BUTTON	[RIGHT CLICK] Right_System_Main
+2016/8/17 13:46:56	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/8/17 13:46:56	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/8/17 13:46:57	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/17 13:46:57	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/17 13:47:1	FUNCTION	[START] SERV_MAIN with [GAS_CHECK] at Page = 3(GasLine Leak Check)
+2016/8/17 13:52:49	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2016/8/17 13:52:49	BUTTON	[BOTTOM CLICK] Bottom_System
+2016/8/17 13:53:13	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2016/8/17 13:53:13	BUTTON	[RIGHT CLICK] Right_System_Control
+2016/8/17 13:53:14	POPUP	[OPEN] HF1 Parameter Monitoring at Page = 1(Control)
+2016/8/17 13:54:27	POPUP	[CLOSE] POPUP CLOSE at Page = 42(GUI/PMC/PopUp_HF1ParamMon.cfg)
+2016/8/17 17:2:22	USERCONTROL	[SYSTEM_START]
+2016/8/17 17:2:56	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2016/8/17 17:2:59	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2016/8/17 17:48:5	USERCONTROL	[SYSTEM_START]

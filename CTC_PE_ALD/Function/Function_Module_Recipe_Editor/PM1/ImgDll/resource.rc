@@ -1,0 +1,17 @@
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+TESTBIT			BITMAP		Bitmap/TestBitmap.bmp
+
+IMG001000			BITMAP       Bitmap/Nouse_H_Valve.bmp
+IMG001001			BITMAP       Bitmap/Open_H_Valve.bmp
+IMG001002			BITMAP       Bitmap/Close_H_Valve.bmp
+IMG002000			BITMAP       Bitmap/Nouse_V_Valve.bmp
+IMG002001			BITMAP       Bitmap/Open_V_Valve.bmp
+IMG002002			BITMAP       Bitmap/Close_V_Valve.bmp
+IMG003001			BITMAP       Bitmap/RF_ON.bmp
+IMG003002			BITMAP       Bitmap/RF_OFF.bmp
+IMG004001			BITMAP       Bitmap/RF2_ON.bmp 
+IMG004002			BITMAP       Bitmap/RF2_OFF.bmp

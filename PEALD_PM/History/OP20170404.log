@@ -1,0 +1,650 @@
+2017/4/4 9:0:3	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/4 9:0:3	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/4 9:0:6	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/4 9:0:6	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/4 9:0:8	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2017/4/4 9:0:8	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2017/4/4 9:0:10	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/4 9:0:10	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/4 9:0:12	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/4 9:0:12	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/4 9:0:15	SETTING	[AIO] LeakChkBasePressAM with [15.000] at Page = 1(Leak Check)
+2017/4/4 9:0:17	SETTING	[AIO] LeakChkLimitPressAM with [150.000] at Page = 1(Leak Check)
+2017/4/4 9:0:21	SETTING	[AIO] LeakChkDelayTimeAM with [30.000] at Page = 1(Leak Check)
+2017/4/4 9:0:23	SETTING	[AIO] RoRLimitAM with [5.000] at Page = 1(Leak Check)
+2017/4/4 9:0:25	SETTING	[AIO] LeakChkCountSPAM with [10.000] at Page = 1(Leak Check)
+2017/4/4 9:0:27	SETTING	[AIO] LeakChkPumpTimeOutAM with [60.000] at Page = 1(Leak Check)
+2017/4/4 9:0:29	SETTING	[AIO] BaseDelayTimeAM with [60.000] at Page = 1(Leak Check)
+2017/4/4 9:0:30	FUNCTION	[START] SERV_MAIN with [LEAK_CHECK] at Page = 1(Leak Check)
+2017/4/4 9:1:12	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2017/4/4 9:1:12	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2017/4/4 9:1:14	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 2(Main Heater)
+2017/4/4 9:1:14	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 9:1:16	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 9:1:16	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 9:1:21	SETTING	[DIO] HTREditEnableDisable with [1] at Page = 4(Heater2)
+2017/4/4 9:1:23	SETTING	[AIO] HT32_CtrlGnAIO with [35.000] at Page = 4(Heater2)
+2017/4/4 9:1:25	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 9:1:25	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 9:1:26	SETTING	[DIO] Right_Service_Htr_Nav with [1] at Page = 3(Heater1)
+2017/4/4 9:1:26	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 1
+2017/4/4 9:1:26	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 2(Main Heater)
+2017/4/4 9:1:26	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 9:1:27	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 9:1:27	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 9:1:27	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 9:1:27	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 9:29:47	SETTING	[DIO] StgHtr1RelayDO with [1] at Page = 3(Heater1)
+2017/4/4 11:1:35	USERCONTROL	[SYSTEM_START]
+2017/4/4 13:28:13	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2017/4/4 13:28:15	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2017/4/4 13:28:16	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/4 13:28:16	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/4 13:28:18	SETTING	[DIO] StgHtr1RelayDO with [1] at Page = 2(Main Heater)
+2017/4/4 13:28:19	SETTING	[DIO] StgHtr2RelayDO with [1] at Page = 2(Main Heater)
+2017/4/4 13:28:24	SETTING	[DIO] HTREditEnableDisable with [1] at Page = 2(Main Heater)
+2017/4/4 13:28:25	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 2(Main Heater)
+2017/4/4 13:28:25	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:28:27	SETTING	[DIO] HT15_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:28:28	SETTING	[DIO] HT14_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:28:28	SETTING	[DIO] HT13_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:28:29	SETTING	[DIO] HT12_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:28:29	SETTING	[DIO] HT11_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:28:29	SETTING	[DIO] HT10_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:28:30	SETTING	[DIO] HT09_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:28:30	SETTING	[DIO] HT08_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:28:31	SETTING	[DIO] HT07_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:28:31	SETTING	[DIO] HT06_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:28:31	SETTING	[DIO] HT05_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:28:32	SETTING	[DIO] HT04_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:28:32	SETTING	[DIO] HT03_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:28:33	SETTING	[DIO] HT01_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:28:33	SETTING	[DIO] HT02_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:28:36	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:28:36	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 13:28:37	SETTING	[DIO] HT31_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:28:37	SETTING	[DIO] HT30_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:28:38	SETTING	[DIO] HT29_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:28:38	SETTING	[DIO] HT28_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:28:39	SETTING	[DIO] HT26_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:28:39	SETTING	[DIO] HT25_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:28:40	SETTING	[DIO] HT24_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:28:40	SETTING	[DIO] HT23_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:28:40	SETTING	[DIO] HT22_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:28:41	SETTING	[DIO] HT21_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:28:41	SETTING	[DIO] HT20_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:28:42	SETTING	[DIO] HT19_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:28:42	SETTING	[DIO] HT18_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:28:43	SETTING	[DIO] HT17_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:28:47	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 13:28:47	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:28:48	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:28:48	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 13:28:49	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 13:28:49	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:29:1	SETTING	[DIO] HT02_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 13:29:54	SETTING	[DIO] HT02_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 13:29:57	SETTING	[DIO] HT01_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 13:30:3	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:30:3	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 13:30:5	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 13:30:5	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:30:19	SETTING	[AIO] HT01_TmpSpAIO with [10.000] at Page = 3(Heater1)
+2017/4/4 13:30:37	SETTING	[AIO] HT01_OutPwAO with [100.000] at Page = 3(Heater1)
+2017/4/4 13:30:45	SETTING	[AIO] HT01_OutPwAO with [0.000] at Page = 3(Heater1)
+2017/4/4 13:30:48	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:30:48	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 13:30:49	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 13:30:49	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:30:52	SETTING	[AIO] HT01_TmpSpAIO with [120.000] at Page = 3(Heater1)
+2017/4/4 13:31:6	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:31:6	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 13:31:9	SETTING	[DIO] HT17_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:31:12	SETTING	[AIO] HT17_TmpSpAIO with [10.000] at Page = 4(Heater2)
+2017/4/4 13:31:17	SETTING	[AIO] HT17_OutPwAO with [100.000] at Page = 4(Heater2)
+2017/4/4 13:31:32	SETTING	[AIO] HT17_OutPwAO with [0.000] at Page = 4(Heater2)
+2017/4/4 13:31:34	SETTING	[AIO] HT17_TmpSpAIO with [120.000] at Page = 4(Heater2)
+2017/4/4 13:31:36	SETTING	[DIO] HT17_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:32:9	SETTING	[DIO] HT18_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:14	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 13:32:14	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:32:19	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:32:19	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 13:32:26	SETTING	[DIO] HT19_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:28	SETTING	[DIO] HT20_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:29	SETTING	[DIO] HT21_CtrlMdDIO with [TP_Tune(2)] at Page = 4(Heater2)
+2017/4/4 13:32:31	SETTING	[DIO] HT21_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:32	SETTING	[DIO] HT22_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:34	SETTING	[DIO] HT22_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:35	SETTING	[DIO] HT23_CtrlMdDIO with [TP_Tune(2)] at Page = 4(Heater2)
+2017/4/4 13:32:36	SETTING	[DIO] HT23_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:37	SETTING	[DIO] HT24_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:39	SETTING	[DIO] HT25_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:40	SETTING	[DIO] HT26_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:41	SETTING	[DIO] HT28_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:43	SETTING	[DIO] HT29_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:44	SETTING	[DIO] HT30_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:46	SETTING	[DIO] HT31_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:47	SETTING	[DIO] HT32_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:51	SETTING	[DIO] HT17_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:32:54	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 13:32:54	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:32:54	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:32:54	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 13:32:58	SETTING	[DIO] HT32_CtrlMdDIO with [TP_Auto(1)] at Page = 4(Heater2)
+2017/4/4 13:33:1	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 13:33:1	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:33:3	SETTING	[DIO] HT16_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:33:5	SETTING	[DIO] HT15_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:33:6	SETTING	[DIO] HT14_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:33:7	SETTING	[DIO] HT13_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:33:9	SETTING	[DIO] HT12_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:33:13	SETTING	[DIO] HT11_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:33:15	SETTING	[DIO] HT10_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:33:16	SETTING	[DIO] HT09_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:33:18	SETTING	[DIO] HT08_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:33:20	SETTING	[DIO] HT07_CtrlMdDIO with [DZC_Man(3)] at Page = 3(Heater1)
+2017/4/4 13:33:29	SETTING	[DIO] HT07_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:33:32	SETTING	[DIO] HT06_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:33:33	SETTING	[DIO] HT05_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:33:35	SETTING	[DIO] HT04_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:33:36	SETTING	[DIO] HT03_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:33:37	SETTING	[DIO] HT02_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:33:40	SETTING	[DIO] HT01_CtrlMdDIO with [TP_Auto(1)] at Page = 3(Heater1)
+2017/4/4 13:34:0	SETTING	[AIO] HT02_OutPwAO with [100.000] at Page = 3(Heater1)
+2017/4/4 13:34:4	SETTING	[DIO] HT02_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 13:34:14	SETTING	[AIO] HT02_OutPwAO with [0.000] at Page = 3(Heater1)
+2017/4/4 13:37:46	SETTING	[DIO] HT01_CtrlMdDIO with [OnOFF_A(7)] at Page = 3(Heater1)
+2017/4/4 13:38:37	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:38:37	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 13:38:41	SETTING	[DIO] HT17_CtrlMdDIO with [OnOFF_A(7)] at Page = 4(Heater2)
+2017/4/4 13:38:44	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 13:38:44	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:38:47	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:38:47	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 13:38:50	SETTING	[DIO] HT17_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:38:51	SETTING	[DIO] HT18_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:38:52	SETTING	[DIO] HT19_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:38:53	SETTING	[DIO] HT20_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:38:53	SETTING	[DIO] HT21_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:38:54	SETTING	[DIO] HT22_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:38:55	SETTING	[DIO] HT23_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:38:55	SETTING	[DIO] HT24_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:38:56	SETTING	[DIO] HT25_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:38:56	SETTING	[DIO] HT26_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:38:58	SETTING	[DIO] HT28_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:38:58	SETTING	[DIO] HT29_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:38:59	SETTING	[DIO] HT30_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:39:0	SETTING	[DIO] HT31_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:39:6	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 13:39:6	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:39:31	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:39:31	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 13:39:32	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 13:39:32	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:39:32	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:39:32	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 13:39:33	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 13:39:33	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:39:35	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:39:35	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 13:39:44	SETTING	[DIO] HT18_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:39:45	SETTING	[DIO] HT19_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:39:46	SETTING	[DIO] HT20_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:39:46	SETTING	[DIO] HT21_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:39:47	SETTING	[DIO] HT22_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:39:48	SETTING	[DIO] HT23_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:39:48	SETTING	[DIO] HT24_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:39:49	SETTING	[DIO] HT25_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:39:49	SETTING	[DIO] HT26_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:39:50	SETTING	[DIO] HT28_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:39:51	SETTING	[DIO] HT29_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:39:51	SETTING	[DIO] HT30_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:39:52	SETTING	[DIO] HT31_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 13:39:58	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 13:39:58	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:40:6	SETTING	[DIO] HT03_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 13:40:39	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/4 13:40:39	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/4 13:40:42	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2017/4/4 13:40:54	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/4 13:40:54	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/4 13:40:55	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/4 13:40:55	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/4 13:46:28	SETTING	[DIO] HT04_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 13:47:12	SETTING	[DIO] HT02_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:47:14	SETTING	[DIO] HT03_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:47:16	SETTING	[DIO] HT04_CtrlMdDIO with [DZC_Man(3)] at Page = 3(Heater1)
+2017/4/4 13:47:17	SETTING	[DIO] HT04_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:47:20	SETTING	[DIO] HT05_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:47:22	SETTING	[DIO] HT06_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:47:23	SETTING	[DIO] HT06_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:47:26	SETTING	[DIO] HT07_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:47:28	SETTING	[DIO] HT08_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:47:30	SETTING	[DIO] HT09_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:47:32	SETTING	[DIO] HT10_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:47:33	SETTING	[DIO] HT11_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:47:35	SETTING	[DIO] HT12_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:47:37	SETTING	[DIO] HT13_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:47:38	SETTING	[DIO] HT14_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:47:40	SETTING	[DIO] HT15_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:47:41	SETTING	[DIO] HT16_CtrlMdDIO with [DZC_Auto(4)] at Page = 3(Heater1)
+2017/4/4 13:48:47	SETTING	[DIO] HT05_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 13:53:27	SETTING	[DIO] HT06_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 13:56:59	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:56:59	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 13:57:9	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 13:57:9	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:57:11	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:57:11	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 13:57:17	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 13:57:17	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:57:19	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:57:19	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 13:57:25	SETTING	[DIO] HT31_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 13:57:29	SETTING	[DIO] HT31_CtrlMdDIO with [DZC_Auto(4)] at Page = 4(Heater2)
+2017/4/4 13:57:48	SETTING	[DIO] HT30_CtrlMdDIO with [DZC_Auto(4)] at Page = 4(Heater2)
+2017/4/4 13:57:50	SETTING	[DIO] HT29_CtrlMdDIO with [DZC_Auto(4)] at Page = 4(Heater2)
+2017/4/4 13:57:52	SETTING	[DIO] HT28_CtrlMdDIO with [DZC_Auto(4)] at Page = 4(Heater2)
+2017/4/4 13:58:0	SETTING	[DIO] HT26_CtrlMdDIO with [DZC_Auto(4)] at Page = 4(Heater2)
+2017/4/4 13:58:13	SETTING	[DIO] HT25_CtrlMdDIO with [DZC_Auto(4)] at Page = 4(Heater2)
+2017/4/4 13:58:15	SETTING	[DIO] HT24_CtrlMdDIO with [DZC_Auto(4)] at Page = 4(Heater2)
+2017/4/4 13:58:17	SETTING	[DIO] HT23_CtrlMdDIO with [DZC_Auto(4)] at Page = 4(Heater2)
+2017/4/4 13:58:19	SETTING	[DIO] HT22_CtrlMdDIO with [DZC_Auto(4)] at Page = 4(Heater2)
+2017/4/4 13:58:21	SETTING	[DIO] HT21_CtrlMdDIO with [DZC_Auto(4)] at Page = 4(Heater2)
+2017/4/4 13:58:25	SETTING	[DIO] HT20_CtrlMdDIO with [DZC_Auto(4)] at Page = 4(Heater2)
+2017/4/4 13:58:27	SETTING	[DIO] HT19_CtrlMdDIO with [DZC_Auto(4)] at Page = 4(Heater2)
+2017/4/4 13:58:29	SETTING	[DIO] HT18_CtrlMdDIO with [DZC_Auto(4)] at Page = 4(Heater2)
+2017/4/4 13:58:33	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 13:58:33	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 13:59:58	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 13:59:58	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:1:50	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:1:50	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:2:0	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:2:0	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:2:1	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:2:1	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:2:6	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:2:6	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:2:6	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:2:6	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:2:15	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:2:15	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:2:21	SETTING	[DIO] HT31_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 14:2:25	SETTING	[DIO] HT31_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 14:2:44	SETTING	[DIO] HT31_CtrlMdDIO with [DZC_Auto(4)] at Page = 4(Heater2)
+2017/4/4 14:2:51	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:2:51	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:2:57	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:2:57	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:3:15	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:3:15	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:4:17	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:4:17	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:4:31	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:4:31	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:5:21	SETTING	[DIO] HT07_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 14:6:6	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:6:6	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:6:12	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:6:12	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:7:45	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:7:45	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:7:52	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:7:52	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:7:59	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:7:59	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:8:3	SETTING	[DIO] HT30_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 14:8:39	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:8:39	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:10:44	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:10:44	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:10:56	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:10:56	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:10:57	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:10:57	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:11:22	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:11:22	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:11:44	SETTING	[DIO] HT08_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 14:11:47	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:11:47	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:11:55	SETTING	[DIO] HT29_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 14:12:9	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:12:9	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:13:49	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:13:49	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:13:56	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:13:56	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:16:21	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:16:21	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:16:26	SETTING	[DIO] HT28_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 14:16:31	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:16:31	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:17:11	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:17:11	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:17:17	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:17:17	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:17:17	SETTING	[DIO] Right_Service_Htr_Nav with [1] at Page = 3(Heater1)
+2017/4/4 14:17:17	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 1
+2017/4/4 14:17:21	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 2(Main Heater)
+2017/4/4 14:17:21	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:17:23	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/4 14:17:23	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/4 14:17:41	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2017/4/4 14:17:41	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2017/4/4 14:17:43	SETTING	[DIO] Right_Recipe_PrcRcp with [1] at Page = 0(PAGE 1)
+2017/4/4 14:17:43	BUTTON	[RIGHT CLICK] Right_Recipe_PrcRcp
+2017/4/4 14:17:44	SETTING	[DIO] Right_Recipe_PrcRcp with [1] at Page = 0(PAGE 1)
+2017/4/4 14:17:44	BUTTON	[RIGHT CLICK] Right_Recipe_PrcRcp
+2017/4/4 14:17:46	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/4 14:17:46	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/4 14:17:48	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2017/4/4 14:17:48	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2017/4/4 14:17:50	SETTING	[DIO] Right_Recipe_PrcRcp with [1] at Page = 0(PAGE 1)
+2017/4/4 14:17:50	BUTTON	[RIGHT CLICK] Right_Recipe_PrcRcp
+2017/4/4 14:17:51	SETTING	[DIO] Right_Recipe_PrcRcp with [1] at Page = 0(PAGE 1)
+2017/4/4 14:17:51	BUTTON	[RIGHT CLICK] Right_Recipe_PrcRcp
+2017/4/4 14:17:51	SETTING	[DIO] Right_Recipe_PrcRcp with [1] at Page = 0(PAGE 1)
+2017/4/4 14:17:51	BUTTON	[RIGHT CLICK] Right_Recipe_PrcRcp
+2017/4/4 14:17:51	SETTING	[DIO] Right_Recipe_PrcRcp with [1] at Page = 0(PAGE 1)
+2017/4/4 14:17:51	BUTTON	[RIGHT CLICK] Right_Recipe_PrcRcp
+2017/4/4 14:17:59	SETTING	[DIO] Right_Recipe_PrcRcp with [1] at Page = 0(PAGE 1)
+2017/4/4 14:17:59	BUTTON	[RIGHT CLICK] Right_Recipe_PrcRcp
+2017/4/4 14:18:11	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/4 14:18:11	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/4 14:18:14	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:18:14	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:18:20	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:18:20	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:19:34	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:19:34	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:19:58	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:19:58	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:20:6	SETTING	[DIO] HT09_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 14:20:29	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:20:29	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:21:6	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:21:6	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:22:19	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:22:19	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:22:36	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:22:36	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:22:57	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:22:57	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:23:13	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:23:13	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:23:44	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:23:44	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:25:3	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:25:3	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:26:29	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:26:29	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:26:48	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:26:48	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:29:10	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:29:10	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:31:36	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:31:36	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:31:40	SETTING	[DIO] HT10_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 14:33:50	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:33:50	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:34:2	SETTING	[DIO] HT26_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 14:34:56	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:34:56	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:35:5	SETTING	[DIO] HT15_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 14:35:14	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:35:14	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:37:22	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:37:22	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:37:27	SETTING	[DIO] HT11_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 14:41:54	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:41:54	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:42:0	SETTING	[DIO] HT25_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 14:42:14	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:42:14	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:42:18	SETTING	[DIO] HT14_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 14:42:19	SETTING	[DIO] HT13_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 14:42:51	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:42:51	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:44:33	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:44:33	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:44:54	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:44:54	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:45:5	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:45:5	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:45:12	SETTING	[DIO] HT12_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 14:45:22	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:45:22	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:45:34	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:45:34	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:45:42	SETTING	[DIO] HT16_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 14:46:16	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:46:16	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:50:3	SETTING	[DIO] HT24_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 14:50:8	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:50:8	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:50:28	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:50:28	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:50:31	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:50:31	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:50:37	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:50:37	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:51:51	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:51:51	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:52:40	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:52:40	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:54:55	SETTING	[DIO] HT23_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 14:55:8	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:55:8	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:55:46	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:55:46	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:57:52	SETTING	[DIO] HT22_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 14:57:57	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2017/4/4 14:57:57	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2017/4/4 14:57:57	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/4 14:57:57	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/4 14:57:58	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 14:57:58	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 14:58:10	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 14:58:10	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 14:58:55	SETTING	[DIO] HT21_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 15:0:48	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:0:48	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:1:13	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:1:13	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:1:50	SETTING	[DIO] HT20_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 15:3:52	SETTING	[DIO] HT19_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 15:4:3	SETTING	[DIO] HT18_OnOffDIO with [On(1)] at Page = 4(Heater2)
+2017/4/4 15:4:11	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:4:11	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:4:21	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:4:21	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:4:29	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:4:29	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:4:33	SETTING	[DIO] HT16_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 15:4:36	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:4:36	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:5:56	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:5:56	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:6:5	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:6:5	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:6:9	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:6:9	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:6:10	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:6:10	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:6:12	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:6:12	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:6:12	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:6:12	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:6:14	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:6:14	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:7:44	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:7:44	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:8:3	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:8:3	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:9:16	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:9:16	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:9:23	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:9:23	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:9:24	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:9:24	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:9:25	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:9:25	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:9:25	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:9:25	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:9:26	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:9:26	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:9:26	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:9:26	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:9:30	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:9:30	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:12:14	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:12:14	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:12:18	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:12:18	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:13:9	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:13:9	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:14:5	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:14:5	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:14:15	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:14:15	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:14:17	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:14:17	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:14:17	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:14:17	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:14:19	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:14:19	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:14:51	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/4 15:14:51	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/4 15:14:56	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2017/4/4 15:14:56	BUTTON	[RIGHT CLICK] Right_System_Control
+2017/4/4 15:14:58	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2017/4/4 15:14:58	BUTTON	[RIGHT CLICK] Right_System_Main
+2017/4/4 15:15:1	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/4 15:15:1	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/4 15:18:23	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:18:23	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:18:41	SETTING	[DIO] Bottom_Utility with [1] at Page = 0(PAGE 1)
+2017/4/4 15:18:41	BUTTON	[BOTTOM CLICK] Bottom_Utility
+2017/4/4 15:18:42	SETTING	[DIO] Right_Utility_AlarmHis with [1] at Page = 0(PAGE 1)
+2017/4/4 15:18:42	BUTTON	[RIGHT CLICK] Right_Utility_AlarmHis
+2017/4/4 15:19:9	ALARMHISTORY	[OPEN] Delete Popup Screen
+2017/4/4 15:19:11	ALARMHISTORY	[CLOSE] Delete Popup Screen
+2017/4/4 15:19:13	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/4 15:19:13	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/4 15:19:18	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/4 15:19:18	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/4 15:22:9	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:22:9	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:22:11	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:22:11	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:25:59	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:25:59	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:34:11	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:34:11	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:34:12	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:34:12	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 15:34:13	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 15:34:13	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 15:34:13	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 15:34:13	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 16:36:41	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 16:36:41	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 16:36:44	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 16:36:44	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 16:36:46	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/4 16:36:46	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/4 16:36:49	SETTING	[AIO] M651_Set_Position with [100.000] at Page = 0(Main)
+2017/4/4 16:43:13	SETTING	[DIO] V1ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/4 16:43:14	SETTING	[DIO] V2ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/4 16:43:15	SETTING	[DIO] V22ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/4 16:43:15	SETTING	[DIO] V101ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/4 16:43:18	SETTING	[AIO] MFC01StPtAO with [2000.000] at Page = 0(Main)
+2017/4/4 16:45:10	SETTING	[AIO] M651_Set_Position with [100.000] at Page = 0(Main)
+2017/4/4 16:45:58	SETTING	[AIO] MFC01StPtAO with [5000.000] at Page = 0(Main)
+2017/4/4 16:46:0	SETTING	[AIO] M651_Set_Pressure with [5.000] at Page = 0(Main)
+2017/4/4 16:46:53	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/4 16:46:53	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/4 16:46:56	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 16:46:56	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 16:46:58	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 16:46:58	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 16:51:35	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/4 16:51:35	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/4 16:51:51	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2017/4/4 16:51:51	BUTTON	[RIGHT CLICK] Right_System_Control
+2017/4/4 16:51:54	SETTING	[DIO] ZMT_StageSelectDM with [StageAll(2)] at Page = 1(Control)
+2017/4/4 16:51:55	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/4 16:51:55	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/4 16:51:58	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2017/4/4 16:52:6	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/4 16:52:6	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/4 16:52:9	SETTING	[DIO] HT01_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/4/4 16:52:9	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 16:52:9	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 16:52:11	SETTING	[DIO] HT17_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/4/4 16:52:14	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/4 16:52:14	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/4 16:52:16	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2017/4/4 16:52:18	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/4 16:52:18	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/4 16:52:23	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/4 16:52:23	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/4 16:52:24	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/4 16:52:24	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/4 16:52:25	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2017/4/4 16:52:25	BUTTON	[RIGHT CLICK] Right_System_Main
+2017/4/4 16:52:33	SETTING	[DIO] V101ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/4 16:52:34	SETTING	[DIO] V22ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/4 16:52:35	SETTING	[DIO] V2ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/4 16:52:37	SETTING	[AIO] M651_Set_Pressure with [5.000] at Page = 0(Main)
+2017/4/4 16:52:40	SETTING	[AIO] MFC01StPtAO with [5000.000] at Page = 0(Main)
+2017/4/4 16:52:41	SETTING	[DIO] V1ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/4 16:53:29	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/4 16:53:29	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/4 16:53:32	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/4 16:53:32	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/4 16:55:15	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/4 16:55:15	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/4 16:55:24	SETTING	[DIO] M651_Valve with [Open(1)] at Page = 0(Main)
+2017/4/4 16:55:25	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2017/4/4 16:55:25	BUTTON	[RIGHT CLICK] Right_System_Control
+2017/4/4 16:55:27	FUNCTION	[START] SERV_MAIN with [ABORT_GAS] at Page = 1(Control)
+2017/4/4 16:55:28	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2017/4/4 16:55:28	BUTTON	[RIGHT CLICK] Right_System_Main
+2017/4/4 16:55:48	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/4 16:55:48	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/4 16:55:49	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/4 16:55:49	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/4 16:56:0	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2017/4/4 16:56:5	SETTING	[DIO] Right_Service_Water with [1] at Page = 0(PAGE 1)
+2017/4/4 16:56:5	BUTTON	[RIGHT CLICK] Right_Service_Water
+2017/4/4 16:56:6	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2017/4/4 16:56:6	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2017/4/4 16:56:6	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/4 16:56:6	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/4 16:56:31	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2017/4/4 16:56:31	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2017/4/4 16:56:32	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/4 16:56:32	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/4 17:13:12	SETTING	[AIO] M651_Set_Position with [0.000] at Page = 0(Main)
+2017/4/4 17:13:28	SETTING	[AIO] M651_Set_Position with [100.000] at Page = 0(Main)
+2017/4/4 17:21:21	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/4 17:21:21	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/4 17:21:24	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/4/4 17:21:24	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/4 17:21:30	SETTING	[DIO] HT01_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 17:21:31	SETTING	[DIO] HT16_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/4/4 17:22:52	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/4/4 17:22:52	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/4/4 17:22:57	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2017/4/4 17:22:57	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2017/4/4 17:22:58	SETTING	[DIO] Right_Service_Vrifi_Nav with [2] at Page = 5(MFC Verification)
+2017/4/4 17:22:58	BUTTON	[NAV CLICK] Right_Service_Vrifi_Nav - 2
+2017/4/4 17:22:58	SETTING	[DIO] Right_Service_Vrifi_Nav with [3] at Page = 13(MFC Flow Test)
+2017/4/4 17:22:58	BUTTON	[NAV CLICK] Right_Service_Vrifi_Nav - 3
+2017/4/4 17:22:59	SETTING	[DIO] Right_Service_Vrifi_Nav with [4] at Page = 14(Chuck Motor Test)
+2017/4/4 17:22:59	BUTTON	[NAV CLICK] Right_Service_Vrifi_Nav - 4
+2017/4/4 17:23:0	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2017/4/4 17:23:0	BUTTON	[RIGHT CLICK] Right_Service_Htr

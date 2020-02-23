@@ -1,0 +1,26 @@
+2019/1/16 15:38:26	USERCONTROL	[SYSTEM_START]
+2019/1/16 15:38:52	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2019/1/16 15:38:54	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2019/1/16 15:38:55	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2019/1/16 15:38:55	BUTTON	[BOTTOM CLICK] Bottom_Config
+2019/1/16 15:38:58	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 6(PM Param 1)
+2019/1/16 15:38:58	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2019/1/16 15:41:37	SETTING	[DIO] Right_Config_Parm with [1] at Page = 0(PAGE 1)
+2019/1/16 15:41:37	BUTTON	[RIGHT CLICK] Right_Config_Parm
+2019/1/16 15:42:5	SETTING	[DIO] Right_Config_Parm with [1] at Page = 0(PAGE 1)
+2019/1/16 15:42:5	BUTTON	[RIGHT CLICK] Right_Config_Parm
+2019/1/16 15:42:14	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2019/1/16 15:42:14	BUTTON	[BOTTOM CLICK] Bottom_Service
+2019/1/16 15:42:15	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2019/1/16 15:42:15	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2019/1/16 15:42:25	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2019/1/16 15:42:27	IOEDIT	DirectIO Edit => DIO:PRMD_INT_RCP , VALUE:1
+2019/1/16 15:42:28	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2019/1/16 15:42:28	BUTTON	[BOTTOM CLICK] Bottom_Config
+2019/1/16 15:42:35	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2019/1/16 15:42:35	BUTTON	[BOTTOM CLICK] Bottom_Service
+2019/1/16 15:42:37	IOEDIT	DirectIO Edit => DIO:PRMD_INT_RCP , VALUE:0
+2019/1/16 15:42:39	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2019/1/16 15:42:39	BUTTON	[BOTTOM CLICK] Bottom_Config
+2019/1/16 15:42:50	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2019/1/16 15:42:50	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button

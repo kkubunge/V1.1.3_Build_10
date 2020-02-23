@@ -1,0 +1,3711 @@
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#  Preventive Maintenance IO & PARAMETER
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+
+#--------------------------------------------------------------------------
+#  CTC IO
+#--------------------------------------------------------------------------
+$$$ Digital
+CTC.PM1_PREVENTIVE_SAVE			OffOn		Off
+CTC.PM1_PREVENTIVE_EDIT			OffOn		Off
+CTC.PM1_PREVENTIVE_APPL			OffOn		Off
+
+CTC.PM2_PREVENTIVE_SAVE			OffOn		Off
+CTC.PM2_PREVENTIVE_EDIT			OffOn		Off
+CTC.PM2_PREVENTIVE_APPL			OffOn		Off
+
+CTC.PM3_PREVENTIVE_SAVE			OffOn		Off
+CTC.PM3_PREVENTIVE_EDIT			OffOn		Off
+CTC.PM3_PREVENTIVE_APPL			OffOn		Off
+
+CTC.PM4_PREVENTIVE_SAVE			OffOn		Off
+CTC.PM4_PREVENTIVE_EDIT			OffOn		Off
+CTC.PM4_PREVENTIVE_APPL			OffOn		Off
+
+CTC.PM5_PREVENTIVE_SAVE			OffOn		Off
+CTC.PM5_PREVENTIVE_EDIT			OffOn		Off
+CTC.PM5_PREVENTIVE_APPL			OffOn		Off
+
+CTC.PM1_PREVENTIVE_PREV			OffOn		Off
+CTC.PM2_PREVENTIVE_PREV			OffOn		Off
+CTC.PM3_PREVENTIVE_PREV			OffOn		Off
+CTC.PM4_PREVENTIVE_PREV			OffOn		Off
+CTC.PM5_PREVENTIVE_PREV			OffOn		Off
+
+CTC.PM1_PREVENTIVE_NEXT			OffOn		Off
+CTC.PM2_PREVENTIVE_NEXT			OffOn		Off
+CTC.PM3_PREVENTIVE_NEXT			OffOn		Off
+CTC.PM4_PREVENTIVE_NEXT			OffOn		Off
+CTC.PM5_PREVENTIVE_NEXT			OffOn		Off
+
+CTC.EFEM2_CONFIGURATION_EDIT		OffOn		Off
+CTC.CM1_MANPURGE_START			OffOn		Off
+CTC.CM2_MANPURGE_START			OffOn		Off
+CTC.CM3_MANPURGE_START			OffOn		Off
+CTC.CM1_MANPURGE_STOP			OffOn		Off
+CTC.CM2_MANPURGE_STOP			OffOn		Off
+CTC.CM3_MANPURGE_STOP			OffOn		Off
+CTC.CM1_N2PURGE_SET			OffOn		Off
+CTC.CM2_N2PURGE_SET			OffOn		Off
+CTC.CM3_N2PURGE_SET			OffOn		Off
+
+#--------------------------------------------------------------------------
+#  PM1 CTC IO
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#  WET cleaning
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM1_WETEn_01		DisableEnable		Disable
+PRMD_PM1_WETEn_02		DisableEnable		Disable
+PRMD_PM1_WETEn_03		DisableEnable		Disable
+PRMD_PM1_WETAlarm		NormWarnAlarm		Normal
+PRMD_PM1_WETReset		OffOn			Off
+$$$ Digital
+PRMD_PM1_WETCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_WETWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_WETAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM1_WET2CWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM1_WETCVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM1_WETWVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM1_WETAVlvCyc		-  * *  - - - - -    0    999999999
+$$$ Analog
+PRMD_PM1_WETCSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM1_WETWSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM1_WETASrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+$$$ Digital
+PRMD_PM1_WETRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM1_WETRstTime		"00 / 00 / 00"
+PRMS_PM1_WETRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM1_WETRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM1_WETRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM1_WETRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM1_WETRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM1_WETRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM1_WETRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM1_WETRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM1_WETRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM1_WETRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM1_WETRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM1_WETRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM1_WETRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM1_WETRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM1_WETRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM1_WETRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM1_WETRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM1_WETRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM1_WETRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM1_WETRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  DRY cleaning
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM1_DRYEn_01		DisableEnable		Disable
+PRMD_PM1_DRYEn_02		DisableEnable		Disable
+PRMD_PM1_DRYEn_03		DisableEnable		Disable
+PRMD_PM1_DRYAlarm		NormWarnAlarm		Normal
+PRMD_PM1_DRYReset		OffOn        		Off
+
+PRMD_PM1_DRYCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_DRYWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_DRYAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM1_DRY2CWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM1_DRYCVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM1_DRYWVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM1_DRYAVlvCyc		-  * *  - - - - -    0    999999999
+$$$ Analog
+PRMD_PM1_DRYCSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM1_DRYWSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM1_DRYASrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+$$$ Digital
+PRMD_PM1_DRYRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM1_DRYRstTime		"00 / 00 / 00"
+PRMS_PM1_DRYRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DRYRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DRYRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DRYRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DRYRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DRYRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DRYRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DRYRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DRYRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DRYRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM1_DRYRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM1_DRYRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM1_DRYRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM1_DRYRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM1_DRYRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM1_DRYRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM1_DRYRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM1_DRYRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM1_DRYRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM1_DRYRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Source Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM1_SRCEn_01		DisableEnable		Disable
+PRMD_PM1_SRCEn_02		DisableEnable		Disable
+PRMD_PM1_SRCEn_03		DisableEnable		Disable
+PRMD_PM1_SRCEn_04		DisableEnable		Disable
+PRMD_PM1_SRCAlarm		NormWarnAlarm		Normal
+PRMD_PM1_SRCReset		OffOn			Off
+
+PRMD_PM1_SRCCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_SRCWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_SRCAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM1_SRC2CWfrCnt		-  * *  - - - - -    0    999999999
+
+
+PRMD_PM1_SRCCVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM1_SRCWVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM1_SRCAVlvCyc		-  * *  - - - - -    0    999999999
+$$$ Analog
+PRMD_PM1_SRCCSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM1_SRCWSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM1_SRCASrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+$$$ Digital
+PRMD_PM1_SRCCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_SRCCLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_SRCCLTMin		-  * *  - - - - -    0    59
+PRMD_PM1_SRCCLTSec		-  * *  - - - - -    0    59
+PRMD_PM1_SRCWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_SRCWLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_SRCALTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_SRCALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM1_SRCRstCnt
+
+$$$ String
+PRMS_PM1_SRCRstTime		"00 / 00 / 00"
+PRMS_PM1_SRCRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM1_SRCRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM1_SRCRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM1_SRCRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM1_SRCRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM1_SRCRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM1_SRCRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM1_SRCRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM1_SRCRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM1_SRCRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM1_SRCRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM1_SRCRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM1_SRCRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM1_SRCRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM1_SRCRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM1_SRCRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM1_SRCRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM1_SRCRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM1_SRCRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM1_SRCRstCount10		-  * *  - - - - -    0    999999999
+
+
+#--------------------------------------------------------------------------
+#  Stage Heater Exchange
+#--------------------------------------------------------------------------
+## Stage Heater 1
+$$$ Digital
+PRMD_PM1_STGEn_01		DisableEnable		Disable
+PRMD_PM1_STGEn_02		DisableEnable		Disable
+PRMD_PM1_STGAlarm		NormWarnAlarm		Normal
+PRMD_PM1_STGReset		OffOn        		Off
+
+PRMD_PM1_STGCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_STGWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_STGAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM1_STGCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_STGCLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_STGCLTMin		-  * *  - - - - -    0    59
+PRMD_PM1_STGCLTSec		-  * *  - - - - -    0    59
+PRMD_PM1_STGWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_STGWLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_STGALTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_STGALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM1_STGRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM1_STGRstTime		"00 / 00 / 00"
+PRMS_PM1_STGRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STGRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STGRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STGRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STGRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STGRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STGRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STGRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STGRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STGRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM1_STGRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM1_STGRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM1_STGRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM1_STGRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM1_STGRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM1_STGRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM1_STGRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM1_STGRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM1_STGRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM1_STGRstCount10		-  * *  - - - - -    0    999999999
+
+## Stage Heater 2
+$$$ Digital
+PRMD_PM1_STG2En_01		DisableEnable		Disable
+PRMD_PM1_STG2En_02		DisableEnable		Disable
+PRMD_PM1_STG2Alarm		NormWarnAlarm		Normal
+PRMD_PM1_STG2Reset		OffOn        		Off
+
+PRMD_PM1_STG2CWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_STG2WWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_STG2AWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM1_STG2CLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_STG2CLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_STG2CLTMin		-  * *  - - - - -    0    59
+PRMD_PM1_STG2CLTSec		-  * *  - - - - -    0    59
+PRMD_PM1_STG2WLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_STG2WLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_STG2ALTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_STG2ALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM1_STG2RstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM1_STG2RstTime		"00 / 00 / 00"
+PRMS_PM1_STG2RstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STG2RstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STG2RstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STG2RstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STG2RstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STG2RstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STG2RstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STG2RstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STG2RstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM1_STG2RstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM1_STG2RstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM1_STG2RstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM1_STG2RstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM1_STG2RstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM1_STG2RstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM1_STG2RstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM1_STG2RstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM1_STG2RstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM1_STG2RstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM1_STG2RstCount10		-  * *  - - - - -    0    999999999
+
+
+
+
+#--------------------------------------------------------------------------
+#  RF Generator
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM1_RFGEn_01		DisableEnable		Disable
+PRMD_PM1_RFGAlarm		NormWarnAlarm		Normal
+PRMD_PM1_RFGReset		OffOn        		Off
+
+PRMD_PM1_RFGCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_RFGCLTHour		-  * *  - - - - -    0    999999999
+PRMD_PM1_RFGCLTMin		-  * *  - - - - -    0    59
+PRMD_PM1_RFGCLTSec		-  * *  - - - - -    0    59
+PRMD_PM1_RFGWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_RFGWLTHour		-  * *  - - - - -    0    9999999
+PRMD_PM1_RFGALTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_RFGALTHour		-  * *  - - - - -    0    9999999
+
+PRMD_PM1_RFGRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM1_RFGRstTime		"00 / 00 / 00"
+PRMS_PM1_RFGRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM1_RFGRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM1_RFGRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM1_RFGRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM1_RFGRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM1_RFGRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM1_RFGRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM1_RFGRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM1_RFGRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM1_RFGRstTime10		"00 / 00 / 00  00:00:00"
+
+#--------------------------------------------------------------------------
+#  DRY Pump Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM1_DPEn_01		DisableEnable		Disable
+PRMD_PM1_DPEn_02		DisableEnable		Disable
+PRMD_PM1_DPAlarm		NormWarnAlarm		Normal
+PRMD_PM1_DPReset		OffOn        		Off
+
+PRMD_PM1_DPCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_DPWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_DPAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM1_DPCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_DPCLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_DPCLTMin		-  * *  - - - - -    0    59
+PRMD_PM1_DPCLTSec		-  * *  - - - - -    0    59
+PRMD_PM1_DPWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_DPWLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_DPALTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_DPALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM1_DPRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM1_DPRstTime		"00 / 00 / 00"
+PRMS_PM1_DPRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DPRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DPRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DPRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DPRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DPRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DPRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DPRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DPRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM1_DPRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM1_DPRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM1_DPRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM1_DPRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM1_DPRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM1_DPRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM1_DPRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM1_DPRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM1_DPRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM1_DPRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM1_DPRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  TRAP Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM1_TRAPEn_01		DisableEnable		Disable
+PRMD_PM1_TRAPEn_02		DisableEnable		Disable
+PRMD_PM1_TRAPAlarm		NormWarnAlarm		Normal
+PRMD_PM1_TRAPReset		OffOn        		Off
+
+PRMD_PM1_TRAPCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_TRAPWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_TRAPAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM1_TRAPCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_TRAPCLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_TRAPCLTMin		-  * *  - - - - -    0    59
+PRMD_PM1_TRAPCLTSec		-  * *  - - - - -    0    59
+PRMD_PM1_TRAPWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_TRAPWLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_TRAPALTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_TRAPALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM1_TRAPRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM1_TRAPRstTime		"00 / 00 / 00"
+PRMS_PM1_TRAPRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM1_TRAPRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM1_TRAPRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM1_TRAPRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM1_TRAPRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM1_TRAPRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM1_TRAPRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM1_TRAPRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM1_TRAPRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM1_TRAPRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM1_TRAPRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM1_TRAPRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM1_TRAPRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM1_TRAPRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM1_TRAPRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM1_TRAPRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM1_TRAPRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM1_TRAPRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM1_TRAPRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM1_TRAPRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Maintenance Period A
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM1_MPAEn_01		DisableEnable		Disable
+PRMD_PM1_MPAEn_02		DisableEnable		Disable
+PRMD_PM1_MPAAlarm		NormWarnAlarm		Normal
+PRMD_PM1_MPAReset		OffOn        		Off
+
+PRMD_PM1_MPACWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_MPAWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_MPAAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM1_MPACLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_MPACLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_MPACLTMin		-  * *  - - - - -    0    59
+PRMD_PM1_MPACLTSec		-  * *  - - - - -    0    59
+PRMD_PM1_MPAWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_MPAWLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_MPAALTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_MPAALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM1_MPARstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM1_MPARstTime		"00 / 00 / 00"
+PRMS_PM1_MPARstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPARstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPARstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPARstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPARstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPARstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPARstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPARstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPARstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPARstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM1_MPARstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPARstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPARstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPARstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPARstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPARstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPARstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPARstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPARstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPARstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Maintenance Period B
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM1_MPBEn_01		DisableEnable		Disable
+PRMD_PM1_MPBEn_02		DisableEnable		Disable
+PRMD_PM1_MPBAlarm		NormWarnAlarm		Normal
+PRMD_PM1_MPBReset		OffOn        		Off
+
+PRMD_PM1_MPBCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_MPBWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_MPBAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM1_MPBCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_MPBCLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_MPBCLTMin		-  * *  - - - - -    0    59
+PRMD_PM1_MPBCLTSec		-  * *  - - - - -    0    59
+PRMD_PM1_MPBWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_MPBWLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_MPBALTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_MPBALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM1_MPBRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM1_MPBRstTime		"00 / 00 / 00"
+PRMS_PM1_MPBRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPBRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPBRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPBRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPBRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPBRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPBRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPBRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPBRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPBRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM1_MPBRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPBRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPBRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPBRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPBRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPBRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPBRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPBRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPBRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPBRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Maintenance Period C
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM1_MPCEn_01		DisableEnable		Disable
+PRMD_PM1_MPCEn_02		DisableEnable		Disable
+PRMD_PM1_MPCAlarm		NormWarnAlarm		Normal
+PRMD_PM1_MPCReset		OffOn        		Off
+
+PRMD_PM1_MPCCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_MPCWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM1_MPCAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM1_MPCCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_MPCCLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_MPCCLTMin		-  * *  - - - - -    0    59
+PRMD_PM1_MPCCLTSec		-  * *  - - - - -    0    59
+PRMD_PM1_MPCWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_MPCWLTHour		-  * *  - - - - -    0    23
+PRMD_PM1_MPCALTDay		-  * *  - - - - -    0    10000
+PRMD_PM1_MPCALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM1_MPCRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM1_MPCRstTime		"00 / 00 / 00"
+PRMS_PM1_MPCRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPCRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPCRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPCRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPCRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPCRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPCRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPCRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPCRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MPCRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM1_MPCRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPCRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPCRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPCRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPCRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPCRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPCRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPCRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPCRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM1_MPCRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  MFC Control Count
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM1_MCCReset		OffOn        		Off
+PRMD_PM1_MCCRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM1_MCCRstTime		"00 / 00 / 00"
+PRMS_PM1_MCCRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MCCRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MCCRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MCCRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MCCRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MCCRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MCCRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MCCRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MCCRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM1_MCCRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM1_MCCRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCCRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCCRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCCRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCCRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCCRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCCRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCCRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCCRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCCRstCount10		-  * *  - - - - -    0    999999999
+
+
+PRMS_PM1_MCC01Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC02Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC03Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC04Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC05Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC06Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC07Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC08Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC09Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC10Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC11Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC12Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC13Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC14Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC15Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC16Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC17Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC18Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC19Count		-  * *  - - - - -    0    999999999
+PRMS_PM1_MCC20Count		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  PM2 CTC IO
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#  WET cleaning
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM2_WETEn_01		DisableEnable		Disable
+PRMD_PM2_WETEn_02		DisableEnable		Disable
+PRMD_PM2_WETEn_03		DisableEnable		Disable
+PRMD_PM2_WETAlarm		NormWarnAlarm		Normal
+PRMD_PM2_WETReset		OffOn			Off
+$$$ Digital
+PRMD_PM2_WETCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_WETWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_WETAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM2_WET2CWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM2_WETCVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM2_WETWVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM2_WETAVlvCyc		-  * *  - - - - -    0    999999999
+$$$ Analog
+PRMD_PM2_WETCSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM2_WETWSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM2_WETASrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+$$$ Digital
+PRMD_PM2_WETRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM2_WETRstTime		"00 / 00 / 00"
+PRMS_PM2_WETRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM2_WETRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM2_WETRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM2_WETRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM2_WETRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM2_WETRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM2_WETRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM2_WETRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM2_WETRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM2_WETRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM2_WETRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM2_WETRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM2_WETRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM2_WETRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM2_WETRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM2_WETRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM2_WETRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM2_WETRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM2_WETRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM2_WETRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  DRY cleaning
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM2_DRYEn_01		DisableEnable		Disable
+PRMD_PM2_DRYEn_02		DisableEnable		Disable
+PRMD_PM2_DRYEn_03		DisableEnable		Disable
+PRMD_PM2_DRYAlarm		NormWarnAlarm		Normal
+PRMD_PM2_DRYReset		OffOn        		Off
+
+PRMD_PM2_DRYCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_DRYWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_DRYAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM2_DRY2CWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM2_DRYCVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM2_DRYWVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM2_DRYAVlvCyc		-  * *  - - - - -    0    999999999
+$$$ Analog
+PRMD_PM2_DRYCSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM2_DRYWSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM2_DRYASrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+$$$ Digital
+PRMD_PM2_DRYRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM2_DRYRstTime		"00 / 00 / 00"
+PRMS_PM2_DRYRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DRYRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DRYRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DRYRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DRYRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DRYRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DRYRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DRYRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DRYRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DRYRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM2_DRYRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM2_DRYRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM2_DRYRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM2_DRYRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM2_DRYRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM2_DRYRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM2_DRYRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM2_DRYRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM2_DRYRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM2_DRYRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Source Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM2_SRCEn_01		DisableEnable		Disable
+PRMD_PM2_SRCEn_02		DisableEnable		Disable
+PRMD_PM2_SRCEn_03		DisableEnable		Disable
+PRMD_PM2_SRCEn_04		DisableEnable		Disable
+PRMD_PM2_SRCAlarm		NormWarnAlarm		Normal
+PRMD_PM2_SRCReset		OffOn			Off
+
+PRMD_PM2_SRCCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_SRCWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_SRCAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM2_SRC2CWfrCnt		-  * *  - - - - -    0    999999999
+
+
+PRMD_PM2_SRCCVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM2_SRCWVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM2_SRCAVlvCyc		-  * *  - - - - -    0    999999999
+$$$ Analog
+PRMD_PM2_SRCCSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM2_SRCWSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM2_SRCASrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+$$$ Digital
+PRMD_PM2_SRCCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_SRCCLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_SRCCLTMin		-  * *  - - - - -    0    59
+PRMD_PM2_SRCCLTSec		-  * *  - - - - -    0    59
+PRMD_PM2_SRCWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_SRCWLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_SRCALTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_SRCALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM2_SRCRstCnt
+
+$$$ String
+PRMS_PM2_SRCRstTime		"00 / 00 / 00"
+PRMS_PM2_SRCRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM2_SRCRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM2_SRCRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM2_SRCRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM2_SRCRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM2_SRCRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM2_SRCRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM2_SRCRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM2_SRCRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM2_SRCRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM2_SRCRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM2_SRCRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM2_SRCRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM2_SRCRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM2_SRCRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM2_SRCRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM2_SRCRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM2_SRCRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM2_SRCRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM2_SRCRstCount10		-  * *  - - - - -    0    999999999
+
+
+#--------------------------------------------------------------------------
+#  Stage Heater Exchange
+#--------------------------------------------------------------------------
+## Stage Heater 1
+$$$ Digital
+PRMD_PM2_STGEn_01		DisableEnable		Disable
+PRMD_PM2_STGEn_02		DisableEnable		Disable
+PRMD_PM2_STGAlarm		NormWarnAlarm		Normal
+PRMD_PM2_STGReset		OffOn        		Off
+
+PRMD_PM2_STGCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_STGWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_STGAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM2_STGCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_STGCLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_STGCLTMin		-  * *  - - - - -    0    59
+PRMD_PM2_STGCLTSec		-  * *  - - - - -    0    59
+PRMD_PM2_STGWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_STGWLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_STGALTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_STGALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM2_STGRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM2_STGRstTime		"00 / 00 / 00"
+PRMS_PM2_STGRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STGRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STGRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STGRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STGRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STGRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STGRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STGRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STGRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STGRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM2_STGRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM2_STGRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM2_STGRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM2_STGRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM2_STGRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM2_STGRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM2_STGRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM2_STGRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM2_STGRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM2_STGRstCount10		-  * *  - - - - -    0    999999999
+
+## Stage Heater 2
+$$$ Digital
+PRMD_PM2_STG2En_01		DisableEnable		Disable
+PRMD_PM2_STG2En_02		DisableEnable		Disable
+PRMD_PM2_STG2Alarm		NormWarnAlarm		Normal
+PRMD_PM2_STG2Reset		OffOn        		Off
+
+PRMD_PM2_STG2CWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_STG2WWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_STG2AWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM2_STG2CLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_STG2CLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_STG2CLTMin		-  * *  - - - - -    0    59
+PRMD_PM2_STG2CLTSec		-  * *  - - - - -    0    59
+PRMD_PM2_STG2WLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_STG2WLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_STG2ALTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_STG2ALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM2_STG2RstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM2_STG2RstTime		"00 / 00 / 00"
+PRMS_PM2_STG2RstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STG2RstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STG2RstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STG2RstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STG2RstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STG2RstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STG2RstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STG2RstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STG2RstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM2_STG2RstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM2_STG2RstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM2_STG2RstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM2_STG2RstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM2_STG2RstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM2_STG2RstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM2_STG2RstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM2_STG2RstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM2_STG2RstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM2_STG2RstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM2_STG2RstCount10		-  * *  - - - - -    0    999999999
+
+
+
+
+#--------------------------------------------------------------------------
+#  RF Generator
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM2_RFGEn_01		DisableEnable		Disable
+PRMD_PM2_RFGAlarm		NormWarnAlarm		Normal
+PRMD_PM2_RFGReset		OffOn        		Off
+
+PRMD_PM2_RFGCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_RFGCLTHour		-  * *  - - - - -    0    999999999
+PRMD_PM2_RFGCLTMin		-  * *  - - - - -    0    59
+PRMD_PM2_RFGCLTSec		-  * *  - - - - -    0    59
+PRMD_PM2_RFGWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_RFGWLTHour		-  * *  - - - - -    0    9999999
+PRMD_PM2_RFGALTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_RFGALTHour		-  * *  - - - - -    0    9999999
+
+PRMD_PM2_RFGRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM2_RFGRstTime		"00 / 00 / 00"
+PRMS_PM2_RFGRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM2_RFGRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM2_RFGRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM2_RFGRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM2_RFGRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM2_RFGRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM2_RFGRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM2_RFGRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM2_RFGRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM2_RFGRstTime10		"00 / 00 / 00  00:00:00"
+
+#--------------------------------------------------------------------------
+#  DRY Pump Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM2_DPEn_01		DisableEnable		Disable
+PRMD_PM2_DPEn_02		DisableEnable		Disable
+PRMD_PM2_DPAlarm		NormWarnAlarm		Normal
+PRMD_PM2_DPReset		OffOn        		Off
+
+PRMD_PM2_DPCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_DPWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_DPAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM2_DPCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_DPCLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_DPCLTMin		-  * *  - - - - -    0    59
+PRMD_PM2_DPCLTSec		-  * *  - - - - -    0    59
+PRMD_PM2_DPWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_DPWLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_DPALTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_DPALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM2_DPRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM2_DPRstTime		"00 / 00 / 00"
+PRMS_PM2_DPRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DPRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DPRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DPRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DPRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DPRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DPRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DPRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DPRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM2_DPRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM2_DPRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM2_DPRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM2_DPRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM2_DPRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM2_DPRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM2_DPRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM2_DPRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM2_DPRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM2_DPRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM2_DPRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  TRAP Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM2_TRAPEn_01		DisableEnable		Disable
+PRMD_PM2_TRAPEn_02		DisableEnable		Disable
+PRMD_PM2_TRAPAlarm		NormWarnAlarm		Normal
+PRMD_PM2_TRAPReset		OffOn        		Off
+
+PRMD_PM2_TRAPCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_TRAPWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_TRAPAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM2_TRAPCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_TRAPCLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_TRAPCLTMin		-  * *  - - - - -    0    59
+PRMD_PM2_TRAPCLTSec		-  * *  - - - - -    0    59
+PRMD_PM2_TRAPWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_TRAPWLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_TRAPALTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_TRAPALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM2_TRAPRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM2_TRAPRstTime		"00 / 00 / 00"
+PRMS_PM2_TRAPRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM2_TRAPRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM2_TRAPRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM2_TRAPRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM2_TRAPRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM2_TRAPRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM2_TRAPRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM2_TRAPRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM2_TRAPRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM2_TRAPRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM2_TRAPRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM2_TRAPRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM2_TRAPRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM2_TRAPRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM2_TRAPRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM2_TRAPRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM2_TRAPRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM2_TRAPRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM2_TRAPRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM2_TRAPRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Maintenance Period A
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM2_MPAEn_01		DisableEnable		Disable
+PRMD_PM2_MPAEn_02		DisableEnable		Disable
+PRMD_PM2_MPAAlarm		NormWarnAlarm		Normal
+PRMD_PM2_MPAReset		OffOn        		Off
+
+PRMD_PM2_MPACWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_MPAWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_MPAAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM2_MPACLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_MPACLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_MPACLTMin		-  * *  - - - - -    0    59
+PRMD_PM2_MPACLTSec		-  * *  - - - - -    0    59
+PRMD_PM2_MPAWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_MPAWLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_MPAALTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_MPAALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM2_MPARstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM2_MPARstTime		"00 / 00 / 00"
+PRMS_PM2_MPARstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPARstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPARstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPARstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPARstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPARstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPARstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPARstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPARstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPARstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM2_MPARstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPARstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPARstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPARstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPARstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPARstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPARstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPARstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPARstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPARstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Maintenance Period B
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM2_MPBEn_01		DisableEnable		Disable
+PRMD_PM2_MPBEn_02		DisableEnable		Disable
+PRMD_PM2_MPBAlarm		NormWarnAlarm		Normal
+PRMD_PM2_MPBReset		OffOn        		Off
+
+PRMD_PM2_MPBCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_MPBWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_MPBAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM2_MPBCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_MPBCLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_MPBCLTMin		-  * *  - - - - -    0    59
+PRMD_PM2_MPBCLTSec		-  * *  - - - - -    0    59
+PRMD_PM2_MPBWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_MPBWLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_MPBALTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_MPBALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM2_MPBRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM2_MPBRstTime		"00 / 00 / 00"
+PRMS_PM2_MPBRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPBRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPBRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPBRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPBRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPBRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPBRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPBRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPBRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPBRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM2_MPBRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPBRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPBRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPBRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPBRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPBRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPBRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPBRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPBRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPBRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Maintenance Period C
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM2_MPCEn_01		DisableEnable		Disable
+PRMD_PM2_MPCEn_02		DisableEnable		Disable
+PRMD_PM2_MPCAlarm		NormWarnAlarm		Normal
+PRMD_PM2_MPCReset		OffOn        		Off
+
+PRMD_PM2_MPCCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_MPCWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM2_MPCAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM2_MPCCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_MPCCLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_MPCCLTMin		-  * *  - - - - -    0    59
+PRMD_PM2_MPCCLTSec		-  * *  - - - - -    0    59
+PRMD_PM2_MPCWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_MPCWLTHour		-  * *  - - - - -    0    23
+PRMD_PM2_MPCALTDay		-  * *  - - - - -    0    10000
+PRMD_PM2_MPCALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM2_MPCRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM2_MPCRstTime		"00 / 00 / 00"
+PRMS_PM2_MPCRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPCRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPCRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPCRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPCRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPCRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPCRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPCRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPCRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MPCRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM2_MPCRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPCRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPCRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPCRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPCRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPCRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPCRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPCRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPCRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM2_MPCRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  MFC Control Count
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM2_MCCReset		OffOn        		Off
+PRMD_PM2_MCCRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM2_MCCRstTime		"00 / 00 / 00"
+PRMS_PM2_MCCRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MCCRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MCCRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MCCRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MCCRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MCCRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MCCRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MCCRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MCCRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM2_MCCRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM2_MCCRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCCRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCCRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCCRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCCRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCCRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCCRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCCRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCCRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCCRstCount10		-  * *  - - - - -    0    999999999
+
+
+PRMS_PM2_MCC01Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC02Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC03Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC04Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC05Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC06Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC07Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC08Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC09Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC10Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC11Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC12Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC13Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC14Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC15Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC16Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC17Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC18Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC19Count		-  * *  - - - - -    0    999999999
+PRMS_PM2_MCC20Count		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  PM3 CTC IO
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#  WET cleaning
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM3_WETEn_01		DisableEnable		Disable
+PRMD_PM3_WETEn_02		DisableEnable		Disable
+PRMD_PM3_WETEn_03		DisableEnable		Disable
+PRMD_PM3_WETAlarm		NormWarnAlarm		Normal
+PRMD_PM3_WETReset		OffOn			Off
+$$$ Digital
+PRMD_PM3_WETCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_WETWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_WETAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM3_WET2CWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM3_WETCVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM3_WETWVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM3_WETAVlvCyc		-  * *  - - - - -    0    999999999
+$$$ Analog
+PRMD_PM3_WETCSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM3_WETWSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM3_WETASrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+$$$ Digital
+PRMD_PM3_WETRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM3_WETRstTime		"00 / 00 / 00"
+PRMS_PM3_WETRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM3_WETRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM3_WETRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM3_WETRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM3_WETRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM3_WETRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM3_WETRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM3_WETRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM3_WETRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM3_WETRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM3_WETRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM3_WETRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM3_WETRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM3_WETRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM3_WETRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM3_WETRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM3_WETRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM3_WETRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM3_WETRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM3_WETRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  DRY cleaning
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM3_DRYEn_01		DisableEnable		Disable
+PRMD_PM3_DRYEn_02		DisableEnable		Disable
+PRMD_PM3_DRYEn_03		DisableEnable		Disable
+PRMD_PM3_DRYAlarm		NormWarnAlarm		Normal
+PRMD_PM3_DRYReset		OffOn        		Off
+
+PRMD_PM3_DRYCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_DRYWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_DRYAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM3_DRY2CWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM3_DRYCVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM3_DRYWVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM3_DRYAVlvCyc		-  * *  - - - - -    0    999999999
+$$$ Analog
+PRMD_PM3_DRYCSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM3_DRYWSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM3_DRYASrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+$$$ Digital
+PRMD_PM3_DRYRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM3_DRYRstTime		"00 / 00 / 00"
+PRMS_PM3_DRYRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DRYRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DRYRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DRYRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DRYRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DRYRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DRYRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DRYRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DRYRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DRYRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM3_DRYRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM3_DRYRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM3_DRYRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM3_DRYRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM3_DRYRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM3_DRYRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM3_DRYRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM3_DRYRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM3_DRYRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM3_DRYRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Source Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM3_SRCEn_01		DisableEnable		Disable
+PRMD_PM3_SRCEn_02		DisableEnable		Disable
+PRMD_PM3_SRCEn_03		DisableEnable		Disable
+PRMD_PM3_SRCEn_04		DisableEnable		Disable
+PRMD_PM3_SRCAlarm		NormWarnAlarm		Normal
+PRMD_PM3_SRCReset		OffOn			Off
+
+PRMD_PM3_SRCCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_SRCWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_SRCAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM3_SRC2CWfrCnt		-  * *  - - - - -    0    999999999
+
+
+PRMD_PM3_SRCCVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM3_SRCWVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM3_SRCAVlvCyc		-  * *  - - - - -    0    999999999
+$$$ Analog
+PRMD_PM3_SRCCSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM3_SRCWSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM3_SRCASrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+$$$ Digital
+PRMD_PM3_SRCCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_SRCCLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_SRCCLTMin		-  * *  - - - - -    0    59
+PRMD_PM3_SRCCLTSec		-  * *  - - - - -    0    59
+PRMD_PM3_SRCWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_SRCWLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_SRCALTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_SRCALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM3_SRCRstCnt
+
+$$$ String
+PRMS_PM3_SRCRstTime		"00 / 00 / 00"
+PRMS_PM3_SRCRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM3_SRCRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM3_SRCRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM3_SRCRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM3_SRCRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM3_SRCRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM3_SRCRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM3_SRCRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM3_SRCRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM3_SRCRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM3_SRCRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM3_SRCRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM3_SRCRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM3_SRCRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM3_SRCRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM3_SRCRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM3_SRCRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM3_SRCRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM3_SRCRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM3_SRCRstCount10		-  * *  - - - - -    0    999999999
+
+
+#--------------------------------------------------------------------------
+#  Stage Heater Exchange
+#--------------------------------------------------------------------------
+## Stage Heater 1
+$$$ Digital
+PRMD_PM3_STGEn_01		DisableEnable		Disable
+PRMD_PM3_STGEn_02		DisableEnable		Disable
+PRMD_PM3_STGAlarm		NormWarnAlarm		Normal
+PRMD_PM3_STGReset		OffOn        		Off
+
+PRMD_PM3_STGCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_STGWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_STGAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM3_STGCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_STGCLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_STGCLTMin		-  * *  - - - - -    0    59
+PRMD_PM3_STGCLTSec		-  * *  - - - - -    0    59
+PRMD_PM3_STGWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_STGWLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_STGALTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_STGALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM3_STGRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM3_STGRstTime		"00 / 00 / 00"
+PRMS_PM3_STGRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STGRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STGRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STGRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STGRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STGRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STGRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STGRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STGRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STGRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM3_STGRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM3_STGRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM3_STGRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM3_STGRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM3_STGRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM3_STGRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM3_STGRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM3_STGRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM3_STGRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM3_STGRstCount10		-  * *  - - - - -    0    999999999
+
+## Stage Heater 2
+$$$ Digital
+PRMD_PM3_STG2En_01		DisableEnable		Disable
+PRMD_PM3_STG2En_02		DisableEnable		Disable
+PRMD_PM3_STG2Alarm		NormWarnAlarm		Normal
+PRMD_PM3_STG2Reset		OffOn        		Off
+
+PRMD_PM3_STG2CWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_STG2WWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_STG2AWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM3_STG2CLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_STG2CLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_STG2CLTMin		-  * *  - - - - -    0    59
+PRMD_PM3_STG2CLTSec		-  * *  - - - - -    0    59
+PRMD_PM3_STG2WLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_STG2WLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_STG2ALTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_STG2ALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM3_STG2RstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM3_STG2RstTime		"00 / 00 / 00"
+PRMS_PM3_STG2RstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STG2RstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STG2RstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STG2RstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STG2RstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STG2RstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STG2RstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STG2RstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STG2RstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM3_STG2RstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM3_STG2RstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM3_STG2RstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM3_STG2RstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM3_STG2RstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM3_STG2RstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM3_STG2RstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM3_STG2RstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM3_STG2RstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM3_STG2RstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM3_STG2RstCount10		-  * *  - - - - -    0    999999999
+
+
+
+
+#--------------------------------------------------------------------------
+#  RF Generator
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM3_RFGEn_01		DisableEnable		Disable
+PRMD_PM3_RFGAlarm		NormWarnAlarm		Normal
+PRMD_PM3_RFGReset		OffOn        		Off
+
+PRMD_PM3_RFGCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_RFGCLTHour		-  * *  - - - - -    0    999999999
+PRMD_PM3_RFGCLTMin		-  * *  - - - - -    0    59
+PRMD_PM3_RFGCLTSec		-  * *  - - - - -    0    59
+PRMD_PM3_RFGWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_RFGWLTHour		-  * *  - - - - -    0    9999999
+PRMD_PM3_RFGALTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_RFGALTHour		-  * *  - - - - -    0    9999999
+
+PRMD_PM3_RFGRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM3_RFGRstTime		"00 / 00 / 00"
+PRMS_PM3_RFGRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM3_RFGRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM3_RFGRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM3_RFGRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM3_RFGRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM3_RFGRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM3_RFGRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM3_RFGRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM3_RFGRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM3_RFGRstTime10		"00 / 00 / 00  00:00:00"
+
+#--------------------------------------------------------------------------
+#  DRY Pump Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM3_DPEn_01		DisableEnable		Disable
+PRMD_PM3_DPEn_02		DisableEnable		Disable
+PRMD_PM3_DPAlarm		NormWarnAlarm		Normal
+PRMD_PM3_DPReset		OffOn        		Off
+
+PRMD_PM3_DPCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_DPWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_DPAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM3_DPCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_DPCLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_DPCLTMin		-  * *  - - - - -    0    59
+PRMD_PM3_DPCLTSec		-  * *  - - - - -    0    59
+PRMD_PM3_DPWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_DPWLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_DPALTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_DPALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM3_DPRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM3_DPRstTime		"00 / 00 / 00"
+PRMS_PM3_DPRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DPRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DPRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DPRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DPRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DPRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DPRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DPRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DPRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM3_DPRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM3_DPRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM3_DPRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM3_DPRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM3_DPRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM3_DPRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM3_DPRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM3_DPRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM3_DPRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM3_DPRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM3_DPRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  TRAP Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM3_TRAPEn_01		DisableEnable		Disable
+PRMD_PM3_TRAPEn_02		DisableEnable		Disable
+PRMD_PM3_TRAPAlarm		NormWarnAlarm		Normal
+PRMD_PM3_TRAPReset		OffOn        		Off
+
+PRMD_PM3_TRAPCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_TRAPWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_TRAPAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM3_TRAPCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_TRAPCLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_TRAPCLTMin		-  * *  - - - - -    0    59
+PRMD_PM3_TRAPCLTSec		-  * *  - - - - -    0    59
+PRMD_PM3_TRAPWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_TRAPWLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_TRAPALTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_TRAPALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM3_TRAPRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM3_TRAPRstTime		"00 / 00 / 00"
+PRMS_PM3_TRAPRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM3_TRAPRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM3_TRAPRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM3_TRAPRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM3_TRAPRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM3_TRAPRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM3_TRAPRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM3_TRAPRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM3_TRAPRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM3_TRAPRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM3_TRAPRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM3_TRAPRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM3_TRAPRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM3_TRAPRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM3_TRAPRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM3_TRAPRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM3_TRAPRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM3_TRAPRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM3_TRAPRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM3_TRAPRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Maintenance Period A
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM3_MPAEn_01		DisableEnable		Disable
+PRMD_PM3_MPAEn_02		DisableEnable		Disable
+PRMD_PM3_MPAAlarm		NormWarnAlarm		Normal
+PRMD_PM3_MPAReset		OffOn        		Off
+
+PRMD_PM3_MPACWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_MPAWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_MPAAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM3_MPACLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_MPACLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_MPACLTMin		-  * *  - - - - -    0    59
+PRMD_PM3_MPACLTSec		-  * *  - - - - -    0    59
+PRMD_PM3_MPAWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_MPAWLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_MPAALTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_MPAALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM3_MPARstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM3_MPARstTime		"00 / 00 / 00"
+PRMS_PM3_MPARstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPARstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPARstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPARstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPARstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPARstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPARstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPARstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPARstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPARstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM3_MPARstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPARstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPARstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPARstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPARstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPARstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPARstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPARstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPARstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPARstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Maintenance Period B
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM3_MPBEn_01		DisableEnable		Disable
+PRMD_PM3_MPBEn_02		DisableEnable		Disable
+PRMD_PM3_MPBAlarm		NormWarnAlarm		Normal
+PRMD_PM3_MPBReset		OffOn        		Off
+
+PRMD_PM3_MPBCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_MPBWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_MPBAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM3_MPBCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_MPBCLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_MPBCLTMin		-  * *  - - - - -    0    59
+PRMD_PM3_MPBCLTSec		-  * *  - - - - -    0    59
+PRMD_PM3_MPBWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_MPBWLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_MPBALTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_MPBALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM3_MPBRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM3_MPBRstTime		"00 / 00 / 00"
+PRMS_PM3_MPBRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPBRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPBRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPBRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPBRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPBRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPBRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPBRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPBRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPBRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM3_MPBRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPBRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPBRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPBRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPBRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPBRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPBRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPBRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPBRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPBRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Maintenance Period C
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM3_MPCEn_01		DisableEnable		Disable
+PRMD_PM3_MPCEn_02		DisableEnable		Disable
+PRMD_PM3_MPCAlarm		NormWarnAlarm		Normal
+PRMD_PM3_MPCReset		OffOn        		Off
+
+PRMD_PM3_MPCCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_MPCWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM3_MPCAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM3_MPCCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_MPCCLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_MPCCLTMin		-  * *  - - - - -    0    59
+PRMD_PM3_MPCCLTSec		-  * *  - - - - -    0    59
+PRMD_PM3_MPCWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_MPCWLTHour		-  * *  - - - - -    0    23
+PRMD_PM3_MPCALTDay		-  * *  - - - - -    0    10000
+PRMD_PM3_MPCALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM3_MPCRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM3_MPCRstTime		"00 / 00 / 00"
+PRMS_PM3_MPCRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPCRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPCRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPCRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPCRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPCRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPCRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPCRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPCRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MPCRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM3_MPCRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPCRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPCRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPCRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPCRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPCRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPCRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPCRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPCRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM3_MPCRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  MFC Control Count
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM3_MCCReset		OffOn        		Off
+PRMD_PM3_MCCRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM3_MCCRstTime		"00 / 00 / 00"
+PRMS_PM3_MCCRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MCCRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MCCRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MCCRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MCCRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MCCRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MCCRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MCCRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MCCRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM3_MCCRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM3_MCCRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCCRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCCRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCCRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCCRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCCRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCCRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCCRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCCRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCCRstCount10		-  * *  - - - - -    0    999999999
+
+
+PRMS_PM3_MCC01Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC02Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC03Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC04Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC05Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC06Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC07Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC08Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC09Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC10Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC11Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC12Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC13Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC14Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC15Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC16Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC17Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC18Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC19Count		-  * *  - - - - -    0    999999999
+PRMS_PM3_MCC20Count		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  PM4 CTC IO
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#  WET cleaning
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM4_WETEn_01		DisableEnable		Disable
+PRMD_PM4_WETEn_02		DisableEnable		Disable
+PRMD_PM4_WETEn_03		DisableEnable		Disable
+PRMD_PM4_WETAlarm		NormWarnAlarm		Normal
+PRMD_PM4_WETReset		OffOn			Off
+
+PRMD_PM4_WETCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_WETWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_WETAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM4_WETCVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM4_WETWVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM4_WETAVlvCyc		-  * *  - - - - -    0    999999999
+$$$ Analog
+PRMD_PM4_WETCSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM4_WETWSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM4_WETASrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+$$$ Digital
+PRMD_PM4_WETRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM4_WETRstTime		"00 / 00 / 00"
+PRMS_PM4_WETRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM4_WETRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM4_WETRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM4_WETRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM4_WETRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM4_WETRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM4_WETRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM4_WETRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM4_WETRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM4_WETRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM4_WETRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM4_WETRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM4_WETRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM4_WETRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM4_WETRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM4_WETRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM4_WETRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM4_WETRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM4_WETRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM4_WETRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  DRY cleaning
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM4_DRYEn_01		DisableEnable		Disable
+PRMD_PM4_DRYEn_02		DisableEnable		Disable
+PRMD_PM4_DRYEn_03		DisableEnable		Disable
+PRMD_PM4_DRYAlarm		NormWarnAlarm		Normal
+PRMD_PM4_DRYReset		OffOn        		Off
+
+PRMD_PM4_DRYCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_DRYWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_DRYAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM4_DRYCVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM4_DRYWVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM4_DRYAVlvCyc		-  * *  - - - - -    0    999999999
+$$$ Analog
+PRMD_PM4_DRYCSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM4_DRYWSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM4_DRYASrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+$$$ Digital
+PRMD_PM4_DRYRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM4_DRYRstTime		"00 / 00 / 00"
+PRMS_PM4_DRYRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DRYRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DRYRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DRYRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DRYRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DRYRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DRYRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DRYRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DRYRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DRYRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM4_DRYRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM4_DRYRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM4_DRYRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM4_DRYRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM4_DRYRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM4_DRYRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM4_DRYRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM4_DRYRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM4_DRYRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM4_DRYRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Source Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM4_SRCEn_01		DisableEnable		Disable
+PRMD_PM4_SRCEn_02		DisableEnable		Disable
+PRMD_PM4_SRCEn_03		DisableEnable		Disable
+PRMD_PM4_SRCEn_04		DisableEnable		Disable
+PRMD_PM4_SRCAlarm		NormWarnAlarm		Normal
+PRMD_PM4_SRCReset		OffOn			Off
+
+PRMD_PM4_SRCCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_SRCWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_SRCAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM4_SRCCVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM4_SRCWVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM4_SRCAVlvCyc		-  * *  - - - - -    0    999999999
+$$$ Analog
+PRMD_PM4_SRCCSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM4_SRCWSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM4_SRCASrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+$$$ Digital
+PRMD_PM4_SRCCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_SRCCLTHour		-  * *  - - - - -    0    23
+PRMD_PM4_SRCCLTMin		-  * *  - - - - -    0    59
+PRMD_PM4_SRCCLTSec		-  * *  - - - - -    0    59
+PRMD_PM4_SRCWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_SRCWLTHour		-  * *  - - - - -    0    23
+PRMD_PM4_SRCALTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_SRCALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM4_SRCRstCnt
+
+$$$ String
+PRMS_PM4_SRCRstTime		"00 / 00 / 00"
+PRMS_PM4_SRCRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM4_SRCRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM4_SRCRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM4_SRCRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM4_SRCRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM4_SRCRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM4_SRCRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM4_SRCRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM4_SRCRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM4_SRCRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM4_SRCRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM4_SRCRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM4_SRCRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM4_SRCRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM4_SRCRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM4_SRCRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM4_SRCRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM4_SRCRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM4_SRCRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM4_SRCRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Stage Heater Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM4_STGEn_01		DisableEnable		Disable
+PRMD_PM4_STGEn_02		DisableEnable		Disable
+PRMD_PM4_STGAlarm		NormWarnAlarm		Normal
+PRMD_PM4_STGReset		OffOn        		Off
+
+PRMD_PM4_STGCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_STGWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_STGAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM4_STGCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_STGCLTHour		-  * *  - - - - -    0    23
+PRMD_PM4_STGCLTMin		-  * *  - - - - -    0    59
+PRMD_PM4_STGCLTSec		-  * *  - - - - -    0    59
+PRMD_PM4_STGWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_STGWLTHour		-  * *  - - - - -    0    23
+PRMD_PM4_STGALTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_STGALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM4_STGRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM4_STGRstTime		"00 / 00 / 00"
+PRMS_PM4_STGRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM4_STGRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM4_STGRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM4_STGRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM4_STGRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM4_STGRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM4_STGRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM4_STGRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM4_STGRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM4_STGRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM4_STGRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM4_STGRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM4_STGRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM4_STGRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM4_STGRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM4_STGRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM4_STGRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM4_STGRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM4_STGRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM4_STGRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  RF Generator
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM4_RFGEn_01		DisableEnable		Disable
+PRMD_PM4_RFGAlarm		NormWarnAlarm		Normal
+PRMD_PM4_RFGReset		OffOn        		Off
+
+PRMD_PM4_RFGCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_RFGCLTHour		-  * *  - - - - -    0    999999999
+PRMD_PM4_RFGCLTMin		-  * *  - - - - -    0    59
+PRMD_PM4_RFGCLTSec		-  * *  - - - - -    0    59
+PRMD_PM4_RFGWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_RFGWLTHour		-  * *  - - - - -    0    9999999
+PRMD_PM4_RFGALTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_RFGALTHour		-  * *  - - - - -    0    9999999
+
+PRMD_PM4_RFGRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM4_RFGRstTime		"00 / 00 / 00"
+PRMS_PM4_RFGRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM4_RFGRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM4_RFGRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM4_RFGRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM4_RFGRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM4_RFGRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM4_RFGRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM4_RFGRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM4_RFGRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM4_RFGRstTime10		"00 / 00 / 00  00:00:00"
+
+#--------------------------------------------------------------------------
+#  DRY Pump Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM4_DPEn_01		DisableEnable		Disable
+PRMD_PM4_DPEn_02		DisableEnable		Disable
+PRMD_PM4_DPAlarm		NormWarnAlarm		Normal
+PRMD_PM4_DPReset		OffOn        		Off
+
+PRMD_PM4_DPCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_DPWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_DPAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM4_DPCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_DPCLTHour		-  * *  - - - - -    0    23
+PRMD_PM4_DPCLTMin		-  * *  - - - - -    0    59
+PRMD_PM4_DPCLTSec		-  * *  - - - - -    0    59
+PRMD_PM4_DPWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_DPWLTHour		-  * *  - - - - -    0    23
+PRMD_PM4_DPALTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_DPALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM4_DPRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM4_DPRstTime		"00 / 00 / 00"
+PRMS_PM4_DPRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DPRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DPRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DPRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DPRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DPRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DPRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DPRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DPRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM4_DPRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM4_DPRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM4_DPRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM4_DPRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM4_DPRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM4_DPRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM4_DPRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM4_DPRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM4_DPRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM4_DPRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM4_DPRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  TRAP Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM4_TRAPEn_01		DisableEnable		Disable
+PRMD_PM4_TRAPEn_02		DisableEnable		Disable
+PRMD_PM4_TRAPAlarm		NormWarnAlarm		Normal
+PRMD_PM4_TRAPReset		OffOn        		Off
+
+PRMD_PM4_TRAPCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_TRAPWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_TRAPAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM4_TRAPCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_TRAPCLTHour		-  * *  - - - - -    0    23
+PRMD_PM4_TRAPCLTMin		-  * *  - - - - -    0    59
+PRMD_PM4_TRAPCLTSec		-  * *  - - - - -    0    59
+PRMD_PM4_TRAPWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_TRAPWLTHour		-  * *  - - - - -    0    23
+PRMD_PM4_TRAPALTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_TRAPALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM4_TRAPRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM4_TRAPRstTime		"00 / 00 / 00"
+PRMS_PM4_TRAPRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM4_TRAPRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM4_TRAPRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM4_TRAPRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM4_TRAPRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM4_TRAPRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM4_TRAPRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM4_TRAPRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM4_TRAPRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM4_TRAPRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM4_TRAPRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM4_TRAPRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM4_TRAPRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM4_TRAPRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM4_TRAPRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM4_TRAPRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM4_TRAPRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM4_TRAPRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM4_TRAPRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM4_TRAPRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Maintenance Period A
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM4_MPAEn_01		DisableEnable		Disable
+PRMD_PM4_MPAEn_02		DisableEnable		Disable
+PRMD_PM4_MPAAlarm		NormWarnAlarm		Normal
+PRMD_PM4_MPAReset		OffOn        		Off
+
+PRMD_PM4_MPACWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_MPAWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_MPAAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM4_MPACLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_MPACLTHour		-  * *  - - - - -    0    23
+PRMD_PM4_MPACLTMin		-  * *  - - - - -    0    59
+PRMD_PM4_MPACLTSec		-  * *  - - - - -    0    59
+PRMD_PM4_MPAWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_MPAWLTHour		-  * *  - - - - -    0    23
+PRMD_PM4_MPAALTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_MPAALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM4_MPARstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM4_MPARstTime		"00 / 00 / 00"
+PRMS_PM4_MPARstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPARstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPARstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPARstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPARstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPARstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPARstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPARstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPARstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPARstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM4_MPARstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPARstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPARstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPARstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPARstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPARstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPARstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPARstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPARstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPARstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Maintenance Period B
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM4_MPBEn_01		DisableEnable		Disable
+PRMD_PM4_MPBEn_02		DisableEnable		Disable
+PRMD_PM4_MPBAlarm		NormWarnAlarm		Normal
+PRMD_PM4_MPBReset		OffOn        		Off
+
+PRMD_PM4_MPBCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_MPBWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_MPBAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM4_MPBCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_MPBCLTHour		-  * *  - - - - -    0    23
+PRMD_PM4_MPBCLTMin		-  * *  - - - - -    0    59
+PRMD_PM4_MPBCLTSec		-  * *  - - - - -    0    59
+PRMD_PM4_MPBWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_MPBWLTHour		-  * *  - - - - -    0    23
+PRMD_PM4_MPBALTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_MPBALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM4_MPBRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM4_MPBRstTime		"00 / 00 / 00"
+PRMS_PM4_MPBRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPBRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPBRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPBRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPBRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPBRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPBRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPBRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPBRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPBRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM4_MPBRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPBRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPBRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPBRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPBRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPBRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPBRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPBRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPBRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPBRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Maintenance Period C
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM4_MPCEn_01		DisableEnable		Disable
+PRMD_PM4_MPCEn_02		DisableEnable		Disable
+PRMD_PM4_MPCAlarm		NormWarnAlarm		Normal
+PRMD_PM4_MPCReset		OffOn        		Off
+
+PRMD_PM4_MPCCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_MPCWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM4_MPCAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM4_MPCCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_MPCCLTHour		-  * *  - - - - -    0    23
+PRMD_PM4_MPCCLTMin		-  * *  - - - - -    0    59
+PRMD_PM4_MPCCLTSec		-  * *  - - - - -    0    59
+PRMD_PM4_MPCWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_MPCWLTHour		-  * *  - - - - -    0    23
+PRMD_PM4_MPCALTDay		-  * *  - - - - -    0    10000
+PRMD_PM4_MPCALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM4_MPCRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM4_MPCRstTime		"00 / 00 / 00"
+PRMS_PM4_MPCRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPCRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPCRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPCRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPCRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPCRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPCRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPCRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPCRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM4_MPCRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM4_MPCRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPCRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPCRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPCRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPCRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPCRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPCRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPCRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPCRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM4_MPCRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  PM5 CTC IO
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#  WET cleaning
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM5_WETEn_01		DisableEnable		Disable
+PRMD_PM5_WETEn_02		DisableEnable		Disable
+PRMD_PM5_WETEn_03		DisableEnable		Disable
+PRMD_PM5_WETAlarm		NormWarnAlarm		Normal
+PRMD_PM5_WETReset		OffOn			Off
+
+PRMD_PM5_WETCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_WETWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_WETAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM5_WETCVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM5_WETWVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM5_WETAVlvCyc		-  * *  - - - - -    0    999999999
+$$$ Analog
+PRMD_PM5_WETCSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM5_WETWSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM5_WETASrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+$$$ Digital
+PRMD_PM5_WETRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM5_WETRstTime		"00 / 00 / 00"
+PRMS_PM5_WETRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM5_WETRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM5_WETRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM5_WETRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM5_WETRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM5_WETRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM5_WETRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM5_WETRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM5_WETRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM5_WETRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM5_WETRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM5_WETRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM5_WETRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM5_WETRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM5_WETRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM5_WETRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM5_WETRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM5_WETRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM5_WETRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM5_WETRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  DRY cleaning
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM5_DRYEn_01		DisableEnable		Disable
+PRMD_PM5_DRYEn_02		DisableEnable		Disable
+PRMD_PM5_DRYEn_03		DisableEnable		Disable
+PRMD_PM5_DRYAlarm		NormWarnAlarm		Normal
+PRMD_PM5_DRYReset		OffOn        		Off
+
+PRMD_PM5_DRYCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_DRYWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_DRYAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM5_DRYCVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM5_DRYWVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM5_DRYAVlvCyc		-  * *  - - - - -    0    999999999
+$$$ Analog
+PRMD_PM5_DRYCSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM5_DRYWSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM5_DRYASrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+$$$ Digital
+PRMD_PM5_DRYRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM5_DRYRstTime		"00 / 00 / 00"
+PRMS_PM5_DRYRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DRYRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DRYRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DRYRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DRYRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DRYRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DRYRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DRYRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DRYRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DRYRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM5_DRYRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM5_DRYRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM5_DRYRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM5_DRYRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM5_DRYRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM5_DRYRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM5_DRYRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM5_DRYRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM5_DRYRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM5_DRYRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Source Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM5_SRCEn_01		DisableEnable		Disable
+PRMD_PM5_SRCEn_02		DisableEnable		Disable
+PRMD_PM5_SRCEn_03		DisableEnable		Disable
+PRMD_PM5_SRCEn_04		DisableEnable		Disable
+PRMD_PM5_SRCAlarm		NormWarnAlarm		Normal
+PRMD_PM5_SRCReset		OffOn			Off
+
+PRMD_PM5_SRCCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_SRCWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_SRCAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM5_SRCCVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM5_SRCWVlvCyc		-  * *  - - - - -    0    999999999
+PRMD_PM5_SRCAVlvCyc		-  * *  - - - - -    0    999999999
+$$$ Analog
+PRMD_PM5_SRCCSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM5_SRCWSrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRMD_PM5_SRCASrcFeed		Scc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+$$$ Digital
+PRMD_PM5_SRCCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_SRCCLTHour		-  * *  - - - - -    0    23
+PRMD_PM5_SRCCLTMin		-  * *  - - - - -    0    59
+PRMD_PM5_SRCCLTSec		-  * *  - - - - -    0    59
+PRMD_PM5_SRCWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_SRCWLTHour		-  * *  - - - - -    0    23
+PRMD_PM5_SRCALTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_SRCALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM5_SRCRstCnt
+
+$$$ String
+PRMS_PM5_SRCRstTime		"00 / 00 / 00"
+PRMS_PM5_SRCRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM5_SRCRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM5_SRCRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM5_SRCRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM5_SRCRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM5_SRCRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM5_SRCRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM5_SRCRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM5_SRCRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM5_SRCRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM5_SRCRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM5_SRCRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM5_SRCRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM5_SRCRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM5_SRCRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM5_SRCRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM5_SRCRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM5_SRCRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM5_SRCRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM5_SRCRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Stage Heater Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM5_STGEn_01		DisableEnable		Disable
+PRMD_PM5_STGEn_02		DisableEnable		Disable
+PRMD_PM5_STGAlarm		NormWarnAlarm		Normal
+PRMD_PM5_STGReset		OffOn        		Off
+
+PRMD_PM5_STGCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_STGWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_STGAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM5_STGCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_STGCLTHour		-  * *  - - - - -    0    23
+PRMD_PM5_STGCLTMin		-  * *  - - - - -    0    59
+PRMD_PM5_STGCLTSec		-  * *  - - - - -    0    59
+PRMD_PM5_STGWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_STGWLTHour		-  * *  - - - - -    0    23
+PRMD_PM5_STGALTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_STGALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM5_STGRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM5_STGRstTime		"00 / 00 / 00"
+PRMS_PM5_STGRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM5_STGRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM5_STGRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM5_STGRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM5_STGRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM5_STGRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM5_STGRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM5_STGRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM5_STGRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM5_STGRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM5_STGRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM5_STGRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM5_STGRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM5_STGRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM5_STGRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM5_STGRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM5_STGRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM5_STGRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM5_STGRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM5_STGRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  RF Generator
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM5_RFGEn_01		DisableEnable		Disable
+PRMD_PM5_RFGAlarm		NormWarnAlarm		Normal
+PRMD_PM5_RFGReset		OffOn        		Off
+
+PRMD_PM5_RFGCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_RFGCLTHour		-  * *  - - - - -    0    999999999
+PRMD_PM5_RFGCLTMin		-  * *  - - - - -    0    59
+PRMD_PM5_RFGCLTSec		-  * *  - - - - -    0    59
+PRMD_PM5_RFGWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_RFGWLTHour		-  * *  - - - - -    0    9999999
+PRMD_PM5_RFGALTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_RFGALTHour		-  * *  - - - - -    0    9999999
+
+PRMD_PM5_RFGRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM5_RFGRstTime		"00 / 00 / 00"
+PRMS_PM5_RFGRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM5_RFGRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM5_RFGRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM5_RFGRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM5_RFGRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM5_RFGRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM5_RFGRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM5_RFGRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM5_RFGRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM5_RFGRstTime10		"00 / 00 / 00  00:00:00"
+
+#--------------------------------------------------------------------------
+#  DRY Pump Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM5_DPEn_01		DisableEnable		Disable
+PRMD_PM5_DPEn_02		DisableEnable		Disable
+PRMD_PM5_DPAlarm		NormWarnAlarm		Normal
+PRMD_PM5_DPReset		OffOn        		Off
+
+PRMD_PM5_DPCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_DPWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_DPAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM5_DPCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_DPCLTHour		-  * *  - - - - -    0    23
+PRMD_PM5_DPCLTMin		-  * *  - - - - -    0    59
+PRMD_PM5_DPCLTSec		-  * *  - - - - -    0    59
+PRMD_PM5_DPWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_DPWLTHour		-  * *  - - - - -    0    23
+PRMD_PM5_DPALTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_DPALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM5_DPRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM5_DPRstTime		"00 / 00 / 00"
+PRMS_PM5_DPRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DPRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DPRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DPRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DPRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DPRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DPRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DPRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DPRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM5_DPRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM5_DPRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM5_DPRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM5_DPRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM5_DPRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM5_DPRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM5_DPRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM5_DPRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM5_DPRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM5_DPRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM5_DPRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  TRAP Exchange
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM5_TRAPEn_01		DisableEnable		Disable
+PRMD_PM5_TRAPEn_02		DisableEnable		Disable
+PRMD_PM5_TRAPAlarm		NormWarnAlarm		Normal
+PRMD_PM5_TRAPReset		OffOn        		Off
+
+PRMD_PM5_TRAPCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_TRAPWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_TRAPAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM5_TRAPCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_TRAPCLTHour		-  * *  - - - - -    0    23
+PRMD_PM5_TRAPCLTMin		-  * *  - - - - -    0    59
+PRMD_PM5_TRAPCLTSec		-  * *  - - - - -    0    59
+PRMD_PM5_TRAPWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_TRAPWLTHour		-  * *  - - - - -    0    23
+PRMD_PM5_TRAPALTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_TRAPALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM5_TRAPRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM5_TRAPRstTime		"00 / 00 / 00"
+PRMS_PM5_TRAPRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM5_TRAPRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM5_TRAPRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM5_TRAPRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM5_TRAPRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM5_TRAPRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM5_TRAPRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM5_TRAPRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM5_TRAPRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM5_TRAPRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM5_TRAPRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM5_TRAPRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM5_TRAPRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM5_TRAPRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM5_TRAPRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM5_TRAPRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM5_TRAPRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM5_TRAPRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM5_TRAPRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM5_TRAPRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Maintenance Period A
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM5_MPAEn_01		DisableEnable		Disable
+PRMD_PM5_MPAEn_02		DisableEnable		Disable
+PRMD_PM5_MPAAlarm		NormWarnAlarm		Normal
+PRMD_PM5_MPAReset		OffOn        		Off
+
+PRMD_PM5_MPACWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_MPAWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_MPAAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM5_MPACLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_MPACLTHour		-  * *  - - - - -    0    23
+PRMD_PM5_MPACLTMin		-  * *  - - - - -    0    59
+PRMD_PM5_MPACLTSec		-  * *  - - - - -    0    59
+PRMD_PM5_MPAWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_MPAWLTHour		-  * *  - - - - -    0    23
+PRMD_PM5_MPAALTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_MPAALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM5_MPARstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM5_MPARstTime		"00 / 00 / 00"
+PRMS_PM5_MPARstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPARstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPARstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPARstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPARstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPARstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPARstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPARstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPARstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPARstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM5_MPARstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPARstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPARstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPARstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPARstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPARstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPARstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPARstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPARstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPARstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Maintenance Period B
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM5_MPBEn_01		DisableEnable		Disable
+PRMD_PM5_MPBEn_02		DisableEnable		Disable
+PRMD_PM5_MPBAlarm		NormWarnAlarm		Normal
+PRMD_PM5_MPBReset		OffOn        		Off
+
+PRMD_PM5_MPBCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_MPBWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_MPBAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM5_MPBCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_MPBCLTHour		-  * *  - - - - -    0    23
+PRMD_PM5_MPBCLTMin		-  * *  - - - - -    0    59
+PRMD_PM5_MPBCLTSec		-  * *  - - - - -    0    59
+PRMD_PM5_MPBWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_MPBWLTHour		-  * *  - - - - -    0    23
+PRMD_PM5_MPBALTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_MPBALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM5_MPBRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM5_MPBRstTime		"00 / 00 / 00"
+PRMS_PM5_MPBRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPBRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPBRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPBRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPBRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPBRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPBRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPBRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPBRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPBRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM5_MPBRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPBRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPBRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPBRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPBRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPBRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPBRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPBRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPBRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPBRstCount10		-  * *  - - - - -    0    999999999
+
+#--------------------------------------------------------------------------
+#  Maintenance Period C
+#--------------------------------------------------------------------------
+$$$ Digital
+PRMD_PM5_MPCEn_01		DisableEnable		Disable
+PRMD_PM5_MPCEn_02		DisableEnable		Disable
+PRMD_PM5_MPCAlarm		NormWarnAlarm		Normal
+PRMD_PM5_MPCReset		OffOn        		Off
+
+PRMD_PM5_MPCCWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_MPCWWfrCnt		-  * *  - - - - -    0    999999999
+PRMD_PM5_MPCAWfrCnt		-  * *  - - - - -    0    999999999
+
+PRMD_PM5_MPCCLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_MPCCLTHour		-  * *  - - - - -    0    23
+PRMD_PM5_MPCCLTMin		-  * *  - - - - -    0    59
+PRMD_PM5_MPCCLTSec		-  * *  - - - - -    0    59
+PRMD_PM5_MPCWLTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_MPCWLTHour		-  * *  - - - - -    0    23
+PRMD_PM5_MPCALTDay		-  * *  - - - - -    0    10000
+PRMD_PM5_MPCALTHour		-  * *  - - - - -    0    23
+
+PRMD_PM5_MPCRstCnt		-  * *  - - - - -    0    999999999
+
+$$$ String
+PRMS_PM5_MPCRstTime		"00 / 00 / 00"
+PRMS_PM5_MPCRstTime01		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPCRstTime02		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPCRstTime03		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPCRstTime04		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPCRstTime05		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPCRstTime06		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPCRstTime07		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPCRstTime08		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPCRstTime09		"00 / 00 / 00  00:00:00"
+PRMS_PM5_MPCRstTime10		"00 / 00 / 00  00:00:00"
+
+$$$ Digital
+PRMS_PM5_MPCRstCount01		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPCRstCount02		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPCRstCount03		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPCRstCount04		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPCRstCount05		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPCRstCount06		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPCRstCount07		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPCRstCount08		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPCRstCount09		-  * *  - - - - -    0    999999999
+PRMS_PM5_MPCRstCount10		-  * *  - - - - -    0    999999999
+
+
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#  Chamber Condition Control IO & PARAMETER
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+
+# Temp IO
+$$$ Digital
+
+PM1.DRY_CLEANING_NEED		OffOn		Off
+PM1.WET_CLEANING_NEED		OffOn		Off
+PM1.PRE_TREATMENT_NEED		OffOn		Off
+
+PM2.DRY_CLEANING_NEED		OffOn		Off
+PM2.WET_CLEANING_NEED		OffOn		Off
+PM2.PRE_TREATMENT_NEED		OffOn		Off
+
+PM3.DRY_CLEANING_NEED		OffOn		Off
+PM3.WET_CLEANING_NEED		OffOn		Off
+PM3.PRE_TREATMENT_NEED		OffOn		Off
+
+PM4.DRY_CLEANING_NEED		OffOn		Off
+PM4.WET_CLEANING_NEED		OffOn		Off
+PM4.PRE_TREATMENT_NEED		OffOn		Off
+
+PM5.DRY_CLEANING_NEED		OffOn		Off
+PM5.WET_CLEANING_NEED		OffOn		Off
+PM5.PRE_TREATMENT_NEED		OffOn		Off
+
+
+#--------------------------------------------------------------------------
+#  PM1 Chamber Condition Control IO & PARAMETER
+#--------------------------------------------------------------------------
+$$$ Digital
+CTC.PM1_CCondition_SAVE		OffOn		Off
+CTC.PM1_CCondition_EDIT		OffOn		Off
+CTC.PM1_CCondition_APPL		OffOn		Off
+
+#ID1 Same File Driver's Key Value Must be unique
+$$$ Digital
+PRMD_PM1_IDLE_TimeD		-  * *  - - - - -    0    999999999
+PRMD_PM1_IDLE_TimeH		-  * *  - - - - -    0    999999999
+PRMD_PM1_IDLE_TimeM		-  * *  - - - - -    0    999999999
+PRMD_PM1_IDLE_TimeS		-  * *  - - - - -    0    999999999
+
+$$$ Digital
+PRMD_PM1_Comp_RunSt_01		-	PARAM1	5	0	0	0	1	PARAM1	5	0	0	0
+PRMD_PM1_Comp_ModeEn_01 DisableEnable	PARAM1	6	0	0	0	1	PARAM1	6	0	0	0
+PRMD_PM1_Comp_TimeD_01		-	-	7	0	0	0	1	-	7	0	0	0
+PRMD_PM1_Comp_TimeH_01		-	-	8	0	0	0	1	-	8	0	0	0
+PRMD_PM1_Comp_TimeM_01		-	-	9	0	0	0	1	-	9	0	0	0
+PRMD_PM1_Comp_TimeS_01		-	-	10	0	0	0	1	-	10	0	0	0
+PRMD_PM1_Comp_RunSt_02		-	-	11	0	0	0	1	-	11	0	0	0
+PRMD_PM1_Comp_ModeEn_02 DisableEnable	Disable
+PRMD_PM1_Comp_TimeD_02		-	-	13	0	0	0	1	-	13	0	0	0
+PRMD_PM1_Comp_TimeH_02		-	-	14	0	0	0	1	-	14	0	0	0
+PRMD_PM1_Comp_TimeM_02		-	-	15	0	0	0	1	-	15	0	0	0
+PRMD_PM1_Comp_TimeS_02		-	-	16	0	0	0	1	-	16	0	0	0
+PRMD_PM1_Comp_RunSt_03		-	PARAM1	17	0	0	0	1	PARAM1	17	0	0	0
+PRMD_PM1_Comp_ModeEn_03	DisableEnable	Disable
+PRMD_PM1_Comp_TimeD_03		-	PARAM1	19	0	0	0	1	PARAM1	19	0	0	0
+PRMD_PM1_Comp_TimeH_03		-	PARAM1	20	0	0	0	1	PARAM1	20	0	0	0
+PRMD_PM1_Comp_TimeM_03		-	PARAM1	21	0	0	0	1	PARAM1	21	0	0	0
+PRMD_PM1_Comp_TimeS_03		-	PARAM1	22	0	0	0	1	PARAM1	22	0	0	0
+PRMD_PM1_Comp_RunSt_04		-	PARAM1	23	0	0	0	1	PARAM1	23	0	0	0
+PRMD_PM1_Comp_ModeEn_04	 DisableEnable	Disable
+PRMD_PM1_Comp_TimeD_04		-	-	25	0	0	0	1	-	25	0	0	0
+PRMD_PM1_Comp_TimeH_04		-	-	26	0	0	0	1	-	26	0	0	0
+PRMD_PM1_Comp_TimeM_04		-	-	27	0	0	0	1	-	27	0	0	0
+PRMD_PM1_Comp_TimeS_04		-	-	28	0	0	0	1	-	28	0	0	0
+#2007.07.04
+PRMD_PM1_Comp_RunSt_05		-	PARAM1	29	0	0	0	1	PARAM1	29	0	0	0
+PRMD_PM1_Comp_ModeEn_05 DisableEnable	Disable
+PRMD_PM1_Comp_TimeD_05		-	-	31	0	0	0	1	-	31	0	0	0
+PRMD_PM1_Comp_TimeH_05		-	-	32	0	0	0	1	-	32	0	0	0
+PRMD_PM1_Comp_TimeM_05		-	-	33	0	0	0	1	-	33	0	0	0
+PRMD_PM1_Comp_TimeS_05		-	-	34	0	0	0	1	-	34	0	0	0
+PRMD_PM1_Comp_RunSt_06		-	PARAM1	35	0	0	0	1	PARAM1	35	0	0	0
+PRMD_PM1_Comp_ModeEn_06	DisableEnable	Disable
+PRMD_PM1_Comp_TimeD_06		-	-	37	0	0	0	1	-	37	0	0	0
+PRMD_PM1_Comp_TimeH_06		-	-	38	0	0	0	1	-	38	0	0	0
+PRMD_PM1_Comp_TimeM_06		-	-	39	0	0	0	1	-	39	0	0	0
+PRMD_PM1_Comp_TimeS_06		-	-	40	0	0	0	1	-	40	0	0	0
+PRMD_PM1_Comp_RunSt_07		-	PARAM1	41	0	0	0	1	PARAM1	41	0	0	0
+PRMD_PM1_Comp_ModeEn_07	DisableEnable	Disable
+PRMD_PM1_Comp_TimeD_07		-	-	43	0	0	0	1	-	43	0	0	0
+PRMD_PM1_Comp_TimeH_07		-	-	44	0	0	0	1	-	44	0	0	0
+PRMD_PM1_Comp_TimeM_07		-	-	45	0	0	0	1	-	45	0	0	0
+PRMD_PM1_Comp_TimeS_07		-	-	46	0	0	0	1	-	46	0	0	0
+#End 2007.07.04
+PRMD_PM1_Leaf_AuEn_01	DisableEnable	Enable
+PRMD_PM1_Leaf_RunSt_01		-	PARAM1	48	0	0	0	1	PARAM1	48	0	0	0
+PRMD_PM1_Leaf_AuEn_02	DisableEnable	Disable
+PRMD_PM1_Leaf_RunSt_02		-	PARAM1	50	0	0	0	1	PARAM1	50	0	0	0
+PRMD_PM1_Leaf_AuEn_03	DisableEnable	Enable
+PRMD_PM1_Leaf_RunSt_03		-	PARAM1	52	0	0	0	1	PARAM1	52	0	0	0
+PRMD_PM1_Leaf_AuEn_04	DisableEnable	Enable
+PRMD_PM1_Leaf_RunSt_04		-	PARAM1	54	0	0	0	1	PARAM1	54	0	0	0
+PRMD_PM1_Leaf_AuEn_05	DisableEnable	PARAM1	55	0	0	0	1	PARAM1	55	0	0	0
+PRMD_PM1_Leaf_RunSt_05		-	PARAM1	56	0	0	0	1	PARAM1	56	0	0	0
+PRMD_PM1_Leaf_AuEn_06	DisableEnable	Disable
+PRMD_PM1_Leaf_RunSt_06		-	PARAM1	58	0	0	0	1	PARAM1	58	0	0	0
+#2007.07.04
+PRMD_PM1_Leaf_AuEn_07	DisableEnable	Enable
+PRMD_PM1_Leaf_RunSt_07		-	PARAM1	60	0	0	0	1	PARAM1	60	0	0	0
+PRMD_PM1_Leaf_AuEn_08	DisableEnable	Enable
+PRMD_PM1_Leaf_RunSt_08		-	PARAM1	62	0	0	0	1	PARAM1	62	0	0	0
+PRMD_PM1_Leaf_AuEn_09	DisableEnable	Enable
+PRMD_PM1_Leaf_RunSt_09		-	PARAM1	64	0	0	0	1	PARAM1	64	0	0	0
+PRMD_PM1_Leaf_AuEn_10	DisableEnable	Enable
+PRMD_PM1_Leaf_RunSt_10		-	PARAM1	66	0	0	0	1	PARAM1	66	0	0	0
+PRMD_PM1_Leaf_AuEn_11	DisableEnable	Enable
+PRMD_PM1_Leaf_RunSt_11		-	PARAM1	68	0	0	0	1	PARAM1	68	0	0	0
+PRMD_PM1_Leaf_AuEn_12	DisableEnable	Enable
+PRMD_PM1_Leaf_RunSt_12		-	PARAM1	70	0	0	0	1	PARAM1	70	0	0	0
+#END 2007.07.04
+
+#2014.10.19 Add AutoCycleClean
+PRMD_PM1_AutoCycUse	DisableEnable	PARAM1	71	0	0	0	1	PARAM1	71	0	0	0
+PRMD_PM1_AutoCycTmH	-		PARAM1	72	0	0	0	1	PARAM1	72	0	0	0
+PRMD_PM1_AutoCycTmM	-		PARAM1	73	0	0	0	1	PARAM1	73	0	0	0
+PRMD_PM1_AutoCycRun	CycClnRunEnum	PARAM1	74	0	0	0	1	PARAM1	74	0	0	0
+PRMD_PM1_AutoCycStop	CycClnStpEnum	Idle
+
+$$$ String
+PRMS_PM1_Leaf_Rcp_01		PARAM1	200	1	PARAM1	200
+PRMS_PM1_Leaf_Rcp_02		PARAM1	201	1	PARAM1	201
+PRMS_PM1_Leaf_Rcp_03		PARAM1	202	1	PARAM1	202
+PRMS_PM1_Leaf_Rcp_04		PARAM1	203	1	PARAM1	203
+PRMS_PM1_Leaf_Rcp_05		PARAM1	204	1	PARAM1	204
+PRMS_PM1_Leaf_Rcp_06		PARAM1	205	1	PARAM1	205
+#2007.07.04
+PRMS_PM1_Leaf_Rcp_07		PARAM1	206	1	PARAM1	206
+PRMS_PM1_Leaf_Rcp_08		PARAM1	207	1	PARAM1	207
+PRMS_PM1_Leaf_Rcp_09		PARAM1	208	1	PARAM1	208
+PRMS_PM1_Leaf_Rcp_10		PARAM1	209	1	PARAM1	209
+PRMS_PM1_Leaf_Rcp_11		PARAM1	210	1	PARAM1	210
+PRMS_PM1_Leaf_Rcp_12		PARAM1	211	1	PARAM1	211
+#END 2007.07.04
+
+#2014.10.19 Add AutoCycleClean
+PRMS_PM1_AutoCycRcp		PARAM1	212	1	PARAM1	212
+
+#--------------------------------------------------------------------------
+#  PM2 Chamber Condition Control IO & PARAMETER
+#--------------------------------------------------------------------------
+$$$ Digital
+CTC.PM2_CCondition_SAVE		OffOn		Off
+CTC.PM2_CCondition_EDIT		OffOn		Off
+CTC.PM2_CCondition_APPL		OffOn		Off
+
+#ID1 Same File Driver's Key Value Must be unique
+$$$ Digital
+PRMD_PM2_IDLE_TimeD		-  * *  - - - - -    0    999999999
+PRMD_PM2_IDLE_TimeH		-  * *  - - - - -    0    999999999
+PRMD_PM2_IDLE_TimeM		-  * *  - - - - -    0    999999999
+PRMD_PM2_IDLE_TimeS		-  * *  - - - - -    0    999999999
+
+$$$ Digital
+PRMD_PM2_Comp_RunSt_01		-	PARAM2	5	0	0	0	1	PARAM2	5	0	0	0
+PRMD_PM2_Comp_ModeEn_01 DisableEnable	PARAM2	6	0	0	0	1	PARAM2	6	0	0	0
+PRMD_PM2_Comp_TimeD_01		-	-	7	0	0	0	1	-	7	0	0	0
+PRMD_PM2_Comp_TimeH_01		-	-	8	0	0	0	1	-	8	0	0	0
+PRMD_PM2_Comp_TimeM_01		-	-	9	0	0	0	1	-	9	0	0	0
+PRMD_PM2_Comp_TimeS_01		-	-	10	0	0	0	1	-	10	0	0	0
+PRMD_PM2_Comp_RunSt_02		-	-	11	0	0	0	1	-	11	0	0	0
+PRMD_PM2_Comp_ModeEn_02 DisableEnable	Disable
+PRMD_PM2_Comp_TimeD_02		-	-	13	0	0	0	1	-	13	0	0	0
+PRMD_PM2_Comp_TimeH_02		-	-	14	0	0	0	1	-	14	0	0	0
+PRMD_PM2_Comp_TimeM_02		-	-	15	0	0	0	1	-	15	0	0	0
+PRMD_PM2_Comp_TimeS_02		-	-	16	0	0	0	1	-	16	0	0	0
+PRMD_PM2_Comp_RunSt_03		-	PARAM2	17	0	0	0	1	PARAM2	17	0	0	0
+PRMD_PM2_Comp_ModeEn_03	DisableEnable	Disable
+PRMD_PM2_Comp_TimeD_03		-	PARAM2	19	0	0	0	1	PARAM2	19	0	0	0
+PRMD_PM2_Comp_TimeH_03		-	PARAM2	20	0	0	0	1	PARAM2	20	0	0	0
+PRMD_PM2_Comp_TimeM_03		-	PARAM2	21	0	0	0	1	PARAM2	21	0	0	0
+PRMD_PM2_Comp_TimeS_03		-	PARAM2	22	0	0	0	1	PARAM2	22	0	0	0
+PRMD_PM2_Comp_RunSt_04		-	PARAM2	23	0	0	0	1	PARAM2	23	0	0	0
+PRMD_PM2_Comp_ModeEn_04	 DisableEnable	Disable
+PRMD_PM2_Comp_TimeD_04		-	-	25	0	0	0	1	-	25	0	0	0
+PRMD_PM2_Comp_TimeH_04		-	-	26	0	0	0	1	-	26	0	0	0
+PRMD_PM2_Comp_TimeM_04		-	-	27	0	0	0	1	-	27	0	0	0
+PRMD_PM2_Comp_TimeS_04		-	-	28	0	0	0	1	-	28	0	0	0
+#2007.07.04
+PRMD_PM2_Comp_RunSt_05		-	PARAM2	29	0	0	0	1	PARAM2	29	0	0	0
+PRMD_PM2_Comp_ModeEn_05 DisableEnable	Disable
+PRMD_PM2_Comp_TimeD_05		-	-	31	0	0	0	1	-	31	0	0	0
+PRMD_PM2_Comp_TimeH_05		-	-	32	0	0	0	1	-	32	0	0	0
+PRMD_PM2_Comp_TimeM_05		-	-	33	0	0	0	1	-	33	0	0	0
+PRMD_PM2_Comp_TimeS_05		-	-	34	0	0	0	1	-	34	0	0	0
+PRMD_PM2_Comp_RunSt_06		-	PARAM2	35	0	0	0	1	PARAM2	35	0	0	0
+PRMD_PM2_Comp_ModeEn_06	DisableEnable	Disable
+PRMD_PM2_Comp_TimeD_06		-	-	37	0	0	0	1	-	37	0	0	0
+PRMD_PM2_Comp_TimeH_06		-	-	38	0	0	0	1	-	38	0	0	0
+PRMD_PM2_Comp_TimeM_06		-	-	39	0	0	0	1	-	39	0	0	0
+PRMD_PM2_Comp_TimeS_06		-	-	40	0	0	0	1	-	40	0	0	0
+PRMD_PM2_Comp_RunSt_07		-	PARAM2	41	0	0	0	1	PARAM2	41	0	0	0
+PRMD_PM2_Comp_ModeEn_07	DisableEnable	Disable
+PRMD_PM2_Comp_TimeD_07		-	-	43	0	0	0	1	-	43	0	0	0
+PRMD_PM2_Comp_TimeH_07		-	-	44	0	0	0	1	-	44	0	0	0
+PRMD_PM2_Comp_TimeM_07		-	-	45	0	0	0	1	-	45	0	0	0
+PRMD_PM2_Comp_TimeS_07		-	-	46	0	0	0	1	-	46	0	0	0
+#End 2007.07.04
+PRMD_PM2_Leaf_AuEn_01	DisableEnable	Enable
+PRMD_PM2_Leaf_RunSt_01		-	PARAM2	48	0	0	0	1	PARAM2	48	0	0	0
+PRMD_PM2_Leaf_AuEn_02	DisableEnable	Disable
+PRMD_PM2_Leaf_RunSt_02		-	PARAM2	50	0	0	0	1	PARAM2	50	0	0	0
+PRMD_PM2_Leaf_AuEn_03	DisableEnable	Enable
+PRMD_PM2_Leaf_RunSt_03		-	PARAM2	52	0	0	0	1	PARAM2	52	0	0	0
+PRMD_PM2_Leaf_AuEn_04	DisableEnable	Enable
+PRMD_PM2_Leaf_RunSt_04		-	PARAM2	54	0	0	0	1	PARAM2	54	0	0	0
+PRMD_PM2_Leaf_AuEn_05	DisableEnable	PARAM2	55	0	0	0	1	PARAM2	55	0	0	0
+PRMD_PM2_Leaf_RunSt_05		-	PARAM2	56	0	0	0	1	PARAM2	56	0	0	0
+PRMD_PM2_Leaf_AuEn_06	DisableEnable	Disable
+PRMD_PM2_Leaf_RunSt_06		-	PARAM2	58	0	0	0	1	PARAM2	58	0	0	0
+#2007.07.04
+PRMD_PM2_Leaf_AuEn_07	DisableEnable	Enable
+PRMD_PM2_Leaf_RunSt_07		-	PARAM2	60	0	0	0	1	PARAM2	60	0	0	0
+PRMD_PM2_Leaf_AuEn_08	DisableEnable	Enable
+PRMD_PM2_Leaf_RunSt_08		-	PARAM2	62	0	0	0	1	PARAM2	62	0	0	0
+PRMD_PM2_Leaf_AuEn_09	DisableEnable	Enable
+PRMD_PM2_Leaf_RunSt_09		-	PARAM2	64	0	0	0	1	PARAM2	64	0	0	0
+PRMD_PM2_Leaf_AuEn_10	DisableEnable	Enable
+PRMD_PM2_Leaf_RunSt_10		-	PARAM2	66	0	0	0	1	PARAM2	66	0	0	0
+PRMD_PM2_Leaf_AuEn_11	DisableEnable	Enable
+PRMD_PM2_Leaf_RunSt_11		-	PARAM2	68	0	0	0	1	PARAM2	68	0	0	0
+PRMD_PM2_Leaf_AuEn_12	DisableEnable	Enable
+PRMD_PM2_Leaf_RunSt_12		-	PARAM2	70	0	0	0	1	PARAM2	70	0	0	0
+#END 2007.07.04
+
+#2014.10.19 Add AutoCycleClean
+PRMD_PM2_AutoCycUse	DisableEnable	PARAM2	71	0	0	0	1	PARAM2	71	0	0	0
+PRMD_PM2_AutoCycTmH	-		PARAM2	72	0	0	0	1	PARAM2	72	0	0	0
+PRMD_PM2_AutoCycTmM	-		PARAM2	73	0	0	0	1	PARAM2	73	0	0	0
+PRMD_PM2_AutoCycRun	CycClnRunEnum	PARAM2	74	0	0	0	1	PARAM2	74	0	0	0
+PRMD_PM2_AutoCycStop	CycClnStpEnum	Idle
+
+$$$ String
+PRMS_PM2_Leaf_Rcp_01		PARAM2	200	1	PARAM2	200
+PRMS_PM2_Leaf_Rcp_02		PARAM2	201	1	PARAM2	201
+PRMS_PM2_Leaf_Rcp_03		PARAM2	202	1	PARAM2	202
+PRMS_PM2_Leaf_Rcp_04		PARAM2	203	1	PARAM2	203
+PRMS_PM2_Leaf_Rcp_05		PARAM2	204	1	PARAM2	204
+PRMS_PM2_Leaf_Rcp_06		PARAM2	205	1	PARAM2	205
+#2007.07.04
+PRMS_PM2_Leaf_Rcp_07		PARAM2	206	1	PARAM2	206
+PRMS_PM2_Leaf_Rcp_08		PARAM2	207	1	PARAM2	207
+PRMS_PM2_Leaf_Rcp_09		PARAM2	208	1	PARAM2	208
+PRMS_PM2_Leaf_Rcp_10		PARAM2	209	1	PARAM2	209
+PRMS_PM2_Leaf_Rcp_11		PARAM2	210	1	PARAM2	210
+PRMS_PM2_Leaf_Rcp_12		PARAM2	211	1	PARAM2	211
+#END 2007.07.04
+
+#2014.10.19 Add AutoCycleClean
+PRMS_PM2_AutoCycRcp		PARAM2	212	1	PARAM2	212
+
+#--------------------------------------------------------------------------
+#  PM3 Chamber Condition Control IO & PARAMETER
+#--------------------------------------------------------------------------
+$$$ Digital
+CTC.PM3_CCondition_SAVE		OffOn		Off
+CTC.PM3_CCondition_EDIT		OffOn		Off
+CTC.PM3_CCondition_APPL		OffOn		Off
+
+#ID1 Same File Driver's Key Value Must be unique
+$$$ Digital
+PRMD_PM3_IDLE_TimeD		-  * *  - - - - -    0    999999999
+PRMD_PM3_IDLE_TimeH		-  * *  - - - - -    0    999999999
+PRMD_PM3_IDLE_TimeM		-  * *  - - - - -    0    999999999
+PRMD_PM3_IDLE_TimeS		-  * *  - - - - -    0    999999999
+
+$$$ Digital
+PRMD_PM3_Comp_RunSt_01		-	PARAM3	5	0	0	0	1	PARAM3	5	0	0	0
+PRMD_PM3_Comp_ModeEn_01 DisableEnable	PARAM3	6	0	0	0	1	PARAM3	6	0	0	0
+PRMD_PM3_Comp_TimeD_01		-	-	7	0	0	0	1	-	7	0	0	0
+PRMD_PM3_Comp_TimeH_01		-	-	8	0	0	0	1	-	8	0	0	0
+PRMD_PM3_Comp_TimeM_01		-	-	9	0	0	0	1	-	9	0	0	0
+PRMD_PM3_Comp_TimeS_01		-	-	10	0	0	0	1	-	10	0	0	0
+PRMD_PM3_Comp_RunSt_02		-	-	11	0	0	0	1	-	11	0	0	0
+PRMD_PM3_Comp_ModeEn_02 DisableEnable	Disable
+PRMD_PM3_Comp_TimeD_02		-	-	13	0	0	0	1	-	13	0	0	0
+PRMD_PM3_Comp_TimeH_02		-	-	14	0	0	0	1	-	14	0	0	0
+PRMD_PM3_Comp_TimeM_02		-	-	15	0	0	0	1	-	15	0	0	0
+PRMD_PM3_Comp_TimeS_02		-	-	16	0	0	0	1	-	16	0	0	0
+PRMD_PM3_Comp_RunSt_03		-	PARAM3	17	0	0	0	1	PARAM3	17	0	0	0
+PRMD_PM3_Comp_ModeEn_03	DisableEnable	Disable
+PRMD_PM3_Comp_TimeD_03		-	PARAM3	19	0	0	0	1	PARAM3	19	0	0	0
+PRMD_PM3_Comp_TimeH_03		-	PARAM3	20	0	0	0	1	PARAM3	20	0	0	0
+PRMD_PM3_Comp_TimeM_03		-	PARAM3	21	0	0	0	1	PARAM3	21	0	0	0
+PRMD_PM3_Comp_TimeS_03		-	PARAM3	22	0	0	0	1	PARAM3	22	0	0	0
+PRMD_PM3_Comp_RunSt_04		-	PARAM3	23	0	0	0	1	PARAM3	23	0	0	0
+PRMD_PM3_Comp_ModeEn_04	 DisableEnable	Disable
+PRMD_PM3_Comp_TimeD_04		-	-	25	0	0	0	1	-	25	0	0	0
+PRMD_PM3_Comp_TimeH_04		-	-	26	0	0	0	1	-	26	0	0	0
+PRMD_PM3_Comp_TimeM_04		-	-	27	0	0	0	1	-	27	0	0	0
+PRMD_PM3_Comp_TimeS_04		-	-	28	0	0	0	1	-	28	0	0	0
+#2007.07.04
+PRMD_PM3_Comp_RunSt_05		-	PARAM3	29	0	0	0	1	PARAM3	29	0	0	0
+PRMD_PM3_Comp_ModeEn_05 DisableEnable	Disable
+PRMD_PM3_Comp_TimeD_05		-	-	31	0	0	0	1	-	31	0	0	0
+PRMD_PM3_Comp_TimeH_05		-	-	32	0	0	0	1	-	32	0	0	0
+PRMD_PM3_Comp_TimeM_05		-	-	33	0	0	0	1	-	33	0	0	0
+PRMD_PM3_Comp_TimeS_05		-	-	34	0	0	0	1	-	34	0	0	0
+PRMD_PM3_Comp_RunSt_06		-	PARAM3	35	0	0	0	1	PARAM3	35	0	0	0
+PRMD_PM3_Comp_ModeEn_06	DisableEnable	Disable
+PRMD_PM3_Comp_TimeD_06		-	-	37	0	0	0	1	-	37	0	0	0
+PRMD_PM3_Comp_TimeH_06		-	-	38	0	0	0	1	-	38	0	0	0
+PRMD_PM3_Comp_TimeM_06		-	-	39	0	0	0	1	-	39	0	0	0
+PRMD_PM3_Comp_TimeS_06		-	-	40	0	0	0	1	-	40	0	0	0
+PRMD_PM3_Comp_RunSt_07		-	PARAM3	41	0	0	0	1	PARAM3	41	0	0	0
+PRMD_PM3_Comp_ModeEn_07	DisableEnable	Disable
+PRMD_PM3_Comp_TimeD_07		-	-	43	0	0	0	1	-	43	0	0	0
+PRMD_PM3_Comp_TimeH_07		-	-	44	0	0	0	1	-	44	0	0	0
+PRMD_PM3_Comp_TimeM_07		-	-	45	0	0	0	1	-	45	0	0	0
+PRMD_PM3_Comp_TimeS_07		-	-	46	0	0	0	1	-	46	0	0	0
+#End 2007.07.04
+PRMD_PM3_Leaf_AuEn_01	DisableEnable	Enable
+PRMD_PM3_Leaf_RunSt_01		-	PARAM3	48	0	0	0	1	PARAM3	48	0	0	0
+PRMD_PM3_Leaf_AuEn_02	DisableEnable	Disable
+PRMD_PM3_Leaf_RunSt_02		-	PARAM3	50	0	0	0	1	PARAM3	50	0	0	0
+PRMD_PM3_Leaf_AuEn_03	DisableEnable	Enable
+PRMD_PM3_Leaf_RunSt_03		-	PARAM3	52	0	0	0	1	PARAM3	52	0	0	0
+PRMD_PM3_Leaf_AuEn_04	DisableEnable	Enable
+PRMD_PM3_Leaf_RunSt_04		-	PARAM3	54	0	0	0	1	PARAM3	54	0	0	0
+PRMD_PM3_Leaf_AuEn_05	DisableEnable	PARAM3	55	0	0	0	1	PARAM3	55	0	0	0
+PRMD_PM3_Leaf_RunSt_05		-	PARAM3	56	0	0	0	1	PARAM3	56	0	0	0
+PRMD_PM3_Leaf_AuEn_06	DisableEnable	Disable
+PRMD_PM3_Leaf_RunSt_06		-	PARAM3	58	0	0	0	1	PARAM3	58	0	0	0
+#2007.07.04
+PRMD_PM3_Leaf_AuEn_07	DisableEnable	Enable
+PRMD_PM3_Leaf_RunSt_07		-	PARAM3	60	0	0	0	1	PARAM3	60	0	0	0
+PRMD_PM3_Leaf_AuEn_08	DisableEnable	Enable
+PRMD_PM3_Leaf_RunSt_08		-	PARAM3	62	0	0	0	1	PARAM3	62	0	0	0
+PRMD_PM3_Leaf_AuEn_09	DisableEnable	Enable
+PRMD_PM3_Leaf_RunSt_09		-	PARAM3	64	0	0	0	1	PARAM3	64	0	0	0
+PRMD_PM3_Leaf_AuEn_10	DisableEnable	Enable
+PRMD_PM3_Leaf_RunSt_10		-	PARAM3	66	0	0	0	1	PARAM3	66	0	0	0
+PRMD_PM3_Leaf_AuEn_11	DisableEnable	Enable
+PRMD_PM3_Leaf_RunSt_11		-	PARAM3	68	0	0	0	1	PARAM3	68	0	0	0
+PRMD_PM3_Leaf_AuEn_12	DisableEnable	Enable
+PRMD_PM3_Leaf_RunSt_12		-	PARAM3	70	0	0	0	1	PARAM3	70	0	0	0
+#END 2007.07.04
+
+#2014.10.19 Add AutoCycleClean
+PRMD_PM3_AutoCycUse	DisableEnable	PARAM3	71	0	0	0	1	PARAM3	71	0	0	0
+PRMD_PM3_AutoCycTmH	-		PARAM3	72	0	0	0	1	PARAM3	72	0	0	0
+PRMD_PM3_AutoCycTmM	-		PARAM3	73	0	0	0	1	PARAM3	73	0	0	0
+PRMD_PM3_AutoCycRun	CycClnRunEnum	PARAM3	74	0	0	0	1	PARAM3	74	0	0	0
+PRMD_PM3_AutoCycStop	CycClnStpEnum	Idle
+
+$$$ String
+PRMS_PM3_Leaf_Rcp_01		PARAM3	200	1	PARAM3	200
+PRMS_PM3_Leaf_Rcp_02		PARAM3	201	1	PARAM3	201
+PRMS_PM3_Leaf_Rcp_03		PARAM3	202	1	PARAM3	202
+PRMS_PM3_Leaf_Rcp_04		PARAM3	203	1	PARAM3	203
+PRMS_PM3_Leaf_Rcp_05		PARAM3	204	1	PARAM3	204
+PRMS_PM3_Leaf_Rcp_06		PARAM3	205	1	PARAM3	205
+#2007.07.04
+PRMS_PM3_Leaf_Rcp_07		PARAM3	206	1	PARAM3	206
+PRMS_PM3_Leaf_Rcp_08		PARAM3	207	1	PARAM3	207
+PRMS_PM3_Leaf_Rcp_09		PARAM3	208	1	PARAM3	208
+PRMS_PM3_Leaf_Rcp_10		PARAM3	209	1	PARAM3	209
+PRMS_PM3_Leaf_Rcp_11		PARAM3	210	1	PARAM3	210
+PRMS_PM3_Leaf_Rcp_12		PARAM3	211	1	PARAM3	211
+#END 2007.07.04
+
+#2014.10.19 Add AutoCycleClean
+PRMS_PM3_AutoCycRcp		PARAM3	212	1	PARAM3	212
+
+#--------------------------------------------------------------------------
+#  PM4 Chamber Condition Control IO & PARAMETER
+#--------------------------------------------------------------------------
+$$$ Digital
+CTC.PM4_CCondition_SAVE		OffOn		Off
+CTC.PM4_CCondition_EDIT		OffOn		Off
+CTC.PM4_CCondition_APPL		OffOn		Off
+
+#ID1 Same File Driver's Key Value Must be unique
+$$$ Digital
+PRMD_PM4_IDLE_TimeD		-  * *  - - - - -    0    999999999
+PRMD_PM4_IDLE_TimeH		-  * *  - - - - -    0    999999999
+PRMD_PM4_IDLE_TimeM		-  * *  - - - - -    0    999999999
+PRMD_PM4_IDLE_TimeS		-  * *  - - - - -    0    999999999
+
+$$$ Digital
+PRMD_PM4_Comp_RunSt_01		-	PARAM4	5	0	0	0	1	PARAM4	5	0	0	0
+PRMD_PM4_Comp_ModeEn_01 DisableEnable	PARAM4	6	0	0	0	1	PARAM4	6	0	0	0
+PRMD_PM4_Comp_TimeD_01		-	-	7	0	0	0	1	-	7	0	0	0
+PRMD_PM4_Comp_TimeH_01		-	-	8	0	0	0	1	-	8	0	0	0
+PRMD_PM4_Comp_TimeM_01		-	-	9	0	0	0	1	-	9	0	0	0
+PRMD_PM4_Comp_TimeS_01		-	-	10	0	0	0	1	-	10	0	0	0
+PRMD_PM4_Comp_RunSt_02		-	-	11	0	0	0	1	-	11	0	0	0
+PRMD_PM4_Comp_ModeEn_02 DisableEnable	Disable
+PRMD_PM4_Comp_TimeD_02		-	-	13	0	0	0	1	-	13	0	0	0
+PRMD_PM4_Comp_TimeH_02		-	-	14	0	0	0	1	-	14	0	0	0
+PRMD_PM4_Comp_TimeM_02		-	-	15	0	0	0	1	-	15	0	0	0
+PRMD_PM4_Comp_TimeS_02		-	-	16	0	0	0	1	-	16	0	0	0
+PRMD_PM4_Comp_RunSt_03		-	PARAM4	17	0	0	0	1	PARAM4	17	0	0	0
+PRMD_PM4_Comp_ModeEn_03	DisableEnable	Disable
+PRMD_PM4_Comp_TimeD_03		-	PARAM4	19	0	0	0	1	PARAM4	19	0	0	0
+PRMD_PM4_Comp_TimeH_03		-	PARAM4	20	0	0	0	1	PARAM4	20	0	0	0
+PRMD_PM4_Comp_TimeM_03		-	PARAM4	21	0	0	0	1	PARAM4	21	0	0	0
+PRMD_PM4_Comp_TimeS_03		-	PARAM4	22	0	0	0	1	PARAM4	22	0	0	0
+PRMD_PM4_Comp_RunSt_04		-	PARAM4	23	0	0	0	1	PARAM4	23	0	0	0
+PRMD_PM4_Comp_ModeEn_04	 DisableEnable	Disable
+PRMD_PM4_Comp_TimeD_04		-	-	25	0	0	0	1	-	25	0	0	0
+PRMD_PM4_Comp_TimeH_04		-	-	26	0	0	0	1	-	26	0	0	0
+PRMD_PM4_Comp_TimeM_04		-	-	27	0	0	0	1	-	27	0	0	0
+PRMD_PM4_Comp_TimeS_04		-	-	28	0	0	0	1	-	28	0	0	0
+#2007.07.04
+PRMD_PM4_Comp_RunSt_05		-	PARAM4	29	0	0	0	1	PARAM4	29	0	0	0
+PRMD_PM4_Comp_ModeEn_05 DisableEnable	Disable
+PRMD_PM4_Comp_TimeD_05		-	-	31	0	0	0	1	-	31	0	0	0
+PRMD_PM4_Comp_TimeH_05		-	-	32	0	0	0	1	-	32	0	0	0
+PRMD_PM4_Comp_TimeM_05		-	-	33	0	0	0	1	-	33	0	0	0
+PRMD_PM4_Comp_TimeS_05		-	-	34	0	0	0	1	-	34	0	0	0
+PRMD_PM4_Comp_RunSt_06		-	PARAM4	35	0	0	0	1	PARAM4	35	0	0	0
+PRMD_PM4_Comp_ModeEn_06	DisableEnable	Disable
+PRMD_PM4_Comp_TimeD_06		-	-	37	0	0	0	1	-	37	0	0	0
+PRMD_PM4_Comp_TimeH_06		-	-	38	0	0	0	1	-	38	0	0	0
+PRMD_PM4_Comp_TimeM_06		-	-	39	0	0	0	1	-	39	0	0	0
+PRMD_PM4_Comp_TimeS_06		-	-	40	0	0	0	1	-	40	0	0	0
+PRMD_PM4_Comp_RunSt_07		-	PARAM4	41	0	0	0	1	PARAM4	41	0	0	0
+PRMD_PM4_Comp_ModeEn_07	DisableEnable	Disable
+PRMD_PM4_Comp_TimeD_07		-	-	43	0	0	0	1	-	43	0	0	0
+PRMD_PM4_Comp_TimeH_07		-	-	44	0	0	0	1	-	44	0	0	0
+PRMD_PM4_Comp_TimeM_07		-	-	45	0	0	0	1	-	45	0	0	0
+PRMD_PM4_Comp_TimeS_07		-	-	46	0	0	0	1	-	46	0	0	0
+#End 2007.07.04
+PRMD_PM4_Leaf_AuEn_01	DisableEnable	Enable
+PRMD_PM4_Leaf_RunSt_01		-	PARAM4	48	0	0	0	1	PARAM4	48	0	0	0
+PRMD_PM4_Leaf_AuEn_02	DisableEnable	Disable
+PRMD_PM4_Leaf_RunSt_02		-	PARAM4	50	0	0	0	1	PARAM4	50	0	0	0
+PRMD_PM4_Leaf_AuEn_03	DisableEnable	Enable
+PRMD_PM4_Leaf_RunSt_03		-	PARAM4	52	0	0	0	1	PARAM4	52	0	0	0
+PRMD_PM4_Leaf_AuEn_04	DisableEnable	Enable
+PRMD_PM4_Leaf_RunSt_04		-	PARAM4	54	0	0	0	1	PARAM4	54	0	0	0
+PRMD_PM4_Leaf_AuEn_05	DisableEnable	PARAM4	55	0	0	0	1	PARAM4	55	0	0	0
+PRMD_PM4_Leaf_RunSt_05		-	PARAM4	56	0	0	0	1	PARAM4	56	0	0	0
+PRMD_PM4_Leaf_AuEn_06	DisableEnable	Disable
+PRMD_PM4_Leaf_RunSt_06		-	PARAM4	58	0	0	0	1	PARAM4	58	0	0	0
+#2007.07.04
+PRMD_PM4_Leaf_AuEn_07	DisableEnable	Enable
+PRMD_PM4_Leaf_RunSt_07		-	PARAM4	60	0	0	0	1	PARAM4	60	0	0	0
+PRMD_PM4_Leaf_AuEn_08	DisableEnable	Enable
+PRMD_PM4_Leaf_RunSt_08		-	PARAM4	62	0	0	0	1	PARAM4	62	0	0	0
+PRMD_PM4_Leaf_AuEn_09	DisableEnable	Enable
+PRMD_PM4_Leaf_RunSt_09		-	PARAM4	64	0	0	0	1	PARAM4	64	0	0	0
+PRMD_PM4_Leaf_AuEn_10	DisableEnable	Enable
+PRMD_PM4_Leaf_RunSt_10		-	PARAM4	66	0	0	0	1	PARAM4	66	0	0	0
+PRMD_PM4_Leaf_AuEn_11	DisableEnable	Enable
+PRMD_PM4_Leaf_RunSt_11		-	PARAM4	68	0	0	0	1	PARAM4	68	0	0	0
+PRMD_PM4_Leaf_AuEn_12	DisableEnable	Enable
+PRMD_PM4_Leaf_RunSt_12		-	PARAM4	70	0	0	0	1	PARAM4	70	0	0	0
+#END 2007.07.04
+
+$$$ String
+PRMS_PM4_Leaf_Rcp_01		PARAM4	200	1	PARAM4	200
+PRMS_PM4_Leaf_Rcp_02		PARAM4	201	1	PARAM4	201
+PRMS_PM4_Leaf_Rcp_03		PARAM4	202	1	PARAM4	202
+PRMS_PM4_Leaf_Rcp_04		PARAM4	203	1	PARAM4	203
+PRMS_PM4_Leaf_Rcp_05		PARAM4	204	1	PARAM4	204
+PRMS_PM4_Leaf_Rcp_06		PARAM4	205	1	PARAM4	205
+#2007.07.04
+PRMS_PM4_Leaf_Rcp_07		PARAM4	206	1	PARAM4	206
+PRMS_PM4_Leaf_Rcp_08		PARAM4	207	1	PARAM4	207
+PRMS_PM4_Leaf_Rcp_09		PARAM4	208	1	PARAM4	208
+PRMS_PM4_Leaf_Rcp_10		PARAM4	209	1	PARAM4	209
+PRMS_PM4_Leaf_Rcp_11		PARAM4	210	1	PARAM4	210
+PRMS_PM4_Leaf_Rcp_12		PARAM4	211	1	PARAM4	211
+#END 2007.07.04
+
+#--------------------------------------------------------------------------
+#  PM5 Chamber Condition Control IO & PARAMETER
+#--------------------------------------------------------------------------
+$$$ Digital
+CTC.PM5_CCondition_SAVE		OffOn		Off
+CTC.PM5_CCondition_EDIT		OffOn		Off
+CTC.PM5_CCondition_APPL		OffOn		Off
+
+#ID1 Same File Driver's Key Value Must be unique
+$$$ Digital
+PRMD_PM5_IDLE_TimeD		-  * *  - - - - -    0    999999999
+PRMD_PM5_IDLE_TimeH		-  * *  - - - - -    0    999999999
+PRMD_PM5_IDLE_TimeM		-  * *  - - - - -    0    999999999
+PRMD_PM5_IDLE_TimeS		-  * *  - - - - -    0    999999999
+
+$$$ Digital
+PRMD_PM5_Comp_RunSt_01		-	PARAM5	5	0	0	0	1	PARAM5	5	0	0	0
+PRMD_PM5_Comp_ModeEn_01 DisableEnable	PARAM5	6	0	0	0	1	PARAM5	6	0	0	0
+PRMD_PM5_Comp_TimeD_01		-	-	7	0	0	0	1	-	7	0	0	0
+PRMD_PM5_Comp_TimeH_01		-	-	8	0	0	0	1	-	8	0	0	0
+PRMD_PM5_Comp_TimeM_01		-	-	9	0	0	0	1	-	9	0	0	0
+PRMD_PM5_Comp_TimeS_01		-	-	10	0	0	0	1	-	10	0	0	0
+PRMD_PM5_Comp_RunSt_02		-	-	11	0	0	0	1	-	11	0	0	0
+PRMD_PM5_Comp_ModeEn_02 DisableEnable	Disable
+PRMD_PM5_Comp_TimeD_02		-	-	13	0	0	0	1	-	13	0	0	0
+PRMD_PM5_Comp_TimeH_02		-	-	14	0	0	0	1	-	14	0	0	0
+PRMD_PM5_Comp_TimeM_02		-	-	15	0	0	0	1	-	15	0	0	0
+PRMD_PM5_Comp_TimeS_02		-	-	16	0	0	0	1	-	16	0	0	0
+PRMD_PM5_Comp_RunSt_03		-	PARAM5	17	0	0	0	1	PARAM5	17	0	0	0
+PRMD_PM5_Comp_ModeEn_03	DisableEnable	Disable
+PRMD_PM5_Comp_TimeD_03		-	PARAM5	19	0	0	0	1	PARAM5	19	0	0	0
+PRMD_PM5_Comp_TimeH_03		-	PARAM5	20	0	0	0	1	PARAM5	20	0	0	0
+PRMD_PM5_Comp_TimeM_03		-	PARAM5	21	0	0	0	1	PARAM5	21	0	0	0
+PRMD_PM5_Comp_TimeS_03		-	PARAM5	22	0	0	0	1	PARAM5	22	0	0	0
+PRMD_PM5_Comp_RunSt_04		-	PARAM5	23	0	0	0	1	PARAM5	23	0	0	0
+PRMD_PM5_Comp_ModeEn_04	 DisableEnable	Disable
+PRMD_PM5_Comp_TimeD_04		-	-	25	0	0	0	1	-	25	0	0	0
+PRMD_PM5_Comp_TimeH_04		-	-	26	0	0	0	1	-	26	0	0	0
+PRMD_PM5_Comp_TimeM_04		-	-	27	0	0	0	1	-	27	0	0	0
+PRMD_PM5_Comp_TimeS_04		-	-	28	0	0	0	1	-	28	0	0	0
+#2007.07.04
+PRMD_PM5_Comp_RunSt_05		-	PARAM5	29	0	0	0	1	PARAM5	29	0	0	0
+PRMD_PM5_Comp_ModeEn_05 DisableEnable	Disable
+PRMD_PM5_Comp_TimeD_05		-	-	31	0	0	0	1	-	31	0	0	0
+PRMD_PM5_Comp_TimeH_05		-	-	32	0	0	0	1	-	32	0	0	0
+PRMD_PM5_Comp_TimeM_05		-	-	33	0	0	0	1	-	33	0	0	0
+PRMD_PM5_Comp_TimeS_05		-	-	34	0	0	0	1	-	34	0	0	0
+PRMD_PM5_Comp_RunSt_06		-	PARAM5	35	0	0	0	1	PARAM5	35	0	0	0
+PRMD_PM5_Comp_ModeEn_06	DisableEnable	Disable
+PRMD_PM5_Comp_TimeD_06		-	-	37	0	0	0	1	-	37	0	0	0
+PRMD_PM5_Comp_TimeH_06		-	-	38	0	0	0	1	-	38	0	0	0
+PRMD_PM5_Comp_TimeM_06		-	-	39	0	0	0	1	-	39	0	0	0
+PRMD_PM5_Comp_TimeS_06		-	-	40	0	0	0	1	-	40	0	0	0
+PRMD_PM5_Comp_RunSt_07		-	PARAM5	41	0	0	0	1	PARAM5	41	0	0	0
+PRMD_PM5_Comp_ModeEn_07	DisableEnable	Disable
+PRMD_PM5_Comp_TimeD_07		-	-	43	0	0	0	1	-	43	0	0	0
+PRMD_PM5_Comp_TimeH_07		-	-	44	0	0	0	1	-	44	0	0	0
+PRMD_PM5_Comp_TimeM_07		-	-	45	0	0	0	1	-	45	0	0	0
+PRMD_PM5_Comp_TimeS_07		-	-	46	0	0	0	1	-	46	0	0	0
+#End 2007.07.04
+PRMD_PM5_Leaf_AuEn_01	DisableEnable	Enable
+PRMD_PM5_Leaf_RunSt_01		-	PARAM5	48	0	0	0	1	PARAM5	48	0	0	0
+PRMD_PM5_Leaf_AuEn_02	DisableEnable	Disable
+PRMD_PM5_Leaf_RunSt_02		-	PARAM5	50	0	0	0	1	PARAM5	50	0	0	0
+PRMD_PM5_Leaf_AuEn_03	DisableEnable	Enable
+PRMD_PM5_Leaf_RunSt_03		-	PARAM5	52	0	0	0	1	PARAM5	52	0	0	0
+PRMD_PM5_Leaf_AuEn_04	DisableEnable	Enable
+PRMD_PM5_Leaf_RunSt_04		-	PARAM5	54	0	0	0	1	PARAM5	54	0	0	0
+PRMD_PM5_Leaf_AuEn_05	DisableEnable	PARAM5	55	0	0	0	1	PARAM5	55	0	0	0
+PRMD_PM5_Leaf_RunSt_05		-	PARAM5	56	0	0	0	1	PARAM5	56	0	0	0
+PRMD_PM5_Leaf_AuEn_06	DisableEnable	Disable
+PRMD_PM5_Leaf_RunSt_06		-	PARAM5	58	0	0	0	1	PARAM5	58	0	0	0
+#2007.07.04
+PRMD_PM5_Leaf_AuEn_07	DisableEnable	Enable
+PRMD_PM5_Leaf_RunSt_07		-	PARAM5	60	0	0	0	1	PARAM5	60	0	0	0
+PRMD_PM5_Leaf_AuEn_08	DisableEnable	Enable
+PRMD_PM5_Leaf_RunSt_08		-	PARAM5	62	0	0	0	1	PARAM5	62	0	0	0
+PRMD_PM5_Leaf_AuEn_09	DisableEnable	Enable
+PRMD_PM5_Leaf_RunSt_09		-	PARAM5	64	0	0	0	1	PARAM5	64	0	0	0
+PRMD_PM5_Leaf_AuEn_10	DisableEnable	Enable
+PRMD_PM5_Leaf_RunSt_10		-	PARAM5	66	0	0	0	1	PARAM5	66	0	0	0
+PRMD_PM5_Leaf_AuEn_11	DisableEnable	Enable
+PRMD_PM5_Leaf_RunSt_11		-	PARAM5	68	0	0	0	1	PARAM5	68	0	0	0
+PRMD_PM5_Leaf_AuEn_12	DisableEnable	Enable
+PRMD_PM5_Leaf_RunSt_12		-	PARAM5	70	0	0	0	1	PARAM5	70	0	0	0
+#END 2007.07.04
+
+
+$$$ String
+PRMS_PM5_Leaf_Rcp_01		PARAM5	200	1	PARAM5	200
+PRMS_PM5_Leaf_Rcp_02		PARAM5	201	1	PARAM5	201
+PRMS_PM5_Leaf_Rcp_03		PARAM5	202	1	PARAM5	202
+PRMS_PM5_Leaf_Rcp_04		PARAM5	203	1	PARAM5	203
+PRMS_PM5_Leaf_Rcp_05		PARAM5	204	1	PARAM5	204
+PRMS_PM5_Leaf_Rcp_06		PARAM5	205	1	PARAM5	205
+#2007.07.04
+PRMS_PM5_Leaf_Rcp_07		PARAM5	206	1	PARAM5	206
+PRMS_PM5_Leaf_Rcp_08		PARAM5	207	1	PARAM5	207
+PRMS_PM5_Leaf_Rcp_09		PARAM5	208	1	PARAM5	208
+PRMS_PM5_Leaf_Rcp_10		PARAM5	209	1	PARAM5	209
+PRMS_PM5_Leaf_Rcp_11		PARAM5	210	1	PARAM5	210
+PRMS_PM5_Leaf_Rcp_12		PARAM5	211	1	PARAM5	211
+#END 2007.07.04
+
+#--------------------------------------------------------------------------
+# 2006.02.20
+$$$ Digital
+PRMD_PM1_DRYEn_04		DisableEnable		Disable
+$$$ Analog
+PRMA_PM1_DRYCThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM1_DRYWThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM1_DRYAThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM1_DRYFThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+#------------------
+$$$ Digital
+PRMD_PM2_DRYEn_04		DisableEnable		Disable
+$$$ Analog
+PRMA_PM2_DRYCThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM2_DRYWThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM2_DRYAThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM2_DRYFThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+#------------------
+$$$ Digital
+PRMD_PM3_DRYEn_04		DisableEnable		Disable
+$$$ Analog
+PRMA_PM3_DRYCThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM3_DRYWThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM3_DRYAThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM3_DRYFThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+#------------------
+$$$ Digital
+PRMD_PM4_DRYEn_04		DisableEnable		Disable
+$$$ Analog
+PRMA_PM4_DRYCThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM4_DRYWThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM4_DRYAThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM4_DRYFThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+#------------------
+$$$ Digital
+PRMD_PM5_DRYEn_04		DisableEnable		Disable
+$$$ Analog
+PRMA_PM5_DRYCThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM5_DRYWThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM5_DRYAThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM5_DRYFThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+#--------------------------------------------------------------------------
+#...2018.06.17
+$$$ Digital
+PRMD_PM1_WetEn_04		DisableEnable		Disable
+$$$ Analog
+PRMA_PM1_WetCThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM1_WetWThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM1_WetAThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM1_WetFThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+#------------------
+$$$ Digital
+PRMD_PM2_WetEn_04		DisableEnable		Disable
+$$$ Analog
+PRMA_PM2_WetCThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM2_WetWThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM2_WetAThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM2_WetFThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+#------------------
+$$$ Digital
+PRMD_PM3_WetEn_04		DisableEnable		Disable
+$$$ Analog
+PRMA_PM3_WetCThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM3_WetWThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM3_WetAThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+PRMA_PM3_WetFThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+#------------------
+
+#####################################################################################
+# Machine Availability
+#####################################################################################
+
+$$$ Digital
+CTC.OPERRATE_SAVE		OffOn		Off
+
+#ID1 Same File Driver's Key Value Must be unique
+#####################################################################################
+# PM1 Operation Rate
+#####################################################################################
+
+$$$ Digital
+CTC.PM1_DayIDLE_TimeD		-  * *  - - - - -    0    999999999
+CTC.PM1_DayIDLE_TimeH		-  * *  - - - - -    0    999999999
+CTC.PM1_DayIDLE_TimeM		-  * *  - - - - -    0    999999999
+CTC.PM1_DayIDLE_TimeS		-  * *  - - - - -    0    999999999
+CTC.PM1_DayIDLE_Time		-  * *  - - - - -    0    999999999
+
+CTC.PM1_DayClean_TimeD		-  * *  - - - - -    0    999999999
+CTC.PM1_DayClean_TimeH		-  * *  - - - - -    0    999999999
+CTC.PM1_DayClean_TimeM		-  * *  - - - - -    0    999999999
+CTC.PM1_DayClean_TimeS		-  * *  - - - - -    0    999999999
+CTC.PM1_DayClean_Time		-  * *  - - - - -    0    999999999
+
+CTC.PM1_DayRun_TimeD		-  * *  - - - - -    0    999999999
+CTC.PM1_DayRun_TimeH		-  * *  - - - - -    0    999999999
+CTC.PM1_DayRun_TimeM		-  * *  - - - - -    0    999999999
+CTC.PM1_DayRun_TimeS		-  * *  - - - - -    0    999999999
+CTC.PM1_DayRun_Time		-  * *  - - - - -    0    999999999
+
+$$$ String
+#CTC.PM1_Idle_Log1	PARAM6	101	1	PARAM6	101
+#CTC.PM1_Idle_Log2	PARAM6	102	1	PARAM6	102
+#CTC.PM1_Idle_Log3	PARAM6	103	1	PARAM6	103
+#CTC.PM1_Idle_Log4	PARAM6	104	1	PARAM6	104
+#CTC.PM1_Idle_Log5	PARAM6	105	1	PARAM6	105
+#
+#CTC.PM1_Clean_Log1	PARAM6	111	1	PARAM6	111
+#CTC.PM1_Clean_Log2	PARAM6	112	1	PARAM6	112
+#CTC.PM1_Clean_Log3	PARAM6	113	1	PARAM6	113
+#CTC.PM1_Clean_Log4	PARAM6	114	1	PARAM6	114
+#CTC.PM1_Clean_Log5	PARAM6	115	1	PARAM6	115
+#
+#CTC.PM1_Run_Log1	PARAM6	121	1	PARAM6	121
+#CTC.PM1_Run_Log2	PARAM6	122	1	PARAM6	122
+#CTC.PM1_Run_Log3	PARAM6	123	1	PARAM6	123
+#CTC.PM1_Run_Log4	PARAM6	124	1	PARAM6	124
+#CTC.PM1_Run_Log5	PARAM6	125	1	PARAM6	125
+#
+#CTC.PM1_OperRate_Log1	PARAM6	131	1	PARAM6	131
+#CTC.PM1_OperRate_Log2	PARAM6	132	1	PARAM6	132
+#CTC.PM1_OperRate_Log3	PARAM6	133	1	PARAM6	133
+#CTC.PM1_OperRate_Log4	PARAM6	134	1	PARAM6	134
+#CTC.PM1_OperRate_Log5	PARAM6	135	1	PARAM6	135
+
+
+CTC.PM1_Idle_Log1	"0000/00/00  00:00:00"
+CTC.PM1_Idle_Log2	"0000/00/00  00:00:00"
+CTC.PM1_Idle_Log3	"0000/00/00  00:00:00"
+CTC.PM1_Idle_Log4	"0000/00/00  00:00:00"
+CTC.PM1_Idle_Log5	"0000/00/00  00:00:00"
+CTC.PM1_Clean_Log1	"0000/00/00  00:00:00"
+CTC.PM1_Clean_Log2	"0000/00/00  00:00:00"
+CTC.PM1_Clean_Log3	"0000/00/00  00:00:00"
+CTC.PM1_Clean_Log4	"0000/00/00  00:00:00"
+CTC.PM1_Clean_Log5	"0000/00/00  00:00:00"
+CTC.PM1_Run_Log1	"0000/00/00  00:00:00"
+CTC.PM1_Run_Log2	"0000/00/00  00:00:00"
+CTC.PM1_Run_Log3	"0000/00/00  00:00:00"
+CTC.PM1_Run_Log4	"0000/00/00  00:00:00"
+CTC.PM1_Run_Log5	"0000/00/00  00:00:00"
+CTC.PM1_OperRate_Log1	"00.00"
+CTC.PM1_OperRate_Log2	"00.00"
+CTC.PM1_OperRate_Log3	"00.00"
+CTC.PM1_OperRate_Log4	"00.00"
+CTC.PM1_OperRate_Log5	"00.00"
+
+#####################################################################################
+# PM2 Operation Rate
+#####################################################################################
+
+$$$ Digital
+CTC.PM2_DayIDLE_TimeD		-  * *  - - - - -    0    999999999
+CTC.PM2_DayIDLE_TimeH		-  * *  - - - - -    0    999999999
+CTC.PM2_DayIDLE_TimeM		-  * *  - - - - -    0    999999999
+CTC.PM2_DayIDLE_TimeS		-  * *  - - - - -    0    999999999
+CTC.PM2_DayIDLE_Time		-  * *  - - - - -    0    999999999
+
+CTC.PM2_DayClean_TimeD		-  * *  - - - - -    0    999999999
+CTC.PM2_DayClean_TimeH		-  * *  - - - - -    0    999999999
+CTC.PM2_DayClean_TimeM		-  * *  - - - - -    0    999999999
+CTC.PM2_DayClean_TimeS		-  * *  - - - - -    0    999999999
+CTC.PM2_DayClean_Time		-  * *  - - - - -    0    999999999
+
+CTC.PM2_DayRun_TimeD		-  * *  - - - - -    0    999999999
+CTC.PM2_DayRun_TimeH		-  * *  - - - - -    0    999999999
+CTC.PM2_DayRun_TimeM		-  * *  - - - - -    0    999999999
+CTC.PM2_DayRun_TimeS		-  * *  - - - - -    0    999999999
+CTC.PM2_DayRun_Time		-  * *  - - - - -    0    999999999
+
+$$$ String
+#CTC.PM2_Idle_Log1	PARAM6	201	1	PARAM6	201
+#CTC.PM2_Idle_Log2	PARAM6	202	1	PARAM6	202
+#CTC.PM2_Idle_Log3	PARAM6	203	1	PARAM6	203
+#CTC.PM2_Idle_Log4	PARAM6	204	1	PARAM6	204
+#CTC.PM2_Idle_Log5	PARAM6	205	1	PARAM6	205
+#
+#CTC.PM2_Clean_Log1	PARAM6	211	1	PARAM6	211
+#CTC.PM2_Clean_Log2	PARAM6	212	1	PARAM6	212
+#CTC.PM2_Clean_Log3	PARAM6	213	1	PARAM6	213
+#CTC.PM2_Clean_Log4	PARAM6	214	1	PARAM6	214
+#CTC.PM2_Clean_Log5	PARAM6	215	1	PARAM6	215
+#
+#CTC.PM2_Run_Log1	PARAM6	221	1	PARAM6	221
+#CTC.PM2_Run_Log2	PARAM6	222	1	PARAM6	222
+#CTC.PM2_Run_Log3	PARAM6	223	1	PARAM6	223
+#CTC.PM2_Run_Log4	PARAM6	224	1	PARAM6	224
+#CTC.PM2_Run_Log5	PARAM6	225	1	PARAM6	225
+#
+#CTC.PM2_OperRate_Log1	PARAM6	231	1	PARAM6	231
+#CTC.PM2_OperRate_Log2	PARAM6	232	1	PARAM6	232
+#CTC.PM2_OperRate_Log3	PARAM6	233	1	PARAM6	233
+#CTC.PM2_OperRate_Log4	PARAM6	234	1	PARAM6	234
+#CTC.PM2_OperRate_Log5	PARAM6	235	1	PARAM6	235
+
+
+CTC.PM2_Idle_Log1	"0000/00/00  00:00:00"
+CTC.PM2_Idle_Log2	"0000/00/00  00:00:00"
+CTC.PM2_Idle_Log3	"0000/00/00  00:00:00"
+CTC.PM2_Idle_Log4	"0000/00/00  00:00:00"
+CTC.PM2_Idle_Log5	"0000/00/00  00:00:00"
+CTC.PM2_Clean_Log1	"0000/00/00  00:00:00"
+CTC.PM2_Clean_Log2	"0000/00/00  00:00:00"
+CTC.PM2_Clean_Log3	"0000/00/00  00:00:00"
+CTC.PM2_Clean_Log4	"0000/00/00  00:00:00"
+CTC.PM2_Clean_Log5	"0000/00/00  00:00:00"
+CTC.PM2_Run_Log1	"0000/00/00  00:00:00"
+CTC.PM2_Run_Log2	"0000/00/00  00:00:00"
+CTC.PM2_Run_Log3	"0000/00/00  00:00:00"
+CTC.PM2_Run_Log4	"0000/00/00  00:00:00"
+CTC.PM2_Run_Log5	"0000/00/00  00:00:00"
+CTC.PM2_OperRate_Log1	"00.00"
+CTC.PM2_OperRate_Log2	"00.00"
+CTC.PM2_OperRate_Log3	"00.00"
+CTC.PM2_OperRate_Log4	"00.00"
+CTC.PM2_OperRate_Log5	"00.00"
+
+#####################################################################################
+# PM3 Operation Rate
+#####################################################################################
+
+$$$ Digital
+CTC.PM3_DayIDLE_TimeD		-  * *  - - - - -    0    999999999
+CTC.PM3_DayIDLE_TimeH		-  * *  - - - - -    0    999999999
+CTC.PM3_DayIDLE_TimeM		-  * *  - - - - -    0    999999999
+CTC.PM3_DayIDLE_TimeS		-  * *  - - - - -    0    999999999
+CTC.PM3_DayIDLE_Time		-  * *  - - - - -    0    999999999
+
+CTC.PM3_DayClean_TimeD		-  * *  - - - - -    0    999999999
+CTC.PM3_DayClean_TimeH		-  * *  - - - - -    0    999999999
+CTC.PM3_DayClean_TimeM		-  * *  - - - - -    0    999999999
+CTC.PM3_DayClean_TimeS		-  * *  - - - - -    0    999999999
+CTC.PM3_DayClean_Time		-  * *  - - - - -    0    999999999
+
+CTC.PM3_DayRun_TimeD		-  * *  - - - - -    0    999999999
+CTC.PM3_DayRun_TimeH		-  * *  - - - - -    0    999999999
+CTC.PM3_DayRun_TimeM		-  * *  - - - - -    0    999999999
+CTC.PM3_DayRun_TimeS		-  * *  - - - - -    0    999999999
+CTC.PM3_DayRun_Time		-  * *  - - - - -    0    999999999
+
+$$$ String
+#CTC.PM3_Idle_Log1	PARAM6	301	1	PARAM6	301
+#CTC.PM3_Idle_Log2	PARAM6	302	1	PARAM6	302
+#CTC.PM3_Idle_Log3	PARAM6	303	1	PARAM6	303
+#CTC.PM3_Idle_Log4	PARAM6	304	1	PARAM6	304
+#CTC.PM3_Idle_Log5	PARAM6	305	1	PARAM6	305
+#
+#CTC.PM3_Clean_Log1	PARAM6	311	1	PARAM6	311
+#CTC.PM3_Clean_Log2	PARAM6	312	1	PARAM6	312
+#CTC.PM3_Clean_Log3	PARAM6	313	1	PARAM6	313
+#CTC.PM3_Clean_Log4	PARAM6	314	1	PARAM6	314
+#CTC.PM3_Clean_Log5	PARAM6	315	1	PARAM6	315
+#
+#CTC.PM3_Run_Log1	PARAM6	321	1	PARAM6	321
+#CTC.PM3_Run_Log2	PARAM6	322	1	PARAM6	322
+#CTC.PM3_Run_Log3	PARAM6	323	1	PARAM6	323
+#CTC.PM3_Run_Log4	PARAM6	324	1	PARAM6	324
+#CTC.PM3_Run_Log5	PARAM6	325	1	PARAM6	325
+#
+#CTC.PM3_OperRate_Log1	PARAM6	331	1	PARAM6	331
+#CTC.PM3_OperRate_Log2	PARAM6	332	1	PARAM6	332
+#CTC.PM3_OperRate_Log3	PARAM6	333	1	PARAM6	333
+#CTC.PM3_OperRate_Log4	PARAM6	334	1	PARAM6	334
+#CTC.PM3_OperRate_Log5	PARAM6	335	1	PARAM6	335
+
+CTC.PM3_Idle_Log1	"0000/00/00  00:00:00"
+CTC.PM3_Idle_Log2	"0000/00/00  00:00:00"
+CTC.PM3_Idle_Log3	"0000/00/00  00:00:00"
+CTC.PM3_Idle_Log4	"0000/00/00  00:00:00"
+CTC.PM3_Idle_Log5	"0000/00/00  00:00:00"
+CTC.PM3_Clean_Log1	"0000/00/00  00:00:00"
+CTC.PM3_Clean_Log2	"0000/00/00  00:00:00"
+CTC.PM3_Clean_Log3	"0000/00/00  00:00:00"
+CTC.PM3_Clean_Log4	"0000/00/00  00:00:00"
+CTC.PM3_Clean_Log5	"0000/00/00  00:00:00"
+CTC.PM3_Run_Log1	"0000/00/00  00:00:00"
+CTC.PM3_Run_Log2	"0000/00/00  00:00:00"
+CTC.PM3_Run_Log3	"0000/00/00  00:00:00"
+CTC.PM3_Run_Log4	"0000/00/00  00:00:00"
+CTC.PM3_Run_Log5	"0000/00/00  00:00:00"
+CTC.PM3_OperRate_Log1	"00.00"
+CTC.PM3_OperRate_Log2	"00.00"
+CTC.PM3_OperRate_Log3	"00.00"
+CTC.PM3_OperRate_Log4	"00.00"
+CTC.PM3_OperRate_Log5	"00.00"
+
+#CTC.Total_OperRate_Log1	PARAM6	1	1	PARAM6	1
+#CTC.Total_OperRate_Log2	PARAM6	2	1	PARAM6	2
+#CTC.Total_OperRate_Log3	PARAM6	3	1	PARAM6	3
+#CTC.Total_OperRate_Log4	PARAM6	4	1	PARAM6	4
+#CTC.Total_OperRate_Log5	PARAM6	5	1	PARAM6	5
+
+CTC.Total_OperRate_Log1		"00.00"
+CTC.Total_OperRate_Log2		"00.00"
+CTC.Total_OperRate_Log3		"00.00"
+CTC.Total_OperRate_Log4		"00.00"
+CTC.Total_OperRate_Log5		"00.00"
+
+#2019.07.05
+$$$ Digital
+PRMA_AutoLogOut_TO	- * * - - - - -		0	60

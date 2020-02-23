@@ -1,0 +1,95 @@
+2018/6/15 17:22:49	USERCONTROL	[SYSTEM_START]
+2018/6/15 17:23:17	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/6/15 17:23:19	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/6/15 17:23:20	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2018/6/15 17:23:20	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2018/6/15 17:23:21	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/6/15 17:23:21	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/6/15 17:23:22	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/6/15 17:23:22	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/6/15 17:23:24	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/6/15 17:23:24	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/6/15 17:23:24	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/6/15 17:23:24	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/6/15 17:23:35	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 2(Main Heater)
+2018/6/15 17:23:36	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2018/6/15 17:23:43	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/6/15 17:23:43	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/6/15 17:23:45	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2018/6/15 17:23:45	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2018/6/15 17:23:46	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 7(PM Param 2)
+2018/6/15 17:23:46	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2018/6/15 17:23:47	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 8(PM Param 3)
+2018/6/15 17:23:47	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2018/6/15 17:23:49	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 7(PM Param 2)
+2018/6/15 17:23:49	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2018/6/15 17:23:50	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 8(PM Param 3)
+2018/6/15 17:23:50	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2018/6/15 17:23:51	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 9(PM Param 4)
+2018/6/15 17:23:51	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/6/15 17:23:53	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 10(PM Param 5)
+2018/6/15 17:23:53	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2018/6/15 17:23:54	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 11(PM Param 6)
+2018/6/15 17:23:54	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7
+2018/6/15 17:23:55	SETTING	[DIO] Right_Config_Parm_Nav with [1] at Page = 12(PM Param 7)
+2018/6/15 17:23:55	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 1
+2018/6/15 17:23:56	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2018/6/15 17:23:56	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2018/6/15 17:23:57	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 7(PM Param 2)
+2018/6/15 17:23:57	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2018/6/15 17:23:58	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 8(PM Param 3)
+2018/6/15 17:23:58	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2018/6/15 17:24:10	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 9(PM Param 4)
+2018/6/15 17:24:10	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2018/6/15 17:24:12	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 8(PM Param 3)
+2018/6/15 17:24:12	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2018/6/15 17:24:14	SETTING	[DIO] Right_Config_Parm_Nav with [1] at Page = 7(PM Param 2)
+2018/6/15 17:24:14	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 1
+2018/6/15 17:24:14	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2018/6/15 17:24:14	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2018/6/15 17:24:14	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 7(PM Param 2)
+2018/6/15 17:24:15	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2018/6/15 17:24:32	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 9(PM Param 4)
+2018/6/15 17:24:32	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2018/6/15 17:24:33	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 8(PM Param 3)
+2018/6/15 17:24:33	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2018/6/15 17:24:37	SETTING	[DIO] Right_Config_Parm_Nav with [1] at Page = 7(PM Param 2)
+2018/6/15 17:24:37	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 1
+2018/6/15 17:24:38	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 6(PM Param 1)
+2018/6/15 17:24:38	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7
+2018/6/15 17:24:43	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 12(PM Param 7)
+2018/6/15 17:24:43	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2018/6/15 17:24:44	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 11(PM Param 6)
+2018/6/15 17:24:44	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/6/15 17:24:45	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 10(PM Param 5)
+2018/6/15 17:24:45	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2018/6/15 17:24:46	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 9(PM Param 4)
+2018/6/15 17:24:46	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2018/6/15 17:24:47	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 8(PM Param 3)
+2018/6/15 17:24:47	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2018/6/15 17:24:48	SETTING	[DIO] Right_Config_Parm_Nav with [1] at Page = 7(PM Param 2)
+2018/6/15 17:24:48	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 1
+2018/6/15 17:24:48	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2018/6/15 17:24:48	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2018/6/15 17:25:41	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 7(PM Param 2)
+2018/6/15 17:25:41	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2018/6/15 17:25:42	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 8(PM Param 3)
+2018/6/15 17:25:42	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2018/6/15 17:25:43	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 7(PM Param 2)
+2018/6/15 17:25:43	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2018/6/15 17:25:44	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 8(PM Param 3)
+2018/6/15 17:25:44	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2018/6/15 17:25:46	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 9(PM Param 4)
+2018/6/15 17:25:46	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/6/15 17:25:48	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 10(PM Param 5)
+2018/6/15 17:25:48	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2018/6/15 17:25:50	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 11(PM Param 6)
+2018/6/15 17:25:50	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7
+2018/6/15 17:26:11	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/6/15 17:26:11	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/6/15 17:26:19	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/6/15 17:26:19	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/6/15 17:26:20	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2018/6/15 17:26:20	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2018/6/15 17:26:21	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/6/15 17:26:21	BUTTON	[BOTTOM CLICK] Bottom_System

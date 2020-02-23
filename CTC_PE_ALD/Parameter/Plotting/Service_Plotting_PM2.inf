@@ -1,0 +1,28 @@
+$_PLOT_BIG         0    0
+$_PLOT_BACK        1    1
+$_PLOT_BACK_COLOR  256  256
+$_PLOT_POINT       1    1
+$_PLOT_LINE        0    0
+$_PLOT_COLOR_1   273  275  269  271
+$_PLOT_COLOR_2   273  275  269  271
+$_DATALOG_FILE_SAVE_TYPE     1
+$_DATALOG_TIME     1
+        PM2.ChmPrsAI    1         -9999999.000          9999999.000    0    1    1
+      PM2.BrChmPrsAI    1         -9999999.000          9999999.000    0    1    1
+       PM2.PumpPrsAI    1         -9999999.000          9999999.000    0    1    1
+   PM2.M651_Pressure    1         -9999999.000          9999999.000    0    1    1
+   PM2.M651_Position    1         -9999999.000          9999999.000    0    1    1
+    PM2.SHT1_TmpRdAI    1         -9999999.000          9999999.000    0    1    1
+   PM2.StgHtr1CurrAI    1         -9999999.000          9999999.000    0    1    1
+   PM2.StgHtr1CurrAI2    1         -9999999.000          9999999.000    0    1    1
+   PM2.StgHtr1VoltAI    1         -9999999.000          9999999.000    0    1    1
+   PM2.StgHtr1VoltAI2    1         -9999999.000          9999999.000    0    1    1
+    PM2.SHT1_OutPwAI    1         -9999999.000          9999999.000    0    1    1
+    PM2.SHT1_OutPwAI2   1         -9999999.000          9999999.000    0    1    1
+    PM2.SHT2_TmpRdAI    1         -9999999.000          9999999.000    0    1    1
+   PM2.StgHtr2CurrAI    1         -9999999.000          9999999.000    0    1    1
+   PM2.StgHtr2CurrAI2    1         -9999999.000          9999999.000    0    1    1
+   PM2.StgHtr2VoltAI    1         -9999999.000          9999999.000    0    1    1
+   PM2.StgHtr2VoltAI2    1         -9999999.000          9999999.000    0    1    1
+    PM2.SHT2_OutPwAI    1         -9999999.000          9999999.000    0    1    1
+    PM2.SHT2_OutPwAI2   1         -9999999.000          9999999.000    0    1    1

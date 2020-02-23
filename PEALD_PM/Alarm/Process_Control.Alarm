@@ -1,0 +1,248 @@
+#
+#
+#
+# Possible Recovery Action String
+#      - CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+###################### not used ##############################
+1001	ProcessAborted	{
+	"Process Aborted"
+	CLEAR	"Clear Operation"
+	}
+
+1002	SWFuncError	{
+	"SW Function Error Occurred"
+	CLEAR	"Clear Operation"
+	}
+
+1003	RecipeReadFail	{
+	"Recipe Reading Failed"
+	CLEAR	"Clear Operation"
+	}
+
+1004	ValveRcpDownFail {
+	"Valve Recipe Download Failed"
+	CLEAR	"Clear Operation"
+	}
+
+1005	ValveRcpStartTimeout {
+	"Valve Recipe Start Timeout"
+	CLEAR	"Clear Operation"
+	}
+
+1006	ValveRcpStartError {
+	"Valve Recipe Start Error, Check Recipe or PLC"
+	CLEAR	"Clear Operation"
+	}
+
+1007	ValveRcpDataError {
+	"Valve Recipe Data Error, Check Recipe or PLC"
+	CLEAR	"Clear Operation"
+	}
+
+1008	ValveRcpUnknownError {
+	"Valve Recipe Unknown Error"
+	CLEAR	"Clear Operation"
+	}
+
+1009	TMIsoValveNotClosed {
+	"TM Isolation Valve is not closed"
+	CLEAR	"Clear Operation"
+	}
+
+1010	PLCGlobalInterlock {
+	"PLC Global Interlock Detected"
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+#	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1011	SWGlobalInterlock {
+	"Process Interlock Detected"
+	CLEAR	"Clear Operation"
+	}
+
+1012	ModuleAbnormalFinished {
+	"Process Module is abnormally finished"
+	CLEAR	"Clear Operation"
+	}
+
+1013	InvalidRecipeData {
+	"Recipe Data Is Invalid"
+	CLEAR	"Clear Operation"
+	}
+
+1014	StgHtr1ControlTimeout {
+	"Stage Heater 1 Control Timeout"
+	CLEAR	"Clear Operation"
+	}
+
+1070	StgHtr2ControlTimeout {
+	"Stage Heater 2 Control Timeout"
+	CLEAR	"Clear Operation"
+	}
+
+1015	StgHtr1TempCheckFailed {
+	"Stage Heater 1 Temperature Setting Is Invalid"
+	CLEAR	"Clear Operation"
+	}
+
+1071	StgHtr2TempCheckFailed {
+	"Stage Heater 2 Temperature Setting Is Invalid"
+	CLEAR	"Clear Operation"
+	}
+
+1016	StgHtrTempStableTimeout {
+	"Stage Heater Temperature Stabilization Timeout"
+	CLEAR	"Clear Operation"
+	}
+
+
+1020	VrcpDownloadTimeout {
+	"Valve Recipe Download Timeout"
+	CLEAR	"Clear Operation"
+	}
+
+1021	SWAndPLCSyncFailed {
+	"Software And PLC Synchronization Failed When Valve Recipe Running"
+	CLEAR	"Clear Operation"
+	}
+
+1022	ProcStepTimeInvalid {
+	"Progress Step Time And Target Step Time Are Different"
+	CLEAR	"Clear Operation"
+	}
+
+1023	DownStepRunStepDiff {
+	"Downloaded Step and Started Step are Different"
+	CLEAR	"Clear Operation"
+	}
+
+1024	PlcAbnormalStepWhenRuning {
+	"PLC is Abnormal Stoped When Process is Running"
+	CLEAR	"Clear Operation"
+	}
+
+1030	HeaterTempTimeout {
+	"Heater Temp Control Timeout"
+	CLEAR	"Clear Operation"
+	}
+
+1033	StepTimeCompensationAlarm {
+	"Step Time Compensation Alarm (Over Max Compensation Time)"
+	CLEAR	"Clear Operation"
+	}
+
+1034	StepCycleCompensationAlarm {
+	"Step Cycle Compensation Alarm (Over Max Compensation Cycle)"
+	CLEAR	"Clear Operation"
+	}
+
+1040	UnknownRecipeType {
+	"Recipe Type Is Unknown"
+	CLEAR	"Clear Operation"
+	}
+
+1041	ValveTimeInvalid {
+	"Valve Time Setting Is Invalid"
+	CLEAR	"Clear Operation"
+	}
+
+1042	StepGroupRangeInvalid {
+	"Step Group Range Is Invalid"
+	CLEAR	"Clear Operation"
+	}
+
+1043	PreheatCannotBeUsed{
+	"Pre-Heat Time Can Not Be Used With Valve Recipe"
+	CLEAR	"Clear Operation"
+	}
+
+1044	PMStepSyncCannotBeUsed{
+	"PM Step Synchronization Can Not Be Used With Valve Recipe"
+	CLEAR	"Clear Operation"
+	}
+
+1045	RPG1_Fail{
+	"RPG1 AC / Ready / Plasma Detect Invalid while Relay is OK"
+	CLEAR	"Clear Operation"
+	}
+
+1046	RPG2_Fail{
+	"RPG2 AC / Ready / Plasma Detect Invalid while Relay is OK"
+	CLEAR	"Clear Operation"
+	}
+
+1047	RPGRelayFail{
+	"RPG Relay is Off"
+	CLEAR	"Clear Operation"
+	}
+
+1048	RPGPowerFail{
+	"RPG Power is Off"
+	CLEAR	"Clear Operation"
+	}
+
+1049	OtherProcRunning {
+	"Already Process Running"
+	CLEAR	"Clear Operation"
+	}
+
+1050	ProcessPaused	{
+	"Process Paused. Select 'Retry' or 'Abort'"
+	CLEAR	"Retry Current Step"
+	RETRY	"Go Next Step"
+	WAIT	"Continue Current Step For Remaining Time"
+	IGNORE	"Go First Step"
+	ABORT	"Abort Process"
+	}
+
+1055	WaferDetectedNotRun {
+	"Wafer Is Present so Recipe Can Not Run"
+	CLEAR	"Clear Operation"
+	}
+
+1060	ALDValveUseCntOver {
+	"ALD Valve Use Count Over"
+	CLEAR	"Clear Operation"
+	}
+
+1061	DryCleanCountResetTimeout {
+	"Dry Clean Count Reset Timeout"
+	CLEAR	"Clear Operation"
+	}
+
+1062	PositionXControlWarning{
+	"Throttle Valve PositionX Control Warning"
+	CLEAR	"Clear Operation"
+	}
+
+1063	PositionXControlAlarm{
+	"Throttle Valve PositionX Control Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+1064	RPGAutoRetryMaxCount {
+	"RPG Alarm Auto Retry Max Count Over"
+	CLEAR	"Clear Operation"
+	}
+
+1065	InvalidVlvStsInCTCRcp {
+	"Invalid Valve Status in CTC Recipe"
+	CLEAR	"Clear Operation"
+	}
+
+1066	ALDValveCountFail {
+	"ALD Valve Count Fail Alarm"
+	CLEAR	"Clear Operation"
+	}
+	
+1090	SourceFeedLinePrs {
+	"Source Feeding Line Pressure Error"
+	CLEAR	"Clear Operation"
+	}	

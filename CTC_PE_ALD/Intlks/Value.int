@@ -1,0 +1,581 @@
+action_group AbortAll {
+      $Print = "Abort All Message Sent";
+      $Abort = "";
+}
+
+action_group SystemAbort {
+	CTC.AbortControl = Abort;
+}
+
+action_group BM1DRYPUMP_OFF {
+	BM1.VentVvXO  = Close;
+	BM1.RoughVvXO = Close;
+	BM1.OverPresVvDO  = Close;
+}
+
+action_group BM2DRYPUMP_OFF {
+	BM2.VentVvXO  = Close;
+	BM2.RoughVvXO = Close;
+	BM2.OverPresVvDO  = Close;
+}
+
+action_group TMDRYPUMP_OFF {
+	TM.VentVvXO   = Close;
+	TM.RoughVvXO  = Close;
+	TM.OverPresVvDO   = Close;
+}
+
+action_group ABORT_PROC {
+	if (CTC.PM1_CommStatus == CTCinUSE) PM1.SW_ModuleFailDM = 1;
+	if (CTC.PM2_CommStatus == CTCinUSE) PM2.SW_ModuleFailDM = 1;
+	if (CTC.PM3_CommStatus == CTCinUSE) PM3.SW_ModuleFailDM = 1;
+}
+
+
+#------- Alarm Define(9400 ~ 9499) ------------------------------------------------------------------------------------------------------
+#####################################
+#  TM PCW Flow Switch Alarm
+#####################################
+aif ( TM.WaterFlowDI != Normal && PRMD_HO_PCWSwitch == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM PCW Flow Switch Alarm Detected";
+	$Action = SystemAbort;
+	$alarm = 9400;
+}
+aif ( TM.WaterFlowDI != Normal && PRMD_HO_PCWSwitch == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM PCW Flow Switch Alarm Detected";
+	$alarm = 9400;
+}
+
+#####################################
+#  TM PCW Leak Alarm
+#####################################
+aif ( TM.WaterLeakStsDI != Normal && PRMD_HO_PCWLeak == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM PCW Leak Alarm Detected";
+	$Action = SystemAbort;
+	$alarm = 9401;
+}
+aif ( TM.WaterLeakStsDI != Normal && PRMD_HO_PCWLeak == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM PCW Leak Alarm Detected";
+	$alarm = 9401;
+}
+
+#####################################
+#  TM Dry Pump PCW Leak Alarm
+#####################################
+aif ( TM.Dry_Pump_PCW_Leak != Normal && PRMD_HO_DPPCWLeak == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM Dry Pump PCW Leak Alarm Detected";
+	$Action = SystemAbort;
+	$alarm = 9402;
+}
+aif ( TM.Dry_Pump_PCW_Leak != Normal && PRMD_HO_DPPCWLeak == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM Dry Pump PCW Leak Alarm Detected";
+	$alarm = 9402;
+}
+
+#####################################
+#  TM CRS Fault Alarm
+#####################################
+aif ( TM.CRS_Fault != OK_0 && PRMD_HO_CRSFault == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM CRS Fault Alarm Detected";
+	$Action = AbortAll;
+	$alarm = 9403;
+}
+aif ( TM.CRS_Fault != OK_0 && PRMD_HO_CRSFault == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM CRS Fault Alarm Detected";
+	$alarm = 9403;
+}
+
+#####################################
+#  LL Top Lid Open Alarm
+#####################################
+aif ( BM.TopLidOpenDI != Close && PRMD_HO_LLTopLid == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "Loadlock Top Lid Open alarm";
+	$Action = SystemAbort;
+	$alarm = 9404;
+}
+aif ( BM.TopLidOpenDI != Close && PRMD_HO_LLTopLid == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "Loadlock Top Lid Open alarm";
+	$alarm = 9404;
+}
+
+#####################################
+#  TM Top Lid Open Alarm
+#####################################
+aif ( TM.TopLidOpenDI != Close && PRMD_HO_TMTopLid == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM Top Lid Open alarm";
+	$Action = SystemAbort;
+	$alarm = 9405;
+}
+aif ( TM.TopLidOpenDI != Close && PRMD_HO_TMTopLid == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM Top Lid Open alarm";
+	$alarm = 9405;
+}
+
+#####################################
+#  LL1 Pump Run Status Alarm
+#####################################
+aif ( BM1.DPStsDI != Run && PRMD_HO_LL1DPRun == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "LL1 Pump Run Status Alarm";
+	$Action = BM1DRYPUMP_OFF;
+	$Action = SystemAbort;
+	$alarm = 9406;
+}
+aif ( BM1.DPStsDI != Run && PRMD_HO_LL1DPRun == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "LL1 Pump Run Status Alarm";
+	$alarm = 9406;
+}
+
+#####################################
+#  LL1 Pump Warning Alarm
+#####################################
+aif ( BM1.DPWarnStsDI != Normal && PRMD_HO_LL1DPWarn == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "LL1 Pump Warning Alarm";
+	$Action = BM1DRYPUMP_OFF;
+	$Action = SystemAbort;
+	$alarm = 9407;
+}
+aif ( BM1.DPWarnStsDI != Normal && PRMD_HO_LL1DPWarn == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "LL1 Pump Warning Alarm";
+	$alarm = 9407;
+}
+
+#####################################
+#  LL1 Pump Alarm
+#####################################
+aif ( BM1.DPAlarmStsDI != Normal && PRMD_HO_LL1DPAlarm == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "LL1 Pump Alarm";
+	$Action = BM1DRYPUMP_OFF;
+	$Action = SystemAbort;
+	$alarm = 9408;
+}
+aif ( BM1.DPAlarmStsDI != Normal && PRMD_HO_LL1DPAlarm == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "LL1 Pump Alarm";
+	$alarm = 9408;
+}
+
+#####################################
+#  LL2 Pump Run Status Alarm
+#####################################
+aif ( BM2.DPStsDI != Run && PRMD_HO_LL2DPRun == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "LL2 Pump Run Status Alarm";
+	$Action = BM2DRYPUMP_OFF;
+	$Action = SystemAbort;
+	$alarm = 9409;
+}
+aif ( BM2.DPStsDI != Run && PRMD_HO_LL2DPRun == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "LL2 Pump Run Status Alarm";
+	$alarm = 9409;
+}
+
+#####################################
+#  LL2 Pump Warning Alarm
+#####################################
+aif ( BM2.DPWarnStsDI != Normal && PRMD_HO_LL2DPWarn == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "LL2 Pump Warning Alarm";
+	$Action = BM2DRYPUMP_OFF;
+	$Action = SystemAbort;
+	$alarm = 9410;
+}
+aif ( BM2.DPWarnStsDI != Normal && PRMD_HO_LL2DPWarn == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "LL2 Pump Warning Alarm";
+	$alarm = 9410;
+}
+
+#####################################
+#  LL2 Pump Alarm
+#####################################
+aif ( BM2.DPAlarmStsDI != Normal && PRMD_HO_LL2DPAlarm == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "LL2 Pump Alarm";
+	$Action = BM2DRYPUMP_OFF;
+	$Action = SystemAbort;
+	$alarm = 9411;
+}
+aif ( BM2.DPAlarmStsDI != Normal && PRMD_HO_LL2DPAlarm == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "LL2 Pump Alarm";
+	$alarm = 9411;
+}
+
+#####################################
+#  TM Pump Run Status Alarm
+#####################################
+aif ( TM.DPStsDI != Run && PRMD_HO_TMDPRun == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM Pump Run Status Alarm";
+	$Action = TMDRYPUMP_OFF;
+	$Action = SystemAbort;
+	$alarm = 9412;
+}
+aif ( TM.DPStsDI != Run && PRMD_HO_TMDPRun == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM Pump Run Status Alarm";
+	$alarm = 9412;
+}
+
+#####################################
+#  TM Pump Warning Alarm
+#####################################
+aif ( TM.DPWarnStsDI != Normal && PRMD_HO_TMDPWarn == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM Pump Warning Alarm";
+	$Action = TMDRYPUMP_OFF;
+	$Action = SystemAbort;
+	$alarm = 9413;
+}
+aif ( TM.DPWarnStsDI != Normal && PRMD_HO_TMDPWarn == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM Pump Warning Alarm";
+	$alarm = 9413;
+}
+
+#####################################
+#  TM Pump Alarm
+#####################################
+aif ( TM.DPAlarmStsDI != Normal && PRMD_HO_TMDPAlarm == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM Pump Alarm";
+	$Action = TMDRYPUMP_OFF;
+	$Action = SystemAbort;
+	$alarm = 9414;
+}
+aif ( TM.DPAlarmStsDI != Normal && PRMD_HO_TMDPAlarm == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM Pump Alarm";
+	$alarm = 9414;
+}
+
+#####################################
+#  He Pressure Switch Alarm
+#####################################
+aif ( TM.He_Pressure_Sensor != Normal && PRMD_HO_H2PrsSwitch == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "He Pressure Switch Alarm";
+	$Action = SystemAbort;
+	$alarm = 9415;
+}
+aif ( TM.He_Pressure_Sensor != Normal && PRMD_HO_H2PrsSwitch == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "He Pressure Switch Alarm";
+	$alarm = 9415;
+}
+
+#####################################
+#  N2 Pressure Switch Alarm
+#####################################
+aif ( TM.N2_Pressure_Sensor != Normal && PRMD_HO_N2PrsSwitch == Abort ) {
+	$Time = ValueIntlkTimeN2;
+	$Print = "N2 Pressure Switch Alarm";
+	$Action = SystemAbort;
+	$alarm = 9416;
+}
+aif ( TM.N2_Pressure_Sensor != Normal && PRMD_HO_N2PrsSwitch == Warning ) {
+	$Time = ValueIntlkTimeN2;
+	$Print = "N2 Pressure Switch Alarm";
+	$alarm = 9416;
+}
+
+#####################################
+#  CDA Pressure Switch Alarm
+#####################################
+aif ( TM.CDA_Sensor != Normal && PRMD_HO_CDAPrsSwitch == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "CDA Pressure Switch Alarm";
+	$Action = SystemAbort;
+	$alarm = 9417;
+}
+aif ( TM.CDA_Sensor != Normal && PRMD_HO_CDAPrsSwitch == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "CDA Pressure Switch Alarm";
+	$alarm = 9417;
+}
+
+#####################################
+#  AC Power Major Sag. Alarm
+#####################################
+aif ( Gen_AC_Power_Sag != Normal && PRMD_HO_ACPowerMajor == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "AC Power Major Sag. Alarm";
+	$Action = AbortAll;
+	$alarm = 9418;
+}
+aif ( Gen_AC_Power_Sag != Normal && PRMD_HO_ACPowerMajor == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "AC Power Major Sag. Alarm";
+	$alarm = 9418;
+}
+
+#####################################
+#  AC Power Minor Sag. Alarm
+#####################################
+aif ( Gen_AC_Power_Sag != Normal && PRMD_HO_ACPowerMinor == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "AC Power Minor Sag. Alarm";
+	$Action = AbortAll;
+	$alarm = 9419;
+}
+aif ( Gen_AC_Power_Sag != Normal && PRMD_HO_ACPowerMinor == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "AC Power Minor Sag. Alarm";
+	$alarm = 9419;
+}
+
+#####################################
+#  Smoke Detect MPB Alarm
+#####################################
+aif ( TM.MPB_Smoke_Detector != Normal && PRMD_HO_SmokeMPB == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "Smoke Detect MPB Alarm";
+	$Action = AbortAll;
+	$alarm = 9420;
+}
+aif ( TM.MPB_Smoke_Detector != Normal && PRMD_HO_SmokeMPB == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "Smoke Detect MPB Alarm";
+	$alarm = 9420;
+}
+
+#####################################
+#  RPG PCW Leak Detect Alarm
+#####################################
+aif ( TM.RPG_PCW_Leak != Normal && PRMD_HO_RPGPCWLeak == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "RPG PCW Leak Detect Alarm";
+	$Action = AbortAll;
+	$alarm = 9421;
+}
+aif ( TM.RPG_PCW_Leak != Normal && PRMD_HO_RPGPCWLeak == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "RPG PCW Leak Detect Alarm";
+	$alarm = 9421;
+}
+
+#####################################
+#  PC Rack Cooling Fan Status Alarm
+#####################################
+aif ( PC_Rack_Cool_Fan_Status != Normal && PRMD_HO_PCFanCoolSts == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "PC Rack Cooling Fan Status Alarm";
+	$Action = SystemAbort;
+	$alarm = 9422;
+}
+aif ( PC_Rack_Cool_Fan_Status != Normal && PRMD_HO_PCFanCoolSts == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "PC Rack Cooling Fan Status Alarm";
+	$alarm = 9422;
+}
+
+aif ( ATM_RB_PrsSwtich != Normal && PRMD_HO_ATM_RB_Prs == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "ATM Robot Pressure Swtich Status Alarm";
+	$Action = SystemAbort;
+	$alarm = 9500;
+}
+aif ( ATM_RB_PrsSwtich != Normal && PRMD_HO_ATM_RB_Prs == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "ATM Robot Pressure Swtich Status Alarm";
+	$alarm = 9500;
+}
+
+aif ( EFEM_PwrBox_Fan_Status != Normal && PRMD_HO_PwrBox_Fan == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "EFEM Power Box Fan Status Alarm";
+	$Action = SystemAbort;
+	$alarm = 9501;
+}
+aif ( EFEM_PwrBox_Fan_Status != Normal && PRMD_HO_PwrBox_Fan == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "EFEM Power Box Fan Status Alarm";
+	$alarm = 9501;
+}
+
+aif ( EFEM_IOBox_Fan_Status != Normal && PRMD_HO_IOBox_Fan == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "EFEM IO BOX Fan Status Alarm";
+	$Action = SystemAbort;
+	$alarm = 9502;
+}
+aif ( EFEM_IOBox_Fan_Status != Normal && PRMD_HO_IOBox_Fan == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "EFEM IO BOX Fan Status Alarm";
+	$alarm = 9502;
+}
+
+aif ( EFEM_TopZone_Fan_Status != Normal && PRMD_HO_TopZone_Fan == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "EFEM Top Zone Fan Status Alarm";
+	$Action = SystemAbort;
+	$alarm = 9503;
+}
+aif ( EFEM_TopZone_Fan_Status != Normal && PRMD_HO_TopZone_Fan == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "EFEM Top Zone Fan Status Alarm";
+	$alarm = 9503;
+}	
+	
+#####################################
+#  EFEM Light Curtain Status Alarm
+#####################################
+aif ( EFEM.LightCurtainDI != On && PRMD_HO_LightCurtain == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "EFEM Light Curtain Status Alarm";
+	$Action = SystemAbort;
+	$alarm = 9423;
+}
+aif ( EFEM.LightCurtainDI != On && PRMD_HO_LightCurtain == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "EFEM Light Curtain Status Alarm";
+	$alarm = 9423;
+}
+
+
+#####################################
+#  EFEM Door Open Alarm
+#####################################
+aif ( EFEM.Door_OpenDI != Close && PRMD_HO_EFEMDoor == Abort ) {
+	$Time = ValueIntlkTime;
+	$Print = "EFEM Door Open Alarm";
+	$Action = SystemAbort;
+	$alarm = 9424;
+}
+aif ( EFEM.Door_OpenDI != Close && PRMD_HO_EFEMDoor == Warning ) {
+	$Time = ValueIntlkTime;
+	$Print = "EFEM Door Open Alarm";
+	$alarm = 9424;
+}
+
+#####################################
+#  TM Pressure Low Alarm
+#####################################
+aif ( (TM.CGChmPrsAI < PRMA_HO_TMPrsLow && PRMD_HO_TMPrsLow == Abort)
+	 && ( CTC.Main_Control == Running || CTC.Main_Control2 == Running || CTC.Main_Control3 == Running) ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM Pressure Low Alarm";
+	$Action = SystemAbort;
+	$alarm = 9425;
+}
+aif ( (TM.CGChmPrsAI < PRMA_HO_TMPrsLow && PRMD_HO_TMPrsLow == Warning)
+	 && ( CTC.Main_Control == Running || CTC.Main_Control2 == Running || CTC.Main_Control3 == Running) ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM Pressure Low Alarm";
+	$alarm = 9425;
+}
+
+#####################################
+#  TM Pressure High Alarm
+#####################################
+aif ( TM.CGChmPrsAI > PRMA_HO_TMPrsHigh && PRMD_HO_TMPrsHigh == Abort )
+	 && ( CTC.Main_Control == Running || CTC.Main_Control2 == Running || CTC.Main_Control3 == Running) ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM Pressure High Alarm";
+	$Action = TMDRYPUMP_OFF;
+	$Action = SystemAbort;
+	$alarm = 9426;
+}
+aif ( TM.CGChmPrsAI > PRMA_HO_TMPrsHigh && PRMD_HO_TMPrsHigh == Warning )
+	 && ( CTC.Main_Control == Running || CTC.Main_Control2 == Running || CTC.Main_Control3 == Running) ) {
+	$Time = ValueIntlkTime;
+	$Print = "TM Pressure High Alarm";
+	$alarm = 9426;
+}
+
+######################################
+## Main Power Rack Alarm (2015 Common Spec)
+######################################
+aif ( PRMD_HO_RFPwrBoxRack != Ignore && TM.RF_Rack_Leak_Detect == Alarm ) {
+	$alarm = 9430;
+
+	if(PRMD_HO_RFPwrBoxRack == Abort)	PM1.SW_GbIntlckDM = 1;
+	if(PRMD_HO_RFPwrBoxRack == Abort)	PM2.SW_GbIntlckDM = 1;
+	if(PRMD_HO_RFPwrBoxRack == Abort)	PM3.SW_GbIntlckDM = 1;
+
+	TM.RF_Rack_Shut_Off_Vlv1 = Close;
+	TM.RF_Rack_Shut_Off_Vlv2 = Close;
+}
+
+if ( PRMD_HO_RFPwrBoxRack != Ignore && TM.RF_Rack_Leak_Detect == Normal ) {
+	TM.RF_Rack_Shut_Off_Vlv1 = Open;
+	TM.RF_Rack_Shut_Off_Vlv2 = Open;
+}
+
+aif ( PRMD_HO_RFPwrBoxRack != Ignore && TM.MainPobox_Right_Fan == Alarm ) {
+	$Time = 3;
+	$alarm = 9431;
+}
+
+aif ( PRMD_HO_RFPwrBoxRack != Ignore && TM.MainPobox_Left_Fan == Alarm ) {
+	$Time = 3;
+	$alarm = 9432;
+}
+
+aif ( PRMD_HO_RFPwrBoxRack != Ignore && TM.MainPobox_Door_SW == Bypass_1 ) {
+	$Time = 3;
+	$alarm = 9433;
+}
+
+aif ( PRMD_HO_RFPwrBoxRack != Ignore && TM.RF_Right_Fan == Alarm ) {
+	$Time = 3;
+	$alarm = 9434;
+}
+
+aif ( PRMD_HO_RFPwrBoxRack != Ignore && TM.RF_Left_Fan == Alarm ) {
+	$Time = 3;
+	$alarm = 9435;
+}
+
+aif ( PRMD_HO_RFPwrBoxRack != Ignore && TM.RF_Door_SW == Bypass_1 ) {
+	$Time = 3;
+	$alarm = 9436;
+}
+
+
+######################################
+## LPM Port Alarm (2015 Common Spec)
+######################################
+aif ( LPMA.FanAlarmDI == On ) {
+	$Time  = 2;
+	$Print = "LPMA Fan Alarm Detected";
+	$alarm = 387;
+}
+
+aif ( LPMB.FanAlarmDI == On ) {
+	$Time  = 2;
+	$Print = "LPMB Fan Alarm Detected";
+	$alarm = 687;
+}
+
+aif ( LPMC.FanAlarmDI == On ) {
+	$Time  = 2;
+	$Print = "LPMC Fan Alarm Detected";
+	$alarm = 987;
+}
+
+#####################################
+#  TM Over Pressure Interlock
+#####################################
+aif ( TM.ATMVACSensorXI != VAC || TM.CGChmPrsAI > 10  ) {
+	$Time = ValueIntlkTime;
+	TM.OverPresVvDO = Close;
+}

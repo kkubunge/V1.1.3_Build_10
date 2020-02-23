@@ -1,0 +1,115 @@
+2020/1/25 18:42:48	USERCONTROL	[SYSTEM_START]
+2020/1/25 18:43:24	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/25 18:43:26	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/25 18:43:27	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/25 18:43:27	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/25 18:43:28	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/25 18:43:28	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/25 18:43:32	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2020/1/25 18:43:32	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2020/1/25 18:43:34	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 7(PM Param 2)
+2020/1/25 18:43:34	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2020/1/25 18:43:34	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 8(PM Param 3)
+2020/1/25 18:43:34	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2020/1/25 18:43:35	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 9(PM Param 4)
+2020/1/25 18:43:35	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2020/1/25 18:43:36	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 10(PM Param 5)
+2020/1/25 18:43:36	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2020/1/25 18:43:36	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 11(PM Param 6)
+2020/1/25 18:43:36	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7
+2020/1/25 18:43:37	SETTING	[DIO] Right_Config_Parm_Nav with [8] at Page = 12(PM Param 7)
+2020/1/25 18:43:37	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 8
+2020/1/25 18:43:38	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/25 18:43:38	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/25 18:43:41	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/25 18:43:41	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/25 18:43:46	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2020/1/25 18:43:46	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2020/1/25 18:43:47	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/25 18:43:47	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/25 18:43:51	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/25 18:43:51	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/25 18:43:53	SETTING	[DIO] Bottom_Utility with [1] at Page = 0(PAGE 1)
+2020/1/25 18:43:53	BUTTON	[BOTTOM CLICK] Bottom_Utility
+2020/1/25 18:43:54	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/25 18:43:54	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/25 18:43:56	SETTING	[DIO] Right_Config_Parm_Nav with [12] at Page = 0(PM Param 8 (LT Heater Set 1))
+2020/1/25 18:43:56	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 12
+2020/1/25 18:43:57	SETTING	[DIO] Right_Config_Parm_Nav with [1] at Page = 4(PM Param 8-4 (Line Heater Power Check))
+2020/1/25 18:43:57	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 1
+2020/1/25 20:22:21	USERCONTROL	[SYSTEM_START]
+2020/1/25 20:22:31	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/25 20:22:33	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/25 20:22:34	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/25 20:22:34	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/25 20:22:36	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 6(PM Param 1)
+2020/1/25 20:22:36	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2020/1/25 20:52:14	USERCONTROL	[SYSTEM_START]
+2020/1/25 20:52:25	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/25 20:52:27	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/25 20:52:28	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/25 20:52:28	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/25 20:52:29	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 6(PM Param 1)
+2020/1/25 20:52:29	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7
+2020/1/25 21:10:32	USERCONTROL	[SYSTEM_START]
+2020/1/25 21:10:43	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/25 21:10:45	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/25 21:10:46	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/25 21:10:46	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/25 21:10:47	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 6(PM Param 1)
+2020/1/25 21:10:47	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7
+2020/1/25 23:5:42	USERCONTROL	[SYSTEM_START]
+2020/1/25 23:5:52	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/25 23:5:54	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/25 23:5:55	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/25 23:5:55	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/25 23:5:56	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2020/1/25 23:5:56	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2020/1/25 23:5:57	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 7(PM Param 2)
+2020/1/25 23:5:57	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2020/1/25 23:15:21	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 8(PM Param 3)
+2020/1/25 23:15:21	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2020/1/25 23:15:21	SETTING	[DIO] Right_Config_Parm_Nav with [1] at Page = 7(PM Param 2)
+2020/1/25 23:15:21	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 1
+2020/1/25 23:15:23	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 6(PM Param 1)
+2020/1/25 23:15:23	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2020/1/25 23:15:24	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 8(PM Param 3)
+2020/1/25 23:15:24	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2020/1/25 23:15:25	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 9(PM Param 4)
+2020/1/25 23:15:25	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2020/1/25 23:15:25	SETTING	[DIO] Right_Config_Parm_Nav with [8] at Page = 10(PM Param 5)
+2020/1/25 23:15:25	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 8
+2020/1/25 23:15:26	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 0(PM Param 8 (LT Heater Set 1))
+2020/1/25 23:15:26	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7
+2020/1/25 23:15:27	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 12(PM Param 7)
+2020/1/25 23:15:27	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2020/1/25 23:15:28	SETTING	[DIO] Right_Config_Parm_Nav with [1] at Page = 11(PM Param 6)
+2020/1/25 23:15:28	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 1
+2020/1/25 23:15:29	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2020/1/25 23:15:29	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2020/1/25 23:15:31	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 7(PM Param 2)
+2020/1/25 23:15:31	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2020/1/25 23:15:32	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 8(PM Param 3)
+2020/1/25 23:15:32	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2020/1/25 23:15:34	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 9(PM Param 4)
+2020/1/25 23:15:34	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2020/1/25 23:15:35	SETTING	[DIO] Right_Config_Parm_Nav with [1] at Page = 7(PM Param 2)
+2020/1/25 23:15:35	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 1
+2020/1/25 23:18:10	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2020/1/25 23:18:10	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2020/1/25 23:18:12	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 7(PM Param 2)
+2020/1/25 23:18:12	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2020/1/25 23:26:47	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 8(PM Param 3)
+2020/1/25 23:26:47	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2020/1/25 23:32:10	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 9(PM Param 4)
+2020/1/25 23:32:10	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2020/1/25 23:32:18	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 10(PM Param 5)
+2020/1/25 23:32:18	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2020/1/25 23:32:23	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 11(PM Param 6)
+2020/1/25 23:32:23	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7
+2020/1/25 23:32:24	SETTING	[DIO] Right_Config_Parm_Nav with [8] at Page = 12(PM Param 7)
+2020/1/25 23:32:24	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 8
+2020/1/25 23:32:26	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 0(PM Param 8 (LT Heater Set 1))
+2020/1/25 23:32:26	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2020/1/25 23:56:0	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 11(PM Param 6)
+2020/1/25 23:56:0	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7

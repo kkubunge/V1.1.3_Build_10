@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Function Information
+#-----------------------------------------------------------
+GEM.MESSAGE		95	Engine/Fa/GEM_MsgManager		ARGUMENT	"Function/Function_Module_GEM/Cfg/Message.dat"
+GEM.ERROR		60	Engine/Fa/GEM_Error			ARGUMENT	"Function/Function_Module_GEM/Cfg/Error.dat"
+#GEM.CONTROL		90	Engine/Fa/EasyGEM2_EDA|C		RUN		""	"Function/Function_Module_GEM/Cfg|||E|N|||"
+GEM.CONTROL 		90 	Engine/Fa/EasyGEM2_EDA|C  		RUN  		"Function/Function_Scheduler/Gui_EasyGem/Background/Background" "Function/Function_Module_GEM/Cfg|||E|N|||"
+GEM.PORT1_MIDCTRL	80	FUNCTION/FUNCTION_MODULE_TMC/OBJ_RFID_Manager/Sequence	ARGUEMENT       "GEM.MID1 CM1 1"
+GEM.PORT2_MIDCTRL	80	FUNCTION/FUNCTION_MODULE_TMC/OBJ_RFID_Manager/Sequence	ARGUEMENT       "GEM.MID2 CM2 2"
+GEM.PORT3_MIDCTRL	80	FUNCTION/FUNCTION_MODULE_TMC/OBJ_RFID_Manager/Sequence	ARGUEMENT       "GEM.MID3 CM3 3"
+GEM.PORT4_MIDCTRL	80	-	SUCCESS
+#GEM.TRACE1		50	Engine/Fa/GEM_IO_Monitor	ARGUMENT	"|C"	
+#GEM.TRACE2		50	Engine/Fa/GEM_IO_Monitor	ARGUMENT	"|C"
+#GEM.TRACE3		50	Engine/Fa/GEM_IO_Monitor	ARGUMENT	"|C"
+#GEM.TRACE4		50	Engine/Fa/GEM_IO_Monitor	ARGUMENT	"|C"
+#GEM.TRACE5		50	Engine/Fa/GEM_IO_Monitor	ARGUMENT	"|C"
+#GEM.TRACE6		50	Engine/Fa/GEM_IO_Monitor	ARGUMENT	"|C"
+#GEM.TRACE7		50	Engine/Fa/GEM_IO_Monitor	ARGUMENT	"|C"
+#GEM.TRACE8		50	Engine/Fa/GEM_IO_Monitor	ARGUMENT	"|C"
+#GEM.TRACE9		50	Engine/Fa/GEM_IO_Monitor	ARGUMENT	"|C"
+#GEM.TRACE10		50	Engine/Fa/GEM_IO_Monitor	ARGUMENT	"|C"
+GEM.SVID1		50	Engine/Fa/GEM_IO_Monitor	ARGUMENT	"|C"
+GEM.SVID2		50	Engine/Fa/GEM_IO_Monitor	ARGUMENT	"|C"
+GEM.SVID3		50	Engine/Fa/GEM_IO_Monitor	ARGUMENT	"|C"
+GEM.SVID4		50	Engine/Fa/GEM_IO_Monitor	ARGUMENT	"|C"
+GEM.SVID5		50	Engine/Fa/GEM_IO_Monitor	ARGUMENT	"|C"
+GEM.ECID		50	Engine/Fa/GEM_IO_Read	
+GEM.EVENT		50	Engine/Fa/GEM_IO_Read	
+
+GEM.EVENTINT_CONTROL	10	FUNCTION/FUNCTION_MODULE_GEM/OBJ_GEM_EventInterface_Manager/Sequence
+GEM.PPIDINT_CONTROL	10	FUNCTION/FUNCTION_MODULE_GEM/OBJ_GEM_PPIDInterface_Manager/Sequence
+GEM.TERMINAL		10	FUNCTION/FUNCTION_MODULE_GEM/OBJ_GEM_ExternalTerminal_Manager/Sequence
+GEM.OPERATORSTARTINT_CONTROL	90	FUNCTION/FUNCTION_MODULE_GEM/OBJ_GEM_OperatorStartInterface_Manager/Sequence
+GEM.OPERATORSTARTINT_CONTROL2	90	FUNCTION/FUNCTION_MODULE_GEM/OBJ_GEM_OperatorStartInterface_Manager2/Sequence
+GEM.OPERATORSTARTINT_CONTROL3	90	FUNCTION/FUNCTION_MODULE_GEM/OBJ_GEM_OperatorStartInterface_Manager3/Sequence
+
+GEM.HostCommand_CONTROL	82	FUNCTION/FUNCTION_MODULE_GEM/OBJ_GEM_HostCommand_Manager/Sequence
+GEM.RECIPE_HISTORY_MANAGER	9	FUNCTION/Function_Module_GEM/OBJ_GEM_RecipeHistory_Manager/Sequence
+GEM.LotRecipe_Manager	8	FUNCTION/FUNCTION_MODULE_GEM/OBJ_GEM_LotRecipe_Manager/Sequence
+#GEM.LotRecipe_AutoSave_Manager	8	FUNCTION/FUNCTION_MODULE_GEM/OBJ_GEM_LotRecipe_AutoSave_Manager/Sequence
+GEM.JobHistory_Manager	8	FUNCTION/FUNCTION_MODULE_GEM/OBJ_GEM_JobHistory_Manager/Sequence
+GEM.WaferPrcCnt_Manager	8	FUNCTION/FUNCTION_MODULE_GEM/OBJ_GEM_WaferPrcCnt_Manager/Sequence
+GEM.LOG_DELETE_MANAGER	10	FUNCTION/Function_Module_GEM/OBJ_GEM_LogDelete_Manager/Sequence		RUN
+
+GEM.CtrlMonitor		10	FUNCTION/FUNCTION_MODULE_GEM/OBJ_GEM_CtrlMonitor/Sequence	RUN

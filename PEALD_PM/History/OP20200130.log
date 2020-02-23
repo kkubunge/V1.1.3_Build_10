@@ -1,0 +1,166 @@
+2020/1/30 15:40:29	USERCONTROL	[SYSTEM_START]
+2020/1/30 15:40:46	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/30 15:40:48	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/30 15:40:51	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/30 15:40:51	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/30 15:41:6	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:6	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2020/1/30 15:41:9	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:9	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/30 15:41:11	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:11	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/30 15:41:14	SETTING	[DIO] Bottom_Utility with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:14	BUTTON	[BOTTOM CLICK] Bottom_Utility
+2020/1/30 15:41:16	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:16	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/30 15:41:17	SETTING	[DIO] Bottom_Utility with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:17	BUTTON	[BOTTOM CLICK] Bottom_Utility
+2020/1/30 15:41:18	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:18	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/30 15:41:18	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:18	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/30 15:41:19	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:19	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2020/1/30 15:41:19	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:19	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/30 15:41:27	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:27	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2020/1/30 15:41:30	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:30	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/30 15:41:35	SETTING	[DIO] Right_Service_Water with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:35	BUTTON	[RIGHT CLICK] Right_Service_Water
+2020/1/30 15:41:35	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:35	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2020/1/30 15:41:36	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:36	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2020/1/30 15:41:37	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:37	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2020/1/30 15:41:38	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:38	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2020/1/30 15:41:40	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:40	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2020/1/30 15:41:41	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:41	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2020/1/30 15:41:42	SETTING	[DIO] M_CAL_GAS08 with [1] at Page = 5(MFC Verification)
+2020/1/30 15:41:44	SETTING	[DIO] M_CAL_GAS08 with [0] at Page = 5(MFC Verification)
+2020/1/30 15:41:46	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:46	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2020/1/30 15:41:52	SETTING	[DIO] Right_Service_Water with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:52	BUTTON	[RIGHT CLICK] Right_Service_Water
+2020/1/30 15:41:54	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:54	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2020/1/30 15:41:56	SETTING	[DIO] Right_Service_Water with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:56	BUTTON	[RIGHT CLICK] Right_Service_Water
+2020/1/30 15:41:57	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:57	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2020/1/30 15:41:59	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2020/1/30 15:41:59	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2020/1/30 15:42:1	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2020/1/30 15:42:1	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2020/1/30 15:42:6	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2020/1/30 15:42:6	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2020/1/30 15:54:15	USERCONTROL	[SYSTEM_START]
+2020/1/30 15:54:26	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/30 15:54:29	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/30 15:55:17	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/30 15:55:17	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/30 15:55:25	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2020/1/30 15:55:25	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2020/1/30 15:55:26	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/30 15:55:26	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/30 15:55:28	SETTING	[DIO] Right_Service_Water with [1] at Page = 0(PAGE 1)
+2020/1/30 15:55:28	BUTTON	[RIGHT CLICK] Right_Service_Water
+2020/1/30 15:55:30	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2020/1/30 15:55:30	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2020/1/30 15:55:33	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2020/1/30 15:55:33	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2020/1/30 15:55:34	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2020/1/30 15:55:34	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2020/1/30 15:55:34	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2020/1/30 15:55:34	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2020/1/30 15:55:41	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/30 15:55:41	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/30 15:55:54	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2020/1/30 15:55:54	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2020/1/30 15:55:55	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/30 15:55:55	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/30 15:55:56	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/30 15:55:56	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/30 15:55:58	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2020/1/30 15:55:58	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2020/1/30 15:55:59	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/30 15:55:59	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/30 15:56:0	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2020/1/30 15:56:0	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2020/1/30 15:56:1	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/30 15:56:1	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/30 15:56:2	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2020/1/30 15:56:2	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2020/1/30 15:56:3	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/30 15:56:3	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/30 15:56:11	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/30 15:56:11	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/30 16:2:16	USERCONTROL	[SYSTEM_START]
+2020/1/30 16:2:28	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/30 16:2:30	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/30 16:2:34	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/30 16:2:34	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/30 16:2:43	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/30 16:2:43	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/30 16:2:47	SETTING	[DIO] Right_Service_Water with [1] at Page = 0(PAGE 1)
+2020/1/30 16:2:47	BUTTON	[RIGHT CLICK] Right_Service_Water
+2020/1/30 16:2:49	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2020/1/30 16:2:49	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2020/1/30 16:2:52	SETTING	[DIO] Right_Service_Leak_Nav with [2] at Page = 1(Leak Check)
+2020/1/30 16:2:52	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 2
+2020/1/30 16:2:53	SETTING	[DIO] Right_Service_Leak_Nav with [3] at Page = 2(ALD ValveLeak Check)
+2020/1/30 16:2:53	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 3
+2020/1/30 16:2:54	SETTING	[DIO] Right_Service_Leak_Nav with [4] at Page = 3(GasLine Leak Check)
+2020/1/30 16:2:54	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 4
+2020/1/30 16:2:55	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2020/1/30 16:2:55	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2020/1/30 16:2:57	SETTING	[DIO] Right_Service_Vrifi_Nav with [2] at Page = 5(MFC Verification)
+2020/1/30 16:2:57	BUTTON	[NAV CLICK] Right_Service_Vrifi_Nav - 2
+2020/1/30 16:2:59	SETTING	[DIO] Right_Service_Vrifi_Nav with [3] at Page = 13(MFC Flow Test)
+2020/1/30 16:2:59	BUTTON	[NAV CLICK] Right_Service_Vrifi_Nav - 3
+2020/1/30 16:3:0	SETTING	[DIO] Right_Service_Vrifi_Nav with [4] at Page = 14(Chuck Motor Test)
+2020/1/30 16:3:0	BUTTON	[NAV CLICK] Right_Service_Vrifi_Nav - 4
+2020/1/30 16:3:2	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2020/1/30 16:3:2	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2020/1/30 16:48:55	USERCONTROL	[SYSTEM_START]
+2020/1/30 16:49:7	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/30 16:49:9	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/30 16:49:11	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/30 16:49:11	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/30 16:49:15	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/30 16:49:17	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/30 16:49:17	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/30 16:49:18	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/30 16:49:18	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/30 16:50:7	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/30 16:50:7	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/30 16:50:8	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/30 16:50:8	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/30 16:50:11	SETTING	[DIO] Bottom_Utility with [1] at Page = 0(PAGE 1)
+2020/1/30 16:50:11	BUTTON	[BOTTOM CLICK] Bottom_Utility
+2020/1/30 16:50:18	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/30 16:50:18	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/30 17:2:8	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/30 17:2:8	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/30 17:2:9	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/30 17:2:9	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/30 17:8:35	USERCONTROL	[SYSTEM_START]
+2020/1/30 17:8:47	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/30 17:8:49	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/30 17:8:51	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/30 17:8:51	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/30 17:8:53	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/30 17:8:53	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/30 17:8:55	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/30 17:8:55	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/30 17:8:57	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/30 17:8:57	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/30 17:10:39	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/30 17:10:39	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/30 17:10:41	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/30 17:10:41	BUTTON	[RIGHT CLICK] Right_System_Control

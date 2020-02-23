@@ -1,0 +1,101 @@
+#--------------------------------------------------------------
+# Lot Flow Simulation Cycle Sequence File
+# Command List
+#	LOAD_FOUP	LPM1  [WaferCount]  			(WaferCount 값 만큼 LPM에 Wafer Load)
+#	UNLOAD_FOUP	LPM1					(LPM Unload)
+#	START_LOT	LPM1  [JOBNAME]  [RECIPE_PATH]		(JobName 과 Recipe로 Run 시작)
+#	CANCEL_LOT	LPM1					(Lot을 Cancel)
+#	STOP_LOT	LPM1					(Wafer 회수 후 Lot 정지, STOP 수행)
+#	WAIT_LOT_END	LPM1					(해당 Lot 끝날때까지 기다림)
+#
+#	WAIT_MIN	10					(10분간 기다림)
+#	WAIT_SEC	10					(10초간 기다림)
+#	WAIT_WHILE_IO	[Type(D/A/S)]  [==,!=,>=,<=,>,<] [Value] (해당 I/O 가 조건에 맞는 값을 유지동안 기다림)
+#	WRITE_IO	[Type(D/A/S)]  [Name] [Value]
+#
+#	PM_MODE		[ENALBE/DISABLE/DISSTOP]  PM1		(PM Mode를 변경한다)
+#	ABORT_ALL_LOT						(모든 Lot 강제 정지)
+#	LOOP_START	[LoopCount]				(Simul Loop 시작 부분, LoopCount값만큼 수행)
+#	LOOP_END						(Simul Loop 마지막 부분)
+#
+#	MID_CONTROL_ON	LPM1					해당 LPM의 MID_CONTROL Option을 On
+#	MID_CONTROL_OFF	LPM2					해당 LPM의 MID_CONTROL Option을 On
+#	CLEAR_ALARMS	[Module] [AlarmNumber] [AlarmNumber]	Alarm Clear 기능
+#
+#	SET_STOP_CON	SCHEDULER_STOP	YES			(Scheduler 정지시 Simul Loop 정지, Default:YES)
+#	SET_STOP_CON	ALARM	1001 1002 1003			(List 된 Alarm 발생시 Simul Loop 정지)
+#	SET_STOP_CON	ALARM	-1				(Alarm Monitoring 안함, Default 값)
+#	SET_STOP_CON	IO [Type(D/A/S)]  [==,!=,>=,<=,>,<] [Value] (해당 I/O가 조건에 맞으면 Simul Loop 정지)
+#	SET_STOP_CON	ABORT_ALL_LOT	YES			(Simul 정지시 모든 Lot Abort를 한다)
+#	SET_STOP_CON	ABORT_ALL_LOT	NO			(Simul 정시시 모든 Lot Abort를 하지 않는다, Default 값)
+#	SET_STOP_CON	UNLOAD_LOCK_ERR	YES			(Lot 종료 후 Foup Unload가 안되는 문제 발생시 Simul Loop 정지
+#								 Default:YES)
+#--------------------------------------------------------------
+
+SET_STOP_CON	SCHEDULER_STOP	YES
+SET_STOP_CON	ALARM	-1
+MID_CONTROL_ON	LPM1
+MID_CONTROL_ON	LPM2
+MID_CONTROL_ON	LPM3
+
+#--------------------------------------------------------------
+#LOOP_START
+
+UNLOAD_FOUP	LPM1
+WAIT_SEC	1
+UNLOAD_FOUP	LPM2
+WAIT_SEC	1
+UNLOAD_FOUP	LPM3
+WAIT_SEC	1
+
+LOAD_FOUP	LPM1	25
+WAIT_SEC	3
+
+LOAD_FOUP	LPM2	25
+WAIT_SEC	3
+
+LOAD_FOUP	LPM3	25
+WAIT_SEC	3
+
+START_LOT	LPM1	JOB1	Test_PM12:(RUN)
+WAIT_SEC	30
+
+START_LOT	LPM2	JOB2	Test_PM12:(RUN)
+WAIT_SEC	30
+
+START_LOT	LPM3	JOB3	Test_PM12:(RUN)
+WAIT_SEC	30
+
+WAIT_SEC	430
+WAIT_WHILE_IO	D	PM1.PRO_RunStsDM  !=  1			(Wait PM1 Running)
+WRITE_IO	D	PM1.SimControlDM	17		(PM1 Process Abort)
+WAIT_SEC	10
+WRITE_IO	D	PM1.SimControlDM	0
+
+WAIT_SEC	530
+
+CLEAR_ALARMS	PM1 1001 2815
+PM_MODE		ENABLE	PM1
+
+WAIT_LOT_END	LPM1
+WAIT_SEC	3
+
+WAIT_LOT_END	LPM2
+WAIT_SEC	3
+
+WAIT_LOT_END	LPM3
+WAIT_SEC	3
+
+#LOOP_END
+#--------------------------------------------------------------
+
+UNLOAD_FOUP	LPM1
+WAIT_SEC	1
+UNLOAD_FOUP	LPM2
+WAIT_SEC	1
+UNLOAD_FOUP	LPM3
+WAIT_SEC	1
+
+MID_CONTROL_OFF	LPM1
+MID_CONTROL_OFF	LPM2
+MID_CONTROL_OFF	LPM3

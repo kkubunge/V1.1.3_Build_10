@@ -1,0 +1,112 @@
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#  PARAMETER
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+$$$ Digital
+	FC_BM2_DOOR_CTRL	OnOff
+	FC_BM2_VAC_CTRL		OnOff
+	FC_BM2_PIN_CTRL		OnOff
+	FC_BM2_MT_CTRL		OnOff
+	FC_BM2_RPUMP_CTRL		OnOff
+	
+	PRMD_BM2_STABLE_OVERVENT	OffOn
+	PRMD_BM2_FINAL_PUMP		OffOn
+		
+	## 2008.11.17 by jonghyuk (Cycle Purge)
+	FC_BM2_CYCPURGE_CTRL	OnOff
+	PRMD_BM2_CYCLE_PURGE_CNT	-	3
+
+	PRMD_BM2_DOOR_TMO
+	PRMD_BM2_PIN_TMO	-	5
+	PRMD_BM2_MT_TMO
+	PRMD_BM2_MT_TOL_L	-	2
+	PRMD_BM2_MT_TOL_R	-	2
+	
+	PRMD_BM2_COOL_TIME	-	300
+	
+	PRMD_BM2_SVENT_TMO	-	300	# Slow -> Fast
+	PRMD_BM2_FVENT_TMO	-	300	# Vent Target
+	PRMD_BM2_SPUMP_TMO	-	300 #Slow -> Fast
+	PRMD_BM2_FPUMP_TMO	-	300 # Pump Target
+
+	PRMD_BM2_RPUMP_TMO	-	300
+
+	PRMD_BM2_OVENT_TIME	-  * *  - - - - -    0    100
+	
+	## 2008.11.17 by jonghyuk (Cycle Purge)
+	PRMD_BM2_CP_SVENT_TMO	-	300	# Slow -> Fast
+	PRMD_BM2_CP_FVENT_TMO	-	300	# Vent Target
+	PRMD_BM2_CP_SPUMP_TMO	-	300 	#Slow -> Fast
+	PRMD_BM2_CP_FPUMP_TMO	-	300 	# Pump Target	
+	PRMD_BM2_CP_RPUMP_TMO	-	300
+	PRMD_BM2_CP_OVENT_TIME	-  * *  - - - - -    0    10
+
+$$$ Analog
+	PRMA_BM2_PIN_TD		sec	-	-	-	-	0	0	30	1	-	-	-	-	0	0	30	-	-	-	-	0
+	PRMA_BM2_VENT_TD	sec	-	-	-	-	0	0	60	1	-	-	-	-	0	0	60	-	-	-	-	0
+	PRMA_BM2_MOTION_DIFFPRES	Torr   -         -  -  -  2       0   1000   1  -   -  -  -  2       0   1000  --- --- --- ---     10	
+	## 2006.08.08 by ycchoi (Cycle Purge)
+	PRMA_BM2_CP_VENT_TD	sec	-	-	-	-	0	0	30	1	-	-	-	-	0	0	30	-	-	-	-	0
+		
+	PRMA_BM2_RPUMP_PRES		Torr   -         -  -  -  2       0   1000   1  -   -  -  -  2       0   1000  --- --- --- ---     10
+
+	PRMA_BM2_SVENT_PRES  Pacal  -         -  -  -  2  -99999 133332   1  -   -  -  -  2  -99999 133332 --- --- --- ---     760	# Slow -> Fast
+	PRMA_BM2_FVENT_PRES  Pacal  -         -  -  -  2  -99999 133332   1  -   -  -  -  2  -99999 133332 --- --- --- ---     760	# Vent Target
+	PRMA_BM2_SPUMP_PRES  Pacal  -         -  -  -  3  -99999 133332   1  -   -  -  -  3  -99999 133332 --- --- --- ---     0.05	# Slow -> Fast
+	PRMA_BM2_FPUMP_PRES  Pacal  -         -  -  -  3  -99999 133332   1  -   -  -  -  3  -99999 133332 --- --- --- ---     0.05	# Pump Target
+
+	PRMA_BM2_LOAD_POS_L    pos    -         -  -  -  0  -99999999      99999999   1  -   -  -  -  0  -99999999      99999999 --- --- --- ---
+	PRMA_BM2_UNLOAD_POS_L  pos    -         -  -  -  0  -99999999      99999999   1  -   -  -  -  0  -99999999      99999999 --- --- --- ---
+	PRMA_BM2_LOAD_POS_R    pos    -         -  -  -  0  -99999999      99999999   1  -   -  -  -  0  -99999999      99999999 --- --- --- ---
+	PRMA_BM2_UNLOAD_POS_R  pos    -         -  -  -  0  -99999999      99999999   1  -   -  -  -  0  -99999999      99999999 --- --- --- ---
+
+	BM2.pcCHM.LeakAve	  mTorr - - - -   2     0  999999   1	- - - -  2      0 999999     -     -     -     -
+	
+	## 2008.11.17 by jonghyuk (Cycle Purge)
+	PRMA_BM2_CP_RPUMP_PRES		Torr   -         -  -  -  2       0   1000   1  -   -  -  -  2       0   1000  --- --- --- ---     10
+
+	PRMA_BM2_CP_SVENT_PRES  Pacal  -         -  -  -  2  -99999 133332   1  -   -  -  -  2  -99999 133332 --- --- --- ---     760	# Slow -> Fast
+	PRMA_BM2_CP_FVENT_PRES  Pacal  -         -  -  -  2  -99999 133332   1  -   -  -  -  2  -99999 133332 --- --- --- ---     760	# Vent Target
+	PRMA_BM2_CP_SPUMP_PRES  Pacal  -         -  -  -  3  -99999 133332   1  -   -  -  -  3  -99999 133332 --- --- --- ---     0.05	# Slow -> Fast
+	PRMA_BM2_CP_FPUMP_PRES  Pacal  -         -  -  -  3  -99999 133332   1  -   -  -  -  3  -99999 133332 --- --- --- ---     0.05	# Pump Target
+	
+	PRMA_BM2_TOTAL_VENT_TIME  sec  -	 -  -  -  1	  0     60   1	-   -  -  -  1	     0	   60 -	  -   -	  -	  0	
+
+$$$ String
+	BM2.psLKCHK.LastTime	"2000/01/01  0:00"
+
+#--------------------------------------------------------------------------
+$$$ Digital
+#--------------------------------------------------------------------------
+BM2.AlarmStatus		AlarmSts  SYSTEM     0  0  2000  2999  1
+
+BM2.VacuumStatusDM	VacStatus
+BM2.LockPumpDM	NoYes
+
+BM2.PumpVentStepDM	PumpVentStep
+#--------------------------------------------------------------------------
+#  Maintenance
+#--------------------------------------------------------------------------
+$$$ Digital
+
+BM2.MAINT_SLOT
+
+vBM2.Logging	  NoYes
+
+$$$ Digital # For Cooling
+PM7.Progress
+PM7.Process_Run
+#mgsong
+PM9.Progress
+PM9.Process_Run
+
+$$$ String
+PM7.Process_Message
+PM9.Process_Message

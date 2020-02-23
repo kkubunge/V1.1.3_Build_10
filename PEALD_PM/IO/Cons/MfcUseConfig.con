@@ -1,0 +1,59 @@
+$$$ Digital
+
+MFC01_UseDM	HT_UseEnum	Use
+MFC02_UseDM	HT_UseEnum	Use
+MFC03_UseDM	HT_UseEnum	Use
+MFC04_UseDM	HT_UseEnum	Use
+MFC05_UseDM	HT_UseEnum	Use
+MFC06_UseDM	HT_UseEnum	Use
+MFC07_UseDM	HT_UseEnum	Use
+MFC08_UseDM	HT_UseEnum	Use
+MFC09_UseDM	HT_UseEnum	Use
+MFC10_UseDM	HT_UseEnum	NotUse
+MFC11_UseDM	HT_UseEnum	NotUse
+MFC12_UseDM	HT_UseEnum	NotUse
+MFC13_UseDM	HT_UseEnum	NotUse
+MFC14_UseDM	HT_UseEnum	NotUse
+MFC15_UseDM	HT_UseEnum	NotUse
+MFC16_UseDM	HT_UseEnum	NotUse
+MFC17_UseDM	HT_UseEnum	NotUse
+MFC18_UseDM	HT_UseEnum	NotUse
+MFC19_UseDM	HT_UseEnum	NotUse
+MFC20_UseDM	HT_UseEnum	NotUse
+MFC21_UseDM	HT_UseEnum	NotUse
+MFC22_UseDM	HT_UseEnum	NotUse
+MFC23_UseDM	HT_UseEnum	NotUse
+MFC24_UseDM	HT_UseEnum	NotUse
+MFC25_UseDM	HT_UseEnum	NotUse
+
+
+$$$ Enum
+MFC_MonEnum	Ignore	Warning	ChmDis	Abort Retry
+$$$ Digital
+MFC01_MonOptDM	MFC_MonEnum	Warning
+MFC02_MonOptDM	MFC_MonEnum	Warning
+MFC03_MonOptDM	MFC_MonEnum	Warning
+MFC04_MonOptDM	MFC_MonEnum	Warning
+MFC05_MonOptDM	MFC_MonEnum	Warning
+MFC06_MonOptDM	MFC_MonEnum	Warning
+MFC07_MonOptDM	MFC_MonEnum	Warning
+MFC08_MonOptDM	MFC_MonEnum	Warning
+MFC09_MonOptDM	MFC_MonEnum	Warning
+MFC10_MonOptDM	MFC_MonEnum	Warning
+MFC11_MonOptDM	MFC_MonEnum	Warning
+MFC12_MonOptDM	MFC_MonEnum	Warning
+MFC13_MonOptDM  MFC_MonEnum	Warning
+MFC14_MonOptDM	MFC_MonEnum	Warning
+MFC15_MonOptDM	MFC_MonEnum	Warning
+MFC16_MonOptDM	MFC_MonEnum	Warning
+MFC17_MonOptDM	MFC_MonEnum	Warning
+MFC18_MonOptDM	MFC_MonEnum	Warning
+MFC19_MonOptDM	MFC_MonEnum	Warning
+MFC20_MonOptDM	MFC_MonEnum	Warning
+MFC21_MonOptDM	MFC_MonEnum	Warning
+MFC22_MonOptDM	MFC_MonEnum	Warning
+MFC23_MonOptDM  MFC_MonEnum	Warning
+MFC24_MonOptDM	MFC_MonEnum	Warning
+MFC25_MonOptDM	MFC_MonEnum	Warning
+
+

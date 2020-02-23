@@ -1,0 +1,1026 @@
+#------------------------------------------------------------------------------
+# Preventive Maintenance Alarm	3500 - 3999
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# PM1		3500 - 3599
+#------------------------------------------------------------------------------
+
+3500 W_WET_WFR_CNT {
+	"WET Cleaning is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3501 A_WET_WFR_CNT {
+	"WET Cleaning is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3502 W_WET_VLV_CNT {
+	"WET Cleaning is Needed(warning) : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3503 A_WET_VLV_CNT {
+	"WET Cleaning is Needed : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3504 W_WET_FEED_AMT {
+	"WET Cleaning is Needed(warning) : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3505 A_WET_FEED_AMT {
+	"WET Cleaning is Needed : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3506 W_DRY_WFR_CNT {
+	"DRY Cleaning is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3507 A_DRY_WFR_CNT {
+	"DRY Cleaning is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3508 W_DRY_VLV_CNT {
+	"DRY Cleaning is Needed(warning) : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3509 A_DRY_VLV_CNT {
+	"DRY Cleaning is Needed : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3510 W_DRY_FEED_AMT {
+	"DRY Cleaning is Needed(warning) : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3511 A_DRY_FEED_AMT {
+	"DRY Cleaning is Needed : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3512 W_SRC_WFR_CNT {
+	"Source Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3513 A_SRC_WFR_CNT {
+	"Source Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3514 W_SRC_VLV_CNT {
+	"Source Exchange is Needed(warning) : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3515 A_SRC_VLV_CNT {
+	"Source Exchange is Needed : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3516 W_SRC_FEED_AMT {
+	"Source Exchange is Needed(warning) : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3517 A_SRC_FEED_AMT {
+	"Source Exchange is Needed : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3518 W_SRC_LIFE_TIME {
+	"Source Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3519 A_SRC_LIFE_TIME {
+	"Source Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3520 W_STG_WFR_CNT {
+	"Stage Heater Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3521 A_STG_WFR_CNT {
+	"Stage Heater Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3522 W_STG_LIFE_TIME {
+	"Stage Heater Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3523 A_STG_LIFE_TIME {
+	"Stage Heater Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3524 W_RF_LIFE_TIME {
+	"RF Generator ON Time Over(warning)"
+	RETRY		"Retry"
+}
+3525 A_RF_LIFE_TIME {
+	"RF Generator ON Time Over"
+	RETRY		"Retry"
+}
+3526 W_DP_WFR_CNT {
+	"Dry Pump Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3527 A_DP_WFR_CNT {
+	"Dry Pump Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3528 W_DP_LIFE_TIME {
+	"Dry Pump Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3529 A_DP_LIFE_TIME {
+	"Dry Pump Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3530 W_TRAP_WFR_CNT {
+	"TRAP Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3531 A_TRAP_WFR_CNT {
+	"TRAP Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3532 W_TRAP_LIFE_TIME {
+	"TRAP Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3533 A_TRAP_LIFE_TIME {
+	"TRAP Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3534 W_MPA_WFR_CNT {
+	"Maintenance Period A is Reached(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3535 A_MPA_WFR_CNT {
+	"Maintenance Period A is Reached : Wafer Count Over"
+	RETRY		"Retry"
+}
+3536 W_MPA_LIFE_TIME {
+	"Maintenance Period A is Reached(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3537 A_MPA_LIFE_TIME {
+	"Maintenance Period A is Reached : Life Time Over"
+	RETRY		"Retry"
+}
+3538 W_MPB_WFR_CNT {
+	"Maintenance Period B is Reached(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3539 A_MPB_WFR_CNT {
+	"Maintenance Period B is Reached : Wafer Count Over"
+	RETRY		"Retry"
+}
+3540 W_MPB_LIFE_TIME {
+	"Maintenance Period B is Reached(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3541 A_MPB_LIFE_TIME {
+	"Maintenance Period B is Reached : Life Time Over"
+	RETRY		"Retry"
+}
+3542 W_MPC_WFR_CNT {
+	"Maintenance Period C is Reached(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3543 A_MPC_WFR_CNT {
+	"Maintenance Period C is Reached : Wafer Count Over"
+	RETRY		"Retry"
+}
+3544 W_MPC_LIFE_TIME {
+	"Maintenance Period C is Reached(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3545 A_MPC_LIFE_TIME {
+	"Maintenance Period C is Reached : Life Time Over"
+	RETRY		"Retry"
+}
+
+3551 W_DRY_THK_TIME {
+	"DRY Cleaning is Needed(waring) : Thickness Amount Over"
+	RETRY		"Retry"
+}
+3552 A_DRY_THK_TIME {
+	"DRY Cleaning is Needed : Thickness Amount Over"
+	RETRY		"Retry"
+}
+3553 F_DRY_THK_TIME {
+	"DRY Cleaning is Needed(Fault) : Thickness Amount Over"
+	CLEAR		"Clear Operation"
+}
+
+3560 W_WET_THK_TIME {
+	"WET Cleaning is Needed(waring) : Thickness Amount Over"
+	RETRY		"Retry"
+}
+3561 A_WET_THK_TIME {
+	"WET Cleaning is Needed : Thickness Amount Over"
+	RETRY		"Retry"
+}
+
+#------------------------------------------------------------------------------
+# PM2		3600 - 3699
+#------------------------------------------------------------------------------
+3600 W_WET_WFR_CNT {
+	"WET Cleaning is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3601 A_WET_WFR_CNT {
+	"WET Cleaning is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3602 W_WET_VLV_CNT {
+	"WET Cleaning is Needed(warning) : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3603 A_WET_VLV_CNT {
+	"WET Cleaning is Needed : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3604 W_WET_FEED_AMT {
+	"WET Cleaning is Needed(warning) : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3605 A_WET_FEED_AMT {
+	"WET Cleaning is Needed : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3606 W_DRY_WFR_CNT {
+	"DRY Cleaning is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3607 A_DRY_WFR_CNT {
+	"DRY Cleaning is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3608 W_DRY_VLV_CNT {
+	"DRY Cleaning is Needed(warning) : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3609 A_DRY_VLV_CNT {
+	"DRY Cleaning is Needed : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3610 W_DRY_FEED_AMT {
+	"DRY Cleaning is Needed(warning) : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3611 A_DRY_FEED_AMT {
+	"DRY Cleaning is Needed : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3612 W_SRC_WFR_CNT {
+	"Source Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3613 A_SRC_WFR_CNT {
+	"Source Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3614 W_SRC_VLV_CNT {
+	"Source Exchange is Needed(warning) : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3615 A_SRC_VLV_CNT {
+	"Source Exchange is Needed : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3616 W_SRC_FEED_AMT {
+	"Source Exchange is Needed(warning) : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3617 A_SRC_FEED_AMT {
+	"Source Exchange is Needed : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3618 W_SRC_LIFE_TIME {
+	"Source Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3619 A_SRC_LIFE_TIME {
+	"Source Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3620 W_STG_WFR_CNT {
+	"Stage Heater Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3621 A_STG_WFR_CNT {
+	"Stage Heater Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3622 W_STG_LIFE_TIME {
+	"Stage Heater Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3623 A_STG_LIFE_TIME {
+	"Stage Heater Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3624 W_RF_LIFE_TIME {
+	"RF Generator ON Time Over(warning)"
+	RETRY		"Retry"
+}
+3625 A_RF_LIFE_TIME {
+	"RF Generator ON Time Over"
+	RETRY		"Retry"
+}
+3626 W_DP_WFR_CNT {
+	"Dry Pump Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3627 A_DP_WFR_CNT {
+	"Dry Pump Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3628 W_DP_LIFE_TIME {
+	"Dry Pump Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3629 A_DP_LIFE_TIME {
+	"Dry Pump Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3630 W_TRAP_WFR_CNT {
+	"TRAP Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3631 A_TRAP_WFR_CNT {
+	"TRAP Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3632 W_TRAP_LIFE_TIME {
+	"TRAP Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3633 A_TRAP_LIFE_TIME {
+	"TRAP Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3634 W_MPA_WFR_CNT {
+	"Maintenance Period A is Reached(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3635 A_MPA_WFR_CNT {
+	"Maintenance Period A is Reached : Wafer Count Over"
+	RETRY		"Retry"
+}
+3636 W_MPA_LIFE_TIME {
+	"Maintenance Period A is Reached(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3637 A_MPA_LIFE_TIME {
+	"Maintenance Period A is Reached : Life Time Over"
+	RETRY		"Retry"
+}
+3638 W_MPB_WFR_CNT {
+	"Maintenance Period B is Reached(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3639 A_MPB_WFR_CNT {
+	"Maintenance Period B is Reached : Wafer Count Over"
+	RETRY		"Retry"
+}
+3640 W_MPB_LIFE_TIME {
+	"Maintenance Period B is Reached(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3641 A_MPB_LIFE_TIME {
+	"Maintenance Period B is Reached : Life Time Over"
+	RETRY		"Retry"
+}
+3642 W_MPC_WFR_CNT {
+	"Maintenance Period C is Reached(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3643 A_MPC_WFR_CNT {
+	"Maintenance Period C is Reached : Wafer Count Over"
+	RETRY		"Retry"
+}
+3644 W_MPC_LIFE_TIME {
+	"Maintenance Period C is Reached(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3645 A_MPC_LIFE_TIME {
+	"Maintenance Period C is Reached : Life Time Over"
+	RETRY		"Retry"
+}
+
+3651 W_DRY_THK_TIME {
+	"DRY Cleaning is Needed(waring) : Thickness Amount Over"
+	RETRY		"Retry"
+}
+3652 A_DRY_THK_TIME {
+	"DRY Cleaning is Needed : Thickness Amount Over"
+	RETRY		"Retry"
+}
+3653 F_DRY_THK_TIME {
+	"DRY Cleaning is Needed(Fault) : Thickness Amount Over"
+	CLEAR		"Clear Operation"
+}
+
+3660 W_WET_THK_TIME {
+	"WET Cleaning is Needed(waring) : Thickness Amount Over"
+	RETRY		"Retry"
+}
+3661 A_WET_THK_TIME {
+	"WET Cleaning is Needed : Thickness Amount Over"
+	RETRY		"Retry"
+}
+
+#------------------------------------------------------------------------------
+# PM3		3700 - 3799
+#------------------------------------------------------------------------------
+3700 W_WET_WFR_CNT {
+	"WET Cleaning is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3701 A_WET_WFR_CNT {
+	"WET Cleaning is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3702 W_WET_VLV_CNT {
+	"WET Cleaning is Needed(warning) : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3703 A_WET_VLV_CNT {
+	"WET Cleaning is Needed : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3704 W_WET_FEED_AMT {
+	"WET Cleaning is Needed(warning) : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3705 A_WET_FEED_AMT {
+	"WET Cleaning is Needed : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3706 W_DRY_WFR_CNT {
+	"DRY Cleaning is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3707 A_DRY_WFR_CNT {
+	"DRY Cleaning is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3708 W_DRY_VLV_CNT {
+	"DRY Cleaning is Needed(warning) : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3709 A_DRY_VLV_CNT {
+	"DRY Cleaning is Needed : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3710 W_DRY_FEED_AMT {
+	"DRY Cleaning is Needed(warning) : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3711 A_DRY_FEED_AMT {
+	"DRY Cleaning is Needed : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3712 W_SRC_WFR_CNT {
+	"Source Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3713 A_SRC_WFR_CNT {
+	"Source Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3714 W_SRC_VLV_CNT {
+	"Source Exchange is Needed(warning) : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3715 A_SRC_VLV_CNT {
+	"Source Exchange is Needed : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3716 W_SRC_FEED_AMT {
+	"Source Exchange is Needed(warning) : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3717 A_SRC_FEED_AMT {
+	"Source Exchange is Needed : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3718 W_SRC_LIFE_TIME {
+	"Source Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3719 A_SRC_LIFE_TIME {
+	"Source Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3720 W_STG_WFR_CNT {
+	"Stage Heater Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3721 A_STG_WFR_CNT {
+	"Stage Heater Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3722 W_STG_LIFE_TIME {
+	"Stage Heater Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3723 A_STG_LIFE_TIME {
+	"Stage Heater Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3724 W_RF_LIFE_TIME {
+	"RF Generator ON Time Over(warning)"
+	RETRY		"Retry"
+}
+3725 A_RF_LIFE_TIME {
+	"RF Generator ON Time Over"
+	RETRY		"Retry"
+}
+3726 W_DP_WFR_CNT {
+	"Dry Pump Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3727 A_DP_WFR_CNT {
+	"Dry Pump Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3728 W_DP_LIFE_TIME {
+	"Dry Pump Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3729 A_DP_LIFE_TIME {
+	"Dry Pump Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3730 W_TRAP_WFR_CNT {
+	"TRAP Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3731 A_TRAP_WFR_CNT {
+	"TRAP Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3732 W_TRAP_LIFE_TIME {
+	"TRAP Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3733 A_TRAP_LIFE_TIME {
+	"TRAP Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3734 W_MPA_WFR_CNT {
+	"Maintenance Period A is Reached(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3735 A_MPA_WFR_CNT {
+	"Maintenance Period A is Reached : Wafer Count Over"
+	RETRY		"Retry"
+}
+3736 W_MPA_LIFE_TIME {
+	"Maintenance Period A is Reached(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3737 A_MPA_LIFE_TIME {
+	"Maintenance Period A is Reached : Life Time Over"
+	RETRY		"Retry"
+}
+3738 W_MPB_WFR_CNT {
+	"Maintenance Period B is Reached(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3739 A_MPB_WFR_CNT {
+	"Maintenance Period B is Reached : Wafer Count Over"
+	RETRY		"Retry"
+}
+3740 W_MPB_LIFE_TIME {
+	"Maintenance Period B is Reached(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3741 A_MPB_LIFE_TIME {
+	"Maintenance Period B is Reached : Life Time Over"
+	RETRY		"Retry"
+}
+3742 W_MPC_WFR_CNT {
+	"Maintenance Period C is Reached(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3743 A_MPC_WFR_CNT {
+	"Maintenance Period C is Reached : Wafer Count Over"
+	RETRY		"Retry"
+}
+3744 W_MPC_LIFE_TIME {
+	"Maintenance Period C is Reached(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3745 A_MPC_LIFE_TIME {
+	"Maintenance Period C is Reached : Life Time Over"
+	RETRY		"Retry"
+}
+
+3751 W_DRY_THK_TIME {
+	"DRY Cleaning is Needed(waring) : Thickness Amount Over"
+	RETRY		"Retry"
+}
+3752 A_DRY_THK_TIME {
+	"DRY Cleaning is Needed : Thickness Amount Over"
+	RETRY		"Retry"
+}
+3753 F_DRY_THK_TIME {
+	"DRY Cleaning is Needed(Fault) : Thickness Amount Over"
+	CLEAR		"Clear Operation"
+}
+
+3760 W_WET_THK_TIME {
+	"WET Cleaning is Needed(waring) : Thickness Amount Over"
+	RETRY		"Retry"
+}
+3761 A_WET_THK_TIME {
+	"WET Cleaning is Needed : Thickness Amount Over"
+	RETRY		"Retry"
+}
+
+#------------------------------------------------------------------------------
+# PM4		3800 - 3899
+#------------------------------------------------------------------------------
+3800 W_WET_WFR_CNT {
+	"WET Cleaning is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3801 A_WET_WFR_CNT {
+	"WET Cleaning is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3802 W_WET_VLV_CNT {
+	"WET Cleaning is Needed(warning) : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3803 A_WET_VLV_CNT {
+	"WET Cleaning is Needed : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3804 W_WET_FEED_AMT {
+	"WET Cleaning is Needed(warning) : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3805 A_WET_FEED_AMT {
+	"WET Cleaning is Needed : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3806 W_DRY_WFR_CNT {
+	"DRY Cleaning is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3807 A_DRY_WFR_CNT {
+	"DRY Cleaning is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3808 W_DRY_VLV_CNT {
+	"DRY Cleaning is Needed(warning) : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3809 A_DRY_VLV_CNT {
+	"DRY Cleaning is Needed : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3810 W_DRY_FEED_AMT {
+	"DRY Cleaning is Needed(warning) : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3811 A_DRY_FEED_AMT {
+	"DRY Cleaning is Needed : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3812 W_SRC_WFR_CNT {
+	"Source Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3813 A_SRC_WFR_CNT {
+	"Source Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3814 W_SRC_VLV_CNT {
+	"Source Exchange is Needed(warning) : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3815 A_SRC_VLV_CNT {
+	"Source Exchange is Needed : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3816 W_SRC_FEED_AMT {
+	"Source Exchange is Needed(warning) : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3817 A_SRC_FEED_AMT {
+	"Source Exchange is Needed : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3818 W_SRC_LIFE_TIME {
+	"Source Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3819 A_SRC_LIFE_TIME {
+	"Source Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3820 W_STG_WFR_CNT {
+	"Stage Heater Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3821 A_STG_WFR_CNT {
+	"Stage Heater Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3822 W_STG_LIFE_TIME {
+	"Stage Heater Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3823 A_STG_LIFE_TIME {
+	"Stage Heater Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3824 W_RF_LIFE_TIME {
+	"RF Generator ON Time Over(warning)"
+	RETRY		"Retry"
+}
+3825 A_RF_LIFE_TIME {
+	"RF Generator ON Time Over"
+	RETRY		"Retry"
+}
+3826 W_DP_WFR_CNT {
+	"Dry Pump Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3827 A_DP_WFR_CNT {
+	"Dry Pump Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3828 W_DP_LIFE_TIME {
+	"Dry Pump Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3829 A_DP_LIFE_TIME {
+	"Dry Pump Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3830 W_TRAP_WFR_CNT {
+	"TRAP Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3831 A_TRAP_WFR_CNT {
+	"TRAP Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3832 W_TRAP_LIFE_TIME {
+	"TRAP Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3833 A_TRAP_LIFE_TIME {
+	"TRAP Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3834 W_MPA_WFR_CNT {
+	"Maintenance Period A is Reached(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3835 A_MPA_WFR_CNT {
+	"Maintenance Period A is Reached : Wafer Count Over"
+	RETRY		"Retry"
+}
+3836 W_MPA_LIFE_TIME {
+	"Maintenance Period A is Reached(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3837 A_MPA_LIFE_TIME {
+	"Maintenance Period A is Reached : Life Time Over"
+	RETRY		"Retry"
+}
+3838 W_MPB_WFR_CNT {
+	"Maintenance Period B is Reached(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3839 A_MPB_WFR_CNT {
+	"Maintenance Period B is Reached : Wafer Count Over"
+	RETRY		"Retry"
+}
+3840 W_MPB_LIFE_TIME {
+	"Maintenance Period B is Reached(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3841 A_MPB_LIFE_TIME {
+	"Maintenance Period B is Reached : Life Time Over"
+	RETRY		"Retry"
+}
+3842 W_MPC_WFR_CNT {
+	"Maintenance Period C is Reached(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3843 A_MPC_WFR_CNT {
+	"Maintenance Period C is Reached : Wafer Count Over"
+	RETRY		"Retry"
+}
+3844 W_MPC_LIFE_TIME {
+	"Maintenance Period C is Reached(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3845 A_MPC_LIFE_TIME {
+	"Maintenance Period C is Reached : Life Time Over"
+	RETRY		"Retry"
+}
+
+#------------------------------------------------------------------------------
+# PM5		3900 - 3999
+#------------------------------------------------------------------------------
+3900 W_WET_WFR_CNT {
+	"WET Cleaning is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3901 A_WET_WFR_CNT {
+	"WET Cleaning is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3902 W_WET_VLV_CNT {
+	"WET Cleaning is Needed(warning) : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3903 A_WET_VLV_CNT {
+	"WET Cleaning is Needed : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3904 W_WET_FEED_AMT {
+	"WET Cleaning is Needed(warning) : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3905 A_WET_FEED_AMT {
+	"WET Cleaning is Needed : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3906 W_DRY_WFR_CNT {
+	"DRY Cleaning is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3907 A_DRY_WFR_CNT {
+	"DRY Cleaning is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3908 W_DRY_VLV_CNT {
+	"DRY Cleaning is Needed(warning) : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3909 A_DRY_VLV_CNT {
+	"DRY Cleaning is Needed : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3910 W_DRY_FEED_AMT {
+	"DRY Cleaning is Needed(warning) : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3911 A_DRY_FEED_AMT {
+	"DRY Cleaning is Needed : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3912 W_SRC_WFR_CNT {
+	"Source Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3913 A_SRC_WFR_CNT {
+	"Source Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3914 W_SRC_VLV_CNT {
+	"Source Exchange is Needed(warning) : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3915 A_SRC_VLV_CNT {
+	"Source Exchange is Needed : Valve Cycle Over"
+	RETRY		"Retry"
+}
+3916 W_SRC_FEED_AMT {
+	"Source Exchange is Needed(warning) : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3917 A_SRC_FEED_AMT {
+	"Source Exchange is Needed : Source Feeding Amount Over"
+	RETRY		"Retry"
+}
+3918 W_SRC_LIFE_TIME {
+	"Source Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3919 A_SRC_LIFE_TIME {
+	"Source Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3920 W_STG_WFR_CNT {
+	"Stage Heater Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3921 A_STG_WFR_CNT {
+	"Stage Heater Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3922 W_STG_LIFE_TIME {
+	"Stage Heater Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3923 A_STG_LIFE_TIME {
+	"Stage Heater Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3924 W_RF_LIFE_TIME {
+	"RF Generator ON Time Over(warning)"
+	RETRY		"Retry"
+}
+3925 A_RF_LIFE_TIME {
+	"RF Generator ON Time Over"
+	RETRY		"Retry"
+}
+3926 W_DP_WFR_CNT {
+	"Dry Pump Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3927 A_DP_WFR_CNT {
+	"Dry Pump Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3928 W_DP_LIFE_TIME {
+	"Dry Pump Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3929 A_DP_LIFE_TIME {
+	"Dry Pump Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3930 W_TRAP_WFR_CNT {
+	"TRAP Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3931 A_TRAP_WFR_CNT {
+	"TRAP Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3932 W_TRAP_LIFE_TIME {
+	"TRAP Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3933 A_TRAP_LIFE_TIME {
+	"TRAP Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}
+3934 W_MPA_WFR_CNT {
+	"Maintenance Period A is Reached(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3935 A_MPA_WFR_CNT {
+	"Maintenance Period A is Reached : Wafer Count Over"
+	RETRY		"Retry"
+}
+3936 W_MPA_LIFE_TIME {
+	"Maintenance Period A is Reached(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3937 A_MPA_LIFE_TIME {
+	"Maintenance Period A is Reached : Life Time Over"
+	RETRY		"Retry"
+}
+3938 W_MPB_WFR_CNT {
+	"Maintenance Period B is Reached(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3939 A_MPB_WFR_CNT {
+	"Maintenance Period B is Reached : Wafer Count Over"
+	RETRY		"Retry"
+}
+3940 W_MPB_LIFE_TIME {
+	"Maintenance Period B is Reached(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3941 A_MPB_LIFE_TIME {
+	"Maintenance Period B is Reached : Life Time Over"
+	RETRY		"Retry"
+}
+3942 W_MPC_WFR_CNT {
+	"Maintenance Period C is Reached(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3943 A_MPC_WFR_CNT {
+	"Maintenance Period C is Reached : Wafer Count Over"
+	RETRY		"Retry"
+}
+3944 W_MPC_LIFE_TIME {
+	"Maintenance Period C is Reached(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3945 A_MPC_LIFE_TIME {
+	"Maintenance Period C is Reached : Life Time Over"
+	RETRY		"Retry"
+}
+3946 W_STG2_WFR_CNT {
+	"Stage Heater 2 Exchange is Needed(warning) : Wafer Count Over"
+	RETRY		"Retry"
+}
+3947 A_STG2_WFR_CNT {
+	"Stage Heater 2 Exchange is Needed : Wafer Count Over"
+	RETRY		"Retry"
+}
+3948 W_STG2_LIFE_TIME {
+	"Stage Heater 2 Exchange is Needed(warning) : Life Time Over"
+	RETRY		"Retry"
+}
+3949 A_STG2_LIFE_TIME {
+	"Stage Heater 2 Exchange is Needed : Life Time Over"
+	RETRY		"Retry"
+}

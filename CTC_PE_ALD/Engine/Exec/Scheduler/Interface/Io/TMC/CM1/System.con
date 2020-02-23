@@ -1,0 +1,39 @@
+$$$ Digital
+
+CM1.AlarmStatus
+
+CM1.Mapping
+CM1.Carrier
+CM1.WaferStatus
+
+CM1.C01_Wafer	CTCMtlSts
+CM1.C02_Wafer	CTCMtlSts
+CM1.C03_Wafer	CTCMtlSts
+CM1.C04_Wafer	CTCMtlSts
+CM1.C05_Wafer	CTCMtlSts
+CM1.C06_Wafer	CTCMtlSts
+CM1.C07_Wafer	CTCMtlSts
+CM1.C08_Wafer	CTCMtlSts
+CM1.C09_Wafer	CTCMtlSts
+CM1.C10_Wafer	CTCMtlSts
+CM1.C11_Wafer	CTCMtlSts
+CM1.C12_Wafer	CTCMtlSts
+CM1.C13_Wafer	CTCMtlSts
+CM1.C14_Wafer	CTCMtlSts
+CM1.C15_Wafer	CTCMtlSts
+CM1.C16_Wafer	CTCMtlSts
+CM1.C17_Wafer	CTCMtlSts
+CM1.C18_Wafer	CTCMtlSts
+CM1.C19_Wafer	CTCMtlSts
+CM1.C20_Wafer	CTCMtlSts
+CM1.C21_Wafer	CTCMtlSts
+CM1.C22_Wafer	CTCMtlSts
+CM1.C23_Wafer	CTCMtlSts
+CM1.C24_Wafer	CTCMtlSts
+CM1.C25_Wafer	CTCMtlSts
+CM1.C26_Wafer	CTCMtlSts
+CM1.C27_Wafer	CTCMtlSts
+CM1.C28_Wafer	CTCMtlSts
+CM1.C29_Wafer	CTCMtlSts
+CM1.C30_Wafer	CTCMtlSts
+

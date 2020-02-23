@@ -1,0 +1,58 @@
+# Channel Define for Lot-pre Recipe
+$$$ Enum
+#LotPreOption   NONE READY1 READY2 READY3 READY4 READY5 READY6 READY7 READY8
+LotPreOption   NONE READY1 NONE1 READY3 NONE2 READY5 NONE3 READY7 NONE4
+$$$ String
+	CTC.PM1_PreRecipeA		""
+	CTC.PM2_PreRecipeA		""
+	CTC.PM3_PreRecipeA		""
+	CTC.PM4_PreRecipeA		""
+	CTC.PM5_PreRecipeA		""
+	CTC.PM1_PreRecipeB		""
+	CTC.PM2_PreRecipeB		""
+	CTC.PM3_PreRecipeB		""
+	CTC.PM4_PreRecipeB		""
+	CTC.PM5_PreRecipeB		""
+	CTC.PM1_PreRecipeC		""
+	CTC.PM2_PreRecipeC		""
+	CTC.PM3_PreRecipeC		""
+	CTC.PM4_PreRecipeC		""
+	CTC.PM5_PreRecipeC		""
+	CTC.PM1_PreRecipeD		""
+	CTC.PM2_PreRecipeD		""
+	CTC.PM3_PreRecipeD		""
+	CTC.PM4_PreRecipeD		""
+	CTC.PM5_PreRecipeD		""
+	CTC.PM1_PreRecipeE		""
+	CTC.PM2_PreRecipeE		""
+	CTC.PM3_PreRecipeE		""
+	CTC.PM4_PreRecipeE		""
+	CTC.PM5_PreRecipeE		""
+$$$ Digital
+        CTC.PM1_PreRecipeUseA 		DisableEnable		Disable
+        CTC.PM2_PreRecipeUseA 		DisableEnable		Disable
+        CTC.PM3_PreRecipeUseA 		DisableEnable		Disable
+        CTC.PM4_PreRecipeUseA 		DisableEnable		Disable
+        CTC.PM5_PreRecipeUseA 		DisableEnable		Disable
+        CTC.PM1_PreRecipeUseB 		DisableEnable		Disable
+        CTC.PM2_PreRecipeUseB 		DisableEnable		Disable
+        CTC.PM3_PreRecipeUseB 		DisableEnable		Disable
+        CTC.PM4_PreRecipeUseB 		DisableEnable		Disable
+        CTC.PM5_PreRecipeUseB 		DisableEnable		Disable
+        CTC.PM1_PreRecipeUseC 		DisableEnable		Disable
+        CTC.PM2_PreRecipeUseC 		DisableEnable		Disable
+        CTC.PM3_PreRecipeUseC 		DisableEnable		Disable
+        CTC.PM4_PreRecipeUseC 		DisableEnable		Disable
+        CTC.PM5_PreRecipeUseC 		DisableEnable		Disable
+        CTC.PM1_PreRecipeUseD 		DisableEnable		Disable
+        CTC.PM2_PreRecipeUseD 		DisableEnable		Disable
+        CTC.PM3_PreRecipeUseD 		DisableEnable		Disable
+        CTC.PM4_PreRecipeUseD 		DisableEnable		Disable
+        CTC.PM5_PreRecipeUseD 		DisableEnable		Disable
+        CTC.PM1_PreRecipeUseE 		DisableEnable		Disable
+        CTC.PM2_PreRecipeUseE 		DisableEnable		Disable
+        CTC.PM3_PreRecipeUseE 		DisableEnable		Disable
+        CTC.PM4_PreRecipeUseE 		DisableEnable		Disable
+        CTC.PM5_PreRecipeUseE 		DisableEnable		Disable
+$$$ Digital
+        CTC.LotPreOption		LotPreOption		NONE

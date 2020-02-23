@@ -1,0 +1,14 @@
+2019/11/26/ 15:59:40	EASYGEM : START...
+2019/11/26/ 15:59:40	EASYGEM : INITIALIZE...
+2019/11/26/ 15:59:40	EASYGEM : MULTIJOB INTERFACE INITIAL SUCCESS
+2019/11/26/ 15:59:40	Unknown Parameter(SEPARATE) - [Function/Function_Module_GEM/Cfg/System.cfg]-[81]
+2019/11/26/ 15:59:40	Unknown Parameter(COMMON) - [Function/Function_Module_GEM/Cfg/System.cfg]-[82]
+2019/11/26/ 15:59:40	Unknown Parameter(RCMD) - [Function/Function_Module_GEM/Cfg/System.cfg]-[105]
+2019/11/26/ 15:59:40	Unknown Parameter(NORMAL) - [Function/Function_Module_GEM/Cfg/System.cfg]-[106]
+2019/11/26/ 15:59:40	Unknown Parameter(ASCII) - [Function/Function_Module_GEM/Cfg/System.cfg]-[285]
+2019/11/26/ 15:59:40	Unknown Parameter(CCODE&PPARAM) - [Function/Function_Module_GEM/Cfg/System.cfg]-[286]
+2019/11/26/ 15:59:40	Parameter Error( Must 2 Block ) - [Function/Function_Module_GEM/Cfg/System.cfg]-[287]
+2019/11/26/ 15:59:40	Unknown Parameter(Function\Function_Module_GEM\Cfg\System_User.cfg) - [Function/Function_Module_GEM/Cfg/System.cfg]-[288]
+2019/11/26/ 15:59:40	Unknown Parameter(SEPARATE) - [Function/Function_Module_GEM/Cfg/System.cfg]-[423]
+2019/11/26/ 15:59:40	Unknown Parameter(30) - [Function/Function_Module_GEM/Cfg/System.cfg]-[424]
+2019/11/26/ 15:59:41	Overflow, Max SV Numbers is 4000, Error - [Function/Function_Module_GEM/Cfg/SVID.cfg]-[4710]

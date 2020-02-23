@@ -1,0 +1,539 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CLUSTER_PARAMETER DIALOGEX 20, 20, 259, 261
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION
+CAPTION "Parameter"
+FONT 9, "Arial", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Close",IDCANCEL,2,243,255,15
+    LTEXT           "File Description",IDC_STATIC,7,49,68,8
+    LTEXT           "Cluster Recipe Descrip",IDC_STATIC,129,48,76,8
+    LTEXT           "Cluster Recipe Directory",IDC_STATIC,129,61,79,8
+    LTEXT           "Parallel Support",IDC_STATIC,7,9,53,8
+    LTEXT           "",IDC_STATIC_PARALLEL,81,8,44,10,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_STATIC_FILEID,81,47,44,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_STATIC_CLUSTERID,210,47,44,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_STATIC_CLUSTERPATH,210,59,44,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Single/Group Mode",IDC_STATIC,134,9,73,8
+    LTEXT           "",IDC_STATIC_GROUP,210,8,44,10,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC_TYPE,81,19,44,10,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LTEXT           "One Step Range",IDC_STATIC,7,20,55,8
+    LTEXT           "Step Order Depth",IDC_STATIC,134,20,55,8
+    LTEXT           "",IDC_STATIC_DEPTH,210,19,44,10,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,2,41,255,32
+    GROUPBOX        "",IDC_STATIC,2,0,255,43
+    EDITTEXT        IDC_STATIC_MAINPATH,81,59,44,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Main Recipe Directory",IDC_STATIC,7,61,72,8
+    GROUPBOX        "",IDC_STATIC,2,71,255,105
+    LTEXT           "Handling Side",IDC_STATIC,7,31,66,8
+    LTEXT           "",IDC_STATIC_HANDLINGSIDE,81,30,44,10,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    CONTROL         "List1",IDC_LIST_BOX,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,6,79,247,93
+    GROUPBOX        "",IDC_STATIC,2,174,255,67
+    CONTROL         "List1",IDC_LIST_BOX2,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,6,181,121,56
+    CONTROL         "List1",IDC_LIST_BOX3,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,132,181,121,56
+END
+
+IDD_BLANK_PAD DIALOG DISCARDABLE  5, 75, 30, 27
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 16, "±¼¸²"
+BEGIN
+END
+
+IDD_LOG_VIEW DIALOGEX 5, 75, 229, 219
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "Log Viewer"
+FONT 12, "±¼¸²", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LIST_LOGVIEW,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_AUTOARRANGE | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,2,2,225,214
+END
+
+IDD_MAIN_CONTROL_M DIALOGEX 5, 75, 497, 287
+STYLE WS_POPUP | WS_VISIBLE | WS_BORDER
+FONT 10, "Arial"
+BEGIN
+    LISTBOX         IDC_LIST_CLUSTERFILE,2,64,118,126,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Reload Cluster Info",IDC_CTRL_RELOAD_CLUSTER,3,191,118,
+                    13
+    CONTROL         "List1",IDC_LIST_CLUSTERDATA,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,126,63,367,78,WS_EX_STATICEDGE
+    PUSHBUTTON      "Load PM1 Recipe",IDC_CTRL_RELOAD_PM1,140,265,116,10
+    CTEXT           "",IDC_CURRENT_CLUSTERFILE,127,28,180,13,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST_PM1FILE,140,172,116,93,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST_PM2FILE,258,172,116,93,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST_PM3FILE,377,172,116,93,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    PUSHBUTTON      "Load PM2 Recipe",IDC_CTRL_RELOAD_PM2,258,265,116,10
+    PUSHBUTTON      "Load PM3 Recipe",IDC_CTRL_RELOAD_PM3,377,265,116,10
+    LISTBOX         IDC_LIST_RECIPEDIR,15,28,106,35,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "G\nr\np",IDC_BUTTON1,3,28,12,35,BS_CENTER | BS_VCENTER | 
+                    BS_MULTILINE | BS_FLAT,WS_EX_STATICEDGE
+    PUSHBUTTON      "<Side>",IDC_CTRL_CHANGE_PM3,377,161,116,12
+    PUSHBUTTON      "<Side>",IDC_CTRL_CHANGE_PM2,258,161,116,12
+    PUSHBUTTON      "<Side>",IDC_CTRL_CHANGE_PM1,140,161,116,12
+    PUSHBUTTON      "",IDC_CTRL_AL_MODE,173,47,53,13
+    PUSHBUTTON      "",IDC_CTRL_AL_POST_TYPE,275,47,31,13
+END
+
+IDD_E_MAIN_CONTROL_M DIALOGEX 5, 75, 404, 256
+STYLE WS_POPUP | WS_VISIBLE | WS_BORDER
+FONT 12, "Arial", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST_CLUSTERFILE,3,61,81,105,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Reload Cluster Info",IDC_CTRL_RELOAD_CLUSTER,3,166,81,
+                    13
+    CONTROL         "List1",IDC_LIST_CLUSTERDATA,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,86,29,309,98,WS_EX_STATICEDGE
+    PUSHBUTTON      "Load PM1 Recipe",IDC_CTRL_RELOAD_PM1,101,236,73,10
+    CTEXT           "",IDC_CURRENT_CLUSTERFILE,86,10,111,18,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST_PM1FILE,101,154,73,81,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST_PM2FILE,174,154,73,81,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST_PM3FILE,247,154,73,81,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    PUSHBUTTON      "Load PM2 Recipe",IDC_CTRL_RELOAD_PM2,174,236,73,10
+    PUSHBUTTON      "Load PM3 Recipe",IDC_CTRL_RELOAD_PM3,247,236,73,10
+    LISTBOX         IDC_LIST_RECIPEDIR,15,22,69,38,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "G\nr\np",IDC_BUTTON1,3,22,12,38,BS_CENTER | BS_VCENTER | 
+                    BS_MULTILINE | BS_FLAT,WS_EX_STATICEDGE
+    PUSHBUTTON      "<Side>",IDC_CTRL_CHANGE_PM3,247,143,73,12
+    PUSHBUTTON      "<Side>",IDC_CTRL_CHANGE_PM2,174,143,73,12
+    PUSHBUTTON      "<Side>",IDC_CTRL_CHANGE_PM1,101,143,73,12
+    PUSHBUTTON      "",IDC_CTRL_AL_MODE,198,10,47,18
+END
+
+IDD_E_LOG_VIEW DIALOGEX 5, 75, 229, 195
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "Log Viewer"
+FONT 12, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LIST_LOGVIEW,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_AUTOARRANGE | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,2,2,225,190
+END
+
+IDD_SEARCH_PANEL DIALOGEX 5, 75, 293, 127
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "Search Panel"
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Search",IDYES,196,10,88,70
+    PUSHBUTTON      "Cancel",IDCANCEL,150,95,134,29
+    EDITTEXT        IDC_EDIT1,67,16,113,14,ES_AUTOHSCROLL
+    LTEXT           "Date From",IDC_STATIC,24,49,39,8
+    LTEXT           "Date To",IDC_STATIC,24,64,39,8
+    EDITTEXT        IDC_EDIT2,67,47,28,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT3,109,47,28,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT4,152,47,28,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT5,67,62,28,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT6,109,62,28,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT7,152,62,28,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "(Y)",IDC_STATIC,95,49,11,8
+    LTEXT           "(Y)",IDC_STATIC,95,64,11,8
+    LTEXT           "(M)",IDC_STATIC,137,49,12,8
+    LTEXT           "(M)",IDC_STATIC,137,64,12,8
+    LTEXT           "(D)",IDC_STATIC,180,49,11,8
+    LTEXT           "(D)",IDC_STATIC,180,64,11,8
+    GROUPBOX        "File Wild Card",IDC_STATIC,9,6,184,30
+    GROUPBOX        "Date Period",IDC_STATIC,9,37,184,44
+    PUSHBUTTON      "Reload All",IDOK,8,95,134,29
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CLUSTER_PARAMETER, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 257
+    END
+
+    IDD_BLANK_PAD, DIALOG
+    BEGIN
+        RIGHTMARGIN, 28
+        BOTTOMMARGIN, 24
+    END
+
+    IDD_LOG_VIEW, DIALOG
+    BEGIN
+        RIGHTMARGIN, 227
+        BOTTOMMARGIN, 216
+    END
+
+    IDD_MAIN_CONTROL_M, DIALOG
+    BEGIN
+        RIGHTMARGIN, 495
+        BOTTOMMARGIN, 281
+    END
+
+    IDD_E_MAIN_CONTROL_M, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 402
+        BOTTOMMARGIN, 250
+    END
+
+    IDD_E_LOG_VIEW, DIALOG
+    BEGIN
+        RIGHTMARGIN, 227
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_SEARCH_PANEL, DIALOG
+    BEGIN
+        RIGHTMARGIN, 291
+        BOTTOMMARGIN, 124
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PROGRAM_GUI         ICON    DISCARDABLE     "k:\\h\\Program_GUI.ico"
+IDI_KEY_BUTTON          ICON    DISCARDABLE     "k:\\h\\KEY_BUTTON.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BACKGROUND          BITMAP  DISCARDABLE     "image\\background.bmp"
+IDB_NEW_ENABLE          BITMAP  DISCARDABLE     "image\\new_enable.bmp"
+IDB_NEW_DISABLE         BITMAP  DISCARDABLE     "image\\new_disable.bmp"
+IDB_SAVE_ENABLE         BITMAP  DISCARDABLE     "image\\save_enable.bmp"
+IDB_SAVE_DISABLE        BITMAP  DISCARDABLE     "image\\save_disable.bmp"
+IDB_SAVEAS_ENABLE       BITMAP  DISCARDABLE     "image\\saveas_enable.bmp"
+IDB_SAVEAS_DISABLE      BITMAP  DISCARDABLE     "image\\saveas_disable.bmp"
+IDB_CANCEL_ENABLE       BITMAP  DISCARDABLE     "image\\cancel_enable.bmp"
+IDB_CANCEL_DISABLE      BITMAP  DISCARDABLE     "image\\cancel_disable.bmp"
+IDB_FILE_ENABLE         BITMAP  DISCARDABLE     "image\\file_enable.bmp"
+IDB_FILE_DISABLE        BITMAP  DISCARDABLE     "image\\file_disable.bmp"
+IDB_CANCEL_PRESSED      BITMAP  DISCARDABLE     "image\\cancel_pressed.bmp"
+IDB_FILE_PRESSED        BITMAP  DISCARDABLE     "image\\file_pressed.bmp"
+IDB_NEW_PRESSED         BITMAP  DISCARDABLE     "image\\new_pressed.bmp"
+IDB_SAVE_PRESSED        BITMAP  DISCARDABLE     "image\\save_pressed.bmp"
+IDB_SAVEAS_PRESSED      BITMAP  DISCARDABLE     "image\\saveas_pressed.bmp"
+IDB_ADD_PRESSED_P1      BITMAP  DISCARDABLE     "image\\add_Pressed_p1.bmp"
+IDB_ADD_ENABLE_P1       BITMAP  DISCARDABLE     "image\\add_Enable_p1.bmp"
+IDB_ADD_DISABLE_P1      BITMAP  DISCARDABLE     "image\\add_disable_p1.bmp"
+IDB_ADD_PRESSED_P2      BITMAP  DISCARDABLE     "image\\add_Pressed_p2.bmp"
+IDB_ADD_ENABLE_P2       BITMAP  DISCARDABLE     "image\\add_Enable_p2.bmp"
+IDB_ADD_DISABLE_P2      BITMAP  DISCARDABLE     "image\\add_disable_p2.bmp"
+IDB_ADD_PRESSED_P3      BITMAP  DISCARDABLE     "image\\add_Pressed_p3.bmp"
+IDB_ADD_ENABLE_P3       BITMAP  DISCARDABLE     "image\\add_Enable_p3.bmp"
+IDB_ADD_DISABLE_P3      BITMAP  DISCARDABLE     "image\\add_disable_p3.bmp"
+IDB_ADD_PRESSED_P4      BITMAP  DISCARDABLE     "image\\add_Pressed_p4.bmp"
+IDB_ADD_ENABLE_P4       BITMAP  DISCARDABLE     "image\\add_Enable_p4.bmp"
+IDB_ADD_DISABLE_P4      BITMAP  DISCARDABLE     "image\\add_disable_p4.bmp"
+IDB_CLEAR_ENABLE_P1     BITMAP  DISCARDABLE     "image\\CLEAR_Enable_p1.bmp"
+IDB_CLEAR_PRESSED_P1    BITMAP  DISCARDABLE     "image\\CLEAR_Pressed_p1.bmp"
+IDB_CLEAR_DISABLE_P1    BITMAP  DISCARDABLE     "image\\CLEAR_disable_p1.bmp"
+IDB_CLEAR_PRESSED_P2    BITMAP  DISCARDABLE     "image\\CLEAR_Pressed_p2.bmp"
+IDB_CLEAR_ENABLE_P2     BITMAP  DISCARDABLE     "image\\CLEAR_Enable_p2.bmp"
+IDB_CLEAR_DISABLE_P2    BITMAP  DISCARDABLE     "image\\CLEAR_disable_p2.bmp"
+IDB_CLEAR_PRESSED_P3    BITMAP  DISCARDABLE     "image\\CLEAR_Pressed_p3.bmp"
+IDB_CLEAR_ENABLE_P3     BITMAP  DISCARDABLE     "image\\CLEAR_Enable_p3.bmp"
+IDB_CLEAR_DISABLE_P3    BITMAP  DISCARDABLE     "image\\CLEAR_disable_p3.bmp"
+IDB_CLEAR_PRESSED_P4    BITMAP  DISCARDABLE     "image\\CLEAR_Pressed_p4.bmp"
+IDB_CLEAR_ENABLE_P4     BITMAP  DISCARDABLE     "image\\CLEAR_Enable_p4.bmp"
+IDB_CLEAR_DISABLE_P4    BITMAP  DISCARDABLE     "image\\CLEAR_disable_p4.bmp"
+IDB_ADD_DISABLE_P5      BITMAP  DISCARDABLE     "image\\add_disable_p5.bmp"
+IDB_ADD_DISABLE_P6      BITMAP  DISCARDABLE     "image\\add_disable_p6.bmp"
+IDB_ADD_ENABLE_P5       BITMAP  DISCARDABLE     "image\\add_Enable_p5.bmp"
+IDB_ADD_ENABLE_P6       BITMAP  DISCARDABLE     "image\\add_Enable_p6.bmp"
+IDB_ADD_PRESSED_P5      BITMAP  DISCARDABLE     "image\\add_Pressed_p5.bmp"
+IDB_ADD_PRESSED_P6      BITMAP  DISCARDABLE     "image\\add_Pressed_p6.bmp"
+IDB_CLEAR_DISABLE_P5    BITMAP  DISCARDABLE     "image\\CLEAR_disable_p5.bmp"
+IDB_CLEAR_DISABLE_P6    BITMAP  DISCARDABLE     "image\\CLEAR_disable_p6.bmp"
+IDB_CLEAR_ENABLE_P5     BITMAP  DISCARDABLE     "image\\CLEAR_Enable_p5.bmp"
+IDB_CLEAR_ENABLE_P6     BITMAP  DISCARDABLE     "image\\CLEAR_Enable_p6.bmp"
+IDB_CLEAR_PRESSED_P5    BITMAP  DISCARDABLE     "image\\CLEAR_Pressed_p5.bmp"
+IDB_CLEAR_PRESSED_P6    BITMAP  DISCARDABLE     "image\\CLEAR_Pressed_p6.bmp"
+IDB_SELECT_RCP_PR       BITMAP  DISCARDABLE     "image\\select_rcp_pr.bmp"
+IDB_SELECT_RCP_MAIN     BITMAP  DISCARDABLE     "image\\select_rcp_main.bmp"
+IDB_SELECT_RCP_PO       BITMAP  DISCARDABLE     "image\\select_rcp_po.bmp"
+IDB_BACKGROUND_6        BITMAP  DISCARDABLE     "image\\background_6.bmp"
+IDB_BACKGROUND_8        BITMAP  DISCARDABLE     "image\\background_8.bmp"
+IDB_BACKGROUND_10       BITMAP  DISCARDABLE     "image\\background_10.bmp"
+IDB_BACKGROUND_12       BITMAP  DISCARDABLE     "image\\background_12.bmp"
+IDB_ADD_DISABLE_P7      BITMAP  DISCARDABLE     "image\\add_disable_p7.bmp"
+IDB_ADD_DISABLE_P8      BITMAP  DISCARDABLE     "image\\add_disable_p8.bmp"
+IDB_ADD_DISABLE_P9      BITMAP  DISCARDABLE     "image\\add_disable_p9.bmp"
+IDB_ADD_DISABLE_P10     BITMAP  DISCARDABLE     "image\\add_disable_p10.bmp"
+IDB_ADD_DISABLE_P11     BITMAP  DISCARDABLE     "image\\add_disable_p11.bmp"
+IDB_ADD_DISABLE_P12     BITMAP  DISCARDABLE     "image\\add_disable_p12.bmp"
+IDB_ADD_ENABLE_P7       BITMAP  DISCARDABLE     "image\\add_Enable_p7.bmp"
+IDB_ADD_ENABLE_P8       BITMAP  DISCARDABLE     "image\\add_Enable_p8.bmp"
+IDB_ADD_ENABLE_P9       BITMAP  DISCARDABLE     "image\\add_Enable_p9.bmp"
+IDB_ADD_ENABLE_P10      BITMAP  DISCARDABLE     "image\\add_Enable_p10.bmp"
+IDB_ADD_ENABLE_P11      BITMAP  DISCARDABLE     "image\\add_Enable_p11.bmp"
+IDB_ADD_ENABLE_P12      BITMAP  DISCARDABLE     "image\\add_Enable_p12.bmp"
+IDB_ADD_PRESSED_P7      BITMAP  DISCARDABLE     "image\\add_Pressed_p7.bmp"
+IDB_ADD_PRESSED_P8      BITMAP  DISCARDABLE     "image\\add_Pressed_p8.bmp"
+IDB_ADD_PRESSED_P9      BITMAP  DISCARDABLE     "image\\add_Pressed_p9.bmp"
+IDB_ADD_PRESSED_P10     BITMAP  DISCARDABLE     "image\\add_Pressed_p10.bmp"
+IDB_ADD_PRESSED_P11     BITMAP  DISCARDABLE     "image\\add_Pressed_p11.bmp"
+IDB_ADD_PRESSED_P12     BITMAP  DISCARDABLE     "image\\add_Pressed_p12.bmp"
+IDB_CLEAR_DISABLE_P7    BITMAP  DISCARDABLE     "image\\CLEAR_disable_p7.bmp"
+IDB_CLEAR_DISABLE_P8    BITMAP  DISCARDABLE     "image\\CLEAR_disable_p8.bmp"
+IDB_CLEAR_DISABLE_P9    BITMAP  DISCARDABLE     "image\\CLEAR_disable_p9.bmp"
+IDB_CLEAR_DISABLE_P10   BITMAP  DISCARDABLE     "image\\CLEAR_disable_p10.bmp"
+IDB_CLEAR_DISABLE_P11   BITMAP  DISCARDABLE     "image\\CLEAR_disable_p11.bmp"
+IDB_CLEAR_DISABLE_P12   BITMAP  DISCARDABLE     "image\\CLEAR_disable_p12.bmp"
+IDB_CLEAR_ENABLE_P7     BITMAP  DISCARDABLE     "image\\CLEAR_Enable_p7.bmp"
+IDB_CLEAR_ENABLE_P8     BITMAP  DISCARDABLE     "image\\CLEAR_Enable_p8.bmp"
+IDB_CLEAR_ENABLE_P9     BITMAP  DISCARDABLE     "image\\CLEAR_Enable_p9.bmp"
+IDB_CLEAR_ENABLE_P10    BITMAP  DISCARDABLE     "image\\CLEAR_Enable_p10.bmp"
+IDB_CLEAR_ENABLE_P11    BITMAP  DISCARDABLE     "image\\CLEAR_Enable_p11.bmp"
+IDB_CLEAR_ENABLE_P12    BITMAP  DISCARDABLE     "image\\CLEAR_Enable_p12.bmp"
+IDB_CLEAR_PRESSED_P7    BITMAP  DISCARDABLE     "image\\CLEAR_Pressed_p7.bmp"
+IDB_CLEAR_PRESSED_P8    BITMAP  DISCARDABLE     "image\\CLEAR_Pressed_p8.bmp"
+IDB_CLEAR_PRESSED_P9    BITMAP  DISCARDABLE     "image\\CLEAR_Pressed_p9.bmp"
+IDB_CLEAR_PRESSED_P10   BITMAP  DISCARDABLE     "image\\CLEAR_Pressed_p10.bmp"
+IDB_CLEAR_PRESSED_P11   BITMAP  DISCARDABLE     "image\\CLEAR_Pressed_p11.bmp"
+IDB_CLEAR_PRESSED_P12   BITMAP  DISCARDABLE     "image\\CLEAR_Pressed_p12.bmp"
+IDB_ADD_DISABLE2_P1     BITMAP  DISCARDABLE     "image\\add_disable2_p1.bmp"
+IDB_ADD_DISABLE2_P2     BITMAP  DISCARDABLE     "image\\add_disable2_p2.bmp"
+IDB_ADD_DISABLE2_P3     BITMAP  DISCARDABLE     "image\\add_disable2_p3.bmp"
+IDB_ADD_DISABLE2_P4     BITMAP  DISCARDABLE     "image\\add_disable2_p4.bmp"
+IDB_ADD_DISABLE2_P5     BITMAP  DISCARDABLE     "image\\add_disable2_p5.bmp"
+IDB_ADD_DISABLE2_P6     BITMAP  DISCARDABLE     "image\\add_disable2_p6.bmp"
+IDB_ADD_DISABLE2_P7     BITMAP  DISCARDABLE     "image\\add_disable2_p7.bmp"
+IDB_ADD_DISABLE2_P8     BITMAP  DISCARDABLE     "image\\add_disable2_p8.bmp"
+IDB_ADD_DISABLE2_P9     BITMAP  DISCARDABLE     "image\\add_disable2_p9.bmp"
+IDB_ADD_DISABLE2_P10    BITMAP  DISCARDABLE     "image\\add_disable2_p10.bmp"
+IDB_ADD_DISABLE2_P11    BITMAP  DISCARDABLE     "image\\add_disable2_p11.bmp"
+IDB_ADD_DISABLE2_P12    BITMAP  DISCARDABLE     "image\\add_disable2_p12.bmp"
+IDB_ADD_ENABLE2_P1      BITMAP  DISCARDABLE     "image\\add_Enable2_p1.bmp"
+IDB_ADD_ENABLE2_P2      BITMAP  DISCARDABLE     "image\\add_Enable2_p2.bmp"
+IDB_ADD_ENABLE2_P3      BITMAP  DISCARDABLE     "image\\add_Enable2_p3.bmp"
+IDB_ADD_ENABLE2_P4      BITMAP  DISCARDABLE     "image\\add_Enable2_p4.bmp"
+IDB_ADD_ENABLE2_P5      BITMAP  DISCARDABLE     "image\\add_Enable2_p5.bmp"
+IDB_ADD_ENABLE2_P6      BITMAP  DISCARDABLE     "image\\add_Enable2_p6.bmp"
+IDB_ADD_ENABLE2_P7      BITMAP  DISCARDABLE     "image\\add_Enable2_p7.bmp"
+IDB_ADD_ENABLE2_P8      BITMAP  DISCARDABLE     "image\\add_Enable2_p8.bmp"
+IDB_ADD_ENABLE2_P9      BITMAP  DISCARDABLE     "image\\add_Enable2_p9.bmp"
+IDB_ADD_ENABLE2_P10     BITMAP  DISCARDABLE     "image\\add_Enable2_p10.bmp"
+IDB_ADD_ENABLE2_P11     BITMAP  DISCARDABLE     "image\\add_Enable2_p11.bmp"
+IDB_ADD_ENABLE2_P12     BITMAP  DISCARDABLE     "image\\add_Enable2_p12.bmp"
+IDB_ADD_PRESSED2_P1     BITMAP  DISCARDABLE     "image\\add_Pressed2_p1.bmp"
+IDB_ADD_PRESSED2_P2     BITMAP  DISCARDABLE     "image\\add_Pressed2_p2.bmp"
+IDB_ADD_PRESSED2_P3     BITMAP  DISCARDABLE     "image\\add_Pressed2_p3.bmp"
+IDB_ADD_PRESSED2_P4     BITMAP  DISCARDABLE     "image\\add_Pressed2_p4.bmp"
+IDB_ADD_PRESSED2_P5     BITMAP  DISCARDABLE     "image\\add_Pressed2_p5.bmp"
+IDB_ADD_PRESSED2_P6     BITMAP  DISCARDABLE     "image\\add_Pressed2_p6.bmp"
+IDB_ADD_PRESSED2_P7     BITMAP  DISCARDABLE     "image\\add_Pressed2_p7.bmp"
+IDB_ADD_PRESSED2_P8     BITMAP  DISCARDABLE     "image\\add_Pressed2_p8.bmp"
+IDB_ADD_PRESSED2_P9     BITMAP  DISCARDABLE     "image\\add_Pressed2_p9.bmp"
+IDB_ADD_PRESSED2_P10    BITMAP  DISCARDABLE     "image\\add_Pressed2_p10.bmp"
+IDB_ADD_PRESSED2_P11    BITMAP  DISCARDABLE     "image\\add_Pressed2_p11.bmp"
+IDB_ADD_PRESSED2_P12    BITMAP  DISCARDABLE     "image\\add_Pressed2_p12.bmp"
+IDB_CLEAR_DISABLE2_P1   BITMAP  DISCARDABLE     "image\\CLEAR_disable2_p1.bmp"
+IDB_CLEAR_DISABLE2_P2   BITMAP  DISCARDABLE     "image\\CLEAR_disable2_p2.bmp"
+IDB_CLEAR_DISABLE2_P3   BITMAP  DISCARDABLE     "image\\CLEAR_disable2_p3.bmp"
+IDB_CLEAR_DISABLE2_P4   BITMAP  DISCARDABLE     "image\\CLEAR_disable2_p4.bmp"
+IDB_CLEAR_DISABLE2_P5   BITMAP  DISCARDABLE     "image\\CLEAR_disable2_p5.bmp"
+IDB_CLEAR_DISABLE2_P6   BITMAP  DISCARDABLE     "image\\CLEAR_disable2_p6.bmp"
+IDB_CLEAR_DISABLE2_P7   BITMAP  DISCARDABLE     "image\\CLEAR_disable2_p7.bmp"
+IDB_CLEAR_DISABLE2_P8   BITMAP  DISCARDABLE     "image\\CLEAR_disable2_p8.bmp"
+IDB_CLEAR_DISABLE2_P9   BITMAP  DISCARDABLE     "image\\CLEAR_disable2_p9.bmp"
+IDB_CLEAR_DISABLE2_P10  BITMAP  DISCARDABLE     "image\\CLEAR_disable2_p10.bmp"
+IDB_CLEAR_DISABLE2_P11  BITMAP  DISCARDABLE     "image\\CLEAR_disable2_p11.bmp"
+IDB_CLEAR_DISABLE2_P12  BITMAP  DISCARDABLE     "image\\CLEAR_disable2_p12.bmp"
+IDB_CLEAR_ENABLE2_P1    BITMAP  DISCARDABLE     "image\\CLEAR_Enable2_p1.bmp"
+IDB_CLEAR_ENABLE2_P2    BITMAP  DISCARDABLE     "image\\CLEAR_Enable2_p2.bmp"
+IDB_CLEAR_ENABLE2_P3    BITMAP  DISCARDABLE     "image\\CLEAR_Enable2_p3.bmp"
+IDB_CLEAR_ENABLE2_P4    BITMAP  DISCARDABLE     "image\\CLEAR_Enable2_p4.bmp"
+IDB_CLEAR_ENABLE2_P5    BITMAP  DISCARDABLE     "image\\CLEAR_Enable2_p5.bmp"
+IDB_CLEAR_ENABLE2_P6    BITMAP  DISCARDABLE     "image\\CLEAR_Enable2_p6.bmp"
+IDB_CLEAR_ENABLE2_P7    BITMAP  DISCARDABLE     "image\\CLEAR_Enable2_p7.bmp"
+IDB_CLEAR_ENABLE2_P8    BITMAP  DISCARDABLE     "image\\CLEAR_Enable2_p8.bmp"
+IDB_CLEAR_ENABLE2_P9    BITMAP  DISCARDABLE     "image\\CLEAR_Enable2_p9.bmp"
+IDB_CLEAR_ENABLE2_P10   BITMAP  DISCARDABLE     "image\\CLEAR_Enable2_p10.bmp"
+IDB_CLEAR_ENABLE2_P11   BITMAP  DISCARDABLE     "image\\CLEAR_Enable2_p11.bmp"
+IDB_CLEAR_ENABLE2_P12   BITMAP  DISCARDABLE     "image\\CLEAR_Enable2_p12.bmp"
+IDB_CLEAR_PRESSED2_P1   BITMAP  DISCARDABLE     "image\\CLEAR_Pressed2_p1.bmp"
+IDB_CLEAR_PRESSED2_P2   BITMAP  DISCARDABLE     "image\\CLEAR_Pressed2_p2.bmp"
+IDB_CLEAR_PRESSED2_P3   BITMAP  DISCARDABLE     "image\\CLEAR_Pressed2_p3.bmp"
+IDB_CLEAR_PRESSED2_P4   BITMAP  DISCARDABLE     "image\\CLEAR_Pressed2_p4.bmp"
+IDB_CLEAR_PRESSED2_P5   BITMAP  DISCARDABLE     "image\\CLEAR_Pressed2_p5.bmp"
+IDB_CLEAR_PRESSED2_P6   BITMAP  DISCARDABLE     "image\\CLEAR_Pressed2_p6.bmp"
+IDB_CLEAR_PRESSED2_P7   BITMAP  DISCARDABLE     "image\\CLEAR_Pressed2_p7.bmp"
+IDB_CLEAR_PRESSED2_P8   BITMAP  DISCARDABLE     "image\\CLEAR_Pressed2_p8.bmp"
+IDB_CLEAR_PRESSED2_P9   BITMAP  DISCARDABLE     "image\\CLEAR_Pressed2_p9.bmp"
+IDB_CLEAR_PRESSED2_P10  BITMAP  DISCARDABLE     "image\\CLEAR_Pressed2_p10.bmp"
+IDB_CLEAR_PRESSED2_P11  BITMAP  DISCARDABLE     "image\\CLEAR_Pressed2_p11.bmp"
+IDB_CLEAR_PRESSED2_P12  BITMAP  DISCARDABLE     "image\\CLEAR_Pressed2_p12.bmp"
+IDB_ARROW_ON            BITMAP  DISCARDABLE     "image\\arrow_on.bmp"
+IDB_ARROW_OFF           BITMAP  DISCARDABLE     "image\\arrow_off.bmp"
+IDB_ARROW_DOWN          BITMAP  DISCARDABLE     "image\\arrow_DOWN.bmp"
+IDB_ARROW_UP            BITMAP  DISCARDABLE     "image\\arrow_UP.bmp"
+IDB_ARROW_DOWN2         BITMAP  DISCARDABLE     "image\\arrow_down2.bmp"
+IDB_ARROW_UP2           BITMAP  DISCARDABLE     "image\\arrow_up2.bmp"
+IDB_ARROW_DOWN_X        BITMAP  DISCARDABLE     "image\\arrow_down_X.bmp"
+IDB_ARROW_DOWN2_X       BITMAP  DISCARDABLE     "image\\arrow_down2_X.bmp"
+IDB_ARROW_OFF_X         BITMAP  DISCARDABLE     "image\\arrow_off_X.bmp"
+IDB_ARROW_ON_X          BITMAP  DISCARDABLE     "image\\arrow_on_X.bmp"
+IDB_ARROW_UP_X          BITMAP  DISCARDABLE     "image\\arrow_up_X.bmp"
+IDB_ARROW_UP2_X         BITMAP  DISCARDABLE     "image\\arrow_up2_X.bmp"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,0,5,0
+ PRODUCTVERSION 4,0,5,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x9L
+#else
+ FILEFLAGS 0x8L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "Cluster Recipe Editor Program\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Gui for Cluster Recipe Editing\0"
+            VALUE "FileVersion", "4, 0, 5, 0\0"
+            VALUE "InternalName", "Gui_ClusterEditor\0"
+            VALUE "LegalCopyright", "\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Gui_ClusterEditor.exe\0"
+            VALUE "PrivateBuild", "Gui Cluster Editor 4.05(2008.02.15)\0"
+            VALUE "ProductName", "Gui_ClusterEditor\0"
+            VALUE "ProductVersion", "4, 0, 5, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

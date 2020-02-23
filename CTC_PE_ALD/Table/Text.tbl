@@ -1,0 +1,43 @@
+# CENTER LEFT RIGHT
+# Black	DarkRed	DarkGreen PeaGreen	DarkBlue
+# Lavender Slate	LightGray PaleGreen PaleBlue
+# OffWhite MediumGray DarkGray	RightRed	BrightGreen
+# Yellow	BrightBlue Magenta	Cyan	White
+#
+#---Align---LineU-------LineD-------Text--------Background------Font----
+#-----------------------------------------------------------------------
+10	CENTER	Blank	Blank	Black	Blank	10			# 61
+11	CENTER	Black		Black		White		RightRed	10	# 32
+13	CENTER	White		DarkGray	Black		LightGray	10	# 37
+
+15	CENTER	Blank	Blank	Blank	Blank	11			# 71
+16	CENTER	DarkGray	White	Black	LightGray	11	# 38
+17	CENTER	DarkGray	White	Black	White	11		# 39
+18	CENTER	DarkGray	White	Black	RightRed	11	# 40
+
+20	CENTER	Blank	Blank	White	Blank	20	# 95
+
+25	CENTER	Blank	Blank	Black	Blank	21	# 78
+26	CENTER	Blank	Blank	White	Blank	21	# 89
+27	LEFT	Blank	Blank	Black	Blank	21	# 76
+
+30	CENTER	Blank	Blank	Black	Blank	30	# 1
+31	CENTER	DarkGray	White	Black	White	30	# 0
+32	CENTER	Blank	Blank	Black	LightGray	30	# 66
+33	CENTER	Black	Black	Black	Yellow		30	# 33
+
+34	CENTER	Black	Black	Black	PaleBlue	31	# 31
+35	CENTER	Blank	Blank	Black	Blank	31	# 92
+36	CENTER	Blank	Blank	White	Blank	31	# 94
+37	CENTER	Black	Black	White	RightRed	31	# 32
+38	CENTER	Blank	Blank	Yellow	Blank	31	# 73
+
+50	CENTER	White	DarkGray	Black	LightGray	50	# 2
+55	CENTER	Blank	Blank	Black	Blank	51	# 99
+
+70	CENTER	Blank	Blank	Black	Blank	70	# 4
+
+75	CENTER	White		DarkGray	Lavender	LightGray	71	# 84
+
+
+95	CENTER	Blank	Blank	Black	Blank	91	# GUI Module Name	# 83

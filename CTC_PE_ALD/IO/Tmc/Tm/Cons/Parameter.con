@@ -1,0 +1,501 @@
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#  PARAMETER
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+$$$ Digital
+	FC_CONFIG_LOADING			OffOn		Off
+	FC_TM_INIT_CONTROL			OffOn
+	FC_TM_WFRSNS_CONTROL			OnOff
+	FC_TM_ALIGNER_CONTROL			OnOff
+	FC_TM_COOLER_CONTROL			OnOff
+	FC_TM_ISO_CONTROL			OnOff
+
+	PRM_TM_ALIGNER_RETRY		-		3
+	PRM_TM_ALIGNER_TIMEOUT		-		50
+
+	PRM_TM_ISO_SENSOR_CHECK		OffOn
+	PRM_TM_ISO_OPCL_TIMEOUT		-		15
+
+$$$ Digital
+	FC_TM_ROBOT_CONTROL			OnOff
+	FC_TM_VAC_CTRL			OnOff
+	FC_TM_RPUMP_CTRL		OnOff
+	PRMD_TM_ROBOT_Load		OffOn
+
+	## 2006.08.08 by ycchoi (Cycle Purge)
+	FC_TM_CYCPURGE_CTRL			OnOff
+	PRMD_TM_CYCLE_PURGE_CNT		-	3
+
+	PRMD_OVER_PRES_OPT	DisableEnable
+
+	PRMD_TM_RB_MOVE_TMO	-		100
+
+	PRMD_TM_SVENT_TMO	-	300	# Slow -> Fast
+	PRMD_TM_FVENT_TMO	-	300	# Vent Target
+	PRMD_TM_SPUMP_TMO	-	300 #Slow -> Fast
+	PRMD_TM_FPUMP_TMO	-	300 # Pump Target
+
+	PRMD_TM_RPUMP_TMO	-	300
+
+	PRMD_TM_OVENT_TIME	-  * *  - - - - -    0    10
+
+	PRMD_TM_CP_FVENT_TMO	-	300 # Vent Target
+	PRMD_TM_CP_SPUMP_TMO	-	300 #Slow -> Fast
+	PRMD_TM_CP_FPUMP_TMO	-	300 # Pump Target
+	PRMD_TM_CP_RPUMP_TMO	-	300
+	PRMD_TM_CP_OVENT_TIME	-  * *  - - - - -    0    10
+
+$$$ Analog
+	PRMA_TM_RPUMP_PRES  Torr   - -  -  -  2       0   1000   1  -   -  -  -  2       0   1000  --- --- --- ---     10
+
+	PRMA_TM_SVENT_PRES  Pacal  - -  -  -  2  -99999 133332   1  -   -  -  -  2  -99999 133332 --- --- --- ---     760	# Slow -> Fast
+	PRMA_TM_FVENT_PRES  Pacal  - -  -  -  2  -99999 133332   1  -   -  -  -  2  -99999 133332 --- --- --- ---     760	# Fast Vent Target
+
+	PRMA_TM_SPUMP_PRES  Pacal  - -  -  -  3  -99999 133332   1  -   -  -  -  3  -99999 133332 --- --- --- ---     0.05	# Slow -> Fast
+	PRMA_TM_FPUMP_PRES  Pacal  - -  -  -  3  -99999 133332   1  -   -  -  -  3  -99999 133332 --- --- --- ---     0.05	# Pump Target
+
+	PRMA_TM_TransPrs    Torr   -         -  -  -  3  0 1000   1  -   -  -  -  3  0 1000 --- --- --- ---     1
+	TM.pcCHM.LeakAve    mTorr  - - - -   2     0  999999   1	- - - -  2      0 999999     -     -     -     -
+
+	PRMA_TM_CP_RPUMP_PRES  Torr   -         -  -  -  2       0   1000   1  -   -  -  -  2       0   1000  --- --- --- ---     10
+	PRMA_TM_CP_FVENT_PRES  Pacal  -         -  -  -  2  -99999 133332   1  -   -  -  -  2  -99999 133332 --- --- --- ---     760	# Vent Target
+	PRMA_TM_CP_SPUMP_PRES  Pacal  -         -  -  -  3  -99999 133332   1  -   -  -  -  3  -99999 133332 --- --- --- ---     0.05	# Slow -> Fast
+	PRMA_TM_CP_FPUMP_PRES  Pacal  -         -  -  -  3  -99999 133332   1  -   -  -  -  3  -99999 133332 --- --- --- ---     0.05	# Pump Target
+
+$$$ String
+	TM.psLKCHK.LastTime	"2000/01/01  0:00"
+
+$$$ String
+	psWFR.Maint01		""
+	psWFR.Maint02		""
+	psWFR.Maint03		""
+	psWFR.Maint04		""
+	psWFR.Maint05		""
+	psWFR.Maint06		""
+	psWFR.Maint07		""
+	psWFR.Maint08		""
+	psWFR.Maint09		""
+	psWFR.Maint10		""
+
+$$$ Digital
+	pdWFR.Count01		-  * *  - - - - -    0  9999999  0
+	pdWFR.Count02		-  * *  - - - - -    0  9999999  0
+	pdWFR.Count03		-  * *  - - - - -    0  9999999  0
+	pdWFR.Count04		-  * *  - - - - -    0  9999999  0
+	pdWFR.Count05		-  * *  - - - - -    0  9999999  0
+	pdWFR.Count06		-  * *  - - - - -    0  9999999  0
+	pdWFR.Count07		-  * *  - - - - -    0  9999999  0
+	pdWFR.Count08		-  * *  - - - - -    0  9999999  0
+	pdWFR.Count09		-  * *  - - - - -    0  9999999  0
+	pdWFR.Count10		-  * *  - - - - -    0  9999999  0
+
+#--------------------------------------------------------------------------
+# System
+#--------------------------------------------------------------------------
+$$$ Digital
+TM.AlarmStatus          AlarmSts  SYSTEM     0  0  6000  7999  1
+TM.CommStatus 		- 	1
+TM.Wafer_StatusA
+TM.Wafer_StatusB
+
+BUZZER_SOUND	OnOff
+
+PRMD_SIGNALTOWER_OPT	SIGNALTOWER	Default
+
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+
+#--------------------------------------------------------------------------
+# Robot
+#--------------------------------------------------------------------------
+$$$ Digital
+TM.RB_RET		TMRbRet
+TM.RB_STATION
+
+#--------------------------------------------------------------------------
+# Aligner
+#--------------------------------------------------------------------------
+$$$ Digital
+ALIGNER_Rescan          ALGNRecan
+
+$$$ Analog
+ALIGNER_AngLocation     degree - -- -- --  3  -99999  99999   1  - -- -- --  3  -99999  99999
+ALIGNER_AngEccent       degree - -- -- --  3  -99999  99999   1  - -- -- --  3  -99999  99999
+ALIGNER_MaxEccent       mil    - -- -- --  3  -99999  99999   1  - -- -- --  3  -99999  99999
+
+#--------------------------------------------------------------------------
+#  Vacuum
+#--------------------------------------------------------------------------
+$$$ Digital
+
+TM.VacuumStatusDM	VacStatus
+TM.LockPumpDM	NoYes
+
+#--------------------------------------------------------------------------
+#  Maintenance
+#--------------------------------------------------------------------------
+# Enum
+# mTransPath	BM1	BM2	PM1	PM2	PM3
+# mTransFinger3	A	B
+
+$$$ Digital
+#TM.MAINT_STATION	mTransPath
+TM.MAINT_STATION3	mTransPath3
+TM.MAINT_STATION4	mTransPath4
+TM.MAINT_FINGER		mTransFinger3
+
+#TM.MAINT_FINGER	TransFinger
+
+FM.MAINT_STATION	mTransPath2
+FM.MAINT_FINGER		mTransFinger3
+
+vWFR.Logging	  NoYes
+vTM.Logging	  NoYes
+
+$$$ Digital
+WFR01.Clear		NoYes
+WFR02.Clear		NoYes
+WFR03.Clear		NoYes
+WFR04.Clear		NoYes
+WFR05.Clear		NoYes
+WFR06.Clear		NoYes
+WFR07.Clear		NoYes
+WFR08.Clear		NoYes
+WFR09.Clear		NoYes
+WFR10.Clear		NoYes
+
+
+$$$ Analog
+TM.SLOT_NUM     - - -- -- --  0  1  25   1  - -- -- --  0  1  25	1
+FM.SLOT_NUM     - - -- -- --  0  1  25   1  - -- -- --  0  1  25	1
+FM.SLOT_NUM2    - - -- -- --  0  1  6    1  - -- -- --  0  1  6 	1
+
+$$$ Digital
+	TM.vPLOT.Control		PlotControl
+	TM.vPLOT.Display		PlotDisplay
+
+#-------------------------------------------------------------------------
+# BM VENT TYPE
+#-------------------------------------------------------------------------
+$$$ Digital
+ISO_CONTROL_OPTION	IsoControlType
+CLEAN_ENABLE_TYPE	CleanEnableType
+FC_BM_VENT_TYPE		NormalCycle
+DRY_CONTROL_OPTION	DryControlType
+
+#-------------------------------------------------------------------------
+# TM Alarm Parameter
+#-------------------------------------------------------------------------
+$$$ Digital
+PRMD_HO_PCWSwitch	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_PCWLeak		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_DPPCWLeak	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_CRSFault	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_LLTopLid	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_TMTopLid	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_LL1DPRun	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_LL1DPWarn	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_LL1DPAlarm	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_LL2DPRun	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_LL2DPWarn	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_LL2DPAlarm	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_TMDPRun		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_TMDPWarn	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_TMDPAlarm	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_H2PrsSwitch	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_N2PrsSwitch	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_CDAPrsSwitch	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_ACPowerMajor	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_ACPowerMinor	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_SmokeMPB	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_RPGPCWLeak	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_PCFanCoolSts	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_LightCurtain	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_EFEMDoor	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_TMPrsLow	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_TMPrsHigh	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_RFPwrBoxRack	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_ATM_RB_Prs	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_PwrBox_Fan	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_IOBox_Fan	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_TopZone_Fan	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+
+
+$$$ Analog
+PRMA_UPC_SET_FLOW   	sccm    -  -  -  -  0    0     3000  1  -  -  -  -  0    0     3000  --- --- --- ---     1500
+PRMA_HO_TMPrsLow	Torr	-  -  -  -  2    0     10    1  -  -  -  -  2    0     10    --- --- --- ---
+PRMA_HO_TMPrsHigh	Torr	-  -  -  -  2    0     10    1  -  -  -  -  2    0     10    --- --- --- ---
+ValueIntlkTime		sec	-  -  -  -  1    0.1   10    1  -  -  -  -  1    0.1   10    --- --- --- ---
+#...2015.06.30
+ValueIntlkTimeN2	sec	-  -  -  -  1    0.1   30    1  -  -  -  -  1    0.1   30    --- --- --- ---
+#--------------------------------------------------------------------------
+# BM AUTO LL PICK RETRY 2008.04.28
+#--------------------------------------------------------------------------
+$$$ Digital
+FC_BM_AUTOPICK_CONTROL			OnOff
+PRM_BM_AUTOPICK_RETRY		-	3
+
+#-------------------------------------------------------------------------
+# TM AUTO LEAK CHECK 2008.04.04
+#-------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+$$$ Digital
+	vAutoLeak.Logging	NoYes
+	ALeakCheck.LastYear	-  * *  - - - - -    0    3000
+	ALeakCheck.LastMonth	-  * *  - - - - -    0    12
+	ALeakCheck.LastDay	-  * *  - - - - -    0    31
+	ALeakCheck.AccWfrCnt	-  * *  - - - - -    0    10000
+	ALeakCheck.AccLotCnt	-  * *  - - - - -    0    10000
+	ALeakCheck.AccIdleTime  -  * *  - - - - -    0    10000
+
+	PRMD_ALECHK_CONTROL	OnOff
+	PRMD_ALECHK_MODE	ALEAKCHECKMODE
+	PRMD_ALECHK_SDAY	-  * *  - - - - -    0    28
+	PRMD_ALECHK_SWEEK	ALEAKCHECKWEEK
+	PRMD_ALECHK_PERIOD	-  * *  - - - - -    0    365
+	PRMD_ALECHK_LOTCOUNT	-  * *  - - - - -    0    10000
+	PRMD_ALECHK_WFRCOUNT	-  * *  - - - - -    0    10000
+	PRMD_ALECHK_IDLETIME	-  * *  - - - - -    0    10000
+	PRMD_ALECHK_SHOUR	-  * *  - - - - -    0    24
+	PRMD_ALECHK_SMIN	-  * *  - - - - -    0    59
+	PRMD_ALECHK_PUMP_HOUR	-  * *  - - - - -    0    24
+	PRMD_ALECHK_PUMP_MIN	-  * *  - - - - -    0    59
+	PRMD_ALECHK_PUMPW_HOUR	-  * *  - - - - -    0    24
+	PRMD_ALECHK_PUMPW_MIN	-  * *  - - - - -    0    59
+	PRMD_ALECHK_COUNT	-  * *  - - - - -    1    10
+
+	PRMD_BM1_ALC_RATE_LIMIT	-  * *  - - - - -    1    30000
+	PRMD_BM1_ALC_AVG_LIMIT	-  * *  - - - - -    1    30000
+	PRMD_BM2_ALC_RATE_LIMIT	-  * *  - - - - -    1    30000
+	PRMD_BM2_ALC_AVG_LIMIT	-  * *  - - - - -    1    30000
+	PRMD_TM_ALC_RATE_LIMIT	-  * *  - - - - -    1    30000
+	PRMD_TM_ALC_AVG_LIMIT	-  * *  - - - - -    1    30000
+
+# 2012.11.13 PM Leak Check Pumping Time
+	PRMD_ALECHK_PM_PUMP_MIN	-  * *  - - - - -    0    59
+
+# 2016.01.19 Add PM Leack Check Use & Dynamic Leak Check Option
+$$$ Enum
+	RCPCTRL	Flow1	Flow2
+$$$ Digital
+     	PRMD_PM_ALECHK_RCP	RCPCTRL
+
+     	PRMD_PM1_ALECHK_NORM	OffOn
+	PRMD_PM2_ALECHK_NORM	OffOn
+	PRMD_PM3_ALECHK_NORM	OffOn
+
+     	PRMD_PM1_ALECHK_ALDVLV	OffOn
+	PRMD_PM2_ALECHK_ALDVLV	OffOn
+	PRMD_PM3_ALECHK_ALDVLV	OffOn
+
+	PRMD_PM1_ALECHK_GASLN	OffOn
+	PRMD_PM2_ALECHK_GASLN	OffOn
+	PRMD_PM3_ALECHK_GASLN	OffOn
+
+	PRMD_PM1_ALECHK_MTR	OffOn
+	PRMD_PM2_ALECHK_MTR	OffOn
+	PRMD_PM3_ALECHK_MTR	OffOn
+
+	PRMD_PM1_ALECHK_VLV	OffOn
+	PRMD_PM2_ALECHK_VLV	OffOn
+	PRMD_PM3_ALECHK_VLV	OffOn
+
+	PRMD_TM_ALECHK_DYN	OffOn
+	PRMD_CLN_RECIPE_USE	UseNotuse
+
+	PRMD_PMLK_MACRO1	LkChkModeEnm	NotDefine
+	PRMD_PMLK_MACRO2	LkChkModeEnm	NotDefine
+
+	PRMD_TM_ROTATE_CNT	-  * *  - - - - -    1	10
+	PRMD_CHUCK_CYCNT	-  * *  - - - - -    1	10
+	PRMD_ALDVLV_CYCNT	-  * *  - - - - -    1	30
+$$$ Analog
+	PRMA_CHUCK_UPPOS		mm     -  -  -  -  1    4     89  1  -  -  -  -  1    4     89  --- --- --- ---
+	PRMA_CHUCK_DNPOS		mm     -  -  -  -  1    4     89  1  -  -  -  -  1    4     89  --- --- --- ---
+#2016.04.11
+	PRMA_PM1_BASEPRES		Torr   -  -  -  -  6	0   1000  1  -  -  -  -  6	0   1000  --- --- --- ---
+	PRMA_PM2_BASEPRES		Torr   -  -  -  -  6	0   1000  1  -  -  -  -  6	0   1000  --- --- --- ---
+	PRMA_PM3_BASEPRES		Torr   -  -  -  -  6	0   1000  1  -  -  -  -  6	0   1000  --- --- --- ---
+
+	PRMA_PM1_PumpTimeOT		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+	PRMA_PM2_PumpTimeOT		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+	PRMA_PM3_PumpTimeOT		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+
+	PRMA_PM1_WaitTimeOP		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+	PRMA_PM2_WaitTimeOP		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+	PRMA_PM3_WaitTimeOP		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+
+	PRMA_PM1_WaitTimeCL		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+	PRMA_PM2_WaitTimeCL		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+	PRMA_PM3_WaitTimeCL		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+
+	PRMA_PM1_LKCount		-     -  -  -  -  0	0     10  1  -  -  -  -  0	0     10  --- --- --- ---
+	PRMA_PM2_LKCount		-     -  -  -  -  0	0     10  1  -  -  -  -  0	0     10  --- --- --- ---
+	PRMA_PM3_LKCount		-     -  -  -  -  0	0     10  1  -  -  -  -  0	0     10  --- --- --- ---
+
+	PRMA_PM1_LKRateLimit		Torr   -  -  -  -  6	0   1000  1  -  -  -  -  6	0   1000  --- --- --- ---
+	PRMA_PM2_LKRateLimit		Torr   -  -  -  -  6	0   1000  1  -  -  -  -  6	0   1000  --- --- --- ---
+	PRMA_PM3_LKRateLimit		Torr   -  -  -  -  6	0   1000  1  -  -  -  -  6	0   1000  --- --- --- ---
+
+	PRMA_PM1_LnBASEPRES		Torr   -  -  -  -  6	0   1000  1  -  -  -  -  6	0   1000  --- --- --- ---
+	PRMA_PM2_LnBASEPRES		Torr   -  -  -  -  6	0   1000  1  -  -  -  -  6	0   1000  --- --- --- ---
+	PRMA_PM3_LnBASEPRES		Torr   -  -  -  -  6	0   1000  1  -  -  -  -  6	0   1000  --- --- --- ---
+
+	PRMA_PM1_LnPumpTimeOT		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+	PRMA_PM2_LnPumpTimeOT		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+	PRMA_PM3_LnPumpTimeOT		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+
+	PRMA_PM1_LnWaitTimeOP		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+	PRMA_PM2_LnWaitTimeOP		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+	PRMA_PM3_LnWaitTimeOP		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+
+	PRMA_PM1_LnWaitTimeCL		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+	PRMA_PM2_LnWaitTimeCL		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+	PRMA_PM3_LnWaitTimeCL		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+
+	PRMA_PM1_LnLKCount		-     -  -  -  -  0	0     10  1  -  -  -  -  0	0     10  --- --- --- ---
+	PRMA_PM2_LnLKCount		-     -  -  -  -  0	0     10  1  -  -  -  -  0	0     10  --- --- --- ---
+	PRMA_PM3_LnLKCount		-     -  -  -  -  0	0     10  1  -  -  -  -  0	0     10  --- --- --- ---
+
+	PRMA_PM1_LnLKRateLimit		Torr   -  -  -  -  6	0   1000  1  -  -  -  -  6	0   1000  --- --- --- ---
+	PRMA_PM2_LnLKRateLimit		Torr   -  -  -  -  6	0   1000  1  -  -  -  -  6	0   1000  --- --- --- ---
+	PRMA_PM3_LnLKRateLimit		Torr   -  -  -  -  6	0   1000  1  -  -  -  -  6	0   1000  --- --- --- ---
+
+	PRMA_PM1_MFC_PurgeTmAM		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+	PRMA_PM2_MFC_PurgeTmAM		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+	PRMA_PM3_MFC_PurgeTmAM		sec    -  -  -  -  0	0   1000  1  -  -  -  -  0	0   1000  --- --- --- ---
+
+	PRMA_PM1_RoRLimitAM		mTorr  -  -  -  -  0	-3   1000  1  -  -  -  -  0	-3   1000  --- --- --- ---
+	PRMA_PM2_RoRLimitAM		mTorr  -  -  -  -  0	-3   1000  1  -  -  -  -  0	-3   1000  --- --- --- ---
+	PRMA_PM3_RoRLimitAM		mTorr  -  -  -  -  0	-3   1000  1  -  -  -  -  0	-3   1000  --- --- --- ---
+
+	PRMA_PM1_LnRoRLimitAM		mTorr  -  -  -  -  0	-3   1000  1  -  -  -  -  0	-3   1000  --- --- --- ---
+	PRMA_PM2_LnRoRLimitAM		mTorr  -  -  -  -  0	-3   1000  1  -  -  -  -  0	-3   1000  --- --- --- ---
+	PRMA_PM3_LnRoRLimitAM		mTorr  -  -  -  -  0	-3   1000  1  -  -  -  -  0	-3   1000  --- --- --- ---
+#-------------------------------------------------------------------------
+# TM AWS Data 2014.03.17
+#-------------------------------------------------------------------------
+$$$ Enum
+	#[ 2009/06/01 AWS Datalogging시 어느 Chamber에서 Pick한 Wafer인지 Logging추가 ( BY LJH )
+	AWS_Station	None_0	PMA	PMB	PMC	BM1	BM2
+
+$$$ Analog
+	ULVAC_AWS_LIMIT_WARN_LO		-	-  -  -  --  1  0        5  1   -     - - -  1    0         5  -  -   -  -
+	ULVAC_AWS_LIMIT_WARN_HI		-	-  -  -  --  1  0        5  1   -     - - -  1    0         5  -  -   -  -
+
+	#[ 2010/10/25 TM RB AWS Abort Range PM / LL 분리 ( BY LJH )
+	ULVAC_AWS_LIMIT_PM_HI		-	-  -  -  --  1  0        5  1   -     - - -  1    0         5  -  -   -  -
+	ULVAC_AWS_LIMIT_BM_HI		-	-  -  -  --  1  0        5  1   -     - - -  1    0         5  -  -   -  -
+	ULVAC_AWS_LIMIT_PM_LOW		-	-  -  -  --  1  0        5  1   -     - - -  1    0         5  -  -   -  -
+	ULVAC_AWS_LIMIT_BM_LOW		-	-  -  -  --  1  0        5  1   -     - - -  1    0         5  -  -   -  -
+	#]
+
+
+	#-->2012/07/11 GEM Update 시, ECID Polling 방식으로 변경되어 가상IO로 보고되도록 수정 by JTM
+	ULVAC_AWS_LIMIT_LOW_V		-	-  -  -  --  1  0        5  1   -     - - -  1    0         5  -  -   -  -
+	ULVAC_AWS_LIMIT_HI_V		-	-  -  -  --  1  0        5  1   -     - - -  1    0         5  -  -   -  -
+
+
+	#[ added 2009/05/28 TM Robot Slide data svid 등록
+	PMA_SLIDE_A1_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMA_SLIDE_A1_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMA_SLIDE_A2_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMA_SLIDE_A2_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+
+	PMA_SLIDE_B1_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMA_SLIDE_B1_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMA_SLIDE_B2_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMA_SLIDE_B2_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+
+	PMB_SLIDE_A1_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMB_SLIDE_A1_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMB_SLIDE_A2_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMB_SLIDE_A2_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+
+	PMB_SLIDE_B1_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMB_SLIDE_B1_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMB_SLIDE_B2_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMB_SLIDE_B2_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+
+	PMC_SLIDE_A1_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMC_SLIDE_A1_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMC_SLIDE_A2_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMC_SLIDE_A2_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+
+	PMC_SLIDE_B1_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMC_SLIDE_B1_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMC_SLIDE_B2_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	PMC_SLIDE_B2_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+
+	BM1_SLIDE_A1_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	BM1_SLIDE_A1_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	BM1_SLIDE_A2_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	BM1_SLIDE_A2_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+
+	BM1_SLIDE_B1_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	BM1_SLIDE_B1_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	BM1_SLIDE_B2_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	BM1_SLIDE_B2_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+
+	BM2_SLIDE_A1_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	BM2_SLIDE_A1_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	BM2_SLIDE_A2_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	BM2_SLIDE_A2_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+
+	BM2_SLIDE_B1_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	BM2_SLIDE_B1_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	BM2_SLIDE_B2_X_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+	BM2_SLIDE_B2_Y_AXIS		mm     -  -  -  -  2    0     1000  1  -  -  -  -  2    0     1000  --- --- --- ---
+
+$$$ Digital
+	TM_Pick_U_Arm_Station	AWS_Station
+	TM_Pick_L_Arm_Station	AWS_Station
+
+	#-->2012/07/11 GEM Update 시, ECID Polling 방식으로 변경되어 가상IO로 보고되도록 수정 by JTM
+	ULVAC_AWS_USE_V		OffOn
+#-------------------------------------------------------------------------
+# PM/TM/LL  Add Slot Valve OPEN Pressure Interlock for PC Protect
+#-------------------------------------------------------------------------
+$$$ Digital
+	FC_TM_SV_OPEN_CHECK	OnOff
+
+	PRMD_SV_LLPrsChkTMO	- * * - - - - -		0	300
+	PRMD_SV_TMPrsChkTMO	- * * - - - - -		0	300
+	PRMD_SV_PMPrsChkTMO	- * * - - - - -		0	300
+
+$$$ Analog
+	PRMA_SV_LLOpPrsAtm	Torr	- - - - 0	700	1000	1	- - - - 0	700	1000  --- --- --- ---	730
+	PRMA_SV_TMOpPrsAtm	Torr	- - - - 0	700	1000	1	- - - - 0	700	1000  --- --- --- ---	730
+	PRMA_SV_PMOpPrsAtm	Torr	- - - - 0	700	1000	1	- - - - 0	700	1000  --- --- --- ---	730
+
+	PRMA_SV_LLOpPrsLow	Torr	- - - - 3	0	1000	1	- - - - 3	0	1000  --- --- --- ---	0
+	PRMA_SV_TMOpPrsLow	Torr	- - - - 3	0	1000	1	- - - - 3	0	1000  --- --- --- ---	0
+	PRMA_SV_PMOpPrsLow	Torr	- - - - 3	0	1000	1	- - - - 3	0	1000  --- --- --- ---	0
+
+	PRMA_SV_LLOpPrsHigh	Torr	- - - - 3	0	1000	1	- - - - 3	0	1000  --- --- --- ---	1
+	PRMA_SV_TMOpPrsHigh	Torr	- - - - 3	0	1000	1	- - - - 3	0	1000  --- --- --- ---	1
+	PRMA_SV_PMOpPrsHigh	Torr	- - - - 3	0	1000	1	- - - - 3	0	1000  --- --- --- ---	1
+
+	PRMA_SV_LLOpDiffPrs	Torr	- - - - 3	0	1000	1	- - - - 3	0	1000  --- --- --- ---	1
+	PRMA_SV_PMOpDiffPrs	Torr	- - - - 3	0	1000	1	- - - - 3	0	1000  --- --- --- ---	1
+
+	PRMA_SV_LLOpDelay	Sec	- - - - 1	0	300	1	- - - - 1	0	300 --- --- --- ---	0	# Delay Time Before OPEN
+	PRMA_SV_PMOpDelay	Sec	- - - - 1	0	300	1	- - - - 1	0	300 --- --- --- ---	0	# Delay Time Before OPEN
+
+	PRMA_SV_LLOpDelay2	Sec	- - - - 1	0	300	1	- - - - 1	0	300 --- --- --- ---	0	# Delay Time After OPEN
+	PRMA_SV_PMOpDelay2	Sec	- - - - 1	0	300	1	- - - - 1	0	300 --- --- --- ---	0	# Delay Time After OPEN
+
+$$$ String
+
+	CTC.PM1_CLN_RECIPE_FILE		""
+	CTC.PM2_CLN_RECIPE_FILE		""
+	CTC.PM3_CLN_RECIPE_FILE		""

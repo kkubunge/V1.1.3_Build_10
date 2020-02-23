@@ -1,0 +1,6 @@
+$$$ Digital
+
+FC_VACUUM	OffOnEnum	-	-	-	-	-	1	-	-	-	-	-	On
+VacuumStateDM	PMVacStateEnum	-	-	-	-	-	1	-	-	-	-	-
+MBStsDI	DPMBStsEnum	MBRunning
+MBCmdDO	DPMBCmdEnum	-	-	-	-	-	1	-	-	-	-	-

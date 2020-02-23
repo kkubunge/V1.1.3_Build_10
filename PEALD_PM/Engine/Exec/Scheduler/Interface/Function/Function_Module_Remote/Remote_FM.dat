@@ -1,0 +1,26 @@
+#-------------------------------------------------------------------------------
+# FM Part Scheduler Interface Function
+#-------------------------------------------------------------------------------
+
+FM.READY	50	-	SUCCESS
+FM.END		50	-	SUCCESS
+
+FM.PREPARE_SEND	50	-	SUCCESS
+FM.POST_SEND	50	-	SUCCESS
+FM.PREPARE_RECV	50	-	SUCCESS
+FM.POST_RECV	50	-	SUCCESS
+
+FM.PICK_WAFER	50	-	SUCCESS
+FM.PLACE_WAFER	50	-	SUCCESS
+
+FM.ALIGN_WAFER	50	-	SUCCESS
+FM.COOL_WAFER	50	-	SUCCESS
+
+FM.MOVE_RECV	50	-	SUCCESS
+FM.MOVE_SEND	50	-	SUCCESS
+
+#-------------------------------------
+# Transfer Clear Function for Remote
+#-------------------------------------
+
+FM.CLEAR	50	-	SUCCESS

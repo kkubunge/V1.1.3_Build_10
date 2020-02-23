@@ -1,0 +1,414 @@
+#
+#
+#
+# Possible Recovery Action String
+#      - CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+###################### PLC Interlock(3000 ~ 3999) ##############################
+
+
+3001	PLCInt001	{
+	"PLC Interlock(001) : Vent valve is not closed after PM is ATM and it passed 10 seconds"
+	CLEAR	"Clear Operation"
+	}
+
+3002	PLCInt002	{
+	"PLC Interlock(002) : [SAFETY PLC] Chamber Not Vacuum"
+	CLEAR	"Clear Operation"
+	}
+
+3003	PLCInt003	{
+	"PLC Interlock(003) : [SAFETY PLC] TopLid Not Closed"
+	CLEAR	"Clear Operation"
+	}
+
+3004	PLCInt004 {
+	"PLC Interlock(004) : Gas Valve Open Lock in Pump Gate Valve Close"
+	CLEAR	"Clear Operation"
+	}
+
+3005	PLCInt005 {
+	"PLC Interlock(005) : Gas Open, RF, RPG On Lock in PM Slot Valve 1 Open"
+	CLEAR	"Clear Operation"
+	}
+
+3006	PLCInt006 {
+	"PLC Interlock(006) : Gas Open, RF, RPG On Lock in PM Slot Valve 2 Open"
+	CLEAR	"Clear Operation"
+	}
+
+3007	PLCInt007 {
+	"PLC Interlock(007) : [SAFETY PLC] Gas Mixing Box Cover Open"
+	CLEAR	"Clear Operation"
+	}
+
+3008	PLCInt008 {
+	"PLC Interlock(008) : [SAFETY PLC] HF 1 Match Box Cover Open"
+	CLEAR	"Clear Operation"
+	}
+
+3009	PLCInt009 {
+	"PLC Interlock(009) : [SAFETY PLC] HF 2 Match Box Cover Open"
+	CLEAR	"Clear Operation"
+	}
+
+3010	PLCInt010 {
+	"PLC Interlock(010) : CDA Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+3011	PLCInt011 {
+	"PLC Interlock(011) : S/H 1 Cooling Flow Meter Low"
+	CLEAR	"Clear Operation"
+	}
+
+3012	PLCInt012 {
+	"PLC Interlock(012) : S/H 2 Cooling Flow Meter Low"
+	CLEAR	"Clear Operation"
+	}
+
+3013	PLCInt013 {
+	"PLC Interlock(013) : Chuck Heater 1 Cool Heat Exchanger Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+3014	PLCInt014 {
+	"PLC Interlock(014) : Chuck Heater 2 Cool Heat Exchanger Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+3015	PLCInt015 {
+	"PLC Interlock(015) : RPG Reactor Cool PCW Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+3016	PLCInt016 {
+	"PLC Interlock(016) : Chamber Cool Heat Exchanger Pressure Low"
+	CLEAR	"Clear Operation"
+	}
+
+3017	PLCInt017 {
+	"PLC Interlock(017) : [SAFETY PLC] Heat Exchanger Leak"
+	CLEAR	"Clear Operation"
+	}
+
+3018	PLCInt018 {
+	"PLC Interlock(018) : [SAFETY PLC] Chuck Heater 1 Over Temp"
+	CLEAR	"Clear Operation"
+	}
+
+3019	PLCInt019 {
+	"PLC Interlock(019) : [SAFETY PLC] Chuck Heater 2 Over Temp"
+	CLEAR	"Clear Operation"
+	}
+
+3020	PLCInt020 {
+	"PLC Interlock(020) : [SAFETY PLC] Line Heater 1 Over Temp"
+	CLEAR	"Clear Operation"
+	}
+
+3021	PLCInt021 {
+	"PLC Interlock(021) : [SAFETY PLC] Line Heater 2 Over Temp"
+	CLEAR	"Clear Operation"
+	}
+
+3022	PLCInt022 {
+	"PLC Interlock(022) : [SAFETY PLC] Gas Box Cover Open"
+	CLEAR	"Clear Operation"
+	}
+
+3023	PLCInt023 {
+	"PLC Interlock(023) : [SAFETY PLC] Exhaust Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+3024	PLCInt024 {
+	"PLC Interlock(024) : [SAFETY PLC] PM Mode Not Run Mode"
+	CLEAR	"Clear Operation"
+	}
+
+3025	PLCInt025 {
+	"PLC Interlock(025) : [SAFETY PLC] Wafer Leak Sensor Detected"
+	CLEAR	"Clear Operation"
+	}
+
+3026	PLCInt026 {
+	"PLC Interlock(026) : RF Filter 1 Fan Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+3027	PLCInt027 {
+	"PLC Interlock(027) : RF Filter 2 Fan Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+3028	PLCInt028 {
+	"PLC Interlock(028) : Chuck Heater Controller 1 Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+3029	PLCInt029 {
+	"PLC Interlock(029) : Chuck Heater Controller 2 Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+3030	PLCInt030 {
+	"PLC Interlock(030) : RPG Not Ready"
+	CLEAR	"Clear Operation"
+	}
+
+3031	PLCInt031 {
+	"PLC Interlock(031) : Not Open Both Process and Clean Valve"
+	CLEAR	"Clear Operation"
+	}
+
+3032	PLCInt032 {
+	"PLC Interlock(032) : Canister Refill Overflow"
+	CLEAR	"Clear Operation"
+	}
+
+3033	PLCInt033 {
+	"PLC Interlock(033) : Canister Low"
+	CLEAR	"Clear Operation"
+	}
+
+3034	PLCInt034 {
+	"PLC Interlock(034) : [SAFETY PLC] RF Rack Water Leak"
+	CLEAR	"Clear Operation"
+	}
+
+3035	PLCInt035 {
+	"PLC Interlock(035) : [SAFETY PLC] Power Relay Not All Enable"
+	CLEAR	"Clear Operation"
+	}
+
+3036	PLCInt036 {
+	"PLC Interlock(036) : [SAFETY PLC] Chuck Heater Limit Sensor Detected"
+	CLEAR	"Clear Operation"
+	}
+
+3037	PLCInt037 {
+	"PLC Interlock(037) : Chuck Heater 1 temp gap between actual temp and working temp is high than 20 degree"
+	CLEAR	"Clear Operation"
+	}
+
+3038	PLCInt038 {
+	"PLC Interlock(038) : Chuck Heater 1 Ratio Value Tolerance out"
+	CLEAR	"Clear Operation"
+	}
+
+3039	PLCInt039 {
+	"PLC Interlock(039) : Chuck Heater 1 Set Ramp Rate Over 10 degree"
+	CLEAR	"Clear Operation"
+	}
+
+3040	PLCInt040 {
+	"PLC Interlock(040) : Chuck Heater 1 In and Out Current Abnormal"
+	CLEAR	"Clear Operation"
+	}
+
+3041	PLCInt041 {
+	"PLC Interlock(041) : Chuck Heater 2 temp gap between actual temp and working temp is high than 20 degree"
+	CLEAR	"Clear Operation"
+	}
+
+3042	PLCInt042 {
+	"PLC Interlock(042) : Chuck Heater 2 Ratio Value Tolerance out"
+	CLEAR	"Clear Operation"
+	}
+
+3043	PLCInt043 {
+	"PLC Interlock(043) : Chuck Heater 2 Set Ramp Rate Over 10 degree"
+	CLEAR	"Clear Operation"
+	}
+
+3044	PLCInt044 {
+	"PLC Interlock(044) : Chuck Heater 2 In and Out Current Abnormal"
+	CLEAR	"Clear Operation"
+	}
+
+3045	PLCInt045 {
+	"PLC Interlock(045) : Canister Box Exhaust Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+3046	PLCInt046 {
+	"PLC Interlock(046) : HF Generator 1 Over Temp"
+	CLEAR	"Clear Operation"
+	}
+
+3047	PLCInt047 {
+	"PLC Interlock(047) : HF Generator 21 Over Temp"
+	CLEAR	"Clear Operation"
+	}
+
+3048	PLCInt048 {
+	"PLC Interlock(048) : [SAFETY PLC] Dry Pump Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+3049	PLCInt049 {
+	"PLC Interlock(049) : Abatement System Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+3050	PLCInt050 {
+	"PLC Interlock(050) : CRS Alarm Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+3051	PLCInt051 {
+	"PLC Interlock(051) : CO2 Exchanger Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+3052	PLCInt052 {
+	"PLC Interlock(052) : Heat Exchanger Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+3053	PLCInt053 {
+	"PLC Interlock(053) : [SAFETY PLC] Pneumaic 3 Relay Status Not Enable"
+	CLEAR	"Clear Operation"
+	}
+
+3054	PLCInt054 {
+	"PLC Interlock(054) : [SAFETY PLC] Pneumaic 4 Relay Status Not Enable"
+	CLEAR	"Clear Operation"
+	}
+
+3055	PLCInt055 {
+	"PLC Interlock(055) : [SAFETY PLC] Pneumaic 5 Relay Status Not Enable"
+	CLEAR	"Clear Operation"
+	}
+
+3056	PLCInt056 {
+	"PLC Interlock(056) : [SAFETY PLC] Pneumaic 6 Relay Status Not Enable"
+	CLEAR	"Clear Operation"
+	}
+
+3057	PLCInt057 {
+	"PLC Interlock(057) : [SAFETY PLC] Chuck Heater 1 MC Not Enable"
+	CLEAR	"Clear Operation"
+	}
+
+3058	PLCInt058 {
+	"PLC Interlock(058) : [SAFETY PLC] Chuck Heater 1 Relay Not Enable"
+	CLEAR	"Clear Operation"
+	}
+
+3059	PLCInt059 {
+	"PLC Interlock(059) : [SAFETY PLC] Chuck Heater 2 MC Not Enable"
+	CLEAR	"Clear Operation"
+	}
+
+3060	PLCInt060 {
+	"PLC Interlock(060) : [SAFETY PLC] Chuck Heater 2 Relay Not Enable"
+	CLEAR	"Clear Operation"
+	}
+
+3061	PLCInt061 {
+	"PLC Interlock(061) : [SAFETY PLC] Chuck Motor MC Not Enable"
+	CLEAR	"Clear Operation"
+	}
+
+3062	PLCInt062 {
+	"PLC Interlock(062) : [SAFETY PLC] Chuck Motor Relay Not Enable"
+	CLEAR	"Clear Operation"
+	}
+
+3063	PLCInt063 {
+	"PLC Interlock(063) : [SAFETY PLC] 208V Gas Line Heater MC Not Enable"
+	CLEAR	"Clear Operation"
+	}
+
+3064	PLCInt064 {
+	"PLC Interlock(064) : [SAFETY PLC] 208V Gas Line Heater Relay Not Enable"
+	CLEAR	"Clear Operation"
+	}
+
+3065	PLCInt065 {
+	"PLC Interlock(065) : [SAFETY PLC] RF Generator MC Not Enable"
+	CLEAR	"Clear Operation"
+	}
+
+3066	PLCInt066 {
+	"PLC Interlock(066) : [SAFETY PLC] RF Generator Relay Not Enable"
+	CLEAR	"Clear Operation"
+	}
+
+3067	PLCInt067 {
+	"PLC Interlock(067) : [SAFETY PLC] PM Left Box Fan Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+3068	PLCInt068 {
+	"PLC Interlock(068) : [SAFETY PLC] PM Right Box Fan Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+3069	PLCInt069 {
+	"PLC Interlock(069) : Spare"
+	CLEAR	"Clear Operation"
+	}
+
+3070	PLCInt070 {
+	"PLC Interlock(070) : Spare"
+	CLEAR	"Clear Operation"
+	}
+
+3071	PLCInt071 {
+	"PLC Interlock(071) : Spare"
+	CLEAR	"Clear Operation"
+	}
+
+3072	PLCInt072 {
+	"PLC Interlock(072) : Spare"
+	CLEAR	"Clear Operation"
+	}
+
+3073	PLCInt073 {
+	"PLC Interlock(073) : Spare"
+	CLEAR	"Clear Operation"
+	}
+
+3074	PLCInt074 {
+	"PLC Interlock(074) : Spare"
+	CLEAR	"Clear Operation"
+	}
+
+3075	PLCInt075 {
+	"PLC Interlock(075) : Spare"
+	CLEAR	"Clear Operation"
+	}
+
+3076	PLCInt076 {
+	"PLC Interlock(076) : Spare"
+	CLEAR	"Clear Operation"
+	}
+
+3077	PLCInt077 {
+	"PLC Interlock(077) : Spare"
+	CLEAR	"Clear Operation"
+	}
+
+3078	PLCInt078 {
+	"PLC Interlock(078) : Spare"
+	CLEAR	"Clear Operation"
+	}
+
+3079	PLCInt079 {
+	"PLC Interlock(079) : DeviceNet Unit Communication Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+3080	PLCInt080 {
+	"PLC Interlock(080) : Heat Beat Signal don't Generate from SW into PLC"
+	CLEAR	"Clear Operation"
+	}
+	

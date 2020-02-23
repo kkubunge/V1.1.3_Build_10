@@ -1,0 +1,26 @@
+#
+#
+#
+# Possible Recovery Action String
+#      - CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+###################### not used ##############################
+1501	DPDown	{	
+	"Dry Pump Down"		
+	CLEAR	"Clear Operation"	
+	}		
+
+1502	ChmPrssHigh	{	
+	"Chamber Pressure High"		
+	CLEAR	"Clear Operation"	
+	}		
+
+1503	ChmPrssLow	{	
+	"Chamber Pressure Low"		
+	CLEAR	"Clear Operation"	
+	}		

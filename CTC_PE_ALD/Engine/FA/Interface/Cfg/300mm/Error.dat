@@ -1,0 +1,31 @@
+1	"GEM System File Analysis Error"
+2	"GEM SVID File Analysis Error"
+3	"GEM ECID File Analysis Error"
+4	"GEM CEID File Analysis Error"
+5	"GEM ALID File Analysis Error"
+6	"GEM RCMD File Analysis Error"
+7	"GEM Recipe File Analysis Error"
+8	"GEM VID File Analysis Error"
+
+10	"GEM Initialize Fail in Main"
+11	"GEM Comm Media Open Fail"
+12	"GEM Deinitialize Fail in Main"
+
+20	"GEM Event Define Fail in Initialize"
+21	"GEM SVID Data Polling Init Fail"
+
+30	"GEM Server On Fail in Initialize"
+
+50	"GEM PFVID File Analysis Error"
+
+100	"GEM Dialog Driver Loading Fail"
+
+200	"GEM Port1 Reservation Fail - Now Command Invalid"
+201	"GEM Port2 Reservation Fail - Now Command Invalid"
+202	"GEM Port3 Reservation Fail - Now Command Invalid"
+203	"GEM Port4 Reservation Fail - Now Command Invalid"
+
+210	"GEM Port1 NotReservation Fail - Now Command Invalid"
+211	"GEM Port2 NotReservation Fail - Now Command Invalid"
+212	"GEM Port3 NotReservation Fail - Now Command Invalid"
+213	"GEM Port4 NotReservation Fail - Now Command Invalid"

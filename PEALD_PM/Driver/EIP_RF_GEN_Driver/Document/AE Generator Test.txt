@@ -1,0 +1,52 @@
+MBAP
+Transaction ID (2 Byte)
+Protocal ID (2 Byte)
+Length (2 Byte) => Count of bytes in packt strating with byte 6 
+Unit ID(1 Byte)
+==>Read PDF file(Modbus_Messaging_Implementation) 5Page
+
+
+PDU
+Function Code (1 Byte)
+Command number (1 Byte)
+Command Status response(CSR; 1Byte) "All Commands and response include a CSR byte"
+ 0 Command accepted
+ 1 Control code is incorrect
+ 2 Output is on(change not allowed
+ 4 Command specifies a value that exceeds the limit for that parameter
+ 5 User port off signal is avtive
+ 7 One or more faults are avtive
+ 8 Set point ramping is avitve
+ ...
+  
+
+Data Length (2 Byte)
+Data Byte (as many as 248)
+
+big endian(most significant byte first)
+
+the PDU size must be no larger than 253 byte.
+ 
+
+
+*snapshot data(Command 219) 
+Data Bytes Sent 0 or 1 byte
+ The send byte is optional
+ Use 0 ~ 7 Bytes
+ Byte 0 = 0x00;
+
+Data Bytes Returned 28 byte
+ Bytes 0 and 1 = Forward Power (165)
+ Bytes 2 and 3 = Reflected Power (166)
+ Bytes 4 and 5 = Delivered Power (167)   
+ Bytes 6 and 7 = Power set Point (164)
+       -Volts = Units operating in external requlation mode
+       -Watts = Standard units operaing in power regulation modes
+       -Tenths of watts = HALO units Operation in power regulation modes
+ Bytes 8 through 11 Real impedance in hundredths of ohms (225)
+ Bytes 12 through 15 Reactive impedance in hundredths of ohms (225)
+ Bytes 16 through 19 Actual frequency in KHz (147)
+ Bytes 20 through 23 Process status(162)
+ Bytes 24 Requlation mode (154)  
+ Bytes 25 Control mode (155)
+ Bytes 26 and27 Coldplate temperature in degree (228)

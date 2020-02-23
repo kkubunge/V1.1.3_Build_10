@@ -1,0 +1,117 @@
+       #------>>> Alarm No 505<<<-----#
+========== Robot Action Errors ===========
+
+Err : 에러 내용 및 원인
+
+200 : TeachingData is not illegal to Operate
+202 : Left Arm의 성장위치 설정되어 있지 않거나, Limit을 넘고 있음.
+203 : Left Arm의 선회위치가 0~359.999 deg의 범위를 넘고 있음.
+204 : Right Arm의 성장위치 설정되어 있지 않거나, Limit을 넘고 있음.
+205 : Right Arm의 선희 Offset이 T313(선회Interlock1)를 넘고 있음.
+206 : Z-Up 위치가 Z-Up Limit보다 크거나, Z-Dn Limit보다 작음.
+207 : Z-MD 위치가 Z-Up Limit 혹은 Z-Up 보다 크거나, Z-Dn Limit보다 작음.
+208 : Z-DN 위치가 Z-Up Limit 혹은 Z-MD 보다 크거나, Z-Dn Limit보다 작음.
+210 : Interlock BitOff가 Off이어서, 성장 동작을 할 수 없음.
+211 : Interlock BitOff가 Off이어서, 축소 동작을 할 수 없음.
+221 : Attempt was made to perform Remote action without 
+      returning home.
+222 : Action command error.
+223 : Station that has not be taught is specified..
+224 : Excitation is toggled off.
+225 : Action command was issued in the manual mode.
+226 : Extention Interlock Error(Gate Valve)
+227 : Command designation error.
+229 : Scheduled action time over.
+230 : Input of externally actuated interlock contact.
+231 : Host RS-232C communication error detected.
+232 : Driver alarm given.
+233 : Controller unit alarm given.
+234 : Pick action error prior to PICK : Wafer Sensed.
+235 : EX wafer sensor error before a PICK: Wafer Sensed.
+236 : RE wafer sensor error after a PICK: No Wafer Sensed.
+237 : Place action error prior to PLACE : No Wafer Sensed.
+238 : RE wafer sensor error after a PLACE: Wafer Sensed.
+239 : EX wafer sensor error before a PLACE: No Wafer Sensed.
+240 : Home2,Home3 지령받아 성장 동작 전 Wafer가 Detect됨.
+241 : Detect Sensor Abnormal
+243 : WaferSensing Sensor is not set yet
+299 : Retraction Interlock Error(Gate Valve)
+310 : Command syntax error.
+
+========== Robot AWS관련 Errors ===========
+400 : AWS parameter error 
+401 : Stroke is short, AWS is not
+403 : Sensors detect failed
+404 : AWS Table Data error
+405 : AWS initialization failed
+407 : AWS Over Limit
+408 : AWS Position to Extend-Limit Over
+409 : AWS Position to Roll-limit Over
+420 : A-ARM Measurement range error
+421 : B-ARM Measurement range error 
+422 : C-ARM Measurement range error
+423 : D-ARM Measurement range error
+424 : AB-ARM Measurement range error
+425 : CD-ARM Measurement range error
+430 : A-ARM AWS Circle calculation fails
+431 : B-ARM AWS Circle calculation fails
+432 : C-ARM AWS Circle calculation fails
+433 : D-ARM AWS Circle calculation fails
+434 : AB-ARM AWS Circle calculation fails
+435 : CD-ARM AWS Circle calculation fails
+440 : A-ARM Wafer radius is calculated anomaly
+441 : B-ARM Wafer radius is calculated anomaly
+442 : C-ARM Wafer radius is calculated anomaly
+443 : D-ARM Wafer radius is calculated anomaly
+444 : AB-ARM Wafer radius is calculated anomaly
+445 : CD-ARM Wafer radius is calculated anomaly
+450 : AWS Table Data Error(AWS연산용Table Data치 계산실패)
+451 : AWS Initialization Failed(계측치 비정상,센서좌표연산실패)
+========== Robot Motor Alarm =========== (1000~7999)
+1000~1999 : Ti-Axis motor alarm
+2000~2999 : A-Axis motor alarm
+3000~3999 : D-Axis motor alarm
+4000~4999 : To-Axis motor alarm
+5000~5999 : B-Axis motor alarm
+6000~6999 : C-Axis motor alarm
+7000~7999 : Z-Axis motor alarm
+========== 내장 기기 관련 에러 =========== (8000)
+8001 : Ti-Axis communication error
+8002 : A-Axis communication error
+8003 : D-Axis communication error
+8004 : To-Axis communication error
+8005 : B-Axis communication error
+8006 : C-Axis communication error
+8007 : Z-Axis communication error
+8008 : Ti-Axis Pulse-Position error
+8009 : A-Axis Pulse-Position error
+8010 : D-Axis Pulse-Position error
+8011 : To-Axis Pulse-Position error
+8012 : B-Axis Pulse-Position error
+8013 : C-Axis Pulse-Position error
+8014 : Z-Axis Pulse-Position error
+8015 : Ti-Axis ServoOn Timeout(ServoOn실행,0.8s내에 RDY신호 ON되지않음)
+8016 : A-Axis ServoOn Timeout(ServoOn실행,0.8s내에 RDY신호 ON되지않음)
+8017 : D-Axis ServoOn Timeout(ServoOn실행,0.8s내에 RDY신호 ON되지않음)
+8018 : To-Axis ServoOn Timeout(ServoOn실행,0.8s내에 RDY신호 ON되지않음)
+8019 : B-Axis ServoOn Timeout(ServoOn실행,0.8s내에 RDY신호 ON되지않음)
+8020 : C-Axis ServoOn Timeout(ServoOn실행,0.8s내에 RDY신호 ON되지않음)
+8021 : Z-Axis ServoOn Timeout(ServoOn실행,0.8s내에 RDY신호 ON되지않음)
+8022 : PCB(WDTimeout1) 발생
+8023 : PCB(WDTimeout2) 발생
+8024 : PCB(WDTimeout3) 발생
+8025 : FPGA BOOT ERROR
+8026 : ROM access error
+8027 : ROM Data error(ROM에서 읽은 Data가 비정상)
+8028 : T-BOX Version mismatch
+8031 : Ti-Axis Encode Count Miss
+8032 : A-Axis Encoder Count Miss
+8033 : D-Axis Encoder Count Miss
+8034 : To-Axis Encoder Count Miss
+8035 : B-Axis Encoder Count Miss
+8036 : C-Axis Encoder Count Miss
+8037 : Z-Axis Encoder Count Miss
+========== 비상 정지 관련 =========== (9000)
+9001 : EMS ON(비상 정지 입력)
+9002 : External expansion EMS ON
+

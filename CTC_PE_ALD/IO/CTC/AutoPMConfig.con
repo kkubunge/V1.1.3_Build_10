@@ -1,0 +1,333 @@
+# Channel Define for Lot-pre Recipe
+$$$ Enum
+	PMStsEnum	None	PMResv	    PMRun	PMEnd
+	ReserveSts   	Normal   Reserved
+	PMOwnerEnum	Host	Operator
+	USER_HCACK	ACK_0		NACK_1		NACK_2		NACK_3		NACK_4		NACK_5		NACK_6	
+	
+$$$ String
+	PRMS_PM1_PreMRcp_01		""
+	PRMS_PM1_PreMRcp_02		""
+	PRMS_PM1_PreMRcp_03		""
+	PRMS_PM1_PreMRcp_04		""
+	PRMS_PM1_PreMRcp_05		""
+	PRMS_PM1_PreMRcp_06		""
+
+	PRMS_PM1_PreMRcp2_01		""
+	PRMS_PM1_PreMRcp2_02		""
+	PRMS_PM1_PreMRcp2_03		""
+	PRMS_PM1_PreMRcp2_04		""
+	PRMS_PM1_PreMRcp2_05		""
+	PRMS_PM1_PreMRcp2_06		""
+
+	PRMS_PM1_PostMRcp_01		""
+	PRMS_PM1_PostMRcp_02		""
+	PRMS_PM1_PostMRcp_03		""
+	PRMS_PM1_PostMRcp_04		""
+	PRMS_PM1_PostMRcp_05		""
+	PRMS_PM1_PostMRcp_06		""
+
+	PRMS_PM1_PostMRcp2_01		""
+	PRMS_PM1_PostMRcp2_02		""
+	PRMS_PM1_PostMRcp2_03		""
+	PRMS_PM1_PostMRcp2_04		""
+	PRMS_PM1_PostMRcp2_05		""
+	PRMS_PM1_PostMRcp2_06		""
+
+	PRMS_PM2_PreMRcp_01		""
+	PRMS_PM2_PreMRcp_02		""
+	PRMS_PM2_PreMRcp_03		""
+	PRMS_PM2_PreMRcp_04		""
+	PRMS_PM2_PreMRcp_05		""
+	PRMS_PM2_PreMRcp_06		""
+
+	PRMS_PM2_PreMRcp2_01		""
+	PRMS_PM2_PreMRcp2_02		""
+	PRMS_PM2_PreMRcp2_03		""
+	PRMS_PM2_PreMRcp2_04		""
+	PRMS_PM2_PreMRcp2_05		""
+	PRMS_PM2_PreMRcp2_06		""
+
+	PRMS_PM2_PostMRcp_01		""
+	PRMS_PM2_PostMRcp_02		""
+	PRMS_PM2_PostMRcp_03		""
+	PRMS_PM2_PostMRcp_04		""
+	PRMS_PM2_PostMRcp_05		""
+	PRMS_PM2_PostMRcp_06		""
+
+	PRMS_PM2_PostMRcp2_01		""
+	PRMS_PM2_PostMRcp2_02		""
+	PRMS_PM2_PostMRcp2_03		""
+	PRMS_PM2_PostMRcp2_04		""
+	PRMS_PM2_PostMRcp2_05		""
+	PRMS_PM2_PostMRcp2_06		""
+
+	PRMS_PM3_PreMRcp_01		""
+	PRMS_PM3_PreMRcp_02		""
+	PRMS_PM3_PreMRcp_03		""
+	PRMS_PM3_PreMRcp_04		""
+	PRMS_PM3_PreMRcp_05		""
+	PRMS_PM3_PreMRcp_06		""
+
+	PRMS_PM3_PreMRcp2_01		""
+	PRMS_PM3_PreMRcp2_02		""
+	PRMS_PM3_PreMRcp2_03		""
+	PRMS_PM3_PreMRcp2_04		""
+	PRMS_PM3_PreMRcp2_05		""
+	PRMS_PM3_PreMRcp2_06		""
+
+	PRMS_PM3_PostMRcp_01		""
+	PRMS_PM3_PostMRcp_02		""
+	PRMS_PM3_PostMRcp_03		""
+	PRMS_PM3_PostMRcp_04		""
+	PRMS_PM3_PostMRcp_05		""
+	PRMS_PM3_PostMRcp_06		""
+
+	PRMS_PM3_PostMRcp2_01		""
+	PRMS_PM3_PostMRcp2_02		""
+	PRMS_PM3_PostMRcp2_03		""
+	PRMS_PM3_PostMRcp2_04		""
+	PRMS_PM3_PostMRcp2_05		""
+	PRMS_PM3_PostMRcp2_06		""
+
+	PRMS_PM4_PreMRcp_01		""
+	PRMS_PM4_PreMRcp_02		""
+	PRMS_PM4_PreMRcp_03		""
+	PRMS_PM4_PreMRcp_04		""
+	PRMS_PM4_PreMRcp_05		""
+	PRMS_PM4_PreMRcp_06		""
+
+	PRMS_PM4_PreMRcp2_01		""
+	PRMS_PM4_PreMRcp2_02		""
+	PRMS_PM4_PreMRcp2_03		""
+	PRMS_PM4_PreMRcp2_04		""
+	PRMS_PM4_PreMRcp2_05		""
+	PRMS_PM4_PreMRcp2_06		""
+
+	PRMS_PM4_PostMRcp_01		""
+	PRMS_PM4_PostMRcp_02		""
+	PRMS_PM4_PostMRcp_03		""
+	PRMS_PM4_PostMRcp_04		""
+	PRMS_PM4_PostMRcp_05		""
+	PRMS_PM4_PostMRcp_06		""
+
+	PRMS_PM4_PostMRcp2_01		""
+	PRMS_PM4_PostMRcp2_02		""
+	PRMS_PM4_PostMRcp2_03		""
+	PRMS_PM4_PostMRcp2_04		""
+	PRMS_PM4_PostMRcp2_05		""
+	PRMS_PM4_PostMRcp2_06		""
+
+	PRMS_PM5_PreMRcp_01		""
+	PRMS_PM5_PreMRcp_02		""
+	PRMS_PM5_PreMRcp_03		""
+	PRMS_PM5_PreMRcp_04		""
+	PRMS_PM5_PreMRcp_05		""
+	PRMS_PM5_PreMRcp_06		""
+
+	PRMS_PM5_PreMRcp2_01		""
+	PRMS_PM5_PreMRcp2_02		""
+	PRMS_PM5_PreMRcp2_03		""
+	PRMS_PM5_PreMRcp2_04		""
+	PRMS_PM5_PreMRcp2_05		""
+	PRMS_PM5_PreMRcp2_06		""
+
+	PRMS_PM5_PostMRcp_01		""
+	PRMS_PM5_PostMRcp_02		""
+	PRMS_PM5_PostMRcp_03		""
+	PRMS_PM5_PostMRcp_04		""
+	PRMS_PM5_PostMRcp_05		""
+	PRMS_PM5_PostMRcp_06		""
+
+	PRMS_PM5_PostMRcp2_01		""
+	PRMS_PM5_PostMRcp2_02		""
+	PRMS_PM5_PostMRcp2_03		""
+	PRMS_PM5_PostMRcp2_04		""
+	PRMS_PM5_PostMRcp2_05		""
+	PRMS_PM5_PostMRcp2_06		""
+
+	PRMS_PM1_MacroName_01		""
+	PRMS_PM1_MacroName_02		""
+	PRMS_PM1_MacroName_03		""
+	PRMS_PM1_MacroName_04		""
+	PRMS_PM1_MacroName_05		""
+	PRMS_PM1_MacroName_06		""
+
+	PRMS_PM2_MacroName_01		""
+	PRMS_PM2_MacroName_02		""
+	PRMS_PM2_MacroName_03		""
+	PRMS_PM2_MacroName_04		""
+	PRMS_PM2_MacroName_05		""
+	PRMS_PM2_MacroName_06		""
+
+	PRMS_PM3_MacroName_01		""
+	PRMS_PM3_MacroName_02		""
+	PRMS_PM3_MacroName_03		""
+	PRMS_PM3_MacroName_04		""
+	PRMS_PM3_MacroName_05		""
+	PRMS_PM3_MacroName_06		""
+
+	PRMS_PM4_MacroName_01		""
+	PRMS_PM4_MacroName_02		""
+	PRMS_PM4_MacroName_03		""
+	PRMS_PM4_MacroName_04		""
+	PRMS_PM4_MacroName_05		""
+	PRMS_PM4_MacroName_06		""
+
+	PRMS_PM5_MacroName_01		""
+	PRMS_PM5_MacroName_02		""
+	PRMS_PM5_MacroName_03		""
+	PRMS_PM5_MacroName_04		""
+	PRMS_PM5_MacroName_05		""
+	PRMS_PM5_MacroName_06		""
+
+	AutoPMEvent			""
+	AutoPMMacroName_PM1		""
+	AutoPMMacroName_PM2		""
+	AutoPMMacroName_PM3		""
+
+	AutoPMRcpName_PM1		""
+	AutoPMRcpName_PM2		""
+	AutoPMRcpName_PM3		""
+	AutoPMRcpName_PM4		""
+	AutoPMRcpName_PM5		""
+	
+$$$ Digital
+
+	AutoPMOwner_PM1		PMOwnerEnum	Host
+	AutoPMOwner_PM2		PMOwnerEnum	Host
+	AutoPMOwner_PM3		PMOwnerEnum	Host
+	AutoPMOwner_PM4		PMOwnerEnum	Host
+	AutoPMOwner_PM5		PMOwnerEnum	Host
+
+	PRMD_PM1_PreMEn		-  * *  - - - - -    0    12
+	PRMD_PM2_PreMEn		-  * *  - - - - -    0    12
+	PRMD_PM3_PreMEn		-  * *  - - - - -    0    12
+	PRMD_PM4_PreMEn		-  * *  - - - - -    0    12
+	PRMD_PM5_PreMEn		-  * *  - - - - -    0    12
+
+	PRMD_PM1_PostMEn	-  * *  - - - - -    0    12
+	PRMD_PM2_PostMEn	-  * *  - - - - -    0    12
+	PRMD_PM3_PostMEn	-  * *  - - - - -    0    12
+	PRMD_PM4_PostMEn	-  * *  - - - - -    0    12
+	PRMD_PM5_PostMEn	-  * *  - - - - -    0    12
+
+	CTC.PM1_AutoPM_EDIT		OffOn		Off
+	CTC.PM2_AutoPM_EDIT		OffOn		Off
+	CTC.PM3_AutoPM_EDIT		OffOn		Off
+	CTC.PM4_AutoPM_EDIT		OffOn		Off
+	CTC.PM5_AutoPM_EDIT		OffOn		Off
+
+	PRMD_AutoPM_PM1Flw	-  * *  - - - - -    0    12
+	PRMD_AutoPM_PM2Flw	-  * *  - - - - -    0    12
+	PRMD_AutoPM_PM3Flw	-  * *  - - - - -    0    12
+	PRMD_AutoPM_PM4Flw	-  * *  - - - - -    0    12
+	PRMD_AutoPM_PM5Flw	-  * *  - - - - -    0    12
+
+	PRMD_PreMacroFlw_PM1	-  * *  - - - - -    0    30
+	PRMD_PreMacroFlw_PM2	-  * *  - - - - -    0    30
+	PRMD_PreMacroFlw_PM3	-  * *  - - - - -    0    30
+	PRMD_PreMacroFlw_PM4	-  * *  - - - - -    0    30
+	PRMD_PreMacroFlw_PM5	-  * *  - - - - -    0    30
+
+	PRMD_PostMacroFlw_PM1	-  * *  - - - - -    0    30
+	PRMD_PostMacroFlw_PM2	-  * *  - - - - -    0    30
+	PRMD_PostMacroFlw_PM3	-  * *  - - - - -    0    30
+	PRMD_PostMacroFlw_PM4	-  * *  - - - - -    0    30
+	PRMD_PostMacroFlw_PM5	-  * *  - - - - -    0    30
+	
+	PRMD_ManualCtl_PM1	OffOn		Off	
+	PRMD_ManualCtl_PM2	OffOn		Off
+	PRMD_ManualCtl_PM3	OffOn		Off
+	PRMD_ManualCtl_PM4	OffOn		Off
+	PRMD_ManualCtl_PM5	OffOn		Off	
+
+	PM1_PRO_ClnStsDM	PMStsEnum 	None
+	PM2_PRO_ClnStsDM	PMStsEnum 	None
+	PM3_PRO_ClnStsDM	PMStsEnum 	None
+	PM4_PRO_ClnStsDM	PMStsEnum 	None
+	PM5_PRO_ClnStsDM	PMStsEnum 	None
+
+	PM1_Pre_PM_Resumed	OffOn		Off
+	PM2_Pre_PM_Resumed	OffOn		Off
+	PM3_Pre_PM_Resumed	OffOn		Off
+	PM4_Pre_PM_Resumed	OffOn		Off
+	PM5_Pre_PM_Resumed	OffOn		Off
+			
+	PM1_Post_PM_Resumed	OffOn		Off
+	PM2_Post_PM_Resumed	OffOn		Off
+	PM3_Post_PM_Resumed	OffOn		Off
+	PM4_Post_PM_Resumed	OffOn		Off
+	PM5_Post_PM_Resumed	OffOn		Off
+
+
+	PM1.DryCleaningReserveDI	ReserveSts	Normal
+	PM2.DryCleaningReserveDI	ReserveSts	Normal
+	PM3.DryCleaningReserveDI	ReserveSts	Normal
+	PM4.DryCleaningReserveDI	ReserveSts	Normal
+	PM5.DryCleaningReserveDI	ReserveSts	Normal
+
+	PM1.PMJobStart			ReserveSts	Normal
+	PM2.PMJobStart			ReserveSts	Normal
+	PM3.PMJobStart			ReserveSts	Normal
+	PM4.PMJOBStart			ReserveSts	Normal
+	PM5.PMJOBStart			ReserveSts	Normal
+	
+	HOSTCMD_HCACK			USER_HCACK
+	
+	PRMD_PM1_SSP_USE		OffOn	Off
+	PRMD_PM2_SSP_USE		OffOn	Off
+	PRMD_PM3_SSP_USE		OffOn	Off
+	MANUAL_PM1_SSP			MANSSP	WETPM
+	MANUAL_PM2_SSP			MANSSP	WETPM
+	MANUAL_PM3_SSP			MANSSP	WETPM
+	
+	PRMD_PM1_ALC_Use_After_PreM	OffOn	Off
+	PRMD_PM1_MFCveriUse		OffOn	Off
+	PRMD_PM2_ALC_Use_After_PreM	OffOn	Off
+	PRMD_PM2_MFCveriUse		OffOn	Off
+	PRMD_PM3_ALC_Use_After_PreM	OffOn	Off
+	PRMD_PM3_MFCveriUse		OffOn	Off
+	PRMD_PM1_ALC_Use_PostM	OffOn	Off
+	PRMD_PM2_ALC_Use_PostM	OffOn	Off
+	PRMD_PM3_ALC_Use_PostM	OffOn	Off
+	
+	PRMD_AUTOPM1_POST_LEAK		OffOn	Off
+	PRMD_AUTOPM2_POST_LEAK		OffOn	Off
+	PRMD_AUTOPM3_POST_LEAK		OffOn	Off
+	
+	PRMD_PM1_PreMRcp_01		NotuseUse	Notuse
+	PRMD_PM1_PreMRcp_02		NotuseUse	Notuse
+
+	PRMD_PM1_PreMRcp2_01		NotuseUse	Notuse
+	PRMD_PM1_PreMRcp2_02		NotuseUse	Notuse
+
+	PRMD_PM1_PostMRcp_01		NotuseUse	Notuse
+	PRMD_PM1_PostMRcp_02		NotuseUse	Notuse
+
+	PRMD_PM1_PostMRcp2_01		NotuseUse	Notuse
+	PRMD_PM1_PostMRcp2_02		NotuseUse	Notuse
+
+	PRMD_PM2_PreMRcp_01		NotuseUse	Notuse
+	PRMD_PM2_PreMRcp_02		NotuseUse	Notuse
+
+	PRMD_PM2_PreMRcp2_01		NotuseUse	Notuse
+	PRMD_PM2_PreMRcp2_02		NotuseUse	Notuse
+
+	PRMD_PM2_PostMRcp_01		NotuseUse	Notuse
+	PRMD_PM2_PostMRcp_02		NotuseUse	Notuse
+
+	PRMD_PM2_PostMRcp2_01		NotuseUse	Notuse
+	PRMD_PM2_PostMRcp2_02		NotuseUse	Notuse
+
+	PRMD_PM3_PreMRcp_01		NotuseUse	Notuse
+	PRMD_PM3_PreMRcp_02		NotuseUse	Notuse
+
+	PRMD_PM3_PreMRcp2_01		NotuseUse	Notuse
+	PRMD_PM3_PreMRcp2_02		NotuseUse	Notuse
+
+	PRMD_PM3_PostMRcp_01		NotuseUse	Notuse
+	PRMD_PM3_PostMRcp_02		NotuseUse	Notuse
+
+	PRMD_PM3_PostMRcp2_01		NotuseUse	Notuse
+	PRMD_PM3_PostMRcp2_02		NotuseUse	Notuse

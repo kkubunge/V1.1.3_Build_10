@@ -1,0 +1,45 @@
+#-----------------------------------------------------------------------------------------
+# For Watow 988 Stage Heater Control
+
+$$$ Digital
+
+HTA01_UseDM	HT_UseEnum	Use
+HTA02_UseDM	HT_UseEnum	NotUse
+
+HTB01_UseDM	HT_UseEnum	NotUse
+HTB02_UseDM	HT_UseEnum	NotUse
+
+HTC01_UseDM	HT_UseEnum	NotUse
+HTC02_UseDM	HT_UseEnum	NotUse
+
+HTD01_UseDM	HT_UseEnum	
+HTD02_UseDM	HT_UseEnum	NotUse
+
+
+$$$ String						
+
+HTA01_NameSM	-	-	1	-	-	"Stage Heater"
+HTA02_NameSM	-	-	1	-	-	""
+
+HTB01_NameSM	-	-	1	-	-	""
+HTB02_NameSM	-	-	1	-	-	""
+
+HTC01_NameSM	-	-	1	-	-	""
+HTC02_NameSM	-	-	1	-	-	""
+
+HTD01_NameSM	-	-	1	-	-	""
+HTD02_NameSM	-	-	1	-	-	""
+
+# 2004.08.18 by cskim, Stage Heater Monitoring
+#$$$ Enum
+#HT_MonOptEnum	Ignore	Warning	ChmDis	Abort
+
+$$$ Digital
+HTA_AlrmStsDM	OffOnEnum	Off
+HTA_MonOptDM	HT_MonOptEnum	ChmDis
+
+$$$ Enum
+HtrStbStsEnum	Stable	Unstable	Moving
+
+$$$ Digital													
+HTA01_StbStsDM	HtrStbStsEnum	Stable

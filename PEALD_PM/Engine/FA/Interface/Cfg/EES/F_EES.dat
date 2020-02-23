@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Function Information
+#-----------------------------------------------------------
+EES.MESSAGE		95	k:/Fa/GEM_MsgManager		ARGUMENT	"Function/Function_Module_GEM/EES/Message.dat"
+EES.ERROR		60	k:/Fa/GEM_Error			ARGUMENT	"Function/Function_Module_GEM/EES/Error.dat"
+EES.CONTROL		89	K:/Fa/EasyEES2|C		RUN	""	"Function/Function_Module_GEM/EES||||N|||"
+EES.PORT1_MIDCTRL	80	-	SUCCESS
+EES.PORT2_MIDCTRL	80	-	SUCCESS
+EES.PORT3_MIDCTRL	80	-	SUCCESS
+EES.PORT4_MIDCTRL	80	-	SUCCESS
+EES.TRACE1		50	k:/Fa/GEM_IO_Monitor	
+EES.TRACE2		50	k:/Fa/GEM_IO_Monitor	
+EES.TRACE3		50	k:/Fa/GEM_IO_Monitor	
+EES.TRACE4		50	k:/Fa/GEM_IO_Monitor	
+EES.TRACE5		50	k:/Fa/GEM_IO_Monitor	
+EES.TRACE6		50	k:/Fa/GEM_IO_Monitor	
+EES.TRACE7		50	k:/Fa/GEM_IO_Monitor	
+EES.TRACE8		50	k:/Fa/GEM_IO_Monitor	
+EES.TRACE9		50	k:/Fa/GEM_IO_Monitor	
+EES.TRACE10		50	k:/Fa/GEM_IO_Monitor	
+EES.SVID1		50	k:/Fa/GEM_IO_Monitor	
+EES.SVID2		50	k:/Fa/GEM_IO_Monitor	
+EES.SVID3		50	k:/Fa/GEM_IO_Monitor	
+EES.SVID4		50	k:/Fa/GEM_IO_Monitor	
+EES.SVID5		50	k:/Fa/GEM_IO_Monitor	
+EES.ECID		50	k:/Fa/GEM_IO_Read	
+EES.EVENT		50	k:/Fa/GEM_IO_Read	

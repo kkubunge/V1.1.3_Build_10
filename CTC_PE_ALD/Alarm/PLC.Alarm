@@ -1,0 +1,327 @@
+#------------------------------------------------------------------------------
+# PLC	9000 - 9999
+#------------------------------------------------------------------------------
+
+#################################################
+#	TM PLC Interlock [9800 - 9999]		#
+#	2008.07.03 		by Jonghyuk	#
+#################################################
+
+9801	PLCInt001_BM1_SlotV/V_Open {
+		"[PLCInt001]BM1 Pressure and TM Pressure Not Matched"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9802	PLCInt002_BM2_SlotV/V_Open {
+		"[PLCInt002]BM2 Pressure and TM Pressure Not Matched"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9803	PLCInt003_BM1_DoorV/V_Open {
+		"[PLCInt003]BM1 Pressure is Not ATM"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9804	PLCInt004_BM2_DoorV/V_Open {
+		"[PLCInt004]BM2 Pressure is Not ATM"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+
+9805	PLCInt005_PM1_SlotV/V_Open {
+		"[PLCInt005]TM Pressure is Not Vacuum"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9806	PLCInt006_PM2_SlotV/V_Open {
+		"[PLCInt006]TM Pressure is Not Vacuum"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9807	PLCInt007_PM3_SlotV/V_Open {
+		"[PLCInt007]TM Pressure is Not Vacuum"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9808	PLCInt008_BM1_SlotV/V_Close {
+		"[PLCInt008]VTM Robot is Not Retract"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9809	PLCInt009_BM2_SlotV/V_Close {
+		"[PLCInt009]VTM Robot is Not Retract"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9810	PLCInt010_BM1_DoorV/V_Close {
+		"[PLCInt010]ATM Robot is Not Retracted"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9811	PLCInt011_BM2_DoorV/V_Close {
+		"[PLCInt011]ATM Robot is Not Retracted"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9812	PLCInt012_PM1_SLotV/V_Close {
+		"[PLCInt012]Vacuum Robot is Not Retracted"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9813	PLCInt013_PM2_SLotV/V_CLose {
+		"[PLCInt013]Vacuum Robot is Not Retracted"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9814	PLCInt014_PM3_SLotV/V_CLose {
+		"[PLCInt014]Vacuum Robot is Not Retracted"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9815	PLCInt015_BM1_SlotV/V_DoorV/V_Open {
+		"[PLCInt015]BM1 Shelf Position is Not Up"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9816	PLCInt016_BM1_SlotV/V_Close {
+		"[PLCInt016]BM1 Wafer Slide Sensor Detected"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9817	PLCInt017_BM2_SlotV/V_Close {
+		"[PLCInt017]BM2 Wafer Slide Sensor Detected"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9818	PLCInt018_PM1_SlotV/V_Close {
+		"[PLCInt018]PM1 Wafer Slide Sensor Detected"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9819	PLCInt019_PM2_SlotV/V_Close {
+		"[PLCInt019]PM2 Wafer Slide Sensor Detected"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9820	PLCInt020_PM3_SlotV/V_Close {
+		"[PLCInt020]PM3 Wafer Slide Sensor Detected"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9821	PLCInt021_BM1_Front_Wafer_Slide {
+		"[PLCInt021]BM1 Front Wafer Slide Sensor Detected"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9822	PLCInt022_BM1_Back_Wafer_Slide {
+		"[PLCInt022]BM1 Back Wafer Slide Sensor Detected"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9823	PLCInt023_BM2_Front_Wafer_Slide {
+		"[PLCInt023]BM2 Front Wafer Slide Sensor Detected"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9824	PLCInt024_BM2_Back_Wafer_Slide {
+		"[PLCInt024]BM2 Back Wafer Slide Sensor Detected"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9825	PLCInt025_TM_Vent {
+		"[PLCInt025]BM / PM1 / PM2 / PM3 Slot V/V is Not Close"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9826	PLCInt026_BM1_Vent_Rough {
+		"[PLCInt026]BM1 SlotV/V, DoorV/V is Not Close"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9827	PLCInt027_BM2_Vent_Rough {
+		"[PLCInt027]BM2 SlotV/V, DoorV/V is Not Close"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9828	PLCInt028_TM_Vent_Rough {
+		"[PLCInt028]TM Vent Valve & TM Rough Valve is Not Open at Once"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9829	PLCInt029_BM1_Vent_Rough {
+		"[PLCInt029]BM1 Vent Valve & BM1 Rough Valve is Not Open at Once"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9830	PLCInt030_BM2_Vent_Rough {
+		"[PLCInt030]BM2 Vent Valve & BM2 Rough Valve is Not Open at Once"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9831	PLCInt031_TM_Dry_Pump {
+		"[PLCInt031]TM Dry Pump Alarm"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9832	PLCInt032_BM1_Dry_Pump {
+		"[PLCInt032]BM1 Dry Pump Alarm"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9833	PLCInt033_BM2_Dry_Pump {
+		"[PLCInt033]BM2 Dry Pump Alarm"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9834	PLCInt034_TM_Lid_Open {
+		"[PLCInt034]TM Chamber Lid Open"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9835	PLCInt035_BM1_Lid_Open {
+		"[PLCInt035]BM1 Lid Open"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9836	PLCInt036_BM2_Lid_Open {
+		"[PLCInt036]BM2 Lid Open"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9837	PLCInt037_EFEM_Door_Open {
+		"[PLCInt037]EFEM Door is Open"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9838	PLCInt038_TM_Water_Leak {
+		"[PLCInt038]TM Utility Box Water Leak Detected"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9839	PLCInt039_BM_Water_Flow {
+		"[PLCInt039]BM Water Flow Alarm"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9840	PLCInt040_BM1_Water_Flow {
+		"[PLCInt040]BM1 Water Flow Alarm"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9841	PLCInt041_BM2_Water_Flow {
+		"[PLCInt041]BM2 Water Flow Alarm"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+
+9842	PLCInt042_PM1_Ready {
+		"[PLCInt042]PM1Ready must be ON when PM1 Slot Valve 1 or 2 Open"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9843	PLCInt043_PM2_Ready {
+		"[PLCInt043]PM2Ready must be ON when PM2 Slot Valve 1 or 2 Open"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9844	PLCInt044_PM3_Ready {
+		"[PLCInt044]PM3Ready must be ON when PM3 Slot Valve 1 or 2 Open"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+9845	PLCInt045_Light_Curtain {
+		"[PLCInt045]Light Curtain Tripped"
+		RETRY		"Retry"                       
+		ABORT		"Abort"                       
+	        IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+

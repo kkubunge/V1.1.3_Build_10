@@ -1,0 +1,319 @@
+#------------------------------------------------------------------------------
+# BM1 Alarm 1000 -1999
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# TMC_LCASSETTE1_CONTROL
+#------------------------------------------------------------------------------
+#401
+1001 BM1.CASS.COMM_ERROR {
+	"BM1 Cassette Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#402
+1002 BM1.CASS.ERROR {
+	"BM1 Cassette Error Occur"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#403
+1003 BM1.CASS.HOME {
+	"BM1 Cassette Home Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#404
+1004 BM1.CASS.DOOR {
+	"BM1 Door Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#405
+1005 BM1.CASS.GOSLOT {
+	"BM1 Cassette GoSlot Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#406
+1006 BM1.CASS.GOLOAD {
+	"BM1 Cassette GoLoad Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#407
+1007 BM1.CASS.DCTWFR {
+	"BM1 Cassette DctWfr Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#408
+1008 BM1.CASS.PLATFORM {
+	"BM1 Cassette Platform Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#409
+1009 BM1.CASS.MAPPING {
+	"BM1 Cassette Mapping Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#410
+1010 BM1.CASS.DOOR2 {
+	"BM1 Door2 Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#411
+1011 BM1.CASS.GOSLOT2 {
+	"BM1 Cassette GoSlot2 Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#412
+1012 BM1.CASS.GOLOAD2 {
+	"BM1 Cassette GoLoad2 Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#413
+1013 BM1.CASS.PLATFORM2 {
+	"BM1 Cassette Platform2 Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#414
+1014 BM1.CASS.SLIDEDCT {
+	"BM1 Cassette or Wafer Sliding Detect"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#415
+1015 BM1.CASS.CARRIER {
+	"BM1 Cassette Carrier not Present"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#416
+1016 BM1.CASS.NOT_WAFERON {
+	"BM1 Cassette has not Wafer at Slot"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#417
+1017 BM1.CASS.NOT_WAFEROFF {
+	"BM1 Cassette has a Wafer at Slot"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+# TMC_LLA_VAC_CONTROL
+#------------------------------------------------------------------------------
+#431
+1031 BM1.S_VENT_TIMEOUT {
+	"BM1 Soft Vent Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#432
+1032 BM1.F_VENT_TIMEOUT {
+	"BM1 Fast Vent Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#433
+1033 BM1.S_PUMP_TIMEOUT {
+	"BM1 Soft Pump Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#434
+1034 BM1.F_PUMP_TIMEOUT {
+	"BM1 Fast Pump Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#435
+1035 BM1.ISO_CLOSE {
+	"BM1 Iso Valve Close Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#436
+1036 BM1.ISO_OPEN {
+	"BM1 Iso Valve Open Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#437
+1037 BM1.PUMP_CHECK {
+	"BM1 Pump Check Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#438
+1038 BM1.PUMP2_CHECK {
+	"BM1 Pump2 Check Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+1039 BM1.VACUUM.ERROR {
+	"BM1 is not Vacuum. Please prepare vacuum status"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#
+# From here, added by IPS (2004/04/16)
+#
+#------------------------------------------------------------------------------
+# PIN_CONTROL
+#------------------------------------------------------------------------------
+
+1040 BM1.PIN_TIMEOUT {
+	"BM1 Pin Up/Down Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+1041 BM1.LL_POSITION_TIMEOUT {
+	"BM1 Position Load/Unload Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+1042 BM1.LL_MOTOR_IS_NOT_READY {
+	"BM1 Position Control Motor is not ready"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+1043 BM1.LL_MOTION_CONDITION_ERR {
+	"BM1 & Main BM Motion Condition Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+1044 BM1.LL_MOTION_MOVEMENT_ERR {
+	"BM2 is not unload position"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+1045 BM1.LL_ALARM_RESET_ERR {
+	"BM1 Alarm Reset Fail"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+
+#------------------------------------------------------------------------------
+# LEAK_CHECK_CONTROL
+#------------------------------------------------------------------------------
+1046 BM1.LL_LEAK_RATE_ERR {
+	"BM1 Leak Rate Limit Over"
+	RETRY		"Retry"
+	ABORT		"Abort"	
+}
+
+1047 BM1.LL_LEAK_AVG_ERR {
+	"BM1 Leak Average Limit Over"
+	RETRY		"Retry"
+	ABORT		"Abort"	
+}
+#------------------------------------------------------------------------------
+# ROUGH_PUMP_CONTROL
+#------------------------------------------------------------------------------
+
+# 2006.09.14
+1050 BM1.DP_ARRANGE_FAIL {
+	"BM1 Single Dry Pump Arrange Failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+}
+
+1341 BM1.PUMPR.COMM_ERROR {
+	"BM1 RoughPump Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+1342 BM1.PUMPR.PUMP_CTR_TMO {
+	"BM1 RoughPump Control Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+1343 BM1.PUMPR.PUMP_WARN {
+	"BM1 Rough Pump Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+1344 BM1.PUMPR.PUMP_ALARM {
+	"BM1 Rough Pump Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}

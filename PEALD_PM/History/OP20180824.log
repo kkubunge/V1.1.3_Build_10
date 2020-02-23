@@ -1,0 +1,67 @@
+2018/8/24 18:39:30	USERCONTROL	[SYSTEM_START]
+2018/8/24 18:40:28	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/8/24 18:40:31	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/8/24 18:40:32	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/8/24 18:40:32	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/8/24 18:40:38	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2018/8/24 18:40:38	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2018/8/24 18:40:40	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/8/24 18:40:40	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/8/24 18:40:41	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/8/24 18:40:41	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/8/24 18:40:47	SETTING	[DIO] Right_Service_Htr_Nav with [1] at Page = 2(Main Heater)
+2018/8/24 18:40:47	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 1
+2018/8/24 18:40:48	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 2(Main Heater)
+2018/8/24 18:40:48	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2018/8/24 18:40:59	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2018/8/24 18:40:59	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2018/8/24 18:41:5	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2018/8/24 18:41:5	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2018/8/24 18:41:59	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2018/8/24 18:41:59	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2018/8/24 18:42:33	USERCONTROL	[SYSTEM_START]
+2018/8/24 18:42:55	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/8/24 18:42:57	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/8/24 18:42:58	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/8/24 18:42:58	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/8/24 18:43:0	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 2(Main Heater)
+2018/8/24 18:43:0	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2018/8/24 18:43:44	SETTING	[DIO] Bottom_Utility with [1] at Page = 0(PAGE 1)
+2018/8/24 18:43:44	BUTTON	[BOTTOM CLICK] Bottom_Utility
+2018/8/24 18:43:45	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/8/24 18:43:45	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/8/24 18:43:47	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/8/24 18:43:47	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/8/24 18:43:48	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2018/8/24 18:43:48	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2018/8/24 18:44:25	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2018/8/24 18:44:33	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2018/8/24 18:44:33	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2018/8/24 18:44:36	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2018/8/24 18:44:36	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2018/8/24 18:44:38	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2018/8/24 18:44:38	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2018/8/24 18:44:39	SETTING	[DIO] Bottom_Utility with [1] at Page = 0(PAGE 1)
+2018/8/24 18:44:39	BUTTON	[BOTTOM CLICK] Bottom_Utility
+2018/8/24 18:44:40	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/8/24 18:44:40	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/8/24 18:44:41	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/8/24 18:44:41	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/8/24 18:44:43	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2018/8/24 18:44:43	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2018/8/24 18:44:47	IOEDIT	DirectIO Edit => SIO:HT02_NameSM , VALUE:B_Spare
+2018/8/24 18:44:50	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2018/8/24 18:44:50	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2018/8/24 18:44:54	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2018/8/24 18:44:54	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2018/8/24 18:45:2	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2018/8/24 18:45:2	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2018/8/24 18:45:6	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2018/8/24 18:45:6	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2018/8/24 18:45:10	IOEDIT	DirectIO Edit => SIO:HT02_NameSM , VALUE:(02) B_Spare
+2018/8/24 18:45:15	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2018/8/24 18:45:15	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2018/8/24 18:45:30	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2018/8/24 18:45:30	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2018/8/24 18:45:35	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2018/8/24 18:45:35	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2

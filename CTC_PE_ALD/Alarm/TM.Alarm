@@ -1,0 +1,2909 @@
+#------------------------------------------------------------------------------
+# TM Alarm 6000 -7999
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# TMC_ISOGATE_CONTROL	6000 - 6099
+#------------------------------------------------------------------------------
+#731
+6001 TM.GATE.COMM_ERR {
+	"IsoGate Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#732
+6002 TM.GATE.CLOSE_TMO {
+	"Iso Gate Close Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#733
+6003 TM.GATE.OPEN_TMO {
+	"Iso Gate Open Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#734
+6004 TM.GATE.CLOSE_RM_RET {
+	"Iso Gate Close Error - Robot not Retract"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6005 TM.GATE.CLOSE_SLIDE {
+	"Iso Gate Close Error - Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6006 TM_GATE_OPEN_NOT_ALL_CLOSE {
+	"Iso Gate Open Error, Other Station Gate Opened"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6010 TM.GATE.CLOSE_SLIDE {
+	"BM1 Iso Gate Close Error - Left1 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6011 TM.GATE.CLOSE_SLIDE {
+	"BM1 Iso Gate Close Error - Left2 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6012 TM.GATE.CLOSE_SLIDE {
+	"BM1 Iso Gate Close Error - Left3 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6013 TM.GATE.CLOSE_SLIDE {
+	"BM1 Iso Gate Close Error - Right1 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6014 TM.GATE.CLOSE_SLIDE {
+	"BM1 Iso Gate Close Error - Right2 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6015 TM.GATE.CLOSE_SLIDE {
+	"BM1 Iso Gate Close Error - Right3 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6020 TM.GATE.CLOSE_SLIDE {
+	"BM2 Iso Gate Close Error - Left1 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6021 TM.GATE.CLOSE_SLIDE {
+	"BM2 Iso Gate Close Error - Left2 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6022 TM.GATE.CLOSE_SLIDE {
+	"BM2 Iso Gate Close Error - Left3 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6023 TM.GATE.CLOSE_SLIDE {
+	"BM2 Iso Gate Close Error - Right1 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6024 TM.GATE.CLOSE_SLIDE {
+	"BM2 Iso Gate Close Error - Right2 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6025 TM.GATE.CLOSE_SLIDE {
+	"BM2 Iso Gate Close Error - Right3 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6030 TM.GATE.CLOSE_SLIDE {
+	"PM1 Iso Gate Close Error - Left1 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6031 TM.GATE.CLOSE_SLIDE {
+	"PM1 Iso Gate Close Error - Left2 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6032 TM.GATE.CLOSE_SLIDE {
+	"PM1 Iso Gate Close Error - Left3 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6033 TM.GATE.CLOSE_SLIDE {
+	"PM1 Iso Gate Close Error - Right1 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6034 TM.GATE.CLOSE_SLIDE {
+	"PM1 Iso Gate Close Error - Right2 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6035 TM.GATE.CLOSE_SLIDE {
+	"PM1 Iso Gate Close Error - Right3 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6040 TM.GATE.CLOSE_SLIDE {
+	"PM2 Iso Gate Close Error - Left1 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6041 TM.GATE.CLOSE_SLIDE {
+	"PM2 Iso Gate Close Error - Left2 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6042 TM.GATE.CLOSE_SLIDE {
+	"PM2 Iso Gate Close Error - Left3 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6043 TM.GATE.CLOSE_SLIDE {
+	"PM2 Iso Gate Close Error - Right1 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6044 TM.GATE.CLOSE_SLIDE {
+	"PM2 Iso Gate Close Error - Right2 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6045 TM.GATE.CLOSE_SLIDE {
+	"PM2 Iso Gate Close Error - Right3 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6050 TM.GATE.CLOSE_SLIDE {
+	"PM3 Iso Gate Close Error - Left1 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6051 TM.GATE.CLOSE_SLIDE {
+	"PM3 Iso Gate Close Error - Left2 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6052 TM.GATE.CLOSE_SLIDE {
+	"PM3 Iso Gate Close Error - Left3 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6053 TM.GATE.CLOSE_SLIDE {
+	"PM3 Iso Gate Close Error - Right1 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6054 TM.GATE.CLOSE_SLIDE {
+	"PM3 Iso Gate Close Error - Right2 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+6055 TM.GATE.CLOSE_SLIDE {
+	"PM3 Iso Gate Close Error - Right3 Wafer Slide Detected"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+# 2015.09.08 Add Slot Valve OPEN Pressure Check & Swap Purge
+6060 TM_GATE_SWAP_PURGE_FAIL {
+	"Swap Gas Flow Failed Before Slot Valve OPEN"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6061 TM_GATE_OPEN_PRS_RANGE {
+	"Pressure Range Over for Slot Valve Open"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6062 TM_GATE_OPEN_PRS_DIFF {
+	"Pressure Different Over for Slot Valve Open"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#... 2016.02.10 for Slit Valve Cycle Test
+6070 TM_SLIT_TEST_FAIL {
+	"Slit Valve Cycle Test Fail"
+	CLEAR		"Clear"
+}
+
+
+#------------------------------------------------------------------------------
+# TMC_TM_VAC_CONTROL	6100 - 6199
+#------------------------------------------------------------------------------
+
+#631
+6101 TM.S_VENT_TIMEOUT {
+	"TM Soft Vent Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#632
+6102 TM.F_VENT_TIMEOUT {
+	"TM Fast Vent Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#633
+6103 TM.S_PUMP_TIMEOUT {
+	"TM Soft Pump Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#634
+6104 TM.F_PUMP_TIMEOUT {
+	"TM Fast Pump Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#635
+6105 TM.ISO_CLOSE {
+	"TM Iso Valve Close Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#636
+6106 TM.ISO_OPEN {
+	"TM Iso Valve Open Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#637
+6107 TM.PUMP_CHECK {
+	"TM Pump Check Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#638
+6108 TM.PUMP2_CHECK {
+	"TM Pump2 Check Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6109 TM.VGCOMM.ERR {
+	"TM Vacuum Gauge Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6110 TM.PUMP2_CHECK {
+	"TM Pump2 Check Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6111 TM.H_PUMP_TIMEOUT {
+	"TM Turbo Pump Time Out"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore => Regards as SUCCESS"
+	DESCRIPTION	"Alarm/AlarmText/TM/510.txt"
+}
+
+6112 TM.H_PURGE_TIMEOUT {
+	"TM High Purge Time Out"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	DESCRIPTION	"Alarm/AlarmText/TM/510.txt"
+}
+
+6113 TM.PURGE_TIMEOUT {
+	"TM Purge Time Out"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+	DESCRIPTION	"Alarm/AlarmText/TM/510.txt"
+}
+
+6114 TM.L_PURGE_TIMEOUT {
+	"TM Low Purge Time Out"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	DESCRIPTION	"Alarm/AlarmText/TM/510.txt"
+}
+
+6120 TM.TransferPressureOver {
+	"TM Transfer Pressure Is Over"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+}
+
+#Main BM
+6150 MAINBM.S_VENT_TIMEOUT {
+	"MAINBM Soft Vent Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6151 MAINBM.F_VENT_TIMEOUT {
+	"MAINBM Fast Vent Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6152 MAINBM.S_PUMP_TIMEOUT {
+	"MAINBM Soft Pump Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6153 MAINBM.F_PUMP_TIMEOUT {
+	"MAINBM Fast Pump Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+# LEAK_CHECK_CONTROL
+#------------------------------------------------------------------------------
+6154 TM.LEAK_RATE_ERR {
+	"TM Leak Rate Limit Over"
+	RETRY		"Retry"
+	ABORT		"Abort"	
+}
+
+6155 TM.LEAK_AVG_ERR {
+	"TM Leak Average Limit Over"
+	RETRY		"Retry"
+	ABORT		"Abort"	
+}
+
+6156 TM.AUTO_LEAK_CHECK_ABORT {
+	"TM/BM1/BM2 Auto Leak Check Abnormal Abort"
+	CLEAR		"Clear"	
+}
+
+#------------------------------------------------------------------------------
+# TMC_TP_TM_PUMP_CONTROL	6200 - 6299
+#------------------------------------------------------------------------------
+
+#651
+6201 TM.TP.PUMP_COMM_ERR {
+	"TM TurboPump Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#652
+6202 TM.TP.PUMP_ON_ERR {
+	"TM TurboPump ON Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#653
+6203 TM.TP.PUMP_OFF_ERR {
+	"TM TurboPump OFF Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#654
+6204 TM.TP.PUMP_FAULT {
+	"TM TurboPump Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#655
+6205 TM.TP.ERROR {
+	"TM TurboPump Low Speed or has a Error"
+	RETRY		"Retry Turbo On"
+	ABORT		"Pump Shutdown"
+	IGNORE		"Ignore Error"
+}
+
+#------------------------------------------------------------------------------
+# TMC_FORE_PUMP_CONTROL		6300 - 6349
+#------------------------------------------------------------------------------
+#661
+6301 TM.PUMPF.COMM_ERROR {
+	"TM ForePump Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#662
+6302 TM.PUMPF.PUMP_CTR_TMO {
+	"TM ForePump Control Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6303 TM.PUMPF.PUMP_WARN {
+	"TM ForePump Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6304 TM.PUMPF.PUMP_ALARM {
+	"TM ForePump Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+#------------------------------------------------------------------------------
+# TMC_ROUGH_PUMP_CONTROL	6350 - 6399
+#------------------------------------------------------------------------------
+#671
+6351 TM.PUMPR.COMM_ERROR {
+	"TM RoughPump Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#672
+6352 TM.PUMPR.PUMP_CTR_TMO {
+	"TM RoughPump Control Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6353 TM.PUMPR.PUMP_WARN {
+	"TM Rough Pump Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6354 TM.PUMPR.PUMP_ALARM {
+	"TM Rough Pump Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+#------------------------------------------------------------------------------
+# TMC_WFRSNS_CONTROL		6400 - 6449
+#------------------------------------------------------------------------------
+#721
+6401 TM.WFRSNS.ABS_PIC {
+	"Wafer is Present When Robot try to Pick the Wafer"
+	#RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#722
+6402 TM.WFRSNS.PRS_PIC {
+	"Wafer is Absent After Robot Pick the Wafer"
+	#RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#723
+6403 TM.WFRSNS.ABS_PLC {
+	"Wafer is Present After Robot Place the Wafer"
+	#RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#724
+6404 TM.WFRSNS.PRS_PLC {
+	"Wafer is Absent When Robot try to Place the Wafer"
+	#RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+# TMC_GX_CONTROL	6450 - 6499
+#------------------------------------------------------------------------------
+#626
+6456 TM.GX.ERROR {
+	"Lid Not Closed or N2 Pressure Not Good"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+# 2002.02.01 Append from Kornic for READY Part
+
+#627
+6457 TM.READY.ERROR {
+	"TM is not Vacuum. Please prepare vacuum status"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+# TMC_RBLOW_CONTROL	6500 - 6599
+#------------------------------------------------------------------------------
+#601
+6501 TM.ROBOT.COMM_ERROR {
+	"TM Robot Communication Error"
+	#RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#602
+6502 TM.ROBOT.FATAL {
+	"TM Robot has Fatal Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#603
+6503 TM.ROBOT.NOT_HOME {
+	"TM Robot Not Home yet"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#604
+6504 TM.ROBOT.MOTION {
+	"TM Robot has Motion Error"
+	#RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#605
+6505 TM.ROBOT.OTHER {
+	"TM Robot has Other Error"
+	#RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6506 TM.ROBOT.CHECK_WAFER {
+	"TM Robot has Check Wafer Error"
+	#RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6507 TM.ROBOT.ERROR {
+	"TM Robot Control Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+	DESCRIPTION	"Alarm/TM/UlvacErr.txt"	
+}
+
+6508 TM.ROBOT.AWSERROR {
+	"TM Robot AWS Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+	DESCRIPTION	"Alarm/TM/UlvacErr.txt"	
+}
+
+6509 TM.ROBOT.ERROR {
+	"TM Robot Not Stop yet(Running)"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+	DESCRIPTION	"Alarm/TM/UlvacErr.txt"	
+}
+
+#611
+6511 TM.ROBOT.HOME_WAFER {
+	"TM Robot Home Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#612
+6512 TM.ROBOT.PICK_WAFER {
+	"TM Robot Pick Error"
+	#RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#613
+6513 TM.ROBOT.PLACE_WAFER {
+	"TM Robot Place Error"
+	#RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#614
+6514 TM.ROBOT.ROTATE_WAFER {
+	"TM Robot Rotate Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#615
+6515 TM.ROBOT.EXTEND_WAFER {
+	"TM Robot Extend Error"
+	#RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#616
+6516 TM.ROBOT.RETRACT_WAFER {
+	"TM Robot Retract Error"
+	#RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#617
+6517 TM.ROBOT.UP_WAFER {
+	"TM Robot Up Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#618
+6518 TM.ROBOT.DOWN_WAFER {
+	"TM Robot Down Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6520 RbWaferSynMissMatch {
+	"Wafer Synch Missmatch : "
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+}
+
+6521 RBArmPickWfrPreAni {
+	"[GUI Info] Wafer is Absent in Target Station(Before Pick Action)"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+6522 RBArmPickWfrPreAni2 {
+	"[GUI Info] Wafer is Present On TM ARM(Before Pick Action)"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+6523 RBArmPlaceWfrPreAni {
+	"[GUI Info] Wafer is Present in Target Station(Before Place Action)"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+6524 RBArmPlaceWfrPreAni2 {
+	"[GUI Info] Wafer is Absent On TM ARM(Before Place Action)"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}    
+
+6530 RbNotExtPma1 {
+	"TM Robot Can't Extend : PMA-1 Chuck is not Home Position "
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+}
+6531 RbNotExtPma2 {
+	"TM Robot Can't Extend : PMA-2 Chuck is not Home Position "
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+}
+6532 RbNotExtPmb1 {
+	"TM Robot Can't Extend : PMB-1 Chuck is not Home Position "
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+}
+6533 RbNotExtPmb2 {
+	"TM Robot Can't Extend : PMB-2 Chuck is not Home Position "
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+}
+6534 RbNotExtPmc1 {
+	"TM Robot Can't Extend : PMC-1 Chuck is not Home Position "
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+}
+6535 RbNotExtPmc2 {
+	"TM Robot Can't Extend : PMC-2 Chuck is not Home Position "
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+}
+
+
+6540 Pma1SlideErr {
+	"TM Robot Error : PMA-1 Slide Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+}
+6541 Pma2SlideErr {
+	"TM Robot Error : PMA-2 Slide Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+}
+6542 Pmb1SlideErr {
+	"TM Robot Error : PMB-1 Slide Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+}
+6543 Pmb2SlideErr {
+	"TM Robot Error : PMB-2 Slide Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+}
+6544 Pmc1SlideErr {
+	"TM Robot Error : PMC-1 Slide Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+}
+6545 Pma2SlideErr {
+	"TM Robot Error : PMC-2 Slide Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+}
+6546 LL1SlideErr {
+	"TM Robot Error : LL or UL 1 Slide Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+}
+6547 LL2SlideErr {
+	"TM Robot Error : LL or UL 2 Slide Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+}
+
+6550 Pma1SlitVvErr {
+	"TM Robot Error : PMA-1 SlitVv Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+}
+6551 Pma2SlitVvErr {
+	"TM Robot Error : PMA-2 SlitVv Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+}
+ 
+6552 Pmb1SlitVvErr {
+	"TM Robot Error : PMB-1 SlitVv Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+}
+6553 Pmb2SlitVvErr {
+	"TM Robot Error : PMB-2 SlitVv Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+} 
+ 
+6554 Pmc1SlitVvErr {
+	"TM Robot Error : PMC-1 SlitVv Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+}
+6555 Pmc2SlitVvErr {
+	"TM Robot Error : PMC-2 SlitVv Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+}  
+
+6556 BM1SlitVvErr {
+	"TM Robot Error : BM1-1 SlitVv Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+}
+6557 BM1SlitVvErr {
+	"TM Robot Error : BM1-2 SlitVv Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+} 
+
+6558 BM2SlitVvErr {
+	"TM Robot Error : BM2-1 SlitVv Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+}
+6559 BM2SlitVvErr {
+	"TM Robot Error : BM2-2 SlitVv Sensor Error Detected"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"
+	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
+} 
+ 
+
+#--->>>	OBJ_TM_AWS
+6601 RbAArmAWSWarn {
+	"TM Robot A Arm AWS Warn Error"
+	CLEAR		"Clear Operation"
+#	DESCRIPTION	"Alarm/TM/UlvacErr.txt"
+}
+6602 RbBArmAWSWarn {
+	"TM Robot B Arm AWS Warn Error"
+	CLEAR		"Clear Operation"
+#	DESCRIPTION	"Alarm/TM/UlvacErr.txt"
+	LEVEL		WARNING
+}
+
+#------------------------------------------------------------------------------
+# Robot Error Code	7000 - 7999
+#------------------------------------------------------------------------------
+##2008.01.09 mgsong modified
+#7001 TM.ERROR_CODE {
+#	"Liveman Error"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7002 TM.ERROR_CODE {
+#	"There is no wafer"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7003 TM.ERROR_CODE {
+#	"There is a wafer"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7004 TM.ERROR_CODE {
+#	"Check operation mode"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7005 TM.ERROR_CODE {
+#	"Any Axis is not homed"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7006 TM.ERROR_CODE {
+#	"Controller is not ready"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7007 TM.ERROR_CODE {
+#	"Station or slot number is wrong"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7008 TM.ERROR_CODE {
+#	"Command is not correct"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7009 TM.ERROR_CODE {
+#	"E-Stop IO is disconnected"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7010 TM.ERROR_CODE {
+#	"Station is not match with arm"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7011 TM.ERROR_CODE {
+#	"Goto is not do after arm changed"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7012 TM.ERROR_CODE {
+#	"Error is not cleared"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7013 TM.ERROR_CODE {
+#	"Initialization is failed , reboot robot controller"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7014 TM.ERROR_CODE {
+#	"Host COM was not initialized"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7015 TM.ERROR_CODE {
+#	"TP COM was not initialized"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7016 TM.ERROR_CODE {
+#	"RA is not retracted"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7017 TM.ERROR_CODE {
+#	"RB is not retracted"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7018 TM.ERROR_CODE {
+#	"RC is not retracted"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7019 TM.ERROR_CODE {
+#	"RD is not retracted"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7020 TM.ERROR_CODE {
+#	"Check extend interlock"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7021 TM.ERROR_CODE {
+#	"Check sensor signal"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7022 TM.ERROR_CODE {
+#	"Drive is not Enabled"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7023 TM.ERROR_CODE {
+#	"AWC Sensor Scan is failed"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7024 TM.ERROR_CODE {
+#	"Error clear is failed"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7025 TM.ERROR_CODE {
+#	"AWC Measure data is out of pass range"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7026 TM.ERROR_CODE {
+#	"Check motion board connection with drive"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7027 TM.ERROR_CODE {
+#	"Control power supply under voltage protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7028 TM.ERROR_CODE {
+#	"Overvoltage protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7029 TM.ERROR_CODE {
+#	"Main power supply under voltage protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7030 TM.ERROR_CODE {
+#	"Over current protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7031 TM.ERROR_CODE {
+#	"Over-heat protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7032 TM.ERROR_CODE {
+#	"Over-load protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7033 TM.ERROR_CODE {
+#	"Over regeneration load protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7034 TM.ERROR_CODE {
+#	"Encoder communication error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7035 TM.ERROR_CODE {
+#	"Encoder communication data error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7036 TM.ERROR_CODE {
+#	"Position deviation excess protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7037 TM.ERROR_CODE {
+#	"Hybrid deviation excess error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7038 TM.ERROR_CODE {
+#	"Over-speed protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7039 TM.ERROR_CODE {
+#	"Electronic gear error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7040 TM.ERROR_CODE {
+#	"External scale communication data error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7041 TM.ERROR_CODE {
+#	"Deviation counter overflow protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7042 TM.ERROR_CODE {
+#	"Software limit protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7043 TM.ERROR_CODE {
+#	"External scale communication error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7044 TM.ERROR_CODE {
+#	"EEPROM parameter error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7045 TM.ERROR_CODE {
+#	"EEPROM check code error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7046 TM.ERROR_CODE {
+#	"Over-travel inhibit input protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7047 TM.ERROR_CODE {
+#	"Analog input excess protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7048 TM.ERROR_CODE {
+#	"Absolute system down error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7049 TM.ERROR_CODE {
+#	"Absolute counter over error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7050 TM.ERROR_CODE {
+#	"Absolute over-speed error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7051 TM.ERROR_CODE {
+#	"Absolute single turn counter error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7052 TM.ERROR_CODE {
+#	"Absolute multi-turn counter error ptotection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7053 TM.ERROR_CODE {
+#	"Absolute status error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7054 TM.ERROR_CODE {
+#	"Encoder Z-phase error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7055 TM.ERROR_CODE {
+#	"Encoder CS signal error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7056 TM.ERROR_CODE {
+#	"External scale status 0 error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7057 TM.ERROR_CODE {
+#	"External scale status 1 error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7058 TM.ERROR_CODE {
+#	"External scale status 2 error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7059 TM.ERROR_CODE {
+#	"External scale status 3 error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7060 TM.ERROR_CODE {
+#	"External scale status 4 error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7061 TM.ERROR_CODE {
+#	"External scale status 5 error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7062 TM.ERROR_CODE {
+#	"CCWTL input excess protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7063 TM.ERROR_CODE {
+#	"CWTL input excess protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7064 TM.ERROR_CODE {
+#	"Motor automatic recognition error protection"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7065 TM.ERROR_CODE {
+#	"Motor Power on is failed"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7066 TM.ERROR_CODE {
+#	"Over Time Error"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7067 TM.ERROR_CODE {
+#	"Check Reference Position"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7068 TM.ERROR_CODE {
+#	"Check Current Position"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7069 TM.ERROR_CODE {
+#	"Motor Power is not on"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7070 TM.ERROR_CODE {
+#	"Check Extend interlock IO"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7071 TM.ERROR_CODE {
+#	"Check Presence Sensor IO"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7072 TM.ERROR_CODE {
+#	"Check Current Position & Encoder value"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#
+#7073 TM.ERROR_CODE {
+#	"Home define is failed , check serial cable with drive"
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+##End QUADRA 2008.01.09 mgsong
+#
+#7074 TM.ERROR_CODE {
+#	"Mask notch is not on the right position."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7075 TM.ERROR_CODE {
+#	"Need for the aligner to return to origin."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7076 TM.ERROR_CODE {
+#	"Cassette presence sonsor is turned OFF in picking or placement."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7077 TM.ERROR_CODE {
+#	"Device number of motor is not registered."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7078 TM.ERROR_CODE {
+#	"Moving command beyond the valid stroke range."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7079 TM.ERROR_CODE {
+#	"Stage# specification of  cassette exceeds MAX value."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7080 TM.ERROR_CODE {
+#	"Motor# or the command is out of A-N."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7081 TM.ERROR_CODE {
+#	"Point of the command beyond is out of 1-7."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7082 TM.ERROR_CODE {
+#	"Slip sensor of A-axis detects substrate slipping."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7083 TM.ERROR_CODE {
+#	"Slip sensor of B-Axis detects substrate slipping."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7084 TM.ERROR_CODE {
+#	"Theta axis teaching has drift in special specification for vac area robot."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7085 TM.ERROR_CODE {
+#	"Proximate distance value is set even spedal specification for vac robot."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7086 TM.ERROR_CODE {
+#	"The sensor detects broken belt status of A or B axis."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7087 TM.ERROR_CODE {
+#	"The command was not completed within specified time."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7088 TM.ERROR_CODE {
+#	"Moving is stopped in arm extending position due to prohibition."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7089 TM.ERROR_CODE {
+#	"Mapper sensor si turned on."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7090 TM.ERROR_CODE {
+#	"Sensor turns on before Y-axis movement or does not turn on after stop."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7091 TM.ERROR_CODE {
+#	"Motch detection error."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+##7088 TM.ERROR_CODE {
+##	"Encoder error."
+##	RETRY		"Retry"
+##	ABORT		"Abort"
+##	IGNORE		"Ignore => Regards as SUCCESS"
+##}
+##
+##7089 TM.ERROR_CODE {
+##	"Correction retry over."
+##	RETRY		"Retry"
+##	ABORT		"Abort"
+##	IGNORE		"Ignore => Regards as SUCCESS"
+##}
+##
+##7090 TM.ERROR_CODE {
+##	"Clamp ON error."
+##	RETRY		"Retry"
+##	ABORT		"Abort"
+##	IGNORE		"Ignore => Regards as SUCCESS"
+##}
+##
+##7091 TM.ERROR_CODE {
+##	"Retry error for interference area."
+##	RETRY		"Retry"
+##	ABORT		"Abort"
+##	IGNORE		"Ignore => Regards as SUCCESS"
+##}
+#
+#7092 TM.ERROR_CODE {
+#	"Return to origin error of theta axis."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7093 TM.ERROR_CODE {
+#	"Return to origin error of Z-axis."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7094 TM.ERROR_CODE {
+#	"Alarm notice from A-axis driver."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7095 TM.ERROR_CODE {
+#	"Problems of motion direction."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7096 TM.ERROR_CODE {
+#	"Deviation over of A-axis."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7097 TM.ERROR_CODE {
+#	"Motion command is received under the servo OFF status."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7098 TM.ERROR_CODE {
+#	"The robot cannot operate due to the contradiction of the parameter"
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7099 TM.ERROR_CODE {
+#	"The robot stops due to limit sensor detection."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7100 TM.ERROR_CODE {
+#	"Rading from A-axis encoder does not work with absolute spec."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7101 TM.ERROR_CODE {
+#	"A-axis encoder is cleared."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7102 TM.ERROR_CODE {
+#	"Alarm ontice from B-axis driver."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7103 TM.ERROR_CODE {
+#	"Problems of motion directions for B-axis."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7104 TM.ERROR_CODE {
+#	"Deviation over of B-axis."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7105 TM.ERROR_CODE {
+#	"Motion command is received under the servo OFF status."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7106 TM.ERROR_CODE {
+#	"The robot cannot operate due to the contradiction of the param."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7107 TM.ERROR_CODE {
+#	"The robot stops due to limit sensor detection of B-axis."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7108 TM.ERROR_CODE {
+#	"Reading from B-axis encoder does not work with absolute spec."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7109 TM.ERROR_CODE {
+#	"B-Axis encoder is cleared."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7110 TM.ERROR_CODE {
+#	"Alarm notice from theta-axis driver."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7111 TM.ERROR_CODE {
+#	"Problems of motion direction for theta-axis."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7112 TM.ERROR_CODE {
+#	"Deviation over of theta-axis."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7113 TM.ERROR_CODE {
+#	"Motion command is received under the servo off status."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7114 TM.ERROR_CODE {
+#	"The robot cannot operate due to the contradiction of the param."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7115 TM.ERROR_CODE {
+#	"The robot stops due to limit sensor ."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7116 TM.ERROR_CODE {
+#	"Reading from theta-axis encoder does not work with absolute."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7117 TM.ERROR_CODE {
+#	"Theta-axis encoder is cleared."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7118 TM.ERROR_CODE {
+#	"Alarm notice from Z-axis driver."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7119 TM.ERROR_CODE {
+#	"Problems of motion directions for Z-axis."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7120 TM.ERROR_CODE {
+#	"Deviation over of Z-axis."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7121 TM.ERROR_CODE {
+#	"Motion command received under the servo off status."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7122 TM.ERROR_CODE {
+#	"The robot cannot operate due to the contrdiction fo the param."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7123 TM.ERROR_CODE {
+#	"The robot stops due to limit sensor."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7124 TM.ERROR_CODE {
+#	"Reading from Z-axis encoder does not work with absolute."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7125 TM.ERROR_CODE {
+#	"Z-axis encoder is cleared."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7126 TM.ERROR_CODE {
+#	"Alarm notice from Y-axis driver."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7127 TM.ERROR_CODE {
+#	"Problems of motion directions."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7128 TM.ERROR_CODE {
+#	"Deviation over of Y-axis."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7129 TM.ERROR_CODE {
+#	"Motion command is received under the servo off status."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7130 TM.ERROR_CODE {
+#	"The robot cannot operate due to the contradiction of the param."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7131 TM.ERROR_CODE {
+#	"The robot stops due to limit sensor."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7132 TM.ERROR_CODE {
+#	"Reading from Y-axis encoder does not work with absolute."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7133 TM.ERROR_CODE {
+#	"Y-axis encoder is cleared."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7134 TM.ERROR_CODE {
+#	"Alarm notice from theta-axis driver."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7135 TM.ERROR_CODE {
+#	"Problems of motion directions for theta-axis."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7136 TM.ERROR_CODE {
+#	"Deviation over of theta-axis."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7137 TM.ERROR_CODE {
+#	"Motion command is received under the servo off status."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7138 TM.ERROR_CODE {
+#	"The robot cannot operate due to the contradiction of the param."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7139 TM.ERROR_CODE {
+#	"The robot stops due to limit sensor."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7140 TM.ERROR_CODE {
+#	"Reading from theta-axis encoder does not work with absolute."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7141 TM.ERROR_CODE {
+#	"Axis encoder is cleared."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7142 TM.ERROR_CODE {
+#	"Alarm notice from E-axis driver."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7143 TM.ERROR_CODE {
+#	"Problems of motion directions for E-axis."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7144 TM.ERROR_CODE {
+#	"Deviation over of E-axis."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7145 TM.ERROR_CODE {
+#	"Motion command is received under the servo off status."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7146 TM.ERROR_CODE {
+#	"The robot cannot operate due to the contradiction of the param."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7147 TM.ERROR_CODE {
+#	"The robot stops due to limit sensor."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7148 TM.ERROR_CODE {
+#	"Reading from E-axis encoder does not work with absolute."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7149 TM.ERROR_CODE {
+#	"E-axis encoder is cleared."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7150 TM.ERROR_CODE {
+#	"The robot stops with the emergency stop switch."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7151 TM.ERROR_CODE {
+#	"The device number of the specified motor is not registered."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7152 TM.ERROR_CODE {
+#	"Contradict error of rotation counter in theta continue spec."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+##End WVA300
+##7152 TM.ERROR_CODE {
+##	"Bad mail message received by MCC."
+##	RETRY		"Retry"
+##	ABORT		"Abort"
+##	IGNORE		"Ignore => Regards as SUCCESS"
+##}
+#
+#7153 TM.ERROR_CODE {
+#	"Command halted."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7154 TM.ERROR_CODE {
+#	"MCC Queue Full."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7155 TM.ERROR_CODE {
+#	"Could not calculate MCC command ID."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7156 TM.ERROR_CODE {
+#	"Dual Ported RAM lock fail."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7157 TM.ERROR_CODE {
+#	"Unable to send to MCC."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7158 TM.ERROR_CODE {
+#	"Error opening MCC code."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7159 TM.ERROR_CODE {
+#	"Error reading MCC code."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7160 TM.ERROR_CODE {
+#	"MCC task can't access DP RAM."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7161 TM.ERROR_CODE {
+#	"MCC DP RAM memory size is too small."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7162 TM.ERROR_CODE {
+#	"Bad date format."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7163 TM.ERROR_CODE {
+#	"Bad time format"
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7164 TM.ERROR_CODE {
+#	"Year out of range."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7165 TM.ERROR_CODE {
+#	"Month out of range."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7166 TM.ERROR_CODE {
+#	"Day out of range."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7167 TM.ERROR_CODE {
+#	"Hour out of range."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7168 TM.ERROR_CODE {
+#	"Minute out of range."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7169 TM.ERROR_CODE {
+#	"Second out of range."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7170 TM.ERROR_CODE {
+#	"CDM already initialized."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7171 TM.ERROR_CODE {
+#	"CDM escape key entered."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7172 TM.ERROR_CODE {
+#	"CDM quit key entered."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7173 TM.ERROR_CODE {
+#	"CDM bad parameter."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7174 TM.ERROR_CODE {
+#	"CDM move aborted."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7175 TM.ERROR_CODE {
+#	"CDM Has Control of Robot."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7176 TM.ERROR_CODE {
+#	"Unknown serial port."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7177 TM.ERROR_CODE {
+#	"Unable to open serial port."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7178 TM.ERROR_CODE {
+#	"Unable to close serial port."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7179 TM.ERROR_CODE {
+#	"Can't allocate serial port semaphore."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7180 TM.ERROR_CODE {
+#	"Serial port overflow."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7181 TM.ERROR_CODE {
+#	"Serial port empty."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7182 TM.ERROR_CODE {
+#	"Secondary Serial Port mode."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7183 TM.ERROR_CODE {
+#	"Secondary Serial Port is busy."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7184 TM.ERROR_CODE {
+#	"Secondary Serial Port response timeout."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7185 TM.ERROR_CODE {
+#	"No serial communication with remote MCC."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7186 TM.ERROR_CODE {
+#	"No memory available for multi-tasker."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7187 TM.ERROR_CODE {
+#	"Multi-tasking kernel error."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7188 TM.ERROR_CODE {
+#	"Bad parameter passed to multi-tasker."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7189 TM.ERROR_CODE {
+#	"Timeout occurred."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7190 TM.ERROR_CODE {
+#	"Illegal task block requested."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7191 TM.ERROR_CODE {
+#	"No resources available."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7192 TM.ERROR_CODE {
+#	"Unable to read from NonVolatile RAM."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7193 TM.ERROR_CODE {
+#	"Unable to write to NonVolatile RAM."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7194 TM.ERROR_CODE {
+#	"NonVolatile RAM overflow."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7195 TM.ERROR_CODE {
+#	"No memory available for mail system."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7196 TM.ERROR_CODE {
+#	"Error initializing mail system."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7197 TM.ERROR_CODE {
+#	"Unknown task ID passed to mail system."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7198 TM.ERROR_CODE {
+#	"Trace currently running."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7199 TM.ERROR_CODE {
+#	"Trace variable already set."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7200 TM.ERROR_CODE {
+#	"Trace variable not set."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7201 TM.ERROR_CODE {
+#	"Bad trace variable name."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7202 TM.ERROR_CODE {
+#	"Bad trace trigger name."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7203 TM.ERROR_CODE {
+#	"No trace variables set."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7204 TM.ERROR_CODE {
+#	"Bad trace period."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7205 TM.ERROR_CODE {
+#	"Serial number not set."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7206 TM.ERROR_CODE {
+#	"System not configured."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7207 TM.ERROR_CODE {
+#	"System already born."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7208 TM.ERROR_CODE {
+#	"Operator name not set."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7209 TM.ERROR_CODE {
+#	"Message log bad record."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7210 TM.ERROR_CODE {
+#	"Message log not found."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7211 TM.ERROR_CODE {
+#	"Message log write error."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7212 TM.ERROR_CODE {
+#	"Message log seek error."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7213 TM.ERROR_CODE {
+#	"Message log read error."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7214 TM.ERROR_CODE {
+#	"Checksum error in message log."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7215 TM.ERROR_CODE {
+#	"Beginning of message log encountered."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7216 TM.ERROR_CODE {
+#	"Error log not initialized."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7217 TM.ERROR_CODE {
+#	"Default debug message from the MCC."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7218 TM.ERROR_CODE {
+#	"Sync error, motor moving or encoder noisy."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7219 TM.ERROR_CODE {
+#	"MCC board memory allocation error."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7220 TM.ERROR_CODE {
+#	"MCC board unexpected event error."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7221 TM.ERROR_CODE {
+#	"MCC board, bad command state."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7222 TM.ERROR_CODE {
+#	"MCC Board Sync error, can't move motor."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7223 TM.ERROR_CODE {
+#	"MCC encoder VABS adjusted (small)."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7224 TM.ERROR_CODE {
+#	"Warning, unable to obtain position."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7225 TM.ERROR_CODE {
+#	"MCC unable to hold position."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7226 TM.ERROR_CODE {
+#	"MCC hard tracking error."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7227 TM.ERROR_CODE {
+#	"MCC soft tracking error."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7228 TM.ERROR_CODE {
+#	"Error, motor is already moving."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7229 TM.ERROR_CODE {
+#	"Error, motor is not configured."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7230 TM.ERROR_CODE {
+#	"Error, motor is not referenced."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7231 TM.ERROR_CODE {
+#	"Error, motor is already referencing."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7232 TM.ERROR_CODE {
+#	"Error, motor is currently moving."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7233 TM.ERROR_CODE {
+#	"Error, unable to calculate trajectory."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7234 TM.ERROR_CODE {
+#	"Illegal number of polls calculated."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7235 TM.ERROR_CODE {
+#	"Unable to calculate absolute position."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7236 TM.ERROR_CODE {
+#	"Error, Encoder off by many sectors."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7237 TM.ERROR_CODE {
+#	"Error, Encoder failed multiple times."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7238 TM.ERROR_CODE {
+#	"Error, Board Power Failure (Blown Fuse?)."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7239 TM.ERROR_CODE {
+#	"Error, Z axis overtravel limit reached."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7240 TM.ERROR_CODE {
+#	"Arm actual position impossible, check sync zero."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7241 TM.ERROR_CODE {
+#	"Error, MCC watchdog timed out."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7242 TM.ERROR_CODE {
+#	"Error, defective R_MT type wafer sensor."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7243 TM.ERROR_CODE {
+#	"Error, arm load not what expected."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7244 TM.ERROR_CODE {
+#	"Error, obstruction encounter for axis."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7245 TM.ERROR_CODE {
+#	"Error, Emergency Stop circuit is active."
+#	#RETRY		"Retry"
+#	ABORT		"Abort"
+#	#IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7246 TM.ERROR_CODE {
+#	"Error, excessive current detected."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7247 TM.ERROR_CODE {
+#	"Warning: Z Home Sensor position moved."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7248 TM.ERROR_CODE {
+#	"MCC MAP failed."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7249 TM.ERROR_CODE {
+#	"Error, encoder min/max value out of range."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7250 TM.ERROR_CODE {
+#	"Error, bad sync phase offset value."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+#
+#7251 TM.ERROR_CODE {
+#	"Error, robot links are not yet defined."
+#	RETRY		"Retry"
+#	ABORT		"Abort"
+#	IGNORE		"Ignore => Regards as SUCCESS"
+#}
+
+7401 WAFER_EXIST_ON_PM1 {
+	"Error, Wafer Already Exist On PM1."
+	CLEAR	"Clear Operation"
+}
+
+7402 WAFER_EXIST_ON_PM2 {
+	"Error, Wafer Already Exist On PM2."
+	CLEAR	"Clear Operation"
+}
+
+7403 WAFER_EXIST_ON_PM3 {
+	"Error, Wafer Already Exist On PM3."
+	CLEAR	"Clear Operation"
+}
+
+7404 WAFER_EXIST_ON_PM4 {
+	"Error, Wafer Already Exist On PM4."
+	CLEAR	"Clear Operation"
+}
+
+7405 WAFER_EXIST_ON_PM5 {
+	"Error, Wafer Already Exist On PM5."
+	CLEAR	"Clear Operation"
+}
+
+7406 WAFER_EXIST_ON_BM1_SLOT1 {
+	"Error, Wafer Already Exist On BM1 Slot1."
+	CLEAR	"Clear Operation"
+}
+
+7407 WAFER_EXIST_ON_BM1_SLOT2 {
+	"Error, Wafer Already Exist On BM1 Slot2."
+	CLEAR	"Clear Operation"
+}
+
+7408 WAFER_EXIST_ON_BM2_SLOT1 {
+	"Error, Wafer Already Exist On BM2 Slot1."
+	CLEAR	"Clear Operation"
+}
+
+7409 WAFER_EXIST_ON_BM2_SLOT2 {
+	"Error, Wafer Already Exist On BM2 Slot2."
+	CLEAR	"Clear Operation"
+}
+
+7421 PM1_NOT_LOAD_POSITION {
+	"Error, PM1 is not load position."
+	CLEAR	"Clear Operation"
+}
+
+7422 PM2_NOT_LOAD_POSITION {
+	"Error, PM2 is not load position."
+	CLEAR	"Clear Operation"
+}
+
+7423 PM3_NOT_LOAD_POSITION {
+	"Error, PM3 is not load position."
+	CLEAR	"Clear Operation"
+}
+
+7424 PM4_NOT_LOAD_POSITION {
+	"Error, PM4 is not load position."
+	CLEAR	"Clear Operation"
+}
+
+7425 PM5_NOT_LOAD_POSITION {
+	"Error, PM5 is not load position."
+	CLEAR	"Clear Operation"
+}
+
+7426 PM6_NOT_LOAD_POSITION {
+	"Error, PM6 is not load position."
+	CLEAR	"Clear Operation"
+}
+
+7427 PM1_PROCESS_RUNNING {
+	"Error, PM1 process is not completed."
+	CLEAR	"Clear Operation"
+}
+
+7428 PM2_PROCESS_RUNNING {
+	"Error, PM2 process is not completed."
+	CLEAR	"Clear Operation"
+}
+
+7429 PM3_PROCESS_RUNNING {
+	"Error, PM3 process is not completed."
+	CLEAR	"Clear Operation"
+}
+
+7430 PM4_PROCESS_RUNNING {
+	"Error, PM4 process is not completed."
+	CLEAR	"Clear Operation"
+}
+
+7431 PM5_PROCESS_RUNNING {
+	"Error, PM5 process is not completed."
+	CLEAR	"Clear Operation"
+}
+
+7432 PM6_PROCESS_RUNNING {
+	"Error, PM6 process is not completed."
+	CLEAR	"Clear Operation"
+}
+
+7441 SLOT_VALVE_NOT_OPEN_PM1{
+	"Error, PM1 Slot Valve Not Open."
+	CLEAR	"Clear Operation"
+}
+
+7442 SLOT_VALVE_NOT_OPEN_PM2{
+	"Error, PM2 Slot Valve Not Open."
+	CLEAR	"Clear Operation"
+}
+
+7443 SLOT_VALVE_NOT_OPEN_PM3{
+	"Error, PM3 Slot Valve Not Open."
+	CLEAR	"Clear Operation"
+}
+
+7444 SLOT_VALVE_NOT_OPEN_PM4{
+	"Error, PM4 Slot Valve Not Open."
+	CLEAR	"Clear Operation"
+}
+
+7445 SLOT_VALVE_NOT_OPEN_PM5{
+	"Error, PM5 Slot Valve Not Open."
+	CLEAR	"Clear Operation"
+}
+
+7446 SLOT_VALVE_NOT_OPEN_PM6{
+	"Error, PM6 Slot Valve Not Open."
+	CLEAR	"Clear Operation"
+}
+
+7447 SLOT_VALVE_NOT_OPEN_BM1{
+	"Error, BM1 Slot Valve Not Open."
+	CLEAR	"Clear Operation"
+}
+
+7448 SLOT_VALVE_NOT_OPEN_BM2{
+	"Error, BM2 Slot Valve Not Open."
+	CLEAR	"Clear Operation"
+}
+
+7500 BM.LL_AUTO_CAL_FAIL {
+	"BM Auto Motor Calibration Fail"
+	ABORT		"Abort"
+}
+
+8000	PLCGlobalInterlockAct {
+	"PLC Interlock Is Activated"
+	CLEAR	"Clear Operation"
+	}
+
+#8900	InvalidIoValueWritten {
+#	"Invalid I/O Value is Written"
+#	CLEAR	"Clear Operation"
+#	}
+
+9901	PM1_PC_NOT_CONNECTED {
+	"PM1 Control PC Not Connected To CTC"
+	CLEAR	"Clear Operation"
+	}
+
+9902	PM2_PC_NOT_CONNECTED {
+	"PM2 Control PC Not Connected To CTC"
+	CLEAR	"Clear Operation"
+	}
+9903	PM3_PC_NOT_CONNECTED {
+	"PM3 Control PC Not Connected To CTC"
+	CLEAR	"Clear Operation"
+	}
+9904	PM4_PC_NOT_CONNECTED {
+	"PM4 Control PC Not Connected To CTC"
+	CLEAR	"Clear Operation"
+	}
+9905	PM5_PC_NOT_CONNECTED {
+	"PM5 Control PC Not Connected To CTC"
+	CLEAR	"Clear Operation"
+	}
+

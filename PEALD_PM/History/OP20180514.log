@@ -1,0 +1,15 @@
+2018/5/14 18:26:40	USERCONTROL	[SYSTEM_START]
+2018/5/14 18:27:4	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/5/14 18:27:6	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/5/14 18:27:7	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/5/14 18:27:7	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/5/14 18:27:9	SETTING	[DIO] Right_Service_Water with [1] at Page = 0(PAGE 1)
+2018/5/14 18:27:9	BUTTON	[RIGHT CLICK] Right_Service_Water
+2018/5/14 18:27:12	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/5/14 18:27:12	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/5/14 18:27:14	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 6(PM Param 1)
+2018/5/14 18:27:14	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/5/14 18:31:7	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2018/5/14 18:31:7	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2018/5/14 18:31:18	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/5/14 18:31:18	BUTTON	[BOTTOM CLICK] Bottom_Config

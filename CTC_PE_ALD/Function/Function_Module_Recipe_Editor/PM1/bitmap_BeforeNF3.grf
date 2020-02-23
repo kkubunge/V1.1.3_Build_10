@@ -1,0 +1,61 @@
+$CONFIGURATION_START$
+EDIT		ON
+IMAGE_DLL		Function/Function_Module_Recipe_Editor/PM1/ImgDll/ImgDll.dll
+$CONFIGURATION_END$
+$BITMAP_LOCATION_START$
+VALVE_1             	1  	1  	  718	  103
+VALVE_2             	2  	1  	  652	  103
+VALVE_3             	3  	1  	  718	  150
+VALVE_4             	4  	1  	  648	  150
+VALVE_5             	5  	1  	  718	  218
+VALVE_6             	6  	2  	  630	  168
+VALVE_11            	11 	1  	  246	  431
+VALVE_12            	12 	2  	  192	  451
+VALVE_13            	13 	2  	  192	  525
+VALVE_15            	15 	2  	  228	  525
+VALVE_17            	17 	2  	  228	  450
+VALVE_18            	18 	1  	  247	  473
+VALVE_19            	19 	1  	  208	  500
+VALVE_20            	20 	2  	  536	  340
+VALVE_21            	21 	1  	  586	  150
+VALVE_22            	22 	1  	  586	  103
+VALVE_23            	23 	1  	  586	  120
+VALVE_24            	24 	1  	  586	  224
+VALVE_68            	68 	1  	  380	  237
+VALVE_49            	49 	1  	   85	  411
+VALVE_50            	50 	1  	  154	  412
+VALVE_51            	51 	2  	   68	  370
+VALVE_52            	52 	1  	   45	  351
+VALVE_53            	53 	1  	  154	  352
+VALVE_54            	54 	1  	   85	  284
+VALVE_55            	55 	1  	  154	  285
+VALVE_56            	56 	1  	   85	  229
+VALVE_57            	57 	2  	  179	  169
+VALVE_58            	58 	1  	   85	  150
+VALVE_59            	59 	1  	  156	  150
+VALVE_61            	61 	1  	  154	  103
+VALVE_62            	62 	2  	  278	  340
+VALVE_63            	63 	1  	  225	  150
+VALVE_64            	64 	1  	  225	  103
+VALVE_65            	65 	1  	  226	  120
+VALVE_66            	66 	1  	  225	  224
+VALVE_69            	69 	1  	  366	  516
+VALVE_70            	70 	1  	  366	  533
+VALVE_60            	60 	1  	   86	  103
+VALVE_94            	94 	4  	  398	  261
+VALVE_95            	95 	3  	  435	  273
+VALVE_96            	96 	3  	  332	  275
+VALVE_97            	97 	1  	  554	  184
+VALVE_98            	98 	1  	  473	  184
+VALVE_100           	100	2  	  571	  204
+VALVE_101           	101	2  	  457	  161
+VALVE_102           	102	2  	  493	  161
+VALVE_103           	103	1  	  429	  323
+VALVE_105           	105	1  	  256	  183
+VALVE_106           	106	1  	  336	  184
+VALVE_108           	108	2  	  245	  203
+VALVE_109           	109	2  	  359	  160
+VALVE_110           	110	2  	  320	  162
+VALVE_111           	111	1  	  378	  323
+$BITMAP_LOCATION_END	0  	111	    0	    0
+$BITMAP_LOCATION_END$

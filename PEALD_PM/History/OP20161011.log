@@ -1,0 +1,25 @@
+2016/10/11 19:16:39	USERCONTROL	[SYSTEM_START]
+2016/10/11 19:16:48	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2016/10/11 19:16:52	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2016/10/11 19:16:53	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/10/11 19:16:53	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/10/11 19:16:56	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2016/10/11 19:16:56	BUTTON	[BOTTOM CLICK] Bottom_Config
+2016/10/11 19:17:5	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2016/10/11 19:17:5	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2016/10/11 19:17:26	SETTING	[DIO] Right_Config_Parm_Nav with [1] at Page = 7(PM Param 2)
+2016/10/11 19:17:26	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 1
+2016/10/11 19:17:29	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2016/10/11 19:17:29	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2016/10/11 19:17:39	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 7(PM Param 2)
+2016/10/11 19:17:39	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2016/10/11 19:17:41	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 8(PM Param 3)
+2016/10/11 19:17:41	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2016/10/11 19:17:42	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 9(PM Param 4)
+2016/10/11 19:17:42	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2016/10/11 19:17:48	SETTING	[DIO] Right_Config_Parm_Nav with [1] at Page = 7(PM Param 2)
+2016/10/11 19:17:48	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 1
+2016/10/11 19:24:56	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/10/11 19:24:56	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/10/11 19:24:58	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2016/10/11 19:24:58	BUTTON	[RIGHT CLICK] Right_Service_Leak

@@ -1,0 +1,4 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by Resource.rc
+//
+#define HIDC_BUTTON_RCP_EXPORT          0x8066052a    // IDD_MAIN_CONTROL

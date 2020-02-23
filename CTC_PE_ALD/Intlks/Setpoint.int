@@ -1,0 +1,1474 @@
+#
+# CTC Set-Point Interlock
+#
+
+###################################################################################################
+# LPMA (Station 1)
+###################################################################################################
+
+#------------------------------------------------------------------
+# Mapping & LPM Door Interlock
+#------------------------------------------------------------------
+#------------------------------------------------------------------
+action (LPMA.Mapping == Map) {#LPMA (CM1)
+       condition (LPMA.DoorUpDownXI != Down || LPMA.WaferSlideOutDI != Off ) $alarm = 8001;
+}
+#------------------------------------------------------------------
+action (FM.Robot_Get_Robot == 1) {#LPMA (CM1)
+       condition (LPMA.DoorUpDownXI != Down) $alarm = 8002;
+}
+action (FM.Robot_Get_RobotB == 1) {#LPMA (CM1)
+       condition (LPMA.DoorUpDownXI != Down) $alarm = 8002;
+}
+action (FM.Robot_GetDB_Robot == 1) {#LPMA (CM1)
+       condition (LPMA.DoorUpDownXI != Down) $alarm = 8002;
+}
+#------------------------------------------------------------------
+action (FM.Robot_Put_Robot == 1) {#LPMA (CM1)
+       condition (LPMA.DoorUpDownXI != Down) $alarm = 8003;
+}
+action (FM.Robot_Put_RobotB == 1) {#LPMA (CM1)
+       condition (LPMA.DoorUpDownXI != Down) $alarm = 8003;
+}
+action (FM.Robot_PutDB_Robot == 1) {#LPMA (CM1)
+       condition (LPMA.DoorUpDownXI != Down) $alarm = 8003;
+}
+
+#------------------------------------------------------------------
+# Undock Interlock
+#------------------------------------------------------------------
+action (LPMA.UndockDO == CloseDoor) {#LPMA (CM1)
+       condition (FM.Robot_Run_Status == Fault || TM.AtmRbRet_LPMADI != On) $alarm = 8005;
+}
+
+action (LPMA.UndockDO == FullUndock) {#LPMA (CM1)
+       condition ( FM.Robot_Run_Status == Fault || TM.AtmRbRet_LPMADI != On) $alarm = 8005;
+}
+#------------------------------------------------------------------
+# Foup Placement Interlock
+#------------------------------------------------------------------
+action (FM.Robot_Get_Robot == 1) {#LPMA (CM1)
+       condition (LPMA.F_ProperlyPlaceDI != On) $alarm = 8006;
+}
+action (FM.Robot_Get_RobotB == 1) {#LPMA (CM1)
+       condition (LPMA.F_ProperlyPlaceDI != On) $alarm = 8006;
+}
+action (FM.Robot_GetDB_Robot == 1) {#LPMA (CM1)
+       condition (LPMA.F_ProperlyPlaceDI != On) $alarm = 8006;
+}
+#------------------------------------------------------------------
+action (FM.Robot_Put_Robot == 1) {#LPMA (CM1)
+       condition (LPMA.F_ProperlyPlaceDI != On) $alarm = 8007;
+}
+action (FM.Robot_Put_RobotB == 1) {#LPMA (CM1)
+       condition (LPMA.F_ProperlyPlaceDI != On) $alarm = 8007;
+}
+action (FM.Robot_PutDB_Robot == 1) {#LPMA (CM1)
+       condition (LPMA.F_ProperlyPlaceDI != On) $alarm = 8007;
+}
+
+#------------------------------------------------------------------
+# Shuttle In Interlock
+#------------------------------------------------------------------
+action (FM.Robot_Get_Robot == 1) {#LPMA (CM1)
+       condition (LPMA.ShuttleInOutXI != In) $alarm = 8009;
+}
+action (FM.Robot_Get_RobotB == 1) {#LPMA (CM1)
+       condition (LPMA.ShuttleInOutXI != In) $alarm = 8009;
+}
+action (FM.Robot_GetDB_Robot == 1) {#LPMA (CM1)
+       condition (LPMA.ShuttleInOutXI != In) $alarm = 8009;
+}
+#------------------------------------------------------------------
+action (FM.Robot_Put_Robot == 1) {#LPMA (CM1)
+       condition (LPMA.ShuttleInOutXI != In) $alarm = 8010;
+}
+action (FM.Robot_Put_RobotB == 1) {#LPMA (CM1)
+       condition (LPMA.ShuttleInOutXI != In) $alarm = 8010;
+}
+action (FM.Robot_PutDB_Robot == 1) {#LPMA (CM1)
+       condition (LPMA.ShuttleInOutXI != In) $alarm = 8010;
+}
+
+#------------------------------------------------------------------
+
+###################################################################################################
+# LPMB (Station 2)
+###################################################################################################
+
+#------------------------------------------------------------------
+# Mapping & LPM Door Interlock
+#------------------------------------------------------------------
+#------------------------------------------------------------------
+action (LPMB.Mapping == Map) {#LPMB (CM2)
+       condition (LPMB.DoorUpDownXI != Down || LPMB.WaferSlideOutDI != Off ) $alarm = 8101;
+}
+#------------------------------------------------------------------
+action (FM.Robot_Get_Robot == 2) {#LPMB (CM2)
+       condition (LPMB.DoorUpDownXI != Down) $alarm = 8102;
+}
+action (FM.Robot_Get_RobotB == 2) {#LPMB (CM2)
+       condition (LPMB.DoorUpDownXI != Down) $alarm = 8102;
+}
+action (FM.Robot_GetDB_Robot == 2) {#LPMB (CM2)
+       condition (LPMB.DoorUpDownXI != Down) $alarm = 8102;
+}
+#------------------------------------------------------------------
+action (FM.Robot_Put_Robot == 2) {#LPMB (CM2)
+       condition (LPMB.DoorUpDownXI != Down) $alarm = 8103;
+}
+action (FM.Robot_Put_RobotB == 2) {#LPMB (CM2)
+       condition (LPMB.DoorUpDownXI != Down) $alarm = 8103;
+}
+action (FM.Robot_PutDB_Robot == 2) {#LPMB (CM2)
+       condition (LPMB.DoorUpDownXI != Down) $alarm = 8103;
+}
+
+#------------------------------------------------------------------
+# Undock Interlock
+#------------------------------------------------------------------
+action (LPMB.UndockDO == CloseDoor) {#LPMB (CM2)
+       condition (FM.Robot_Run_Status == Fault || TM.AtmRbRet_LPMBDI != On) $alarm = 8105;
+}
+
+action (LPMB.UndockDO == FullUndock) {#LPMB (CM2)
+       condition ( FM.Robot_Run_Status == Fault || TM.AtmRbRet_LPMBDI != On) $alarm = 8105;
+}
+#------------------------------------------------------------------
+# Foup Placement Interlock
+#------------------------------------------------------------------
+action (FM.Robot_Get_Robot == 2) {#LPMB (CM2)
+       condition (LPMB.F_ProperlyPlaceDI != On) $alarm = 8106;
+}
+action (FM.Robot_Get_RobotB == 2) {#LPMB (CM2)
+       condition (LPMB.F_ProperlyPlaceDI != On) $alarm = 8106;
+}
+action (FM.Robot_GetDB_Robot == 2) {#LPMB (CM2)
+       condition (LPMB.F_ProperlyPlaceDI != On) $alarm = 8106;
+}
+#------------------------------------------------------------------
+action (FM.Robot_Put_Robot == 2) {#LPMB (CM2)
+       condition (LPMB.F_ProperlyPlaceDI != On) $alarm = 8107;
+}
+action (FM.Robot_Put_RobotB == 2) {#LPMB (CM2)
+       condition (LPMB.F_ProperlyPlaceDI != On) $alarm = 8107;
+}
+action (FM.Robot_PutDB_Robot == 2) {#LPMB (CM2)
+       condition (LPMB.F_ProperlyPlaceDI != On) $alarm = 8107;
+}
+
+#------------------------------------------------------------------
+# Shuttle In Interlock
+#------------------------------------------------------------------
+action (FM.Robot_Get_Robot == 2) {#LPMB (CM2)
+       condition (LPMB.ShuttleInOutXI != In) $alarm = 8109;
+}
+action (FM.Robot_Get_RobotB == 2) {#LPMB (CM2)
+       condition (LPMB.ShuttleInOutXI != In) $alarm = 8109;
+}
+action (FM.Robot_GetDB_Robot == 2) {#LPMB (CM2)
+       condition (LPMB.ShuttleInOutXI != In) $alarm = 8109;
+}
+#------------------------------------------------------------------
+action (FM.Robot_Put_Robot == 2) {#LPMB (CM2)
+       condition (LPMB.ShuttleInOutXI != In) $alarm = 8110;
+}
+action (FM.Robot_Put_RobotB == 2) {#LPMB (CM2)
+       condition (LPMB.ShuttleInOutXI != In) $alarm = 8110;
+}
+action (FM.Robot_PutDB_Robot == 2) {#LPMB (CM2)
+       condition (LPMB.ShuttleInOutXI != In) $alarm = 8110;
+}
+
+#------------------------------------------------------------------
+
+
+
+###################################################################################################
+# LPMC (Station 3)
+###################################################################################################
+
+#------------------------------------------------------------------
+# Mapping & LPM Door Interlock
+#------------------------------------------------------------------
+#------------------------------------------------------------------
+action (LPMC.Mapping == Map) {#LPMC (CM3)
+       condition (LPMC.DoorUpDownXI != Down || LPMC.WaferSlideOutDI != Off ) $alarm = 8201;
+}
+#------------------------------------------------------------------
+action (FM.Robot_Get_Robot == 3) {#LPMC (CM3)
+       condition (LPMC.DoorUpDownXI != Down) $alarm = 8202;
+}
+action (FM.Robot_Get_RobotB == 3) {#LPMC (CM3)
+       condition (LPMC.DoorUpDownXI != Down) $alarm = 8202;
+}
+action (FM.Robot_GetDB_Robot == 3) {#LPMC (CM3)
+       condition (LPMC.DoorUpDownXI != Down) $alarm = 8202;
+}
+#------------------------------------------------------------------
+action (FM.Robot_Put_Robot == 3) {#LPMC (CM3)
+       condition (LPMC.DoorUpDownXI != Down) $alarm = 8203;
+}
+action (FM.Robot_Put_RobotB == 3) {#LPMC (CM3)
+       condition (LPMC.DoorUpDownXI != Down) $alarm = 8203;
+}
+action (FM.Robot_PutDB_Robot == 3) {#LPMC (CM3)
+       condition (LPMC.DoorUpDownXI != Down) $alarm = 8203;
+}
+#------------------------------------------------------------------
+# Undock Interlock
+#------------------------------------------------------------------
+action (LPMC.UndockDO == CloseDoor) {#LPMC (CM3)
+       condition (FM.Robot_Run_Status == Fault || TM.AtmRbRet_LPMCDI != On) $alarm = 8205;
+}
+
+action (LPMC.UndockDO == FullUndock) {#LPMC (CM3)
+       condition ( FM.Robot_Run_Status == Fault || TM.AtmRbRet_LPMCDI != On) $alarm = 8205;
+}
+#------------------------------------------------------------------
+# Foup Placement Interlock
+#------------------------------------------------------------------
+action (FM.Robot_Get_Robot == 3) {#LPMC (CM3)
+       condition (LPMC.F_ProperlyPlaceDI != On) $alarm = 8206;
+}
+action (FM.Robot_Get_RobotB == 3) {#LPMC (CM3)
+       condition (LPMC.F_ProperlyPlaceDI != On) $alarm = 8206;
+}
+action (FM.Robot_GetDB_Robot == 3) {#LPMC (CM3)
+       condition (LPMC.F_ProperlyPlaceDI != On) $alarm = 8206;
+}
+#------------------------------------------------------------------
+action (FM.Robot_Put_Robot == 3) {#LPMC (CM3)
+       condition (LPMC.F_ProperlyPlaceDI != On) $alarm = 8207;
+}
+action (FM.Robot_Put_RobotB == 3) {#LPMC (CM3)
+       condition (LPMC.F_ProperlyPlaceDI != On) $alarm = 8207;
+}
+action (FM.Robot_PutDB_Robot == 3) {#LPMC (CM3)
+       condition (LPMC.F_ProperlyPlaceDI != On) $alarm = 8207;
+}
+
+#------------------------------------------------------------------
+# Shuttle In Interlock
+#------------------------------------------------------------------
+action (FM.Robot_Get_Robot == 3) {#LPMC (CM3)
+       condition (LPMC.ShuttleInOutXI != In) $alarm = 8209;
+}
+action (FM.Robot_Get_RobotB == 3) {#LPMC (CM3)
+       condition (LPMC.ShuttleInOutXI != In) $alarm = 8209;
+}
+action (FM.Robot_GetDB_Robot == 3) {#LPMC (CM3)
+       condition (LPMC.ShuttleInOutXI != In) $alarm = 8209;
+}
+#------------------------------------------------------------------
+action (FM.Robot_Put_Robot == 3) {#LPMC (CM3)
+       condition (LPMC.ShuttleInOutXI != In) $alarm = 8210;
+}
+action (FM.Robot_Put_RobotB == 3) {#LPMC (CM3)
+       condition (LPMC.ShuttleInOutXI != In) $alarm = 8210;
+}
+action (FM.Robot_PutDB_Robot == 3) {#LPMC (CM3)
+       condition (LPMC.ShuttleInOutXI != In) $alarm = 8210;
+}
+
+#----------------------------------------------------------------------------------------------------------------#
+# LL														 #
+#----------------------------------------------------------------------------------------------------------------
+#=================================================================
+#BM1
+#=================================================================
+
+#<<BM1 DOOR INTERLOCKS>>
+action (BM1.DoorLXO == Close) {
+	$Count = 3; $Interval = 1;
+	condition (FM.Robot_Run_Status == Fault || TM.AtmRbRet_BM1DI != On) $alarm = 8321;
+}
+
+action (BM1.DoorRXO == Close) {
+	$Count = 3; $Interval = 1;	
+	condition (FM.Robot_Run_Status == Fault || TM.AtmRbRet_BM2DI != On) $alarm = 8321;
+}
+
+action (BM1.DoorLXO == Open) {
+	$Count = 3; $Interval = 1;	
+        condition (BM1.ATMVACSensorXI != ATM || BM1.RoughVvXO != Close ) $alarm = 8322;
+}
+action (BM1.DoorRXO == Open) {
+	$Count = 3; $Interval = 1;
+        condition (BM1.ATMVACSensorXI != ATM || BM1.RoughVvXO != Close ) $alarm = 8322;
+}
+
+#<<BM1 VALVE INTERLOCKS>>
+action (BM1.VentVvXO == OpenFast) {
+       condition (BM1.RoughVvXO != Close || BM1.DoorLXI != Close  || BM1.DoorRXI != Close) $alarm = 8323;
+}
+
+action (BM1.VentVvXO == OpenSlow) {
+       condition (BM1.RoughVvXO != Close || BM1.DoorLXI != Close  || BM1.DoorRXI != Close) $alarm = 8324;
+}
+
+action (BM1.RoughVvXO == OpenFast) {
+       condition (BM1.VentVvXO  != Close || BM1.DoorLXI != Close  || BM1.DoorRXI != Close) $alarm = 8325;
+}
+
+action (BM1.RoughVvXO == OpenSlow) {
+       condition (BM1.VentVvXO  != Close || BM1.DoorLXI != Close  || BM1.DoorRXI != Close ) $alarm = 8326;
+}
+
+
+#<<ATM ROBOT PICK/PLACE INTERLOCKS>>
+#Robot vs Motor Position
+action (FM.Robot_Get_Robot == 6)  {
+       condition (BM1.RoughVvXO != Close || BM1.DoorLXI != Open  || BM1.DoorRXI != Open || BM1.ATMVACSensorXI != ATM)   $alarm = 8301;
+}
+
+action (FM.Robot_Get_RobotB == 6) {
+       condition (BM1.RoughVvXO != Close  || BM1.DoorLXI != Open  || BM1.DoorRXI != Open || BM1.ATMVACSensorXI != ATM)   $alarm = 8301;
+}
+
+#Added Pin Up Down Interlock
+#action (FM.Robot_Get_Robot == 6)  {
+#       condition ((FM.Robot_Slot_Pos == 1 ||FM.Robot_Slot_Pos == 2)  && (BM1.PinUpDownLXI != Up || BM1.PinUpDownRXI != Up))   $alarm = 8331;
+#}
+#action (FM.Robot_Get_RobotB == 6) {
+#       condition ((FM.Robot_Slot_Pos == 1 ||FM.Robot_Slot_Pos == 2)  && (BM1.PinUpDownLXI != Up || BM1.PinUpDownRXI != Up))   $alarm = 8331;
+#}
+
+action (FM.Robot_Put_Robot == 6)  {
+       condition (BM1.RoughVvXO != Close  || BM1.DoorLXI!= Open   || BM1.DoorRXI != Open  ||BM1.ATMVACSensorXI != ATM)   $alarm = 8305;
+}
+
+action (FM.Robot_Put_RobotB == 6) {
+       condition (BM1.RoughVvXO != Close  || BM1.DoorLXI != Open   || BM1.DoorRXI != Open  || BM1.ATMVACSensorXI != ATM)   $alarm = 8305;
+}
+
+#Added Pin Up Down Interlock
+#action (FM.Robot_Put_Robot == 6)  {
+#       condition ((FM.Robot_Slot_Pos == 1 ||FM.Robot_Slot_Pos == 2)  && (BM1.PinUpDownLXI != Up || BM1.PinUpDownRXI != Up))   $alarm = 8335;
+#}
+#action (FM.Robot_Put_RobotB == 6) {
+#       condition ((FM.Robot_Slot_Pos == 1 ||FM.Robot_Slot_Pos == 2)  && (BM1.PinUpDownLXI != Up || BM1.PinUpDownRXI != Up))   $alarm = 8335;
+#}
+
+#=================================================================
+#BM2
+#=================================================================
+#<<BM2 DOOR INTERLOCKS>>
+action (BM2.DoorLXO == Close) {
+	$Count = 3; $Interval = 1;
+	condition (FM.Robot_Run_Status == Fault || TM.AtmRbRet_BM3DI != On) $alarm = 8411;
+}
+
+action (BM2.DoorRXO == Close) {
+	$Count = 3; $Interval = 1;
+	condition (FM.Robot_Run_Status == Fault || TM.AtmRbRet_BM4DI != On)$alarm = 8411;
+}
+
+
+action (BM2.DoorLXO == Open) {
+	$Count = 3; $Interval = 1;
+        condition (BM2.ATMVACSensorXI != ATM || BM2.RoughVvXO != Close ) $alarm = 8416;
+}
+action (BM2.DoorRXO == Open) {
+	$Count = 3; $Interval = 1;
+        condition (BM2.ATMVACSensorXI != ATM || BM2.RoughVvXO != Close ) $alarm = 8416;
+}
+
+#<<BM2 VALVE INTERLOCKS>>
+action (BM2.VentVvXO == OpenFast) {
+       condition (BM2.RoughVvXO != Close  ||
+		  BM2.DoorLXI   != Close  || BM2.DoorRXI != Close ) $alarm = 8412;
+}
+action (BM2.VentVvXO == OpenSlow) {
+       condition (BM2.RoughVvXO != Close  ||
+		  BM2.DoorLXI       != Close  || BM2.DoorRXI       != Close ) $alarm = 8413;
+}
+action (BM2.RoughVvXO == OpenFast) {
+       condition (BM2.VentVvXO  != Close  ||
+                  BM2.DoorLXI       != Close  || BM2.DoorRXI       != Close ) $alarm = 8414;
+}
+action (BM2.RoughVvXO == OpenSlow) {
+       condition (BM2.VentVvXO  != Close  ||
+                  BM2.DoorLXI       != Close  || BM2.DoorRXI       != Close ) $alarm = 8415;
+}
+
+
+#<<ATM ROBOT PICK/PLACE INTERLOCKS>>
+#Robot vs Motor Position
+action (FM.Robot_Get_Robot == 7)  {
+       condition (BM2.RoughVvXO != Close  ||
+		  BM2.DoorLXI       != Open   || BM2.DoorRXI       != Open  || BM2.ATMVACSensorXI != ATM)  $alarm = 8401;
+}
+
+action (FM.Robot_Get_RobotB == 7) {
+       condition (BM2.RoughVvXO != Close  ||
+		  BM2.DoorLXI       != Open   || BM2.DoorRXI       != Open  || BM2.ATMVACSensorXI != ATM)  $alarm = 8401;
+}
+
+#Added Pin Up Down Interlock
+#action (FM.Robot_Get_Robot == 7)  {
+#       condition ((FM.Robot_Slot_Pos == 1 ||FM.Robot_Slot_Pos == 2)  && (BM2.PinUpDownLXI != Up || BM2.PinUpDownRXI != Up))   $alarm = 8422;
+#}
+#action (FM.Robot_Get_RobotB == 7) {
+#       condition ((FM.Robot_Slot_Pos == 1 ||FM.Robot_Slot_Pos == 2)  && (BM2.PinUpDownLXI != Up || BM2.PinUpDownRXI != Up))   $alarm = 8422;
+#}
+
+
+action (FM.Robot_Put_Robot == 7)  {
+       condition (BM2.RoughVvXO != Close  ||
+		  BM2.DoorLXI       != Open   || BM2.DoorRXI       != Open  || BM2.ATMVACSensorXI != ATM)  $alarm = 8403;
+}
+action (FM.Robot_Put_RobotB == 7) {
+       condition (BM2.RoughVvXO != Close  ||
+		  BM2.DoorLXI       != Open   || BM2.DoorRXI       != Open  || BM2.ATMVACSensorXI != ATM)  $alarm = 8403;
+}
+
+#Added Pin Up Down Interlock
+#action (FM.Robot_Put_Robot == 7)  {
+#       condition ((FM.Robot_Slot_Pos == 1 || FM.Robot_Slot_Pos == 2)  && (BM2.PinUpDownLXI != Up || BM2.PinUpDownRXI != Up))  $alarm = 8425;
+#}
+#action (FM.Robot_Put_RobotB == 7) {
+#       condition ((FM.Robot_Slot_Pos == 1 || FM.Robot_Slot_Pos == 2)  && (BM2.PinUpDownLXI != Up || BM2.PinUpDownRXI != Up))  $alarm = 8425;
+#}
+#------------------------------------------------------------------------------------------------------------
+
+
+#############################################################################################################
+# Aligner
+#############################################################################################################
+#------------------------------------------------------------------------------------------------------------
+# Aligner Pick / Place Interlock
+#------------------------------------------------------------------------------------------------------------
+action (FM.Robot_Get_Robot == 10)  {
+       condition (TM.AtmAlignError != Normal)	$alarm = 8851;
+}
+action (FM.Robot_Get_RobotB == 10) {
+       condition (TM.AtmAlignError != Normal)	$alarm = 8851;
+}
+#------------------------------------------------------------------------------------------------------------
+action (FM.Robot_Put_Robot == 10)  {
+       condition (TM.AtmAlignError != Normal)	$alarm = 8852;
+}
+action (FM.Robot_Put_RobotB == 10) {
+       condition (TM.AtmAlignError != Normal)	$alarm = 8852;
+}
+#------------------------------------------------------------------------------------------------------------
+action (FM.Robot_RotG_Robot == 10)  {
+       condition (TM.AtmAlignError != Normal)	$alarm = 8853;
+}
+action (FM.Robot_RotG_RobotB == 10) {
+       condition (TM.AtmAlignError != Normal)	$alarm = 8853;
+}
+#------------------------------------------------------------------------------------------------------------
+action (FM.Robot_RotP_Robot == 10) {
+       condition (TM.AtmAlignError != Normal)	$alarm = 8853;
+}
+action (FM.Robot_RotP_RobotB == 10){
+       condition (TM.AtmAlignError != Normal)	$alarm = 8853;
+}
+#------------------------------------------------------------------------------------------------------------
+
+#############################################################################################################
+# TM
+#############################################################################################################
+#---------------- Vacuum Robot ---------------------------------------------------------------------------
+###############
+# Station LL1_1
+###############
+action (ULVAC_HI_Pick_UP == UV_LL1_1) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8501;
+}
+
+action (ULVAC_HI_Pick_A == UV_LL1_1) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8501;
+}
+
+action (ULVAC_HI_Pick_B == UV_LL1_1) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8501;
+}
+
+action (ULVAC_HI_Pick_UP == UV_LL1_1) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8502;
+}
+
+action (ULVAC_HI_Pick_A == UV_LL1_1) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8502;
+}
+
+action (ULVAC_HI_Pick_B == UV_LL1_1) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8502;
+}
+
+action (ULVAC_HI_Pick_LO == UV_LL1_1) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8501;
+}
+action (ULVAC_HI_Pick_C == UV_LL1_1) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8501;
+}
+action (ULVAC_HI_Pick_D == UV_LL1_1) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8501;
+}
+
+action (ULVAC_HI_Pick_LO == UV_LL1_1) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8502;
+}
+action (ULVAC_HI_Pick_C == UV_LL1_1) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8502;
+}
+action (ULVAC_HI_Pick_D == UV_LL1_1) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8502;
+}
+
+action (ULVAC_HI_Place_UP == UV_LL1_1) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8503;
+}
+action (ULVAC_HI_Place_A == UV_LL1_1) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8503;
+}
+action (ULVAC_HI_Place_B == UV_LL1_1) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8503;
+}
+
+action (ULVAC_HI_Place_UP == UV_LL1_1) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8504;
+}
+action (ULVAC_HI_Place_A == UV_LL1_1) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8504;
+}
+action (ULVAC_HI_Place_B == UV_LL1_1) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8504;
+}
+
+action (ULVAC_HI_Place_LO == UV_LL1_1) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8503;
+}
+action (ULVAC_HI_Place_C == UV_LL1_1) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8503;
+}
+action (ULVAC_HI_Place_D == UV_LL1_1) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8503;
+}
+
+action (ULVAC_HI_Place_LO == UV_LL1_1) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8504;
+}
+action (ULVAC_HI_Place_C == UV_LL1_1) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8504;
+}
+action (ULVAC_HI_Place_D == UV_LL1_1) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8504;
+}
+###############
+# Station LL1_2
+###############
+action (ULVAC_HI_Pick_UP == UV_LL1_2) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8501;
+}
+
+action (ULVAC_HI_Pick_A == UV_LL1_2) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8501;
+}
+
+action (ULVAC_HI_Pick_B == UV_LL1_2) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8501;
+}
+
+action (ULVAC_HI_Pick_UP == UV_LL1_2) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8502;
+}
+
+action (ULVAC_HI_Pick_A == UV_LL1_2) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8502;
+}
+
+action (ULVAC_HI_Pick_B == UV_LL1_2) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8502;
+}
+
+action (ULVAC_HI_Pick_LO == UV_LL1_2) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8501;
+}
+action (ULVAC_HI_Pick_C == UV_LL1_2) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8501;
+}
+action (ULVAC_HI_Pick_D == UV_LL1_2) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8501;
+}
+
+action (ULVAC_HI_Pick_LO == UV_LL1_2) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8502;
+}
+action (ULVAC_HI_Pick_C == UV_LL1_2) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8502;
+}
+action (ULVAC_HI_Pick_D == UV_LL1_2) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8502;
+}
+
+action (ULVAC_HI_Place_UP == UV_LL1_2) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8503;
+}
+action (ULVAC_HI_Place_A == UV_LL1_2) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8503;
+}
+action (ULVAC_HI_Place_B == UV_LL1_2) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8503;
+}
+
+action (ULVAC_HI_Place_UP == UV_LL1_2) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8504;
+}
+action (ULVAC_HI_Place_A == UV_LL1_2) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8504;
+}
+action (ULVAC_HI_Place_B == UV_LL1_2) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8504;
+}
+
+action (ULVAC_HI_Place_LO == UV_LL1_2) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8503;
+}
+action (ULVAC_HI_Place_C == UV_LL1_2) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8503;
+}
+action (ULVAC_HI_Place_D == UV_LL1_2) {
+       condition (TM.BM1.SlotVvLXI != Open) $alarm = 8503;
+}
+
+action (ULVAC_HI_Place_LO == UV_LL1_2) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8504;
+}
+action (ULVAC_HI_Place_C == UV_LL1_2) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8504;
+}
+action (ULVAC_HI_Place_D == UV_LL1_2) {
+       condition (TM.BM1.SlotVvRXI != Open) $alarm = 8504;
+}
+
+
+###############
+# Station LL2_1
+###############
+action (ULVAC_HI_Pick_UP == UV_LL2_1) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8501;
+}
+action (ULVAC_HI_Pick_A == UV_LL2_1) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8501;
+}
+action (ULVAC_HI_Pick_B == UV_LL2_1) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8501;
+}
+
+action (ULVAC_HI_Pick_UP == UV_LL2_1) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8502;
+}
+action (ULVAC_HI_Pick_A == UV_LL2_1) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8502;
+}
+action (ULVAC_HI_Pick_B == UV_LL2_1) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8502;
+}
+
+action (ULVAC_HI_Pick_LO == UV_LL2_1) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8505;
+}
+action (ULVAC_HI_Pick_C == UV_LL2_1) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8505;
+}
+action (ULVAC_HI_Pick_D == UV_LL2_1) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8505;
+}
+
+action (ULVAC_HI_Pick_LO == UV_LL2_1) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8506;
+}
+action (ULVAC_HI_Pick_C == UV_LL2_1) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8506;
+}
+action (ULVAC_HI_Pick_D == UV_LL2_1) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8506;
+}
+
+action (ULVAC_HI_Place_UP == UV_LL2_1) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8503;
+}
+action (ULVAC_HI_Place_A == UV_LL2_1) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8503;
+}
+action (ULVAC_HI_Place_B == UV_LL2_1) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8503;
+}
+
+action (ULVAC_HI_Place_UP == UV_LL2_1) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8504;
+}
+action (ULVAC_HI_Place_A == UV_LL2_1) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8504;
+}
+action (ULVAC_HI_Place_B == UV_LL2_1) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8504;
+}
+
+action (ULVAC_HI_Place_LO == UV_LL2_1) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8507;
+}
+action (ULVAC_HI_Place_C == UV_LL2_1) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8507;
+}
+action (ULVAC_HI_Place_D == UV_LL2_1) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8507;
+}
+
+action (ULVAC_HI_Place_LO == UV_LL2_1) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8508;
+}
+action (ULVAC_HI_Place_C == UV_LL2_1) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8508;
+}
+action (ULVAC_HI_Place_D == UV_LL2_1) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8508;
+}
+
+###############
+# Station LL2_2
+###############
+action (ULVAC_HI_Pick_UP == UV_LL2_2) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8501;
+}
+action (ULVAC_HI_Pick_A == UV_LL2_2) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8501;
+}
+action (ULVAC_HI_Pick_B == UV_LL2_2) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8501;
+}
+
+action (ULVAC_HI_Pick_UP == UV_LL2_2) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8502;
+}
+action (ULVAC_HI_Pick_A == UV_LL2_2) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8502;
+}
+action (ULVAC_HI_Pick_B == UV_LL2_2) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8502;
+}
+
+action (ULVAC_HI_Pick_LO == UV_LL2_2) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8505;
+}
+action (ULVAC_HI_Pick_C == UV_LL2_2) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8505;
+}
+action (ULVAC_HI_Pick_D == UV_LL2_2) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8505;
+}
+
+action (ULVAC_HI_Pick_LO == UV_LL2_2) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8506;
+}
+action (ULVAC_HI_Pick_C == UV_LL2_2) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8506;
+}
+action (ULVAC_HI_Pick_D == UV_LL2_2) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8506;
+}
+
+action (ULVAC_HI_Place_UP == UV_LL2_2) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8503;
+}
+action (ULVAC_HI_Place_A == UV_LL2_2) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8503;
+}
+action (ULVAC_HI_Place_B == UV_LL2_2) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8503;
+}
+
+action (ULVAC_HI_Place_UP == UV_LL2_2) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8504;
+}
+action (ULVAC_HI_Place_A == UV_LL2_2) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8504;
+}
+action (ULVAC_HI_Place_B == UV_LL2_2) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8504;
+}
+
+action (ULVAC_HI_Place_LO == UV_LL2_2) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8507;
+}
+action (ULVAC_HI_Place_C == UV_LL2_2) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8507;
+}
+action (ULVAC_HI_Place_D == UV_LL2_2) {
+       condition (TM.BM2.SlotVvLXI != Open) $alarm = 8507;
+}
+
+action (ULVAC_HI_Place_LO == UV_LL2_2) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8508;
+}
+action (ULVAC_HI_Place_C == UV_LL2_2) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8508;
+}
+action (ULVAC_HI_Place_D == UV_LL2_2) {
+       condition (TM.BM2.SlotVvRXI != Open) $alarm = 8508;
+}
+
+###############
+# Station PMA
+###############
+action (ULVAC_HI_Pick_UP == UV_PMA) {
+       condition (TM.PM1.SlotVv1XI != Open) $alarm = 8511;
+}
+action (ULVAC_HI_Pick_A == UV_PMA) {
+       condition (TM.PM1.SlotVv1XI != Open) $alarm = 8511;
+}
+action (ULVAC_HI_Pick_B == UV_PMA) {
+       condition (TM.PM1.SlotVv1XI != Open) $alarm = 8511;
+}
+
+action (ULVAC_HI_Pick_UP == UV_PMA) {
+       condition (TM.PM1.SlotVv2XI != Open) $alarm = 8512;
+}
+action (ULVAC_HI_Pick_A == UV_PMA) {
+       condition (TM.PM1.SlotVv2XI != Open) $alarm = 8512;
+}
+action (ULVAC_HI_Pick_B == UV_PMA) {
+       condition (TM.PM1.SlotVv2XI != Open) $alarm = 8512;
+}
+
+action (ULVAC_HI_Pick_LO == UV_PMA) {
+       condition (TM.PM1.SlotVv1XI != Open) $alarm = 8511;
+}
+action (ULVAC_HI_Pick_C == UV_PMA) {
+       condition (TM.PM1.SlotVv1XI != Open) $alarm = 8511;
+}
+action (ULVAC_HI_Pick_D == UV_PMA) {
+       condition (TM.PM1.SlotVv1XI != Open) $alarm = 8511;
+}
+
+action (ULVAC_HI_Pick_LO == UV_PMA) {
+       condition (TM.PM1.SlotVv2XI != Open) $alarm = 8512;
+}
+action (ULVAC_HI_Pick_C == UV_PMA) {
+       condition (TM.PM1.SlotVv2XI != Open) $alarm = 8512;
+}
+action (ULVAC_HI_Pick_D == UV_PMA) {
+       condition (TM.PM1.SlotVv2XI != Open) $alarm = 8512;
+}
+
+action (ULVAC_HI_Place_UP == UV_PMA) {
+       condition (TM.PM1.SlotVv1XI != Open) $alarm = 8513;
+}
+action (ULVAC_HI_Place_A == UV_PMA) {
+       condition (TM.PM1.SlotVv1XI != Open) $alarm = 8513;
+}
+action (ULVAC_HI_Place_B == UV_PMA) {
+       condition (TM.PM1.SlotVv1XI != Open) $alarm = 8513;
+}
+
+action (ULVAC_HI_Place_UP == UV_PMA) {
+       condition (TM.PM1.SlotVv2XI != Open) $alarm = 8514;
+}
+action (ULVAC_HI_Place_A == UV_PMA) {
+       condition (TM.PM1.SlotVv2XI != Open) $alarm = 8514;
+}
+action (ULVAC_HI_Place_B == UV_PMA) {
+       condition (TM.PM1.SlotVv2XI != Open) $alarm = 8514;
+}
+
+action (ULVAC_HI_Place_LO == UV_PMA) {
+       condition (TM.PM1.SlotVv1XI != Open) $alarm = 8513;
+}
+action (ULVAC_HI_Place_C == UV_PMA) {
+       condition (TM.PM1.SlotVv1XI != Open) $alarm = 8513;
+}
+action (ULVAC_HI_Place_D == UV_PMA) {
+       condition (TM.PM1.SlotVv1XI != Open) $alarm = 8513;
+}
+
+action (ULVAC_HI_Place_LO == UV_PMA) {
+       condition (TM.PM1.SlotVv2XI != Open) $alarm = 8514;
+}
+action (ULVAC_HI_Place_C == UV_PMA) {
+       condition (TM.PM1.SlotVv2XI != Open) $alarm = 8514;
+}
+action (ULVAC_HI_Place_D == UV_PMA) {
+       condition (TM.PM1.SlotVv2XI != Open) $alarm = 8514;
+}
+
+
+###############
+# Station PMB
+###############
+action (ULVAC_HI_Pick_UP == UV_PMB) {
+       condition (TM.PM2.SlotVv1XI != Open) $alarm = 8521;
+}
+action (ULVAC_HI_Pick_A == UV_PMB) {
+       condition (TM.PM2.SlotVv1XI != Open) $alarm = 8521;
+}
+action (ULVAC_HI_Pick_B == UV_PMB) {
+       condition (TM.PM2.SlotVv1XI != Open) $alarm = 8521;
+}
+
+action (ULVAC_HI_Pick_UP == UV_PMB) {
+       condition (TM.PM2.SlotVv2XI != Open) $alarm = 8522;
+}
+action (ULVAC_HI_Pick_A == UV_PMB) {
+       condition (TM.PM2.SlotVv2XI != Open) $alarm = 8522;
+}
+action (ULVAC_HI_Pick_B == UV_PMB) {
+       condition (TM.PM2.SlotVv2XI != Open) $alarm = 8522;
+}
+
+action (ULVAC_HI_Pick_LO == UV_PMB) {
+       condition (TM.PM2.SlotVv1XI != Open) $alarm = 8521;
+}
+action (ULVAC_HI_Pick_C == UV_PMB) {
+       condition (TM.PM2.SlotVv1XI != Open) $alarm = 8521;
+}
+action (ULVAC_HI_Pick_D == UV_PMB) {
+       condition (TM.PM2.SlotVv1XI != Open) $alarm = 8521;
+}
+
+action (ULVAC_HI_Pick_LO == UV_PMB) {
+       condition (TM.PM2.SlotVv2XI != Open) $alarm = 8522;
+}
+action (ULVAC_HI_Pick_C == UV_PMB) {
+       condition (TM.PM2.SlotVv2XI != Open) $alarm = 8522;
+}
+action (ULVAC_HI_Pick_D == UV_PMB) {
+       condition (TM.PM2.SlotVv2XI != Open) $alarm = 8522;
+}
+
+action (ULVAC_HI_Place_UP == UV_PMB) {
+       condition (TM.PM2.SlotVv1XI != Open) $alarm = 8523;
+}
+action (ULVAC_HI_Place_A == UV_PMB) {
+       condition (TM.PM2.SlotVv1XI != Open) $alarm = 8523;
+}
+action (ULVAC_HI_Place_B == UV_PMB) {
+       condition (TM.PM2.SlotVv1XI != Open) $alarm = 8523;
+}
+
+action (ULVAC_HI_Place_UP == UV_PMB) {
+       condition (TM.PM2.SlotVv2XI != Open) $alarm = 8524;
+}
+action (ULVAC_HI_Place_A == UV_PMB) {
+       condition (TM.PM2.SlotVv2XI != Open) $alarm = 8524;
+}
+action (ULVAC_HI_Place_B == UV_PMB) {
+       condition (TM.PM2.SlotVv2XI != Open) $alarm = 8524;
+}
+
+
+action (ULVAC_HI_Place_LO == UV_PMB) {
+       condition (TM.PM2.SlotVv1XI != Open) $alarm = 8523;
+}
+action (ULVAC_HI_Place_C == UV_PMB) {
+       condition (TM.PM2.SlotVv1XI != Open) $alarm = 8523;
+}
+action (ULVAC_HI_Place_D == UV_PMB) {
+       condition (TM.PM2.SlotVv1XI != Open) $alarm = 8523;
+}
+
+action (ULVAC_HI_Place_LO == UV_PMB) {
+       condition (TM.PM2.SlotVv2XI != Open) $alarm = 8524;
+}
+action (ULVAC_HI_Place_C == UV_PMB) {
+       condition (TM.PM2.SlotVv2XI != Open) $alarm = 8524;
+}
+action (ULVAC_HI_Place_D == UV_PMB) {
+       condition (TM.PM2.SlotVv2XI != Open) $alarm = 8524;
+}
+
+###############
+# Station PMC
+###############
+action (ULVAC_HI_Pick_UP == UV_PMC) {
+       condition (TM.PM3.SlotVv1XI != Open) $alarm = 8531;
+}
+action (ULVAC_HI_Pick_A == UV_PMC) {
+       condition (TM.PM3.SlotVv1XI != Open) $alarm = 8531;
+}
+action (ULVAC_HI_Pick_B == UV_PMC) {
+       condition (TM.PM3.SlotVv1XI != Open) $alarm = 8531;
+}
+
+action (ULVAC_HI_Pick_UP == UV_PMC) {
+       condition (TM.PM3.SlotVv2XI != Open) $alarm = 8532;
+}
+action (ULVAC_HI_Pick_A == UV_PMC) {
+       condition (TM.PM3.SlotVv2XI != Open) $alarm = 8532;
+}
+action (ULVAC_HI_Pick_B == UV_PMC) {
+       condition (TM.PM3.SlotVv2XI != Open) $alarm = 8532;
+}
+
+action (ULVAC_HI_Pick_LO == UV_PMC) {
+       condition (TM.PM3.SlotVv1XI != Open) $alarm = 8531;
+}
+action (ULVAC_HI_Pick_C == UV_PMC) {
+       condition (TM.PM3.SlotVv1XI != Open) $alarm = 8531;
+}
+action (ULVAC_HI_Pick_D == UV_PMC) {
+       condition (TM.PM3.SlotVv1XI != Open) $alarm = 8531;
+}
+
+action (ULVAC_HI_Pick_LO == UV_PMC) {
+       condition (TM.PM3.SlotVv2XI != Open) $alarm = 8532;
+}
+action (ULVAC_HI_Pick_C == UV_PMC) {
+       condition (TM.PM3.SlotVv2XI != Open) $alarm = 8532;
+}
+action (ULVAC_HI_Pick_D == UV_PMC) {
+       condition (TM.PM3.SlotVv2XI != Open) $alarm = 8532;
+}
+
+action (ULVAC_HI_Place_UP == UV_PMC) {
+       condition (TM.PM3.SlotVv1XI != Open) $alarm = 8533;
+}
+action (ULVAC_HI_Place_A == UV_PMC) {
+       condition (TM.PM3.SlotVv1XI != Open) $alarm = 8533;
+}
+action (ULVAC_HI_Place_B == UV_PMC) {
+       condition (TM.PM3.SlotVv1XI != Open) $alarm = 8533;
+}
+
+action (ULVAC_HI_Place_UP == UV_PMC) {
+       condition (TM.PM3.SlotVv2XI != Open) $alarm = 8534;
+}
+action (ULVAC_HI_Place_A == UV_PMC) {
+       condition (TM.PM3.SlotVv2XI != Open) $alarm = 8534;
+}
+action (ULVAC_HI_Place_B == UV_PMC) {
+       condition (TM.PM3.SlotVv2XI != Open) $alarm = 8534;
+}
+
+action (ULVAC_HI_Place_LO == UV_PMC) {
+       condition (TM.PM3.SlotVv1XI != Open) $alarm = 8533;
+}
+action (ULVAC_HI_Place_C == UV_PMC) {
+       condition (TM.PM3.SlotVv1XI != Open) $alarm = 8533;
+}
+action (ULVAC_HI_Place_D == UV_PMC) {
+       condition (TM.PM3.SlotVv1XI != Open) $alarm = 8533;
+}
+
+action (ULVAC_HI_Place_LO == UV_PMC) {
+       condition (TM.PM3.SlotVv2XI != Open) $alarm = 8534;
+}
+action (ULVAC_HI_Place_C == UV_PMC) {
+       condition (TM.PM3.SlotVv2XI != Open) $alarm = 8534;
+}
+action (ULVAC_HI_Place_D == UV_PMC) {
+       condition (TM.PM3.SlotVv2XI != Open) $alarm = 8534;
+}
+
+###############
+# Load Position
+###############
+
+action (ULVAC_HI_Pick_UP == UV_PMA) {
+       condition (PM1.ZMT_HomeSnsDI != 1)   $alarm = 8571;	#0:Mid, 1:Up, 2:Down
+}
+action (ULVAC_HI_Pick_A == UV_PMA) {
+       condition (PM1.ZMT_HomeSnsDI != 1)   $alarm = 8571;	#0:Mid, 1:Up, 2:Down
+}
+action (ULVAC_HI_Pick_B == UV_PMA) {
+       condition (PM1.ZMT_HomeSnsDI != 1)   $alarm = 8571;	#0:Mid, 1:Up, 2:Down
+}
+
+action (ULVAC_HI_Pick_UP == UV_PMA) {
+       condition (PM1.ZMT2_HomeSnsDI != 1)  $alarm = 8572;
+}
+action (ULVAC_HI_Pick_A == UV_PMA) {
+       condition (PM1.ZMT2_HomeSnsDI != 1)  $alarm = 8572;
+}
+action (ULVAC_HI_Pick_B == UV_PMA) {
+       condition (PM1.ZMT2_HomeSnsDI != 1)  $alarm = 8572;
+}
+
+action (ULVAC_HI_Pick_LO == UV_PMA) {
+       condition (PM1.ZMT_HomeSnsDI != 1)   $alarm = 8573;
+}
+action (ULVAC_HI_Pick_C == UV_PMA) {
+       condition (PM1.ZMT_HomeSnsDI != 1)   $alarm = 8573;
+}
+action (ULVAC_HI_Pick_D == UV_PMA) {
+       condition (PM1.ZMT_HomeSnsDI != 1)   $alarm = 8573;
+}
+
+action (ULVAC_HI_Pick_LO == UV_PMA) {
+       condition (PM1.ZMT2_HomeSnsDI != 1)  $alarm = 8574;
+}
+action (ULVAC_HI_Pick_C == UV_PMA) {
+       condition (PM1.ZMT2_HomeSnsDI != 1)  $alarm = 8574;
+}
+action (ULVAC_HI_Pick_D == UV_PMA) {
+       condition (PM1.ZMT2_HomeSnsDI != 1)  $alarm = 8574;
+}
+
+action (ULVAC_HI_Place_UP == UV_PMA) {
+       condition (PM1.ZMT_HomeSnsDI != 1)   $alarm = 8575;
+}
+action (ULVAC_HI_Place_A == UV_PMA) {
+       condition (PM1.ZMT_HomeSnsDI != 1)   $alarm = 8575;
+}
+action (ULVAC_HI_Place_B == UV_PMA) {
+       condition (PM1.ZMT_HomeSnsDI != 1)   $alarm = 8575;
+}
+
+action (ULVAC_HI_Place_UP == UV_PMA) {
+       condition (PM1.ZMT2_HomeSnsDI != 1)  $alarm = 8576;
+}
+action (ULVAC_HI_Place_A == UV_PMA) {
+       condition (PM1.ZMT2_HomeSnsDI != 1)  $alarm = 8576;
+}
+action (ULVAC_HI_Place_B == UV_PMA) {
+       condition (PM1.ZMT2_HomeSnsDI != 1)  $alarm = 8576;
+}
+
+action (ULVAC_HI_Place_LO == UV_PMA) {
+       condition (PM1.ZMT_HomeSnsDI != 1)   $alarm = 8577;
+}
+action (ULVAC_HI_Place_C == UV_PMA) {
+       condition (PM1.ZMT_HomeSnsDI != 1)   $alarm = 8577;
+}
+action (ULVAC_HI_Place_D == UV_PMA) {
+       condition (PM1.ZMT_HomeSnsDI != 1)   $alarm = 8577;
+}
+
+action (ULVAC_HI_Place_LO == UV_PMA) {
+       condition (PM1.ZMT2_HomeSnsDI != 1)  $alarm = 8578;
+}
+action (ULVAC_HI_Place_C == UV_PMA) {
+       condition (PM1.ZMT2_HomeSnsDI != 1)  $alarm = 8578;
+}
+action (ULVAC_HI_Place_D == UV_PMA) {
+       condition (PM1.ZMT2_HomeSnsDI != 1)  $alarm = 8578;
+}
+
+
+action (ULVAC_HI_Pick_UP == UV_PMB) {
+       condition (PM2.ZMT_HomeSnsDI != 1)   $alarm = 8581;	#0:Mid, 1:Up, 2:Down
+}
+action (ULVAC_HI_Pick_A == UV_PMB) {
+       condition (PM2.ZMT_HomeSnsDI != 1)   $alarm = 8581;	#0:Mid, 1:Up, 2:Down
+}
+action (ULVAC_HI_Pick_B == UV_PMB) {
+       condition (PM2.ZMT_HomeSnsDI != 1)   $alarm = 8581;	#0:Mid, 1:Up, 2:Down
+}
+
+action (ULVAC_HI_Pick_UP == UV_PMB) {
+       condition (PM2.ZMT2_HomeSnsDI != 1)  $alarm = 8582;
+}
+action (ULVAC_HI_Pick_A == UV_PMB) {
+       condition (PM2.ZMT2_HomeSnsDI != 1)  $alarm = 8582;
+}
+action (ULVAC_HI_Pick_B == UV_PMB) {
+       condition (PM2.ZMT2_HomeSnsDI != 1)  $alarm = 8582;
+}
+
+action (ULVAC_HI_Pick_LO == UV_PMB) {
+       condition (PM2.ZMT_HomeSnsDI != 1)   $alarm = 8583;
+}
+action (ULVAC_HI_Pick_C == UV_PMB) {
+       condition (PM2.ZMT_HomeSnsDI != 1)   $alarm = 8583;
+}
+action (ULVAC_HI_Pick_D == UV_PMB) {
+       condition (PM2.ZMT_HomeSnsDI != 1)   $alarm = 8583;
+}
+
+action (ULVAC_HI_Pick_LO == UV_PMB) {
+       condition (PM2.ZMT2_HomeSnsDI != 1)  $alarm = 8584;
+}
+action (ULVAC_HI_Pick_C == UV_PMB) {
+       condition (PM2.ZMT2_HomeSnsDI != 1)  $alarm = 8584;
+}
+action (ULVAC_HI_Pick_D == UV_PMB) {
+       condition (PM2.ZMT2_HomeSnsDI != 1)  $alarm = 8584;
+}
+
+action (ULVAC_HI_Place_UP == UV_PMB) {
+       condition (PM2.ZMT_HomeSnsDI != 1)   $alarm = 8585;
+}
+action (ULVAC_HI_Place_A == UV_PMB) {
+       condition (PM2.ZMT_HomeSnsDI != 1)   $alarm = 8585;
+}
+action (ULVAC_HI_Place_B == UV_PMB) {
+       condition (PM2.ZMT_HomeSnsDI != 1)   $alarm = 8585;
+}
+
+action (ULVAC_HI_Place_UP == UV_PMB) {
+       condition (PM2.ZMT2_HomeSnsDI != 1)  $alarm = 8586;
+}
+action (ULVAC_HI_Place_A == UV_PMB) {
+       condition (PM2.ZMT2_HomeSnsDI != 1)  $alarm = 8586;
+}
+action (ULVAC_HI_Place_B == UV_PMB) {
+       condition (PM2.ZMT2_HomeSnsDI != 1)  $alarm = 8586;
+}
+
+
+action (ULVAC_HI_Place_LO == UV_PMB) {
+       condition (PM2.ZMT_HomeSnsDI != 1)   $alarm = 8587;
+}
+action (ULVAC_HI_Place_C == UV_PMB) {
+       condition (PM2.ZMT_HomeSnsDI != 1)   $alarm = 8587;
+}
+action (ULVAC_HI_Place_D == UV_PMB) {
+       condition (PM2.ZMT_HomeSnsDI != 1)   $alarm = 8587;
+}
+
+action (ULVAC_HI_Place_LO == UV_PMB) {
+       condition (PM2.ZMT2_HomeSnsDI != 1)  $alarm = 8588;
+}
+action (ULVAC_HI_Place_C == UV_PMB) {
+       condition (PM2.ZMT2_HomeSnsDI != 1)  $alarm = 8588;
+}
+action (ULVAC_HI_Place_D == UV_PMB) {
+       condition (PM2.ZMT2_HomeSnsDI != 1)  $alarm = 8588;
+}
+
+
+
+action (ULVAC_HI_Pick_UP == UV_PMC) {
+       condition (PM3.ZMT_HomeSnsDI != 1)   $alarm = 8591;	#0:Mid, 1:Up, 2:Down
+}
+action (ULVAC_HI_Pick_A == UV_PMC) {
+       condition (PM3.ZMT_HomeSnsDI != 1)   $alarm = 8591;	#0:Mid, 1:Up, 2:Down
+}
+action (ULVAC_HI_Pick_B == UV_PMC) {
+       condition (PM3.ZMT_HomeSnsDI != 1)   $alarm = 8591;	#0:Mid, 1:Up, 2:Down
+}
+
+action (ULVAC_HI_Pick_UP == UV_PMC) {
+       condition (PM3.ZMT2_HomeSnsDI != 1)  $alarm = 8592;
+}
+action (ULVAC_HI_Pick_A == UV_PMC) {
+       condition (PM3.ZMT2_HomeSnsDI != 1)  $alarm = 8592;
+}
+action (ULVAC_HI_Pick_B == UV_PMC) {
+       condition (PM3.ZMT2_HomeSnsDI != 1)  $alarm = 8592;
+}
+
+action (ULVAC_HI_Pick_LO == UV_PMC) {
+       condition (PM3.ZMT_HomeSnsDI != 1)   $alarm = 8593;
+}
+action (ULVAC_HI_Pick_C == UV_PMC) {
+       condition (PM3.ZMT_HomeSnsDI != 1)   $alarm = 8593;
+}
+action (ULVAC_HI_Pick_D == UV_PMC) {
+       condition (PM3.ZMT_HomeSnsDI != 1)   $alarm = 8593;
+}
+
+action (ULVAC_HI_Pick_LO == UV_PMC) {
+       condition (PM3.ZMT2_HomeSnsDI != 1)  $alarm = 8594;
+}
+action (ULVAC_HI_Pick_C == UV_PMC) {
+       condition (PM3.ZMT2_HomeSnsDI != 1)  $alarm = 8594;
+}
+action (ULVAC_HI_Pick_D == UV_PMC) {
+       condition (PM3.ZMT2_HomeSnsDI != 1)  $alarm = 8594;
+}
+
+action (ULVAC_HI_Place_UP == UV_PMC) {
+       condition (PM3.ZMT_HomeSnsDI != 1)   $alarm = 8595;
+}
+action (ULVAC_HI_Place_A == UV_PMC) {
+       condition (PM3.ZMT_HomeSnsDI != 1)   $alarm = 8595;
+}
+action (ULVAC_HI_Place_B == UV_PMC) {
+       condition (PM3.ZMT_HomeSnsDI != 1)   $alarm = 8595;
+}
+
+action (ULVAC_HI_Place_UP == UV_PMC) {
+       condition (PM3.ZMT2_HomeSnsDI != 1)  $alarm = 8596;
+}
+action (ULVAC_HI_Place_A == UV_PMC) {
+       condition (PM3.ZMT2_HomeSnsDI != 1)  $alarm = 8596;
+}
+action (ULVAC_HI_Place_B == UV_PMC) {
+       condition (PM3.ZMT2_HomeSnsDI != 1)  $alarm = 8596;
+}
+
+
+action (ULVAC_HI_Place_LO == UV_PMC) {
+       condition (PM3.ZMT_HomeSnsDI != 1)   $alarm = 8597;
+}
+action (ULVAC_HI_Place_C == UV_PMC) {
+       condition (PM3.ZMT_HomeSnsDI != 1)   $alarm = 8597;
+}
+action (ULVAC_HI_Place_D == UV_PMC) {
+       condition (PM3.ZMT_HomeSnsDI != 1)   $alarm = 8597;
+}
+
+action (ULVAC_HI_Place_LO == UV_PMC) {
+       condition (PM3.ZMT2_HomeSnsDI != 1)  $alarm = 8598;
+}
+action (ULVAC_HI_Place_C == UV_PMC) {
+       condition (PM3.ZMT2_HomeSnsDI != 1)  $alarm = 8598;
+}
+action (ULVAC_HI_Place_D == UV_PMC) {
+       condition (PM3.ZMT2_HomeSnsDI != 1)  $alarm = 8598;
+}
+########################################################################################################
+
+#Rough / Vent Valve
+action (TM.VentVvXO == OpenSlow) {
+       condition (   TM.RoughVvXO  != Close || TM.PM1.SlotVv1XI  != Close || TM.PM1.SlotVv2XI  != Close
+                  || TM.PM2.SlotVv1XI  != Close || TM.PM2.SlotVv2XI  != Close
+                  || TM.PM3.SlotVv1XI  != Close || TM.PM3.SlotVv2XI  != Close
+                  || TM.BM1.SlotVvLXI  != Close || TM.BM1.SlotVvRXI  != Close
+                  || TM.BM2.SlotVvLXI  != Close || TM.BM2.SlotVvRXI  != Close) $alarm = 8561;
+}
+
+action (TM.VentVvXO == OpenFast) {
+       condition (   TM.RoughVvXO  != Close || TM.PM1.SlotVv1XI  != Close || TM.PM1.SlotVv2XI  != Close
+                  || TM.PM2.SlotVv1XI  != Close || TM.PM2.SlotVv2XI  != Close
+                  || TM.PM3.SlotVv1XI  != Close || TM.PM3.SlotVv2XI  != Close
+                  || TM.BM1.SlotVvLXI  != Close || TM.BM1.SlotVvRXI  != Close
+                  || TM.BM2.SlotVvLXI  != Close || TM.BM2.SlotVvRXI  != Close) $alarm = 8561;
+}
+
+action (TM.RoughVvXO == OpenFast) {
+       condition ( TM.VentVvXO != Close) $alarm = 8562;
+}
+
+action (TM.RoughVvXO == OpenSlow) {
+       condition ( TM.VentVvXO != Close) $alarm = 8562;
+}
+
+
+#Slot Valve Interlock
+action (TM.BM1.SlotVvLXO == Close) {
+       $Count = 3;	$Interval = 1;
+       condition (TM.VacRbRet_ARMADI != RETRACT || TM.VacRbRet_ARMBDI != RETRACT || TM.VacRbRet_ARMCDI != RETRACT || TM.VacRbRet_ARMDDI != RETRACT || BM.WaferSlideL1DI == Alarm || BM.WaferSlideR1DI == Alarm)   $alarm = 8601;
+}
+action (TM.BM1.SlotVvRXO == Close) {
+       $Count = 3;	$Interval = 1;
+       condition (TM.VacRbRet_ARMADI != RETRACT || TM.VacRbRet_ARMBDI != RETRACT || TM.VacRbRet_ARMCDI != RETRACT || TM.VacRbRet_ARMDDI != RETRACT || BM.WaferSlideL1DI == Alarm || BM.WaferSlideR1DI == Alarm)   $alarm = 8602;
+}
+action (TM.BM2.SlotVvLXO == Close) {
+       $Count = 3;	$Interval = 1;
+       condition (TM.VacRbRet_ARMADI != RETRACT || TM.VacRbRet_ARMBDI != RETRACT || TM.VacRbRet_ARMCDI != RETRACT || TM.VacRbRet_ARMDDI != RETRACT || BM.WaferSlideL1DI == Alarm || BM.WaferSlideR1DI == Alarm)   $alarm = 8601;
+}
+action (TM.BM2.SlotVvRXO == Close) {
+       $Count = 3;	$Interval = 1;
+       condition (TM.VacRbRet_ARMADI != RETRACT || TM.VacRbRet_ARMBDI != RETRACT || TM.VacRbRet_ARMCDI != RETRACT || TM.VacRbRet_ARMDDI != RETRACT || BM.WaferSlideL1DI == Alarm || BM.WaferSlideR1DI == Alarm)   $alarm = 8602;
+}
+action (TM.PM1.SlotVv1XO == Close) {
+       $Count = 3;	$Interval = 1;
+       condition (TM.VacRbRet_ARMADI != RETRACT || TM.VacRbRet_ARMBDI != RETRACT || TM.VacRbRet_ARMCDI != RETRACT || TM.VacRbRet_ARMDDI != RETRACT || TM.PM1.WaferSlide1DI == Alarm || TM.PM1.WaferSlide2DI == Alarm)   $alarm = 8603;
+}
+action (TM.PM1.SlotVv2XO == Close) {
+       $Count = 3;	$Interval = 1;
+       condition (TM.VacRbRet_ARMADI != RETRACT || TM.VacRbRet_ARMBDI != RETRACT || TM.VacRbRet_ARMCDI != RETRACT || TM.VacRbRet_ARMDDI != RETRACT || TM.PM1.WaferSlide1DI == Alarm || TM.PM1.WaferSlide2DI == Alarm)   $alarm = 8604;
+}
+action (TM.PM2.SlotVv1XO == Close) {
+       $Count = 3;	$Interval = 1;
+       condition (TM.VacRbRet_ARMADI != RETRACT || TM.VacRbRet_ARMBDI != RETRACT || TM.VacRbRet_ARMCDI != RETRACT || TM.VacRbRet_ARMDDI != RETRACT || TM.PM2.WaferSlide1DI == Alarm || TM.PM2.WaferSlide2DI == Alarm)   $alarm = 8605;
+}
+action (TM.PM2.SlotVv2XO == Close) {
+       $Count = 3;	$Interval = 1;
+       condition (TM.VacRbRet_ARMADI != RETRACT || TM.VacRbRet_ARMBDI != RETRACT || TM.VacRbRet_ARMCDI != RETRACT || TM.VacRbRet_ARMDDI != RETRACT || TM.PM2.WaferSlide1DI == Alarm || TM.PM2.WaferSlide2DI == Alarm)   $alarm = 8606;
+}
+action (TM.PM3.SlotVv1XO == Close) {
+       $Count = 3;	$Interval = 1;
+       condition (TM.VacRbRet_ARMADI != RETRACT || TM.VacRbRet_ARMBDI != RETRACT || TM.VacRbRet_ARMCDI != RETRACT || TM.VacRbRet_ARMDDI != RETRACT || TM.PM3.WaferSlide1DI == Alarm || TM.PM3.WaferSlide2DI == Alarm)   $alarm = 8607;
+}
+action (TM.PM3.SlotVv2XO == Close) {
+       $Count = 3;	$Interval = 1;
+       condition (TM.VacRbRet_ARMADI != RETRACT || TM.VacRbRet_ARMBDI != RETRACT || TM.VacRbRet_ARMCDI != RETRACT || TM.VacRbRet_ARMDDI != RETRACT || TM.PM3.WaferSlide1DI == Alarm || TM.PM3.WaferSlide2DI == Alarm)   $alarm = 8608;
+}
+
+#Slot Open Interlock
+action (TM.BM1.SlotVvLXO == Open) {
+       $Count = 3;	$Interval = 1;
+       condition ((TM.ATMVACSensorXI != ATM || BM1.ATMVACSensorXI != ATM) &&
+                  (TM.ATMVACSensorXI != VAC || BM1.ATMVACSensorXI != VAC))   $alarm = 8611;
+}
+
+action (TM.BM1.SlotVvRXO == Open) {
+       $Count = 3;	$Interval = 1;
+       condition ((TM.ATMVACSensorXI != ATM || BM1.ATMVACSensorXI != ATM) &&
+                  (TM.ATMVACSensorXI != VAC || BM1.ATMVACSensorXI != VAC))   $alarm = 8612;
+}
+
+action (TM.BM2.SlotVvLXO == Open) {
+       $Count = 3;	$Interval = 1;
+       condition ((TM.ATMVACSensorXI != ATM || BM2.ATMVACSensorXI != ATM) &&
+                  (TM.ATMVACSensorXI != VAC || BM2.ATMVACSensorXI != VAC))   $alarm = 8611;
+}
+
+action (TM.BM2.SlotVvRXO == Open) {
+       $Count = 3;	$Interval = 1;
+       condition ((TM.ATMVACSensorXI != ATM || BM2.ATMVACSensorXI != ATM) &&
+                  (TM.ATMVACSensorXI != VAC || BM2.ATMVACSensorXI != VAC))   $alarm = 8612;
+}
+
+action (TM.PM1.SlotVv1XO == Open) {
+       $Count = 3;	$Interval = 1;
+       condition ((TM.ATMVACSensorXI != ATM || PM1.ChmPrssDI1 != 1    ) &&
+                  (TM.ATMVACSensorXI != VAC || PM1.ChmPrssDI1 != 2 )) $alarm = 8613;
+}
+action (TM.PM1.SlotVv2XO == Open) {
+       $Count = 3;	$Interval = 1;
+       condition ((TM.ATMVACSensorXI != ATM || PM1.ChmPrssDI1 != 1    ) &&
+                  (TM.ATMVACSensorXI != VAC || PM1.ChmPrssDI1 != 2 )) $alarm = 8614;
+}
+
+action (TM.PM2.SlotVv1XO == Open) {
+       $Count = 3;	$Interval = 1;
+        condition ((TM.ATMVACSensorXI != ATM || PM2.ChmPrssDI1 != 1    ) &&
+                   (TM.ATMVACSensorXI != VAC || PM2.ChmPrssDI1 != 2 )) $alarm = 8615;
+}
+action (TM.PM2.SlotVv2XO == Open) {
+       $Count = 3;	$Interval = 1;
+        condition ((TM.ATMVACSensorXI != ATM || PM2.ChmPrssDI1 != 1    ) &&
+                   (TM.ATMVACSensorXI != VAC || PM2.ChmPrssDI1 != 2 )) $alarm = 8616;
+}
+action (TM.PM3.SlotVv1XO == Open) {
+       $Count = 3;	$Interval = 1;
+       condition ((TM.ATMVACSensorXI != ATM || PM3.ChmPrssDI1 != 1) 	 &&
+                  (TM.ATMVACSensorXI != VAC || PM3.ChmPrssDI1 != 2))  $alarm = 8617;
+}
+action (TM.PM3.SlotVv2XO == Open) {
+       $Count = 3;	$Interval = 1;
+       condition ((TM.ATMVACSensorXI != ATM || PM3.ChmPrssDI1 != 1) 	 &&
+                  (TM.ATMVACSensorXI != VAC || PM3.ChmPrssDI1 != 2))  $alarm = 8618;
+}
+
+#################################################################################
+# PM Slot Valve Interlock
+
+action (TM.PM1.SlotVv1XO == Open) {
+       $Count = 3;	$Interval = 1;
+       condition (PM1.PRO_RunStsDM == 1)  $alarm = 8631;
+}
+action (TM.PM1.SlotVv2XO == Open) {
+       $Count = 3;	$Interval = 1;
+       condition (PM1.PRO_RunStsDM == 1)  $alarm = 8631;
+}
+action (TM.PM2.SlotVv1XO == Open) {
+       $Count = 3;	$Interval = 1;
+       condition (PM2.PRO_RunStsDM == 1)  $alarm = 8632;
+}
+action (TM.PM2.SlotVv2XO == Open) {
+       $Count = 3;	$Interval = 1;
+       condition (PM2.PRO_RunStsDM == 1)  $alarm = 8632;
+}
+action (TM.PM3.SlotVv1XO == Open) {
+       $Count = 3;	$Interval = 1;
+       condition (PM3.PRO_RunStsDM == 1)  $alarm = 8633;
+}
+action (TM.PM3.SlotVv2XO == Open) {
+       $Count = 3;	$Interval = 1;
+       condition ( PM3.PRO_RunStsDM == 1) $alarm = 8633;
+}
+
+####################################################################################
+
+
+
+
+

@@ -1,0 +1,19 @@
+#
+#
+
+$$$	F	FUNCTION/F_GUI.dat
+$$$	F	FUNCTION/F_CTC.dat
+$$$	F	FUNCTION/F_Remote.dat
+
+#------------------------------------------------------------------------
+# User Definition Area for Local Control Function
+#------------------------------------------------------------------------
+#$$$	F	FUNCTION/FUNCTION_MODULE_TMC/F_TMC.dat
+#$$$	F	FUNCTION/FUNCTION_MODULE_PM1/F_PMC.dat
+#$$$	F	FUNCTION/FUNCTION_MODULE_PM2/F_PMC.dat
+#$$$	F	FUNCTION/FUNCTION_MODULE_PM3/F_PMC.dat
+#$$$	F	FUNCTION/FUNCTION_MODULE_PM4/F_PMC.dat
+#$$$	F	FUNCTION/FUNCTION_MODULE_PM5/F_PMC.dat
+#$$$	F	FUNCTION/FUNCTION_MODULE_PM6/F_PMC.dat
+#$$$	F	FUNCTION/FUNCTION_MODULE_FMC/F_FMC.dat
+

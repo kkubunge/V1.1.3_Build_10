@@ -1,0 +1,237 @@
+
+
+<SOURCE>
+
+	0.Select History?
+
+	1.Select File ?
+
+	2.Select LOT ?
+
+
+		{LOT 선택후 아래 내용 나타남}
+
+		[VIEW AREA1]
+
+			ALLWAFER	총장수	[O/X]
+
+				{ALLWAFER X일때 아래  나타나서 선택 가능하도록}
+
+				WAFER1	PM4개	[O/X]	[O]
+				WAFER2	PM4개	[O/X]
+				WAFER3	PM4개	[O/X]	[O]
+				WAFER4	PM4개	[O/X]
+
+		[VIEW AREA2]
+
+			ALLPM		총PM수	[O/X]
+
+				{ALLPM X일때 아래  나타나서 선택 가능하도록}
+
+				PM1	총장수	[O/X]
+				PM2	총장수	[O/X]	[O]
+				PM3	총장수	[O/X]
+				PM4	총장수	[O/X]	[O]
+
+		[VIEW AREA3]
+
+			ALLWAFER/PM
+
+			[O/O]
+
+				WAFER1	PM1	공정시간	[O/X]
+					PM2	공정시간	[O/X]
+					PM3	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER2	PM1	공정시간	[O/X]
+					PM2	공정시간	[O/X]
+					PM3	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER3	PM1	공정시간	[O/X]
+					PM2	공정시간	[O/X]
+					PM3	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER4	PM1	공정시간	[O/X]
+					PM2	공정시간	[O/X]
+					PM3	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+			[O/X]
+
+				WAFER1	PM2	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER2	PM2	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER3	PM2	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER4	PM2	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+			[X/O]
+
+				WAFER1	PM1	공정시간	[O/X]
+					PM2	공정시간	[O/X]
+					PM3	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER3	PM1	공정시간	[O/X]
+					PM2	공정시간	[O/X]
+					PM3	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+			[X/X]
+
+				WAFER1	PM2	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER3	PM2	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+
+
+<TARGET>
+
+	0.Select History?
+
+	1.Select File ?
+
+		{LOT 선택후 아래 내용 나타남}
+
+		[VIEW AREA1]
+
+			ALLWAFER	총장수	[O/X]
+
+				{ALLWAFER X일때 아래  나타나서 선택 가능하도록}
+
+				WAFER1	PM4개	[O/X]	[O]
+				WAFER2	PM4개	[O/X]
+				WAFER3	PM4개	[O/X]	[O]
+				WAFER4	PM4개	[O/X]
+
+		[VIEW AREA2]
+
+			ALLPM		총PM수	[O/X]
+
+				{ALLPM X일때 아래  나타나서 선택 가능하도록}
+
+				PM1	총장수	[O/X]
+				PM2	총장수	[O/X]	[O]
+				PM3	총장수	[O/X]
+				PM4	총장수	[O/X]	[O]
+
+			OTHERPM_MIXING	[O/X]
+
+		[VIEW AREA3]
+
+			ALLWAFER/PM
+
+			[O/O]
+
+				WAFER1	PM1	공정시간	[O/X]
+					PM2	공정시간	[O/X]
+					PM3	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER2	PM1	공정시간	[O/X]
+					PM2	공정시간	[O/X]
+					PM3	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER3	PM1	공정시간	[O/X]
+					PM2	공정시간	[O/X]
+					PM3	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER4	PM1	공정시간	[O/X]
+					PM2	공정시간	[O/X]
+					PM3	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+			[O/X]
+
+				WAFER1	PM2	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER2	PM2	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER3	PM2	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER4	PM2	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+			[X/O]
+
+				WAFER1	PM1	공정시간	[O/X]
+					PM2	공정시간	[O/X]
+					PM3	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER3	PM1	공정시간	[O/X]
+					PM2	공정시간	[O/X]
+					PM3	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+			[X/X]
+
+				WAFER1	PM2	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+				WAFER3	PM2	공정시간	[O/X]
+					PM4	공정시간	[O/X]
+
+
+	2.Select LOT ?
+
+
+==============================================================================
+
+			OTHERPM_MIXING	[O/X]
+
+			RUN
+
+<RESULT>
+
+
+
+	1.Source File
+
+					PM1	공정시간	[VIEW GRAPH]
+					PM2	공정시간	[VIEW GRAPH]
+
+			or MIXING 일때
+
+					ALL	공정시간	[VIEW GRAPH]
+
+	2.Target File
+
+				WAFER1	PM2	공정시간	10 %		[VIEW GRAPH]
+					PM4	공정시간	5 %		[VIEW GRAPH]
+
+				WAFER2	PM2	공정시간	4 %		[VIEW GRAPH]
+					PM4	공정시간	98 %		[VIEW GRAPH]
+
+
+
+
+	[TOTAL VIEW GRAPH]
+
+					PM1	[VIEW GRAPH]
+					PM2	[VIEW GRAPH]
+
+			or MIXING 일때
+
+					ALL	[VIEW GRAPH]
+
+
+
+
+
+

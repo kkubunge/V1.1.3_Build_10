@@ -1,0 +1,1979 @@
+#
+#
+#
+# Possible Recovery Action String
+#	- CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+###################### not used ##############################
+4000	HTRTempTimeOut	{
+	"Heater Temp Wait Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+#--------------------------- Deviation Alarm -----------------------------
+4001	HTR01TempTolOut	{
+	"Heater01 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4002	HTR02TempTolOut	{
+	"Heater02 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4003	HTR03TempTolOut	{
+	"Heater03 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4004	HTR04TempTolOut	{
+	"Heater04 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4005	HTR05TempTolOut	{
+	"Heater05 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4006	HTR06TempTolOut	{
+	"Heater06 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4007	HTR07TempTolOut	{
+	"Heater07 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4008	HTR08TempTolOut	{
+	"Heater08 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4009	HTR09TempTolOut	{
+	"Heater09 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4010	HTR10TempTolOut	{
+	"Heater10 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4011	HTR11TempTolOut	{
+	"Heater11 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4012	HTR12TempTolOut	{
+	"Heater12 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4013	HTR13TempTolOut	{
+	"Heater13 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4014	HTR14TempTolOut	{
+	"Heater14 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4015	HTR15TempTolOut	{
+	"Heater15 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4016	HTR16TempTolOut	{
+	"Heater16 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4017	HTR17TempTolOut	{
+	"Heater17 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4018	HTR18TempTolOut	{
+	"Heater18 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4019	HTR19TempTolOut	{
+	"Heater19 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4020	HTR20TempTolOut	{
+	"Heater20 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4021	HTR21TempTolOut	{
+	"Heater21 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4022	HTR22TempTolOut	{
+	"Heater22 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4023	HTR23TempTolOut	{
+	"Heater23 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4024	HTR24TempTolOut	{
+	"Heater24 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4025	HTR25TempTolOut	{
+	"Heater25 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4026	HTR26TempTolOut	{
+	"Heater26 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4027	HTR27TempTolOut	{
+	"Heater27 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4028	HTR28TempTolOut	{
+	"Heater28 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4029	HTR29TempTolOut	{
+	"Heater29 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4030	HTR30TempTolOut	{
+	"Heater30 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4031	HTR31TempTolOut	{
+	"Heater31 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4032	HTR32TempTolOut	{
+	"Heater32 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4033	HTR33TempTolOut	{
+	"Heater33 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4034	HTR34TempTolOut	{
+	"Heater34 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4035	HTR35TempTolOut	{
+	"Heater35 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4036	HTR36TempTolOut	{
+	"Heater36 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4037	HTR37TempTolOut	{
+	"Heater37 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4038	HTR38TempTolOut	{
+	"Heater38 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4039	HTR39TempTolOut	{
+	"Heater39 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4040	HTR40TempTolOut	{
+	"Heater40 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4041	HTR41TempTolOut	{
+	"Heater41 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4042	HTR42TempTolOut	{
+	"Heater42 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4043	HTR43TempTolOut	{
+	"Heater43 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4044	HTR44TempTolOut	{
+	"Heater44 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4045	HTR45TempTolOut	{
+	"Heater45 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4046	HTR46TempTolOut	{
+	"Heater46 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4047	HTR47TempTolOut	{
+	"Heater47 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4048	HTR48TempTolOut	{
+	"Heater48 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4049	HTR49TempTolOut	{
+	"Heater49 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4050	HTR50TempTolOut	{
+	"Heater50 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4051	HTR51TempTolOut	{
+	"Heater51 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4052	HTR52TempTolOut	{
+	"Heater52 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4053	HTR53TempTolOut	{
+	"Heater53 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4054	HTR54TempTolOut	{
+	"Heater54 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4055	HTR55TempTolOut	{
+	"Heater55 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4056	HTR56TempTolOut	{
+	"Heater56 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4057	HTR57TempTolOut	{
+	"Heater57 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4058	HTR58TempTolOut	{
+	"Heater58 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4059	HTR59TempTolOut	{
+	"Heater59 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4060	HTR60TempTolOut	{
+	"Heater60 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4061	HTR61TempTolOut	{
+	"Heater61 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4062	HTR62TempTolOut	{
+	"Heater62 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4063	HTR63TempTolOut	{
+	"Heater63 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4064	HTR64TempTolOut	{
+	"Heater64 Temp Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+
+#--------------------------- High Limit Alarm -----------------------------
+4101	HTR01TempHighLimit	{
+	"Heater01 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4102	HTR02TempHighLimit	{
+	"Heater02 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4103	HTR03TempHighLimit	{
+	"Heater03 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4104	HTR04TempHighLimit	{
+	"Heater04 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4105	HTR05TempHighLimit	{
+	"Heater05 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4106	HTR06TempHighLimit	{
+	"Heater06 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4107	HTR07TempHighLimit	{
+	"Heater07 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4108	HTR08TempHighLimit	{
+	"Heater08 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4109	HTR09TempHighLimit	{
+	"Heater09 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4110	HTR10TempHighLimit	{
+	"Heater10 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4111	HTR11TempHighLimit	{
+	"Heater11 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4112	HTR12TempHighLimit	{
+	"Heater12 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4113	HTR13TempHighLimit	{
+	"Heater13 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4114	HTR14TempHighLimit	{
+	"Heater14 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4115	HTR15TempHighLimit	{
+	"Heater15 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4116	HTR16TempHighLimit	{
+	"Heater16 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4117	HTR17TempHighLimit	{
+	"Heater17 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4118	HTR18TempHighLimit	{
+	"Heater18 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4119	HTR19TempHighLimit	{
+	"Heater19 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4120	HTR20TempHighLimit	{
+	"Heater20 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4121	HTR21TempHighLimit	{
+	"Heater21 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4122	HTR22TempHighLimit	{
+	"Heater22 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4123	HTR23TempHighLimit	{
+	"Heater23 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4124	HTR24TempHighLimit	{
+	"Heater24 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4125	HTR25TempHighLimit	{
+	"Heater25 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4126	HTR26TempHighLimit	{
+	"Heater26 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4127	HTR27TempHighLimit	{
+	"Heater27 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4128	HTR28TempHighLimit	{
+	"Heater28 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4129	HTR29TempHighLimit	{
+	"Heater29 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4130	HTR30TempHighLimit	{
+	"Heater30 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4131	HTR31TempHighLimit	{
+	"Heater31 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4132	HTR32TempHighLimit	{
+	"Heater32 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4133	HTR33TempHighLimit	{
+	"Heater33 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4134	HTR34TempHighLimit	{
+	"Heater34 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4135	HTR35TempHighLimit	{
+	"Heater35 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4136	HTR36TempHighLimit	{
+	"Heater36 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4137	HTR37TempHighLimit	{
+	"Heater37 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4138	HTR38TempHighLimit	{
+	"Heater38 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4139	HTR39TempHighLimit	{
+	"Heater39 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4140	HTR40TempHighLimit	{
+	"Heater40 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4141	HTR41TempHighLimit	{
+	"Heater41 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4142	HTR42TempHighLimit	{
+	"Heater42 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4143	HTR43TempHighLimit	{
+	"Heater43 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4144	HTR44TempHighLimit	{
+	"Heater44 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4145	HTR45TempHighLimit	{
+	"Heater45 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4146	HTR46TempHighLimit	{
+	"Heater46 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4147	HTR47TempHighLimit	{
+	"Heater47 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4148	HTR48TempHighLimit	{
+	"Heater48 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4149	HTR49TempHighLimit	{
+	"Heater49 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4150	HTR50TempHighLimit	{
+	"Heater50 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4151	HTR51TempHighLimit	{
+	"Heater51 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4152	HTR52TempHighLimit	{
+	"Heater52 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4153	HTR53TempHighLimit	{
+	"Heater53 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4154	HTR54TempHighLimit	{
+	"Heater54 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4155	HTR55TempHighLimit	{
+	"Heater55 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4156	HTR56TempHighLimit	{
+	"Heater56 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4157	HTR57TempHighLimit	{
+	"Heater57 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4158	HTR58TempHighLimit	{
+	"Heater58 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4159	HTR59TempHighLimit	{
+	"Heater59 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4160	HTR60TempHighLimit	{
+	"Heater60 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4161	HTR61TempHighLimit	{
+	"Heater61 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4162	HTR62TempHighLimit	{
+	"Heater62 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4163	HTR63TempHighLimit	{
+	"Heater63 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4164	HTR64TempHighLimit	{
+	"Heater64 Temp is High Limit"
+	CLEAR	"Clear Operation"
+	}
+
+#--------------------------- Low Limit Alarm -----------------------------
+4201	HTR01TempLowLimit	{
+	"Heater01 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4202	HTR02TempLowLimit	{
+	"Heater02 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4203	HTR03TempLowLimit	{
+	"Heater03 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4204	HTR04TempLowLimit	{
+	"Heater04 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4205	HTR05TempLowLimit	{
+	"Heater05 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4206	HTR06TempLowLimit	{
+	"Heater06 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4207	HTR07TempLowLimit	{
+	"Heater07 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4208	HTR08TempLowLimit	{
+	"Heater08 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4209	HTR09TempLowLimit	{
+	"Heater09 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4210	HTR10TempLowLimit	{
+	"Heater10 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4211	HTR11TempLowLimit	{
+	"Heater11 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4212	HTR12TempLowLimit	{
+	"Heater12 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4213	HTR13TempLowLimit	{
+	"Heater13 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4214	HTR14TempLowLimit	{
+	"Heater14 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4215	HTR15TempLowLimit	{
+	"Heater15 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4216	HTR16TempLowLimit	{
+	"Heater16 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4217	HTR17TempLowLimit	{
+	"Heater17 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4218	HTR18TempLowLimit	{
+	"Heater18 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4219	HTR19TempLowLimit	{
+	"Heater19 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4220	HTR20TempLowLimit	{
+	"Heater20 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4221	HTR21TempLowLimit	{
+	"Heater21 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4222	HTR22TempLowLimit	{
+	"Heater22 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4223	HTR23TempLowLimit	{
+	"Heater23 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4224	HTR24TempLowLimit	{
+	"Heater24 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4225	HTR25TempLowLimit	{
+	"Heater25 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4226	HTR26TempLowLimit	{
+	"Heater26 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4227	HTR27TempLowLimit	{
+	"Heater27 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4228	HTR28TempLowLimit	{
+	"Heater28 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4229	HTR29TempLowLimit	{
+	"Heater29 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4230	HTR30TempLowLimit	{
+	"Heater30 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4231	HTR31TempLowLimit	{
+	"Heater31 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4232	HTR32TempLowLimit	{
+	"Heater32 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4233	HTR33TempLowLimit	{
+	"Heater33 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4234	HTR34TempLowLimit	{
+	"Heater34 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4235	HTR35TempLowLimit	{
+	"Heater35 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4236	HTR36TempLowLimit	{
+	"Heater36 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4237	HTR37TempLowLimit	{
+	"Heater37 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4238	HTR38TempLowLimit	{
+	"Heater38 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4239	HTR39empLowLimit	{
+	"Heater39 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4240	HTR40TempLowLimit	{
+	"Heater40 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4241	HTR41TempLowLimit	{
+	"Heater41 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4242	HTR42TempLowLimit	{
+	"Heater42 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4243	HTR43TempLowLimit	{
+	"Heater43 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4244	HTR44TempLowLimit	{
+	"Heater44 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4245	HTR45TempLowLimit	{
+	"Heater45 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4246	HTR46TempLowLimit	{
+	"Heater46 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4247	HTR47TempLowLimit	{
+	"Heater47 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4248	HTR48TempLowLimit	{
+	"Heater48 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4249	HTR49TempLowLimit	{
+	"Heater49 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4250	HTR50TempLowLimit	{
+	"Heater50 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4251	HTR51TempLowLimit	{
+	"Heater51 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4252	HTR52TempLowLimit	{
+	"Heater52 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4253	HTR53TempLowLimit	{
+	"Heater53 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4254	HTR54TempLowLimit	{
+	"Heater54 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4255	HTR55TempLowLimit	{
+	"Heater55 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4256	HTR56TempLowLimit	{
+	"Heater56 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4257	HTR57TempLowLimit	{
+	"Heater57 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4258	HTR58TempLowLimit	{
+	"Heater58 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4259	HTR59TempLowLimit	{
+	"Heater59 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4260	HTR60TempLowLimit	{
+	"Heater60 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4261	HTR61TempLowLimit	{
+	"Heater61 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4262	HTR62TempLowLimit	{
+	"Heater62 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4263	HTR63TempLowLimit	{
+	"Heater63 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+4264	HTR64TempLowLimit	{
+	"Heater64 Temp is Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+#--------------------------- Controller Alarm -----------------------------
+
+4301	HTR01ControllerError	{
+	"Heater01 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4302	HTR02ControllerError	{
+	"Heater02 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4303	HTR03ControllerError	{
+	"Heater03 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4304	HTR04ControllerError	{
+	"Heater04 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4305	HTR05ControllerError	{
+	"Heater05 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4306	HTR06ControllerError	{
+	"Heater06 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4307	HTR07ControllerError	{
+	"Heater07 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4308	HTR08ControllerError	{
+	"Heater08 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4309	HTR09ControllerError	{
+	"Heater09 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4310	HTR10ControllerError	{
+	"Heater10 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4311	HTR11ControllerError	{
+	"Heater11 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4312	HTR12ControllerError	{
+	"Heater12 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4313	HTR13ControllerError	{
+	"Heater13 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4314	HTR14ControllerError	{
+	"Heater14 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4315	HTR15ControllerError	{
+	"Heater15 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4316	HTR16ControllerError	{
+	"Heater16 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4317	HTR17ControllerError	{
+	"Heater17 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4318	HTR18ControllerError	{
+	"Heater18 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4319	HTR19ControllerError	{
+	"Heater19 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4320	HTR20ControllerError	{
+	"Heater20 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4321	HTR21ControllerError	{
+	"Heater21 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4322	HTR22ControllerError	{
+	"Heater22 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4323	HTR23ControllerError	{
+	"Heater23 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4324	HTR24ControllerError	{
+	"Heater24 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4325	HTR25ControllerError	{
+	"Heater25 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4326	HTR26ControllerError	{
+	"Heater26 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4327	HTR27ControllerError	{
+	"Heater27 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4328	HTR28ControllerError	{
+	"Heater28 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4329	HTR29ControllerError	{
+	"Heater29 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4330	HTR30ControllerError	{
+	"Heater30 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4331	HTR31ControllerError	{
+	"Heater31 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4332	HTR32ControllerError	{
+	"Heater32 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4333	HTR33ControllerError	{
+	"Heater33 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4334	HTR34ControllerError	{
+	"Heater34 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4335	HTR35ControllerError	{
+	"Heater35 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4336	HTR36ControllerError	{
+	"Heater36 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4337	HTR37ControllerError	{
+	"Heater37 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4338	HTR38ControllerError	{
+	"Heater38 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4339	HTR39ControllerError	{
+	"Heater39 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4340	HTR40ControllerError	{
+	"Heater40 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4341	HTR41ControllerError	{
+	"Heater41 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4342	HTR42ControllerError	{
+	"Heater42 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4343	HTR43ControllerError	{
+	"Heater43 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4344	HTR44ControllerError	{
+	"Heater44 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4345	HTR45ControllerError	{
+	"Heater45 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4346	HTR46ControllerError	{
+	"Heater46 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4347	HTR47ControllerError	{
+	"Heater47 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4348	HTR48ControllerError	{
+	"Heater48 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4349	HTR49ControllerError	{
+	"Heater49 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4350	HTR50ControllerError	{
+	"Heater50 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4351	HTR51ControllerError	{
+	"Heater51 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4352	HTR52ControllerError	{
+	"Heater52 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4353	HTR53ControllerError	{
+	"Heater53 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4354	HTR54ControllerError	{
+	"Heater54 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4355	HTR55ControllerError	{
+	"Heater55 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4356	HTR56ControllerError	{
+	"Heater56 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4357	HTR57ControllerError	{
+	"Heater57 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4358	HTR58ControllerError	{
+	"Heater58 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4359	HTR59ControllerError	{
+	"Heater59 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4360	HTR60ControllerError	{
+	"Heater60 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4361	HTR61ControllerError	{
+	"Heater61 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4362	HTR62ControllerError	{
+	"Heater62 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4363	HTR63ControllerError	{
+	"Heater63 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+4364	HTR64ControllerError	{
+	"Heater64 Controller Error"
+	CLEAR	"Clear Operation"
+	}
+
+
+#-------------------- Turned off -----------------------------
+
+
+4401	HTR01TurnedOff	{
+	"Heater01 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4402	HTR02TurnedOff	{
+	"Heater02 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4403	HTR03TurnedOff	{
+	"Heater03 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4404	HTR04TurnedOff	{
+	"Heater04 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4405	HTR05TurnedOff	{
+	"Heater05 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4406	HTR06TurnedOff	{
+	"Heater06 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4407	HTR07TurnedOff	{
+	"Heater07 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4408	HTR08TurnedOff	{
+	"Heater08 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4409	HTR09TurnedOff	{
+	"Heater09 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4410	HTR10TurnedOff	{
+	"Heater10 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4411	HTR11TurnedOff	{
+	"Heater11 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4412	HTR12TurnedOff	{
+	"Heater12 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4413	HTR13TurnedOff	{
+	"Heater13 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4414	HTR14TurnedOff	{
+	"Heater14 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4415	HTR15TurnedOff	{
+	"Heater15 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4416	HTR16TurnedOff	{
+	"Heater16 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4417	HTR17TurnedOff	{
+	"Heater17 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4418	HTR18TurnedOff	{
+	"Heater18 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4419	HTR19TurnedOff	{
+	"Heater19 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4420	HTR20TurnedOff	{
+	"Heater20 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4421	HTR21TurnedOff	{
+	"Heater21 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4422	HTR22TurnedOff	{
+	"Heater22 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4423	HTR23TurnedOff	{
+	"Heater23 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4424	HTR24TurnedOff	{
+	"Heater24 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4425	HTR25TurnedOff	{
+	"Heater25 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4426	HTR26TurnedOff	{
+	"Heater26 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4427	HTR27TurnedOff	{
+	"Heater27 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4428	HTR28TurnedOff	{
+	"Heater28 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4429	HTR29TurnedOff	{
+	"Heater29 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4430	HTR30TurnedOff	{
+	"Heater30 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4431	HTR31TurnedOff	{
+	"Heater31 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4432	HTR32TurnedOff	{
+	"Heater32 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4433	HTR33TurnedOff	{
+	"Heater33 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4434	HTR34TurnedOff	{
+	"Heater34 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4435	HTR35TurnedOff	{
+	"Heater35 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4436	HTR36TurnedOff	{
+	"Heater36 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4437	HTR37TurnedOff	{
+	"Heater37 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4438	HTR38TurnedOff	{
+	"Heater38 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4439	HTR39TurnedOff	{
+	"Heater39 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4440	HTR40TurnedOff	{
+	"Heater40 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+
+4441	HTR41TurnedOff	{
+	"Heater41 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+
+4442	HTR42TurnedOff	{
+	"Heater42 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+
+4443	HTR43TurnedOff	{
+	"Heater43 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+
+4444	HTR44TurnedOff	{
+	"Heater44 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+
+4445	HTR45TurnedOff	{
+	"Heater45 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+
+4446	HTR46TurnedOff	{
+	"Heater46 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+
+4447	HTR47TurnedOff	{
+	"Heater47 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4448	HTR48TurnedOff	{
+	"Heater48 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4449	HTR49TurnedOff	{
+	"Heater49 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4450	HTR50TurnedOff	{
+	"Heater50 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4451	HTR51TurnedOff	{
+	"Heater51 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4452	HTR52TurnedOff	{
+	"Heater52 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4453	HTR53TurnedOff	{
+	"Heater53 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4454	HTR54TurnedOff	{
+	"Heater54 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4455	HTR55TurnedOff	{
+	"Heater55 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4456	HTR56TurnedOff	{
+	"Heater56 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4457	HTR57TurnedOff	{
+	"Heater57 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4458	HTR58TurnedOff	{
+	"Heater58 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4459	HTR59TurnedOff	{
+	"Heater59 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4460	HTR60TurnedOff	{
+	"Heater60 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4461	HTR61TurnedOff	{
+	"Heater61 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4462	HTR62TurnedOff	{
+	"Heater62 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4463	HTR63TurnedOff	{
+	"Heater63 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+4464	HTR64TurnedOff	{
+	"Heater64 Turned Off"
+	CLEAR	"Clear Operation"
+	}
+
+##... 2019.10.24 Heater Auto Set Alarm
+4500	HTRAutoSetMaint	{
+	"Chamber Not Maint(Chamber Condition Control)"
+	CLEAR	"Clear Operation"
+	}
+4501	HTRAutoSetVacuum	{
+	"Chamber is not Vacuum. Please prepare vacuum status"
+	CLEAR	"Clear Operation"
+	}
+4502	HTRAutoSetPramReadFailed	{
+	"Parameter Data Read Failed"
+	CLEAR	"Clear Operation"
+	}
+4503	HTRAutoSetPramSetFailed	{
+	"Parameter Data Set Failed"
+	CLEAR	"Clear Operation"
+	}
+
+##... 2018.06.17 Htr Auto Off Alarm
+4800	HTRAutoOffAlarm	{
+	"Heater Temp is Low but Power is High"
+	CLEAR	"Clear Operation"
+	}
+
+##... 2020.01.14 Heater Power Ckeck Alarm
+4801	HTR01PowerTolWarning	{
+	"[Warning] Heater01 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4802	HTR02PowerTolWarning	{
+	"[Warning] Heater02 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4803	HTR03PowerTolWarning	{
+	"[Warning] Heater03 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4804	HTR04PowerTolWarning	{
+	"[Warning] Heater04 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4805	HTR05PowerTolWarning	{
+	"[Warning] Heater05 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4806	HTR06PowerTolWarning	{
+	"[Warning] Heater06 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4807	HTR07PowerTolWarning	{
+	"[Warning] Heater07 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4808	HTR08PowerTolWarning	{
+	"[Warning] Heater08 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4809	HTR09PowerTolWarning	{
+	"[Warning] Heater09 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4810	HTR10PowerTolWarning	{
+	"[Warning] Heater10 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4811	HTR11PowerTolWarning	{
+	"[Warning] Heater11 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4812	HTR12PowerTolWarning	{
+	"[Warning] Heater12 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4813	HTR13PowerTolWarning	{
+	"[Warning] Heater13 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4814	HTR14PowerTolWarning	{
+	"[Warning] Heater14 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4815	HTR15PowerTolWarning	{
+	"[Warning] Heater15 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4816	HTR16PowerTolWarning	{
+	"[Warning] Heater16 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4817	HTR17PowerTolWarning	{
+	"[Warning] Heater17 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4818	HTR18PowerTolWarning	{
+	"[Warning] Heater18 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4819	HTR19PowerTolWarning	{
+	"[Warning] Heater19 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4820	HTR20PowerTolWarning	{
+	"[Warning] Heater20 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4821	HTR21PowerTolWarning	{
+	"[Warning] Heater21 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4822	HTR22PowerTolWarning	{
+	"[Warning] Heater22 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4823	HTR23PowerTolWarning	{
+	"[Warning] Heater23 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4824	HTR24PowerTolWarning	{
+	"[Warning] Heater24 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4825	HTR25PowerTolWarning	{
+	"[Warning] Heater25 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4826	HTR26PowerTolWarning	{
+	"[Warning] Heater26 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4827	HTR27PowerTolWarning	{
+	"[Warning] Heater27 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4828	HTR28PowerTolWarning	{
+	"[Warning] Heater28 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4829	HTR29PowerTolWarning	{
+	"[Warning] Heater29 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4830	HTR30PowerTolWarning	{
+	"[Warning] Heater30 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4831	HTR31PowerTolWarning	{
+	"[Warning] Heater31 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+4832	HTR32PowerTolWarning	{
+	"[Warning] Heater32 Power Out Of Deviation "
+	CLEAR	"Clear Operation"
+	}
+
+
+4841	HTR01PowerTolAbort	{
+	"[Abort] Heater01 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4842	HTR02PowerTolAbort	{
+	"[Abort] Heater02 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4843	HTR03PowerTolAbort	{
+	"[Abort] Heater03 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4844	HTR04PowerTolAbort	{
+	"[Abort] Heater04 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4845	HTR05PowerTolAbort	{
+	"[Abort] Heater05 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4846	HTR06PowerTolAbort	{
+	"[Abort] Heater06 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4847	HTR07PowerTolAbort	{
+	"[Abort] Heater07 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4848	HTR08PowerTolAbort	{
+	"[Abort] Heater08 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4849	HTR09PowerTolAbort	{
+	"[Abort] Heater09 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4850	HTR10PowerTolAbort	{
+	"[Abort] Heater10 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4851	HTR11PowerTolAbort	{
+	"[Abort] Heater11 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4852	HTR12PowerTolAbort	{
+	"[Abort] Heater12 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4853	HTR13PowerTolAbort	{
+	"[Abort] Heater13 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4854	HTR14PowerTolAbort	{
+	"[Abort] Heater14 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4855	HTR15PowerTolAbort	{
+	"[Abort] Heater15 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4856	HTR16PowerTolAbort	{
+	"[Abort] Heater16 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4857	HTR17PowerTolAbort	{
+	"[Abort] Heater17 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4858	HTR18PowerTolAbort	{
+	"[Abort] Heater18 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4859	HTR19PowerTolAbort	{
+	"[Abort] Heater19 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4860	HTR20PowerTolAbort	{
+	"[Abort] Heater20 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4861	HTR21PowerTolAbort	{
+	"[Abort] Heater21 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4862	HTR22PowerTolAbort	{
+	"[Abort] Heater22 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4863	HTR23PowerTolAbort	{
+	"[Abort] Heater23 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4864	HTR24PowerTolAbort	{
+	"[Abort] Heater24 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4865	HTR25PowerTolAbort	{
+	"[Abort] Heater25 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4866	HTR26PowerTolAbort	{
+	"[Abort] Heater26 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4867	HTR27PowerTolAbort	{
+	"[Abort] Heater27 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4868	HTR28PowerTolAbort	{
+	"[Abort] Heater28 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4869	HTR29PowerTolAbort	{
+	"[Abort] Heater29 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4870	HTR30PowerTolAbort	{
+	"[Abort] Heater30 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4871	HTR31PowerTolAbort	{
+	"[Abort] Heater31 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}
+
+4872	HTR32PowerTolAbort	{
+	"[Abort] Heater32 Power Out Of Deviation"
+	CLEAR	"Clear Operation"
+	}

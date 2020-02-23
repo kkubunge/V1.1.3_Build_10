@@ -1,0 +1,8 @@
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BACKGROUND          BITMAP       BACKGROUND.bmp
+IDB_BACKGROUND_POPUP_01    BITMAP       BACKGROUND_Popup_Abort.bmp

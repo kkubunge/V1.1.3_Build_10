@@ -1,0 +1,87 @@
+2019/1/17 13:11:55	USERCONTROL	[SYSTEM_START]
+2019/1/17 13:12:22	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2019/1/17 13:12:24	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2019/1/17 13:12:25	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2019/1/17 13:12:25	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2019/1/17 13:12:26	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2019/1/17 13:12:26	BUTTON	[BOTTOM CLICK] Bottom_Config
+2019/1/17 13:12:28	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 6(PM Param 1)
+2019/1/17 13:12:28	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2019/1/17 13:12:34	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 11(PM Param 6)
+2019/1/17 13:12:34	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7
+2019/1/17 13:12:38	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 12(PM Param 7)
+2019/1/17 13:12:38	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2019/1/17 13:12:48	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 11(PM Param 6)
+2019/1/17 13:12:48	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2019/1/17 13:14:2	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 10(PM Param 5)
+2019/1/17 13:14:2	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2019/1/17 13:14:29	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 9(PM Param 4)
+2019/1/17 13:14:29	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2019/1/17 13:14:57	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 10(PM Param 5)
+2019/1/17 13:14:57	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2019/1/17 13:55:3	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 11(PM Param 6)
+2019/1/17 13:55:3	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2019/1/17 14:37:17	USERCONTROL	[SYSTEM_START]
+2019/1/17 14:37:50	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2019/1/17 14:37:52	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2019/1/17 14:37:53	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2019/1/17 14:37:53	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2019/1/17 14:37:53	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2019/1/17 14:37:53	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2019/1/17 14:37:54	BUTTON	[BOTTOM CLICK] Bottom_Config
+2019/1/17 14:37:54	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2019/1/17 14:37:55	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 6(PM Param 1)
+2019/1/17 14:37:55	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2019/1/17 14:37:56	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 10(PM Param 5)
+2019/1/17 14:37:56	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2019/1/17 14:37:56	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 11(PM Param 6)
+2019/1/17 14:37:56	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2019/1/17 16:34:1	USERCONTROL	[SYSTEM_START]
+2019/1/17 16:36:2	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2019/1/17 16:36:6	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2019/1/17 16:36:6	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2019/1/17 16:36:6	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2019/1/17 16:36:7	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2019/1/17 16:36:7	BUTTON	[BOTTOM CLICK] Bottom_Config
+2019/1/17 16:36:9	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2019/1/17 16:36:9	BUTTON	[BOTTOM CLICK] Bottom_System
+2019/1/17 16:37:28	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2019/1/17 16:37:28	BUTTON	[RIGHT CLICK] Right_System_Control
+2019/1/17 16:37:42	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2019/1/17 16:37:42	BUTTON	[RIGHT CLICK] Right_System_Main
+2019/1/17 16:39:16	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2019/1/17 16:39:16	BUTTON	[RIGHT CLICK] Right_System_Control
+2019/1/17 16:39:17	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2019/1/17 16:39:17	BUTTON	[RIGHT CLICK] Right_System_Main
+2019/1/17 16:41:39	SETTING	[DIO] AirCoolingVlv with [Close(0)] at Page = 0(Main)
+2019/1/17 16:41:41	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2019/1/17 16:41:41	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2019/1/17 16:41:44	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2019/1/17 16:41:46	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2019/1/17 16:41:46	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2019/1/17 16:45:10	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2019/1/17 16:45:10	BUTTON	[RIGHT CLICK] Right_System_Control
+2019/1/17 16:45:11	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2019/1/17 16:45:11	BUTTON	[RIGHT CLICK] Right_System_Main
+2019/1/17 16:45:28	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2019/1/17 16:45:28	BUTTON	[BOTTOM CLICK] Bottom_Config
+2019/1/17 16:45:30	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 6(PM Param 1)
+2019/1/17 16:45:30	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2019/1/17 16:45:31	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 11(PM Param 6)
+2019/1/17 16:45:31	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2019/1/17 16:47:11	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2019/1/17 16:47:11	BUTTON	[BOTTOM CLICK] Bottom_Service
+2019/1/17 16:47:12	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2019/1/17 16:47:12	BUTTON	[BOTTOM CLICK] Bottom_Config
+2019/1/17 16:48:42	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2019/1/17 16:48:42	BUTTON	[BOTTOM CLICK] Bottom_Service
+2019/1/17 16:48:42	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2019/1/17 16:48:42	BUTTON	[BOTTOM CLICK] Bottom_Config
+2019/1/17 16:49:41	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2019/1/17 16:49:41	BUTTON	[BOTTOM CLICK] Bottom_Service
+2019/1/17 16:49:41	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2019/1/17 16:49:41	BUTTON	[BOTTOM CLICK] Bottom_Config
+2019/1/17 16:50:40	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2019/1/17 16:50:40	BUTTON	[BOTTOM CLICK] Bottom_Service
+2019/1/17 16:50:41	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2019/1/17 16:50:41	BUTTON	[BOTTOM CLICK] Bottom_Config

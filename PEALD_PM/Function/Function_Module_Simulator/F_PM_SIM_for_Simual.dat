@@ -1,0 +1,11 @@
+# Simulator Function
+
+#----------------------------------------------------------------------------------------------------------------------------------------
+PM_SIMULATOR		3	FUNCTION/FUNCTION_MODULE_SIMULATOR/OBJ_PMSimulator/Sequence	ARGUMENT	"PLCSimType2|StgHtrType1"
+#----------------------------------------------------------------------------------------------------------------------------------------
+# Description
+#    - PLCSimType1 : PLC for 48 Channel Valve Recipe
+#    - PLCSimType2 : PLC for 112 Channel Valve Recipe
+#    - StgHtrType1 : Omron E5ER Stage Heater Simualtion
+#    - StgHtrType2 : Watlow988 E5ER Stage Heater Simualtion
+#----------------------------------------------------------------------------------------------------------------------------------------

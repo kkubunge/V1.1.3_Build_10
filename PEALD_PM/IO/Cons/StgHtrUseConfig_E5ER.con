@@ -1,0 +1,33 @@
+#-----------------------------------------------------------------------------------------
+# For Stage Heater Control
+
+$$$ Digital													
+SHT1_UseDM	HT_UseEnum	Use
+SHT2_UseDM	HT_UseEnum	Use
+
+
+#$$$ Enum
+#HT_MonOptEnum	Ignore	Warning	ChmDis	Abort
+$$$ Digital													
+SHT1_MonOptDM	HT_MonOptEnum	ChmDis
+SHT2_MonOptDM	HT_MonOptEnum	ChmDis
+
+
+
+$$$ Enum
+HtrStbStsEnum	Stable	Unstable	Moving
+$$$ Digital													
+SHT1_StbStsDM	HtrStbStsEnum	Stable
+SHT2_StbStsDM	HtrStbStsEnum	Stable
+
+SHT_PARM_Save	OffOnEnum	Off
+
+$$$ Analog
+STH1_CurHiLimitAM		A	- - - - 2 0 22  1 - - - - 0 0 22  - - - - 22.0
+STH1_CurLwLimitAM		A	- - - - 2 0 22  1 - - - - 0 0 22  - - - - 0.0
+STH1_VtgHiLimitAM		V	- - - - 2 0 220 1 - - - - 0 0 220 - - - - 220.0
+STH1_VtgLwLimitAM		V	- - - - 2 0 220 1 - - - - 0 0 220 - - - - 0.0
+STH2_CurHiLimitAM		A	- - - - 2 0 22  1 - - - - 0 0 22  - - - - 22.0
+STH2_CurLwLimitAM		A	- - - - 2 0 22  1 - - - - 0 0 22  - - - - 0.0
+STH2_VtgHiLimitAM		V	- - - - 2 0 220 1 - - - - 0 0 220 - - - - 220.0
+STH2_VtgLwLimitAM		V	- - - - 2 0 220 1 - - - - 0 0 220 - - - - 0.0

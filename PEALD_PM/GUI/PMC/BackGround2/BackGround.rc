@@ -1,0 +1,76 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+//LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BACKGROUND_00	BITMAP		IMAGE/BACKGROUND_PMWater.bmp
+IDB_BACKGROUND_01	BITMAP		IMAGE/BACKGROUND_PMLeakCheck.bmp
+IDB_BACKGROUND_02	BITMAP		IMAGE/BACKGROUND_PMLeakCheck_1.bmp
+IDB_BACKGROUND_03	BITMAP		IMAGE/BACKGROUND_PMLeakCheck_2.bmp
+IDB_BACKGROUND_04	BITMAP		IMAGE/BACKGROUND_PMLeakCheck_3.bmp
+IDB_BACKGROUND_05	BITMAP		IMAGE/BACKGROUND_Verify_MFC.bmp
+IDB_BACKGROUND_06	BITMAP		IMAGE/BACKGROUND_PMParameter1.bmp
+IDB_BACKGROUND_07	BITMAP		IMAGE/BACKGROUND_PMParameter2.bmp
+IDB_BACKGROUND_08	BITMAP		IMAGE/BACKGROUND_PMParameter3.bmp
+IDB_BACKGROUND_09	BITMAP		IMAGE/BACKGROUND_PMParameter4.bmp
+IDB_BACKGROUND_10	BITMAP		IMAGE/BACKGROUND_PMParameter5.bmp
+IDB_BACKGROUND_11	BITMAP		IMAGE/BACKGROUND_PMParameter6.bmp
+IDB_BACKGROUND_12	BITMAP		IMAGE/BACKGROUND_PMParameter7.bmp
+IDB_BACKGROUND_13	BITMAP		IMAGE/BACKGROUND_Verify_Flow.bmp
+IDB_BACKGROUND_14	BITMAP		IMAGE/BACKGROUND_Verify_Chuck.bmp
+IDB_BACKGROUND_15	BITMAP		IMAGE/BACKGROUND_Verify_ALDVlv.bmp
+
+IDB_BACKGROUND_POPUP_01	BITMAP  MOVEABLE PURE	"IMAGE/BACKGROUND_PopUp_Leakcheck.bmp"
+IDB_BACKGROUND_POPUP_21	BITMAP  MOVEABLE PURE	"IMAGE/Popup_MFC_Cal_LogView.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

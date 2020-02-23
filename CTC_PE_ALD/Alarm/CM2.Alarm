@@ -1,0 +1,1017 @@
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+#	CM2.	 ALARM ......400 ~ 699
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+401 CM2.NOTCARRIER {
+	"CM2 'S NOTCARRIER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+402 CM2.CARRIER {
+	"CM2 'S CARRIER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+403 CM2.EXTEND {
+	"CM2 'S EXTEND ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+404 CM2.RETRACT{
+	"CM2 'S  RETRACT ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+405 CM2.CLOSE{
+	"CM2 'S CLOSE ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+406 CM2.OPEN{
+	"CM2 'S OPEN ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+407 CM2.DOORDOWN{
+	"CM2 'S  DOORDOWN ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+408 CM2.DOORUP{
+	"CM2 'S  DOORUP ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+409 CM2.DOCKING{
+	"CM2 'S  DOCKING ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+410 CM2.UNDOCKING{
+	"CM2 'S  UNDOCKING ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+411 CM2.CLAMP{
+	"CM2 'S CLAMP ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+412 CM2.UNCLAMP{
+	"CM2 'S  UNCLAMP ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+413 CM2.SLIDE{
+	"CM2 'S  SLIDE ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+414 CM2.TMO{
+	"CM2 'S  Initialize Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+415 CM2.DoorSnsChk{
+	"CM2 'S  Door sensor check"
+	CLEAR		"Clear Operation"
+}
+
+416 CM2.PaddleSnsChk{
+	"CM2 'S  Paddle sensor check"
+	CLEAR		"Clear Operation"
+}
+
+417 CM2.CassChk{
+	"CM2 'S  Cassette check"
+	CLEAR		"Clear Operation"
+}
+
+418 CM2.VACUUM{
+	"CM2 'S  VACUUM ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+419 CM2.LATCH{
+	"CM2 'S  LATCH ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#--------------------------------------------------------------------
+# Fixload 6M 
+#--------------------------------------------------------------------
+420 CM2.6MCommErr{
+	"CM2 'S Communitcation check"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"	
+}
+
+421 CM2.6MMapErr{
+	"CM2 'S Mapping Error"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"	
+}
+
+422 CM2.NoCompAir{
+	"No Compressed air(0xc018)! Check & Init again!"
+	CLEAR		"Clear Operation"
+}
+
+423 CM2.NoVacuum{
+	"No Vacuum(0xc019)! Check & Init again!"
+	CLEAR		"Clear Operation"
+}
+
+424 CM2.24VMissing{
+	"Voltage 24 missing(0xc01f)! Check & Init again!"
+	CLEAR		"Clear Operation"
+}
+
+425 CM2.WaferProtTrig{
+	"Wafer Protrusion Sensor Triggered(0xc01b)! Check again!"
+	CLEAR		"Clear Operation"
+}
+
+426 CM2.InitNotReady{
+	"Initialization Not Ready(0xc01d)! Check again!"
+	CLEAR		"Clear Operation"
+}
+
+427 CM2.WaferProtDef{
+	"Wafer Protrusion Sensor Defective(0xc01e)! Check again!"
+	CLEAR		"Clear Operation"
+}
+
+428 CM2.VacSensorNotAct{
+	"Vacuum Sensor Not Active(0xc022)! Check & Init again!"
+	CLEAR		"Clear Operation"
+}
+
+430 CM2.6MErr{
+	"CM2 'S Mapping Error"
+	CLEAR		"Clear Operation"
+}
+
+#--------------------------------------------------------------------
+# N2 Purge Alarm
+#--------------------------------------------------------------------
+
+431 CM2.N2FrontAbortTolOver{
+	"CM2 N2 Front Abort Tolerance is Over"
+	CLEAR		"Clear Operation"
+}
+
+432 CM2.N2RearAbortTolOver{
+	"CM2 N2 Rear Abort Tolerance is Over"
+	CLEAR		"Clear Operation"
+}
+
+433 CM2.N2FrontWarnTolOver{
+	"CM2 N2 Front Warning Tolerance is Over"
+	CLEAR		"Clear Operation"
+}
+
+434 CM2.N2RearWarnTolOver{
+	"CM2 N2 Rear Warninig Tolerance is Over"
+	CLEAR		"Clear Operation"
+}
+
+435 CM2.N2MainPrsLow{
+	"CM2 N2 Main Pressure is Low"
+	CLEAR		"Clear Operation"
+}
+
+436 CM2.N2MainPrsHigh{
+	"CM2 N2 Main Pressure is High"
+	CLEAR		"Clear Operation"
+}
+
+437 CM2.N2PurgeAbnorStop{
+	"CM2 N2 Purge Abnormal Stop"
+	CLEAR		"Clear Operation"
+}
+
+440 CM2.N2BlowControlFail{
+	"CM2 N2 Blow Control Fail!(Need to Remove FOUP on LoadPort)"
+	CLEAR		"Clear Operation"
+}
+
+441 CM2.N2PurgeControlFail{
+	"CM2 N2 Purge Control Fail!(Need to Place FOUP on LoadPort)"
+	CLEAR		"Clear Operation"
+}
+
+442 CM2.N2PurgeFlowRateFail {
+	"CM2 N2 Purge Flow Rate Alarm Is Posting So Check N2 Control"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+#--------------------------------------------------------------------
+# Bar Code
+#--------------------------------------------------------------------
+
+451 CM2.CODE.READ_ERROR{
+	"CM2 'S READ ERROR "
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#--------------------------------------------------------------------
+# Append 2002.02.01 from KORNIC for AGV(460-490) Load/Unload(491-499)
+#--------------------------------------------------------------------
+459 CM2.CommFail {
+	"CM2 Communication Fail!!!"
+	CLEAR		"Clear Operation"
+}
+
+460 CM2.CommError {
+	"CM2 DeviceNet/AMHS Communication Fail!!!"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+461 CM2.AMHSValidTmo {
+	"CM2 AMHS Valid(TP6) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+462 CM2.AMHSTRReqTmo {
+	"CM2 AMHS TRREQ(TP1) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+463 CM2.AMHSBusyTmo {
+	"CM2 AMHS Busy(TP2) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+464 CM2.AMHSRecvTmo {
+	"CM2 AMHS Foup Receive(TP3) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+465 CM2.AMHSRemoveTmo {
+	"CM2 AMHS Foup Remove(TP3) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+466 CM2.AMHSComptTmo {
+	"CM2 AMHS Complete(TP4) On Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+467 CM2.AMHSCompOffTmo {
+	"CM2 AMHS Complete Off Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+468 CM2.AMHSCSOffTmo {
+	"CM2 EFEM AMHS CS Off Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+469 CM2.AMHSContTmo {
+	"CM2 AMHS Continue(TP6) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+470 CM2.AMHSValidOff {
+	"CM2 AMHS Valid Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+471 CM2.UnldFoupAbsent {
+	"CM2 Before AMHS Unloading, Foup is Absent"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+472 CM2.LoadFoupPresent {
+	"CM2 Before AMHS Loading, Foup is Present"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+473 CM2.AbnFoupChange {
+	"CM2 Abnormal Foup Change"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+	DESCRIPTION	"Alarm/AlarmText/CM2/113.txt"
+}
+
+474 CM2.AMHSHOAvblOff {
+	"CM2 AMHS HandOff Available Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+475 CM2.AMHSCSOff {
+	"CM2 AMHS CS Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+476 CM2.AMHSTRReqOff {
+	"CM2 AMHS TR Req. Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+477 CM2.AMHSBusyOff {
+	"CM2 AMHS Busy Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+478 CM2.AMHSCompltOff {
+	"CM2 AMHS Complete Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+479 CM2.AMHSContOff {
+	"CM2 AMHS Continue Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+480 CM2.AMHSHasError {
+	"CM2 AMHS has a Error"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+481 CM2.AMHSCommFail {
+	"CM2 AMHS Communication Fail"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+485 CM2.AMHSLREQON {
+	"CM2 AMHS Load Request Signal ON Fail"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+486 CM2.AMHSERROR {
+	"CM2 AMHS Signal Scenario Fail"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+491 CM2.ClampTimeout {
+	"CM2 Clamp Timeout"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+492 CM2.UnclampTimeout {
+	"CM2 Unclamp Timeout"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+493 EFEM.LIGHT_CURTAIN_OFF {
+	"EFEM LIGHT_CURTAIN_OFF WHEN PIO COMMUNICATION AT CM2"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+495 CM2.UnldFoupAbsent {
+	"CM2 Before AMHS Loading, Foup is Absent"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+496 CM2.LoadFoupPresent {
+	"CM2 Before AMHS UnLoading, Foup is Present"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+497 CM2.FOUP_CHECK_SENSOR_DIFFERENT {
+	"CM2 FOUP Check Sensor Different(PlacementSensor and PresnetSensor)"
+	RETRY		"Retry Operation"
+#	ABORT		"Abort Operation => RETRY"
+#	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+498 CM2.LoadFoupPresent {
+	"CM2 AMHS MODE IS AUTO, BUT FUOP WAS MANUAL LOADED"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+499 CM2.LoadFoupAbsent {
+	"CM2 AMHS MODE IS AUTO, BUT FUOP WAS MANUAL UNLOADED"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+# 2004.5.12
+500 CM2.RFIDCommError {
+	"CM2 RFID Communication Error"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+501 CM2.RFIDHasError {
+	"CM2 RFID has a Error"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+502 CM2.RFIDUnkRange {
+	"CM2 RFID Unknown Range(0~17)"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+503 CM2.RFIDFoupAbsent {
+	"CM2 Foup Absent When RFID Read"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+504 CM2.RFIDNotUndock {
+	"CM2 Foup is not Undock When RFID Read"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+# 2015.02.16 Add Change AMHS Mode to Manual for OHT Not Access
+570 CM2_AMHS_ChangeManual {
+	"CM2 AMHS Mode Changed to Manual for Wafer Manual Move"
+	CLEAR		"CLEAR Operation"
+}
+
+#============================= Jelee Add Start 2006.11.27 ============================
+571 CM2.Wafer_Processed_Count_Error {
+	"[CM2 Warning] Wafer Processed Count Error."
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Warning] Wafer Processed count is different to Mapped count."
+}
+572 CM2.MID_Double_Checked_Error {
+	"[CM2 Abort]Current MID is Same, it is one of Processed MID List. Pls Check MID!!!"
+	CLEAR		"Clear"
+}
+
+581 CM2.Cluster_Recipe_Different_Error_In_LotRecipe {
+	"[CM2 Abort] LotRecipe Check Error(Cluster Recipe Different or Empty In LotRecipe)"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] Cluster Recipe Different Error In LotRecipe"
+}
+582 CM2.LotRecipe_Check_Skip_Error {
+	"[CM2 Warning] LotRecipe Check Option is Skip, Please check Lot Recipe Check option."
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[CM2 Warning] LotRecipe Check Option is Skip, Please check Lot Recipe Check option."
+}
+583 CM2.RUN_START_ERROR {
+	"CM2 Run start Error - All Chamber Status are DryCleaning_Reserved or DryCleaning)"
+	RETRY		"Retry Operation"
+#	ABORT		"Abort Operation => RETRY"
+#	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+584 CM2.Recipe_TunningData_Check_Error {
+	"[CM2 Abort] ProcessRecipe Tunning Data Check Error, Please check Tunning Data of Host."
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[CM2 Abort] ProcessRecipe Tunning Data Check Error, Please check Tunning Data of Host."
+}
+591 CM2.Run_Recipe_File_Select_Error {
+	"[Reject] Run Recipe File Select Error(Empty or N/A File) - Error No 6"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Reject] Run Recipe File Select Error(Empty or N/A File) Error No 6"
+}
+592 CM2.Select_Job_is_Run_Already {
+	"[Reject] Select Job is Run Already - Error No 8"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Reject] Select Job is Run Already - Error No 8"
+}
+593 CM2.Select_Job_Parameter_Error {
+	"[Reject] Select Job Parameter Error - Error No 9"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Reject] Select Job Parameter Error - Error No 9"
+}
+594 CM2.Lot_Recipe_Data_Reading_Error {
+	"[Abort] Lot Recipe Data Reading Error(N/A File) - Error No 11"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] Lot Recipe Data Reading Error(N/A File) - Error No 11"
+}
+595 CM2.Cluster_Recipe_Data_Reading_Error {
+	"[Abort] Cluster Recipe Data Reading Error(N/A File) - Error No 12"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] Cluster Recipe Data Reading Error(N/A File) - Error No 12"
+}
+596 CM2.PM_Recipe_Not_Exist_Error {
+	"[Abort] PM Recipe Not Exist Error - Error No 18"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] PM Recipe Not Exist Error - Error No 18"
+}
+597 CM2.Run_Chamber_Is_Not_Enable {
+	"[Abort] Run Chamber is Not Enable Chamber - Error No 14"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] Run Chamber is Not Enable Chamber - Error No 14"
+}
+598 CM2.Run_Chamber_Is_Not_Manual {
+	"[Abort] Run Chamber is Not Manual Chamber - Error No 15"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] Run Chamber is Not Enable Chamber - Error No 15"
+}
+#============================= Jelee Add End 2006.11.27 ============================
+
+601 CM2.Slot1Crossed {
+	"CM2 Slot1 is crossed"
+	ABORT		"Abort Operation"
+}
+
+602 CM2.Slot2Crossed {
+	"CM2 Slot2 is crossed"
+	ABORT		"Abort Operation"
+}
+
+603 CM2.Slot3Crossed {
+	"CM2 Slot3 is crossed"
+	ABORT		"Abort Operation"
+}
+
+604 CM2.Slot4Crossed {
+	"CM2 Slot4 is crossed"
+	ABORT		"Abort Operation"
+}
+
+605 CM2.Slot5Crossed {
+	"CM2 Slot5 is crossed"
+	ABORT		"Abort Operation"
+}
+
+606 CM2.Slot6Crossed {
+	"CM2 Slot6 is crossed"
+	ABORT		"Abort Operation"
+}
+
+607 CM2.Slot7Crossed {
+	"CM2 Slot7 is crossed"
+	ABORT		"Abort Operation"
+}
+
+608 CM2.Slot8Crossed {
+	"CM2 Slot8 is crossed"
+	ABORT		"Abort Operation"
+}
+
+609 CM2.Slot9Crossed {
+	"CM2 Slot9 is crossed"
+	ABORT		"Abort Operation"
+}
+
+610 CM2.Slot10Crossed {
+	"CM2 Slot10 is crossed"
+	ABORT		"Abort Operation"
+}
+
+611 CM2.Slot11Crossed {
+	"CM2 Slot11 is crossed"
+	ABORT		"Abort Operation"
+}
+
+612 CM2.Slot12Crossed {
+	"CM2 Slot12 is crossed"
+	ABORT		"Abort Operation"
+}
+
+613 CM2.Slot13Crossed {
+	"CM2 Slot13 is crossed"
+	ABORT		"Abort Operation"
+}
+
+614 CM2.Slot14Crossed {
+	"CM2 Slot14 is crossed"
+	ABORT		"Abort Operation"
+}
+
+615 CM2.Slot15Crossed {
+	"CM2 Slot15 is crossed"
+	ABORT		"Abort Operation"
+}
+
+616 CM2.Slot16Crossed {
+	"CM2 Slot16 is crossed"
+	ABORT		"Abort Operation"
+}
+
+617 CM2.Slot17Crossed {
+	"CM2 Slot17 is crossed"
+	ABORT		"Abort Operation"
+}
+
+618 CM2.Slot18Crossed {
+	"CM2 Slot18 is crossed"
+	ABORT		"Abort Operation"
+}
+
+619 CM2.Slot19Crossed {
+	"CM2 Slot19 is crossed"
+	ABORT		"Abort Operation"
+}
+
+620 CM2.Slot20Crossed {
+	"CM2 Slot20 is crossed"
+	ABORT		"Abort Operation"
+}
+
+621 CM2.Slot21Crossed {
+	"CM2 Slot21 is crossed"
+	ABORT		"Abort Operation"
+}
+
+622 CM2.Slot22Crossed {
+	"CM2 Slot22 is crossed"
+	ABORT		"Abort Operation"
+}
+
+623 CM2.Slot23Crossed {
+	"CM2 Slot23 is crossed"
+	ABORT		"Abort Operation"
+}
+
+624 CM2.Slot24Crossed {
+	"CM2 Slot24 is crossed"
+	ABORT		"Abort Operation"
+}
+
+625 CM2.Slot25Crossed {
+	"CM2 Slot25 is crossed"
+	ABORT		"Abort Operation"
+}
+
+626 CM2.Slot26Crossed {
+	"CM2 Slot26 is crossed"
+	ABORT		"Abort Operation"
+}
+
+631 CM2.Slot1Crossed {
+	"CM2 Slot1 is doubled"
+	ABORT		"Abort Operation"
+}
+
+632 CM2.Slot2Crossed {
+	"CM2 Slot2 is doubled"
+	ABORT		"Abort Operation"
+}
+
+633 CM2.Slot3Crossed {
+	"CM2 Slot3 is doubled"
+	ABORT		"Abort Operation"
+}
+
+634 CM2.Slot4Crossed {
+	"CM2 Slot4 is doubled"
+	ABORT		"Abort Operation"
+}
+
+635 CM2.Slot5Crossed {
+	"CM2 Slot5 is doubled"
+	ABORT		"Abort Operation"
+}
+
+636 CM2.Slot6Crossed {
+	"CM2 Slot6 is doubled"
+	ABORT		"Abort Operation"
+}
+
+637 CM2.Slot7Crossed {
+	"CM2 Slot7 is doubled"
+	ABORT		"Abort Operation"
+}
+
+638 CM2.Slot8Crossed {
+	"CM2 Slot8 is doubled"
+	ABORT		"Abort Operation"
+}
+
+639 CM2.Slot9Crossed {
+	"CM2 Slot9 is doubled"
+	ABORT		"Abort Operation"
+}
+
+640 CM2.Slot10Crossed {
+	"CM2 Slot10 is doubled"
+	ABORT		"Abort Operation"
+}
+
+641 CM2.Slot11Crossed {
+	"CM2 Slot11 is doubled"
+	ABORT		"Abort Operation"
+}
+
+642 CM2.Slot12Crossed {
+	"CM2 Slot12 is doubled"
+	ABORT		"Abort Operation"
+}
+
+643 CM2.Slot13Crossed {
+	"CM2 Slot13 is doubled"
+	ABORT		"Abort Operation"
+}
+
+644 CM2.Slot14Crossed {
+	"CM2 Slot14 is doubled"
+	ABORT		"Abort Operation"
+}
+
+645 CM2.Slot15Crossed {
+	"CM2 Slot15 is doubled"
+	ABORT		"Abort Operation"
+}
+
+646 CM2.Slot16Crossed {
+	"CM2 Slot16 is doubled"
+	ABORT		"Abort Operation"
+}
+
+647 CM2.Slot17Crossed {
+	"CM2 Slot17 is doubled"
+	ABORT		"Abort Operation"
+}
+
+648 CM2.Slot18Crossed {
+	"CM2 Slot18 is doubled"
+	ABORT		"Abort Operation"
+}
+
+649 CM2.Slot19Crossed {
+	"CM2 Slot19 is doubled"
+	ABORT		"Abort Operation"
+}
+
+650 CM2.Slot20Crossed {
+	"CM2 Slot20 is doubled"
+	ABORT		"Abort Operation"
+}
+
+651 CM2.Slot21Crossed {
+	"CM2 Slot21 is doubled"
+	ABORT		"Abort Operation"
+}
+
+652 CM2.Slot22Crossed {
+	"CM2 Slot22 is doubled"
+	ABORT		"Abort Operation"
+}
+
+653 CM2.Slot23Crossed {
+	"CM2 Slot23 is doubled"
+	ABORT		"Abort Operation"
+}
+
+654 CM2.Slot24Crossed {
+	"CM2 Slot24 is doubled"
+	ABORT		"Abort Operation"
+}
+
+655 CM2.Slot25Crossed {
+	"CM2 Slot25 is doubled"
+	ABORT		"Abort Operation"
+}
+
+656 CM2.Slot26Crossed {
+	"CM2 Slot26 is doubled"
+	ABORT		"Abort Operation"
+}
+
+
+661 CM2.Slot1NotMatched {
+        "CM2 Lot and Map Slot1 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+662 CM2.Slot2NotMatched {
+        "CM2 Lot and Map Slot2 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+663 CM2.Slot3NotMatched {
+        "CM2 Lot and Map Slot3 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+664 CM2.Slot4NotMatched {
+        "CM2 Lot and Map Slot4 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+665 CM2.Slot5NotMatched {
+        "CM2 Lot and Map Slot5 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+666 CM2.Slot6NotMatched {
+        "CM2 Lot and Map Slot6 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+667 CM2.Slot7NotMatched {
+        "CM2 Lot and Map Slot7 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+668 CM2.Slot8NotMatched {
+        "CM2 Lot and Map Slot8 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+669 CM2.Slot9NotMatched {
+        "CM2 Lot and Map Slot9 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+670 CM2.Slot10NotMatched {
+        "CM2 Lot and Map Slot10 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+671 CM2.Slot11NotMatched {
+        "CM2 Lot and Map Slot11 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+672 CM2.Slot12NotMatched {
+        "CM2 Lot and Map Slot12 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+673 CM2.Slot13NotMatched {
+        "CM2 Lot and Map Slot13 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+674 CM2.Slot14NotMatched {
+        "CM2 Lot and Map Slot14 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+675 CM2.Slot15NotMatched {
+        "CM2 Lot and Map Slot15 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+676 CM2.Slot16NotMatched {
+        "CM2 Lot and Map Slot16 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+677 CM2.Slot17NotMatched {
+        "CM2 Lot and Map Slot17 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+678 CM2.Slot18NotMatched {
+        "CM2 Lot and Map Slot18 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+679 CM2.Slot19NotMatched {
+        "CM2 Lot and Map Slot19 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+680 CM2.Slot20NotMatched {
+        "CM2 Lot and Map Slot20 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+681 CM2.Slot21NotMatched {
+        "CM2 Lot and Map Slot21 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+682 CM2.Slot22NotMatched {
+        "CM2 Lot and Map Slot22 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+683 CM2.Slot23NotMatched {
+        "CM2 Lot and Map Slot23 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+684 CM2.Slot24NotMatched {
+        "CM2 Lot and Map Slot24 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+685 CM2.Slot25NotMatched {
+        "CM2 Lot and Map Slot25 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+686 CM2.Slot26NotMatched {
+        "CM2 Lot and Map Slot26 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+687 CM2.FanAlarm{
+        "CM2 Fan Alarm Detected"
+	ABORT		"Abort Operation"
+}   
+
+688 CM2.FoupAbsentAlarm {
+        "CM2 Foup is Absent when Running"
+	CLEAR		"Clear Operation"
+}

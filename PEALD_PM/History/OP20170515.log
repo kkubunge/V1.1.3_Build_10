@@ -1,0 +1,592 @@
+2017/5/15 10:0:9	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2017/5/15 10:0:12	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2017/5/15 10:0:13	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 10:0:13	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 10:0:15	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 10:0:15	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 10:0:16	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/5/15 10:0:16	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/5/15 10:1:12	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 10:1:12	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 10:1:14	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)
+2017/5/15 10:1:17	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 10:1:17	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 10:1:24	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2017/5/15 10:1:27	IOEDIT	DirectIO Edit => DIO:INTLKS_CONTROL , VALUE:3
+2017/5/15 10:1:27	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 10:1:27	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 10:1:29	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)
+2017/5/15 10:1:44	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 0(Main)
+2017/5/15 10:2:48	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)
+2017/5/15 10:3:3	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 0(Main)
+2017/5/15 10:3:9	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 0(Main)
+2017/5/15 10:3:10	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)
+2017/5/15 10:3:14	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 0(Main)
+2017/5/15 10:7:35	SETTING	[DIO] V103ValveDO with [Close(0)] at Page = 0(Main)
+2017/5/15 10:7:42	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 10:7:42	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 10:7:49	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 10:7:49	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 10:7:50	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 10:7:50	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 10:7:54	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2017/5/15 10:7:57	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 10:7:57	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 10:8:2	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)
+2017/5/15 10:8:37	SETTING	[DIO] V111ValveDO with [Close(0)] at Page = 0(Main)
+2017/5/15 10:8:39	SETTING	[DIO] V103ValveDO with [Close(0)] at Page = 0(Main)
+2017/5/15 10:10:24	SETTING	[AIO] M651_Set_Position with [3.000] at Page = 0(Main)
+2017/5/15 10:11:13	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 0(Main)
+2017/5/15 10:11:19	SETTING	[AIO] M651_Set_Position with [0.000] at Page = 0(Main)
+2017/5/15 10:25:2	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 10:25:2	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 10:25:3	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2017/5/15 10:25:3	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2017/5/15 10:25:4	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 2(Main Heater)
+2017/5/15 10:25:4	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/5/15 10:25:8	SETTING	[DIO] HTREditEnableDisable with [1] at Page = 3(Heater1)
+2017/5/15 10:25:13	SETTING	[AIO] HT02_TmpSpAIO with [50.000] at Page = 3(Heater1)
+2017/5/15 10:25:14	SETTING	[AIO] HT06_TmpSpAIO with [50.000] at Page = 3(Heater1)
+2017/5/15 10:25:18	SETTING	[DIO] HT03_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/5/15 10:25:20	SETTING	[AIO] HT03_TmpSpAIO with [50.000] at Page = 3(Heater1)
+2017/5/15 10:25:22	SETTING	[AIO] HT04_TmpSpAIO with [50.000] at Page = 3(Heater1)
+2017/5/15 10:25:23	SETTING	[AIO] HT04_TmpSpAIO with [50.000] at Page = 3(Heater1)
+2017/5/15 10:25:24	SETTING	[AIO] HT05_TmpSpAIO with [50.000] at Page = 3(Heater1)
+2017/5/15 10:25:26	SETTING	[AIO] HT07_TmpSpAIO with [50.000] at Page = 3(Heater1)
+2017/5/15 10:25:29	SETTING	[AIO] HT08_TmpSpAIO with [50.000] at Page = 3(Heater1)
+2017/5/15 10:25:33	SETTING	[AIO] HT09_TmpSpAIO with [80.000] at Page = 3(Heater1)
+2017/5/15 10:25:35	SETTING	[AIO] HT10_TmpSpAIO with [80.000] at Page = 3(Heater1)
+2017/5/15 10:25:37	SETTING	[AIO] HT11_TmpSpAIO with [80.000] at Page = 3(Heater1)
+2017/5/15 10:25:39	SETTING	[AIO] HT12_TmpSpAIO with [50.000] at Page = 3(Heater1)
+2017/5/15 10:25:40	SETTING	[AIO] HT13_TmpSpAIO with [50.000] at Page = 3(Heater1)
+2017/5/15 10:25:42	SETTING	[AIO] HT16_TmpSpAIO with [50.000] at Page = 3(Heater1)
+2017/5/15 10:25:43	SETTING	[AIO] HT15_TmpSpAIO with [50.000] at Page = 3(Heater1)
+2017/5/15 10:25:44	SETTING	[AIO] HT14_TmpSpAIO with [50.000] at Page = 3(Heater1)
+2017/5/15 10:25:55	SETTING	[AIO] HT01_TmpSpAIO with [125.000] at Page = 3(Heater1)
+2017/5/15 10:25:57	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/5/15 10:25:57	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/5/15 10:26:1	SETTING	[AIO] HT17_TmpSpAIO with [125.000] at Page = 4(Heater2)
+2017/5/15 10:26:3	SETTING	[AIO] HT18_TmpSpAIO with [50.000] at Page = 4(Heater2)
+2017/5/15 10:26:5	SETTING	[AIO] HT19_TmpSpAIO with [50.000] at Page = 4(Heater2)
+2017/5/15 10:26:7	SETTING	[AIO] HT20_TmpSpAIO with [50.000] at Page = 4(Heater2)
+2017/5/15 10:26:10	SETTING	[AIO] HT21_TmpSpAIO with [50.000] at Page = 4(Heater2)
+2017/5/15 10:26:14	SETTING	[AIO] HT22_TmpSpAIO with [50.000] at Page = 4(Heater2)
+2017/5/15 10:26:16	SETTING	[AIO] HT23_TmpSpAIO with [50.000] at Page = 4(Heater2)
+2017/5/15 10:26:18	SETTING	[AIO] HT24_TmpSpAIO with [50.000] at Page = 4(Heater2)
+2017/5/15 10:26:19	SETTING	[AIO] HT25_TmpSpAIO with [50.000] at Page = 4(Heater2)
+2017/5/15 10:26:21	SETTING	[AIO] HT26_TmpSpAIO with [50.000] at Page = 4(Heater2)
+2017/5/15 10:26:22	SETTING	[AIO] HT28_TmpSpAIO with [50.000] at Page = 4(Heater2)
+2017/5/15 10:26:24	SETTING	[AIO] HT29_TmpSpAIO with [50.000] at Page = 4(Heater2)
+2017/5/15 10:26:25	SETTING	[AIO] HT30_TmpSpAIO with [50.000] at Page = 4(Heater2)
+2017/5/15 10:26:26	SETTING	[AIO] HT31_TmpSpAIO with [50.000] at Page = 4(Heater2)
+2017/5/15 10:26:28	SETTING	[AIO] HT32_TmpSpAIO with [50.000] at Page = 4(Heater2)
+2017/5/15 10:26:31	SETTING	[DIO] HT32_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/5/15 10:26:31	SETTING	[DIO] HT31_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/5/15 10:26:32	SETTING	[DIO] HT30_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/5/15 10:26:32	SETTING	[DIO] HT29_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/5/15 10:26:33	SETTING	[DIO] HT28_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/5/15 10:26:33	SETTING	[DIO] HT26_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/5/15 10:26:34	SETTING	[DIO] HT25_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/5/15 10:26:34	SETTING	[DIO] HT24_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/5/15 10:26:34	SETTING	[DIO] HT23_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/5/15 10:26:35	SETTING	[DIO] HT22_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/5/15 10:26:35	SETTING	[DIO] HT21_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/5/15 10:26:36	SETTING	[DIO] HT20_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/5/15 10:26:36	SETTING	[DIO] HT19_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/5/15 10:26:37	SETTING	[DIO] HT18_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/5/15 10:26:37	SETTING	[DIO] HT17_OnOffDIO with [Off(0)] at Page = 4(Heater2)
+2017/5/15 10:26:41	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/5/15 10:26:41	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/5/15 10:26:42	SETTING	[DIO] HT16_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:42	SETTING	[DIO] HT15_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:43	SETTING	[DIO] HT14_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:43	SETTING	[DIO] HT13_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:44	SETTING	[DIO] HT12_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:44	SETTING	[DIO] HT11_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:45	SETTING	[DIO] HT11_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:45	SETTING	[DIO] HT10_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:46	SETTING	[DIO] HT09_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:46	SETTING	[DIO] HT08_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:47	SETTING	[DIO] HT07_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:47	SETTING	[DIO] HT06_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:48	SETTING	[DIO] HT05_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:48	SETTING	[DIO] HT04_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:48	SETTING	[DIO] HT03_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:49	SETTING	[DIO] HT02_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:26:49	SETTING	[DIO] HT01_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/5/15 10:27:19	SETTING	[DIO] HT01_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 10:27:22	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/5/15 10:27:22	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/5/15 10:27:23	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/5/15 10:27:23	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/5/15 10:27:31	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/5/15 10:27:31	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/5/15 10:27:33	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/5/15 10:27:33	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/5/15 10:27:35	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/5/15 10:27:35	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/5/15 10:27:39	SETTING	[AIO] HT32_CtrlGnAIO with [35.000] at Page = 4(Heater2)
+2017/5/15 10:27:41	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/5/15 10:27:41	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/5/15 10:31:36	SETTING	[AIO] HT01_TmpHgLmtAIO with [150.000] at Page = 3(Heater1)
+2017/5/15 10:31:42	SETTING	[AIO] HT02_TmpHgLmtAIO with [70.000] at Page = 3(Heater1)
+2017/5/15 10:31:43	SETTING	[AIO] HT03_TmpHgLmtAIO with [70.000] at Page = 3(Heater1)
+2017/5/15 10:31:45	SETTING	[AIO] HT04_TmpHgLmtAIO with [70.000] at Page = 3(Heater1)
+2017/5/15 10:32:22	SETTING	[AIO] HT05_TmpHgLmtAIO with [70.000] at Page = 3(Heater1)
+2017/5/15 10:32:24	SETTING	[AIO] HT06_TmpHgLmtAIO with [70.000] at Page = 3(Heater1)
+2017/5/15 10:32:26	SETTING	[AIO] HT07_TmpHgLmtAIO with [70.000] at Page = 3(Heater1)
+2017/5/15 10:32:28	SETTING	[AIO] HT08_TmpHgLmtAIO with [70.000] at Page = 3(Heater1)
+2017/5/15 10:32:31	SETTING	[AIO] HT09_TmpHgLmtAIO with [100.000] at Page = 3(Heater1)
+2017/5/15 10:32:35	SETTING	[AIO] HT10_TmpHgLmtAIO with [100.000] at Page = 3(Heater1)
+2017/5/15 10:32:39	SETTING	[AIO] HT11_TmpHgLmtAIO with [100.000] at Page = 3(Heater1)
+2017/5/15 10:32:41	SETTING	[AIO] HT12_TmpHgLmtAIO with [70.000] at Page = 3(Heater1)
+2017/5/15 10:32:42	SETTING	[AIO] HT13_TmpHgLmtAIO with [70.000] at Page = 3(Heater1)
+2017/5/15 10:32:44	SETTING	[AIO] HT14_TmpHgLmtAIO with [70.000] at Page = 3(Heater1)
+2017/5/15 10:32:45	SETTING	[AIO] HT15_TmpHgLmtAIO with [70.000] at Page = 3(Heater1)
+2017/5/15 10:32:46	SETTING	[AIO] HT16_TmpHgLmtAIO with [70.000] at Page = 3(Heater1)
+2017/5/15 10:32:50	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/5/15 10:32:50	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/5/15 10:32:55	SETTING	[AIO] HT17_TmpHgLmtAIO with [145.000] at Page = 4(Heater2)
+2017/5/15 10:32:56	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/5/15 10:32:56	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/5/15 10:32:58	SETTING	[AIO] HT01_TmpHgLmtAIO with [145.000] at Page = 3(Heater1)
+2017/5/15 10:32:59	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/5/15 10:32:59	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/5/15 10:33:1	SETTING	[AIO] HT18_TmpHgLmtAIO with [70.000] at Page = 4(Heater2)
+2017/5/15 10:33:3	SETTING	[AIO] HT19_TmpHgLmtAIO with [70.000] at Page = 4(Heater2)
+2017/5/15 10:33:4	SETTING	[AIO] HT20_TmpHgLmtAIO with [70.000] at Page = 4(Heater2)
+2017/5/15 10:33:6	SETTING	[AIO] HT21_TmpHgLmtAIO with [70.000] at Page = 4(Heater2)
+2017/5/15 10:33:8	SETTING	[AIO] HT22_TmpHgLmtAIO with [70.000] at Page = 4(Heater2)
+2017/5/15 10:33:11	SETTING	[AIO] HT23_TmpHgLmtAIO with [70.000] at Page = 4(Heater2)
+2017/5/15 10:33:12	SETTING	[AIO] HT24_TmpHgLmtAIO with [70.000] at Page = 4(Heater2)
+2017/5/15 10:33:13	SETTING	[AIO] HT25_TmpHgLmtAIO with [70.000] at Page = 4(Heater2)
+2017/5/15 10:33:15	SETTING	[AIO] HT26_TmpHgLmtAIO with [70.000] at Page = 4(Heater2)
+2017/5/15 10:33:16	SETTING	[AIO] HT28_TmpHgLmtAIO with [70.000] at Page = 4(Heater2)
+2017/5/15 10:33:18	SETTING	[AIO] HT29_TmpHgLmtAIO with [70.000] at Page = 4(Heater2)
+2017/5/15 10:33:19	SETTING	[AIO] HT30_TmpHgLmtAIO with [70.000] at Page = 4(Heater2)
+2017/5/15 10:33:20	SETTING	[AIO] HT31_TmpHgLmtAIO with [70.000] at Page = 4(Heater2)
+2017/5/15 10:33:21	SETTING	[AIO] HT32_TmpHgLmtAIO with [70.000] at Page = 4(Heater2)
+2017/5/15 10:33:23	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/5/15 10:33:23	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/5/15 10:34:35	SETTING	[DIO] GLHtrRelayDO with [1] at Page = 3(Heater1)
+2017/5/15 10:34:36	SETTING	[DIO] GLHtrRelay2DO with [1] at Page = 3(Heater1)
+2017/5/15 10:34:44	SETTING	[DIO] HT02_OnOffDIO with [On(1)] at Page = 3(Heater1)
+2017/5/15 10:34:45	SETTING	[DIO] HT02_OnOffDIO with [Off(0)] at Page = 3(Heater1)
+2017/5/15 14:27:11	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/5/15 14:27:11	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/5/15 14:27:13	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2017/5/15 14:27:46	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2017/5/15 14:28:7	USERCONTROL	[SYSTEM_START]
+2017/5/15 14:30:36	USERCONTROL	[SYSTEM_START]
+2017/5/15 14:33:50	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2017/5/15 14:33:52	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2017/5/15 14:33:59	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 14:33:59	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 14:34:1	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2017/5/15 14:34:1	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2017/5/15 14:34:2	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 14:34:2	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 14:34:3	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2017/5/15 14:34:3	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2017/5/15 14:34:4	SETTING	[DIO] StgHtr1RelayDO with [1] at Page = 2(Main Heater)
+2017/5/15 14:34:6	SETTING	[DIO] StgHtr2RelayDO with [1] at Page = 2(Main Heater)
+2017/5/15 14:34:16	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/5/15 14:34:16	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/5/15 14:34:18	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2017/5/15 14:34:21	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 14:34:21	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 14:34:22	SETTING	[DIO] StgHtr1RelayDO with [1] at Page = 2(Main Heater)
+2017/5/15 14:34:24	SETTING	[DIO] StgHtr2RelayDO with [1] at Page = 2(Main Heater)
+2017/5/15 14:34:32	SETTING	[DIO] HTREditEnableDisable with [1] at Page = 2(Main Heater)
+2017/5/15 14:34:34	SETTING	[DIO] StgHtr1RelayDO with [1] at Page = 2(Main Heater)
+2017/5/15 14:34:36	SETTING	[DIO] StgHtr2RelayDO with [1] at Page = 2(Main Heater)
+2017/5/15 14:35:8	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/5/15 14:35:8	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/5/15 14:35:21	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2017/5/15 14:35:22	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 14:35:22	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 14:35:26	SETTING	[DIO] StgHtr1RelayDO with [1] at Page = 2(Main Heater)
+2017/5/15 14:35:27	SETTING	[DIO] StgHtr2RelayDO with [1] at Page = 2(Main Heater)
+2017/5/15 14:35:29	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/5/15 14:35:29	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/5/15 14:35:30	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 14:35:30	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 14:35:31	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/5/15 14:35:31	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/5/15 14:35:40	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2017/5/15 14:35:44	IOEDIT	DirectIO Edit => DIO:INTLKS_CONTROL , VALUE:3
+2017/5/15 14:35:45	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 14:35:45	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 14:35:45	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/5/15 14:35:45	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/5/15 14:35:47	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2017/5/15 14:35:51	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 14:35:51	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 14:35:52	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2017/5/15 14:35:52	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2017/5/15 14:35:54	SETTING	[DIO] Right_Service_Vrifi_Nav with [2] at Page = 5(MFC Verification)
+2017/5/15 14:35:54	BUTTON	[NAV CLICK] Right_Service_Vrifi_Nav - 2
+2017/5/15 14:35:56	FUNCTION	[START] SERV_MAIN with [MFC_FLOW_TEST] at Page = 13(MFC Flow Test)
+2017/5/15 14:35:56	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/5/15 14:35:56	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/5/15 14:35:58	IOEDIT	DirectIO Edit => DIO:INTLKS_CONTROL , VALUE:3
+2017/5/15 14:35:59	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/5/15 14:35:59	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/5/15 14:36:6	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 14:36:6	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 14:36:7	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 14:36:7	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 14:36:8	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2017/5/15 14:36:8	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2017/5/15 14:36:10	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 14:36:10	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 14:36:12	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 14:36:12	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:2:53	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:2:53	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:3:14	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:14	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:3:16	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:16	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:3:17	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:17	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:3:19	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:19	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:3:21	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:21	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:3:22	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:22	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:3:24	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:24	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:3:26	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:26	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:3:27	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:27	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:3:30	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:30	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:3:34	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:34	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:3:35	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:35	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:3:36	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:36	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:3:37	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:37	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:3:41	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:41	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:3:43	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:43	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:3:50	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:50	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:3:52	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:52	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/5/15 15:3:54	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:54	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:3:55	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:3:55	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:4:2	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:4:2	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:4:3	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:4:3	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:13:27	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:13:27	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:13:34	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:13:34	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:13:48	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:13:48	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:14:7	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:14:7	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:14:23	FUNCTION	[ABORT] SERV_MAIN at Page = 0(Main)
+2017/5/15 15:14:26	SETTING	[DIO] V111ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 15:14:27	SETTING	[DIO] V103ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 15:14:30	SETTING	[DIO] V111ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 15:14:32	SETTING	[DIO] V111ValveDO with [Close(0)] at Page = 0(Main)
+2017/5/15 15:14:34	SETTING	[DIO] V103ValveDO with [Close(0)] at Page = 0(Main)
+2017/5/15 15:14:37	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 0(Main)
+2017/5/15 15:14:38	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)
+2017/5/15 15:14:43	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)
+2017/5/15 15:14:47	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:14:47	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:14:48	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/5/15 15:14:48	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/5/15 15:14:54	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2017/5/15 15:14:59	IOEDIT	DirectIO Edit => DIO:INTLKS_CONTROL , VALUE:3
+2017/5/15 15:15:0	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:15:0	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:15:1	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 0(Main)
+2017/5/15 15:15:3	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)
+2017/5/15 15:15:6	SETTING	[DIO] V111ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 15:15:7	SETTING	[DIO] V103ValveDO with [Close(0)] at Page = 0(Main)
+2017/5/15 15:15:8	SETTING	[DIO] V103ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 15:15:10	SETTING	[DIO] V103ValveDO with [Close(0)] at Page = 0(Main)
+2017/5/15 15:16:14	SETTING	[DIO] V111ValveDO with [Close(0)] at Page = 0(Main)
+2017/5/15 15:16:17	SETTING	[DIO] V111ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 15:16:19	SETTING	[DIO] V111ValveDO with [Close(0)] at Page = 0(Main)
+2017/5/15 15:16:21	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:16:21	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:16:22	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2017/5/15 15:16:22	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2017/5/15 15:16:24	SETTING	[DIO] MFlow_MFC01 with [0] at Page = 13(MFC Flow Test)
+2017/5/15 15:16:25	SETTING	[DIO] MFlow_MFC02 with [0] at Page = 13(MFC Flow Test)
+2017/5/15 15:16:25	SETTING	[DIO] MFlow_MFC03 with [0] at Page = 13(MFC Flow Test)
+2017/5/15 15:16:27	FUNCTION	[START] SERV_MAIN with [MFC_FLOW_TEST] at Page = 13(MFC Flow Test)
+2017/5/15 15:16:29	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/5/15 15:16:29	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/5/15 15:16:31	IOEDIT	DirectIO Edit => DIO:INTLKS_CONTROL , VALUE:3
+2017/5/15 15:16:34	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/5/15 15:16:34	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/5/15 15:16:40	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2017/5/15 15:16:42	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:16:42	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:16:44	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2017/5/15 15:16:44	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2017/5/15 15:16:46	FUNCTION	[START] SERV_MAIN with [MFC_FLOW_TEST] at Page = 13(MFC Flow Test)
+2017/5/15 15:16:47	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/5/15 15:16:47	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/5/15 15:16:48	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:16:48	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:16:49	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/5/15 15:16:49	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/5/15 15:16:51	IOEDIT	DirectIO Edit => DIO:INTLKS_CONTROL , VALUE:3
+2017/5/15 15:16:51	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/5/15 15:16:51	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/5/15 15:16:58	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:16:58	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:16:59	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:16:59	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:17:1	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2017/5/15 15:17:1	BUTTON	[BOTTOM CLICK] Bottom_Config
+2017/5/15 15:17:2	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 15:17:2	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 15:17:4	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 15:17:4	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 15:17:5	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2017/5/15 15:17:5	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2017/5/15 16:7:8	SETTING	[DIO] MFlow_MFC05 with [0] at Page = 13(MFC Flow Test)
+2017/5/15 16:7:8	SETTING	[DIO] MFlow_MFC06 with [0] at Page = 13(MFC Flow Test)
+2017/5/15 16:7:9	SETTING	[DIO] MFlow_MFC05 with [1] at Page = 13(MFC Flow Test)
+2017/5/15 16:7:10	SETTING	[DIO] MFlow_MFC06 with [1] at Page = 13(MFC Flow Test)
+2017/5/15 16:7:11	SETTING	[DIO] MFlow_MFC03 with [1] at Page = 13(MFC Flow Test)
+2017/5/15 16:7:11	SETTING	[DIO] MFlow_MFC02 with [1] at Page = 13(MFC Flow Test)
+2017/5/15 16:7:12	SETTING	[DIO] MFlow_MFC01 with [1] at Page = 13(MFC Flow Test)
+2017/5/15 16:7:27	SETTING	[DIO] MFlow_MFC01 with [0] at Page = 13(MFC Flow Test)
+2017/5/15 16:7:28	SETTING	[DIO] MFlow_MFC02 with [0] at Page = 13(MFC Flow Test)
+2017/5/15 16:7:29	SETTING	[DIO] MFlow_MFC03 with [0] at Page = 13(MFC Flow Test)
+2017/5/15 16:7:30	SETTING	[DIO] MFlow_MFC08 with [0] at Page = 13(MFC Flow Test)
+2017/5/15 16:7:31	SETTING	[DIO] MFlow_MFC07 with [0] at Page = 13(MFC Flow Test)
+2017/5/15 16:7:32	SETTING	[DIO] MFlow_MFC06 with [0] at Page = 13(MFC Flow Test)
+2017/5/15 16:7:32	SETTING	[DIO] MFlow_MFC05 with [0] at Page = 13(MFC Flow Test)
+2017/5/15 16:7:33	SETTING	[DIO] MFlow_MFC09 with [0] at Page = 13(MFC Flow Test)
+2017/5/15 16:7:35	FUNCTION	[START] SERV_MAIN with [MFC_FLOW_TEST] at Page = 13(MFC Flow Test)
+2017/5/15 16:10:15	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 16:10:15	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 16:10:18	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 16:10:18	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 16:11:10	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 16:11:10	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 16:11:12	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 16:11:12	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 16:11:19	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2017/5/15 16:11:19	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2017/5/15 16:11:20	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 2(Main Heater)
+2017/5/15 16:11:20	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/5/15 16:11:22	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/5/15 16:11:22	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/5/15 16:15:35	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/5/15 16:15:35	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/5/15 16:15:40	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/5/15 16:15:40	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/5/15 16:15:43	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/5/15 16:15:43	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/5/15 16:15:45	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 16:15:45	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 16:15:48	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 16:15:48	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 16:15:49	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2017/5/15 16:15:49	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2017/5/15 16:16:10	SETTING	[DIO] MFlow_MFC03 with [1] at Page = 13(MFC Flow Test)
+2017/5/15 16:16:11	SETTING	[DIO] MFlow_MFC02 with [1] at Page = 13(MFC Flow Test)
+2017/5/15 16:16:12	SETTING	[DIO] MFlow_MFC01 with [1] at Page = 13(MFC Flow Test)
+2017/5/15 16:16:13	SETTING	[DIO] MFlow_MFC05 with [1] at Page = 13(MFC Flow Test)
+2017/5/15 16:16:13	SETTING	[DIO] MFlow_MFC06 with [1] at Page = 13(MFC Flow Test)
+2017/5/15 16:16:14	SETTING	[DIO] MFlow_MFC07 with [1] at Page = 13(MFC Flow Test)
+2017/5/15 16:16:15	SETTING	[DIO] MFlow_MFC08 with [1] at Page = 13(MFC Flow Test)
+2017/5/15 16:16:15	SETTING	[DIO] MFlow_MFC09 with [1] at Page = 13(MFC Flow Test)
+2017/5/15 16:17:57	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 16:17:57	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 16:17:58	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 16:17:58	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 16:18:6	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2017/5/15 16:18:6	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2017/5/15 16:18:8	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/5/15 16:18:8	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/5/15 16:18:9	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/5/15 16:18:9	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/5/15 16:18:10	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/5/15 16:18:10	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/5/15 16:18:11	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/5/15 16:18:11	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/5/15 16:18:12	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/5/15 16:18:12	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/5/15 16:18:12	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/5/15 16:18:12	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/5/15 16:18:13	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/5/15 16:18:13	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/5/15 16:18:14	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 4(Heater2)
+2017/5/15 16:18:14	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/5/15 16:18:48	SETTING	[DIO] Right_Service_Htr_Nav with [3] at Page = 3(Heater1)
+2017/5/15 16:18:48	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 3
+2017/5/15 16:21:18	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 16:21:18	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 16:21:25	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 16:21:25	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 16:21:32	SETTING	[DIO] GLHtrRelayDO with [0] at Page = 4(Heater2)
+2017/5/15 17:29:46	SETTING	[DIO] StgHtr1RelayDO with [0] at Page = 4(Heater2)
+2017/5/15 17:29:48	SETTING	[DIO] StgHtr2RelayDO with [0] at Page = 4(Heater2)
+2017/5/15 17:29:49	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 17:29:49	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 17:31:31	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 17:31:31	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 17:31:32	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/5/15 17:31:32	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/5/15 17:31:40	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2017/5/15 17:31:44	IOEDIT	DirectIO Edit => DIO:INTLKS_CONTROL , VALUE:3
+2017/5/15 17:31:44	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 17:31:44	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 17:31:46	SETTING	[DIO] V98ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:31:46	SETTING	[DIO] V97ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:31:47	SETTING	[DIO] V100ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:31:47	SETTING	[DIO] V24ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:31:49	SETTING	[DIO] V22ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:31:49	SETTING	[DIO] V23ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:31:50	SETTING	[DIO] V21ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:31:50	SETTING	[DIO] V2ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:31:52	SETTING	[DIO] V4ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:31:54	SETTING	[DIO] V6ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:31:56	SETTING	[AIO] MFC01StPtAO with [5000.000] at Page = 0(Main)
+2017/5/15 17:31:59	SETTING	[AIO] MFC02StPtAO with [1000.000] at Page = 0(Main)
+2017/5/15 17:32:1	SETTING	[AIO] MFC03StPtAO with [5000.000] at Page = 0(Main)
+2017/5/15 17:32:3	SETTING	[DIO] V1ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:3	SETTING	[DIO] V3ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:4	SETTING	[DIO] V5ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:10	SETTING	[DIO] V64ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:10	SETTING	[DIO] V65ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:12	SETTING	[DIO] V109ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:12	SETTING	[DIO] V110ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:13	SETTING	[DIO] V106ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:13	SETTING	[DIO] V105ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:14	SETTING	[DIO] V108ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:15	SETTING	[DIO] V66ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:15	SETTING	[DIO] V63ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:16	SETTING	[DIO] V59ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:17	SETTING	[DIO] V57ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:17	SETTING	[DIO] V61ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:19	SETTING	[DIO] V20ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:21	SETTING	[DIO] V62ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:24	SETTING	[AIO] MFC09StPtAO with [5000.000] at Page = 0(Main)
+2017/5/15 17:32:26	SETTING	[AIO] MFC08StPtAO with [1000.000] at Page = 0(Main)
+2017/5/15 17:32:29	SETTING	[AIO] MFC07StPtAO with [5000.000] at Page = 0(Main)
+2017/5/15 17:32:31	SETTING	[DIO] V55ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:31	SETTING	[DIO] V53ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:32	SETTING	[DIO] V50ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:33	SETTING	[DIO] V11ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:33	SETTING	[DIO] V17ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:34	SETTING	[DIO] V12ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:35	SETTING	[DIO] V18ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:36	SETTING	[DIO] V19ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:37	SETTING	[DIO] V13ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:38	SETTING	[DIO] V15ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:40	SETTING	[DIO] V69ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:40	SETTING	[DIO] V70ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:48	SETTING	[AIO] MFC06StPtAO with [5000.000] at Page = 0(Main)
+2017/5/15 17:32:50	SETTING	[AIO] MFC05StPtAO with [5000.000] at Page = 0(Main)
+2017/5/15 17:32:52	SETTING	[AIO] MFC04StPtAO with [1000.000] at Page = 0(Main)
+2017/5/15 17:32:54	SETTING	[DIO] V60ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:54	SETTING	[DIO] V58ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:55	SETTING	[DIO] V56ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:56	SETTING	[DIO] V54ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:57	SETTING	[DIO] V51ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:57	SETTING	[DIO] V52ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:32:58	SETTING	[DIO] V49ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:38:11	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2017/5/15 17:38:11	BUTTON	[RIGHT CLICK] Right_System_Control
+2017/5/15 17:38:12	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 17:38:12	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 17:38:14	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2017/5/15 17:38:14	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2017/5/15 17:38:27	SETTING	[AIO] LeakChkDelayTimeAM with [5.000] at Page = 1(Leak Check)
+2017/5/15 17:38:30	SETTING	[AIO] RoRLimitAM with [5.000] at Page = 1(Leak Check)
+2017/5/15 17:38:32	SETTING	[AIO] LeakChkCountSPAM with [10.000] at Page = 1(Leak Check)
+2017/5/15 17:38:35	SETTING	[AIO] LeakChkPumpTimeOutAM with [10.000] at Page = 1(Leak Check)
+2017/5/15 17:38:38	SETTING	[AIO] BaseDelayTimeAM with [10.000] at Page = 1(Leak Check)
+2017/5/15 17:38:40	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 17:38:40	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 17:38:41	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 17:38:41	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/15 17:38:43	SETTING	[AIO] LeakChkBasePressAM with [22.000] at Page = 1(Leak Check)
+2017/5/15 17:38:46	SETTING	[AIO] LeakChkLimitPressAM with [220.000] at Page = 1(Leak Check)
+2017/5/15 17:38:48	FUNCTION	[START] SERV_MAIN with [LEAK_CHECK] at Page = 1(Leak Check)
+2017/5/15 17:38:49	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/15 17:38:49	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/5/15 17:38:50	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2017/5/15 17:38:50	BUTTON	[RIGHT CLICK] Right_System_Main
+2017/5/15 17:38:51	SETTING	[DIO] V111ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:38:52	SETTING	[DIO] V103ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:38:52	SETTING	[DIO] V68ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:38:53	SETTING	[DIO] V101ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:38:53	SETTING	[DIO] V98ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:38:54	SETTING	[DIO] V102ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:38:54	SETTING	[DIO] V97ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:38:55	SETTING	[DIO] V100ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:38:55	SETTING	[DIO] V24ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:38:56	SETTING	[DIO] V21ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:38:56	SETTING	[DIO] V23ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:38:57	SETTING	[DIO] V22ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:38:57	SETTING	[DIO] V2ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:38:58	SETTING	[DIO] V4ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:38:59	SETTING	[DIO] V6ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:1	SETTING	[AIO] MFC01StPtAO with [5000.000] at Page = 0(Main)
+2017/5/15 17:39:3	SETTING	[AIO] MFC02StPtAO with [1000.000] at Page = 0(Main)
+2017/5/15 17:39:5	SETTING	[AIO] MFC03StPtAO with [5000.000] at Page = 0(Main)
+2017/5/15 17:39:6	SETTING	[DIO] V1ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:8	SETTING	[DIO] V3ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:8	SETTING	[DIO] V5ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:9	SETTING	[DIO] V109ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:10	SETTING	[DIO] V110ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:11	SETTING	[DIO] V106ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:11	SETTING	[DIO] V105ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:12	SETTING	[DIO] V108ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:12	SETTING	[DIO] V66ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:13	SETTING	[DIO] V64ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:14	SETTING	[DIO] V65ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:14	SETTING	[DIO] V63ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:15	SETTING	[DIO] V61ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:15	SETTING	[DIO] V59ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:16	SETTING	[DIO] V57ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:18	SETTING	[AIO] MFC09StPtAO with [5000.000] at Page = 0(Main)
+2017/5/15 17:39:20	SETTING	[AIO] MFC08StPtAO with [1000.000] at Page = 0(Main)
+2017/5/15 17:39:22	SETTING	[AIO] MFC07StPtAO with [5000.000] at Page = 0(Main)
+2017/5/15 17:39:23	SETTING	[DIO] V55ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:24	SETTING	[DIO] V53ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:24	SETTING	[DIO] V62ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:25	SETTING	[DIO] V11ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:26	SETTING	[DIO] V17ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:27	SETTING	[DIO] V19ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:28	SETTING	[DIO] V13ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:29	SETTING	[DIO] V15ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:30	SETTING	[DIO] V18ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:30	SETTING	[DIO] V12ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:31	SETTING	[DIO] V50ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:33	SETTING	[AIO] MFC04StPtAO with [1000.000] at Page = 0(Main)
+2017/5/15 17:39:35	SETTING	[AIO] MFC05StPtAO with [5000.000] at Page = 0(Main)
+2017/5/15 17:39:37	SETTING	[AIO] MFC06StPtAO with [5000.000] at Page = 0(Main)
+2017/5/15 17:39:38	SETTING	[DIO] V60ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:39	SETTING	[DIO] V58ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:40	SETTING	[DIO] V56ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:40	SETTING	[DIO] V54ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:41	SETTING	[DIO] V52ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:42	SETTING	[DIO] V51ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:42	SETTING	[DIO] V49ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:39:49	SETTING	[DIO] V20ValveDO with [Open(1)] at Page = 0(Main)
+2017/5/15 17:45:19	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/15 17:45:19	BUTTON	[BOTTOM CLICK] Bottom_Service

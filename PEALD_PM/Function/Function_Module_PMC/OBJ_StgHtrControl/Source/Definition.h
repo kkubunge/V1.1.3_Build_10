@@ -1,0 +1,42 @@
+//------------------------------------------------------------------------------------------
+// Function Name
+#define FUNC_NAME	"StgHtrControl"
+
+//------------------------------------------------------------------------------------------
+// Alarm Definition(2700 ~ 2899)
+
+
+#define ALARM_STAGE_HTR_WORK_TMP_ERROR	2710
+
+#define ALARM_STAGE_HTR_CONTROLL_FAIL	2750
+#define ALARM_STAGE_TEMP_HIGH_LIMIT		2751
+#define ALARM_STAGE_TEMP_LOW_LIMIT		2752
+
+#define ALARM_STG_HTR_TEMP_SET_INVALID	2753
+#define ALARM_STG_HTR_TEMP_NOT_STABLE	2754
+#define ALARM_STG_HTR_OFFSET_INVALID	2755
+
+#define ALARM_STG_HTR_RELAY_NOT_OFF		2760
+#define ALARM_STG_HTR_COOL_DOWN_TIMEOUT	2761
+
+#define ALARM_STG_HTR_INVALID_FUNC_CALL	2770
+  
+
+#define ALARM_STG_HTR_1_TEMP_SET_INVALID	2820
+#define ALARM_STG_HTR_2_TEMP_SET_INVALID	2821
+
+#define ALARM_STG_HTR_1_TEMP_NOT_STABLE		2822
+#define ALARM_STG_HTR_2_TEMP_NOT_STABLE		2823
+
+#define ALARM_STG_HTR_1_OFFSET_INVALID		2824
+#define ALARM_STG_HTR_2_OFFSET_INVALID		2825
+
+#define ALARM_STG_HTR_1_RELAY_NOT_OFF		2826
+#define ALARM_STG_HTR_2_RELAY_NOT_OFF		2827
+
+#define ALARM_STG_HTR_1_COOL_DOWN_TIMEOUT	2828
+#define ALARM_STG_HTR_2_COOL_DOWN_TIMEOUT	2829
+
+#define ALARM_STAGE_HTR_1_WORK_TMP_ERROR	2830
+#define ALARM_STAGE_HTR_2_WORK_TMP_ERROR	2831
+

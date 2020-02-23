@@ -1,0 +1,37 @@
+#-------------------------------------------------------------------------------
+# CM1 Part Scheduler Interface Function
+#-------------------------------------------------------------------------------
+
+CM1.HAND_OFF_IN		50	-	SUCCESS
+CM1.HAND_OFF_OUT	50	-	SUCCESS
+
+CM1.READY		50	-	SUCCESS
+CM1.END			50	-	SUCCESS
+
+CM1.CASSETTE_MAP	50	-	SUCCESS
+CM1.PREPARE_SEND	50	-	SUCCESS
+CM1.POST_SEND		50	-	SUCCESS
+CM1.PREPARE_RECV	50	-	SUCCESS
+CM1.POST_RECV		50	-	SUCCESS
+
+CM1.PREPARE_PICK	50	-	SUCCESS
+CM1.WAFER_PICK		50	-	SUCCESS
+CM1.PREPARE_PLACE	50	-	SUCCESS
+CM1.WAFER_PLACE		50	-	SUCCESS
+
+#-------------------------------------------------------------------------------
+# HandOff Extended Message
+#-------------------------------------------------------------------------------
+
+CM1.HAND_OFF_IN_ENTER	50	-	SUCCESS
+CM1.HAND_OFF_IN_LEAVE	50	-	SUCCESS
+
+CM1.HAND_OFF_OUT_ENTER	50	-	SUCCESS
+CM1.HAND_OFF_OUT_LEAVE	50	-	SUCCESS
+
+#-------------------------------------
+# Transfer Clear Function for Remote
+#-------------------------------------
+
+CM1.CLEAR		50	-	SUCCESS
+

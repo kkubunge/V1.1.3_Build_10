@@ -1,0 +1,47 @@
+#-------------------------------------------------------------------------------
+# PM2 Part Scheduler Interface Function
+#-------------------------------------------------------------------------------
+
+PM2.READY_BRG		51	Engine/EXEC/MsgReplacer             ARGUEMENT       "-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/PM2_SERVICE/Ready.seq"
+PM2.READY		50	REMOTE	READY
+PM2.END			50	REMOTE	READY
+
+PM2.PREPARE_SEND	50	REMOTE	READY
+PM2.POST_SEND		50	REMOTE	READY
+PM2.PREPARE_RECV_BRG	51	Engine/EXEC/MsgReplacer             ARGUEMENT       "-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/PM2_SERVICE/Prepare_recv.seq"
+PM2.PREPARE_RECV	50	REMOTE	READY
+PM2.POST_RECV		50	REMOTE	READY
+
+PM2.PREPARE_PICK	50	REMOTE	READY
+PM2.WAFER_PICK		50	REMOTE	READY
+PM2.PREPARE_PLACE	50	REMOTE	READY
+PM2.WAFER_PLACE		50	REMOTE	READY
+
+#-------------------------------------
+# Process Run Interface Function with Recipe Handling
+#-------------------------------------
+
+PM2.PROCESS_IN		50	REMOTE	READY
+PM2.PROCESS_OUT_BRG	51	Engine/EXEC/MsgReplacer             ARGUEMENT       "-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/PM2_SERVICE/Process_out.seq"
+PM2.PROCESS_OUT		50	REMOTE	READY
+PM2.M_PROCESS		50	REMOTE	READY
+
+#-------------------------------------
+# Scheduler Direct Interface Function for Process Data Logging
+#-------------------------------------
+
+PM2.PROCESS_LOG		50	REMOTE	READY
+
+#-------------------------------------
+# Transfer Clear Function for Remote
+#-------------------------------------
+
+PM2.CLEAR		50	REMOTE	READY
+
+#-------------------------------------
+# User Maintenance Interface Function for Remote
+#-------------------------------------
+
+PM2.SERV_MAIN		1	REMOTE	READY
+
+PM2.TMC_PM_ABORT_GAS	1	REMOTE	READY

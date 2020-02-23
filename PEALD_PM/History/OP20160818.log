@@ -1,0 +1,60 @@
+2016/8/18 10:33:48	USERCONTROL	[SYSTEM_START]
+2016/8/18 10:33:54	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2016/8/18 10:33:56	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2016/8/18 10:33:57	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/8/18 10:33:57	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/8/18 10:34:0	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/18 10:34:0	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/18 10:34:1	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2016/8/18 10:34:1	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2016/8/18 10:34:4	SETTING	[DIO] M_CAL_GAS07 with [1] at Page = 5(MFC Verification)
+2016/8/18 10:34:7	SETTING	[DIO] M_CAL_GAS07 with [0] at Page = 5(MFC Verification)
+2016/8/18 10:34:8	SETTING	[DIO] M_CAL_GAS02 with [1] at Page = 5(MFC Verification)
+2016/8/18 10:34:11	FUNCTION	[START] GAS_CAL_CONTROL with [CALIBRATION] at Page = 5(MFC Verification)
+2016/8/18 10:35:12	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2016/8/18 10:35:12	BUTTON	[BOTTOM CLICK] Bottom_Config
+2016/8/18 10:35:15	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 6(PM Param 1)
+2016/8/18 10:35:15	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2016/8/18 10:35:16	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 11(PM Param 6)
+2016/8/18 10:35:16	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2016/8/18 10:35:19	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2016/8/18 10:35:19	BUTTON	[BOTTOM CLICK] Bottom_System
+2016/8/18 10:35:21	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/18 10:35:21	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/18 10:35:33	FUNCTION	[ABORT] GAS_CAL_CONTROL at Page = 5(MFC Verification)
+2016/8/18 10:35:36	POPUP	[OPEN] MFC Cal Result Popup Screen at Page = 5(MFC Verification)
+2016/8/18 10:35:43	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/8/18 10:35:43	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/8/18 10:35:46	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 0(Main)
+2016/8/18 10:35:48	SETTING	[DIO] V22ValveDO with [Open(1)] at Page = 0(Main)
+2016/8/18 10:35:50	SETTING	[DIO] V2ValveDO with [Open(1)] at Page = 0(Main)
+2016/8/18 10:35:53	SETTING	[AIO] MFC01StPtAO with [5000.000] at Page = 0(Main)
+2016/8/18 10:35:55	SETTING	[DIO] V1ValveDO with [Open(1)] at Page = 0(Main)
+2016/8/18 10:35:58	SETTING	[DIO] V101ValveDO with [Open(1)] at Page = 0(Main)
+2016/8/18 10:36:13	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2016/8/18 10:36:13	BUTTON	[RIGHT CLICK] Right_System_Control
+2016/8/18 10:36:15	FUNCTION	[START] SERV_MAIN with [ABORT_GAS] at Page = 1(Control)
+2016/8/18 10:36:15	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2016/8/18 10:36:15	BUTTON	[RIGHT CLICK] Right_System_Main
+2016/8/18 10:36:22	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2016/8/18 10:36:22	BUTTON	[BOTTOM CLICK] Bottom_Config
+2016/8/18 10:36:30	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/18 10:36:30	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/18 10:36:31	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2016/8/18 10:36:31	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2016/8/18 10:36:38	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2016/8/18 10:36:40	IOEDIT	DirectIO Edit => DIO:PRMD_HO_DryPumpHazard , VALUE:1
+2016/8/18 10:36:42	IOEDIT	DirectIO Edit => DIO:PRMD_HO_DryPumpHazard , VALUE:2
+2016/8/18 10:36:42	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2016/8/18 10:36:42	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2016/8/18 10:36:49	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/8/18 10:36:49	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/8/18 10:36:53	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)
+2016/8/18 10:36:57	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2016/8/18 10:36:57	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2016/8/18 10:36:58	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/18 10:36:58	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/18 10:37:1	IOEDIT	DirectIO Edit => DIO:PRMD_HO_DryPumpHazard , VALUE:1
+2016/8/18 10:37:2	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/8/18 10:37:2	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/8/18 10:37:5	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)

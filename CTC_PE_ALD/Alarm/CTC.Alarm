@@ -1,0 +1,226 @@
+#------------------------------------------------------------------------------
+# CTC Alarm	3400 - 3499
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# Chamber Condition Control Alarm
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# PM1
+#------------------------------------------------------------------------------
+3400 PM1_CHAMBER_NOT_ENABLED {
+	"PM1 Chamber Not Enabled(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3401 PM1_CHAMBER_DISCONNECTED {
+	"PM1 Chamber Disconnected(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3402 PM1_SLOT_NOT_CLOSED {
+	"PM1 Slot valve not Closed(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3403 PM1_WAFER_PRESENT_IN_CHAMBER {
+	"PM1 Wafer present in Chamber(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3404 PM1_SEQUENCE_RUNNING {
+	"PM1 Sequence running(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3405 PM1_LOT_RUNNING {
+	"PM1 Lot running(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3406 PM1_RECIPE_RUN_FAILED {
+	"PM1 Recipe Run Failed(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3407 PM1_LEAK_CHECK_FAILED {
+	"PM1 Leak Check Failed(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+
+#------------------------------------------------------------------------------
+# PM2
+#------------------------------------------------------------------------------
+3410 PM2_CHAMBER_NOT_ENABLED {
+	"PM2 Chamber Not Enabled(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3411 PM2_CHAMBER_DISCONNECTED {
+	"PM2 Chamber Disconnected(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3412 PM2_SLOT_NOT_CLOSED {
+	"PM2 Slot valve not Closed(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3413 PM2_WAFER_PRESENT_IN_CHAMBER {
+	"PM2 Wafer present in Chamber(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3414 PM2_SEQUENCE_RUNNING {
+	"PM2 Sequence running(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3415 PM2_LOT_RUNNING {
+	"PM2 Lot running(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3416 PM2_RECIPE_RUN_FAILED {
+	"PM2 Recipe Run Failed(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3417 PM2_LEAK_CHECK_FAILED {
+	"PM2 Leak Check Failed(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+#------------------------------------------------------------------------------
+# PM3
+#------------------------------------------------------------------------------
+3420 PM3_CHAMBER_NOT_ENABLED {
+	"PM3 Chamber Not Enabled(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3421 PM3_CHAMBER_DISCONNECTED {
+	"PM3 Chamber Disconnected(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3422 PM3_SLOT_NOT_CLOSED {
+	"PM3 Slot valve not Closed(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3423 PM3_WAFER_PRESENT_IN_CHAMBER {
+	"PM3 Wafer present in Chamber(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3424 PM3_SEQUENCE_RUNNING {
+	"PM3 Sequence running(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3425 PM3_LOT_RUNNING {
+	"PM3 Lot running(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3426 PM3_RECIPE_RUN_FAILED {
+	"PM3 Recipe Run Failed(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3427 PM3_LEAK_CHECK_FAILED {
+	"PM3 Leak Check Failed(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+#------------------------------------------------------------------------------
+# PM4
+#------------------------------------------------------------------------------
+3430 PM4_CHAMBER_NOT_ENABLED {
+	"PM4 Chamber Not Enabled(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3431 PM4_CHAMBER_DISCONNECTED {
+	"PM4 Chamber Disconnected(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3432 PM4_SLOT_NOT_CLOSED {
+	"PM4 Slot valve not Closed(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3433 PM4_WAFER_PRESENT_IN_CHAMBER {
+	"PM4 Wafer present in Chamber(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3434 PM4_SEQUENCE_RUNNING {
+	"PM4 Sequence running(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3435 PM4_LOT_RUNNING {
+	"PM4 Lot running(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3436 PM4_RECIPE_RUN_FAILED {
+	"PM4 Recipe Run Failed(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3437 PM4_LEAK_CHECK_FAILED {
+	"PM4 Leak Check Failed(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+#------------------------------------------------------------------------------
+# PM5
+#------------------------------------------------------------------------------
+3440 PM5_CHAMBER_NOT_ENABLED {
+	"PM5 Chamber Not Enabled(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3441 PM5_CHAMBER_DISCONNECTED {
+	"PM5 Chamber Disconnected(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3442 PM5_SLOT_NOT_CLOSED {
+	"PM5 Slot valve not Closed(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3443 PM5_WAFER_PRESENT_IN_CHAMBER {
+	"PM5 Wafer present in Chamber(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3444 PM5_SEQUENCE_RUNNING {
+	"PM5 Sequence running(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3445 PM5_LOT_RUNNING {
+	"PM5 Lot running(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3446 PM5_RECIPE_RUN_FAILED {
+	"PM5 Recipe Run Failed(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+3447 PM5_LEAK_CHECK_FAILED {
+	"PM5 Leak Check Failed(Chamber Condition Control)"
+	RETRY		"Retry"
+}
+
+#------------------------------------------------------------------------------
+# Auto Cycle Clean
+#------------------------------------------------------------------------------
+3450 PM1_IDLE_STOP_FAILED {
+	"PM1 Idle Recipe Stop Failed (Auto Cycle Clean)"
+	CLEAR		"Clear Operation"
+}
+3451 PM1_IDLE_STOP_TIMEOUT {
+	"PM1 Idle Recipe Stop Time Out (Auto Cycle Clean)"
+	CLEAR		"Clear Operation"
+}
+3452 PM1_CYC_RCP_START_TIMEOUT {
+	"PM1 Auto Cycle Recipe Start Time Out (Auto Cycle Clean)"
+	CLEAR		"Clear Operation"
+}
+
+3460 PM2_IDLE_STOP_FAILED {
+	"PM2 Idle Recipe Stop Failed (Auto Cycle Clean)"
+	CLEAR		"Clear Operation"
+}
+3461 PM2_IDLE_STOP_TIMEOUT {
+	"PM2 Idle Recipe Stop Time Out (Auto Cycle Clean)"
+	CLEAR		"Clear Operation"
+}
+3462 PM2_CYC_RCP_START_TIMEOUT {
+	"PM2 Auto Cycle Recipe Start Time Out (Auto Cycle Clean)"
+	CLEAR		"Clear Operation"
+}
+
+3470 PM3_IDLE_STOP_FAILED {
+	"PM3 Idle Recipe Stop Failed (Auto Cycle Clean)"
+	CLEAR		"Clear Operation"
+}
+3471 PM3_IDLE_STOP_TIMEOUT {
+	"PM3 Idle Recipe Stop Time Out (Auto Cycle Clean)"
+	CLEAR		"Clear Operation"
+}
+3472 PM3_CYC_RCP_START_TIMEOUT {
+	"PM3 Auto Cycle Recipe Start Time Out (Auto Cycle Clean)"
+	CLEAR		"Clear Operation"
+}
+

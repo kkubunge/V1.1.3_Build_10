@@ -1,0 +1,203 @@
+2017/4/10 9:23:24	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 9:23:24	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 9:23:35	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2017/4/10 9:23:52	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/10 9:23:52	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/10 9:23:57	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 9:23:57	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 10:9:40	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/10 10:9:40	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/10 10:9:41	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 10:9:41	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 10:9:45	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/10 10:9:45	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/10 11:29:46	USERCONTROL	[SYSTEM_START]
+2017/4/10 11:36:35	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2017/4/10 11:36:37	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2017/4/10 11:36:38	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 11:36:38	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 11:36:39	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 11:36:39	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 11:36:40	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/10 11:36:40	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/10 11:37:15	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:1
+2017/4/10 11:37:21	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:0
+2017/4/10 13:46:58	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 13:46:58	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 13:49:39	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 13:49:39	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 13:49:50	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2017/4/10 13:49:55	IOEDIT	DirectIO Edit => DIO:INTLKS_CONTROL , VALUE:3
+2017/4/10 13:49:56	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/10 13:49:56	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/10 13:49:58	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)
+2017/4/10 13:50:4	SETTING	[AIO] M651_Set_Position with [10.000] at Page = 0(Main)
+2017/4/10 13:50:32	SETTING	[AIO] M651_Set_Position with [50.000] at Page = 0(Main)
+2017/4/10 13:50:35	SETTING	[AIO] M651_Set_Position with [100.000] at Page = 0(Main)
+2017/4/10 13:58:11	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 13:58:11	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 13:58:56	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 13:58:56	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 14:2:15	USERCONTROL	[SYSTEM_START]
+2017/4/10 14:2:20	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2017/4/10 14:2:22	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2017/4/10 14:2:23	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 14:2:23	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 14:2:25	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 14:2:25	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 14:2:26	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/10 14:2:26	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/10 14:6:2	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:1
+2017/4/10 14:6:11	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:0
+2017/4/10 14:8:44	USERCONTROL	[SYSTEM_START]
+2017/4/10 14:9:31	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2017/4/10 14:9:33	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2017/4/10 14:9:33	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 14:9:33	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 14:9:34	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/10 14:9:34	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/10 14:10:3	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:1
+2017/4/10 14:10:14	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:0
+2017/4/10 14:10:20	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:1
+2017/4/10 14:10:26	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:0
+2017/4/10 14:15:1	USERCONTROL	[SYSTEM_START]
+2017/4/10 14:15:6	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2017/4/10 14:15:8	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2017/4/10 14:15:9	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 14:15:9	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 14:15:10	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/10 14:15:10	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/10 14:15:44	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:1
+2017/4/10 14:15:56	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:0
+2017/4/10 14:16:35	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:1
+2017/4/10 14:16:44	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:0
+2017/4/10 14:40:40	USERCONTROL	[SYSTEM_START]
+2017/4/10 14:40:44	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2017/4/10 14:40:46	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2017/4/10 14:40:46	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 14:40:46	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 14:40:48	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2017/4/10 14:40:48	BUTTON	[RIGHT CLICK] Right_System_Control
+2017/4/10 14:40:49	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 14:40:49	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 14:40:50	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/10 14:40:50	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/10 14:41:12	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:1
+2017/4/10 14:41:34	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:0
+2017/4/10 14:46:25	USERCONTROL	[SYSTEM_START]
+2017/4/10 14:46:30	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2017/4/10 14:46:32	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2017/4/10 14:46:33	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 14:46:33	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 14:46:34	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 14:46:34	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 14:46:35	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/10 14:46:35	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/10 14:47:7	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:1
+2017/4/10 14:47:13	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:0
+2017/4/10 15:0:30	USERCONTROL	[SYSTEM_START]
+2017/4/10 15:0:37	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2017/4/10 15:0:39	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2017/4/10 15:0:40	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 15:0:40	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 15:0:52	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 15:0:52	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 15:2:17	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 15:2:17	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 15:2:18	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/10 15:2:18	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/10 15:2:27	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:1
+2017/4/10 15:2:37	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:0
+2017/4/10 15:7:25	USERCONTROL	[SYSTEM_START]
+2017/4/10 15:7:36	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2017/4/10 15:7:38	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2017/4/10 15:7:38	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 15:7:38	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 15:7:39	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/10 15:7:39	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/10 15:7:47	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:1
+2017/4/10 15:7:55	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:0
+2017/4/10 15:8:23	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:1
+2017/4/10 15:8:25	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:0
+2017/4/10 15:8:31	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:0
+2017/4/10 15:8:34	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:0
+2017/4/10 15:8:45	IOEDIT	DirectIO Edit => DIO:MFCInfoComDO , VALUE:0
+2017/4/10 15:8:50	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:1
+2017/4/10 15:8:52	IOEDIT	DirectIO Edit => DIO:DN_MFCInfoRead_DO , VALUE:0
+2017/4/10 15:16:37	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/10 15:16:37	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/10 15:18:34	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 15:18:34	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 15:18:37	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/10 15:18:37	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/10 15:18:42	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 15:18:42	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 15:18:43	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 15:18:43	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 15:19:54	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/10 15:19:54	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/10 15:19:56	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 15:19:56	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 15:25:52	IOEDIT	DirectIO Edit => DIO:MFCInfoComDO , VALUE:0
+2017/4/10 15:35:53	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2017/4/10 15:35:53	BUTTON	[BOTTOM CLICK] Bottom_Config
+2017/4/10 15:36:19	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2017/4/10 15:36:19	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2017/4/10 15:36:21	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 7(PM Param 2)
+2017/4/10 15:36:21	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2017/4/10 15:38:40	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 15:38:40	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 15:39:11	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 15:39:11	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 16:8:3	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 16:8:3	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 16:9:31	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/10 16:9:31	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/10 16:11:0	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 16:11:0	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 16:11:3	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/10 16:11:3	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/10 16:11:3	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 16:11:3	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 16:11:5	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 16:11:5	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 16:12:21	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/10 16:12:21	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/10 16:14:10	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 16:14:10	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 16:16:19	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/10 16:16:19	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/10 16:16:21	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 16:16:21	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 16:18:16	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 16:18:16	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 16:22:57	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/10 16:22:57	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/10 16:22:59	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/10 16:22:59	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/10 16:23:3	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 16:23:3	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 16:27:33	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/10 16:27:33	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/10 16:27:34	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 16:27:34	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 16:27:36	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 16:27:36	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 16:32:31	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/10 16:32:31	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/10 16:32:33	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 16:32:33	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 16:32:34	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 16:32:34	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/10 16:32:42	IOEDIT	DirectIO Edit => DIO:MFCInfoComDO , VALUE:0
+2017/4/10 16:33:43	IOEDIT	DirectIO Edit => DIO:MFCInfoComDO , VALUE:0
+2017/4/10 16:38:23	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/10 16:38:23	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/10 16:38:30	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 16:38:30	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 16:38:31	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/10 16:38:31	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/10 16:38:32	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/10 16:38:32	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/10 16:38:33	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/10 16:38:33	BUTTON	[BOTTOM CLICK] Bottom_Service

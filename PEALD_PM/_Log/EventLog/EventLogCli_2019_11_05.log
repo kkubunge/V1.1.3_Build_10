@@ -1,0 +1,64 @@
+11/05 16:38:16.973 PRC PreLotRun Start 0 13 Lot_Pre_A.lpr  
+11/05 16:38:18.326 PRC StepProcess Start 1 0 - Time Pre heat
+11/05 16:38:21.461 FNC RF1PowerOnOff Start 
+11/05 16:38:21.462 FNC RF2PowerOnOff Start 
+11/05 16:38:31.362 FNC RF1PowerOnOff End 
+11/05 16:38:31.363 FNC RF2PowerOnOff End 
+11/05 16:38:31.364 PRC StepProcess End 1 0 - Time Pre heat
+11/05 16:38:31.376 PRC StepProcess Start 2 0 - Time Pre Coating
+11/05 16:38:33.374 PRC StepProcess End 2 0 - Time Pre Coating
+11/05 16:38:33.388 PRC StepProcess Start 3 0 - Time Depo
+11/05 16:38:34.518 FNC RF1PowerOnOff Start 
+11/05 16:38:34.519 FNC RF2PowerOnOff Start 
+11/05 16:39:04.648 FNC RF1PowerOnOff End 
+11/05 16:39:04.649 FNC RF2PowerOnOff End 
+11/05 16:39:04.650 PRC StepProcess End 3 0 - Time Depo
+11/05 16:39:04.664 PRC StepProcess Start 4 0 - Time Purge-1
+11/05 16:39:04.782 FNC RF1PowerOnOff Start 
+11/05 16:39:04.783 FNC RF2PowerOnOff Start 
+11/05 16:39:09.660 FNC RF1PowerOnOff End 
+11/05 16:39:09.661 FNC RF2PowerOnOff End 
+11/05 16:39:09.662 PRC StepProcess End 4 0 - Time Purge-1
+11/05 16:39:09.676 PRC StepProcess Start 5 0 - Time Purge-2
+11/05 16:39:10.805 FNC RF1PowerOnOff Start 
+11/05 16:39:10.806 FNC RF2PowerOnOff Start 
+11/05 16:39:14.683 FNC RF1PowerOnOff End 
+11/05 16:39:14.683 FNC RF2PowerOnOff End 
+11/05 16:39:14.684 PRC StepProcess End 5 0 - Time Purge-2
+11/05 16:39:14.698 PRC StepProcess Start 6 0 - Time Purge-3
+11/05 16:39:15.827 FNC RF1PowerOnOff Start 
+11/05 16:39:15.828 FNC RF2PowerOnOff Start 
+11/05 16:39:24.697 FNC RF1PowerOnOff End 
+11/05 16:39:24.698 FNC RF2PowerOnOff End 
+11/05 16:39:24.699 PRC StepProcess End 6 0 - Time Purge-3
+11/05 16:39:24.713 PRC StepProcess Start 7 0 - Time Pumping
+11/05 16:39:25.842 FNC RF1PowerOnOff Start 
+11/05 16:39:25.843 FNC RF2PowerOnOff Start 
+11/05 16:39:29.719 FNC RF1PowerOnOff End 
+11/05 16:39:29.720 FNC RF2PowerOnOff End 
+11/05 16:39:29.721 PRC StepProcess End 7 0 - Time Pumping
+11/05 16:39:31.008 PRC PreLotRun End 0 0 -  
+11/05 16:39:49.853 PRC Process Start 0 10 SW_100.rcp  
+11/05 16:39:51.146 PRC StepProcess Start 1 0 - Time Pre heat
+11/05 16:40:01.185 PRC StepProcess End 1 0 - Time Pre heat
+11/05 16:40:01.198 PRC StepProcess Start 2 0 - Time Pre Coating
+11/05 16:40:03.188 PRC StepProcess End 2 0 - Time Pre Coating
+11/05 16:40:03.202 PRC StepProcess Start 3 0 - Time Depo
+11/05 16:40:04.328 FNC RF1PowerOnOff Start 
+11/05 16:40:04.328 FNC RF2PowerOnOff Start 
+11/05 16:40:05.289 FNC RF1PowerOnOff End 
+11/05 16:40:05.290 FNC RF2PowerOnOff End 
+11/05 16:40:05.291 PRC StepProcess End 3 0 - Time Depo
+11/05 16:40:05.304 PRC StepProcess Start 4 0 - Time Purge-1
+11/05 16:40:10.282 PRC StepProcess End 4 0 - Time Purge-1
+11/05 16:40:10.294 PRC StepProcess Start 5 0 - Time Purge-2
+11/05 16:40:15.304 PRC StepProcess End 5 0 - Time Purge-2
+11/05 16:40:15.317 PRC StepProcess Start 6 0 - Time Purge-3
+11/05 16:40:25.318 PRC StepProcess End 6 0 - Time Purge-3
+11/05 16:40:25.332 PRC StepProcess Start 7 0 - Time Pumping
+11/05 16:40:30.340 PRC StepProcess End 7 0 - Time Pumping
+11/05 16:40:31.632 PRC Process End 0 0 -  
+11/05 16:41:03.794 PRC Process Start 0 10 SW_100.rcp  
+11/05 16:41:05.184 PRC StepProcess Start 1 0 - Time Pre heat
+11/05 16:41:15.226 PRC StepProcess End 1 0 - Time Pre heat
+11/05 16:41:15.239 PRC StepProcess Start 2 0 - Time Pre Coating

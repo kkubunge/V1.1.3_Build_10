@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Sequence - Win32 Release2--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release2/Resource.res" /d "NDEBUG" "D:\1_PEALD\1_Kornic\P1_3L\Update\2019.01.18_JobEditor\Gui_JobEditor\Resource.rc"" 
+Creating temporary file "C:\Users\gwlee\AppData\Local\Temp\RSP1954.tmp" with contents
+[
+/nologo /MT /W3 /GX /I "P:\CONTROL.PRO\include" /I "." /I ".\H" /I "k:\H" /I "P:\CONTROL.PRO\95" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_WINDOWS" /D ENV_STD=ENV_STD_NT386 /D ENV_RPKERNEL_AVAILABLE=FALSE /D "_X86_" /D "X_160_SIZE" /FR"Release2/" /Fo"Release2/" /Fd"Release2/" /FD /c 
+"D:\1_PEALD\1_Kornic\P1_3L\Update\2019.01.18_JobEditor\Gui_JobEditor\Source\AppCTC.c"
+"D:\1_PEALD\1_Kornic\P1_3L\Update\2019.01.18_JobEditor\Gui_JobEditor\Source\AppInit.c"
+"D:\1_PEALD\1_Kornic\P1_3L\Update\2019.01.18_JobEditor\Gui_JobEditor\Source\AppPlotting.c"
+"D:\1_PEALD\1_Kornic\P1_3L\Update\2019.01.18_JobEditor\Gui_JobEditor\Source\Appprm.c"
+"D:\1_PEALD\1_Kornic\P1_3L\Update\2019.01.18_JobEditor\Gui_JobEditor\Source\Extern_view.c"
+"D:\1_PEALD\1_Kornic\P1_3L\Update\2019.01.18_JobEditor\Gui_JobEditor\Source\Job_code.c"
+"D:\1_PEALD\1_Kornic\P1_3L\Update\2019.01.18_JobEditor\Gui_JobEditor\Source\Ledapi.c"
+"D:\1_PEALD\1_Kornic\P1_3L\Update\2019.01.18_JobEditor\Gui_JobEditor\Source\logview.c"
+"D:\1_PEALD\1_Kornic\P1_3L\Update\2019.01.18_JobEditor\Gui_JobEditor\Source\logviewT.c"
+"D:\1_PEALD\1_Kornic\P1_3L\Update\2019.01.18_JobEditor\Gui_JobEditor\Source\prg_code.c"
+"D:\1_PEALD\1_Kornic\P1_3L\Update\2019.01.18_JobEditor\Gui_JobEditor\Source\StepView.c"
+"D:\1_PEALD\1_Kornic\P1_3L\Update\2019.01.18_JobEditor\Gui_JobEditor\Source\usr_code.c"
+]
+Creating command line "cl.exe @C:\Users\gwlee\AppData\Local\Temp\RSP1954.tmp" 
+Creating temporary file "C:\Users\gwlee\AppData\Local\Temp\RSP1955.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib cimsqconDll.lib cimsqconDllMain.lib CimSqConKNFS.lib ws2_32.lib /nologo /subsystem:console /pdb:none /machine:I386 /out:"k:\exec\Gui_JobEditor2.exe" /libpath:"k:\lib" /libpath:"p:\Control.PRO\LIB\NT386\nodebug" 
+.\Release2\AppCTC.obj
+.\Release2\AppInit.obj
+.\Release2\AppPlotting.obj
+.\Release2\Appprm.obj
+.\Release2\Extern_view.obj
+.\Release2\Job_code.obj
+.\Release2\Ledapi.obj
+.\Release2\logview.obj
+.\Release2\logviewT.obj
+.\Release2\prg_code.obj
+.\Release2\StepView.obj
+.\Release2\usr_code.obj
+.\Release2\Resource.res
+K:\lib\kutlAnal.lib
+K:\lib\kutlEtc.lib
+K:\lib\kutlFile.lib
+K:\lib\kutlgui.lib
+K:\lib\kutlgui2.lib
+K:\lib\kutlStr.lib
+K:\lib\kutlTime.lib
+]
+Creating command line "link.exe @C:\Users\gwlee\AppData\Local\Temp\RSP1955.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+AppCTC.c
+AppInit.c
+AppPlotting.c
+Appprm.c
+Extern_view.c
+Job_code.c
+Ledapi.c
+logview.c
+logviewT.c
+prg_code.c
+StepView.c
+usr_code.c
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Gui_JobEditor2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

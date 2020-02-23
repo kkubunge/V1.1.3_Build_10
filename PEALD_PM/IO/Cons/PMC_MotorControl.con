@@ -1,0 +1,36 @@
+$$$ Enum
+StgSelEnum	Stage1	Stage2	StageAll
+
+$$$ Digital
+FC_MOTOR_CONTROL	OffOnEnum	On
+ZMT_StageSelectDM	StgSelEnum
+M_MT_CycMvSelDM		StgSelEnum
+M_MT_ParmSaveDM		OffOnEnum
+
+$$$ Analog
+# Parameter IO
+PRMA_ZMT_CtrlTmOut	sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	30
+PRMA_ZMT_ErrTol		Pulse	-	-	-	-	0	0	10000	1	-	-	-	-	0	0	10000	-	-	-	-
+PRMA_ZMT_HmHighLmt	Pulse	-	-	-	-	0	0	10000	1	-	-	-	-	0	0	10000	-	-	-	-
+PRMA_ZMT_HmLowLmt	Pulse	-	-	-	-	0	0	10000	1	-	-	-	-	0	0	10000	-	-	-	-
+PRMA_ZMT_Pulse_mm	Pulse	-	-	-	-	0	0	10000	1	-	-	-	-	0	0	10000	-	-	-	-	10000
+PRMA_ZMT_Offset		mm	-	-	-	-	2	-10	10	1	-	-	-	-	2	-10	10	-	-	-	-
+PRMA_ZMT_Offset2	mm	-	-	-	-	2	-10	10	1	-	-	-	-	2	-10	10	-	-	-	-
+PRMA_ZMT_OffsIgLow	mm	-	-	-	-	2	0.00	100.00	1	-	-	-	-	2	0.00	100.00	-	-	-	-
+PRMA_ZMT_OffsIgHigh	mm	-	-	-	-	2	0.00	100.00	1	-	-	-	-	2	0.00	100.00	-	-	-	-
+PRMA_ZMT_NormSpeed	Pulse	-	-	-	-	0	1	16383	1	-	-	-	-	0	1	16383	-	-	-	-	5000
+
+# Display IO
+ZMT_SetPosAM		mm	-	-	-	-	2	4	89	1	-	-	-	-	2	4	89	-	-	-	-
+ZMT_SetPos2AM		mm	-	-	-	-	2	4	89	1	-	-	-	-	2	4	89	-	-	-	-
+ZMT_MaintSetPosAM	mm	-	-	-	-	2	4	89	1	-	-	-	-	2	4	89	-	-	-	-
+ZMT_ReadPosAM		mm	-	-	-	-	2	4	89	1	-	-	-	-	2	4	89	-	-	-	-
+ZMT_ReadPos2AM		mm	-	-	-	-	2	4	89	1	-	-	-	-	2	4	89	-	-	-	-
+
+# Verification IO
+M_MT_CycMvPosAM		mm	-	-	-	-	2	4	89	1	-	-	-	-	2	4	89	-	-	-	-
+M_MT_CycMvTgtCntAM	-	-	-	-	-	0	1	10000	1	-	-	-	-	0	1	10000	-	-	-	-
+M_MT_CycMvCurCntAM	-	-	-	-	-	0	0	99999	1	-	-	-	-	0	0	99999	-	-	-	-
+
+M_MT_CycMvUpTmAM	sec	-	-	-	-	1	0	99999	1	-	-	-	-	1	0	99999	-	-	-	-
+M_MT_CycMvDnTmAM	sec	-	-	-	-	1	0	99999	1	-	-	-	-	1	0	99999	-	-	-	-

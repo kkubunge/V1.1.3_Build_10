@@ -1,0 +1,30 @@
+2020/1/14 16:45:42	USERCONTROL	[SYSTEM_START]
+2020/1/14 17:36:55	USERCONTROL	[SYSTEM_START]
+2020/1/14 17:37:6	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/14 17:37:8	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/14 17:37:9	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/14 17:37:9	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/14 17:37:14	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/14 17:37:14	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/14 17:37:16	SETTING	[DIO] Right_Config_Parm_Nav with [8] at Page = 6(PM Param 1)
+2020/1/14 17:37:16	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 8
+2020/1/14 17:37:19	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/14 17:37:19	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/14 17:56:14	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/14 17:56:14	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/14 17:56:16	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2020/1/14 17:56:17	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/14 17:56:17	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/14 17:56:23	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 2(Main Heater)
+2020/1/14 17:56:23	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2020/1/14 17:58:5	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/14 17:58:5	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/14 17:58:7	SETTING	[DIO] Right_Config_Parm_Nav with [12] at Page = 0(PM Param 8 (LT Heater Set 1))
+2020/1/14 17:58:7	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 12
+2020/1/14 18:28:52	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/14 18:28:52	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/14 18:28:55	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2020/1/14 18:28:58	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/14 18:28:58	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/14 18:29:0	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/14 18:29:0	BUTTON	[BOTTOM CLICK] Bottom_Service

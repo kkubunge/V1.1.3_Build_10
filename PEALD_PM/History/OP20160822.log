@@ -1,0 +1,37 @@
+2016/8/22 9:50:44	USERCONTROL	[SYSTEM_START]
+2016/8/22 9:50:54	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2016/8/22 9:50:56	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2016/8/22 9:50:57	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/22 9:50:57	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/22 9:50:58	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2016/8/22 9:50:58	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2016/8/22 9:51:33	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2016/8/22 9:51:37	IOEDIT	DirectIO Edit => AIO:MFC01PressAI , VALUE:-14.700
+2016/8/22 9:52:48	IOEDIT	DirectIO Edit => DIO:SysLeakChkDM , VALUE:1
+2016/8/22 9:52:50	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2016/8/22 9:52:50	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2016/8/22 9:52:54	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/8/22 9:52:54	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/8/22 9:53:5	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/22 9:53:5	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/22 9:53:8	IOEDIT	DirectIO Edit => DIO:SysLeakChkDM , VALUE:0
+2016/8/22 9:53:10	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2016/8/22 9:53:10	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2016/8/22 9:53:14	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/22 9:53:14	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/22 9:53:15	IOEDIT	DirectIO Edit => DIO:SysLeakChkDM , VALUE:1
+2016/8/22 9:53:16	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2016/8/22 9:53:16	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2016/8/22 9:53:19	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/8/22 9:53:19	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/8/22 9:53:26	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/22 9:53:26	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/22 9:53:35	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2016/8/22 9:53:35	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2016/8/22 9:53:37	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/22 9:53:37	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/22 9:53:39	IOEDIT	DirectIO Edit => DIO:SysLeakChkDM , VALUE:0
+2016/8/22 9:53:42	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2016/8/22 9:53:42	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2016/8/22 9:53:46	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/8/22 9:53:46	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button

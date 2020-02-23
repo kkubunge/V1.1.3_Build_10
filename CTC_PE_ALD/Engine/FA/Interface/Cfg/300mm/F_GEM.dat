@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Function Information
+#-----------------------------------------------------------
+GEM.MESSAGE		95	k:/Fa/GEM_MsgManager		ARGUMENT	"Function/Function_Module_GEM/Cfg/Message.dat"
+GEM.ERROR		60	k:/Fa/GEM_Error			ARGUMENT	"Function/Function_Module_GEM/Cfg/Error.dat"
+GEM.CONTROL		90	K:/Fa/EasyGEM2|C		RUN	""	"Function/Function_Module_GEM/Cfg|||E|N|||E"
+#GEM.PORT1_MIDCTRL	80	FUNCTION/FUNCTION_MODULE_GEM/OBJ_RFID_Manager/Sequence	ARGUEMENT       "GEM.MID1 CM1 PORT1"
+#GEM.PORT2_MIDCTRL	80	FUNCTION/FUNCTION_MODULE_GEM/OBJ_RFID_Manager/Sequence	ARGUEMENT       "GEM.MID2 CM2 PORT2"
+#GEM.PORT3_MIDCTRL	80	FUNCTION/FUNCTION_MODULE_GEM/OBJ_RFID_Manager/Sequence	ARGUEMENT       "GEM.MID3 CM3 PORT3"
+#GEM.PORT4_MIDCTRL	80	FUNCTION/FUNCTION_MODULE_GEM/OBJ_RFID_Manager/Sequence	ARGUEMENT       "GEM.MID4 CM4 PORT4"
+GEM.PORT1_MIDCTRL	80	-	SUCCESS
+GEM.PORT2_MIDCTRL	80	-	SUCCESS
+GEM.PORT3_MIDCTRL	80	-	SUCCESS
+GEM.PORT4_MIDCTRL	80	-	SUCCESS
+GEM.TRACE1		50	k:/Fa/GEM_IO_Monitor	
+GEM.TRACE2		50	k:/Fa/GEM_IO_Monitor	
+GEM.TRACE3		50	k:/Fa/GEM_IO_Monitor	
+GEM.TRACE4		50	k:/Fa/GEM_IO_Monitor	
+GEM.TRACE5		50	k:/Fa/GEM_IO_Monitor	
+GEM.TRACE6		50	k:/Fa/GEM_IO_Monitor	
+GEM.TRACE7		50	k:/Fa/GEM_IO_Monitor	
+GEM.TRACE8		50	k:/Fa/GEM_IO_Monitor	
+GEM.TRACE9		50	k:/Fa/GEM_IO_Monitor	
+GEM.TRACE10		50	k:/Fa/GEM_IO_Monitor	
+GEM.SVID1		50	k:/Fa/GEM_IO_Monitor	
+GEM.SVID2		50	k:/Fa/GEM_IO_Monitor	
+GEM.SVID3		50	k:/Fa/GEM_IO_Monitor	
+GEM.SVID4		50	k:/Fa/GEM_IO_Monitor	
+GEM.SVID5		50	k:/Fa/GEM_IO_Monitor	
+GEM.ECID		50	k:/Fa/GEM_IO_Read	
+GEM.EVENT		50	k:/Fa/GEM_IO_Read	

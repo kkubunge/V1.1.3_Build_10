@@ -1,0 +1,70 @@
+$_PLOT_BIG         0    0
+$_PLOT_BACK        1    1
+$_PLOT_BACK_COLOR  256  256
+$_PLOT_POINT       1    1
+$_PLOT_LINE        0    0
+$_PLOT_COLOR_1   273  275  269  271
+$_PLOT_COLOR_2   273  275  269  271
+$_DATALOG_FILE_SAVE_TYPE     3
+$_DATALOG_TIME     1
+       PRO_CurStepAM    1                0.000              100.000    0    1    1
+      PRO_StepTimeAM    1                0.000          9999999.000    0    1    1
+        PLC_CurCycAI    1                0.000            65535.000    0    1    1
+    PRO_StpGrpCCycAM    1                0.000            10000.000    0    1    1
+       M651_Pressure    1                0.000             1000.000    0    1    1
+       M651_Position    1                0.000              100.000    0    1    1
+            ChmPrsAI    1             -255.000              760.000    0    1    1
+           PumpPrsAI    1                0.000             1500.000    0    1    1
+      ZMT_ReadPos2AM    1                4.000               55.000    0    1    1
+       RFSetPoint2AO    1                0.000             1500.000    0    1    1
+        RFLoadPow2AI    1                0.000             1500.000    0    1    1
+         RFRefPow2AI    1                0.000             1500.000    0    1    1
+      RF2FrequencyAI    1                0.000             1000.000    0    1    1
+        RPGLoadPowAI    1                0.000             1500.000    0    1    1
+         RPGRefPowAI    1                0.000             1500.000    0    1    1
+        SHT2_TmpRdAI    1                0.000              999.900    0    1    1
+        SHT2_OutPwAI    1                0.000              100.000    0    1    1
+       StgHtr2CurrAI    1                0.000               20.000    0    1    1
+       StgHtr2VoltAI    1                0.000              220.000    0    1    1
+          MFC09FlwAI    1                0.000             5000.000    0    1    1
+          MFC08FlwAI    1                0.000             5000.000    0    1    1
+          MFC07FlwAI    1                0.000             3000.000    0    1    1
+          MFC04FlwAI    1                0.000             5000.000    0    1    1
+          MFC05FlwAI    1                0.000             5000.000    0    1    1
+          MFC06FlwAI    1                0.000             5000.000    0    1    1
+        MFC09PressAI    1              -14.700               85.300    0    1    1
+        MFC08PressAI    1              -14.700               85.300    0    1    1
+        MFC07PressAI    1              -14.700               85.300    0    1    1
+        MFC04PressAI    1              -14.700               85.300    0    1    1
+        MFC05PressAI    1              -14.700               85.300    0    1    1
+        MFC06PressAI    1              -14.700               85.300    0    1    1
+        HT17_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT18_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT19_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT20_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT21_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT22_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT23_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT24_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT25_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT26_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT27_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT28_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT29_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT30_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT31_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT32_TmpRdAI    1                0.000             1000.000    0    1    1
+      SH2HeatExFlwAI    1                0.400               10.000    0    1    1
+      HtExcSupTempAI    1                0.000              180.000    0    1    1
+      HtExcRetTempAI    1                0.000              180.000    0    1    1
+      	RF2ForwardAI    1                0.000		   1500.000    0    1    1 	
+        HF_LOAD_POS_B	1                0.000	            100.000    0    1    1	
+        HF_TUNE_POS_B	1                0.000	            100.000    0    1    1	
+        HF_R_Real_B	1                0.000	          10000.000    0    1    1	
+        HF_X_Image_B	1                0.000	          10000.000    0    1    1	
+        HF_Z_Phase_B	1              -89.000	             89.000    0    1    1	
+        HF_Z_Power_B	1                0.000	          10000.000    0    1    1	
+        HF_Z_R_B	1                0.000	          10000.000    0    1    1	
+        HF_Z_X_B	1                0.000	          10000.000    0    1    1	
+        HF_Z_Vrms_B	1                0.000	          10000.000    0    1    1	
+        HF_Z_Irms_B	1                0.000	          10000.000    0    1    1	

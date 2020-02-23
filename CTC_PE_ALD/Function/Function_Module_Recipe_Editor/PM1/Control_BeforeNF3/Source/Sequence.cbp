@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sequence" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="../Sequence" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_MBCS" />
+					<Add option="-DCIM_SIMULATION" />
+					<Add option="-D_WIN32_DCOM" />
+					<Add directory="." />
+					<Add directory="h" />
+					<Add directory="k:/h" />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="comctl32" />
+					<Add library="cimsqcon" />
+					<Add library="cimsqconIO" />
+					<Add library="kutlstr" />
+					<Add directory="k:/lib" />
+					<Add directory="." />
+				</Linker>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="../__Sequence" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_MBCS" />
+					<Add directory="." />
+					<Add directory=".." />
+					<Add directory="h" />
+					<Add directory="k:/h" />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="comctl32" />
+					<Add library="cimsqcon" />
+					<Add library="cimsqconIO" />
+					<Add library="kutlstr" />
+					<Add directory="k:/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="Adjust_Wnd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Background_Gasline.bmp" />
+		<Unit filename="Background_Heater.bmp" />
+		<Unit filename="CVD_Rcp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CVD_Rcp.h" />
+		<Unit filename="Cancel_Disable.bmp" />
+		<Unit filename="Cancel_Enable.bmp" />
+		<Unit filename="Cancel_Pressed.bmp" />
+		<Unit filename="Copy_disable.bmp" />
+		<Unit filename="Copy_enable.bmp" />
+		<Unit filename="Copy_pressed.bmp" />
+		<Unit filename="Data_Type.h" />
+		<Unit filename="Edit_file_disable.bmp" />
+		<Unit filename="Edit_file_enable.bmp" />
+		<Unit filename="Edit_file_pressed.bmp" />
+		<Unit filename="Enable_Arrow_Down.bmp" />
+		<Unit filename="Enable_Arrow_Up.bmp" />
+		<Unit filename="ExcelLib.h" />
+		<Unit filename="File.h" />
+		<Unit filename="GUI_FOR_BMP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Group.bmp" />
+		<Unit filename="GroupAuthority.h" />
+		<Unit filename="Import_Disable.bmp" />
+		<Unit filename="Import_Enable.bmp" />
+		<Unit filename="Import_Pressed.bmp" />
+		<Unit filename="IniFile_Param.h" />
+		<Unit filename="K:/H/BACKGROUND_Heater.bmp" />
+		<Unit filename="K:/H/Background_Val_Det.bmp" />
+		<Unit filename="K:/H/bitmap1.bmp" />
+		<Unit filename="K:/H/bmp00001.bmp" />
+		<Unit filename="K:/H/bmp00002.bmp" />
+		<Unit filename="K:/h/KEY_BUTTON.ico" />
+		<Unit filename="K:/h/Program_GUI.ico" />
+		<Unit filename="K:/h/left_dis.bmp" />
+		<Unit filename="Ledapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Ledapi.h" />
+		<Unit filename="Left_Disable.bmp" />
+		<Unit filename="Lib/kutlanal.lib" />
+		<Unit filename="Lib/kutletc.lib" />
+		<Unit filename="Lib/kutlfile.lib" />
+		<Unit filename="Lib/kutlgui.lib" />
+		<Unit filename="Lib/kutlgui2.lib" />
+		<Unit filename="Lib/kutlstr.lib" />
+		<Unit filename="Lib/kutltime.lib" />
+		<Unit filename="LotType.h" />
+		<Unit filename="New_Disable.bmp" />
+		<Unit filename="New_Enable.bmp" />
+		<Unit filename="Pressed_Arrow_Down.bmp" />
+		<Unit filename="Pressed_Arrow_Up.bmp" />
+		<Unit filename="Prg_Param.h" />
+		<Unit filename="Read_Ini.h" />
+		<Unit filename="Recipe_Code.h" />
+		<Unit filename="Recipe_File.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Recipe_Ini.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Recipe_code.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="Resource/BACKGROUND.bmp" />
+		<Unit filename="Resource/Cancel_Disable.bmp" />
+		<Unit filename="Resource/Cancel_Enable.bmp" />
+		<Unit filename="Resource/Cancel_Pressed.bmp" />
+		<Unit filename="Resource/Copy_disable.bmp" />
+		<Unit filename="Resource/Copy_enable.bmp" />
+		<Unit filename="Resource/Copy_pressed.bmp" />
+		<Unit filename="Resource/FEdit_disable.bmp" />
+		<Unit filename="Resource/FEdit_enable.bmp" />
+		<Unit filename="Resource/FEdit_pressed.bmp" />
+		<Unit filename="Resource/Group.bmp" />
+		<Unit filename="Resource/Left_Disable.bmp" />
+		<Unit filename="Resource/Left_Enable.bmp" />
+		<Unit filename="Resource/Left_Pressed.bmp" />
+		<Unit filename="Resource/New_Disable.bmp" />
+		<Unit filename="Resource/New_Enable.bmp" />
+		<Unit filename="Resource/New_Pressed.bmp" />
+		<Unit filename="Resource/Pressed_Arrow_Down.bmp" />
+		<Unit filename="Resource/Right_Disable.bmp" />
+		<Unit filename="Resource/Right_Enable.bmp" />
+		<Unit filename="Resource/Right_Pressed.bmp" />
+		<Unit filename="Resource/Save_Disable.bmp" />
+		<Unit filename="Resource/Save_Enable.bmp" />
+		<Unit filename="Resource/Save_Pressed.bmp" />
+		<Unit filename="Resource/Saveas_Disable.bmp" />
+		<Unit filename="Resource/Saveas_Enable.bmp" />
+		<Unit filename="Resource/Saveas_Pressed.bmp" />
+		<Unit filename="Resource/Sub2_BACKGROUND.bmp" />
+		<Unit filename="Resource/Sub_BACKGROUND.bmp" />
+		<Unit filename="Resource/bitmap1.bmp" />
+		<Unit filename="Resource/file_disable.bmp" />
+		<Unit filename="Resource/file_enable.bmp" />
+		<Unit filename="Resource/file_pressed.bmp" />
+		<Unit filename="Resource/insert2_Disable.bmp" />
+		<Unit filename="Resource/insert2_Enable.bmp" />
+		<Unit filename="Resource/insert2_pressed.bmp" />
+		<Unit filename="Resource/insert_Enable.bmp" />
+		<Unit filename="Resource/insert_Pressed.bmp" />
+		<Unit filename="Resource/insert_disable.bmp" />
+		<Unit filename="Resource/ok_file_disable.bmp" />
+		<Unit filename="Resource/ok_file_pressed.bmp" />
+		<Unit filename="Resource/remove_disable.bmp" />
+		<Unit filename="Resource/remove_enable.bmp" />
+		<Unit filename="Resource/remove_pressed.bmp" />
+		<Unit filename="Resource/valve_background.bmp" />
+		<Unit filename="Resource/valvestep_background.bmp" />
+		<Unit filename="SEED_KISA.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SEED_KISA.h" />
+		<Unit filename="Saveas_Enable.bmp" />
+		<Unit filename="Saveas_Pressed.bmp" />
+		<Unit filename="SubItem2_rcp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SubItem_rcp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TextParser_C.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TextParser_C.h" />
+		<Unit filename="Valv_Ctrl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Valv_Detail.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cancel_file_disable.bmp" />
+		<Unit filename="cancel_file_enable.bmp" />
+		<Unit filename="cancel_file_pressed.bmp" />
+		<Unit filename="file_disable.bmp" />
+		<Unit filename="file_enable.bmp" />
+		<Unit filename="file_pressed.bmp" />
+		<Unit filename="insert2_Disable.bmp" />
+		<Unit filename="insert2_Enable.bmp" />
+		<Unit filename="insert2_pressed.bmp" />
+		<Unit filename="insert_Enable.bmp" />
+		<Unit filename="insert_Pressed.bmp" />
+		<Unit filename="insert_disable.bmp" />
+		<Unit filename="interface.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="interface.h" />
+		<Unit filename="iodefine.h" />
+		<Unit filename="left_enable.bmp" />
+		<Unit filename="left_pressed.bmp" />
+		<Unit filename="ok_file_disable.bmp" />
+		<Unit filename="ok_file_enable.bmp" />
+		<Unit filename="ok_file_pressed.bmp" />
+		<Unit filename="prg_code.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="resource.h" />
+		<Unit filename="right_disable.bmp" />
+		<Unit filename="right_enable.bmp" />
+		<Unit filename="right_pressed.bmp" />
+		<Unit filename="usr_code.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

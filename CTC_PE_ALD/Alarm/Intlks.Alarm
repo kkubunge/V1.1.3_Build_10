@@ -1,0 +1,1627 @@
+#------------------------------------------------------------------------------
+# LPMA	8000 - 8099
+#------------------------------------------------------------------------------
+8001 LPMA.MAPPING_ERROR {
+	"LPMA Mapping Error - LPMA Door Not Downed or Wafer SlideOut"
+	CLEAR		"Clear Operation"
+}
+
+8002 LPMA.PICK_ERROR {
+	"LPMA Pick Error - LPMA Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+8003 LPMA.PLACE_ERROR {
+	"LPMA Place Error - LPMA Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+8004 LPMA.ROTATE_PICKPLACE_ERROR {
+	"LPMA Rotate Pick Place Error - LPMA Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+8005 LPMA.DOOR_UP_ERROR {
+	"LPMA Door Up Error - ATM Robot Not Retracted"
+	CLEAR		"Clear Operation"
+}
+
+8006 LPMA.PICK_ERROR {
+	"LPMA Pick Error - Foup Placement Not On"
+	CLEAR		"Clear Operation"
+}
+
+8007 LPMA.PLACE_ERROR {
+	"LPMA Place Error - Foup Placement Not On"
+	CLEAR		"Clear Operation"
+}
+
+8008 LPMA.ROTATE_PICKPLACE_ERROR {
+	"LPMA Rotate Pick Place Error - Foup Placement Not On"
+	CLEAR		"Clear Operation"
+}
+
+8009 LPMA.PICK_ERROR {
+	"LPMA Pick Error - ShuttleInOut Not In"
+	CLEAR		"Clear Operation"
+}
+
+8010 LPMA.PLACE_ERROR {
+	"LPMA Place Error - ShuttleInOut Not In"
+	CLEAR		"Clear Operation"
+}
+
+8011 LPMA.ROTATE_PICKPLACE_ERROR {
+	"LPMA Rotate Pick Place Error - ShuttleInOut Not In"
+	CLEAR		"Clear Operation"
+}
+
+#------------------------------------------------------------------------------
+# LPMB	8100 - 8199
+#------------------------------------------------------------------------------
+
+8101 LPMB.MAPPING_ERROR {
+	"LPMB Mapping Error - LPMB Door Not Downed or Wafer SlideOut"
+	CLEAR		"Clear Operation"
+}
+
+8102 LPMB.PICK_ERROR {
+	"LPMB Pick Error - LPMB Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+8103 LPMB.PLACE_ERROR {
+	"LPMB Place Error - LPMB Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+8104 LPMB.ROTATE_PICKPLACE_ERROR {
+	"LPMB Rotate Pick Place Error - LPMB Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+8105 LPMB.DOOR_UP_ERROR {
+	"LPMB Door Up Error - ATM Robot Not Retracted"
+	CLEAR		"Clear Operation"
+}
+
+8106 LPMB.PICK_ERROR {
+	"LPMB Pick Error - Foup Placement Not On"
+	CLEAR		"Clear Operation"
+}
+
+8107 LPMB.PLACE_ERROR {
+	"LPMB Place Error - Foup Placement Not On"
+	CLEAR		"Clear Operation"
+}
+
+8108 LPMB.ROTATE_PICKPLACE_ERROR {
+	"LPMB Rotate Pick Place Error - Foup Placement Not On"
+	CLEAR		"Clear Operation"
+}
+
+8109 LPMB.PICK_ERROR {
+	"LPMB Pick Error - ShuttleInOut Not In"
+	CLEAR		"Clear Operation"
+}
+
+8110 LPMB.PLACE_ERROR {
+	"LPMB Place Error - ShuttleInOut Not In"
+	CLEAR		"Clear Operation"
+}
+
+8111 LPMB.ROTATE_PICKPLACE_ERROR {
+	"LPMB Rotate Pick Place Error - ShuttleInOut Not In"
+	CLEAR		"Clear Operation"
+}
+#------------------------------------------------------------------------------
+# LPMC	8200 - 8299
+#------------------------------------------------------------------------------
+8201 LPMC.MAPPING_ERROR {
+	"LPMC Mapping Error - LPMC Door Not Downed or Wafer SlideOut"
+	CLEAR		"Clear Operation"
+}
+
+8202 LPMC.PICK_ERROR {
+	"LPMC Pick Error - LPMC Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+8203 LPMC.PLACE_ERROR {
+	"LPMC Place Error - LPMC Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+8204 LPMC.EXT_ERROR {
+	"LPMC Extend Error - LPMC Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+8205 LPMC.DOOR_UP_ERROR {
+	"LPMC Door Up Error - ATM Robot Not Retracted"
+	CLEAR		"Clear Operation"
+}
+
+8206 LPMC.PICK_ERROR {
+	"LPMC Pick Error - Foup Placement Not On"
+	CLEAR		"Clear Operation"
+}
+
+8207 LPMC.PLACE_ERROR {
+	"LPMC Place Error - Foup Placement Not On"
+	CLEAR		"Clear Operation"
+}
+
+8208 LPMC.EXT_ERROR {
+	"LPMC Extend Error - Foup Placement Not On"
+	CLEAR		"Clear Operation"
+}
+
+8209 LPMC.PICK_ERROR {
+	"LPMC Pick Error - ShuttleInOut Not In"
+	CLEAR		"Clear Operation"
+}
+
+8210 LPMC.PLACE_ERROR {
+	"LPMC Place Error - ShuttleInOut Not In"
+	CLEAR		"Clear Operation"
+}
+
+8211 LPMC.EXT_ERROR {
+	"LPMC Extend Error - ShuttleInOut Not In"
+	CLEAR		"Clear Operation"
+}
+
+#------------------------------------------------------------------------------
+# BM	8300 - 8399
+#------------------------------------------------------------------------------
+8301 BM1.PICK_ERROR {
+	"BM1 Pick Error - BM1 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8302 BM2.PICK_ERROR {
+	"BM2 Pick Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8303 BM1.PICK_ERROR {
+	"BM1 Pick Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8304 BM2.PICK_ERROR {
+	"BM2 Pick Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8305 BM1.PLACE_ERROR {
+	"BM1 Place Error - BM1 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8306 BM2.PLACE_ERROR {
+	"BM2 Place Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8307 BM1.PLACE_ERROR {
+	"BM1 Place Error - BM1 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8308 BM2.PLACE_ERROR {
+	"BM2 Place Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8309 BM1.EXT_ERROR {
+	"BM1 Extend Error - BM1 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8310 BM2.EXT_ERROR {
+	"BM2 Extend Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8311 BM1.ROTATE_PICKPLACE_ERROR {
+	"BM1 Rotate Pick Place Error - BM1 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8312 BM2.EXT_ERROR {
+	"BM2 Extend Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8313 BM1.EXT_ERROR {
+	"BM1 Extend Error - BM1 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8314 BM2.EXT_ERROR {
+	"BM2 Extend Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8315 BM1.EXT_ERROR {
+	"BM1 Extend Error - BM1 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8316 BM2.EXT_ERROR {
+	"BM2 Extend Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8317 BM1.EXT_ERROR {
+	"BM1 Extend Error - BM1 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8318 BM2.EXT_ERROR {
+	"BM2 Extend Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8319 BM1.EXT_ERROR {
+	"BM1 Extend Error - BM1 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8320 BM2.EXT_ERROR {
+	"BM2 Extend Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8321 BM1.DOOR_CLOSE_ERROR {
+	"BM1 Door Close Error - ATM Robot Not Ready"
+	CLEAR		"Clear Operation"
+}
+
+8322 BM1.DOOR_OPEN_ERROR {
+	"BM1 Door Can't Open - Not ATM"
+	CLEAR		"Clear Operation"
+}
+
+8323 BM1.FASTVENT_OPEN_ERROR {
+	"BM1 Fast Vent Valve Open Error - Rough Valve or Door or Slot Valve Not Closed"
+	CLEAR		"Clear Operation"
+}
+
+8324 BM1.SLOWVENT_OPEN_ERROR {
+	"BM1 Fast Vent Valve Open Error - Rough Valve or Door or Slot Valve Not Closed"
+	CLEAR		"Clear Operation"
+}
+
+8325 BM1.FASTROUGH_OPEN_ERROR {
+	"BM1 Rough Valve Open Error - Rough Valve or Door or Slot Valve Not Closed"
+	CLEAR		"Clear Operation"
+}
+
+8326 BM1.SLOWROUGH_OPEN_ERROR {
+	"BM1 Slow Rough Valve Open Error - Rough Valve or Door or Slot Valve Not Closed"
+	CLEAR		"Clear Operation"
+}
+
+8327 BM1.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"BM1 Motor Can't Move to Load Positin - BM1 ATM status!"
+	CLEAR		"Clear Operation"
+}
+
+
+8328 BM1.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"BM1 Motor Can't Move to Load Positin - Other BM is already Load Position!"
+	CLEAR		"Clear Operation"
+}
+
+
+8331 BM1.PICK_ERROR {
+	"FM Robot BM1 Pick Error - BM1 Upper Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8332 BM2.PICK_ERROR {
+	"FM Robot BM2 Pick Error - BM2 Upper Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8333 BM1.PICK_ERROR {
+	"FM Robot BM1 Pick Error - BM1 Upper Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8334 BM2.PICK_ERROR {
+	"FM Robot BM2 Pick Error - BM2 Upper Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8335 BM1.PLACE_ERROR {
+	"FM Robot BM1 Place Error - BM1 Upper Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8336 BM2.PLACE_ERROR {
+	"FM Robot BM2 Place Error - BM2 Upper Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8337 BM1.ROTATE_PICKPLACE_ERROR {
+	"FM Robot BM1 Rotate Pick Place Error - BM1 Upper Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8338 BM2.PLACE_ERROR {
+	"FM Robot BM2 Place Error - BM2 Upper Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8339 BM1.PICK_ERROR {
+	"FM Robot BM1 Double Pick Error - Double pick is not permitted from BM1"
+	CLEAR		"Clear Operation"
+}
+
+8340 BM2.PICK_ERROR {
+	"FM Robot BM2 Double Pick Error - Double pick is not permitted from BM2"
+	CLEAR		"Clear Operation"
+}
+
+8341 BM1.PLACE_ERROR {
+	"FM Robot BM1 Double Place Error - Double place is not permitted from BM1"
+	CLEAR		"Clear Operation"
+}
+
+8342 BM2.PLACE_ERROR {
+	"FM Robot BM2 Double Place Error - Double place is not permitted from BM2"
+	CLEAR		"Clear Operation"
+}
+
+#------------------------------------------------------------------------------
+# BM	8400 - 8499
+#------------------------------------------------------------------------------
+8401 BM2.PICK_ERROR {
+	"BM2 Pick Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8402 BM2.PICK_ERROR {
+	"BM2 Pick Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8403 BM2.PLACE_ERROR {
+	"BM2 Place Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8404 BM2.PLACE_ERROR {
+	"BM2 Place Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8405 BM2.ROTATE_PICKPLACE_ERROR {
+	"BM2 Rotate Pick Place Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8406 BM2.EXT_ERROR {
+	"BM2 Extend Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8407 BM2.EXT_ERROR {
+	"BM2 Extend Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8408 BM2.EXT_ERROR {
+	"BM2 Extend Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8409 BM2.EXT_ERROR {
+	"BM2 Extend Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8410 BM2.EXT_ERROR {
+	"BM2 Extend Error - BM2 Door won't Opened"
+	CLEAR		"Clear Operation"
+}
+
+8411 BM2.DOOR_CLOSE_ERROR {
+	"BM2 Door Close Error - ATM Robot Not Ready"
+	CLEAR		"Clear Operation"
+}
+
+8412 BM2.FASTVENT_OPEN_ERROR {
+	"BM1 Fast Vent Valve Open Error - Rough Valve or Door or Slot Valve Not Closed"
+	CLEAR		"Clear Operation"
+}
+
+8413 BM2.SLOWVENT_OPEN_ERROR {
+	"BM2 Fast Vent Valve Open Error - Rough Valve or Door or Slot Valve Not Closed"
+	CLEAR		"Clear Operation"
+}
+
+8414 BM2.FASTROUGH_OPEN_ERROR {
+	"BM2 Rough Valve Open Error - Rough Valve or Door or Slot Valve Not Closed"
+	CLEAR		"Clear Operation"
+}
+
+8415 BM2.SLOWROUGH_OPEN_ERROR {
+	"BM2 Slow Rough Valve Open Error - Rough Valve or Door or Slot Valve Not Closed"
+	CLEAR		"Clear Operation"
+}
+
+8416 BM2.DOOR_OPEN_ERROR {
+	"BM2 Door Can't Open - Not ATM"
+	CLEAR		"Clear Operation"
+}
+
+8417 BM2.DOOR_OPEN_ERROR {
+	"BM2 Door Can't Open - Slot Valve Opened!"
+	CLEAR		"Clear Operation"
+}
+
+
+
+
+8421 BM1.PICK_ERROR {
+	"FM Robot BM1 Pick Error - BM1 Lower Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8422 BM2.PICK_ERROR {
+	"FM Robot BM2 Pick Error - BM2 Lower Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8423 BM1.PICK_ERROR {
+	"FM Robot BM1 Pick Error - BM1 Lower Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8424 BM2.PICK_ERROR {
+	"FM Robot BM2 Pick Error - BM2 Lower Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8425 BM1.PLACE_ERROR {
+	"FM Robot BM1 Place Error - BM1 Lower Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8426 BM2.PLACE_ERROR {
+	"FM Robot BM2 Place Error - BM2 Lower Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8427 BM1.PLACE_ERROR {
+	"FM Robot BM1 Place Error - BM1 Lower Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8428 BM2.ROTATE_PICKPLACE_ERROR {
+	"FM Robot BM2 Rotate Pick Place Error - BM2 Lower Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8429 MAINBM.FASTVENT_OPEN_ERROR {
+	"MAIN BM Fast Vent Valve Open Error - Rough Valve Not Closed"
+	CLEAR		"Clear Operation"
+}
+
+8430 MAINBM.SLOWVENT_OPEN_ERROR {
+	"MAIN BM Slow Vent Valve Open Error - Rough Valve Not Closed"
+	CLEAR		"Clear Operation"
+}
+
+8431 MAINBM.FASTROUGH_OPEN_ERROR {
+	"MAIN BM FAst Rough Valve Open Error - Vent Valve Not Closed"
+	CLEAR		"Clear Operation"
+}
+
+8432 MAINBM.SLOWROUGH_OPEN_ERROR {
+	"MAIN BM Slow Rough Valve Open Error - Vent Valve Not Closed"
+	CLEAR		"Clear Operation"
+}
+
+#------------------------------------------------------------------------------
+# BM Wafer Slide Sensor
+#------------------------------------------------------------------------------
+8440 BM1.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"BM1 Left Front Wafer Sliding Sensor Error - BM1 Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+
+8441 BM1.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"BM1 Left Back Wafer Sliding Sensor Error - BM1 Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+
+8442 BM1.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"BM1 Right Front Wafer Sliding Sensor Error - BM1 Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+
+8443 BM1.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"BM1 Right Back Wafer Sliding Sensor Error - BM1 Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+
+8444 BM2.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"BM2 Left Front Wafer Sliding Sensor Error - BM2 Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+
+8445 BM2.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"BM2 Left Back Wafer Sliding Sensor Error - BM2 Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+
+8446 BM2.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"BM2 Right Front Wafer Sliding Sensor Error - BM2 Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+
+8447 BM2.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"BM1 Right Back Wafer Sliding Sensor Error - BM2 Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+
+
+8450 MainBM.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"Main BM Wafer Sliding Sensor detected - BM Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+
+8451 MainBM.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"Main BM Wafer Sliding Sensor detected - BM Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+8452 MainBM.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"Main BM Wafer Sliding Sensor detected - BM Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+8453 MainBM.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"Main BM Wafer Sliding Sensor detected - BM Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+8454 MainBM.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"Main BM Wafer Sliding Sensor detected - BM Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+8455 MainBM.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"Main BM Wafer Sliding Sensor detected - BM Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+8456 MainBM.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"Main BM Wafer Sliding Sensor detected - BM Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+8457 MainBM.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"Main BM Wafer Sliding Sensor detected - BM Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+8458 MainBM.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"Main BM Wafer Sliding Sensor detected - BM Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+8459 MainBM.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"Main BM Wafer Sliding Sensor detected - BM Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+8460 MainBM.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"Main BM Wafer Sliding Sensor detected - BM Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+8461 MainBM.MOTOR_MOVE_LOAD_POSITION_ERROR {
+	"Main BM Wafer Sliding Sensor detected - BM Motion Cannot Control"
+	CLEAR		"Clear Operation"
+}
+
+
+#------------------------------------------------------------------------------
+# TM	8500 - 8699
+#------------------------------------------------------------------------------
+
+
+#BM1 & BM2 slot valve
+8501 TM.MTR7.PICK_BM_ERROR {
+	"VTM Robot Can't Action - BM1 Slot Valve Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+8502 TM.MTR7.PICK_BM_ERROR {
+	"VTM Robot Can't Action - BM2 Slot Valve Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+8503 TM.MTR7.PLACE_BM_ERROR {
+	"VTM Robot Can't Action - BM1 Slot Valve Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+8504 TM.MTR7.PLACE_BM_ERROR {
+	"VTM Robot Can't Action - BM2 Slot Valve Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+#PMA slot valve
+8511 TM.MTR7.PICK_PMA_ERROR {
+	"VTM Robot Can't Action - PMA Slot Valve 1 Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+8512 TM.MTR7.PICK_PMA_ERROR {
+	"VTM Robot Can't Action - PMA Slot Valve 2 Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+8513 TM.MTR7.PLACE_PMA_ERROR {
+	"VTM Robot Can't Action - PMA Slot Valve 1 Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+8514 TM.MTR7.PLACE_PMA_ERROR {
+	"VTM Robot Can't Action - PMA Slot Valve 2 Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+#PMB slot valve
+8521 TM.MTR7.PICK_PMB_ERROR {
+	"VTM Robot Can't Action - PMB Slot Valve 1 Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+8522 TM.MTR7.PICK_PMB_ERROR {
+	"VTM Robot Can't Action - PMB Slot Valve 2 Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+8523 TM.MTR7.PLACE_PMB_ERROR {
+	"VTM Robot Can't Action - PMB Slot Valve 1 Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+8524 TM.MTR7.PLACE_PMB_ERROR {
+	"VTM Robot Can't Action - PMB Slot Valve 2 Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+
+#PMC slot valve
+8531 TM.MTR7.PICK_PMC_ERROR {
+	"VTM Robot Can't Action - PMC Slot Valve 1 Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+8532 TM.MTR7.PICK_PMC_ERROR {
+	"VTM Robot Can't Action - PMC Slot Valve 2 Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+8533 TM.MTR7.PLACE_PMC_ERROR {
+	"VTM Robot Can't Action - PMC Slot Valve 1 Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+8534 TM.MTR7.PLACE_PMC_ERROR {
+	"VTM Robot Can't Action - PMC Slot Valve 2 Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+
+#Cooler Pin Interlock
+
+# PMB
+#8541 TM.MTR7.PMB_PIN_ERROR {
+#	"VTM Robot Can't Action - PMB Chuck not HOME"
+#	CLEAR		"Clear Operation"
+#}
+#
+#8542 TM.MTR7.PMB_PIN_ERROR {
+#	"VTM Robot Can't Action - PMB Pin Not Up"
+#	CLEAR		"Clear Operation"
+#}
+#
+#8543 TM.MTR7.PMB_PIN_ERROR {
+#	"VTM Robot Can't Action - PMB Pin Not Up"
+#	CLEAR		"Clear Operation"
+#}
+#
+#8544 TM.MTR7.PMB_PIN_ERROR {
+#	"VTM Robot Can't Action - PMB Pin Not Up"
+#	CLEAR		"Clear Operation"
+#}
+#
+#8545 TM.MTR7.PMB_PIN_ERROR {
+#	"VTM Robot Can't Action - PMB Pin Not Up"
+#	CLEAR		"Clear Operation"
+#}
+#
+#8546 TM.MTR7.PMB_PIN_ERROR {
+#	"VTM Robot Can't Action - PMB Pin Not Up"
+#	CLEAR		"Clear Operation"
+#}
+#
+#8547 TM.MTR7.PMB_PIN_ERROR {
+#	"VTM Robot Can't Action - PMB Pin Not Up"
+#	CLEAR		"Clear Operation"
+#}
+#
+#8548 TM.MTR7.PMB_PIN_ERROR {
+#	"VTM Robot Can't Action - PMB Pin Not Up"
+#	CLEAR		"Clear Operation"
+#}
+
+# Upper BM
+8551 TM.MTR7.BM1_PIN_ERROR {
+	"VTM Robot Can't Action - BM1 Upper Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8552 TM.MTR7.BM2_PIN_ERROR {
+	"VTM Robot Can't Action - BM2 Upper Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8553 TM.MTR7.BM1_PIN_ERROR {
+	"VTM Robot Can't Action - BM1 Upper Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8554 TM.MTR7.BM2_PIN_ERROR {
+	"VTM Robot Can't Action - BM2 Upper Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+#Lower BM
+8555 TM.MTR7.BM1_PIN_ERROR {
+	"VTM Robot Can't Action - BM1 Lower Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8556 TM.MTR7.BM2_PIN_ERROR {
+	"VTM Robot Can't Action - BM2 Lower Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8557 TM.MTR7.BM1_PIN_ERROR {
+	"VTM Robot Can't Action - BM1 Lower Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+8558 TM.MTR7.BM2_PIN_ERROR {
+	"VTM Robot Can't Action - BM2 Lower Pin Not Up"
+	CLEAR		"Clear Operation"
+}
+
+
+8561 TM.FASTVENT_OPEN_ERROR {
+	"TM Fast Vent Valve Open Error"
+	CLEAR		"Clear Operation"
+}
+
+8562 TM.ROUGH_OPEN_ERROR {
+	"TM Rough Valve Open Error"
+	CLEAR		"Clear Operation"
+}
+
+
+###################################################
+#PM Pin Interlock
+
+# PMA
+8571 TM.MTR7.PMA_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMA Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8572 TM.MTR7.PMA_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMA Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8573 TM.MTR7.PMA_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMA Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8574 TM.MTR7.PMA_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMA Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8575 TM.MTR7.PMA_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMA Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8576 TM.MTR7.PMA_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMA Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8577 TM.MTR7.PMA_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMA Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8578 TM.MTR7.PMA_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMA Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+# PMB
+8581 TM.MTR7.PMB_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMB Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8582 TM.MTR7.PMB_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMB Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8583 TM.MTR7.PMB_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMB Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8584 TM.MTR7.PMB_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMB Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8585 TM.MTR7.PMB_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMB Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8586 TM.MTR7.PMB_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMB Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8587 TM.MTR7.PMB_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMB Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8588 TM.MTR7.PMB_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMB Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+# PMC
+8591 TM.MTR7.PMC_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMC Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8592 TM.MTR7.PMC_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMC Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8593 TM.MTR7.PMC_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMC Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8594 TM.MTR7.PMC_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMC Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8595 TM.MTR7.PMC_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMC Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8596 TM.MTR7.PMC_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMC Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8597 TM.MTR7.PMC_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMC Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+8598 TM.MTR7.PMC_CHUCKHOME_ERROR {
+	"VTM Robot Can't Action - PMC Chuck not HOME"
+	CLEAR		"Clear Operation"
+}
+
+########################################################
+
+
+
+
+
+8601 TM.BM1_SLOTVLVE_CLOSE_ERROR {
+	"TM.BM1 Slot Valve Can't Close - BM1 Wafer Slide Detected"
+	CLEAR		"Clear Operation"
+}
+
+8602 TM.BM2_SLOTVLVE_CLOSE_ERROR {
+	"TM.BM2 Slot Valve Can't Close - BM2 Wafer Slide Detected"
+	CLEAR		"Clear Operation"
+}
+
+8603 TM.PMA_SLOTVLVE_CLOSE_ERROR {
+	"TM.PMA Slot Valve 1 Can't Close - PMA Wafer Slide Detected"
+	CLEAR		"Clear Operation"
+}
+
+8604 TM.PMA_SLOTVLVE_CLOSE_ERROR {
+	"TM.PMA Slot Valve 2 Can't Close - PMA Wafer Slide Detected"
+	CLEAR		"Clear Operation"
+}
+
+8605 TM.PMB_SLOTVLVE_CLOSE_ERROR {
+	"TM.PMB Slot Valve 1 Can't Close - PMB Wafer Slide Detected"
+	CLEAR		"Clear Operation"
+}
+
+8606 TM.PMB_SLOTVLVE_CLOSE_ERROR {
+	"TM.PMB Slot Valve 2 Can't Close - PMB Wafer Slide Detected"
+	CLEAR		"Clear Operation"
+}
+
+8607 TM.PMC_SLOTVLVE_CLOSE_ERROR {
+	"TM.PMC Slot Valve 1 Can't Close - PMC Wafer Slide Detected"
+	CLEAR		"Clear Operation"
+}
+
+8608 TM.PMC_SLOTVLVE_CLOSE_ERROR {
+	"TM.PMC Slot Valve 2 Can't Close - PMC Wafer Slide Detected"
+	CLEAR		"Clear Operation"
+}
+
+8611 TM.BM1_SLOTVLVE_OPEN_ERROR {
+	"TM.BM1 Slot Valve Can't Open - Vacuum Status Not Matched"
+	CLEAR		"Clear Operation"
+}
+
+8612 TM.BM2_SLOTVLVE_OPEN_ERROR {
+	"TM.BM2 Slot Valve Can't Open - Vacuum Status Not Matched"
+	CLEAR		"Clear Operation"
+}
+
+8613 TM.PMA_SLOTVLVE_OPEN_ERROR {
+	"TM.PMA Slot Valve Can't Open - Vacuum Status Not Matched"
+	CLEAR		"Clear Operation"
+}
+
+8614 TM.PMA_SLOTVLVE_OPEN_ERROR {
+	"TM.PMA Slot Valve Can't Open - Vacuum Status Not Matched"
+	CLEAR		"Clear Operation"
+}
+
+8615 TM.PMB_SLOTVLVE_OPEN_ERROR {
+	"TM.PMB Slot Valve Can't Open - Vacuum Status Not Matched"
+	CLEAR		"Clear Operation"
+}
+
+8616 TM.PMB_SLOTVLVE_OPEN_ERROR {
+	"TM.PMB Slot Valve Can't Open - Vacuum Status Not Matched"
+	CLEAR		"Clear Operation"
+}
+
+8617 TM.PMC_SLOTVLVE_OPEN_ERROR {
+	"TM.PMC Slot Valve Can't Open - Vacuum Status Not Matched"
+	CLEAR		"Clear Operation"
+}
+
+8618 TM.PMC_SLOTVLVE_OPEN_ERROR {
+	"TM.PMC Slot Valve Can't Open - Vacuum Status Not Matched"
+	CLEAR		"Clear Operation"
+}
+
+
+######################################################
+# 2005.03.29 by cskim
+8631 TM.PMA_SLOTVLVE_OPEN_ERROR2 {
+	"TM.PMA Slot Valve Can't Open - PM Process Is Running"
+	CLEAR		"Clear Operation"
+}
+
+8632 TM.PMB_SLOTVLVE_OPEN_ERROR2 {
+	"TM.PMB Slot Valve Can't Open - PM Process Is Running"
+	CLEAR		"Clear Operation"
+}
+
+8633 TM.PMC_SLOTVLVE_OPEN_ERROR2 {
+	"TM.PMC Slot Valve Can't Open - PM Process Is Running"
+	CLEAR		"Clear Operation"
+}
+
+8634 TM.PM4_SLOTVLVE_OPEN_ERROR2 {
+	"TM.PM4 Slot Valve Can't Open - PM Process Is Running"
+	CLEAR		"Clear Operation"
+}
+
+8635 TM.PM5_SLOTVLVE_OPEN_ERROR2 {
+	"TM.PM5 Slot Valve Can't Open - PM Process Is Running"
+	CLEAR		"Clear Operation"
+}
+################################################################################
+# Aligner
+################################################################################
+8851 ALIGN.PICK_ERROR {
+	"Alinger Pick Error - Aligner Status isn't Normal"
+	CLEAR		"Clear Operation"
+}
+8852 ALIGN.PLACE_ERROR {
+	"Alinger Place Error - Aligner Status isn't Normal"
+	CLEAR		"Clear Operation"
+}
+8853 ALIGN.ROTATE_PICKPLACE_ERROR {
+	"Alinger Rotate Pick Place Error - Aligner Status isn't Normal"
+	CLEAR		"Clear Operation"
+}
+
+
+8900 TM.BM1.SlotVvXO_ERROR {
+	"TM.BM1.SlotVvXO is error"
+	CLEAR		"Clear Operation"
+}
+
+8901 TM.BM2.SlotVvXO_ERROR {
+	"TM.BM2.SlotVvXO is error"
+	CLEAR		"Clear Operation"
+}
+
+8902 TM.PMA.SlotVv1XO_ERROR {
+	"TM.PMA.SlotVv1XO is error"
+	CLEAR		"Clear Operation"
+}
+
+8903 TM.PMA.SlotVv2XO_ERROR {
+	"TM.PMA.SlotVv2XO is error"
+	CLEAR		"Clear Operation"
+}
+
+8904 TM.PMB.SlotVv1XO_ERROR {
+	"TM.PMB.SlotVv1XO is error"
+	CLEAR		"Clear Operation"
+}
+
+8905 TM.PMB.SlotVv2XO_ERROR {
+	"TM.PMB.SlotVv2XO is error"
+	CLEAR		"Clear Operation"
+}
+
+8906 TM.PMC.SlotVv1XO_ERROR {
+	"TM.PMC.SlotVv1XO is error"
+	CLEAR		"Clear Operation"
+}
+
+8907 TM.PMC.SlotVv2XO_ERROR {
+	"TM.PMC.SlotVv2XO is error"
+	CLEAR		"Clear Operation"
+}
+
+8908 BM1.DoorXO_ERROR {
+	"BM1.DoorXO is error"
+	CLEAR		"Clear Operation"
+}
+
+8909 BM2.DoorXO_ERROR {
+	"BM2.DoorXO is error"
+	CLEAR		"Clear Operation"
+}
+
+8910 BM1.PinUpDown1XO_ERROR {
+	"BM1.PinUpDown1XO is error"
+	CLEAR		"Clear Operation"
+}
+
+8911 BM1.PinUpDown2XO_ERROR {
+	"BM1.PinUpDown2XO is error"
+	CLEAR		"Clear Operation"
+}
+
+8912 BM2.PinUpDown1XO_ERROR {
+	"BM2.PinUpDown1XO is error"
+	CLEAR		"Clear Operation"
+}
+
+8913 BM2.PinUpDown2XO_ERROR {
+	"BM2.PinUpDown2XO is error"
+	CLEAR		"Clear Operation"
+}
+
+8914 LPMA.ClampUnclampXO_ERROR {
+	"LPMA.ClampUnclampXO is error"
+	CLEAR		"Clear Operation"
+}
+
+8915 LPMB.ClampUnclampXO_ERROR {
+	"LPMB.ClampUnclampXO is error"
+	CLEAR		"Clear Operation"
+}
+
+8916 LPMC.ClampUnclampXO_ERROR {
+	"LPMC.ClampUnclampXO is error"
+	CLEAR		"Clear Operation"
+}
+
+
+
+########################################################
+
+# Value Interlock Alarm Definition 
+# LPMA Value Interlock -----------------------
+9000 LPMA.FOUP_PLACED_WRONG_ERROR {
+	"LPMA.Foup Not Properly Placed"
+	CLEAR		"Clear Operation"
+}
+
+9001 LPMA.FOUP_INTERLOCK_ERROR {
+	"LPMA.Foup Interlock Active Sensor Activated"
+	CLEAR		"Clear Operation"
+}
+
+9002 LPMA.WAFER_SLIDE_ERROR {
+	"LPMA.Foup Interlock Active Sensor Activated"
+	CLEAR		"Clear Operation"
+}
+
+# LPMB Value Interlock -----------------------
+9100 LPMB.FOUP_PLACED_WRONG_ERROR {
+	"LPMB.Foup Not Properly Placed"
+	CLEAR		"Clear Operation"
+}
+
+9101 LPMB.FOUP_INTERLOCK_ERROR {
+	"LPMB.Foup Interlock Active Sensor Activated"
+	CLEAR		"Clear Operation"
+}
+
+9102 LPMB.WAFER_SLIDE_ERROR {
+	"LPMB.Foup Interlock Active Sensor Activated"
+	CLEAR		"Clear Operation"
+}
+
+# LPMC Value Interlock -----------------------
+9200 LPMC.FOUP_PLACED_WRONG_ERROR {
+	"LPMC.Foup Not Properly Placed"
+	CLEAR		"Clear Operation"
+}
+
+9201 LPMC.FOUP_INTERLOCK_ERROR {
+	"LPMC.Foup Interlock Active Sensor Activated"
+	CLEAR		"Clear Operation"
+}
+
+9202 LPMC.WAFER_SLIDE_ERROR {
+	"LPMC.Foup Interlock Active Sensor Activated"
+	CLEAR		"Clear Operation"
+}
+
+#######################################################################
+# CTC Value Interlock
+#######################################################################
+
+9400 TM.PCWFlowSwitchAlarm {
+	"TM PCW Flow Switch Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9401 TM.PCWLeakAlarm {
+	"TM PCW Leak Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9402 TM.DryPumpPCWLeakAlarm {
+	"TM Dry Pump PCW Leak Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9403 TM.CRSFaultAlarm {
+	"TM CRS Fault Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9404 LL.TopLidOpenAlarm {
+	"Loadlock Top Lid Open alarm"
+	CLEAR		"Clear Operation"
+}
+
+9405 TM.TopLidOpenAlarm {
+	"TM Top Lid Open alarm"
+	CLEAR		"Clear Operation"
+}
+
+9406 LL1.PumpRunAlarm {
+	"LL1 Pump Run Status Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9407 LL1.PumpWarningAlarm {
+	"LL1 Pump Warning Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9408 LL1.PumpAlarm {
+	"LL1 Pump Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9409 LL2.PumpRunAlarm {
+	"LL2 Pump Run Status Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9410 LL2.PumpWarningAlarm {
+	"LL2 Pump Warning Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9411 LL2.PumpAlarm {
+	"LL2 Pump Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9412 TM.PumpRunAlarm {
+	"TM Pump Run Status Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9413 TM.PumpWarningAlarm {
+	"TM Pump Warning Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9414 TM.PumpAlarm {
+	"TM Pump Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9415 HePressureAlarm {
+	"He Pressure Switch Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9416 N2PressureAlarm {
+	"N2 Pressure Switch Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9417 CDAPressureAlarm {
+	"CDA Pressure Switch Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9418 ACPowerMajorSagAlarm {
+	"AC Power Major Sag. Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9419 ACPowerMinorSagAlarm {
+	"AC Power Minor Sag. Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9420 SmokeDetectMPBAlarm {
+	"Smoke Detect MPB Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9421 RPGPCWLEakDetectAlarm {
+	"RPG PCW Leak Detect Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9422 PCRackCoolFanAlarm {
+	"PC Rack Cooling Fan Status Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9423 EFEMLightCurtainAlarm {
+	"EFEM Light Curtain Status Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9424 EFEMDoorOpenAlarm {
+	"EFEM Door Open Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9425 TMPressureLowAlarm {
+	"TM Pressure Low Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9426 TMPressureHighAlarm {
+	"TM Pressure High Alarm"
+	CLEAR		"Clear Operation"
+}
+
+######################################
+## Main Power Rack Alarm (2015 Common Spec)
+######################################
+9430 RFRackLeak {
+	"RF Rack Leak Sensor detected Leak, Shut Off Valve Close"
+	CLEAR		"Clear Operation"
+}
+
+9431 MainPoFanFail {
+	"Main Power Box Right Fan is Fail"
+	CLEAR		"Clear Operation"
+}
+
+9432 MainPoFanFail {
+	"Main Power Box Left Fan is Fail"
+	CLEAR		"Clear Operation"
+}
+
+9433 MainPoDoorBy {
+	"Main Power Box Door Switch is Bypass"
+	CLEAR		"Clear Operation"
+}
+
+9434 RFFanFail {
+	"RF Rack Right Fan is Fail"
+	CLEAR		"Clear Operation"
+}
+
+9435 RFFanFail {
+	"RF Rack Left Fan is Fail"
+	CLEAR		"Clear Operation"
+}
+
+9436 RFDoorBy {
+	"RF Rack Door Switch is Bypass"
+	CLEAR		"Clear Operation"
+}
+######################################################################
+# SFEM2 alarm
+#######################################################################
+9500 ATMRBPrsSwitchAlarm {
+	"ATM Robot Pressure Swtich Status Alarm"
+	CLEAR		"Clear Operation"
+}
+9501 EFEMPwrFanAlarm {
+	"EFEM Power Box Fan Status Alarm"
+	CLEAR		"Clear Operation"
+}
+9502 EFEMIOBoxFanAlarm {
+	"EFEM IO BOX Fan Status Alarm"
+	CLEAR		"Clear Operation"
+}
+9503 EFEMTopFanAlarm {
+	"EFEM Top Zone Fan Status Alarm"
+	CLEAR		"Clear Operation"
+}
+#######################################################################
+# CTC Value Interlock
+#######################################################################
+9606 TM.PMA_NOT_READY_ALARM_ERROR {
+	"TM.PMA Not Ready Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9607 TM.PMB_NOT_READY_ALARM_ERROR {
+	"TM.PMB Not Ready Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9608 TM.PMC_NOT_READY_ALARM_ERROR {
+	"TM.PMC Not Ready Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9609 TM.PM4_NOT_READY_ALARM_ERROR {
+	"TM.PM4 Not Ready Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9610 TM.PM5_NOT_READY_ALARM_ERROR {
+	"TM.PM5 Not Ready Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+9611 TM.PMB_Bypass_Dry_Pump_Scrubber_Total_Alarm {
+	"TM.PMB BP DP & Scrubber Total Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+9612 TM.PMC_Bypass_Dry_Pump_Scrubber_Total_Alarm {
+	"TM.PMC BP DP & Scrubber Total Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+9613 TM.PM4_Bypass_Dry_Pump_Scrubber_Total_Alarm {
+	"TM.PM4 BP DP & Scrubber Total Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+9614 TM.PM5_Bypass_Dry_Pump_Scrubber_Total_Alarm {
+	"TM.PM5 BP DP & Scrubber Total Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9615 TM.Water_Supply_Valve_Closed_Alarm {
+	"TM.TM.WaterSplyVvDO Closed Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9620 TM.DRY_PUMP_ALARM_ERROR {
+	"TM.Dry Pump Run Status Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9621 TM.DRY_PUMP_ALARM_ERROR {
+	"TM.Dry Pump Warning Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9622 TM.DRY_PUMP_ALARM_ERROR {
+	"TM.Dry Pump N2 Flow Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9623 TM.TiCl4_Divert_ALARM_ERROR {
+	"TM.TiCl4 Divert Dry Pump Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9624 TM.TiCl4_Divert_ALARM_ERROR {
+	"TM.TiCl4 Divert Dry Pump Warning Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9625 TM.TiCl4_Divert_ALARM_ERROR {
+	"TM.TiCl4 Divert Dry Pump Warning 2 Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9626 TM.TiCl4_Divert_ALARM_ERROR {
+	"TM.TiCl4 Divert Dry Pump Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9627 TM.TiCl4_Divert_Scrubber_ALARM_ERROR {
+	"TM.TiCl4 Divert Scrubber Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9628 TM.VTM_Robot_Error_ALARM_ERROR {
+	"TM.VTM Robot Error Detected"
+	CLEAR		"Clear Operation"
+}
+
+9629 TM.ATM_Robot_Error_ALARM_ERROR {
+	"TM.ATM Robot Error Detected"
+	CLEAR		"Clear Operation"
+}
+
+9630 TM.ATM_Aligner_Error_ALARM_ERROR {
+	"TM.ATM Aligner Error Detected"
+	CLEAR		"Clear Operation"
+}
+
+9631 TM.Water_Supply_Valve_Alarm {
+	"TM.Water Supply Valve Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9632 All_Chamber_Scrubber_Alarm {
+	"PMA_PMB_PMC.All Chamber Scrubber Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9640 RemoteRack_WaterLeak_Alarm {
+	"Remote Rack Water Leak Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9641 WaterLeak_SignalConnector_Alarm {
+	"Water Leak Signal Connector Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9642 RemoteRack_WaterPressure_Alarm {
+	"Remote Rack Water Pressure Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9643 RemoteRack_ShutOffValve_Alarm {
+	"Remote Rack Shut Off Valve Alarm"
+	CLEAR		"Clear Operation"
+}
+
+9701 TM.PMA_DryCleanCountOver_Alarm {
+	"TM.PMA Dry Cleaning Count Over"
+	CLEAR		"Clear Operation"
+}
+
+9702 TM.PMB_DryCleanCountOver_Alarm {
+	"TM.PMB Dry Cleaning Count Over"
+	CLEAR		"Clear Operation"
+}
+
+9703 TM.PMC_DryCleanCountOver_Alarm {
+	"TM.PMC Dry Cleaning Count Over"
+	CLEAR		"Clear Operation"
+}
+
+9704 TM.PM4_DryCleanCountOver_Alarm {
+	"TM.PM4 Dry Cleaning Count Over"
+	CLEAR		"Clear Operation"
+}
+
+9705 TM.PM5_DryCleanCountOver_Alarm {
+	"TM.PM5 Dry Cleaning Count Over"
+	CLEAR		"Clear Operation"
+}
+
+9712 TM.PMB_PurgeCountOver_Alarm {
+	"TM.PMB Purge Count Over"
+	CLEAR		"Clear Operation"
+}
+9713 TM.PMC_PurgeCountOver_Alarm {
+	"TM.PMC Purge Count Over"
+	CLEAR		"Clear Operation"
+}
+
+9714 TM.PM4_PurgeCountOver_Alarm {
+	"TM.PM4 Purge Count Over"
+	CLEAR		"Clear Operation"
+}
+
+9715 TM.PM5_PurgeCountOver_Alarm {
+	"TM.PM5 Purge Count Over"
+	CLEAR		"Clear Operation"
+}
+
+9716 TM.WATER_FLOW_ERROR {
+	"TM.Water Not Flow Detected"
+	CLEAR		"Clear Operation"
+}
+
+9717 TM.WATER_LEAK1_ERROR {
+	"TM.Water Leak1 Detected"
+	CLEAR		"Clear Operation"
+}
+
+9718 TM.WATER_LEAK2_ERROR {
+	"TM.Water Leak2 Detected"
+	CLEAR		"Clear Operation"
+}
+
+9719 TM.Main_Ar_LowLimit_Alarm {
+	"TM.Main Ar Low Limit Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9720 TM.Main_Ar_OutofRange_Alarm {
+	"TM.Main Ar Out of Range Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9721 TM.Main_Air_Pressure_Alarm {
+	"TM.Main Air Pressure Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+9722 TM.EFEM_Diff_Pressure_Alarm {
+	"EFEM Differential Pressure Low Alarm Detected"
+	CLEAR		"Clear Operation"
+}
+
+########################################################
+#2010.04.22
+#HDD FAIL MONITOR ALARM 
+9731	CTC_HDD_1_FAILED	{	
+	"CTC Hard Disk-1 Is Failed"		
+	CLEAR	"Clear Operation"	
+	}		
+
+9732	CTC_HDD_2_FAILED	{	
+	"CTC Hard Disk-2 Is Failed"		
+	CLEAR	"Clear Operation"	
+	}

@@ -1,0 +1,30 @@
+PM_INT_MONITOR		90	FUNCTION/FUNCTION_INT_Monitor/Sequence	RUN
+
+#-----------------------------------------------------------
+# CTC GUI
+#-----------------------------------------------------------
+
+ALARM_MANAGER		99	Engine/Exec/GUI_AlarmManager		RUN	"FUNCTION/Function_GUI/Gui_AlarmManager/Background/Background"	""
+ALARM_HISTORY		99	Engine/Exec/GUI_AlarmHistory		RUN	"FUNCTION/Function_GUI/Gui_AlarmHistory/Background/Background"	""
+#IO_MANAGER		99	Engine/Exec/GUI_IOManager			RUN	"FUNCTION/Function_GUI/Gui_IOManager/Background/Background"	""
+IO_MANAGER		99	Function/Function_GUI/Gui_IOManager/GUI_IOManager		RUN		"FUNCTION/Function_GUI/Gui_IOManager/Background/Background"	""
+
+SCREEN_MANAGER_STATUS	99	Engine/Exec/GUI_Screen_Status2		RUN	""	"GUI/Layout/Gui_Screen_Status.cfg|Parameter/Users/User.cfg"
+SCREEN_USER_CONTROL	97	Engine/Exec/GUI_Screen_User_Control		RUN	""	"Parameter/Users/User.cfg|FUNCTION/Function_GUI/Gui_Screen_User_Control/Background/Background"
+
+SCREEN_MANAGER_BOTTOM	99	Engine/Exec/GUI_Screen_Bottom		RUN	""	"GUI/Layout/Gui_Screen_Bottom.cfg"
+SCREEN_MANAGER_RIGHT	99	Engine/Exec/GUI_Screen_Right		RUN	""	"GUI/Layout/Gui_Screen_Right.cfg"
+SCREEN_CLEAR		99	Engine/Exec/Screen_Clear			RUN	""	"GUI/Layout/BackGround_ScrCls/ScrCls_Bitmap.dll"
+
+#-----------------------------------------------------------
+# User Screen Area
+#-----------------------------------------------------------
+SCREEN_RECIPE_PRCS_PMC	98	-	SUCCESS
+SCREEN_PLOTTING_PMC	99	Engine/Exec/GUI_Plotter			RUN	"FUNCTION/Function_GUI/Gui_Plotting/Background/Background"	"PARAMETER/PLOTTING/Service_Plotting_PMC.IO"
+SCREEN_PLOTTING_PMC1	99	Parameter/GUI_Plotter/GUI_Plotter	RUN	"FUNCTION/Function_GUI/Gui_Plotting/Background/Background"	"PARAMETER/PLOTTING/Service_Plotting_PMC1.IO"
+SCREEN_PLOTTING_PMC2	99	Parameter/GUI_Plotter/GUI_Plotter	RUN	"FUNCTION/Function_GUI/Gui_Plotting/Background/Background"	"PARAMETER/PLOTTING/Service_Plotting_PMC2.IO"
+
+SCREEN_PMC		99	Engine/Exec/GUI_Standard2			RUN	""	"GUI/PMC/Menu_Service_beforeNF3.cfg"
+SCREEN_PMC_2		99	Engine/Exec/GUI_Standard2			RUN	""	"GUI/PMC/Menu_Service2.cfg"
+SCREEN_PARM_SAVE	99	Engine/Exec/GUI_Standard2			RUN	""	"GUI/PMC/Menu_PM_Parm_Save.cfg"
+SCREEN_HEATER_SET	99	Engine/Exec/GUI_Standard2			RUN	""	"GUI/PMC/Menu_Heater_Set.cfg"

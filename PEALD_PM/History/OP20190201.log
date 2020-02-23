@@ -1,0 +1,36 @@
+2019/2/1 16:26:35	USERCONTROL	[SYSTEM_START]
+2019/2/1 16:26:57	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2019/2/1 16:26:59	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2019/2/1 16:27:0	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2019/2/1 16:27:0	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2019/2/1 16:27:1	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2019/2/1 16:27:1	BUTTON	[BOTTOM CLICK] Bottom_Config
+2019/2/1 16:27:3	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2019/2/1 16:27:3	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2019/2/1 16:27:6	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 7(PM Param 2)
+2019/2/1 16:27:6	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2019/2/1 16:27:8	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 8(PM Param 3)
+2019/2/1 16:27:8	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2019/2/1 16:27:9	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 9(PM Param 4)
+2019/2/1 16:27:9	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2019/2/1 16:27:10	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 10(PM Param 5)
+2019/2/1 16:27:10	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2019/2/1 16:27:31	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2019/2/1 16:27:31	BUTTON	[BOTTOM CLICK] Bottom_Service
+2019/2/1 16:27:32	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2019/2/1 16:27:32	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2019/2/1 16:27:44	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2019/2/1 16:27:55	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2019/2/1 16:27:55	BUTTON	[BOTTOM CLICK] Bottom_Config
+2019/2/1 16:28:27	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2019/2/1 16:28:27	BUTTON	[BOTTOM CLICK] Bottom_Service
+2019/2/1 16:28:49	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2019/2/1 16:28:49	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2019/2/1 16:28:50	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2019/2/1 16:28:50	BUTTON	[BOTTOM CLICK] Bottom_Service
+2019/2/1 16:28:51	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2019/2/1 16:28:51	BUTTON	[BOTTOM CLICK] Bottom_Config
+2019/2/1 16:29:11	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2019/2/1 16:29:11	BUTTON	[BOTTOM CLICK] Bottom_Service
+2019/2/1 16:30:33	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2019/2/1 16:30:33	BUTTON	[BOTTOM CLICK] Bottom_System

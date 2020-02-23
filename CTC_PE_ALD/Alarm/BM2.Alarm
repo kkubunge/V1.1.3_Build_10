@@ -1,0 +1,321 @@
+#------------------------------------------------------------------------------
+# BM2 Alarm 2000 -2999
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# TMC_LCASSETTE2_CONTROL
+#------------------------------------------------------------------------------
+#501
+2001 BM2.CASS.COMM_ERROR {
+	"BM2 Cassette Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#502
+2002 BM2.CASS.ERROR {
+	"BM2 Cassette Error Occur"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#503
+2003 BM2.CASS.HOME {
+	"BM2 Cassette Home Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#504
+2004 BM2.CASS.DOOR {
+	"BM2 Door Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#505
+2005 BM2.CASS.GOSLOT {
+	"BM2 Cassette GoSlot Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#506
+2006 BM2.CASS.GOLOAD {
+	"BM2 Cassette GoLoad Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#507
+2007 BM2.CASS.DCTWFR {
+	"BM2 Cassette DctWfr Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#508
+2008 BM2.CASS.PLATFORM {
+	"BM2 Cassette Platform Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#509
+2009 BM2.CASS.MAPPING {
+	"BM2 Cassette Mapping Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#510
+2010 BM2.CASS.DOOR2 {
+	"BM2 Door2 Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#511
+2011 BM2.CASS.GOSLOT2 {
+	"BM2 Cassette GoSlot2 Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#512
+2012 BM2.CASS.GOLOAD2 {
+	"BM2 Cassette GoLoad2 Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#513
+2013 BM2.CASS.PLATFORM2 {
+	"BM2 Cassette Platform2 Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#514
+2014 BM2.CASS.SLIDEDCT {
+	"BM2 Cassette or Wafer Sliding Detect"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#515
+2015 BM2.CASS.CARRIER {
+	"BM2 Cassette Carrier not Present"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#516
+2016 BM2.CASS.NOT_WAFERON {
+	"BM2 Cassette has not Wafer at Slot"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#517
+2017 BM2.CASS.NOT_WAFEROFF {
+	"BM2 Cassette has a Wafer at Slot"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# TMC_LLB_VAC_CONTROL	531-550
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+#531
+2031 BM2.S_VENT_TIMEOUT {
+	"BM2 Soft Vent Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#532
+2032 BM2.F_VENT_TIMEOUT {
+	"BM2 Fast Vent Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#533
+2033 BM2.S_PUMP_TIMEOUT {
+	"BM2 Soft Pump Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#534
+2034 BM2.F_PUMP_TIMEOUT {
+	"BM2 Fast Pump Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#535
+2035 BM2.ISO_CLOSE {
+	"BM2 Iso Valve Close Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#536
+2036 BM2.ISO_OPEN {
+	"BM2 Iso Valve Open Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#537
+2037 BM2.PUMP_CHECK {
+	"BM2 Pump Check Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#538
+2038 BM2.PUMP2_CHECK {
+	"BM2 Pump2 Check Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+2039 BM2.VACUUM.ERROR {
+	"BM2 is not Vacuum. Please prepare vacuum status"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+
+#
+# From here, added by IPS (2004/04/16)
+#
+#------------------------------------------------------------------------------
+# PIN_CONTROL
+#------------------------------------------------------------------------------
+
+2040 BM2.PIN_TIMEOUT {
+	"BM2 Pin Up/Down Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+2041 BM2.LL_POSITION_TIMEOUT {
+	"BM2 Position Load/Unload Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+2042 BM2.LL_MOTOR_IS_NOT_READY {
+	"BM2 Position Control Motor is not ready"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+2043 BM2.LL_MOTION_CONDITION_ERR {
+	"BM2 & Main BM Motion Condition Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+2044 BM2.LL_MOTION_MOVEMENT_ERR {
+	"BM1 is not unload position"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+2045 BM2.LL_ALARM_RESET_ERR {
+	"BM2 Alarm Reset Fail"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+#------------------------------------------------------------------------------
+# LEAK_CHECK_CONTROL
+#------------------------------------------------------------------------------
+2046 BM2.LL_LEAK_RATE_ERR {
+	"BM2 Leak Rate Limit Over"
+	RETRY		"Retry"
+	ABORT		"Abort"	
+}
+
+2047 BM2.LL_LEAK_AVG_ERR {
+	"BM2 Leak Average Limit Over"
+	RETRY		"Retry"
+	ABORT		"Abort"	
+}
+#------------------------------------------------------------------------------
+# ROUGH_PUMP_CONTROL
+#------------------------------------------------------------------------------
+
+# 2006.09.14
+2050 BM2.DP_ARRANGE_FAIL {
+	"BM2 Single Dry Pump Arrange Failed"
+	RETRY		"Retry"
+	ABORT		"Abort"
+}
+
+2341 BM2.PUMPR.COMM_ERROR {
+	"BM2 RoughPump Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+2342 BM2.PUMPR.PUMP_CTR_TMO {
+	"BM2 RoughPump Control Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+2343 BM2.PUMPR.PUMP_WARN {
+	"BM2 Rough Pump Warning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+2344 BM2.PUMPR.PUMP_ALARM {
+	"BM2 Rough Pump Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}

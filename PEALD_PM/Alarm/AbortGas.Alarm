@@ -1,0 +1,37 @@
+#
+#
+#
+# Possible Recovery Action String
+#	- CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+###################### not used ##############################
+1400	AbortGasFail	{
+	"Abort Gas Function Failed"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1401	StopAllTimersFail	{
+	"Stop All Timers failed"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1402	MFCFuncFail	{
+	"MFC Control Function Failed"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+

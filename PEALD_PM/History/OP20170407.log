@@ -1,0 +1,588 @@
+2017/4/7 11:0:48	USERCONTROL	[SYSTEM_START]
+2017/4/7 11:1:3	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2017/4/7 11:1:5	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2017/4/7 11:1:6	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 11:1:6	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 11:1:9	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2017/4/7 11:1:9	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2017/4/7 11:1:9	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/7 11:1:9	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/7 11:1:20	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2017/4/7 11:1:21	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2017/4/7 11:1:21	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2017/4/7 11:1:22	SETTING	[DIO] Right_Service_Htr_Nav with [1] at Page = 2(Main Heater)
+2017/4/7 11:1:22	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 1
+2017/4/7 11:1:24	SETTING	[DIO] HTREditEnableDisable with [1] at Page = 2(Main Heater)
+2017/4/7 11:1:25	SETTING	[DIO] Right_Service_Htr_Nav with [2] at Page = 2(Main Heater)
+2017/4/7 11:1:25	BUTTON	[NAV CLICK] Right_Service_Htr_Nav - 2
+2017/4/7 11:1:30	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 11:1:30	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 11:1:33	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 11:1:33	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 11:1:35	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/7 11:1:35	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/7 11:1:41	IOEDIT	DirectIO Edit => DIO:INTLKS_CONTROL , VALUE:3
+2017/4/7 11:1:42	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 11:1:42	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 11:1:51	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:0	SETTING	[AIO] M651_Set_Position with [100.000] at Page = 0(Main)
+2017/4/7 11:2:14	SETTING	[DIO] V1ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:19	SETTING	[AIO] MFC01StPtAO with [4500.000] at Page = 0(Main)
+2017/4/7 11:2:20	SETTING	[DIO] V2ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:21	SETTING	[DIO] V22ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:22	SETTING	[DIO] V101ValveDO with [Close(0)] at Page = 0(Main)
+2017/4/7 11:2:23	SETTING	[DIO] V60ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:25	SETTING	[AIO] MFC09StPtAO with [4500.000] at Page = 0(Main)
+2017/4/7 11:2:26	SETTING	[DIO] V61ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:27	SETTING	[DIO] V64ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:28	SETTING	[DIO] V109ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:30	SETTING	[DIO] V56ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:32	SETTING	[AIO] MFC07StPtAO with [1900.000] at Page = 0(Main)
+2017/4/7 11:2:33	SETTING	[DIO] V57ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:34	SETTING	[DIO] V63ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:35	SETTING	[DIO] V110ValveDO with [Close(0)] at Page = 0(Main)
+2017/4/7 11:2:38	SETTING	[DIO] V110ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:39	SETTING	[DIO] V5ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:42	SETTING	[AIO] MFC03StPtAO with [1900.000] at Page = 0(Main)
+2017/4/7 11:2:44	SETTING	[DIO] V101ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:45	SETTING	[DIO] V6ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:46	SETTING	[DIO] V21ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:48	SETTING	[DIO] V102ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:50	SETTING	[DIO] V49ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:52	SETTING	[AIO] MFC04StPtAO with [300.000] at Page = 0(Main)
+2017/4/7 11:2:54	SETTING	[DIO] V50ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:55	SETTING	[DIO] V12ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:56	SETTING	[DIO] V19ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:57	SETTING	[DIO] V17ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:58	SETTING	[DIO] V62ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:2:59	SETTING	[DIO] V106ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:3:0	SETTING	[DIO] V20ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:3:1	SETTING	[DIO] V98ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 11:3:9	SETTING	[AIO] M651_Set_Pressure with [2.300] at Page = 0(Main)
+2017/4/7 11:3:59	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2017/4/7 11:3:59	BUTTON	[RIGHT CLICK] Right_System_Control
+2017/4/7 11:4:0	FUNCTION	[START] SERV_MAIN with [ABORT_GAS] at Page = 1(Control)
+2017/4/7 11:4:1	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2017/4/7 11:4:1	BUTTON	[RIGHT CLICK] Right_System_Main
+2017/4/7 11:5:1	SETTING	[AIO] M651_Set_Pressure with [10.000] at Page = 0(Main)
+2017/4/7 11:5:10	SETTING	[AIO] M651_Set_Position with [100.000] at Page = 0(Main)
+2017/4/7 11:5:23	SETTING	[DIO] Bottom_Utility with [1] at Page = 0(PAGE 1)
+2017/4/7 11:5:23	BUTTON	[BOTTOM CLICK] Bottom_Utility
+2017/4/7 11:5:25	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2017/4/7 11:5:25	BUTTON	[BOTTOM CLICK] Bottom_Config
+2017/4/7 11:5:29	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 11:5:29	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 11:5:32	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 11:5:32	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 11:5:50	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2017/4/7 11:5:50	BUTTON	[RIGHT CLICK] Right_System_Control
+2017/4/7 11:8:52	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2017/4/7 11:8:52	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2017/4/7 11:15:53	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2017/4/7 11:15:53	BUTTON	[RIGHT CLICK] Right_System_Control
+2017/4/7 13:51:11	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2017/4/7 13:51:11	BUTTON	[RIGHT CLICK] Right_System_Main
+2017/4/7 13:51:13	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 0(Main)
+2017/4/7 13:51:15	SETTING	[DIO] M651_Valve with [Close(2)] at Page = 0(Main)
+2017/4/7 16:17:11	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 16:17:11	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 16:17:12	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 16:17:12	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 16:17:16	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:17:18	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:17:19	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 16:17:19	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 16:17:27	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2017/4/7 16:17:29	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 16:17:29	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 16:17:34	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:18:16	SETTING	[AIO] M651_Set_Position with [5.000] at Page = 0(Main)
+2017/4/7 16:18:24	SETTING	[AIO] M651_Set_Position with [10.000] at Page = 0(Main)
+2017/4/7 16:18:35	SETTING	[AIO] M651_Set_Position with [30.000] at Page = 0(Main)
+2017/4/7 16:18:40	SETTING	[AIO] M651_Set_Position with [50.000] at Page = 0(Main)
+2017/4/7 16:18:43	SETTING	[AIO] M651_Set_Position with [100.000] at Page = 0(Main)
+2017/4/7 16:18:53	SETTING	[DIO] V1ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:18:57	SETTING	[DIO] V1ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:18:59	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 16:18:59	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 16:19:6	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 16:19:6	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 16:19:42	SETTING	[DIO] V2ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:19:44	SETTING	[DIO] V22ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:19:44	SETTING	[DIO] V101ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:19:48	SETTING	[AIO] MFC01StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 16:19:52	SETTING	[DIO] V3ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:19:54	SETTING	[DIO] V4ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:19:57	SETTING	[DIO] V21ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:19:58	SETTING	[DIO] V23ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:19:59	SETTING	[DIO] V6ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:0	SETTING	[DIO] V5ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:1	SETTING	[DIO] V97ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:3	SETTING	[DIO] V98ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:4	SETTING	[DIO] V102ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:4	SETTING	[DIO] V100ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:5	SETTING	[DIO] V24ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:7	SETTING	[AIO] MFC03StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 16:20:10	SETTING	[DIO] V20ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:15	SETTING	[AIO] MFC02StPtAO with [1000.000] at Page = 0(Main)
+2017/4/7 16:20:17	SETTING	[DIO] V109ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:18	SETTING	[DIO] V64ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:19	SETTING	[DIO] V61ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:20	SETTING	[DIO] V60ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:23	SETTING	[AIO] MFC09StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 16:20:26	SETTING	[DIO] V106ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:28	SETTING	[DIO] V105ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:29	SETTING	[DIO] V65ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:31	SETTING	[DIO] V110ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:32	SETTING	[DIO] V63ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:33	SETTING	[DIO] V57ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:34	SETTING	[DIO] V59ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:36	SETTING	[DIO] V58ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:40	SETTING	[AIO] MFC08StPtAO with [1000.000] at Page = 0(Main)
+2017/4/7 16:20:44	SETTING	[DIO] V68ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:46	SETTING	[DIO] V111ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:48	SETTING	[DIO] V103ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:49	SETTING	[DIO] V55ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:50	SETTING	[DIO] V54ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:53	SETTING	[DIO] V56ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:20:55	SETTING	[AIO] MFC07StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 16:20:58	SETTING	[AIO] MFC06StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 16:21:2	SETTING	[DIO] V62ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:21:3	SETTING	[DIO] V17ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:21:4	SETTING	[DIO] V19ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:21:5	SETTING	[DIO] V12ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:21:5	SETTING	[DIO] V50ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:21:7	SETTING	[DIO] V49ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:21:9	SETTING	[AIO] MFC04StPtAO with [1000.000] at Page = 0(Main)
+2017/4/7 16:21:20	SETTING	[DIO] V53ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:21:23	SETTING	[DIO] V52ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 16:21:26	SETTING	[AIO] MFC05StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 16:21:32	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/7 16:21:32	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/7 16:21:37	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2017/4/7 16:21:38	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 16:21:38	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 16:21:40	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 16:21:40	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 16:21:55	SETTING	[DIO] V24ValveDO with [Close(0)] at Page = 0(Main)
+2017/4/7 16:21:56	SETTING	[DIO] V100ValveDO with [Close(0)] at Page = 0(Main)
+2017/4/7 16:35:56	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2017/4/7 16:35:56	BUTTON	[RIGHT CLICK] Right_System_Control
+2017/4/7 16:35:58	FUNCTION	[START] SERV_MAIN with [ABORT_GAS] at Page = 1(Control)
+2017/4/7 16:35:59	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2017/4/7 16:35:59	BUTTON	[RIGHT CLICK] Right_System_Main
+2017/4/7 16:36:16	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 0(Main)
+2017/4/7 16:36:57	USERCONTROL	[SYSTEM_START]
+2017/4/7 16:37:10	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2017/4/7 16:37:13	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2017/4/7 16:37:14	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 16:37:14	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 17:54:0	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 17:54:0	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 17:54:5	SETTING	[DIO] FastRoughVlvDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:45:1	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:45:1	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:45:4	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/7 18:45:4	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/7 18:45:5	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2017/4/7 18:45:5	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2017/4/7 18:45:11	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2017/4/7 18:45:11	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2017/4/7 18:45:12	SETTING	[DIO] Right_Service_Leak_Nav with [2] at Page = 1(Leak Check)
+2017/4/7 18:45:12	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 2
+2017/4/7 18:45:14	SETTING	[DIO] Right_Service_Leak_Nav with [3] at Page = 2(ALD ValveLeak Check)
+2017/4/7 18:45:14	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 3
+2017/4/7 18:45:27	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 18:45:27	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 18:45:28	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:45:28	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:45:31	SETTING	[DIO] Right_Service_Leak_Nav with [4] at Page = 3(GasLine Leak Check)
+2017/4/7 18:45:31	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 4
+2017/4/7 18:45:32	SETTING	[DIO] Right_Service_Leak_Nav with [3] at Page = 4(User Mode Leak Check)
+2017/4/7 18:45:32	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 3
+2017/4/7 18:45:32	SETTING	[DIO] Right_Service_Leak_Nav with [2] at Page = 3(GasLine Leak Check)
+2017/4/7 18:45:32	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 2
+2017/4/7 18:45:33	SETTING	[DIO] Right_Service_Leak_Nav with [1] at Page = 2(ALD ValveLeak Check)
+2017/4/7 18:45:33	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 1
+2017/4/7 18:45:34	SETTING	[DIO] Right_Service_Leak_Nav with [2] at Page = 1(Leak Check)
+2017/4/7 18:45:34	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 2
+2017/4/7 18:45:34	SETTING	[DIO] Right_Service_Leak_Nav with [3] at Page = 2(ALD ValveLeak Check)
+2017/4/7 18:45:34	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 3
+2017/4/7 18:45:42	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/7 18:45:42	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/7 18:45:43	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2017/4/7 18:45:45	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:45:45	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:45:58	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 18:45:58	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 18:45:59	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:45:59	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:46:2	SETTING	[AIO] LnLkChkBasePressAM with [15.000] at Page = 3(GasLine Leak Check)
+2017/4/7 18:46:5	SETTING	[AIO] LnLkChkLimitPressAM with [150.000] at Page = 3(GasLine Leak Check)
+2017/4/7 18:46:11	SETTING	[AIO] LnLkChkDelayTimeAM with [10.000] at Page = 3(GasLine Leak Check)
+2017/4/7 18:49:1	SETTING	[AIO] LnLkChkDelayTimeAM with [30.000] at Page = 3(GasLine Leak Check)
+2017/4/7 18:49:3	SETTING	[AIO] LnRoRLimitAM with [5.000] at Page = 3(GasLine Leak Check)
+2017/4/7 18:49:6	SETTING	[AIO] LnLkChkCountSPAM with [10.000] at Page = 3(GasLine Leak Check)
+2017/4/7 18:49:9	SETTING	[AIO] LnLkChkPumpTimeOutAM with [60.000] at Page = 3(GasLine Leak Check)
+2017/4/7 18:49:12	SETTING	[AIO] LnBaseDelayTimeAM with [60.000] at Page = 3(GasLine Leak Check)
+2017/4/7 18:49:29	FUNCTION	[START] SERV_MAIN with [GAS_CHECK] at Page = 3(GasLine Leak Check)
+2017/4/7 18:49:30	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 18:49:30	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 18:49:32	SETTING	[DIO] V5ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:49:34	SETTING	[DIO] V6ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:49:35	SETTING	[DIO] V21ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:49:36	SETTING	[DIO] V102ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:49:36	SETTING	[DIO] V101ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:49:37	SETTING	[DIO] V23ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:49:38	SETTING	[DIO] V22ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:49:39	SETTING	[DIO] V2ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:49:40	SETTING	[DIO] V1ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:49:40	SETTING	[DIO] V3ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:49:41	SETTING	[DIO] V4ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:49:42	SETTING	[DIO] V97ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:49:43	SETTING	[DIO] V98ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:49:45	SETTING	[DIO] V100ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:49:49	SETTING	[AIO] MFC01StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 18:49:51	SETTING	[AIO] MFC02StPtAO with [1000.000] at Page = 0(Main)
+2017/4/7 18:49:53	SETTING	[AIO] MFC03StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 18:49:54	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:49:54	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:49:57	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/7 18:49:57	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/7 18:50:11	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2017/4/7 18:50:17	IOEDIT	DirectIO Edit => DIO:INTLKS_CONTROL , VALUE:3
+2017/4/7 18:50:18	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 18:50:18	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 18:50:20	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:50:20	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:50:22	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2017/4/7 18:50:22	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2017/4/7 18:50:23	FUNCTION	[START] SERV_MAIN with [GAS_CHECK] at Page = 3(GasLine Leak Check)
+2017/4/7 18:50:24	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/7 18:50:24	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/7 18:50:26	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 18:50:26	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 18:50:29	SETTING	[DIO] V1ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:30	SETTING	[DIO] V2ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:30	SETTING	[DIO] V22ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:32	SETTING	[DIO] V101ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:33	SETTING	[DIO] V23ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:33	SETTING	[DIO] V21ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:34	SETTING	[DIO] V102ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:35	SETTING	[DIO] V98ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:36	SETTING	[DIO] V97ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:37	SETTING	[DIO] V4ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:38	SETTING	[DIO] V6ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:39	SETTING	[DIO] V100ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:40	SETTING	[DIO] V24ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:41	SETTING	[DIO] V5ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:42	SETTING	[DIO] V3ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:44	SETTING	[AIO] MFC01StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 18:50:47	SETTING	[AIO] MFC02StPtAO with [1000.000] at Page = 0(Main)
+2017/4/7 18:50:49	SETTING	[AIO] MFC03StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 18:50:51	SETTING	[DIO] V109ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:52	SETTING	[DIO] V64ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:52	SETTING	[DIO] V61ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:54	SETTING	[DIO] V60ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:56	SETTING	[AIO] MFC09StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 18:50:57	SETTING	[DIO] V106ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:58	SETTING	[DIO] V110ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:59	SETTING	[DIO] V105ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:50:59	SETTING	[DIO] V63ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:0	SETTING	[DIO] V65ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:1	SETTING	[DIO] V108ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:2	SETTING	[DIO] V66ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:2	SETTING	[DIO] V57ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:3	SETTING	[DIO] V59ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:4	SETTING	[DIO] V58ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:6	SETTING	[AIO] MFC08StPtAO with [1000.000] at Page = 0(Main)
+2017/4/7 18:51:8	SETTING	[DIO] V56ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:10	SETTING	[AIO] MFC07StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 18:51:12	SETTING	[DIO] V55ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:12	SETTING	[DIO] V54ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:15	SETTING	[AIO] MFC06StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 18:51:17	SETTING	[DIO] V68ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:18	SETTING	[DIO] V111ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:19	SETTING	[DIO] V103ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:20	SETTING	[DIO] V53ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:21	SETTING	[DIO] V52ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:23	SETTING	[AIO] MFC05StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 18:51:24	SETTING	[DIO] V62ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:25	SETTING	[DIO] V17ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:25	SETTING	[DIO] V19ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:26	SETTING	[DIO] V12ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:27	SETTING	[DIO] V50ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:28	SETTING	[DIO] V49ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 18:51:30	SETTING	[AIO] MFC04StPtAO with [1000.000] at Page = 0(Main)
+2017/4/7 18:51:35	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:51:35	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:51:36	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2017/4/7 18:51:36	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2017/4/7 18:51:42	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/7 18:51:42	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/7 18:51:51	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2017/4/7 18:51:57	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:51:57	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:52:16	SETTING	[DIO] Right_Service_Leak_Nav with [4] at Page = 3(GasLine Leak Check)
+2017/4/7 18:52:16	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 4
+2017/4/7 18:52:18	SETTING	[DIO] Right_Service_Leak_Nav with [3] at Page = 4(User Mode Leak Check)
+2017/4/7 18:52:18	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 3
+2017/4/7 18:52:19	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 18:52:19	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 18:56:47	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/7 18:56:47	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/7 18:56:56	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:56:56	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:56:58	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2017/4/7 18:56:58	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2017/4/7 18:56:59	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 18:56:59	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 18:57:4	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:57:4	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:57:6	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2017/4/7 18:57:6	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2017/4/7 18:57:8	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 18:57:8	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 18:57:15	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:57:15	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:57:19	SETTING	[AIO] LnLkChkBasePressAM with [16.000] at Page = 3(GasLine Leak Check)
+2017/4/7 18:57:22	SETTING	[AIO] LnLkChkLimitPressAM with [160.000] at Page = 3(GasLine Leak Check)
+2017/4/7 18:57:27	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 18:57:27	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 18:57:28	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:57:28	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:57:31	SETTING	[AIO] LnLkChkBasePressAM with [15.000] at Page = 3(GasLine Leak Check)
+2017/4/7 18:57:34	SETTING	[AIO] LnLkChkLimitPressAM with [15.000] at Page = 3(GasLine Leak Check)
+2017/4/7 18:57:36	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 18:57:36	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 18:57:38	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:57:38	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:57:39	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 18:57:39	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 18:57:40	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:57:40	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:57:44	SETTING	[AIO] LnLkChkBasePressAM with [16.000] at Page = 3(GasLine Leak Check)
+2017/4/7 18:57:47	SETTING	[AIO] LnLkChkLimitPressAM with [160.000] at Page = 3(GasLine Leak Check)
+2017/4/7 18:57:53	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 18:57:53	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 18:57:59	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:57:59	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:58:0	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 18:58:0	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 18:58:4	FUNCTION	[START] SERV_MAIN with [OTHER_CHECK] at Page = 0(Main)
+2017/4/7 18:58:10	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:58:10	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:58:15	FUNCTION	[START] SERV_MAIN with [GAS_CHECK] at Page = 3(GasLine Leak Check)
+2017/4/7 18:58:22	FUNCTION	[START] SERV_MAIN with [GAS_CHECK] at Page = 3(GasLine Leak Check)
+2017/4/7 18:58:26	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/7 18:58:26	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/7 18:58:35	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2017/4/7 18:58:38	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2017/4/7 18:58:38	BUTTON	[BOTTOM CLICK] Bottom_Config
+2017/4/7 18:58:39	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2017/4/7 18:58:39	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2017/4/7 18:58:42	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 7(PM Param 2)
+2017/4/7 18:58:42	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2017/4/7 18:58:45	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 8(PM Param 3)
+2017/4/7 18:58:45	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2017/4/7 18:58:47	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 9(PM Param 4)
+2017/4/7 18:58:47	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2017/4/7 18:58:55	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 10(PM Param 5)
+2017/4/7 18:58:55	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2017/4/7 18:58:57	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 11(PM Param 6)
+2017/4/7 18:58:57	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7
+2017/4/7 18:59:0	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 12(PM Param 7)
+2017/4/7 18:59:0	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2017/4/7 18:59:15	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/7 18:59:15	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/7 18:59:19	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:59:19	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 18:59:22	FUNCTION	[START] SERV_MAIN with [GAS_CHECK] at Page = 3(GasLine Leak Check)
+2017/4/7 18:59:29	SETTING	[AIO] LnLkChkCountSPAM with [10.000] at Page = 3(GasLine Leak Check)
+2017/4/7 18:59:34	FUNCTION	[START] SERV_MAIN with [GAS_CHECK] at Page = 3(GasLine Leak Check)
+2017/4/7 18:59:37	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2017/4/7 18:59:37	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2017/4/7 18:59:39	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 18:59:39	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 19:1:57	FUNCTION	[START] SERV_MAIN with [GAS_CHECK] at Page = 3(GasLine Leak Check)
+2017/4/7 19:2:0	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 19:2:0	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 19:2:1	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 19:2:1	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 19:2:6	SETTING	[DIO] Right_Service_Leak_Nav with [4] at Page = 3(GasLine Leak Check)
+2017/4/7 19:2:6	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 4
+2017/4/7 19:2:7	SETTING	[DIO] Right_Service_Leak_Nav with [3] at Page = 4(User Mode Leak Check)
+2017/4/7 19:2:7	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 3
+2017/4/7 19:2:8	SETTING	[DIO] Right_Service_Leak_Nav with [2] at Page = 3(GasLine Leak Check)
+2017/4/7 19:2:8	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 2
+2017/4/7 19:2:8	SETTING	[DIO] Right_Service_Leak_Nav with [1] at Page = 2(ALD ValveLeak Check)
+2017/4/7 19:2:8	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 1
+2017/4/7 19:2:9	SETTING	[DIO] Right_Service_Leak_Nav with [3] at Page = 1(Leak Check)
+2017/4/7 19:2:9	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 3
+2017/4/7 19:2:13	SETTING	[DIO] PurgeLineLK_DM with [On(1)] at Page = 3(GasLine Leak Check)
+2017/4/7 19:2:14	SETTING	[DIO] CleanLineLK_DM with [On(1)] at Page = 3(GasLine Leak Check)
+2017/4/7 19:2:16	SETTING	[DIO] ALECHK_VLVDM with [On(1)] at Page = 3(GasLine Leak Check)
+2017/4/7 19:2:18	FUNCTION	[START] SERV_MAIN with [GAS_CHECK] at Page = 3(GasLine Leak Check)
+2017/4/7 19:2:22	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 19:2:22	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 19:2:27	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 19:2:27	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 19:2:32	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 19:2:32	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 19:2:33	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 19:2:33	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 19:3:41	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 19:3:41	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 19:3:49	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 19:3:49	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 19:28:23	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 19:28:23	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 19:28:24	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 19:28:24	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 19:30:26	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 19:30:26	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 19:37:49	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 19:37:49	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 19:37:52	SETTING	[DIO] Right_Service_Leak_Nav with [1] at Page = 3(GasLine Leak Check)
+2017/4/7 19:37:52	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 1
+2017/4/7 19:37:54	SETTING	[AIO] LeakChkBasePressAM with [16.000] at Page = 1(Leak Check)
+2017/4/7 19:37:56	SETTING	[AIO] LeakChkLimitPressAM with [160.000] at Page = 1(Leak Check)
+2017/4/7 19:37:58	SETTING	[AIO] RoRLimitAM with [5.000] at Page = 1(Leak Check)
+2017/4/7 19:37:59	SETTING	[AIO] LeakChkDelayTimeAM with [30.000] at Page = 1(Leak Check)
+2017/4/7 19:38:3	SETTING	[AIO] LeakChkCountSPAM with [10.000] at Page = 1(Leak Check)
+2017/4/7 19:38:4	SETTING	[AIO] LeakChkPumpTimeOutAM with [60.000] at Page = 1(Leak Check)
+2017/4/7 19:38:5	SETTING	[AIO] BaseDelayTimeAM with [60.000] at Page = 1(Leak Check)
+2017/4/7 19:38:7	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 19:38:7	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 19:42:12	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 19:42:12	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 19:42:14	FUNCTION	[START] SERV_MAIN with [LEAK_CHECK] at Page = 1(Leak Check)
+2017/4/7 19:42:15	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 19:42:15	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 19:42:16	SETTING	[DIO] V111ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:17	SETTING	[DIO] V103ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:18	SETTING	[DIO] V68ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:18	SETTING	[DIO] V98ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:19	SETTING	[DIO] V102ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:20	SETTING	[DIO] V97ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:20	SETTING	[DIO] V100ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:21	SETTING	[DIO] V21ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:21	SETTING	[DIO] V23ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:22	SETTING	[DIO] V22ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:23	SETTING	[DIO] V2ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:23	SETTING	[DIO] V4ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:24	SETTING	[DIO] V6ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:25	SETTING	[DIO] V5ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:26	SETTING	[DIO] V3ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:27	SETTING	[DIO] V1ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:28	SETTING	[AIO] MFC01StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 19:42:31	SETTING	[AIO] MFC02StPtAO with [1000.000] at Page = 0(Main)
+2017/4/7 19:42:33	SETTING	[AIO] MFC03StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 19:42:34	SETTING	[DIO] V24ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:35	SETTING	[DIO] V101ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:36	SETTING	[DIO] V20ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:37	SETTING	[DIO] V62ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:38	SETTING	[DIO] V106ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:38	SETTING	[DIO] V110ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:39	SETTING	[DIO] V109ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:40	SETTING	[DIO] V63ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:40	SETTING	[DIO] V65ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:41	SETTING	[DIO] V64ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:42	SETTING	[DIO] V61ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:42	SETTING	[DIO] V60ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:44	SETTING	[AIO] MFC09StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 19:42:45	SETTING	[DIO] V59ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:46	SETTING	[DIO] V57ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:46	SETTING	[DIO] V105ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:47	SETTING	[DIO] V108ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:48	SETTING	[DIO] V66ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:49	SETTING	[DIO] V56ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:49	SETTING	[DIO] V58ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:51	SETTING	[AIO] MFC08StPtAO with [1000.000] at Page = 0(Main)
+2017/4/7 19:42:53	SETTING	[AIO] MFC07StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 19:42:54	SETTING	[DIO] V55ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:55	SETTING	[DIO] V53ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:55	SETTING	[DIO] V50ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:56	SETTING	[DIO] V12ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:57	SETTING	[DIO] V17ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:58	SETTING	[DIO] V11ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:42:59	SETTING	[DIO] V18ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:43:0	SETTING	[DIO] V49ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:43:0	SETTING	[DIO] V51ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:43:1	SETTING	[DIO] V52ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:43:2	SETTING	[DIO] V54ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:43:4	SETTING	[AIO] MFC06StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 19:43:7	SETTING	[AIO] MFC05StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 19:43:9	SETTING	[AIO] MFC04StPtAO with [1000.000] at Page = 0(Main)
+2017/4/7 19:43:14	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 19:43:14	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 19:43:16	SETTING	[DIO] Right_Service_Leak_Nav with [3] at Page = 1(Leak Check)
+2017/4/7 19:43:16	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 3
+2017/4/7 19:43:21	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 19:43:21	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 19:43:33	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 19:43:33	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 19:43:47	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 19:43:47	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 19:49:16	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 19:49:16	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/4/7 19:49:19	FUNCTION	[ABORT] SERV_MAIN at Page = 3(GasLine Leak Check)
+2017/4/7 19:49:21	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/4/7 19:49:21	BUTTON	[BOTTOM CLICK] Bottom_System
+2017/4/7 19:49:23	SETTING	[DIO] V103ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:24	SETTING	[DIO] V111ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:26	SETTING	[DIO] V20ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:26	SETTING	[DIO] V24ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:27	SETTING	[DIO] V100ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:27	SETTING	[DIO] V97ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:28	SETTING	[DIO] V21ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:29	SETTING	[DIO] V23ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:29	SETTING	[DIO] V22ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:30	SETTING	[DIO] V2ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:31	SETTING	[DIO] V4ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:31	SETTING	[DIO] V6ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:32	SETTING	[DIO] V5ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:33	SETTING	[DIO] V3ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:33	SETTING	[DIO] V1ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:35	SETTING	[AIO] MFC01StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 19:49:37	SETTING	[AIO] MFC02StPtAO with [1000.000] at Page = 0(Main)
+2017/4/7 19:49:39	SETTING	[AIO] MFC03StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 19:49:40	SETTING	[DIO] V101ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:41	SETTING	[DIO] V98ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:41	SETTING	[DIO] V102ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:42	SETTING	[DIO] V109ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:43	SETTING	[DIO] V106ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:44	SETTING	[DIO] V68ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:45	SETTING	[DIO] V110ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:45	SETTING	[DIO] V105ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:46	SETTING	[DIO] V108ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:46	SETTING	[DIO] V66ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:48	SETTING	[DIO] V63ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:48	SETTING	[DIO] V65ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:49	SETTING	[DIO] V64ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:50	SETTING	[DIO] V61ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:51	SETTING	[DIO] V59ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:51	SETTING	[DIO] V57ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:52	SETTING	[DIO] V55ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:53	SETTING	[DIO] V53ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:54	SETTING	[DIO] V50ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:54	SETTING	[DIO] V12ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:55	SETTING	[DIO] V17ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:57	SETTING	[DIO] V18ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:57	SETTING	[DIO] V11ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:58	SETTING	[DIO] V49ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:59	SETTING	[DIO] V52ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:49:59	SETTING	[DIO] V51ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:50:0	SETTING	[DIO] V54ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:50:1	SETTING	[DIO] V56ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:50:1	SETTING	[DIO] V58ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:50:2	SETTING	[DIO] V60ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:50:4	SETTING	[AIO] MFC09StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 19:50:7	SETTING	[AIO] MFC08StPtAO with [1000.000] at Page = 0(Main)
+2017/4/7 19:50:9	SETTING	[AIO] MFC07StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 19:50:12	SETTING	[AIO] MFC06StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 19:50:15	SETTING	[AIO] MFC05StPtAO with [5000.000] at Page = 0(Main)
+2017/4/7 19:50:17	SETTING	[AIO] MFC04StPtAO with [1000.000] at Page = 0(Main)
+2017/4/7 19:50:18	SETTING	[DIO] V62ValveDO with [Open(1)] at Page = 0(Main)
+2017/4/7 19:56:17	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/4/7 19:56:17	BUTTON	[BOTTOM CLICK] Bottom_Service

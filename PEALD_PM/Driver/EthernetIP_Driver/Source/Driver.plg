@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Driver - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/Resource.res" /d "NDEBUG" "D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.24\PEALD_PMA\Driver\EthernetIP_Driver\Source\Resource.rc"" 
+Creating temporary file "C:\Users\gwlee\AppData\Local\Temp\RSP9BE6.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\h" /I "K:\h" /I "..\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "Driver_EXPORTS" /FR"Release/" /Fp"Release/Driver.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.24\PEALD_PMA\Driver\EthernetIP_Driver\Source\driver.cpp"
+]
+Creating command line "cl.exe @C:\Users\gwlee\AppData\Local\Temp\RSP9BE6.tmp" 
+Creating temporary file "C:\Users\gwlee\AppData\Local\Temp\RSP9BE7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cimserhd.lib CIPCoreWin32.lib CIPCorePort.lib /nologo /dll /incremental:no /pdb:"Release/EnetIP.pdb" /machine:I386 /nodefaultlib:"libcmt.lib" /out:"..\..\EnetIP.dll" /implib:"Release/EnetIP.lib" /libpath:"k:\lib" /libpath:"..\lib" 
+".\Release\driver.obj"
+".\Release\Resource.res"
+]
+Creating command line "link.exe @C:\Users\gwlee\AppData\Local\Temp\RSP9BE7.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+driver.cpp
+..\include\EvtMem.h
+..\include\FgwAmShmem.h
+..\include\FgwAmFins.h
+..\include\FgwGenericType.h
+..\include\FgwConfig.h
+Linking...
+   Creating library Release/EnetIP.lib and object Release/EnetIP.exp
+
+
+
+<h3>Results</h3>
+EnetIP.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

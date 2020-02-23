@@ -1,0 +1,280 @@
+#
+#
+#
+# Possible Recovery Action String
+#      - CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+11 PrcsFileErr {
+	"Process Recipe File Error입니다."
+	RETRY		"재시도"
+	ABORT		"중지"
+	DESCRIPTION	"Alarm/AlarmText/System/11.txt"
+}
+#Dummy Alarm Define
+#Dummy Warning Count Alarm
+40 DummySlot01Warning {
+        "Dummy Slot01 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+41 DummySlot01Warning {
+        "Dummy Slot02 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+42 DummySlot01Warning {
+        "Dummy Slot03 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+43 DummySlot01Warning {
+        "Dummy Slot04 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+44 DummySlot01Warning {
+        "Dummy Slot05 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+45 DummySlot01Warning {
+        "Dummy Slot06 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+46 DummySlot01Warning {
+        "Dummy Slot07 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+47 DummySlot01Warning {
+        "Dummy Slot08 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+48 DummySlot01Warning {
+        "Dummy Slot09 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+49 DummySlot01Warning {
+        "Dummy Slot10 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+50 DummySlot01Warning {
+        "Dummy Slot11 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+51 DummySlot01Warning {
+        "Dummy Slot12 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+52 DummySlot01Warning {
+        "Dummy Slot13 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+53 DummySlot01Warning {
+        "Dummy Slot14 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+54 DummySlot01Warning {
+        "Dummy Slot15 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+55 DummySlot01Warning {
+        "Dummy Slot16 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+56 DummySlot01Warning {
+        "Dummy Slot17 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+57 DummySlot01Warning {
+        "Dummy Slot18 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+58 DummySlot01Warning {
+        "Dummy Slot19 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+59 DummySlot01Warning {
+        "Dummy Slot20 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+60 DummySlot01Warning {
+        "Dummy Slot21 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+61 DummySlot01Warning {
+        "Dummy Slot22 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+62 DummySlot01Warning {
+        "Dummy Slot23 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+63 DummySlot01Warning {
+        "Dummy Slot24 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+64 DummySlot01Warning {
+        "Dummy Slot25 Reached Warning Count."
+        CLEAR		"Clear"
+}
+
+#Dummy Alarm Count Alarm
+70 DummySlot01Alarm {
+        "Dummy Slot01 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+71 DummySlot01Alarm {
+        "Dummy Slot02 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+72 DummySlot01Alarm {
+        "Dummy Slot03 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+73 DummySlot01Alarm {
+        "Dummy Slot04 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+74 DummySlot01Alarm {
+        "Dummy Slot05 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+75 DummySlot01Alarm {
+        "Dummy Slot06 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+76 DummySlot01Alarm {
+        "Dummy Slot07 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+77 DummySlot01Alarm {
+        "Dummy Slot08 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+78 DummySlot01Alarm {
+        "Dummy Slot09 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+79 DummySlot01Alarm {
+        "Dummy Slot10 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+80 DummySlot01Alarm {
+        "Dummy Slot11 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+81 DummySlot01Alarm {
+        "Dummy Slot12 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+82 DummySlot01Alarm {
+        "Dummy Slot13 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+83 DummySlot01Alarm {
+        "Dummy Slot14 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+84 DummySlot01Alarm {
+        "Dummy Slot15 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+85 DummySlot01Alarm {
+        "Dummy Slot16 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+86 DummySlot01Alarm {
+        "Dummy Slot17 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+87 DummySlot01Alarm {
+        "Dummy Slot18 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+88 DummySlot01Alarm {
+        "Dummy Slot19 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+89 DummySlot01Alarm {
+        "Dummy Slot20 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+90 DummySlot01Alarm {
+        "Dummy Slot21 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+91 DummySlot01Alarm {
+        "Dummy Slot22 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+92 DummySlot01Alarm {
+        "Dummy Slot23 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+93 DummySlot01Alarm {
+        "Dummy Slot24 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+94 DummySlot01Alarm {
+        "Dummy Slot25 Reached Alarm Count."
+        CLEAR		"Clear"
+}
+
+99 DummyWaferErr {
+        "NO VALID DUMMY WAFER ERROR."
+        RETRY		"Retry"
+	ABORT		"Abort"
+}
+
+9999 ASC_Alarm {
+		"AutoSelfCure"
+		CLEAR		"Clear Operation"
+}

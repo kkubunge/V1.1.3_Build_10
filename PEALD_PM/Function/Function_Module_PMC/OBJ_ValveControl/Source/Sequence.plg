@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Sequence - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/Script1.res" /d "NDEBUG" "D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.22\PEALD_PMA\Function\Function_Module_PMC\OBJ_ValveControl\Source\Script1.rc"" 
+Creating temporary file "C:\Users\gwlee\AppData\Local\Temp\RSP9F28.tmp" with contents
+[
+/nologo /MT /W3 /GX /I "h" /I "k:\h" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.22\PEALD_PMA\Function\Function_Module_PMC\OBJ_ValveControl\Source\dyn_iodefine.cpp"
+"D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.22\PEALD_PMA\Function\Function_Module_PMC\OBJ_ValveControl\Source\prg_code.cpp"
+"D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.22\PEALD_PMA\Function\Function_Module_PMC\OBJ_ValveControl\Source\TextParser.cpp"
+"D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.22\PEALD_PMA\Function\Function_Module_PMC\OBJ_ValveControl\Source\usr_code.cpp"
+]
+Creating command line "cl.exe @C:\Users\gwlee\AppData\Local\Temp\RSP9F28.tmp" 
+Creating temporary file "C:\Users\gwlee\AppData\Local\Temp\RSP9F39.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cimsqcon.lib /nologo /subsystem:console /pdb:none /machine:I386 /out:"..\Sequence.exe" /libpath:"k:\lib" 
+".\Release\dyn_iodefine.obj"
+".\Release\prg_code.obj"
+".\Release\TextParser.obj"
+".\Release\usr_code.obj"
+".\Release\Script1.res"
+"K:\lib\kutlAnal.lib"
+"K:\lib\kutlEtc.lib"
+"K:\lib\kutlFile.lib"
+"K:\lib\kutlStr.lib"
+"K:\lib\kutlTime.lib"
+"K:\lib\CimSqConIO.lib"
+]
+Creating command line "link.exe @C:\Users\gwlee\AppData\Local\Temp\RSP9F39.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+dyn_iodefine.cpp
+prg_code.cpp
+TextParser.cpp
+usr_code.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Sequence.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

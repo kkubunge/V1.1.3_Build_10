@@ -1,0 +1,173 @@
+#
+#
+#
+# Possible Recovery Action String
+#      - CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+###################### not used ##############################
+1100	PumpCtrlFuncFail	{
+	"Pump Control Function Fail"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1101	VacSnsGgeFail	{
+	"Vacuum Sensor or Gauge Fail"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1102	DPNotRun	{
+	"Dry Pump Not Running"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1103	PumpLineNotPumped	{
+	"Pumping Lines Not Pumped"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1104	DPBoosterNotRun	{
+	"Dry Pump Booster Not Running"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1105	ACVPosIncorrect	{
+	"ACV Position Incorrect"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1106	TVPositionIncorrect	{
+	"Throttle Valve Position Incorrrect"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1107	SlowRoughTimeOut	{
+	"Slow Roughing Time Out"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1108	FastRoughTimeOut	{
+	"Fast Roughing Timed Out"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1109	StageHTRTempAboveLimit	{
+	"Stage Heater Temp Above Limit"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1110	VentTimeOut	{
+	"Vent Time Out"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1111	VentNotOK	{
+	"Vent Not OK"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1112	LeakChkLmtPrsOver	{
+	"Leak Check Limit Pressure Over"
+	CLEAR	"Clear Operation"
+	}
+
+1113	TransPressHigh	{
+	"Chamber Pressure Is High for Transfering Wafer"
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	}
+
+1114	RoughValveCtrlError	{
+	"Rough Valve Operation Time Out"
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	}
+
+1115	LeakChkLmtRorOver	{
+	"Leak Check Limit Step ROR Over"
+	CLEAR	"Clear Operation"
+	}
+
+1116	StageHTRTempAboveLimit	{
+	"Stage Heater Relay Is On So Can't Vent"
+
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	IGNORE	"Ignore Operation => SUCCESS"
+	}
+
+1117	DynamicTimout	{
+	"Dynamic Leak Check Fail"
+	CLEAR	"Clear Operation"
+	}
+	
+1118	ToxicGasPurge	{
+	"ToxicGas Purge Fail"
+	CLEAR	"Clear Operation"
+	}
+	
+1119	LeakChkRoR	{
+	"Leak Check ROR Limit Is Over"
+	CLEAR	"Clear Operation"
+	}	
+# 2015.03.23 Add Check Teach Mode for Safety PLC
+1120	SafetyPLCModeNotRun	{
+	"Safety PLC Not Run Mode, Change Bypass Key to Run"
+	CLEAR	"Clear Operation"
+	}
+
+1121	SafetyPLCModeNotTeach	{
+	"Safety PLC Not Teach Mode, PLC Reset After Change Bypass Key for Vent"
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	}
+
+1122	ArChargingFail		{
+	"Ar Charging Fail On ALD Block So Can't Vent"
+	CLEAR	"Clear Operation"
+	}
+	
+1123	StartPrsLimitFail	{
+	"Start Pressure Limit is Over"
+	CLEAR	"Clear Operation"
+	}	

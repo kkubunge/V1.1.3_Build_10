@@ -1,0 +1,18 @@
+2017/5/18 9:32:37	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 0(Main)
+2017/5/18 9:32:39	SETTING	[DIO] M651_Valve with [Close(2)] at Page = 0(Main)
+2017/5/18 9:32:40	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2017/5/18 9:32:40	BUTTON	[BOTTOM CLICK] Bottom_Service
+2017/5/18 9:32:41	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2017/5/18 9:32:41	BUTTON	[BOTTOM CLICK] Bottom_Config
+2017/5/18 9:32:43	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2017/5/18 9:32:43	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2017/5/18 9:32:43	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 7(PM Param 2)
+2017/5/18 9:32:43	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2017/5/18 9:32:44	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 8(PM Param 3)
+2017/5/18 9:32:44	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2017/5/18 9:32:45	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 9(PM Param 4)
+2017/5/18 9:32:45	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2017/5/18 9:32:47	SETTING	[DIO] Bottom_Utility with [1] at Page = 0(PAGE 1)
+2017/5/18 9:32:47	BUTTON	[BOTTOM CLICK] Bottom_Utility
+2017/5/18 9:32:48	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2017/5/18 9:32:48	BUTTON	[BOTTOM CLICK] Bottom_System

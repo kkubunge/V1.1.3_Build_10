@@ -1,0 +1,192 @@
+$$$ Enum
+NavAll		-	TM	NA	PM2	PM3
+NavPM		-	PMA	PMB	PMC
+NavTMConfig	-	1	2	3	4
+DNenum  	-	PMA	PMB	PMC
+
+$$$ Digital
+#						|IN				| OUT
+#-------------------		---------	--------  -- -- -- -- --	--------- -- -- -- --
+UserLevelControl		-		GUINAV     0  -  -   -  0	GUINAV     0  -  -   -
+
+Bottom_System			-		GUINAV     1  -  -   1  0	GUINAV     1  -  -   1
+Bottom_Operate			-		GUINAV     2  -  -   1  0	GUINAV     2  -  -   1
+Bottom_Recipe			-		GUINAV     3  -  -   1  0	GUINAV     3  -  -   1
+Bottom_Service1			-		GUINAV     4  -  -   1  0	GUINAV     4  -  -   1
+Bottom_Config			-		GUINAV     5  -  -   1  0	GUINAV     5  -  -   1
+Bottom_Datalog			-		GUINAV     6  -  -   1  0	GUINAV     6  -  -   1
+Bottom_Utility			-		GUINAV     7  -  -   1  0	GUINAV     7  -  -   1
+Bottom_Service2			-		GUINAV    10  -  -   1  0	GUINAV    10  -  -   1
+#-----------------------------------------------------------------------------------------------------
+Bottom_AutoPM			-		GUINAV    17  -  -   1  0	GUINAV    17  -  -   1
+#-----------------------------------------------------------------------------------------------------
+
+Bottom_Alarm			-		GUINAV     8  -  -   1  0	GUINAV     8  -  -   1
+Bottom_Alarm2			-		GUINAV     9  -  -   1  0	GUINAV     9  -  -   1
+
+Bottom_TMC			-		GUINAV    11  -  -   1  0	GUINAV    11  -  -   1
+Bottom_PM1			-		GUINAV    12  -  -   1  0	GUINAV    12  -  -   1
+Bottom_PM2			-		GUINAV    13  -  -   1  0	GUINAV    13  -  -   1
+Bottom_PM3			-		GUINAV    14  -  -   1  0	GUINAV    14  -  -   1
+Bottom_PM4			-		GUINAV    15  -  -   1  0	GUINAV    15  -  -   1
+Bottom_PM5			-		GUINAV    16  -  -   1  0	GUINAV    16  -  -   1
+
+Right_System_Main       	-         	GUINAV     1  1  -   1  0  	GUINAV     1  1  -   1
+Right_System_GEMJob		-         	GUINAV     1  2  -   1  0  	GUINAV     1  2  -   1
+Right_System_OprVerify 		-         	GUINAV     1  3  -   1  0  	GUINAV     1  3  -   1
+Right_System_JobSch     	-         	GUINAV     1  4  -   1  0  	GUINAV     1  4  -   1
+Right_System_Timer      	-         	GUINAV     1  5  -   1  0  	GUINAV     1  5  -   1
+Right_System_Sync	      	-         	GUINAV     1  6  -   1  0  	GUINAV     1  6  -   1
+Right_System_Dummy	      	-         	GUINAV     1  7  -   1  0  	GUINAV     1  7  -   1
+
+Right_Operate_Status		-         	GUINAV     2  2  -   1  0  	GUINAV     2  2  -   1
+Right_Operate_Status_Nav  	-         	GUINAV     2  2  1   1  0  	GUINAV     2  2  1   1
+
+Right_Recipe_LotRcp		-		GUINAV     3  1  -   1  0	GUINAV     3  1  -   1
+Right_Recipe_ClusterRcp		-		GUINAV     3  2  -   1  0	GUINAV     3  2  -   1
+Right_Recipe_ProcessRcp		-		GUINAV     3  3  -   1  0	GUINAV     3  3  -   1
+Right_Recipe_PsRcp_Nav		NavPM		GUINAV     3  3  1   1  0	GUINAV     3  3  1   1
+Right_Recipe_RcpGrp		-		GUINAV     3  4  -   1  0	GUINAV     3  4  -   1
+Right_System_LotPre		-		GUINAV     3  5  -   1  0	GUINAV     3  5  -   1
+Right_System_LotPre_Nav		-		GUINAV     3  5  1   1  0	GUINAV     3  5  1   1
+Right_Recipe_History		-		GUINAV     3  6  -   1  0	GUINAV     3  6  -   1
+
+Right_Service1_TMC_Vacuum	-		GUINAV     4  1  -   1  0	GUINAV     4  1  -   1
+Right_Service1_Transfer  	-         	GUINAV     4  2  -   1  0  	GUINAV     4  2  -   1
+Right_Service1_Transfer_Nav  	-         	GUINAV     4  2  1   1  0  	GUINAV     4  2  1   1
+Right_Service1_ParticleChk  	-         	GUINAV     4  3  -   1  0  	GUINAV     4  3  -   1
+Right_Service1_ParticleChk_Nav  -         	GUINAV     4  3  1   1  0  	GUINAV     4  3  1   1
+Right_Service1_PartCycle  	-         	GUINAV     4  4  -   1  0  	GUINAV     4  4  -   1
+Right_Service1_PartCycle_Nav 	-         	GUINAV     4  4  1   1  0  	GUINAV     4  4  1   1
+
+Right_Service1_TMC_TM		-		GUINAV     4  5  -   1  0	GUINAV     4  5  -   1
+                                                                                                 
+                                                                                                 
+Right_Service1_TMC_Ct		-		GUINAV     4  6  -   1  0	GUINAV     4  6  -   1
+Right_Service1_TMC_FEM		-		GUINAV     4  7  -   1  0	GUINAV     4  7  -   1
+Right_Service1_TMC_LeakC	-		GUINAV     4  8  -   1  0	GUINAV     4  8  -   1
+Right_Service1_LLA_LeakC	-		GUINAV     4  9  -   1  0	GUINAV     4  9  -   1
+Right_Service1_LLB_LeakC	-		GUINAV     4  10 -   1  0	GUINAV     4  10 -   1
+Right_Service1_TMC_Status	-		GUINAV     4  11 -   1  0	GUINAV     4  11 -   1
+                                                                                                 
+Right_Service1_AWCSCAN		-		GUINAV     4  12 -   1  0	GUINAV     4  12 -   1
+
+
+
+Right_Service2_PM_Main		-		GUINAV    10  1  -   1  0	GUINAV    10  1  -   1
+Right_Service2_PM_M_Nav		NavPM		GUINAV    10  1  1   1  0	GUINAV    10  1  1   1
+Right_Service2_PM_Control	-		GUINAV    10  2  -   1  0	GUINAV    10  2  -   1
+Right_Service2_PM_Ct_Nav	NavPM		GUINAV    10  2  1   1  0	GUINAV    10  2  1   1
+Right_Service2_PM_Heater1	-		GUINAV    10  3  -   1  0	GUINAV    10  3  -   1
+Right_Service2_PM_Ht1_Nav	NavPM		GUINAV    10  3  1   1  0	GUINAV    10  3  1   1
+Right_Service2_PM_Heater2	-		GUINAV    10  4  -   1  0	GUINAV    10  4  -   1
+Right_Service2_PM_Ht2_Nav	NavPM		GUINAV    10  4  1   1  0	GUINAV    10  4  1   1
+Right_Service2_PM_Heater3	-		GUINAV    10  5  -   1  0	GUINAV    10  5  -   1
+Right_Service2_PM_Ht3_Nav	NavPM		GUINAV    10  5  1   1  0	GUINAV    10  5  1   1
+Right_Service2_PM_Heater4	-		GUINAV    10  6  -   1  0	GUINAV    10  6  -   1
+Right_Service2_PM_Ht4_Nav	NavPM		GUINAV    10  6  1   1  0	GUINAV    10  6  1   1
+Right_Service2_PM_Heater5	-		GUINAV    10  7  -   1  0	GUINAV    10  7  -   1
+Right_Service2_PM_Ht5_Nav	NavPM		GUINAV    10  7  1   1  0	GUINAV    10  7  1   1
+Right_Service2_PM_Water		-		GUINAV    10  8  -   1  0	GUINAV    10  8  -   1
+Right_Service2_PM_Wt_Nav	NavPM		GUINAV    10  8  1   1  0	GUINAV    10  8  1   1
+Right_Service2_PM_LeakC		-		GUINAV    10  9  -   1  0	GUINAV    10  9  -   1
+Right_Service2_PM_Lk_Nav	NavPM		GUINAV    10  9  1   1  0	GUINAV    10  9  1   1
+Right_Service2_PM_ALDLeakC	-		GUINAV    10  10 -   1  0	GUINAV    10  10 -   1
+Right_Service2_PM_ALDLk_Nav	NavPM		GUINAV    10  10 1   1  0	GUINAV    10  10 1   1
+Right_Service2_PM_GASLeakC	-		GUINAV    10  11 -   1  0	GUINAV    10  11 -   1
+Right_Service2_PM_GASLk_Nav	NavPM		GUINAV    10  11 1   1  0	GUINAV    10  11 1   1
+Right_Service2_PM_OTHLeakC	-		GUINAV    10  12 -   1  0	GUINAV    10  12 -   1
+Right_Service2_PM_OTHLk_Nav	NavPM		GUINAV    10  12 1   1  0	GUINAV    10  12 1   1
+Right_Service2_MFCVrifi		-		GUINAV    10  13 -   1  0	GUINAV    10  13 -   1
+Right_Service2_MFCVrifi_Nav	NavPM		GUINAV    10  13 1   1  0	GUINAV    10  13 1   1
+Right_Service2_MFCFlow		-		GUINAV    10  14 -   1  0	GUINAV    10  14 -   1
+Right_Service2_MFCFlow_Nav	NavPM		GUINAV    10  14 1   1  0	GUINAV    10  14 1   1
+Right_Service2_MTRVrifi		-		GUINAV    10  15 -   1  0	GUINAV    10  15 -   1
+Right_Service2_MTRVrifi_Nav	NavPM		GUINAV    10  15 1   1  0	GUINAV    10  15 1   1
+Right_Service2_ALDVrifi		-		GUINAV    10  16 -   1  0	GUINAV    10  16 -   1
+Right_Service2_ALDVrifi_Nav	NavPM		GUINAV    10  16 1   1  0	GUINAV    10  16 1   1
+
+Right_Service1_DirectIO		-		GUINAV     4 50  -   1  0	GUINAV     4 50  -   1
+
+Right_Config_CMC		-		GUINAV     5  1  -   1  0	GUINAV     5  1  -   1
+Right_Config_CMC_Nav		-		GUINAV     5  1  1   1  0	GUINAV     5  1  1   1
+Right_Config_TMC		-		GUINAV     5  2  -   1  0	GUINAV     5  2  -   1
+Right_Config_TMC_Nav		-		GUINAV     5  2  1   1  0	GUINAV     5  2  1   1
+Right_Config_TMC_TMRobot	-		GUINAV     5  3  -   1  0	GUINAV     5  3  -   1
+
+
+Right_Config_PM1_Config1	-		GUINAV     5 11  -   1  0	GUINAV     5 11  -   1
+Right_Config_PM1_Cfg1_Nav	-		GUINAV     5 11  1   1  0	GUINAV     5 11  1   1
+Right_Config_PM1_Config2	-		GUINAV     5 12  -   1  0	GUINAV     5 12  -   1
+Right_Config_PM1_Cfg2_Nav	-		GUINAV     5 12  1   1  0	GUINAV     5 12  1   1
+                                                                                                 
+Right_Config_PM2_Config1	-		GUINAV     5 21  -   1  0	GUINAV     5 21  -   1
+Right_Config_PM2_Cfg1_Nav	-		GUINAV     5 21  1   1  0	GUINAV     5 21  1   1
+Right_Config_PM2_Config2	-		GUINAV     5 22  -   1  0	GUINAV     5 22  -   1
+Right_Config_PM2_Cfg2_Nav	-		GUINAV     5 22  1   1  0	GUINAV     5 22  1   1
+                                                                                                 
+Right_Config_PM3_Config1	-		GUINAV     5 31  -   1  0	GUINAV     5 31  -   1
+Right_Config_PM3_Cfg1_Nav	-		GUINAV     5 31  1   1  0	GUINAV     5 31  1   1
+Right_Config_PM3_Config2	-		GUINAV     5 32  -   1  0	GUINAV     5 32  -   1
+Right_Config_PM3_Cfg2_Nav	-		GUINAV     5 32  1   1  0	GUINAV     5 32  1   1
+                                                                                                 
+Right_Config_PM4_Config1	-		GUINAV     5 41  -   1  0	GUINAV     5 41  -   1
+Right_Config_PM4_cfg1_Nav	-		GUINAV     5 41  1   1  0	GUINAV     5 41  1   1
+Right_Config_PM4_Config2	-		GUINAV     5 42  -   1  0	GUINAV     5 42  -   1
+Right_Config_PM4_Cfg2_Nav	-		GUINAV     5 42  1   1  0	GUINAV     5 42  1   1
+                                                                                                 
+Right_Config_PM5_Config1	-		GUINAV     5 51  -   1  0	GUINAV     5 51  -   1
+Right_Config_PM5_Cfg1_Nav	-		GUINAV     5 51  1   1  0	GUINAV     5 51  1   1
+Right_Config_PM5_Config2	-		GUINAV     5 52  -   1  0	GUINAV     5 52  -   1
+Right_Config_PM5_Cfg2_Nav	-		GUINAV     5 52  1   1  0	GUINAV     5 52  1   1
+
+Right_DataLog_AlarmLog		-		GUINAV     6  1  -   1  0	GUINAV     6  1  -   1
+Right_DataLog_JobLog		-		GUINAV     6  2  -   1  0	GUINAV     6  2  -   1
+Right_DataLog_FALog		-		GUINAV     6  3  -   1  0	GUINAV     6  3  -   1
+Right_DataLog_UserLog		-		GUINAV     6  4  -   1  0	GUINAV     6  4  -   1
+Right_DataLog_Plotter		-		GUINAV     6  6  -   1  0	GUINAV     6  6  -   1
+Right_DataLog_Plotter_Nav	NavPM		GUINAV     6  6  1   1  0	GUINAV     6  6  1   1
+Right_DataLog_Manual		-		GUINAV     6  7  -   1  0	GUINAV     6  7  -   1
+Right_DataLog_RecipeHistory	-		GUINAV     6  8  -   1  0	GUINAV     6  8  -   1
+
+Right_Utility_CTC		-		GUINAV     7  1  -   1  0	GUINAV     7  1  -   1
+Right_Utility_FA		-		GUINAV     7  2  -   1  0	GUINAV     7  2  -   1
+Right_Utility_User		-		GUINAV     7  3  -   1  0	GUINAV     7  3  -   1
+Right_Utility_Mode		-		GUINAV     7  4  -   1  0	GUINAV     7  4  -   1
+Right_Utility_Prev		-		GUINAV     7  5  -   1  0	GUINAV     7  5  -   1
+Right_Utility_Prev_Nav		NavPM		GUINAV     7  5  1   1  0	GUINAV     7  5  1   1
+Right_Utility_Prev2		-		GUINAV     7  6  -   1  0	GUINAV     7  6  -   1
+Right_Utility_Prev2_Nav		NavPM		GUINAV     7  6  1   1  0	GUINAV     7  6  1   1
+Right_Utility_Prev3		-		GUINAV     7  7  -   1  0	GUINAV     7  7  -   1
+Right_Utility_Prev3_Nav		NavPM		GUINAV     7  7  1   1  0	GUINAV     7  7  1   1
+Right_Utility_Chmb		-		GUINAV     7  8  -   1  0	GUINAV     7  8  -   1
+
+Main_Screen_Button		-		GUINAV     1  1  1 101  0	GUINAV     1  1  1 101
+
+Right_Direct_Navigation		DNenum		GUINAV	   105 - -   1  0  	GUINAV     105 - -   1
+
+$$$ String
+CurrentUserName					GUINAV		0	1	GUINAV		0
+CurrentGroupName				GUINAV		1	1	GUINAV		1
+CurrentDate					GUINAV		2	1
+CurrentTime					GUINAV		3	1
+
+
+$$$ Digital
+Right_Config_PM1		- - - - - - - - - - - - 0
+Right_Config_PM2		- - - - - - - - - - - - 0
+Right_Config_PM3		- - - - - - - - - - - - 0
+Right_Config_PM4		- - - - - - - - - - - - 0
+Right_Config_PM5		- - - - - - - - - - - - 0
+Right_Config_Return		- - - - - - - - - - - - 0
+Right_Config_change		- - - - - - - - - - - - 1
+
+Right_Service_EFEM		- - - - - - - - - - - - 0
+Right_Service_TMC		- - - - - - - - - - - - 0
+Right_Service_PM1		- - - - - - - - - - - - 0
+Right_Service_PM2		- - - - - - - - - - - - 0
+Right_Service_PM3		- - - - - - - - - - - - 0
+Right_Service_PM4		- - - - - - - - - - - - 0
+Right_Service_PM5		- - - - - - - - - - - - 0
+Right_Service_Return		- - - - - - - - - - - - 0
+Right_Service_change		- - - - - - - - - - - - 1

@@ -1,0 +1,183 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MANUAL_LOG DIALOGEX 15, 0, 528, 265
+STYLE WS_POPUP | WS_VISIBLE | WS_BORDER
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    CTEXT           "",IDC_DATA_TOTAL,282,9,27,11,0,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    CONTROL         "Total",IDC_STATIC_STATUS,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | WS_GROUP,259,10,19,8,WS_EX_TRANSPARENT
+    CONTROL         "List1",IDC_LOG_FILE_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,103,24,423,236,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "Read Again",IDRETRY,103,5,99,17,BS_MULTILINE
+    GROUPBOX        "",IDC_STATIC_STATUS2,254,4,58,18
+    CTEXT           "Process Module",IDC_STATIC_PM,3,5,99,17,SS_CENTERIMAGE,
+                    WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "OK",IDC_OK,427,5,99,17,BS_MULTILINE
+    LISTBOX         IDC_LIST_FILE,3,24,99,236,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_LOG_DETAIL DIALOGEX 40, 65526, 443, 314
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_STATICEDGE
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "CLOSE",IDOK,379,286,59,24
+    CONTROL         "List1",IDC_LOG_DETAIL,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_OWNERDATA | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,2,3,436,280,WS_EX_STATICEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MANUAL_LOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 526
+        VERTGUIDE, 360
+        BOTTOMMARGIN, 260
+    END
+
+    IDD_LOG_DETAIL, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 438
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 310
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PROGRAM_GUI         ICON    DISCARDABLE     "k:\\h\\Program_GUI.ico"
+IDI_KEY_BUTTON          ICON    DISCARDABLE     "k:\\h\\KEY_BUTTON.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,0
+ PRODUCTVERSION 1,0,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "Last Build[2006.06.22] : #1 Log File List를 Start Time을 기준으로 내림정렬 #2 Log File List에서 End Time Column 추가 #3 Log File List에서 End Status Column추가 #4 Log File List에서 Lot Pre Log는 제외\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "GUI for Manual Log View\0"
+            VALUE "FileVersion", "1, 0, 1, 0\0"
+            VALUE "InternalName", "OBJ_Gui_ManualLog\0"
+            VALUE "LegalCopyright", "\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Gui_OperateLog.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "\0"
+            VALUE "ProductVersion", "1, 0, 1, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,14 @@
+#
+#
+#
+#-------|-----------|--------
+     G    Demo          1
+     G    Operator      3
+     G    Maint         5
+     G    Sysadmin      7
+     G    OEM           9
+
+#-------|--------|----------|---------
+     U    hjkim    Sysadmin    hjkim
+     U    hjlee    Sysadmin    hjlee
+     U    kornic   OEM		1234

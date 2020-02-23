@@ -1,0 +1,39 @@
+2018/4/23 13:36:29	USERCONTROL	[SYSTEM_START]
+2018/4/23 13:36:53	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/4/23 13:36:55	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/4/23 13:36:56	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2018/4/23 13:36:56	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2018/4/23 13:36:57	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2018/4/23 13:36:57	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2018/4/23 13:36:58	SETTING	[DIO] Bottom_Utility with [1] at Page = 0(PAGE 1)
+2018/4/23 13:36:58	BUTTON	[BOTTOM CLICK] Bottom_Utility
+2018/4/23 13:37:1	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/4/23 13:37:1	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/4/23 13:37:2	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 6(PM Param 1)
+2018/4/23 13:37:2	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2018/4/23 13:37:48	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2018/4/23 13:37:48	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2018/4/23 13:37:50	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2018/4/23 13:38:0	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/4/23 13:38:0	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/4/23 13:38:1	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2018/4/23 13:38:1	BUTTON	[BOTTOM CLICK] Bottom_Config
+2018/4/23 13:38:4	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/4/23 13:38:4	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/4/23 13:38:5	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2018/4/23 13:38:5	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2018/4/23 13:38:14	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2018/4/23 13:38:18	IOEDIT	DirectIO Edit => DIO:PRMD_HO_CanExhaustSts , VALUE:1
+2018/4/23 13:38:19	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2018/4/23 13:38:19	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2018/4/23 13:38:24	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/4/23 13:38:24	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/4/23 13:38:25	IOEDIT	DirectIO Edit => DIO:PRMD_HO_CanExhaustSts , VALUE:0
+2018/4/23 13:38:26	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2018/4/23 13:38:26	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2018/4/23 13:38:31	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/4/23 13:38:31	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/4/23 13:38:32	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2018/4/23 13:38:32	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2018/4/23 13:38:33	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2018/4/23 13:38:33	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button

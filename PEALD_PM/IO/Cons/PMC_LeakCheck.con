@@ -1,0 +1,134 @@
+$$$ Digital
+LeakChkStsDM	LkChkStsEnum	-	-	-	-	-	1	-	-	-	-	-
+LeakChkStopDM	OffOnEnum	-	-	-	-	-	1	-	-	-	-	-
+LeakChkAbort	OffOnEnum	-	-	-	-	-	1	-	-	-	-	-
+LEAK_ModeDM	LkChkModeEnm	-	-	-	-	-	1	-	-	-	-	-
+PurgeLineLK_DM	OffOnEnum	-	-	-	-	-	1	-	-	-	-	-
+CleanLineLK_DM	OffOnEnum	-	-	-	-	-	1	-	-	-	-	-
+SrcLineLK_DM	OffOnEnum	-	-	-	-	-	1	-	-	-	-	-
+ALECHK_MTRDM	OffOnEnum	-	-	-	-	-	1	-	-	-	-	-
+ALECHK_VLVDM	OffOnEnum	-	-	-	-	-	1	-	-	-	-	-
+	
+ALECHK_RCPDM	OffOnEnum	-	-	-	-	-	1	-	-	-	-	-
+ALECHK_NormDM	OffOnEnum	-	-	-	-	-	1	-	-	-	-	-
+ALECHK_ALDVlvDM OffOnEnum	-	-	-	-	-	1	-	-	-	-	-
+ALECHK_GASLnDM	OffOnEnum	-	-	-	-	-	1	-	-	-	-	-
+LKMacroType1DM	LkChkModeEnm	-	-	-	-	-	1	-	-	-	-	-
+LKMacroType2DM	LkChkModeEnm	-	-	-	-	-	1	-	-	-	-	-
+
+ALECHK_DynCntDM	-  		* *  - - - - -    0    10
+LeakChk_ParmSaveDM	OffOnEnum	-	-	-	-	-	1	-	-	-	-	-
+
+$$$ Analog
+
+LeakChk_Log_Rate1	Torr	-	-	-	-	6	0	100000	1	-	-	-	-	6	0	100000	0	100000	0	100000
+LeakChk_Log_Rate2	Torr	-	-	-	-	6	0	100000	1	-	-	-	-	6	0	100000	0	100000	0	100000
+LeakChk_Log_Rate3	Torr	-	-	-	-	6	0	100000	1	-	-	-	-	6	0	100000	0	100000	0	100000
+LeakChk_Log_Rate4	Torr	-	-	-	-	6	0	100000	1	-	-	-	-	6	0	100000	0	100000	0	100000
+LeakChk_Log_Rate5	Torr	-	-	-	-	6	0	100000	1	-	-	-	-	6	0	100000	0	100000	0	100000
+
+LeakChk_Log_Avg1	Torr	-	-	-	-	6	0	100000	1	-	-	-	-	6	0	100000	0	100000	0	100000
+LeakChk_Log_Avg2	Torr	-	-	-	-	6	0	100000	1	-	-	-	-	6	0	100000	0	100000	0	100000
+LeakChk_Log_Avg3	Torr	-	-	-	-	6	0	100000	1	-	-	-	-	6	0	100000	0	100000	0	100000
+LeakChk_Log_Avg4	Torr	-	-	-	-	6	0	100000	1	-	-	-	-	6	0	100000	0	100000	0	100000
+LeakChk_Log_Avg5	Torr	-	-	-	-	6	0	100000	1	-	-	-	-	6	0	100000	0	100000	0	100000
+
+
+LeakChkBasePressAM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LeakChkLimitPressAM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LeakChkDelayTimeAM	sec	-	-	-	-	0	0	100000	1	-	-	-	-	0	0	100000	0	100000	0	100000
+LeakChkPumpTimeOutAM	sec	-	-	-	-	0	0	100000	1	-	-	-	-	0	0	100000	0	100000	0	100000
+LeakChkCountSPAM	-	-	-	-	-	0	0	10	1	-	-	-	-	0	0	10	0	10	0	10
+LeakChkCountAM		-	-	-	-	-	0	0	10	1	-	-	-	-	0	0	10	0	10	0	10
+#... 2016.01.19 Delay Time After Base Pressure Check 
+BaseDelayTimeAM		sec	-	-	-	-	0	0	1000	1	-	-	-	-	0	0	1000	0	1000	0	1000
+#... 2016.08.20 ROR Limit
+RoRLimitAM		mTorr	-	-	-	-	0	-3	1000	1	-	-	-	-	0	-3	1000	-3	1000	-3	1000
+
+#... 2015.09.21 ALD Valve Leak check 
+ALDLkChkBasePressAM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+ALDLkChkLimitPressAM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+ALDLkChkDelayTimeAM	sec	-	-	-	-	0	0	100000	1	-	-	-	-	0	0	100000	0	100000	0	100000
+ALDLkChkPumpTimeOutAM	sec	-	-	-	-	0	0	100000	1	-	-	-	-	0	0	100000	0	100000	0	100000
+ALDLkChkCountSPAM	-	-	-	-	-	0	0	10	1	-	-	-	-	0	0	10	0	10	0	10
+ALDBaseDelayTimeAM      sec	-	-	-	-	0	0	1000	1	-	-	-	-	0	0	1000	0	1000	0	1000
+#... 2016.08.20 ROR Limit
+ALDRoRLimitAM		mTorr	-	-	-	-	0	-3	1000	1	-	-	-	-	0	-3	1000	-3	1000	-3	1000
+
+#... 2016.01.19 User Mode Leak check
+UrLkChkBasePressAM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000     
+UrLkChkLimitPressAM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000     
+UrLkChkDelayTimeAM	sec	-	-	-	-	0	0	100000	1	-	-	-	-	0	0	100000	0	100000	0	100000   
+UrLkChkPumpTimeOutAM	sec	-	-	-	-	0	0	100000	1	-	-	-	-	0	0	100000	0	100000	0	100000   
+UrLkChkCountSPAM	-	-	-	-	-	0	0	10	1	-	-	-	-	0	0	10	0	10	0	10       
+UrBaseDelayTimeAM	sec	-	-	-	-	0	0	1000	1	-	-	-	-	0	0	1000	0	1000	0	1000     
+#... 2016.08.20 ROR Limit
+UrRoRLimitAM		mTorr	-	-	-	-	0	-3	1000	1	-	-	-	-	0	-3	1000	-3	1000	-3	1000
+
+#... 2016.01.19 Gas Line Leak Check
+LnLkChkBasePressAM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000     
+LnLkChkLimitPressAM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000     
+LnLkChkDelayTimeAM	sec	-	-	-	-	0	0	100000	1	-	-	-	-	0	0	100000	0	100000	0	100000   
+LnLkChkPumpTimeOutAM	sec	-	-	-	-	0	0	100000	1	-	-	-	-	0	0	100000	0	100000	0	100000   
+LnLkChkCountSPAM	-	-	-	-	-	0	0	10	1	-	-	-	-	0	0	10	0	10	0	10       
+LnBaseDelayTimeAM  	sec	-	-	-	-	0	0	1000	1	-	-	-	-	0	0	1000	0	1000	0	1000     
+#... 2016.08.20 ROR Limit
+LnRoRLimitAM		mTorr	-	-	-	-	0	-3	1000	1	-	-	-	-	0	-3	1000	-3	1000	-3	1000
+
+LkChkStartPress1AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkStartPress2AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkStartPress3AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkStartPress4AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkStartPress5AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkStartPress6AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkStartPress7AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkStartPress8AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkStartPress9AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkStartPress10AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+
+LkChkEndPress1AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkEndPress2AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkEndPress3AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkEndPress4AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkEndPress5AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkEndPress6AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkEndPress7AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkEndPress8AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkEndPress9AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LkChkEndPress10AM	Torr	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+
+LeakChkRate1AM	mTorr/m	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LeakChkRate2AM	mTorr/m	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LeakChkRate3AM	mTorr/m	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LeakChkRate4AM	mTorr/m	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LeakChkRate5AM	mTorr/m	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LeakChkRate6AM	mTorr/m	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LeakChkRate7AM	mTorr/m	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LeakChkRate8AM	mTorr/m	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LeakChkRate9AM	mTorr/m	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LeakChkRate10AM	mTorr/m	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+LeakChkAvgAM	mTorr/m	-	-	-	-	6	-3	1000	1	-	-	-	-	6	-3	1000	-3	1000	-3	1000
+
+Chuck_UpPos_AM		mm	-	-	-	-	2	4	89	1	-	-	-	-	2	4	89	4	89	4	89
+Chuck_DnPos_AM		mm	-	-	-	-	2	4	89	1	-	-	-	-	2	4	89	4	89	4	89
+#2016.04.12
+SysLeakChkRateAM	mTorr/m	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000	
+SysPurLkChkRateAM	mTorr/m	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000		
+SysClnLkChkRateAM	mTorr/m	-	-	-	-	6	0	1000	1	-	-	-	-	6	0	1000	0	1000	0	1000
+#2016.05.13
+MFC_PurgeTmAM		sec	-	-	-	-	0	0	1000	1	-	-	-	-	0	0	1000	0	1000	0	1000 
+	
+$$$ String
+
+LeakChkProgrssTimeSM	-	-	1	-	-
+LeakChkProgrssStepSM	-	-	1	-	-
+LeakChkStartTimeSM	-	-	1	-	-
+LeakChkEndTimeSM	-	-	1	-	-
+
+
+LeakChk_Log_Time1		""
+LeakChk_Log_Time2		""
+LeakChk_Log_Time3		""
+LeakChk_Log_Time4		""
+LeakChk_Log_Time5		""
+

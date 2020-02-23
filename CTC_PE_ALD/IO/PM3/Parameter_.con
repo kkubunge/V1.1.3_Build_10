@@ -1,0 +1,905 @@
+$$$ Begin  PM3
+$DRV	PM3
+
+#---------------------------------------------------------------------------------------------
+# PM Parameter 1
+	$$$ Analog
+		PRMA_VS_SlowRghPrs		-	$DRV	1	$DRV
+		PRMA_VS_PrsBaRough		-	$DRV	1	$DRV
+		PRMA_VS_PrsBaPmping		-	$DRV	1	$DRV
+		PRMA_WT_AfterFstRgh		-	$DRV	1	$DRV
+		PRMA_TO_SlowRghPrs		-	$DRV	1	$DRV
+		PRMA_TO_BaseRghPrs		-	$DRV	1	$DRV
+		PRMA_TO_PmpLnPmping		-	$DRV	1	$DRV
+		PRMA_EC_ChmPrss			-	$DRV	1	$DRV
+		PRMA_VS_PrsBaVent		-	$DRV	1	$DRV
+		PRMA_WT_AfterVent		-	$DRV	1	$DRV
+		PRMA_TO_PressVent		-	$DRV	1	$DRV
+		PRMA_AL_VentOKTemp		-	$DRV	1	$DRV
+	$$$ Digital
+		PRMD_AI_DPCheck			-	$DRV	1	$DRV
+		PRMD_HW_DPType			-	$DRV	1	$DRV
+		PRMD_DummyRecipe		-	$DRV	1	$DRV
+		RRMD_VENT_SEQ			-	$DRV	1	$DRV
+
+		# 2018.01.08 Add ALD Valve
+		PRMD97_CNT_INT			-	$DRV	1	$DRV
+		PRMD98_CNT_INT			-	$DRV	1	$DRV
+		PRMD100_CNT_INT			-	$DRV	1	$DRV
+		PRMD101_CNT_INT			-	$DRV	1	$DRV
+		PRMD102_CNT_INT			-	$DRV	1	$DRV
+		PRMD105_CNT_INT			-	$DRV	1	$DRV
+		PRMD106_CNT_INT			-	$DRV	1	$DRV
+		PRMD108_CNT_INT			-	$DRV	1	$DRV
+		PRMD109_CNT_INT			-	$DRV	1	$DRV
+		PRMD110_CNT_INT			-	$DRV	1	$DRV
+		PRMD11_CNT_INT			-	$DRV	1	$DRV
+		PRMD12_CNT_INT			-	$DRV	1	$DRV
+		PRMD17_CNT_INT			-	$DRV	1	$DRV
+
+	$$$ Analog
+		PRMA_TO_DryPumpOn		-	$DRV	1	$DRV
+		PRMA_WT_CVGSafeWait		-	$DRV	1	$DRV
+		PRMA_VS_PrHgLmt			-	$DRV	1	$DRV
+		PRMA_VS_TrPrs			-	$DRV	1	$DRV
+		PRMA_VS_VCSnVlvOpPs		-	$DRV	1	$DRV
+		PRMA_TM_ToxicGasPurge		-	$DRV	1	$DRV
+		PRMA_TO_ArCharging		-	$DRV	1	$DRV
+		PRMA_TO_BeforeVent		-	$DRV	1	$DRV
+
+	#2014.04.07
+		PRMA_TO_V97Open			-	$DRV	1	$DRV
+		PRMA_TO_V98Open			-	$DRV	1	$DRV
+		PRMA_TO_V100Open		-	$DRV	1	$DRV
+		PRMA_TO_V101Open		-	$DRV	1	$DRV
+		PRMA_TO_V102Open		-	$DRV	1	$DRV
+		PRMA_TO_V105Open		-	$DRV	1	$DRV
+		PRMA_TO_V106Open		-	$DRV	1	$DRV
+		PRMA_TO_V108Open		-	$DRV	1	$DRV
+		PRMA_TO_V109Open		-	$DRV	1	$DRV
+		PRMA_TO_V110Open		-	$DRV	1	$DRV
+
+		# 2015.07.09 Add Canister ALD Valve
+		PRMA_TO_V11Open			-	$DRV	1	$DRV
+		PRMA_TO_V12Open			-	$DRV	1	$DRV
+		PRMA_TO_V17Open			-	$DRV	1	$DRV
+
+		PRMA_TO_V97Close		-	$DRV	1	$DRV
+		PRMA_TO_V98Close		-	$DRV	1	$DRV
+		PRMA_TO_V100Close		-	$DRV	1	$DRV
+		PRMA_TO_V101Close		-	$DRV	1	$DRV
+		PRMA_TO_V102Close		-	$DRV	1	$DRV
+		PRMA_TO_V105Close		-	$DRV	1	$DRV
+		PRMA_TO_V106Close		-	$DRV	1	$DRV
+		PRMA_TO_V108Close		-	$DRV	1	$DRV
+		PRMA_TO_V109Close		-	$DRV	1	$DRV
+		PRMA_TO_V110Close		-	$DRV	1	$DRV
+
+		# 2015.07.09 Add Canister ALD Valve
+		PRMA_TO_V11Close		-	$DRV	1	$DRV
+		PRMA_TO_V12Close		-	$DRV	1	$DRV
+		PRMA_TO_V17Close		-	$DRV	1	$DRV
+
+#---------------------------------------------------------------------------------------------
+# PM Parameter 2
+	$$$ Analog
+		PRMA_TL_ThrtlPos		-	$DRV	1	$DRV
+		PRMA_TL_ThrtlPrss		-	$DRV	1	$DRV
+		PRMA_TO_ThrtlPos		-	$DRV	1	$DRV
+		PRMA_TO_ThrtlPrss		-	$DRV	1	$DRV
+
+		# z-motion 1
+		PRMA_StgLdPos			-	$DRV	1	$DRV
+		PRMA_TL_ZMot			-	$DRV	1	$DRV
+		PRMA_TO_ZMot			-	$DRV	1	$DRV
+		PRMA_TL_ZMotGL			-	$DRV	1	$DRV
+		PRMA_TO_ZMotGL			-	$DRV	1	$DRV
+		PRMA_TO_ZMotHm			-	$DRV	1	$DRV
+
+		# z-motion 2
+		PRMA_Stg2LdPos			-	$DRV	1	$DRV
+		PRMA_TL_ZMot2			-	$DRV	1	$DRV
+		PRMA_TO_ZMot2			-	$DRV	1	$DRV
+		PRMA_TL_ZMot2GL			-	$DRV	1	$DRV
+		PRMA_TO_ZMot2GL			-	$DRV	1	$DRV
+		PRMA_TO_ZMot2Hm			-	$DRV	1	$DRV
+
+		PRMA_ZMT_HmLowLmt		-	$DRV	1	$DRV
+		PRMA_ZMT_ErrTol 		-	$DRV	1	$DRV
+		PRMA_ZMT_CtrlTmOut		-	$DRV	1	$DRV
+		PRMA_ZMT_HmHighLmt		-	$DRV	1	$DRV
+		PRMA_ZMT_OffsIgLow		-	$DRV	1	$DRV
+		PRMA_ZMT_OffsIgHigh		-	$DRV	1	$DRV
+		PRMA_ZMT_Offset			-	$DRV	1	$DRV
+		PRMA_ZMT_Offset2		-	$DRV	1	$DRV
+		PRMA_ZMT_NormSpeed		-	$DRV	1	$DRV
+		PRMA_ZMT_Pulse_mm		-	$DRV	1	$DRV
+
+		PRMA_AL_ArLowLimit		-	$DRV	1	$DRV
+		PRMA_AL_ArLow			-	$DRV	1	$DRV
+		PRMA_AL_ArHigh			-	$DRV	1	$DRV
+
+		PRMA_AL_NF3LowLimit		-	$DRV	1	$DRV
+		PRMA_AL_NF3Low			-	$DRV	1	$DRV
+		PRMA_AL_NF3High			-	$DRV	1	$DRV
+
+		PRMA_AL_O2LowLimit		-	$DRV	1	$DRV
+		PRMA_AL_O2Low			-	$DRV	1	$DRV
+		PRMA_AL_O2High			-	$DRV	1	$DRV
+		PRMA_HTR_PowSet			-	$DRV	1	$DRV
+	$$$ Digital
+	        PRMD_AL_PresetOffOp		-	$DRV	1	$DRV
+		PRMD_RC_SkipRcpType1		-	$DRV	1	$DRV
+		PRMD_RC_SkipRcpType2		-	$DRV	1	$DRV
+
+		PRMD_ZCtrl_RCP_SKIP		-	$DRV	1	$DRV
+		PRMD_ZCtrl_DLY_TIME		-	$DRV	1	$DRV
+		PRMD_ZCtrl_RCP_TYPE		-	$DRV	1	$DRV
+		PRMD_HTR_Off_Ctrl		-	$DRV	1	$DRV
+#---------------------------------------------------------------------------------------------
+# PM Parameter 3
+	$$$ Digital
+		PRMD_AL_RFChmOpt		-	$DRV	1	$DRV
+		PRMD_AL_RFChmOptLp		-	$DRV	1	$DRV
+	$$$ Analog
+		PRMA_TL_RF1LdCntLp		-	$DRV	1	$DRV
+		PRMA_TL_RF1LdPwLp		-	$DRV	1	$DRV
+		PRMA_TL_RF1RefCntLp		-	$DRV	1	$DRV
+		PRMA_TL_RF1RefPwLp		-	$DRV	1	$DRV
+		PRMA_TL_RF1RefTmLp		-	$DRV	1	$DRV
+
+		PRMA_TL_RF2LdCntLp		-	$DRV	1	$DRV
+		PRMA_TL_RF2LdPwLp		-	$DRV	1	$DRV
+		PRMA_TL_RF2RefCntLp		-	$DRV	1	$DRV
+		PRMA_TL_RF2RefPwLp		-	$DRV	1	$DRV
+		PRMA_TL_RF2RefTmLp		-	$DRV	1	$DRV
+
+		PRMA_TL_RF1LdCnt		-	$DRV	1	$DRV
+		PRMA_TL_RF1LdPw			-	$DRV	1	$DRV
+		PRMA_TL_RF1RefCnt		-	$DRV	1	$DRV
+		PRMA_TL_RF1RefPw		-	$DRV	1	$DRV
+		PRMA_TL_RF1RefTm		-	$DRV	1	$DRV
+		PRMA_TL_RF2LdCnt		-	$DRV	1	$DRV
+		PRMA_TL_RF2LdPw			-	$DRV	1	$DRV
+		PRMA_TL_RF2RefCnt		-	$DRV	1	$DRV
+		PRMA_TL_RF2RefPw		-	$DRV	1	$DRV
+		PRMA_TL_RF2RefTm		-	$DRV	1	$DRV
+
+		PRMA_TL_RFRefl			-	$DRV	1	$DRV
+		PRMA_EC_RFPlsmDtc		-	$DRV	1	$DRV
+		PRMA_EC_RFFwPw			-	$DRV	1	$DRV
+		PRMA_TL_RFFwPw			-	$DRV	1	$DRV
+		PRMA_TL_RF2Refl			-	$DRV	1	$DRV
+		PRMA_EC_RF2PlsmDtc		-	$DRV	1	$DRV
+		PRMA_EC_RF2FwPw			-	$DRV	1	$DRV
+		PRMA_TL_RF2FwPw			-	$DRV	1	$DRV
+		PRMA_TO_RPGGateVv		-	$DRV	1	$DRV
+		PRMA_TL_RPGRefl			-	$DRV	1	$DRV
+		PRMA_EC_RPGFwPw			-	$DRV	1	$DRV
+		PRMA_EC_RPGPlsmDtc		-	$DRV	1	$DRV
+
+		PRMA_Type1L			-	$DRV	1	$DRV
+		PRMA_Type1T			-	$DRV	1	$DRV
+		PRMA_Type2L			-	$DRV	1	$DRV
+		PRMA_Type2T			-	$DRV	1	$DRV
+		PRMA_Type3L			-	$DRV	1	$DRV
+		PRMA_Type3T			-	$DRV	1	$DRV
+		PRMA_Type4L			-	$DRV	1	$DRV
+		PRMA_Type4T			-	$DRV	1	$DRV
+		PRMA_Type5L			-	$DRV	1	$DRV
+		PRMA_Type5T			-	$DRV	1	$DRV
+		PRMA_Type6L			-	$DRV	1	$DRV
+		PRMA_Type6T			-	$DRV	1	$DRV
+		PRMA_Type7L			-	$DRV	1	$DRV
+		PRMA_Type7T			-	$DRV	1	$DRV
+		PRMA_Type8L			-	$DRV	1	$DRV
+		PRMA_Type8T			-	$DRV	1	$DRV
+#---------------------------------------------------------------------------------------------
+# PM Parameter 4
+	$$$ Analog
+		PRMA_TL_SHtrTmp			-	$DRV	1	$DRV
+		PRMA_TO_SHtrStb			-	$DRV	1	$DRV
+
+		PRMA_TL_SHtr1Tmp		-	$DRV	1	$DRV
+		PRMA_TL_SHtr2Tmp		-	$DRV	1	$DRV
+
+		PRMA_TO_SHtr1Stb		-	$DRV	1	$DRV
+		PRMA_TO_SHtr2Stb		-	$DRV	1	$DRV
+
+		PRMA_TO_SHT1CoDn		-	$DRV	1	$DRV
+		PRMA_TO_SHT2CoDn		-	$DRV	1	$DRV
+
+		PRMA_SHT1CoDnTemp		-	$DRV	1	$DRV
+		PRMA_SHT2CoDnTemp		-	$DRV	1	$DRV
+
+		PRMA_SHtr1Temp1			-	$DRV	1	$DRV
+		PRMA_SHtr1Temp2			-	$DRV	1	$DRV
+		PRMA_SHtr1Temp3			-	$DRV	1	$DRV
+		PRMA_SHtr1Temp4			-	$DRV	1	$DRV
+		PRMA_SHtr1Temp5			-	$DRV	1	$DRV
+		PRMA_SHtr1Temp6			-	$DRV	1	$DRV
+
+		PRMA_SHtr2Temp1			-	$DRV	1	$DRV
+		PRMA_SHtr2Temp2			-	$DRV	1	$DRV
+		PRMA_SHtr2Temp3			-	$DRV	1	$DRV
+		PRMA_SHtr2Temp4			-	$DRV	1	$DRV
+		PRMA_SHtr2Temp5			-	$DRV	1	$DRV
+		PRMA_SHtr2Temp6			-	$DRV	1	$DRV
+
+		PRMA_SHtr1Ratio1		-	$DRV	1	$DRV
+		PRMA_SHtr1Ratio2		-	$DRV	1	$DRV
+		PRMA_SHtr1Ratio3		-	$DRV	1	$DRV
+		PRMA_SHtr1Ratio4		-	$DRV	1	$DRV
+		PRMA_SHtr1Ratio5		-	$DRV	1	$DRV
+		PRMA_SHtr1Ratio6		-	$DRV	1	$DRV
+
+		PRMA_SHtr2Ratio1		-	$DRV	1	$DRV
+		PRMA_SHtr2Ratio2		-	$DRV	1	$DRV
+		PRMA_SHtr2Ratio3		-	$DRV	1	$DRV
+		PRMA_SHtr2Ratio4		-	$DRV	1	$DRV
+		PRMA_SHtr2Ratio5		-	$DRV	1	$DRV
+		PRMA_SHtr2Ratio6		-	$DRV	1	$DRV
+
+	$$$ Digital
+		PRMD_SHT1AutoRat		-	$DRV	1	$DRV
+		PRMD_SHT2AutoRat		-	$DRV	1	$DRV
+
+#---------------------------------------------------------------------------------------------
+# PM Parameter 5
+	$$$ Digital
+		PRMD_HO_TopLidSwitch		-	$DRV	1	$DRV
+		PRMD_HO_DPRun			-	$DRV	1	$DRV
+		PRMD_HO_DPAlarm			-	$DRV	1	$DRV
+		PRMD_HO_DPWarning		-	$DRV	1	$DRV
+		PRMD_HO_RPGReady		-	$DRV	1	$DRV
+		PRMD_HO_RPGACOK			-	$DRV	1	$DRV
+		PRMD_HO_ChmPrs			-	$DRV	1	$DRV
+		PRMD_HO_StgHtrOvTmp		-	$DRV	1	$DRV
+		PRMD_HO_StgHtrRelay		-	$DRV	1	$DRV
+		PRMD_HO_STHAlarm		-	$DRV	1	$DRV
+		PRMD_HO_ExhaustPres		-	$DRV	1	$DRV
+		PRMD_HO_AScrubber		-	$DRV	1	$DRV
+		PRMD_HO_WLeakFB1		-	$DRV	1	$DRV
+		PRMD_HO_WLeakFB2		-	$DRV	1	$DRV
+		PRMD_HO_CoolantWater		-	$DRV	1	$DRV
+		PRMD_HO_RPGWater		-	$DRV	1	$DRV
+		PRMD_HO_ChillerAlarm		-	$DRV	1	$DRV
+		PRMD_HO_GasBoxFront		-	$DRV	1	$DRV
+		PRMD_HO_GasBoxLeft		-	$DRV	1	$DRV
+		PRMD_HO_GasBoxRight		-	$DRV	1	$DRV
+		PRMD_HO_SHTTBBox		-	$DRV	1	$DRV
+		PRMD_HO_SCRMon			-	$DRV	1	$DRV
+		PRMD_HO_AirPrs			-	$DRV	1	$DRV
+		PRMD_HO_NF3Prs			-	$DRV	1	$DRV
+		PRMD_HO_WF6Prs			-	$DRV	1	$DRV
+		PRMD_HO_ArPrs			-	$DRV	1	$DRV
+		PRMD_HO_B2H6Prs			-	$DRV	1	$DRV
+		PRMD_HO_SiH4Prs			-	$DRV	1	$DRV
+		PRMD_HO_Ar2Prs			-	$DRV	1	$DRV
+		PRMD_HO_PN2Prs			-	$DRV	1	$DRV
+		PRMD_HO_H2Prs			-	$DRV	1	$DRV
+		PRMD_HO_DivertPumpRun		-	$DRV	1	$DRV
+		PRMD_HO_DivertPumpAlarm		-	$DRV	1	$DRV
+		PRMD_HO_DivertPumpWarning	-	$DRV	1	$DRV
+
+		PRMD_HO_RRWaterPrs		-	$DRV	1	$DRV
+		PRMD_HO_RRWaterLeak		-	$DRV	1	$DRV
+		PRMD_HO_WaterLeakSts		-	$DRV	1	$DRV
+		PRMD_HO_HTCOMSts		-	$DRV	1	$DRV
+		PRMD_HO_HTAmbSts		-	$DRV	1	$DRV
+		PRMD_HO_HTBattery 		-	$DRV	1	$DRV
+		PRMD_HO_HT2COMSts 		-	$DRV	1	$DRV
+		PRMD_HO_HT2AmbSts 		-	$DRV	1	$DRV
+		PRMD_HO_HT2Battery		-	$DRV	1	$DRV
+		PRMD_HO_RPGWfrFlw 		-	$DRV	1	$DRV
+		PRMD_HO_RPGDetect 		-	$DRV	1	$DRV
+		PRMD_HO_SmokeDetect		-	$DRV	1	$DRV
+		PRMD_HO_SolVlvSts 		-	$DRV	1	$DRV
+		PRMD_HO_GasBoxCover		-	$DRV	1	$DRV
+		PRMD_HO_Stg1CtrlSts		-	$DRV	1	$DRV
+		PRMD_HO_Stg2CtrlSts		-	$DRV	1	$DRV
+		PRMD_HO_RFFilterSts		-	$DRV	1	$DRV
+		PRMD_HO_RF2FilterSts		-	$DRV	1	$DRV
+		PRMD_HO_SrcHiLimSts		-	$DRV	1	$DRV
+		PRMD_HO_SrcLowSts 		-	$DRV	1	$DRV
+		PRMD_HO_SrcLowLimSts		-	$DRV	1	$DRV
+		PRMD_HO_HTECtrlSts		-	$DRV	1	$DRV
+		PRMD_HO_ZMTLmSenSts		-	$DRV	1	$DRV
+		PRMD_HO_ZMT2LmSenSts		-	$DRV	1	$DRV
+		PRMD_HO_GLHtrOvTmp		-	$DRV	1	$DRV
+		PRMD_HO_LineHtrRelay		-	$DRV	1	$DRV
+		PRMD_HO_Extinquisher		-	$DRV	1	$DRV
+		PRMD_HO_ALDOpenSts		-	$DRV	1	$DRV
+		PRMD_HO_ALDCloseSts		-	$DRV	1	$DRV
+		PRMD_HO_ChuckCoolPrs		-	$DRV	1	$DRV
+		$$$ Analog
+		ValueIntlkTime			-	$DRV	1	$DRV
+		ValueIntlkTimeRPG		-	$DRV	1	$DRV
+
+		$$$ Digital
+		PRMD_HO_DryPumpHazard		-	$DRV	1	$DRV
+		PRMD_HO_MKSFanSts		-	$DRV	1	$DRV
+		PRMD_HO_CanExhaustSts		-	$DRV	1	$DRV
+		$$$ Analog
+		PRMA_BGGaugeValue		-	$DRV	1	$DRV
+		PRMA_ForeGaugeValue		-	$DRV	1	$DRV
+		PRMA_MKSPrsFanValue		-	$DRV	1	$DRV
+		PRMA_COOLPRS_HIGH		-	$DRV	1	$DRV
+		PRMA_COOLPRS_LOW		-	$DRV	1	$DRV
+#---------------------------------------------------------------------------------------------
+# PM Parameter 6
+	$$$ Analog
+		PRMA_TL_MFC01Set		-	$DRV	1	$DRV
+		PRMA_TL_MFC02Set		-	$DRV	1	$DRV
+		PRMA_TL_MFC03Set		-	$DRV	1	$DRV
+		PRMA_TL_MFC04Set		-	$DRV	1	$DRV
+		PRMA_TL_MFC05Set		-	$DRV	1	$DRV
+		PRMA_TL_MFC06Set		-	$DRV	1	$DRV
+		PRMA_TL_MFC07Set		-	$DRV	1	$DRV
+		PRMA_TL_MFC08Set		-	$DRV	1	$DRV
+		PRMA_TL_MFC09Set		-	$DRV	1	$DRV
+		PRMA_TL_MFC10Set		-	$DRV	1	$DRV
+		#
+		PRMA_TO_MFC01			-	$DRV	1	$DRV
+		PRMA_TO_MFC02			-	$DRV	1	$DRV
+		PRMA_TO_MFC03			-	$DRV	1	$DRV
+		PRMA_TO_MFC04			-	$DRV	1	$DRV
+		PRMA_TO_MFC05			-	$DRV	1	$DRV
+		PRMA_TO_MFC06			-	$DRV	1	$DRV
+		PRMA_TO_MFC07			-	$DRV	1	$DRV
+		PRMA_TO_MFC08			-	$DRV	1	$DRV
+		PRMA_TO_MFC09			-	$DRV	1	$DRV
+		PRMA_TO_MFC10			-	$DRV	1	$DRV
+		#
+		PRMA_EC_MFC01			-	$DRV	1	$DRV
+		PRMA_EC_MFC02			-	$DRV	1	$DRV
+		PRMA_EC_MFC03			-	$DRV	1	$DRV
+		PRMA_EC_MFC04			-	$DRV	1	$DRV
+		PRMA_EC_MFC05			-	$DRV	1	$DRV
+		PRMA_EC_MFC06			-	$DRV	1	$DRV
+		PRMA_EC_MFC07			-	$DRV	1	$DRV
+		PRMA_EC_MFC08			-	$DRV	1	$DRV
+		PRMA_EC_MFC09			-	$DRV	1	$DRV
+		PRMA_EC_MFC10			-	$DRV	1	$DRV
+
+		PRMA_TL_MFC01PrsHi		-	$DRV	1	$DRV
+		PRMA_TL_MFC02PrsHi		-	$DRV	1	$DRV
+		PRMA_TL_MFC03PrsHi		-	$DRV	1	$DRV
+		PRMA_TL_MFC04PrsHi		-	$DRV	1	$DRV
+		PRMA_TL_MFC05PrsHi		-	$DRV	1	$DRV
+		PRMA_TL_MFC06PrsHi		-	$DRV	1	$DRV
+		PRMA_TL_MFC07PrsHi		-	$DRV	1	$DRV
+		PRMA_TL_MFC08PrsHi		-	$DRV	1	$DRV
+		PRMA_TL_MFC09PrsHi		-	$DRV	1	$DRV
+		PRMA_TL_MFC10PrsHi		-	$DRV	1	$DRV
+
+		PRMA_TL_MFC01PrsLw		-	$DRV	1	$DRV
+		PRMA_TL_MFC02PrsLw		-	$DRV	1	$DRV
+		PRMA_TL_MFC03PrsLw		-	$DRV	1	$DRV
+		PRMA_TL_MFC04PrsLw		-	$DRV	1	$DRV
+		PRMA_TL_MFC05PrsLw		-	$DRV	1	$DRV
+		PRMA_TL_MFC06PrsLw		-	$DRV	1	$DRV
+		PRMA_TL_MFC07PrsLw		-	$DRV	1	$DRV
+		PRMA_TL_MFC08PrsLw		-	$DRV	1	$DRV
+		PRMA_TL_MFC09PrsLw		-	$DRV	1	$DRV
+		PRMA_TL_MFC10PrsLw		-	$DRV	1	$DRV
+
+		PRMA_TO_MFCScan			-	$DRV	1	$DRV
+		PRMA_TO_MFCScanRty		-	$DRV	1	$DRV
+		PRMA_SRCPRESSURE_LOW		-	$DRV	1	$DRV
+		PRMA_SRCPRESSURE_HIGH		-	$DRV	1	$DRV
+		PRMA_SRCPRESSURE_TIMEOUT	-	$DRV	1	$DRV
+
+	$$$ Digital
+		PRMD_MFC_Diagnosis		-	$DRV	1	$DRV
+		PRMD_CARRIER_MFC		-	$DRV	1	$DRV
+		PRMD_CANISTER_VALVE1		-	$DRV	1	$DRV
+		PRMD_CANISTER_VALVE2		-	$DRV	1	$DRV
+		PRMD_SOUREPRS_OPTION		-	$DRV	1	$DRV
+		PRMD_INT_RCP			-	$DRV	1	$DRV
+
+#---------------------------------------------------------------------------------------------
+# PM Parameter 7
+	$$$ Digital
+		PRMD_Refill_Opt			-	$DRV	1	$DRV
+		PRMD_Refill_Level		-	$DRV	1	$DRV
+		PRMD_Ref_LeakCheck		-	$DRV	1	$DRV
+		# 2015.09.21 Add Swap Gas Option
+		PRMD_SwpPug_Opt			-	$DRV	1	$DRV
+		PRMD_SwpPug_RcpEnd		-	$DRV	1	$DRV
+
+		# 2015.02.24 Add RPG Alarm Process Retry Count
+		PRMD_RPGPrcRetryOpt		-	$DRV	1	$DRV
+
+	$$$ Analog
+		PRMA_SP_RefillPer		-	$DRV	1	$DRV
+		PRMA_TO_Refill			-	$DRV	1	$DRV
+		PRMA_TO_Refill_Pump		-	$DRV	1	$DRV
+		PRMA_TO_Ref_He_Chr		-	$DRV	1	$DRV
+		PRMA_VS_Ref_Prs			-	$DRV	1	$DRV
+		PRMA_VS_Ref_SrcLow		-	$DRV	1	$DRV
+		PRMA_TO_LotPreSkip		-	$DRV	1	$DRV
+
+		# 2015.02.24 Add RPG Alarm Process Retry Count
+		PRMA_RPGPrcRetryCnt		-	$DRV	1	$DRV
+
+		# 2015.05.30 Add Heat Exchanger Temp High/Low
+		PRMA_HTE_LowLmtTmp		-	$DRV	1	$DRV
+		PRMA_HTE_HighLmtTmp		-	$DRV	1	$DRV
+		# 2015.09.21 Add PM Swap Purge
+		PRMA_SwpPug_Flw			-	$DRV	1	$DRV
+
+#---------------------------------------------------------------------------------------------
+# Not Used Parameter
+# Heater Offset Control
+	$$$ Digital
+		PRMD_Offset_Opt			-	$DRV	1	$DRV
+
+	$$$ Analog
+		PRMA_Std_Temp			-	$DRV	1	$DRV
+		PRMA_UpTemp_Offset		-	$DRV	1	$DRV
+		PRMA_DnTemp_Offset		-	$DRV	1	$DRV
+
+#---------------------------------------------------------------------------------------------
+# PM Parameter 8
+#       LT Heater Set 1
+$$$ Digital
+	PRMA_HT01_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT02_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT03_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT04_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT05_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT06_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT07_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT08_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT09_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT10_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT11_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT12_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT13_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT14_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT15_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT16_OnOff_LT	-	$DRV	1	$DRV
+
+	PRMA_HT01_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT02_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT03_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT04_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT05_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT06_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT07_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT08_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT09_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT10_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT11_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT12_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT13_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT14_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT15_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT16_CtrlMd_LT	-	$DRV	1	$DRV
+
+$$$ Analog
+	PRMA_HT01_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT02_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT03_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT04_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT05_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT06_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT07_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT08_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT09_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT10_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT11_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT12_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT13_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT14_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT15_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT16_TmpSp_LT	-	$DRV	1	$DRV
+
+	PRMA_HT01_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT02_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT03_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT04_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT05_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT06_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT07_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT08_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT09_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT10_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT11_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT12_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT13_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT14_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT15_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT16_TmpHgLmt_LT	-	$DRV	1	$DRV
+
+	PRMA_HT01_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT02_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT03_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT04_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT05_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT06_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT07_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT08_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT09_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT10_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT11_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT12_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT13_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT14_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT15_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT16_TmpLwLmt_LT	-	$DRV	1	$DRV
+
+	PRMA_HT01_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT02_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT03_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT04_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT05_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT06_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT07_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT08_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT09_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT10_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT11_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT12_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT13_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT14_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT15_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT16_Devi_LT	-	$DRV	1	$DRV
+
+#---------------------------------------------------------------------------------------------
+# PM Parameter 8-1
+#       LT Heater Set 2
+$$$ Digital
+	PRMA_HT17_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT18_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT19_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT20_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT21_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT22_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT23_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT24_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT25_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT26_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT27_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT28_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT29_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT30_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT31_OnOff_LT	-	$DRV	1	$DRV
+	PRMA_HT32_OnOff_LT	-	$DRV	1	$DRV
+
+	PRMA_HT17_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT18_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT19_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT20_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT21_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT22_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT23_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT24_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT25_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT26_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT27_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT28_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT29_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT30_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT31_CtrlMd_LT	-	$DRV	1	$DRV
+	PRMA_HT32_CtrlMd_LT	-	$DRV	1	$DRV
+
+$$$ Analog
+	PRMA_HT17_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT18_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT19_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT20_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT21_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT22_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT23_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT24_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT25_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT26_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT27_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT28_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT29_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT30_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT31_TmpSp_LT	-	$DRV	1	$DRV
+	PRMA_HT32_TmpSp_LT	-	$DRV	1	$DRV
+
+	PRMA_HT17_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT18_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT19_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT20_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT21_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT22_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT23_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT24_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT25_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT26_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT27_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT28_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT29_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT30_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT31_TmpHgLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT32_TmpHgLmt_LT	-	$DRV	1	$DRV
+
+	PRMA_HT17_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT18_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT19_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT20_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT21_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT22_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT23_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT24_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT25_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT26_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT27_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT28_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT29_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT30_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT31_TmpLwLmt_LT	-	$DRV	1	$DRV
+	PRMA_HT32_TmpLwLmt_LT	-	$DRV	1	$DRV
+
+	PRMA_HT17_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT18_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT19_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT20_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT21_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT22_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT23_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT24_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT25_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT26_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT27_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT28_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT29_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT30_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT31_Devi_LT	-	$DRV	1	$DRV
+	PRMA_HT32_Devi_LT	-	$DRV	1	$DRV
+
+#---------------------------------------------------------------------------------------------
+# PM Parameter 8-2
+#       RT Heater Set 1
+$$$ Digital
+	PRMA_HT01_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT02_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT03_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT04_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT05_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT06_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT07_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT08_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT09_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT10_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT11_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT12_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT13_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT14_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT15_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT16_OnOff_RT	-	$DRV	1	$DRV
+
+	PRMA_HT01_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT02_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT03_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT04_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT05_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT06_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT07_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT08_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT09_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT10_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT11_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT12_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT13_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT14_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT15_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT16_CtrlMd_RT	-	$DRV	1	$DRV
+
+$$$ Analog
+	PRMA_HT01_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT02_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT03_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT04_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT05_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT06_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT07_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT08_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT09_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT10_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT11_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT12_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT13_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT14_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT15_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT16_TmpSp_RT	-	$DRV	1	$DRV
+
+	PRMA_HT01_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT02_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT03_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT04_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT05_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT06_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT07_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT08_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT09_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT10_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT11_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT12_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT13_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT14_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT15_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT16_TmpHgLmt_RT	-	$DRV	1	$DRV
+
+	PRMA_HT01_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT02_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT03_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT04_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT05_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT06_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT07_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT08_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT09_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT10_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT11_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT12_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT13_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT14_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT15_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT16_TmpLwLmt_RT	-	$DRV	1	$DRV
+
+	PRMA_HT01_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT02_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT03_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT04_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT05_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT06_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT07_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT08_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT09_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT10_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT11_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT12_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT13_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT14_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT15_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT16_Devi_RT	-	$DRV	1	$DRV
+
+#---------------------------------------------------------------------------------------------
+# PM Parameter 8-3
+#       RT Heater Set 2
+$$$ Digital
+	PRMA_HT17_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT18_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT19_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT20_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT21_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT22_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT23_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT24_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT25_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT26_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT27_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT28_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT29_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT30_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT31_OnOff_RT	-	$DRV	1	$DRV
+	PRMA_HT32_OnOff_RT	-	$DRV	1	$DRV
+
+	PRMA_HT17_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT18_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT19_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT20_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT21_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT22_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT23_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT24_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT25_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT26_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT27_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT28_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT29_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT30_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT31_CtrlMd_RT	-	$DRV	1	$DRV
+	PRMA_HT32_CtrlMd_RT	-	$DRV	1	$DRV
+
+$$$ Analog
+	PRMA_HT17_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT18_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT19_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT20_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT21_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT22_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT23_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT24_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT25_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT26_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT27_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT28_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT29_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT30_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT31_TmpSp_RT	-	$DRV	1	$DRV
+	PRMA_HT32_TmpSp_RT	-	$DRV	1	$DRV
+
+	PRMA_HT17_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT18_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT19_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT20_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT21_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT22_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT23_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT24_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT25_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT26_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT27_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT28_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT29_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT30_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT31_TmpHgLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT32_TmpHgLmt_RT	-	$DRV	1	$DRV
+
+	PRMA_HT17_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT18_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT19_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT20_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT21_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT22_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT23_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT24_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT25_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT26_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT27_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT28_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT29_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT30_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT31_TmpLwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT32_TmpLwLmt_RT	-	$DRV	1	$DRV
+
+	PRMA_HT17_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT18_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT19_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT20_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT21_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT22_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT23_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT24_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT25_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT26_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT27_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT28_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT29_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT30_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT31_Devi_RT	-	$DRV	1	$DRV
+	PRMA_HT32_Devi_RT	-	$DRV	1	$DRV
+
+	PRMA_HT17_OutPw_RT	-	$DRV	1	$DRV
+	PRMA_HT18_OutPw_RT	-	$DRV	1	$DRV
+	PRMA_HT19_OutPw_RT	-	$DRV	1	$DRV
+	PRMA_HT20_OutPw_RT	-	$DRV	1	$DRV
+	PRMA_HT21_OutPw_RT	-	$DRV	1	$DRV
+	PRMA_HT22_OutPw_RT	-	$DRV	1	$DRV
+	PRMA_HT23_OutPw_RT	-	$DRV	1	$DRV
+	PRMA_HT24_OutPw_RT	-	$DRV	1	$DRV
+	PRMA_HT25_OutPw_RT	-	$DRV	1	$DRV
+	PRMA_HT26_OutPw_RT	-	$DRV	1	$DRV
+	PRMA_HT27_OutPw_RT	-	$DRV	1	$DRV
+	PRMA_HT28_OutPw_RT	-	$DRV	1	$DRV
+	PRMA_HT29_OutPw_RT	-	$DRV	1	$DRV
+	PRMA_HT30_OutPw_RT	-	$DRV	1	$DRV
+	PRMA_HT31_OutPw_RT	-	$DRV	1	$DRV
+	PRMA_HT32_OutPw_RT	-	$DRV	1	$DRV
+
+	PRMA_HT17_OutPwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT18_OutPwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT19_OutPwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT20_OutPwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT21_OutPwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT22_OutPwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT23_OutPwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT24_OutPwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT25_OutPwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT26_OutPwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT27_OutPwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT28_OutPwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT29_OutPwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT30_OutPwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT31_OutPwLmt_RT	-	$DRV	1	$DRV
+	PRMA_HT32_OutPwLmt_RT	-	$DRV	1	$DRV
+
+$$$ END

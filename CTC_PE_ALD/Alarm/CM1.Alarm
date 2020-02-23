@@ -1,0 +1,1016 @@
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+#	CM1.	 ALARM ......100 ~ 399
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+101 CM1.NOTCARRIER {
+	"CM1 'S NOTCARRIER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+102 CM1.CARRIER {
+	"CM1 'S CARRIER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+103 CM1.EXTEND {
+	"CM1 'S EXTEND ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+104 CM1.RETRACT{
+	"CM1 'S  RETRACT ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+105 CM1.CLOSE{
+	"CM1 'S CLOSE ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+106 CM1.OPEN{
+	"CM1 'S OPEN ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+107 CM1.DOORDOWN{
+	"CM1 'S  DOORDOWN ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+108 CM1.DOORUP{
+	"CM1 'S  DOORUP ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+109 CM1.DOCKING{
+	"CM1 'S  DOCKING ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+110 CM1.UNDOCKING{
+	"CM1 'S  UNDOCKING ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+111 CM1.CLAMP{
+	"CM1 'S CLAMP ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+112 CM1.UNCLAMP{
+	"CM1 'S  UNCLAMP ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+113 CM1.SLIDE{
+	"CM1 'S  SLIDE ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+114 CM1.TMO{
+	"CM1 'S  Initialize Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+115 CM1.DoorSnsChk{
+	"CM1 'S  Door sensor check"
+	CLEAR		"Clear Operation"
+}
+
+116 CM1.PaddleSnsChk{
+	"CM1 'S  Paddle sensor check"
+	CLEAR		"Clear Operation"
+}
+
+117 CM1.CassChk{
+	"CM1 'S  Cassette check"
+	CLEAR		"Clear Operation"
+}
+
+118 CM1.VACUUM{
+	"CM1 'S  VACUUM ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+119 CM1.LATCH{
+	"CM1 'S  LATCH ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#--------------------------------------------------------------------
+# Fixload 6M 
+#--------------------------------------------------------------------
+120 CM1.6MCommErr{
+	"CM1 'S Communitcation check"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"	
+}
+
+121 CM1.6MMapErr{
+	"CM1 'S Mapping Error"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+#	IGNORE		"Ignore Operation => SUCCESS"	
+}
+
+122 CM1.NoCompAir{
+	"No Compressed air(0xc018)! Check & Init again!"
+	CLEAR		"Clear Operation"
+}
+
+123 CM1.NoVacuum{
+	"No Vacuum(0xc019)! Check & Init again!"
+	CLEAR		"Clear Operation"
+}
+
+124 CM1.24VMissing{
+	"Voltage 24 missing(0xc01f)! Check & Init again!"
+	CLEAR		"Clear Operation"
+}
+
+125 CM1.WaferProtTrig{
+	"Wafer Protrusion Sensor Triggered(0xc01b)! Check again!"
+	CLEAR		"Clear Operation"
+}
+
+126 CM1.InitNotReady{
+	"Initialization Not Ready(0xc01d)! Check again!"
+	CLEAR		"Clear Operation"
+}
+
+127 CM1.WaferProtDef{
+	"Wafer Protrusion Sensor Defective(0xc01e)! Check again!"
+	CLEAR		"Clear Operation"
+}
+
+128 CM1.VacSensorNotAct{
+	"Vacuum Sensor Not Active(0xc022)! Check & Init again!"
+	CLEAR		"Clear Operation"
+}
+
+130 CM1.6MErr{
+	"CM1 6MErr"
+	CLEAR		"Clear Operation"
+}
+
+#--------------------------------------------------------------------
+# N2 Purge Alarm
+#--------------------------------------------------------------------
+
+131 CM1.N2FrontAbortTolOver{
+	"CM1 N2 Front Abort Tolerance is Over"
+	CLEAR		"Clear Operation"
+}
+
+132 CM1.N2RearAbortTolOver{
+	"CM1 N2 Rear Abort Tolerance is Over"
+	CLEAR		"Clear Operation"
+}
+
+133 CM1.N2FrontWarnTolOver{
+	"CM1 N2 Front Warning Tolerance is Over"
+	CLEAR		"Clear Operation"
+}
+
+134 CM1.N2RearWarnTolOver{
+	"CM1 N2 Rear Warninig Tolerance is Over"
+	CLEAR		"Clear Operation"
+}
+
+135 CM1.N2MainPrsLow{
+	"CM1 N2 Main Pressure is Low"
+	CLEAR		"Clear Operation"
+}
+
+136 CM1.N2MainPrsHigh{
+	"CM1 N2 Main Pressure is High"
+	CLEAR		"Clear Operation"
+}
+
+137 CM1.N2PurgeAbnorStop{
+	"CM1 N2 Purge Abnormal Stop"
+	CLEAR		"Clear Operation"
+}
+
+140 CM1.N2BlowControlFail{
+	"CM1 N2 Blow Control Fail!(Need to Remove FOUP on LoadPort)"
+	CLEAR		"Clear Operation"
+}
+
+141 CM1.N2PurgeControlFail{
+	"CM1 N2 Purge Control Fail!(Need to Place FOUP on LoadPort)"
+	CLEAR		"Clear Operation"
+}
+
+142 CM1.N2PurgeFlowRateFail {
+	"CM1 N2 Purge Flow Rate Alarm Is Posting So Check N2 Control"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+#--------------------------------------------------------------------
+# Bar Code
+#--------------------------------------------------------------------
+
+151 CM1.CODE.READ_ERROR{
+	"CM1 'S READ ERROR "
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#--------------------------------------------------------------------
+# Append 2002.02.01 from KORNIC for AGV(160-190) Load/Unload(191-199)
+#--------------------------------------------------------------------
+159 CM1.CommFail {
+	"CM1 Communication Fail!!!"
+	CLEAR		"Clear Operation"
+}
+
+160 CM1.CommError {
+	"CM1 DeviceNet AMHS Communication Fail!!!"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+161 CM1.AMHSValidTmo {
+	"CM1 AMHS Valid(TP6) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+162 CM1.AMHSTRReqTmo {
+	"CM1 AMHS TRREQ(TP1) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+163 CM1.AMHSBusyTmo {
+	"CM1 AMHS Busy(TP2) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+164 CM1.AMHSRecvTmo {
+	"CM1 AMHS Foup Receive(TP3) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+165 CM1.AMHSRemoveTmo {
+	"CM1 AMHS Foup Remove(TP3) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+166 CM1.AMHSComptTmo {
+	"CM1 AMHS Complete On(TP4) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+167 CM1.AMHSCompOffTmo {
+	"CM1 AMHS Complete Off Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+168 CM1.AMHSCSOffTmo {
+	"CM1 EFEM AMHS CS Off Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+169 CM1.AMHSContTmo {
+	"CM1 AMHS Continue(TP6) Signal Timeout"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+170 CM1.AMHSValidOff {
+	"CM1 AMHS Valid Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+171 CM1.UnldFoupAbsent {
+	"CM1 Before AMHS Unloading, Foup is Absent"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+172 CM1.LoadFoupPresent {
+	"CM1 Before AMHS Loading, Foup is Present"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+173 CM1.AbnFoupChange {
+	"CM1 Abnormal Foup Change"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+	DESCRIPTION	"Alarm/AlarmText/CM1/113.txt"
+}
+
+174 CM1.AMHSHOAvblOff {
+	"CM1 AMHS HandOff Available Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+175 CM1.AMHSCSOff {
+	"CM1 AMHS CS Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+176 CM1.AMHSTRReqOff {
+	"CM1 AMHS TR Req. Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+177 CM1.AMHSBusyOff {
+	"CM1 AMHS Busy Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+178 CM1.AMHSCompltOff {
+	"CM1 AMHS Complete Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+179 CM1.AMHSContOff {
+	"CM1 AMHS Continue Signal Off"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+180 CM1.AMHSHasError {
+	"CM1 AMHS has a Error"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+181 CM1.AMHSCommFail {
+	"CM1 AMHS Communication Fail"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+185 CM1.AMHSLREQON {
+	"CM1 AMHS Load Request Signal ON Fail"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+186 CM1.AMHSERROR {
+	"CM1 AMHS Signal Scenario Fail"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+191 CM1.ClampTimeout {
+	"CM1 Clamp Timeout"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+192 CM1.UnclampTimeout {
+	"CM1 Unclamp Timeout"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+193 EFEM.LIGHT_CURTAIN_OFF {
+	"EFEM LIGHT_CURTAIN_OFF WHEN PIO COMMUNICATION AT CM1"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+195 CM1.UnldFoupAbsent {
+	"CM1 Before AMHS Loading, Foup is Absent"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+196 CM1.LoadFoupPresent {
+	"CM1 Before AMHS UnLoading, Foup is Present"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+197 CM1.FOUP_CHECK_SENSOR_DIFFERENT {
+	"CM1 FOUP Check Sensor Different(PlacementSensor and PresnetSensor)"
+	RETRY		"Retry Operation"
+#	ABORT		"Abort Operation => RETRY"
+#	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+198 CM1.LoadFoupPresent {
+	"CM1 AMHS MODE IS AUTO, BUT FUOP WAS MANUAL LOADED"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+199 CM1.LoadFoupAbsent {
+	"CM1 AMHS MODE IS AUTO, BUT FUOP WAS MANUAL UNLOADED"
+#	RETRY		"Retry Operation"
+	ABORT		"Abort Operation => RETRY"
+	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+
+# 2005.5.12
+200 CM1.RFIDCommError {
+	"CM1 RFID Communication Error"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+201 CM1.RFIDHasError {
+	"CM1 RFID has a Error"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+202 CM1.RFIDUnkRange {
+	"CM1 RFID Unknown Range(0~17)"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+203 CM1.RFIDFoupAbsent {
+	"CM1 Foup Absent When RFID Read"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+204 CM1.RFIDNotUndock {
+	"CM1 Foup is not Undock When RFID Read"
+	RETRY		"Retry Operation"
+	ABORT		"Abort Operation"
+	IGNORE		"Ignore Operation => SUCCESS"
+}
+
+# 2015.02.16 Add Change AMHS Mode to Manual for OHT Not Access
+270 CM1_AMHS_ChangeManual {
+	"CM1 AMHS Mode Changed to Manual for Wafer Manual Move"
+	CLEAR		"CLEAR Operation"
+}
+
+#============================= Jelee Add Start 2006.11.27 ============================
+271 CM1.Wafer_Processed_Count_Error {
+	"[CM1 Warning] Wafer Processed Count Error."
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Warning] Wafer Processed count is different to Mapped count."
+}
+272 CM1.MID_Double_Checked_Error {
+	"[CM1 Abort]Current MID is Same, it is one of Processed MID List. Pls Check MID!!!"
+	CLEAR		"Clear"
+}
+
+281 CM1.Cluster_Recipe_Different_Error_In_LotRecipe {
+	"[CM1 Abort] LotRecipe Check Error(Cluster Recipe Different or Empty In LotRecipe)"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] Cluster Recipe Different Error In LotRecipe"
+}
+282 CM1.LotRecipe_Check_Skip_Error {
+	"[CM1 Warning] LotRecipe Check Option is Skip, Please check Lot Recipe Check option."
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[CM1 Warning] LotRecipe Check Option is Skip, Please check Lot Recipe Check option."
+}
+283 CM1.RUN_START_ERROR {
+	"CM1 Run start Error - All Chamber Status are DryCleaning_Reserved or DryCleaning)"
+	RETRY		"Retry Operation"
+#	ABORT		"Abort Operation => RETRY"
+#	IGNORE		"Ignore Operation => SUCCESS : COMPLETE"
+}
+284 CM1.Recipe_TunningData_Check_Error {
+	"[CM1 Abort] ProcessRecipe Tunning Data Check Error, Please check Tunning Data of Host."
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[CM1 Abort] ProcessRecipe Tunning Data Check Error, Please check Tunning Data of Host."
+}
+291 CM1.Run_Recipe_File_Select_Error {
+	"[Reject] Run Recipe File Select Error(Empty or N/A File) - Error No 6"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Reject] Run Recipe File Select Error(Empty or N/A File) Error No 6"
+}
+292 CM1.Select_Job_is_Run_Already {
+	"[Reject] Select Job is Run Already - Error No 8"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Reject] Select Job is Run Already - Error No 8"
+}
+293 CM1.Select_Job_Parameter_Error {
+	"[Reject] Select Job Parameter Error - Error No 9"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Reject] Select Job Parameter Error - Error No 9"
+}
+294 CM1.Lot_Recipe_Data_Reading_Error {
+	"[Abort] Lot Recipe Data Reading Error(N/A File) - Error No 11"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] Lot Recipe Data Reading Error(N/A File) - Error No 11"
+}
+295 CM1.Cluster_Recipe_Data_Reading_Error {
+	"[Abort] Cluster Recipe Data Reading Error(N/A File) - Error No 12"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] Cluster Recipe Data Reading Error(N/A File) - Error No 12"
+}
+296 CM1.PM_Recipe_Not_Exist_Error {
+	"[Abort] PM Recipe Not Exist Error - Error No 18"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] PM Recipe Not Exist Error - Error No 18"
+}
+297 CM1.Run_Chamber_Is_Not_Enable {
+	"[Abort] Run Chamber is Not Enable Chamber - Error No 14"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] Run Chamber is Not Enable Chamber - Error No 14"
+}
+298 CM1.Run_Chamber_Is_Not_Manual {
+	"[Abort] Run Chamber is Not Manual Chamber - Error No 15"
+#	RETRY		"RETRY"
+	CLEAR		"CLEAR Operation"
+	DESCRIPTION	"[Abort] Run Chamber is Not Enable Chamber - Error No 15"
+}
+#============================= Jelee Add End 2006.11.27 ============================
+
+301 CM1.Slot1Crossed {
+	"CM1 Slot1 is crossed"
+	ABORT		"Abort Operation"
+}
+
+302 CM1.Slot2Crossed {
+	"CM1 Slot2 is crossed"
+	ABORT		"Abort Operation"
+}
+
+303 CM1.Slot3Crossed {
+	"CM1 Slot3 is crossed"
+	ABORT		"Abort Operation"
+}
+
+304 CM1.Slot4Crossed {
+	"CM1 Slot4 is crossed"
+	ABORT		"Abort Operation"
+}
+
+305 CM1.Slot5Crossed {
+	"CM1 Slot5 is crossed"
+	ABORT		"Abort Operation"
+}
+
+306 CM1.Slot6Crossed {
+	"CM1 Slot6 is crossed"
+	ABORT		"Abort Operation"
+}
+
+307 CM1.Slot7Crossed {
+	"CM1 Slot7 is crossed"
+	ABORT		"Abort Operation"
+}
+
+308 CM1.Slot8Crossed {
+	"CM1 Slot8 is crossed"
+	ABORT		"Abort Operation"
+}
+
+309 CM1.Slot9Crossed {
+	"CM1 Slot9 is crossed"
+	ABORT		"Abort Operation"
+}
+
+310 CM1.Slot10Crossed {
+	"CM1 Slot10 is crossed"
+	ABORT		"Abort Operation"
+}
+
+311 CM1.Slot11Crossed {
+	"CM1 Slot11 is crossed"
+	ABORT		"Abort Operation"
+}
+
+312 CM1.Slot12Crossed {
+	"CM1 Slot12 is crossed"
+	ABORT		"Abort Operation"
+}
+
+313 CM1.Slot13Crossed {
+	"CM1 Slot13 is crossed"
+	ABORT		"Abort Operation"
+}
+
+314 CM1.Slot14Crossed {
+	"CM1 Slot14 is crossed"
+	ABORT		"Abort Operation"
+}
+
+315 CM1.Slot15Crossed {
+	"CM1 Slot15 is crossed"
+	ABORT		"Abort Operation"
+}
+
+316 CM1.Slot16Crossed {
+	"CM1 Slot16 is crossed"
+	ABORT		"Abort Operation"
+}
+
+317 CM1.Slot17Crossed {
+	"CM1 Slot17 is crossed"
+	ABORT		"Abort Operation"
+}
+
+318 CM1.Slot18Crossed {
+	"CM1 Slot18 is crossed"
+	ABORT		"Abort Operation"
+}
+
+319 CM1.Slot19Crossed {
+	"CM1 Slot19 is crossed"
+	ABORT		"Abort Operation"
+}
+
+320 CM1.Slot20Crossed {
+	"CM1 Slot20 is crossed"
+	ABORT		"Abort Operation"
+}
+
+321 CM1.Slot21Crossed {
+	"CM1 Slot21 is crossed"
+	ABORT		"Abort Operation"
+}
+
+322 CM1.Slot22Crossed {
+	"CM1 Slot22 is crossed"
+	ABORT		"Abort Operation"
+}
+
+323 CM1.Slot23Crossed {
+	"CM1 Slot23 is crossed"
+	ABORT		"Abort Operation"
+}
+
+324 CM1.Slot24Crossed {
+	"CM1 Slot24 is crossed"
+	ABORT		"Abort Operation"
+}
+
+325 CM1.Slot25Crossed {
+	"CM1 Slot25 is crossed"
+	ABORT		"Abort Operation"
+}
+
+326 CM1.Slot26Crossed {
+	"CM1 Slot26 is crossed"
+	ABORT		"Abort Operation"
+}
+
+331 CM1.Slot1Crossed {
+	"CM1 Slot1 is doubled"
+	ABORT		"Abort Operation"
+}
+
+332 CM1.Slot2Crossed {
+	"CM1 Slot2 is doubled"
+	ABORT		"Abort Operation"
+}
+
+333 CM1.Slot3Crossed {
+	"CM1 Slot3 is doubled"
+	ABORT		"Abort Operation"
+}
+
+334 CM1.Slot4Crossed {
+	"CM1 Slot4 is doubled"
+	ABORT		"Abort Operation"
+}
+
+335 CM1.Slot5Crossed {
+	"CM1 Slot5 is doubled"
+	ABORT		"Abort Operation"
+}
+
+336 CM1.Slot6Crossed {
+	"CM1 Slot6 is doubled"
+	ABORT		"Abort Operation"
+}
+
+337 CM1.Slot7Crossed {
+	"CM1 Slot7 is doubled"
+	ABORT		"Abort Operation"
+}
+
+338 CM1.Slot8Crossed {
+	"CM1 Slot8 is doubled"
+	ABORT		"Abort Operation"
+}
+
+339 CM1.Slot9Crossed {
+	"CM1 Slot9 is doubled"
+	ABORT		"Abort Operation"
+}
+
+340 CM1.Slot10Crossed {
+	"CM1 Slot10 is doubled"
+	ABORT		"Abort Operation"
+}
+
+341 CM1.Slot11Crossed {
+	"CM1 Slot11 is doubled"
+	ABORT		"Abort Operation"
+}
+
+342 CM1.Slot12Crossed {
+	"CM1 Slot12 is doubled"
+	ABORT		"Abort Operation"
+}
+
+343 CM1.Slot13Crossed {
+	"CM1 Slot13 is doubled"
+	ABORT		"Abort Operation"
+}
+
+344 CM1.Slot14Crossed {
+	"CM1 Slot14 is doubled"
+	ABORT		"Abort Operation"
+}
+
+345 CM1.Slot15Crossed {
+	"CM1 Slot15 is doubled"
+	ABORT		"Abort Operation"
+}
+
+346 CM1.Slot16Crossed {
+	"CM1 Slot16 is doubled"
+	ABORT		"Abort Operation"
+}
+
+347 CM1.Slot17Crossed {
+	"CM1 Slot17 is doubled"
+	ABORT		"Abort Operation"
+}
+
+348 CM1.Slot18Crossed {
+	"CM1 Slot18 is doubled"
+	ABORT		"Abort Operation"
+}
+
+349 CM1.Slot19Crossed {
+	"CM1 Slot19 is doubled"
+	ABORT		"Abort Operation"
+}
+
+350 CM1.Slot20Crossed {
+	"CM1 Slot20 is doubled"
+	ABORT		"Abort Operation"
+}
+
+351 CM1.Slot21Crossed {
+	"CM1 Slot21 is doubled"
+	ABORT		"Abort Operation"
+}
+
+352 CM1.Slot22Crossed {
+	"CM1 Slot22 is doubled"
+	ABORT		"Abort Operation"
+}
+
+353 CM1.Slot23Crossed {
+	"CM1 Slot23 is doubled"
+	ABORT		"Abort Operation"
+}
+
+354 CM1.Slot24Crossed {
+	"CM1 Slot24 is doubled"
+	ABORT		"Abort Operation"
+}
+
+355 CM1.Slot25Crossed {
+	"CM1 Slot25 is doubled"
+	ABORT		"Abort Operation"
+}
+
+356 CM1.Slot26Crossed {
+	"CM1 Slot26 is doubled"
+	ABORT		"Abort Operation"
+}
+
+
+361 CM1.Slot1NotMatched {
+        "CM1 Lot and Map Slot1 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+362 CM1.Slot2NotMatched {
+        "CM1 Lot and Map Slot2 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+363 CM1.Slot3NotMatched {
+        "CM1 Lot and Map Slot3 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+364 CM1.Slot4NotMatched {
+        "CM1 Lot and Map Slot4 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+365 CM1.Slot5NotMatched {
+        "CM1 Lot and Map Slot5 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+366 CM1.Slot6NotMatched {
+        "CM1 Lot and Map Slot6 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+367 CM1.Slot7NotMatched {
+        "CM1 Lot and Map Slot7 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+368 CM1.Slot8NotMatched {
+        "CM1 Lot and Map Slot8 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+369 CM1.Slot9NotMatched {
+        "CM1 Lot and Map Slot9 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+370 CM1.Slot10NotMatched {
+        "CM1 Lot and Map Slot10 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+371 CM1.Slot11NotMatched {
+        "CM1 Lot and Map Slot11 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+372 CM1.Slot12NotMatched {
+        "CM1 Lot and Map Slot12 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+373 CM1.Slot13NotMatched {
+        "CM1 Lot and Map Slot13 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+374 CM1.Slot14NotMatched {
+        "CM1 Lot and Map Slot14 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+375 CM1.Slot15NotMatched {
+        "CM1 Lot and Map Slot15 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+376 CM1.Slot16NotMatched {
+        "CM1 Lot and Map Slot16 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+377 CM1.Slot17NotMatched {
+        "CM1 Lot and Map Slot17 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+378 CM1.Slot18NotMatched {
+        "CM1 Lot and Map Slot18 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+379 CM1.Slot19NotMatched {
+        "CM1 Lot and Map Slot19 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+380 CM1.Slot20NotMatched {
+        "CM1 Lot and Map Slot20 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+381 CM1.Slot21NotMatched {
+        "CM1 Lot and Map Slot21 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+382 CM1.Slot22NotMatched {
+        "CM1 Lot and Map Slot22 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+383 CM1.Slot23NotMatched {
+        "CM1 Lot and Map Slot23 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+384 CM1.Slot24NotMatched {
+        "CM1 Lot and Map Slot24 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+385 CM1.Slot25NotMatched {
+        "CM1 Lot and Map Slot25 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+386 CM1.Slot26NotMatched {
+        "CM1 Lot and Map Slot26 Not Matched"
+	ABORT		"Abort Operation"
+}
+
+387 CM1.FanAlarm{
+        "CM1 Fan Alarm Detected"
+	ABORT		"Abort Operation"
+}
+388 CM1.FoupAbsentAlarm {
+        "CM1 Foup is Absent when Running"
+	CLEAR		"Clear Operation"
+}

@@ -1,0 +1,131 @@
+#ifndef IODEFINE_H
+#define IODEFINE_H
+
+#include <STDIO.H>
+extern "C"
+{
+#include "k:\h\Kutlstr.h"
+#include "k:\h\Kutltime.h"
+#include "k:\h\kutletc.h"
+#include "k:\h\kutlanal.h"
+#include "k:\h\cimseqnc.h"
+}
+typedef enum {
+	SCHEDULER			      ,
+	MAIN_CONTROL              ,
+	MAIN_CONTROL2             ,
+	MAIN_CONTROL3             ,
+	//DUMMY_USE_MODE            ,
+	//DUMMY_CASSETTE_STATUS     ,
+	
+	Current_Dummy_Prcs_Count1 ,
+	Current_Dummy_Prcs_Count2 ,
+	Current_Dummy_Prcs_Count3 ,
+	Current_Dummy_Prcs_Count4 ,
+	Current_Dummy_Prcs_Count5 ,
+	Current_Dummy_Prcs_Count6 ,
+	Current_Dummy_Prcs_Count7 ,
+	Current_Dummy_Prcs_Count8 ,
+	Current_Dummy_Prcs_Count9 ,
+	Current_Dummy_Prcs_Count10,
+	Current_Dummy_Prcs_Count11,
+	Current_Dummy_Prcs_Count12,
+	Current_Dummy_Prcs_Count13,
+	Current_Dummy_Prcs_Count14,
+	Current_Dummy_Prcs_Count15,
+	Current_Dummy_Prcs_Count16,
+	Current_Dummy_Prcs_Count17,
+	Current_Dummy_Prcs_Count18,
+	Current_Dummy_Prcs_Count19,
+	Current_Dummy_Prcs_Count20,
+	Current_Dummy_Prcs_Count21,
+	Current_Dummy_Prcs_Count22,
+	Current_Dummy_Prcs_Count23,
+	Current_Dummy_Prcs_Count24,
+	Current_Dummy_Prcs_Count25,
+
+	Dummy_Used_Warning_Count1 ,
+	Dummy_Used_Warning_Count2 ,
+	Dummy_Used_Warning_Count3 ,
+	Dummy_Used_Warning_Count4 ,
+	Dummy_Used_Warning_Count5 ,
+	Dummy_Used_Warning_Count6 ,
+	Dummy_Used_Warning_Count7 ,
+	Dummy_Used_Warning_Count8 ,
+	Dummy_Used_Warning_Count9 ,
+	Dummy_Used_Warning_Count10,
+	Dummy_Used_Warning_Count11,
+	Dummy_Used_Warning_Count12,
+	Dummy_Used_Warning_Count13,
+	Dummy_Used_Warning_Count14,
+	Dummy_Used_Warning_Count15,
+	Dummy_Used_Warning_Count16,
+	Dummy_Used_Warning_Count17,
+	Dummy_Used_Warning_Count18,
+	Dummy_Used_Warning_Count19,
+	Dummy_Used_Warning_Count20,
+	Dummy_Used_Warning_Count21,
+	Dummy_Used_Warning_Count22,
+	Dummy_Used_Warning_Count23,
+	Dummy_Used_Warning_Count24,
+	Dummy_Used_Warning_Count25,
+
+	Dummy_Used_Alarm_Count1   ,
+	Dummy_Used_Alarm_Count2   ,
+	Dummy_Used_Alarm_Count3   ,
+	Dummy_Used_Alarm_Count4   ,
+	Dummy_Used_Alarm_Count5   ,
+	Dummy_Used_Alarm_Count6   ,
+	Dummy_Used_Alarm_Count7   ,
+	Dummy_Used_Alarm_Count8   ,
+	Dummy_Used_Alarm_Count9   ,
+	Dummy_Used_Alarm_Count10  ,
+	Dummy_Used_Alarm_Count11  ,
+	Dummy_Used_Alarm_Count12  ,
+	Dummy_Used_Alarm_Count13  ,
+	Dummy_Used_Alarm_Count14  ,
+	Dummy_Used_Alarm_Count15  ,
+	Dummy_Used_Alarm_Count16  ,
+	Dummy_Used_Alarm_Count17  ,
+	Dummy_Used_Alarm_Count18  ,
+	Dummy_Used_Alarm_Count19  ,
+	Dummy_Used_Alarm_Count20  ,
+	Dummy_Used_Alarm_Count21  ,
+	Dummy_Used_Alarm_Count22  ,
+	Dummy_Used_Alarm_Count23  ,
+	Dummy_Used_Alarm_Count24  ,
+	Dummy_Used_Alarm_Count25  ,
+
+	Dummy_Used_Mode1          ,
+	Dummy_Used_Mode2          ,
+	Dummy_Used_Mode3          ,
+	Dummy_Used_Mode4          ,
+	Dummy_Used_Mode5          ,
+	Dummy_Used_Mode6          ,
+	Dummy_Used_Mode7          ,
+	Dummy_Used_Mode8          ,
+	Dummy_Used_Mode9          ,
+	Dummy_Used_Mode10          ,
+	Dummy_Used_Mode11          ,
+	Dummy_Used_Mode12          ,
+	Dummy_Used_Mode13          ,
+	Dummy_Used_Mode14          ,
+	Dummy_Used_Mode15          ,
+	Dummy_Used_Mode16          ,
+	Dummy_Used_Mode17          ,
+	Dummy_Used_Mode18          ,
+	Dummy_Used_Mode19          ,
+	Dummy_Used_Mode20          ,
+	Dummy_Used_Mode21          ,
+	Dummy_Used_Mode22          ,
+	Dummy_Used_Mode23          ,
+	Dummy_Used_Mode24          ,
+	Dummy_Used_Mode25          ,
+
+} IOPointIndex;
+
+#endif
+
+
+
+

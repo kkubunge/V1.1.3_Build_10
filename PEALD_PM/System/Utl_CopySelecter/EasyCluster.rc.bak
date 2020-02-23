@@ -1,0 +1,216 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "EasyCluster.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOG DISCARDABLE  0, 0, 214, 273
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 14, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,6,252,98,14
+    CTEXT           "MAHA MP EQUIPMENT CONFIGURATION",IDC_STRING,6,7,201,13,
+                    SS_CENTERIMAGE | WS_BORDER
+    DEFPUSHBUTTON   "CANCEL",IDC_CANCEL,109,252,98,14
+    CONTROL         "ALN",IDC_RADIO_ALN,"Button",BS_AUTORADIOBUTTON,116,56,
+                    27,11
+    CONTROL         "ALUMINUM",IDC_RADIO_ALUMINUM,"Button",
+                    BS_AUTORADIOBUTTON,150,56,48,11
+    GROUPBOX        "Chuck Heater Model",IDC_STATIC,110,46,97,24,WS_GROUP
+    CONTROL         "Normal",IDC_RADIO_EXECUTION_NORMAL,"Button",
+                    BS_AUTORADIOBUTTON,12,56,30,9
+    CONTROL         "Stand Alone",IDC_RADIO_EXECUTION_STANDALONE,"Button",
+                    BS_AUTORADIOBUTTON,51,56,45,9
+    GROUPBOX        "Execution Mode",IDC_STATIC,6,46,97,24,WS_GROUP
+    CONTROL         "PMA",IDC_RADIO_SELECT_PMA,"Button",BS_AUTORADIOBUTTON,
+                    16,32,26,9
+    CONTROL         "PMB",IDC_RADIO_SELECT_PMB,"Button",BS_AUTORADIOBUTTON,
+                    78,32,29,9
+    CONTROL         "PMC",IDC_RADIO_SELECT_PMC,"Button",BS_AUTORADIOBUTTON,
+                    137,32,26,9
+    GROUPBOX        "PMC",IDC_STATIC,6,20,201,25,WS_GROUP
+    CONTROL         "DISABLE",IDC_RADIO_LFM_ANALOG,"Button",
+                    BS_AUTORADIOBUTTON,11,86,40,9
+    CONTROL         "DIGITAL_STEC",IDC_RADIO_LFM_DIGITAL_STEC,"Button",
+                    BS_AUTORADIOBUTTON,11,97,83,9
+    CONTROL         "FUJIKIN",IDC_RADIO_LFM_DIGITAL_FUJIKIN,"Button",
+                    BS_AUTORADIOBUTTON,11,110,83,9
+    GROUPBOX        "Liquid Controller",IDC_STATIC,6,75,97,48,WS_GROUP
+    CONTROL         "ON",IDC_RADIO_LF_CTR_ON,"Button",BS_AUTORADIOBUTTON,117,
+                    83,31,9
+    CONTROL         "OFF",IDC_RADIO_LF_CTR_OFF,"Button",BS_AUTORADIOBUTTON,
+                    154,83,27,9
+    GROUPBOX        "LF Control",IDC_STATIC,110,72,97,24,WS_GROUP
+    CONTROL         "Ground Chiller(Techest)",IDC_RADIO_Chiller_Ground,
+                    "Button",BS_AUTORADIOBUTTON,12,141,87,9
+    CONTROL         "UnderGround Chiller",IDC_RADIO_Chiller_UnGround,"Button",
+                    BS_AUTORADIOBUTTON,12,164,77,9
+    GROUPBOX        "Chiller Control",IDC_STATIC,6,130,97,46,WS_GROUP
+    CONTROL         "Baratron Gauge",IDC_RADIO_FOREGAU_BARA,"Button",
+                    BS_AUTORADIOBUTTON,116,111,76,9
+    CONTROL         "Convectron Gauge",IDC_RADIO_FOREGAU_CONV,"Button",
+                    BS_AUTORADIOBUTTON,116,123,77,9
+    GROUPBOX        "Foreline Gauge Type",IDC_STATIC,110,101,97,35,WS_GROUP
+    CONTROL         "LOT HD(NEW)",IDC_RADIO_PUMP_LOT_HD,"Button",
+                    BS_AUTORADIOBUTTON,117,166,91,9
+    CONTROL         "LOT DD(OLD)",IDC_RADIO_PUMP_LOT_DD,"Button",
+                    BS_AUTORADIOBUTTON,117,179,83,9
+    CONTROL         "EBARA",IDC_RADIO_PUMP_EBARA,"Button",BS_AUTORADIOBUTTON,
+                    117,191,81,9
+    GROUPBOX        "Pump",IDC_STATIC,110,154,97,50,WS_GROUP
+    CONTROL         "Ground HF",IDC_RADIO_HF_Ground,"Button",
+                    BS_AUTORADIOBUTTON,12,194,76,9
+    CONTROL         "UnderGround HF",IDC_RADIO_HF_UnGround,"Button",
+                    BS_AUTORADIOBUTTON,12,206,77,9
+    GROUPBOX        "HF Control",IDC_STATIC,6,184,97,35,WS_GROUP
+    CONTROL         "ENABLE",IDC_RADIO_PLC_Enable,"Button",
+                    BS_AUTORADIOBUTTON,116,221,37,9
+    CONTROL         "DISABLE",IDC_RADIO_PLC_Disable,"Button",
+                    BS_AUTORADIOBUTTON,157,221,39,9
+    GROUPBOX        "Safety PLC",IDC_STATIC,109,210,97,24,WS_GROUP
+    CONTROL         "Usystem",IDC_RADIO_TV_Usys,"Button",BS_AUTORADIOBUTTON,
+                    13,236,38,9
+    CONTROL         "MKS",IDC_RADIO_TV_MKS,"Button",BS_AUTORADIOBUTTON,54,
+                    236,39,9
+    GROUPBOX        "Throttle Valve",IDC_STATIC,6,225,97,24,WS_GROUP
+    CONTROL         "Ground Chiller(FST)",IDC_RADIO_Chiller_Ground2,"Button",
+                    BS_AUTORADIOBUTTON,12,153,87,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 266
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "HF 지상 , 지하 Option 처리 ( 2014.05.23 , LJH )\0"
+            VALUE "CompanyName", " aaa\0"
+            VALUE "FileDescription", "Equipment_Setting\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Equipment_Setting\0"
+            VALUE "LegalCopyright", "Copyright ⓒ 2014\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Equipment_Setting.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", " aaa Equipment_Setting\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

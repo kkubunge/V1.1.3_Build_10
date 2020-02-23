@@ -1,0 +1,38 @@
+2019/1/30 12:35:20	USERCONTROL	[SYSTEM_START]
+2019/1/30 12:35:44	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2019/1/30 12:35:46	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2019/1/30 12:35:47	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2019/1/30 12:35:47	BUTTON	[BOTTOM CLICK] Bottom_Config
+2019/1/30 12:35:49	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 6(PM Param 1)
+2019/1/30 12:35:49	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2019/1/30 12:35:49	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 10(PM Param 5)
+2019/1/30 12:35:49	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2019/1/30 12:35:50	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 11(PM Param 6)
+2019/1/30 12:35:50	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2019/1/30 17:4:17	USERCONTROL	[SYSTEM_START]
+2019/1/30 17:5:57	USERCONTROL	[SYSTEM_START]
+2019/1/30 17:6:9	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2019/1/30 17:6:11	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2019/1/30 17:6:12	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2019/1/30 17:6:12	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2019/1/30 17:6:14	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2019/1/30 17:6:14	BUTTON	[BOTTOM CLICK] Bottom_Service
+2019/1/30 17:6:15	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2019/1/30 17:6:15	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2019/1/30 17:6:19	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2019/1/30 17:6:19	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2019/1/30 17:6:21	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2019/1/30 17:6:24	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2019/1/30 17:6:24	BUTTON	[BOTTOM CLICK] Bottom_Service
+2019/1/30 17:6:36	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2019/1/30 17:6:39	IOEDIT	DirectIO Edit => DIO:INTLKS_CONTROL , VALUE:3
+2019/1/30 17:6:40	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2019/1/30 17:6:40	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2019/1/30 17:6:42	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2019/1/30 17:6:50	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2019/1/30 17:6:54	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2019/1/30 17:6:54	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2019/1/30 17:6:56	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2019/1/30 17:6:56	BUTTON	[RIGHT CLICK] Right_System_Control
+2019/1/30 17:6:57	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2019/1/30 17:6:57	BUTTON	[RIGHT CLICK] Right_System_Main

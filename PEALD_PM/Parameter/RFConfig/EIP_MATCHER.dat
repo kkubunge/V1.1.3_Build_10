@@ -1,0 +1,8 @@
+; Ethernet Type
+EthernetIP1	192.168.200.121
+EthernetIP2	192.168.200.122
+PortNum		502
+MatcherType	1		(1:Single 2:Dual)
+RFGetTime	35	(msec)
+RemoveCycCnt	2
+

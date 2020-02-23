@@ -1,0 +1,201 @@
+#--------------------------------------------------------------------------------------------
+# 2006.06.14, Process Flow Control
+$$$ Enum
+CassSrc      A B C X Y D
+
+ProcFlowEnum	Abort	Retry
+$$$ Digital
+PRO_FlowControlDM	ProcFlowEnum	Abort
+$$$ Digital
+PRVD_DRYCWfrCnt		-	0
+PRVD_WETCWfrCnt		-	0
+$$$ Analog
+PRVA_DRYCSrcFeed	Scc	- - - - 6 0        9999999 1 - - - - 6 0        9999999 - - - - 0.0
+PRVA_DRYCThick		Angst	- - - - 2 0        9999999 1 - - - - 2 0        9999999 - - - - 0.0
+
+#--------------------------------------------------------------------------------------------
+# 2005.10.19, Process Step Sync between Modules
+$$$ Digital
+PRO_PMStepSyncDM	OffOnEnum		Off
+PRO_PMStepWaitDM	OffOnEnum		Off
+#--------------------------------------------------------------------------------------------
+
+$$$ Enum
+CTCControl   Idle  Running  Pausing  Paused  Aborting  Disable
+#IdleRcpStsEnum	Stop	Running
+
+PostRunEnum	PostRunOff	PostRunResv	PostRunStart
+ChmStsEnum	ENABLE		DRY_RESERVED	DRY_RUNNING	DRY_FAILED
+#--------------------------------------------------------------------------------------------
+# 2005.04.18 by cskim
+$$$ Digital
+Wafer_Source	CassSrc
+Wafer_Source2	CassSrc
+Wafer_Status	-	0
+Wafer_Status2	-	0
+
+PRO_PostRunDM	PostRunEnum		PostRunOff
+PRO_PostRunDM1	PostRunEnum		PostRunOff
+PRO_PostRunDM2	PostRunEnum		PostRunOff
+PRO_PostRunDM3	PostRunEnum		PostRunOff
+PRO_PostRunDM4	PostRunEnum		PostRunOff
+PRO_PostRunDM5	PostRunEnum		PostRunOff
+PRO_PostRunDM6	PostRunEnum		PostRunOff
+PRO_PostRunDM7	PostRunEnum		PostRunOff
+PRO_PostRunDM8	PostRunEnum		PostRunOff
+PRO_PostRunDM9	PostRunEnum		PostRunOff
+PRO_PostCmptDM	OffOnEnum		Off
+PRO_PostCmptDM1	OffOnEnum		Off
+PRO_PostCmptDM2	OffOnEnum		Off
+PRO_PostCmptDM3	OffOnEnum		Off
+PRO_PostCmptDM4	OffOnEnum		Off
+PRO_PostCmptDM5	OffOnEnum		Off
+PRO_PostCmptDM6	OffOnEnum		Off
+PRO_PostCmptDM7	OffOnEnum		Off
+PRO_PostCmptDM8	OffOnEnum		Off
+PRO_PostCmptDM9	OffOnEnum		Off
+#--------------------------------------------------------------------------------------------
+# 2017.03.28
+$$$ Enum
+CTCComm2	Unuse Local DisConn Standby Maint Uninit EnablePM CTCinUSE CTCDis CTCDis2 CTCEnaPM CTCDisHW CTCDIsHW2
+$$$ Digital
+CTC_CommStatus	CTCComm2	Maint
+#--------------------------------------------------------------------------------------------
+# 2007.12.06 by mgsong
+PRO_ChamberStatus    ChmStsEnum		ENABLE
+#-------------------------------------------------------------------------------------------
+$$$ Digital
+MAIN_CONTROL		CTCControl
+ActiveRCPType	ActiveRCPEnum	MEM	-	-	-	-	1	MEM	-	-	-	-
+SW_GbIntlckDM	NmIntEnum	Normal
+
+# 2005.04.18 by cskim
+PRO_DRYAlarmDM	NmArmEnum	Normal
+
+# 2004.08.18 by cskim
+SW_ModuleFailDM	OffOnEnum	Off
+
+PRO_RcpTypeDM	RcpTypeEnum	-	-	-	-	-	1	-	-	-	-	-
+PRO_IsMainDM	MainStepEnum	-	-	-	-	-	1	-	-	-	-	-
+PRO_ComptDM	OffOnEnum	Off
+PRO_ComptDM1	OffOnEnum	Off
+PRO_ComptDM2	OffOnEnum	Off
+PRO_ComptDM3	OffOnEnum	Off
+PRO_ComptDM4	OffOnEnum	Off
+PRO_ComptDM5	OffOnEnum	Off
+PRO_ComptDM6	OffOnEnum	Off
+PRO_ComptDM7	OffOnEnum	Off
+PRO_ComptDM8	OffOnEnum	Off
+PRO_ComptDM9	OffOnEnum	Off
+
+$$$ Enum
+ProcStsEnum	Stop	Running
+$$$ Digital
+PRO_IdleRcpStsDM	ProcStsEnum	Stop
+PRO_RunStsDM		ProcStsEnum	Stop
+
+# 2015.01.06 Add Process Stop IO
+PRO_StopCtrlDM		OffOnEnum	Off
+
+# 2013.03.04 Auto Leak Check
+PRO_PurgeRcpStsDM	ProcStsEnum	Stop
+
+# 2005.01.13 by cskim
+$$$ Enum
+ProcStsEnum2	Idle Running Aborted SeqErr
+$$$ Digital
+PRO_ProcStsDM	ProcStsEnum2	Idle
+
+$$$ Digital
+# 2004.09.13 by cskim
+PRO_ProgressDM	-	0
+
+# 2004.11.16 by cskim
+PRO_PreTreatDM		OffOnEnum	Off
+PRO_LotPreSkipDM	OffOnEnum	Off
+
+# 2015.02.24 Add RPG Alarm Process Auto Retry
+RPGAlmPrcRetryDM	RPGAlmEnum	None
+
+$$$ Analog
+# 2005.03.21 by cskim, for PM Cycle Process
+PRO_TargetCycAM		Cyc	- - - - 0 -9999999 9999999 1 - - - - 0 -9999999 9999999 - - - - 0.0
+PRO_CurrentCycAM	Cyc	- - - - 0 -9999999 9999999 1 - - - - 0 -9999999 9999999 - - - - 0.0
+PumpTime	sec	MEM	-	-	-	0	0	1000000	1	MEM	-	-	-	0	0	1000000	0	1000000	0	1000000
+CurRCPStep	-	MEM	-	-	-	0	0	500	1	MEM	-	-	-	0	0	500	0	500	0	500
+MaxRCPStep	-	MEM	-	-	-	0	0	500	1	MEM	-	-	-	0	0	500	0	500	0	500
+CurPreHeatTime	sec	MEM	-	-	-	0	0	1000000	1	MEM	-	-	-	0	0	1000000	0	1000000	0	1000000
+PreHeatTime	sec	MEM	-	-	-	0	0	1000000	1	MEM	-	-	-	0	0	1000000	0	1000000	0	1000000
+CurCVGWaitTime	sec	MEM	-	-	-	0	0	1000000	1	MEM	-	-	-	0	0	1000000	0	1000000	0	1000000
+CVGWaitTime	sec	MEM	-	-	-	0	0	1000000	1	MEM	-	-	-	0	0	1000000	0	1000000	0	1000000
+StgHtrTotSatDly	-	MEM	-	-	-	0	0	50000000	1	MEM	-	-	-	0	0	50000000	0	50000000	0	50000000
+StgHtrCurSatDly	-	MEM	-	-	-	0	0	50000000	1	MEM	-	-	-	0	0	50000000	0	50000000	0	50000000
+
+PRO_TotalStepAM	Step	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100
+PRO_CurStepAM	Step	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100
+PRO_TotalCycAM	Cyc	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100
+PRO_CurCycAM	Cyc	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100
+
+#2004.07.19 by cskim, 'Step Group Cycle' Added
+PRO_StpGrpTCycAM	Cyc	-	-	-	-	0	0	10000	1	-	-	-	-	0	0	10000
+PRO_StpGrpCCycAM	Cyc	-	-	-	-	0	0	10000	1	-	-	-	-	0	0	10000
+
+# 2004.08.02 by cskim, 'Previetive Maintance Sequence' Added
+PRO_PrvVlvCycAM		Cyc	- - - - 0 -9999999 9999999 1 - - - - 0 -9999999 9999999 - - - - 0.0
+PRO_PrvSrcFdAM		Scc	- - - - 6 -9999999 9999999 1 - - - - 6 -9999999 9999999 - - - - 0.0
+# 2006.01.26
+PRO_PrvThickAM		Angst	- - - - 2 -9999999 9999999 1 - - - - 2 -9999999 9999999 - - - - 0.0
+
+# 2004.09.13 by cskim
+PRO_TotalTimeAM		Cyc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+PRO_CurrTimeAM		Cyc	- - - - 1 -9999999 9999999 1 - - - - 1 -9999999 9999999 - - - - 0.0
+
+# 2005.04.18 by cskim
+PRO_StepTimeAM		sec	- - - - 3 -9999999 9999999 1 - - - - 3 -9999999 9999999 - - - - 0.0
+PRO_StpTotTmAM		sec	- - - - 3 -9999999 9999999 1 - - - - 3 -9999999 9999999 - - - - 0.0
+PRO_StpCurTmAM		sec	- - - - 3 -9999999 9999999 1 - - - - 3 -9999999 9999999 - - - - 0.0
+
+# 2005.05.12 by cskim
+PRO_StdStpTmAM		sec	- - - - 3 -9999999 9999999 1 - - - - 3 -9999999 9999999 - - - - 0.0
+
+# 2005.02.16 by cskim
+PRO_MainStpTm1AM	sec	- - - - 1       0  9999999 1 - - - - 1       0  9999999 - - - - 0.0
+PRO_MainStpTm2AM	sec	- - - - 1       0  9999999 1 - - - - 1       0  9999999 - - - - 0.0
+PRO_MainStpTm3AM	sec	- - - - 1       0  9999999 1 - - - - 1       0  9999999 - - - - 0.0
+PRO_MainStpTm4AM	sec	- - - - 1       0  9999999 1 - - - - 1       0  9999999 - - - - 0.0
+PRO_MainStpTm5AM	sec	- - - - 1       0  9999999 1 - - - - 1       0  9999999 - - - - 0.0
+PRO_MainStpNo1AM	sec	- - - - 0       0  9999999 1 - - - - 0       0  9999999 - - - - 0.0
+PRO_MainStpNo2AM	sec	- - - - 0       0  9999999 1 - - - - 0       0  9999999 - - - - 0.0
+PRO_MainStpNo3AM	sec	- - - - 0       0  9999999 1 - - - - 0       0  9999999 - - - - 0.0
+PRO_MainStpNo4AM	sec	- - - - 0       0  9999999 1 - - - - 0       0  9999999 - - - - 0.0
+PRO_MainStpNo5AM	sec	- - - - 0       0  9999999 1 - - - - 0       0  9999999 - - - - 0.0
+
+PRO_CurIdleTimeAM	Sec	- - - - 0       0  9999999 1 - - - - 0       0  9999999 - - - - 0
+
+# 2015.02.24 Add RPG Alarm Process Retry Count
+RPGAlmPrcRetryAM	Count	- - - - 0        0 9999999 1 - - - - 0        0 9999999 - - - - 0
+
+$$$ String
+RECIPE_FILE		""
+RCP_Step_Name		""
+ActiveRCP	-	-	1	-	-
+ValveRCP	-	-	1	-	-
+vPROC.Mesg	-	-	1	-	-
+
+PRO_RcpNameSM	-	-	1
+PRO_StepNameSM	-	-	1
+
+#2004.07.19 by cskim, 'Step Group Cycle' Added
+PRO_StepGrpSM		""
+
+
+$$$ Digital
+MsgBox	OffOnEnum
+
+Sch_LogDM		OffOnEnum	Off
+#2015.1.26
+$$$ Enum
+IOEnum		Lock	Unlock
+
+$$$ Digital
+IOLockDO	IOEnum	Lock

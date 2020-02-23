@@ -1,0 +1,95 @@
+# Microsoft Developer Studio Generated Dependency File, included by Sequence.mak
+
+.\Source\ExcelLib.c : \
+	".\H\ExcelLib.h"\
+	
+
+.\Source\Ledapi.c : \
+	".\H\ExcelLib.h"\
+	".\H\iodefine.h"\
+	".\H\LotType.h"\
+	"k:\h\kutlanal.h"\
+	"k:\h\kutlfile.h"\
+	"k:\h\kutlgui.h"\
+	"k:\h\kutlstr.h"\
+	"k:\h\kutltime.h"\
+	
+
+.\Source\prg_code.c : \
+	".\H\ExcelLib.h"\
+	".\H\File.h"\
+	".\H\interface.h"\
+	".\H\iodefine.h"\
+	".\h\ledapi.h"\
+	".\H\LotType.h"\
+	".\H\Recipe_Code.h"\
+	"k:\h\cimseqnc.h"\
+	"k:\h\kutlanal.h"\
+	"k:\h\kutlgui.h"\
+	"k:\h\kutlgui2.h"\
+	"k:\h\kutlstr.h"\
+	"k:\h\kutltime.h"\
+	
+
+.\Source\Recipe_code.c : \
+	".\H\File.h"\
+	".\H\interface.h"\
+	".\H\iodefine.h"\
+	".\h\ledapi.h"\
+	".\H\LotType.h"\
+	".\H\Recipe_Code.h"\
+	"k:\h\cimseqnc.h"\
+	"k:\h\kutlanal.h"\
+	"k:\h\kutlgui.h"\
+	"k:\h\kutlgui2.h"\
+	"k:\h\kutlstr.h"\
+	"k:\h\kutltime.h"\
+	
+
+.\Recipe_File.c : \
+	".\H\File.h"\
+	".\H\iodefine.h"\
+	".\H\LotType.h"\
+	
+
+.\Resource.rc : \
+	".\Cancel_Disable.bmp"\
+	".\Cancel_Enable.bmp"\
+	".\Cancel_Pressed.bmp"\
+	".\Copy_disable.bmp"\
+	".\Copy_enable.bmp"\
+	".\Copy_pressed.bmp"\
+	".\file_disable.bmp"\
+	".\file_enable.bmp"\
+	".\file_pressed.bmp"\
+	".\Group.bmp"\
+	".\Import_Disable.bmp"\
+	".\Import_Enable.bmp"\
+	".\Import_Pressed.bmp"\
+	".\insert2_Disable.bmp"\
+	".\insert2_Enable.bmp"\
+	".\insert2_pressed.bmp"\
+	".\insert_disable.bmp"\
+	".\insert_Enable.bmp"\
+	".\insert_Pressed.bmp"\
+	".\left_disable.bmp"\
+	".\left_enable.bmp"\
+	".\left_pressed.bmp"\
+	".\New_Disable.bmp"\
+	".\New_Enable.bmp"\
+	".\new_pressed.bmp"\
+	".\remove_disable.bmp"\
+	".\remove_enable.bmp"\
+	".\remove_pressed.bmp"\
+	".\right_disable.bmp"\
+	".\right_enable.bmp"\
+	".\right_pressed.bmp"\
+	".\save_disable.bmp"\
+	".\save_enable.bmp"\
+	".\save_pressed.bmp"\
+	".\saveas_disable.bmp"\
+	".\Saveas_Enable.bmp"\
+	".\Saveas_Pressed.bmp"\
+	"K:\h\KEY_BUTTON.ico"\
+	"K:\h\Program_GUI.ico"\
+	

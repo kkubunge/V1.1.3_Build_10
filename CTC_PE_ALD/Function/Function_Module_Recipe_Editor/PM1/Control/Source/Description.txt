@@ -1,0 +1,31 @@
+#########################################################################################
+# Program Information																	#
+#########################################################################################
+
+	PROGRAM-ID : Recipe Editor For IPS ALD System
+	Version    : 2.12 ( 2004-06-03 ; 03:00 PM )
+	AUTHOR     : Song. Young-Nam (Kornic Systems. / CTC Division),				 
+	Tel        : +82 - 43 - 269 - 4896
+	E-Mail     : ynsong@koric.co.kr
+
+
+#########################################################################################
+# Update Information																	#
+#########################################################################################
+
+- 2.11 ( 2004 / 06 / 02 | 02:03 AM)
+2004/06/02     Append Description File
+2004/06/02     Remove "printf" statement for Debug
+
+- 2.12 ( 2004 / 06 / 03 | 03:00 PM)
+  To Find 2.12 modified code, search "swhan"
+2004.06.03		Heater Option Enum is changed from "Yes, No" to "No, Yes"
+				Heater Option Default value is changed from 1 to 0.
+2004.06.03		To decide whether Valve Recipe Has Data, 1st Line Step has a value more than 0.0.
+2004.06.03		Inital Valve Step Cycle is changed from 0 to 1.
+
+- 2.13 ( 2004 / 06 / 28 | 12:00 PM)
+2004.06.28		30 Step Process Recipe is Possible.
+
+
+

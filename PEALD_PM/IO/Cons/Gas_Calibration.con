@@ -1,0 +1,641 @@
+
+$$$ Enum
+	GaugeSel		BG		CG
+	ModeSel			M_PRESS		M_TIME
+#				0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18
+	MFCCALNUM		Ar_M1	O2_M2	Ar_M3	Ar_M4	NF3_M5	Ar_M6	Ar_M7	O2_M8	Ar_M9	NA_M10	NA_M11	NA_M12	NA_M13	NA_M14	NA_M15	NA_M16	NA_M17	NA_M18  NONE
+
+	# 2012/01/30 제조 단계에서 MFC Verification 위한 Normal N2 Mode 추가 by JTM
+	MCal_GasType		RealGas		Purge_Ar		Normal_N2	GasFinMax			
+	MCal_AutoMan		Auto     Manual
+	MLFMStatus		OFF		M_REF		M_TEST
+	Htr_Model		NOTSelect	ALN	Aluminum			
+	OFF_ON2			OFF_0	ON_1	ON_2
+	ModuleType	TEOS		ARC_Oxi	
+	
+	
+	ON_OFF		ON_0	 	OFF_1	
+	#OFF_ON		OFF_0		ON_1			
+	
+	OK_WARN		OK_0		WARNING_1   
+	OK_HAZ		OK_0		HAZARD_1         
+	OK_FAIL		OK_0		FAILURE_1	            
+	
+	WARN_OK		WARNING_0	OK_1		   
+	
+	HAZ_OK 		HAZARD_0	OK_1              
+	LOW_OK		LOW_0		OK_1                 
+	FAIL_OK		FAILURE_0	OK_1 
+	OPEN_OK		OPENED_0	OK_1 	
+	OVER_OK		OVERED_0	OK_1 	
+	LEAK_OK		LEAKED_0        OK_1    		
+	STOP_OK		STOPPED_0	OK_1 
+	SLIDE_OK	SLIDED_0	OK_1 
+	
+	NOT_ATM		NOTATM		ATM             
+	NOT_ACT		NOTACT		ACTIVE          
+	NOT_HOME	NOTHOME		HOME				    
+	NOT_OPEN	NOTOPEN	 	OPENED_1       
+	NOT_CLOSE	NOTCLOSE	CLOSED_1      
+	NOT_READY	NOTREADY	READY	
+	NOT_LIMIT	NOTLIMIT	LIMIT	
+	
+	20TOV_UN	20T_OV		20T_UN 	
+	
+	PINDNSTS	DOWNED_0 	NONE_1       
+	PINUPSTS	ERROR		LOADUP		UNLOADUP	NONE   
+	
+	VALVESTS	NONE		OPENED		CLOSED		ERROR   
+	
+	
+	ERROR_OK	ERROR		OK	
+	NONE_DOWN	NONE	 	DOWN       
+	
+	OPEN_CLOSE	NOPEN		FCLOSE	
+	CLOSE_OPEN 	CLOSE		OPEN	
+	PRE_AUTO	PRESET		AUTO		
+	
+	PUMPACT		NONE		PON		POFF		ERROR
+	
+	PINUPACT	NONE		LOADUP		ERROR		UNLOADUP		
+	HEATERACT	ERROR		HON		HOFF		NONE	
+	
+$$$ Digital
+	M_CAL_LeakChkDM		OFF_ON			OFF_0		
+	MODULE_TYPE		ModuleType		TEOS
+	M_CAL_GAS_SELECT	MFCCALNUM		NONE
+	M_CAL_GAUGE_SELECT	GaugeSel		BG
+	M_CAL_MODE_SELECT	ModeSel						
+	M_CAL_GasType_SELECT	MCal_GasType		RealGas
+	M_CAL_AutoMan_SELECT	MCal_AutoMan		Auto
+
+	#---> ADD 2008/11/30  by KSM  ( Result View )
+ 	M_CAL_LoopCount			-
+	M_CAL_Chuck_Htr_Model		Htr_Model		NOTSelect
+	M_CAL_GAS_SELECT_RESULT		MFCCALNUM		NONE
+	M_CAL_GasType_SELECT_RT		MCal_GasType
+
+	M_CAL_Convert_GUI		OFF_ON
+	M_CAL_Convert_Status		OFF_ON
+
+	#[ 2009/10/26 MFC Verification Auto Scenario 개발 ( BY LJH )
+	AUTO_MFC_VERIFY_CTR		OFF_ON
+	CLEAN_PROCESS_CTR_MFC_V		OFF_ON
+
+	C_TEMP_DOWN_MFC_V_C		OFF_ON
+	C_TEMP_UP_MFC_V_C		OFF_ON
+
+	C_TEMP_DOWN_MFC_V_S		OFF_ON
+	C_TEMP_UP_MFC_V_S		OFF_ON
+	MFC_V_S				OFF_ON
+	CLEAN_PROCESS_MFC_V_S		OFF_ON	
+
+	M_CAL_GasType00			MCal_GasType
+	M_CAL_GasType01			MCal_GasType
+	M_CAL_GasType02			MCal_GasType
+	M_CAL_GasType03			MCal_GasType
+	M_CAL_GasType04			MCal_GasType
+	M_CAL_GasType05			MCal_GasType
+	M_CAL_GasType06			MCal_GasType
+	M_CAL_GasType07			MCal_GasType
+	M_CAL_GasType08			MCal_GasType
+	M_CAL_GasType09			MCal_GasType
+	M_CAL_GasType10			MCal_GasType
+	M_CAL_GasType11			MCal_GasType
+	M_CAL_GasType12			MCal_GasType
+	M_CAL_GasType13			MCal_GasType
+	M_CAL_GasType14			MCal_GasType
+	M_CAL_GasType15			MCal_GasType
+	M_CAL_GasType16			MCal_GasType
+	M_CAL_GasType17			MCal_GasType
+	M_CAL_GasType18			MCal_GasType
+
+	M_CAL_GAS00			OFF_ON
+	M_CAL_GAS01			OFF_ON
+	M_CAL_GAS02			OFF_ON
+	M_CAL_GAS03			OFF_ON
+	M_CAL_GAS04			OFF_ON
+	M_CAL_GAS05			OFF_ON
+	M_CAL_GAS06			OFF_ON
+	M_CAL_GAS07			OFF_ON
+	M_CAL_GAS08			OFF_ON
+	M_CAL_GAS09			OFF_ON
+	M_CAL_GAS10			OFF_ON
+	M_CAL_GAS11			OFF_ON
+	M_CAL_GAS12			OFF_ON
+	M_CAL_GAS13			OFF_ON
+	M_CAL_GAS14			OFF_ON
+	M_CAL_GAS15			OFF_ON
+	M_CAL_GAS16			OFF_ON
+	M_CAL_GAS17			OFF_ON
+	
+	HIGH_MFC_CAL			OFF_ON
+$$$ String
+
+	CLEAN_RECIPE_MFC_VERIFY		""
+
+	M_CAL_GAS_Name		"NONE"
+	
+	$$$ String
+
+	MFC01_Name	"ClF3"
+	MFC02_Name	"Ar"
+	MFC03_Name	"H2"
+	MFC04_Name	"NH3"
+	MFC05_Name	"Ar"
+	MFC06_Name	"NH3"
+	MFC07_Name	""
+	MFC08_Name	"TiCl4"
+	MFC09_Name	""
+	MFC10_Name	""
+	MFC11_Name	""
+	MFC12_Name	""
+	MFC13_Name	""
+	MFC14_Name	""
+	MFC15_Name	""
+	MFC16_Name	""
+	MFC17_Name	""
+	MFC18_Name	""
+
+	Gas_Unit	"Sccm"
+
+$$$ Analog
+
+	C_TEMP_D_TARGET_MFC_V	DegC  	-    -  -  -  0  0   1000   1    -   -  -  -  0  0   1000  --- --- --- ---     
+	C_TEMP_U_TARGET_MFC_V	DegC  	-    -  -  -  0  0   1000   1    -   -  -  -  0  0   1000  --- --- --- ---     
+	C_TEMP_DOWN_TMO		Min  	-    -  -  -  0  0   3000   1    -   -  -  -  0  0   3000  --- --- --- ---     
+	C_TEMP_UP_TMO		Min  	-    -  -  -  0  0   3000   1    -   -  -  -  0  0   3000  --- --- --- ---     
+	C_TEMP_D_ACT_TIME	Sec  	-    -  -  -  0  0  99999   1    -   -  -  -  0  0  99999  --- --- --- ---     
+	C_TEMP_U_ACT_TIME	Sec  	-    -  -  -  0  0  99999   1    -   -  -  -  0  0  99999  --- --- --- ---     
+	#]
+
+	#M_CAL_FACTOR_AlarmRange % 	-    -  -  -  0  1    100  1    -   -  -  -  0  1    100  --- --- --- ---  5    
+
+	M_CALI_MFC01_SET	Sccm  	-    -  -  -  0  0   1000  1    -   -  -  -  0  0  1000      --- --- --- ---     
+	M_CALI_MFC02_SET	Sccm  	-    -  -  -  0  0   3000  1    -   -  -  -  0  0  3000      --- --- --- ---     
+	M_CALI_MFC03_SET	Sccm  	-    -  -  -  0  0   5000  1    -   -  -  -  0  0  5000      --- --- --- ---     
+	M_CALI_MFC04_SET	Sccm  	-    -  -  -  0  0   3000  1    -   -  -  -  0  0  3000      --- --- --- ---     
+	M_CALI_MFC05_SET	Sccm  	-    -  -  -  0  0   300   1    -   -  -  -  0  0  300       --- --- --- ---     
+	M_CALI_MFC06_SET	Sccm  	-    -  -  -  0  0   	1  1    -   -  -  -  0  0     1	     --- --- --- ---     
+	M_CALI_MFC07_SET	Sccm  	-    -  -  -  0  0  	1  1    -   -  -  -  0  0     1      --- --- --- ---     
+	M_CALI_MFC08_SET	Sccm  	-    -  -  -  0  0    100  1    -   -  -  -  0  0   100      --- --- --- ---     
+	M_CALI_MFC09_SET	Sccm  	-    -  -  -  0  0   	1  1    -   -  -  -  0  0     1	     --- --- --- ---     
+	M_CALI_MFC10_SET	Sccm  	-    -  -  -  0  0  	1  1    -   -  -  -  0  0     1      --- --- --- ---     
+	M_CALI_MFC11_SET	Sccm  	-    -  -  -  0  0    	1  1    -   -  -  -  0  0     1      --- --- --- ---     
+	M_CALI_MFC12_SET	Sccm  	-    -  -  -  0  0  	1  1    -   -  -  -  0  0     1      --- --- --- ---     
+	M_CALI_MFC13_SET	Sccm  	-    -  -  -  0  0   	1  1    -   -  -  -  0  0     1      --- --- --- ---     
+	M_CALI_MFC14_SET	Sccm  	-    -  -  -  0  0   	1  1    -   -  -  -  0  0     1      --- --- --- ---     
+	M_CALI_MFC15_SET	Sccm  	-    -  -  -  0  0  	1  1    -   -  -  -  0  0     1      --- --- --- ---     
+	M_CALI_MFC16_SET	Sccm  	-    -  -  -  0  0  	1  1    -   -  -  -  0  0     1      --- --- --- ---     
+	M_CALI_MFC17_SET	Sccm  	-    -  -  -  0  0  	1  1    -   -  -  -  0  0     1      --- --- --- ---     
+	M_CALI_MFC18_SET	Sccm  	-    -  -  -  0  0      1  1    -   -  -  -  0  0     1      --- --- --- ---     
+										           	
+	M_CALI_MFC01_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC02_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC03_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC04_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC05_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC06_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC07_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC08_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC09_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC10_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC11_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC12_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC13_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC14_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC15_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC16_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC17_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CALI_MFC18_FACTOR	-  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+
+
+	#---> ADD 2008/11/30  by KSM  ( Result View )
+ 
+	M_CAL_MFC_SET_1		Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC_SET_2		Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC_SET_3		Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC_SET_4		Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC_SET_5		Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	
+	#---> END 2008/11/30  by KSM
+
+  
+	M_CAL_START_PRESS	Torr  	-    -  -  -  2  1     10  1    -   -  -  -  1  0     10  --- --- --- ---     
+	M_CAL_FINAL_PRESS	Torr  	-    -  -  -  2  1   1000  1    -   -  -  -  1  0   1000  --- --- --- ---     
+	M_CAL_TARGET_PRESS	Torr  	-    -  -  -  2  0     10  1    -   -  -  -  2  0     10  --- --- --- ---     
+	M_CAL_ELAPSED_TIME	Sec	-    -  -  -  1  0   6000  1    -   -  -  -  1  0   6000  --- --- --- ---     
+	M_CAL_PUMP_TIME_SET	Min	-    -  -  -  1  0    100  1    -   -  -  -  1  0    100  --- --- --- ---     
+	M_CAL_PUMP_ELAPSED	Sec	-    -  -  -  1  0   6000  1    -   -  -  -  1  0   6000  --- --- --- ---     
+	M_CAL_PURGE_TIME_SET	Min	-    -  -  -  1  0    100  1    -   -  -  -  1  0    100  --- --- --- ---     
+	M_CAL_PURGE_ELAPSED	Sec	-    -  -  -  1  0   6000  1    -   -  -  -  1  0   6000  --- --- --- ---     
+	M_CAL_STABLE_TIME_SET	Min	-    -  -  -  1  0    100  1    -   -  -  -  1  0    100  --- --- --- ---     
+	M_CAL_STABLE_ELAPSED	Min	-    -  -  -  1  0   6000  1    -   -  -  -  1  0   6000  --- --- --- ---     
+	M_CAL_TOTAL_ACT_FLOW	Sccm  	-    -  -  -  2  0  20000  1    -   -  -  -  2  0  20000  --- --- --- ---     
+	M_CAL_PURGE_GAS_SET	Sccm  	-    -  -  -  0  0  20000  1    -   -  -  -  0  0  20000  --- --- --- ---     
+	M_CAL_ELAPSE_TIME_SET	Sec	-    -  -  -  1  0    100  1    -   -  -  -  1  0    100  --- --- --- ---     
+
+	M_CAL_CHAMBER_TEMP	degC  	-    -  -  -  1  0    100  1    -   -  -  -  1  0    100  --- --- --- ---  60
+	M_CAL_CHAMBER_VOLUME	L  	-    -  -  -  1  0   1000  1    -   -  -  -  1  0   1000  --- --- --- ---  40
+
+	#[ 2009/10/26 MFC Verification Auto Scenario 개발 ( BY LJH )
+	M_CAL_MFC00_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC00_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC00_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC00_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC00_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC00_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC00_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC00_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC00_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC00_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC00_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC00_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC00_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC00_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC00_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC00_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC01_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC01_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC01_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC01_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC01_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC01_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC01_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC01_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC01_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC01_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC01_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC01_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC01_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC01_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC01_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC01_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC02_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC02_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC02_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC02_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC02_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC02_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC02_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC02_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC02_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC02_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC02_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC02_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC02_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC02_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC02_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC02_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC03_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC03_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC03_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC03_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC03_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC03_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC03_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC03_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC03_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC03_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC03_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC03_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC03_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC03_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC03_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC03_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC04_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC04_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC04_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC04_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC04_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC04_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC04_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC04_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC04_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC04_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC04_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC04_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC04_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC04_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC04_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC04_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC05_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC05_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC05_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC05_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC05_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC05_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC05_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC05_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC05_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC05_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC05_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC05_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC05_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC05_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC05_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC05_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC06_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC06_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC06_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC06_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC06_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC06_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC06_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC06_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC06_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC06_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC06_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC06_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC06_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC06_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC06_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC06_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC07_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC07_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC07_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC07_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC07_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC07_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC07_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC07_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC07_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC07_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC07_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC07_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC07_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC07_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC07_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC07_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC08_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC08_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC08_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC08_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC08_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC08_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC08_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC08_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC08_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC08_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC08_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC08_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC08_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC08_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC08_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC08_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC09_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC09_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC09_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC09_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC09_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC09_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC09_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC09_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC09_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC09_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC09_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC09_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC09_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC09_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC09_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC09_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC10_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC10_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC10_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC10_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC10_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC10_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC10_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC10_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC10_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC10_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC10_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC10_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC10_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC10_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC10_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC10_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC11_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC11_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC11_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC11_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC11_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC11_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC11_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC11_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC11_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC11_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC11_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC11_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC11_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC11_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC11_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC11_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC12_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC12_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC12_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC12_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC12_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC12_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC12_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC12_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC12_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC12_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC12_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC12_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC12_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC12_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC12_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC12_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC13_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC13_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC13_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC13_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC13_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC13_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC13_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC13_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC13_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC13_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC13_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC13_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC13_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC13_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC13_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC13_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC14_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC14_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC14_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC14_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC14_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC14_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC14_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC14_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC14_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC14_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC14_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC14_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC14_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC14_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC14_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC14_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC15_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC15_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC15_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC15_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC15_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC15_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC15_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC15_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC15_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC15_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC15_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC15_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC15_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC15_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC15_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC15_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC16_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC16_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC16_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC16_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC16_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC16_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC16_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC16_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC16_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC16_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC16_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC16_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC16_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC16_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC16_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC16_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#-------------
+ 	M_CAL_MFC17_SET_1	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC17_SET_2	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC17_SET_3	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC17_SET_4	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+	M_CAL_MFC17_SET_5	Sccm  	-    -  -  -  2  0  30000  1    -   -  -  -  2  0  30000  --- --- --- ---     
+
+	M_CAL_MFC17_ACT_FLOW_1	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC17_ACT_FLOW_2	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC17_ACT_FLOW_3	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC17_ACT_FLOW_4	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	M_CAL_MFC17_ACT_FLOW_5	Sccm  	-    -  -  -  2  -9999  30000  1    -   -  -  -  2  -9999  30000  --- --- --- ---     
+	
+	M_CAL_MFC17_FACTOR_1	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC17_FACTOR_2	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC17_FACTOR_3	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC17_FACTOR_4	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+	M_CAL_MFC17_FACTOR_5	-  	-    -  -  -  2  -9999     10  1    -   -  -  -  2  -9999     10  --- --- --- ---     
+  
+	M_CAL_MFC17_FACTOR_AVG	%  	-    -  -  -  3  -9999    100  1    -   -  -  -  3  -9999    100  --- --- --- ---     
+	#]
+
+	Manual_MFC1_SET	     	Sccm  	-    -  -  -  0  0   5000	1    -   -  -  -  0  0   5000     --- --- --- ---
+	Manual_MFC2_SET	     	Sccm  	-    -  -  -  0  0   1000  	1    -   -  -  -  0  0   1000     --- --- --- ---
+	Manual_MFC3_SET	     	Sccm  	-    -  -  -  0  0   5000	1    -   -  -  -  0  0   5000     --- --- --- ---
+	Manual_MFC4_SET	     	Sccm  	-    -  -  -  0  0   1000  	1    -   -  -  -  0  0   1000     --- --- --- ---
+	Manual_MFC5_SET	     	Sccm  	-    -  -  -  0  0   5000  	1    -   -  -  -  0  0   5000     --- --- --- ---
+	Manual_MFC6_SET	     	Sccm  	-    -  -  -  0  0   5000  	1    -   -  -  -  0  0   5000     --- --- --- ---
+	Manual_MFC7_SET	     	Sccm  	-    -  -  -  0  0   5000   	1    -   -  -  -  0  0   5000     --- --- --- ---
+	Manual_MFC8_SET	     	Sccm  	-    -  -  -  0  0   1000  	1    -   -  -  -  0  0   1000     --- --- --- ---
+	Manual_MFC9_SET	     	Sccm  	-    -  -  -  0  0   5000  	1    -   -  -  -  0  0   5000     --- --- --- ---
+	Manual_MFC10_SET     	Sccm  	-    -  -  -  0  0   	1  	1    -   -  -  -  0  0      1  	  --- --- --- ---
+	Manual_MFC11_SET	Sccm  	-    -  -  -  0  0    	1  	1    -   -  -  -  0  0      1  	  --- --- --- ---
+	Manual_MFC12_SET        Sccm  	-    -  -  -  0  0   	1   	1    -   -  -  -  0  0      1     --- --- --- ---
+	Manual_MFC13_SET        Sccm  	-    -  -  -  0  0   	1  	1    -   -  -  -  0  0      1  	  --- --- --- ---
+	Manual_MFC14_SET        Sccm  	-    -  -  -  0  0   	1  	1    -   -  -  -  0  0      1  	  --- --- --- ---
+	Manual_MFC15_SET        Sccm  	-    -  -  -  0  0      1   	1    -   -  -  -  0  0      1     --- --- --- ---
+	Manual_MFC16_SET        Sccm  	-    -  -  -  0  0      1   	1    -   -  -  -  0  0      1     --- --- --- ---
+	Manual_MFC17_SET        Sccm  	-    -  -  -  0  0      1       1    -   -  -  -  0  0      1     --- --- --- ---
+	Manual_MFC18_SET        Sccm  	-    -  -  -  0  0      1       1    -   -  -  -  0  0      1     --- --- --- ---         
+
+	M_CAL_CHAMBER_TEMP_Ret	degC  	-    -  -  -  1  0    600	  1    -   -  -  -  1  0    600   --- --- --- ---
+
+$$$ String
+
+	M_LFM_A_SERIAL_NUMBER	""
+	M_LFM_B_SERIAL_NUMBER	""

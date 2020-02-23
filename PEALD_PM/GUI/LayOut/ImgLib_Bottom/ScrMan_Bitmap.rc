@@ -1,0 +1,28 @@
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+B_0001_0000000000       BITMAP       IMAGE/Button_Enable_N_System.bmp
+B_0001_0000000001       BITMAP       IMAGE/Button_Press_N_System.bmp
+
+B_0002_0000000000       BITMAP       IMAGE/Button_Enable_N_Recipe.bmp
+B_0002_0000000001       BITMAP       IMAGE/Button_Press_N_Recipe.bmp
+
+B_0003_0000000000       BITMAP       IMAGE/Button_Enable_N_Service.bmp
+B_0003_0000000001       BITMAP       IMAGE/Button_Press_N_Service.bmp
+
+B_0004_0000000000       BITMAP       IMAGE/Button_Enable_N_Config.bmp
+B_0004_0000000001       BITMAP       IMAGE/Button_Press_N_Config.bmp
+
+B_0005_0000000000       BITMAP       IMAGE/Button_Enable_N_Utility.bmp
+B_0005_0000000001       BITMAP       IMAGE/Button_Press_N_Utility.bmp
+
+B_0500_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button_Abort_Disable.bmp"
+B_0500_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button_Abort_Enable.bmp"
+B_0500_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/Button_Abort_Disable.bmp"
+B_0500_0000000003       BITMAP  MOVEABLE PURE   "IMAGE/Button_Abort_Enable.bmp"
+B_0500_0000000004       BITMAP  MOVEABLE PURE   "IMAGE/Button_Abort_Press.bmp"
+B_0500_0000000005       BITMAP  MOVEABLE PURE   "IMAGE/Button_Abort_Disable.bmp"
+

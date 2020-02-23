@@ -1,0 +1,17 @@
+#
+#
+#
+# Possible Recovery Action String
+#      - CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+1600	RunIdleRcpErr	{
+	"Process Module Busy Error"	
+	CLEAR	"Clear Operation"
+	}
+
+1601	IdleRcpEmptyErr	{
+	"Run Idle Recipe Empty Error"	
+	CLEAR	"Clear Operation"
+	}

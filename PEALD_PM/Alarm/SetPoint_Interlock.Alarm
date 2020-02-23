@@ -1,0 +1,152 @@
+#
+#
+#
+# Possible Recovery Action String
+#      - CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+###################### not used ##############################
+7000	SlowVentWaferSupplyInterlock	{
+	"Slow Vent Water Supply Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+7001	FastVentWaferSupplyInterlock	{
+	"Fast Vent Water Supply Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+7002	WaterSupplyInterlock	{
+	"Water Supply Valve Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+7003	ChmFastRoughInterlock	{
+	"Chamber Fast Rough Valve Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+7004	RelayStageHTRInterlock	{
+	"Stage Heater Relay Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+7005	RelayStageHTR2Interlock	{
+	"Stage Heater 2 Relay Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+7006	RelayGasBoxHTRInterlock	{
+	"GasBox Heater Relay Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+7007	RelayGasBoxHTRInterlock	{
+	"GasBox Heater Relay Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+7008	RelayChmHTRInterlock	{
+	"Chamber Heater Relay Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+7009	RelayChmHTR2Interlock	{
+	"Chamber Heater 2 Relay Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+#-----------------------------------------------------------
+# RF(1) Setpoint Interlock
+
+7010	RFOnInterlock	{
+	"RF On vs Toplid Open, Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+7011	RFOnInterlock1	{
+	"RF On vs Match Box, Filter Fan, Over Temp"
+	CLEAR	"Clear Operation"
+	}
+
+7012	RFOnInterlock2	{
+	"RF On vs AC Not OK"
+	CLEAR	"Clear Operation"
+	}
+
+#-----------------------------------------------------------
+# RF(2) Setpoint Interlock
+
+7020	RF2OnInterlock	{
+	"RF2 On vs Toplid Open, Pressure High"
+	CLEAR	"Clear Operation"
+	}
+
+7021	RF2OnInterlock1	{
+	"RF2 On vs Match Box, Filter Fan, Over Temp"
+	CLEAR	"Clear Operation"
+	}
+
+7022	RF2OnInterlock2	{
+	"RF2 On vs AC Not OK"
+	CLEAR	"Clear Operation"
+	}
+
+#-----------------------------------------------------------
+# RPG Setpoint Interlock
+7030	RPGOnInterlock	{
+	"RPG On vs RPG Ready, ACK OK, Water Flow, Toplid, ATM, SlotValve"
+	CLEAR	"Clear Operation"
+	}
+
+7031	RPGOnInterlock2	{
+	"RPG On vs RPG Gate Valve"
+	CLEAR	"Clear Operation"
+	}
+
+7050	ZPositionInterlock	{
+	"Slot Valve Opened!"
+	CLEAR	"Clear Operation"
+	}
+
+7051	ValveInterlock	{
+	"Valve Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+#-----------------------------------------------------------
+# Source Divert Valve Setpoint Interlock
+7052	SrcBypassValveLock	{
+	"Source Bypass Valve Not Open by Divert Pump Off"
+	CLEAR	"Clear Operation"
+	}
+
+#-----------------------------------------------------------
+# TopLid Switch Valve Lock
+7053	TopLidValveLock	{
+	"Valve Not Open by Toplid Open"
+	CLEAR	"Clear Operation"
+	}
+
+#-----------------------------------------------------------
+# Vacuum Sensor Valve Lock
+7054	VacSnsValveLock	{
+	"Valve Not Open by Vacuum Sensor"
+	CLEAR	"Clear Operation"
+	}
+
+7060	RelayPumpingLineHTRInterlock	{
+	"PumpingLine Heater Relay Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+#-----------------------------------------------------------
+# 2015.04.02 Add Online Valve Set Lock
+7070	PMEanbleValveOpenlock	{
+	"Not OPEN Valve in PM Enable Mode"
+	CLEAR	"Clear Operation"
+	}

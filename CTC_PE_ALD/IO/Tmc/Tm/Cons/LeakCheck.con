@@ -1,0 +1,58 @@
+#
+#
+$$$ Digital
+TM.Sys.Year		-
+TM.Sys.Month		-
+TM.Sys.Day		-
+TM.Sys.Hour		-
+TM.Sys.Min		-
+TM.Sys.Sec		-
+TM.Leak_PumpingTime_H	-  * *  - - - - -    0    24
+TM.Leak_PumpingTime_M	-  * *  - - - - -    0    59
+TM.Leak_WaitingTime_H	-  * *  - - - - -    0    24
+TM.Leak_WaitingTime_M	-  * *  - - - - -    0    59
+TM.Leak_Test_Number	-  * *  - - - - -    1    10
+TM.Leak_Remain_Time	-  * *  - - - - -    0    59
+TM.Leak_End		OffOn
+#2008.04.04
+TM.LeakChk_Log_Rate1	-  * *  - - - - -    0    30000
+TM.LeakChk_Log_Rate2	-  * *  - - - - -    0    30000
+TM.LeakChk_Log_Rate3	-  * *  - - - - -    0    30000
+TM.LeakChk_Log_Rate4	-  * *  - - - - -    0    30000
+TM.LeakChk_Log_Rate5	-  * *  - - - - -    0    30000
+
+TM.LeakChk_Log_Avg1	-  * *  - - - - -    0    30000
+TM.LeakChk_Log_Avg2	-  * *  - - - - -    0    30000
+TM.LeakChk_Log_Avg3	-  * *  - - - - -    0    30000
+TM.LeakChk_Log_Avg4	-  * *  - - - - -    0    30000
+TM.LeakChk_Log_Avg5	-  * *  - - - - -    0    30000
+$$$ Analog
+TM.Leak_LastRate		mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0
+
+TM.Leak_Rate1			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0
+TM.Leak_Rate2			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0
+TM.Leak_Rate3			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0
+TM.Leak_Rate4			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0
+TM.Leak_Rate5			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0
+TM.Leak_Rate6			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0
+TM.Leak_Rate7			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0
+TM.Leak_Rate8			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0
+TM.Leak_Rate9			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0
+TM.Leak_Rate10			mTorr/m  -          -  -  -  2   0  1000   1  -   -  -  - 2  0  1000  --- --- --- ---       0
+
+$$$ String
+TM.LeakChk_Message		""
+TM.Leak_PumpRemain_Time	""
+TM.Leak_WaitRemain_Time	""
+#2008.04.04
+TM.LeakChk_Log_Time1		""
+TM.LeakChk_Log_Time2		""
+TM.LeakChk_Log_Time3		""
+TM.LeakChk_Log_Time4		""
+TM.LeakChk_Log_Time5		""
+
+#... 2016.01.19
+$$$ enum
+LKEnum	LK_START  LK_END
+$$$ Digital
+TM_VaccumLKStsDM	LKEnum

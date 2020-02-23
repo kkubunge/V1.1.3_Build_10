@@ -1,0 +1,11 @@
+urn:network-tag-v1
+1,PC_CIO_Input_1,200,0,,1
+1,PC_CIO_Input_2,200,0,,1
+0,PC_CIO_Output_1,200,0,,1
+0,PC_CIO_Output_2,200,0,,1
+0,Recipe_Output_1,400,0,,1
+0,Recipe_Output_2,400,0,,1
+0,Recipe_Output_3,400,0,,1
+0,Recipe_Output_4,400,0,,1
+0,Recipe_Output_5,400,0,,1
+urn:network-tagset-v1

@@ -1,0 +1,88 @@
+#
+# CTC Function
+#
+#
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+# User Append Code
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+SCHEDULER_SHUTDOWN		90	FUNCTION/FUNCTION_ShutDown/Sequence
+SCHEDULER_SHUTDOWN2		90	FUNCTION/FUNCTION_ShutDown2/Sequence		# PM2 Computer Kill
+SCHEDULER_SHUTDOWN3		90	FUNCTION/FUNCTION_ShutDown3/Sequence		# PM3 Computer Kill
+SCHEDULER_GUI_MONITOR		90	FUNCTION/FUNCTION_GUI_Monitor/Sequence		RUN
+
+SCHEDULER_ROUTE			90	FUNCTION/FUNCTION_Scheduler_Route/Sequence
+SCHEDULER_ROUTE2		90	FUNCTION/FUNCTION_Scheduler_Route/Sequence
+SCHEDULER_ROUTE3		90	FUNCTION/FUNCTION_Scheduler_Route/Sequence
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+# Fixed Function for Cluster
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+SCHEDULER_MAINT_TOP		80	Engine/EXEC/Scheduler/Sch_Top_Maint
+SCHEDULER			70	Engine/EXEC/Scheduler/Sch_Main30		RUN		"Function\Function_Scheduler\GUI_Scheduler\BackGround\Background"	"Scheduler:$|Driver/FaRecipeAnal.dll"
+SCHEDULER_DLL_SET_FUNCTION	60	FUNCTION\Function_Dll_Set\Sequence
+
+SCHEDULER_HANDOFF_CM1		70	Engine/EXEC/Scheduler/Sch_CassHO		ARGUMENT	"CM1"
+SCHEDULER_HANDOFF_CM2		70	Engine/EXEC/Scheduler/Sch_CassHO		ARGUMENT	"CM2"
+SCHEDULER_HANDOFF_CM3		70	Engine/EXEC/Scheduler/Sch_CassHO		ARGUMENT	"CM3"
+SCHEDULER_HANDOFF_CM4		70	-	SUCCESS
+
+SCHEDULER_BUTTON		68	Engine/EXEC/Scheduler/Sch_Button
+SCHEDULER_TIMER			68	Engine/EXEC/Scheduler/Sch_Timer		RUN
+
+SCHEDULER_LOTLOG1		60	Engine/EXEC/Scheduler/Sch_LotLog		ARGUMENT	"scheduler"
+SCHEDULER_LOTLOG2		60	Engine/EXEC/Scheduler/Sch_LotLog		ARGUMENT	"scheduler"
+SCHEDULER_LOTLOG3		60	Engine/EXEC/Scheduler/Sch_LotLog		ARGUMENT	"scheduler"
+SCHEDULER_LOTLOG4		60	-	SUCCESS
+
+SCHEDULER_ERROR			60	Engine/EXEC/Scheduler/Sch_Error		ARGUMENT	"scheduler/Error.dat"
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+# User Definition Function for Cluster
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#SCHEDULER_MAINT_MOVE		79	FUNCTION/Function_Maint_Run/dbg_sequence
+SCHEDULER_MAINT_MOVE		79	FUNCTION/Function_Maint_Run/sequence
+SCHEDULER_MAINT_ALL		79	Engine/EXEC/MsgReplacer			ARGUMENT	"-|FUNCTION/Function_Scheduler_Maint/Interface_Maint_All.seq"
+
+SCHEDULER_MAINT_CM1		70	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_CM1.cfg"
+SCHEDULER_MAINT_CM2		70	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_CM2.cfg"
+SCHEDULER_MAINT_CM3		70	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_CM3.cfg"
+SCHEDULER_MAINT_CM4		70	-	SUCCESS
+SCHEDULER_MAINT_PM1		70	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_PM1.cfg"
+SCHEDULER_MAINT_PM2		70	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_PM2.cfg"
+SCHEDULER_MAINT_PM3		70	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_PM3.cfg"
+SCHEDULER_MAINT_TM		70	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_TM.cfg"
+
+SCHEDULER_MAINT_FM		70	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_FM.cfg"
+SCHEDULER_MAINT_BM1		70	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_BM1.cfg"
+SCHEDULER_MAINT_BM2		70	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_BM2.cfg"
+SCHEDULER_MAINT_BM3		70	-	SUCCESS
+SCHEDULER_MAINT_BM4		70	-	SUCCESS
+
+SCHEDULER_INTERFACE_CM1		65	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_CM.cfg|CM1"
+SCHEDULER_INTERFACE_CM2		65	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_CM.cfg|CM2"
+SCHEDULER_INTERFACE_CM3		65	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_CM.cfg|CM3"
+SCHEDULER_INTERFACE_CM4		65	-	SUCCESS
+SCHEDULER_INTERFACE_PM1		65	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_PM.cfg|PM1"
+SCHEDULER_INTERFACE_PM2		65	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_PM.cfg|PM2"
+SCHEDULER_INTERFACE_PM3		65	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_PM.cfg|PM3"
+SCHEDULER_INTERFACE_TM		65	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_TM.cfg|TM"
+
+SCHEDULER_INTERFACE_FM		65	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_FM.cfg|FM"
+SCHEDULER_INTERFACE_BM1		65	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_BM.cfg|BM1"
+SCHEDULER_INTERFACE_BM2		65	Engine/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_BM.cfg|BM2"
+SCHEDULER_INTERFACE_BM3		65	-	SUCCESS
+SCHEDULER_INTERFACE_BM4		65	-	SUCCESS
+
+SCHEDULER_PROCESS_PM1		65	Engine/exec/RcpHandler2			ARGUMENT	"FUNCTION/Function_Recipe_Handling/RcpInfo.cfg|PM1"
+SCHEDULER_PROCESS_PM1_BRG	65	Engine/exec/RcpHandler2			ARGUMENT	"FUNCTION/Function_Recipe_Handling/RcpInfo.cfg|PM1"
+SCHEDULER_PROCESS_PM2		65	Engine/exec/RcpHandler2			ARGUMENT	"FUNCTION/Function_Recipe_Handling/RcpInfo.cfg|PM2"
+SCHEDULER_PROCESS_PM2_BRG	65	Engine/exec/RcpHandler2			ARGUMENT	"FUNCTION/Function_Recipe_Handling/RcpInfo.cfg|PM2"
+SCHEDULER_PROCESS_PM3		65	Engine/exec/RcpHandler2			ARGUMENT	"FUNCTION/Function_Recipe_Handling/RcpInfo.cfg|PM3"
+SCHEDULER_PROCESS_PM3_BRG	65	Engine/exec/RcpHandler2			ARGUMENT	"FUNCTION/Function_Recipe_Handling/RcpInfo.cfg|PM3"
+
+FA_SIMULATOR			99	Engine/EXEC/Scheduler/Sch_EventLog		ARGUMENT	"System/Sch_Main_Test.dat|SCHEDULER"
+
+LOG_AUTO_DELETE			99	Function/Function_Scheduler/AutoDelete/AutoDelete	RUN	""	"Function/Function_Scheduler/AutoDelete/autodelete.cfg"

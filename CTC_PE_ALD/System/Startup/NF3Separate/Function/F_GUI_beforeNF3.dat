@@ -1,0 +1,89 @@
+#
+# CTC GUI
+#
+
+#-----------------------------------------------------------
+# Basic Screen Area
+#-----------------------------------------------------------
+
+ALARM_MANAGER		99	Engine/Exec/GUI_AlarmManager	RUN		"FUNCTION/Function_Scheduler/Gui_AlarmManager/Background/Background"	""
+ALARM_HISTORY		99	Engine/Exec/GUI_AlarmHistory	RUN		"FUNCTION/Function_Scheduler/Gui_AlarmHistory/Background/Background"	"TM"
+#IO_MANAGER		99	Engine/Exec/GUI_IOManagerH		RUN		"Function/Function_Scheduler/Gui_IOManager/Background/Background"	""
+IO_MANAGER		99	Function/Function_Scheduler/Gui_IOManager2/GUI_IOManagerH		RUN		"Function/Function_Scheduler/Gui_IOManager/Background/Background"	""
+
+SCREEN_MANAGER_STATUS	99	Engine/Exec/GUI_Screen_Status2	RUN		""	"GUI/Layout/Gui_Screen_Status.cfg|Parameter/Users/User.cfg"
+SCREEN_MANAGER_BOTTOM	99	Engine/Exec/GUI_Screen_Bottom	RUN		""	"GUI/Layout/Gui_Screen_Bottom.cfg"
+SCREEN_MANAGER_RIGHT	99	Engine/Exec/GUI_Screen_Right	RUN		""	"GUI/Layout/Gui_Screen_Right.cfg"
+
+SCREEN_CLEAR		99	Engine/Exec/Screen_Clear		RUN		""	"GUI/Layout/BackGround_ScrCls/ScrCls_Bitmap.dll"
+
+SCREEN_USER_CONTROL	98	Engine/Exec/GUI_Screen_User_Control	RUN		""	"Parameter/Users/User.cfg|FUNCTION/Function_Scheduler/Gui_User_Control/Background/Background"
+SCREEN_USER_CONTROL_CHK	96	Engine/Exec/GUI_Screen_User_Control_CHK	RUN		""	"Parameter/Users/User.cfg|FUNCTION/Function_Scheduler/Gui_User_Control/Background/Background"
+
+#-----------------------------------------------------------
+# Cluster Screen Area
+#-----------------------------------------------------------
+
+#SCREEN_RECIPE_JOB	99	Engine/Exec/GUI_JobEditor2		RUN		"Function/Function_Scheduler/Gui_JobEditor/BackGround/BackGround"	"scheduler|ASTGM"
+SCREEN_RECIPE_JOB	99	Engine/Exec/GUI_JobEditor2		RUN		"Function/Function_Scheduler/Gui_JobEditor/BackGround/BackGround"	"scheduler:$|ASTGME"
+SCREEN_RECIPE_DIR	99	Engine/Exec/Gui_DirEditor		RUN		"Function/Function_Scheduler/Gui_DirEditor/Background/Background"	"Scheduler"
+SCREEN_RECIPE_LOT	98	Engine/Exec/GUI_LotEditor		RUN		"FUNCTION/Function_Scheduler/Gui_LotEditor/Background/Background"	"scheduler|TBMG|||Select LotPre:NONE:A:B:C:D:E"
+
+# 2014.09.19 Add Aligner Skip Option by wjkim
+#SCREEN_RECIPE_CLUSTER	98	Engine/Exec/GUI_ClusterEditor	RUN		"Function/Function_Scheduler/Gui_ClusterEditor/Background/Background"	"scheduler|TBMG|3|6"
+SCREEN_RECIPE_CLUSTER	98	Function/Function_Scheduler/Gui_ClusterEditor/Gui_ClusterEditor		RUN	"Function/Function_Scheduler/Gui_ClusterEditor/Background/Background"	"scheduler|TBMG|3|6"
+
+#-----------------------------------------------------------
+# User Screen Area
+#-----------------------------------------------------------
+
+SCREEN_ONLINE_LOG	99	Engine/Exec/GUI_OnlineLog		RUN		"Function\Function_Scheduler\GUI_OnlineLog\Background\Background"	"f:\Datalog\Gem|TM"
+
+SCREEN_OPERATE		99	Engine/Exec/Gui_OperateLog		RUN		"FUNCTION/Function_Scheduler/Gui_OperateLog/Background/Background"	"$|TM|3"
+
+SCREEN_RECIPE_PRCS_PM1	97	FUNCTION/Function_Module_Recipe_Editor/PM1/Control_BeforeNF3/Sequence	RUN	"PM1"	"FUNCTION/Function_Module_Recipe_Editor/PM1/Menu_Recipe_Process_BeforeNF3.cfg|RECIPE|PROCESS\\PM1|G"
+SCREEN_RECIPE_PRCS_PM2	97	FUNCTION/Function_Module_Recipe_Editor/PM2/Control_BeforeNF3/Sequence	RUN	"PM2"	"FUNCTION/Function_Module_Recipe_Editor/PM2/Menu_Recipe_Process_BeforeNF3.cfg|RECIPE|PROCESS\\PM2|G"
+SCREEN_RECIPE_PRCS_PM3	97	FUNCTION/Function_Module_Recipe_Editor/PM3/Control_BeforeNF3/Sequence	RUN	"PM3"	"FUNCTION/Function_Module_Recipe_Editor/PM3/Menu_Recipe_Process_BeforeNF3.cfg|RECIPE|PROCESS\\PM3|G"
+
+SCREEN_SYSTEM		98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/CTC/Screen_CTC.cfg"
+SCREEN_SYSTEM_PARM	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/CTC/AutoPC_Chk_Param.cfg"
+SCREEN_TMC		98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/TMC/Screen_TMC.cfg"
+
+SCREEN_PM1	        	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/PM1/Menu_Service.cfg"
+SCREEN_PM1_2	    	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/PM1/Menu_Service2.cfg"
+SCREEN_PM1_HEATER_SET	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/PM1/Menu_Heater_Set.cfg"
+
+SCREEN_PM2		98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/PM2/Menu_Service.cfg"
+SCREEN_PM2_2		98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/PM2/Menu_Service2.cfg"
+SCREEN_PM2_HEATER_SET	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/PM2/Menu_Heater_Set.cfg"
+
+SCREEN_PM3		98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/PM3/Menu_Service.cfg"
+SCREEN_PM3_2		98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/PM3/Menu_Service2.cfg"
+SCREEN_PM3_HEATER_SET	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/PM3/Menu_Heater_Set.cfg"
+
+SCREEN_PLOTTING_PM1	99	Engine/Exec/GUI_Plotter		RUN		"Function/Function_Scheduler/Gui_Plotter/Background/Background"	"PARAMETER/PLOTTING/Service_Plotting_PM1.IO"
+SCREEN_PLOTTING_PM2	99	Engine/Exec/GUI_Plotter		RUN		"Function/Function_Scheduler/Gui_Plotter/Background/Background"	"PARAMETER/PLOTTING/Service_Plotting_PM2.IO"
+SCREEN_PLOTTING_PM3	99	Engine/Exec/GUI_Plotter		RUN		"Function/Function_Scheduler/Gui_Plotter/Background/Background"	"PARAMETER/PLOTTING/Service_Plotting_PM3.IO"
+
+SCREEN_PREVENTIVE_PM1	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/CTC/Screen_Prevent.cfg"
+SCREEN_PREVENTIVE_PM2	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/CTC/Screen_Prevent.cfg"
+SCREEN_PREVENTIVE_PM3	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/CTC/Screen_Prevent.cfg"
+
+SCREEN_CHAMBER_CON_PM1	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/CTC/Screen_ChmConCtrl.cfg"
+SCREEN_CHAMBER_CON_PM2	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/CTC/Screen_ChmConCtrl.cfg"
+SCREEN_CHAMBER_CON_PM3	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/CTC/Screen_ChmConCtrl.cfg"
+
+SCREEN_MANUAL_LOG	99	FUNCTION/Function_Module_CTC/OBJ_Gui_ManualLog/OBJ_Gui_ManualLog		RUN	"FUNCTION/Function_Module_CTC/OBJ_Gui_ManualLog/Background/Background"
+SCREEN_RECIPE_HISTORY	99	FUNCTION/Function_Module_CTC/OBJ_Gui_Recipe_History/OBJ_Gui_Recipe_History	RUN	"FUNCTION/Function_Module_CTC/OBJ_Gui_Recipe_History/Background/Background"	"_RecipeHistory|TM|3"
+
+#SCREEN_AWCSCAN		99	FUNCTION/Function_Module_CTC/OBJ_Gui_AWCScanLog/Obj_Gui_AWCScan	RUN	"FUNCTION/Function_Module_CTC/OBJ_Gui_AWCScanLog/Background/Background"	"f:\datalog\_LOG\AWCSCAN|TM|3"
+
+SCREEN_AUTOPM_PM1	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/CTC/Screen_AutoPM.cfg"
+SCREEN_AUTOPM_PM2	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/CTC/Screen_AutoPM.cfg"
+SCREEN_AUTOPM_PM3	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/CTC/Screen_AutoPM.cfg"
+SCREEN_AUTOPM_PM4	98	-	SUCCESS
+SCREEN_AUTOPM_PM5	98	-	SUCCESS
+
+SCREEN_PLOTTING_PM1_GAS	99	Function/Function_Scheduler/GUI_Plotter2/Gui_Plotter2	RUN	"Function\Function_Scheduler\Gui_Plotter2\BackGround"	"PARAMETER/PLOTTING/MFC_Diagnosis/Service_Plotting_PM1_MFC.IO"
+SCREEN_PLOTTING_PM2_GAS	99	Function/Function_Scheduler/GUI_Plotter2/Gui_Plotter2	RUN	"Function\Function_Scheduler\Gui_Plotter2\BackGround"	"PARAMETER/PLOTTING/MFC_Diagnosis/Service_Plotting_PM2_MFC.IO"
+SCREEN_PLOTTING_PM3_GAS	99	Function/Function_Scheduler/GUI_Plotter2/Gui_Plotter2	RUN	"Function\Function_Scheduler\Gui_Plotter2\BackGround"	"PARAMETER/PLOTTING/MFC_Diagnosis/Service_Plotting_PM3_MFC.IO"

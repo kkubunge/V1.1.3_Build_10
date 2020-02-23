@@ -1,0 +1,186 @@
+#
+#
+#
+# Possible Recovery Action String
+#      - CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+###################### not used ##############################
+2600	RFPlsmNotDetected {
+	"Plasma Not Detected"
+	CLEAR	"Clear Operation"
+	}
+
+2601	RFArcDetected {
+	"RF Arc Occured"
+	CLEAR	"Clear Operation"
+	}
+
+2602	RFSetTimeout {
+	"RF Setting Timeout"
+	CLEAR	"Clear Operation"
+	}
+
+2603	RFLoadPowerOutofTol {
+	"RF Forward Power Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2604	RFReflectIsHigh {
+	"RF Reflect Is High"
+	CLEAR	"Clear Operation"
+	}
+
+2605	RPGPlsmNotDetected {
+	"RPG 1 Plasma Not Detected"
+	CLEAR	"Clear Operation"
+	}
+
+2606	RPGReflectIsHigh {
+	"RPG 1 Reflect Is High"
+	CLEAR	"Clear Operation"
+	}
+
+2607	RPGGateValveFailed {
+	"RPG Gate Valve 1 Failed"
+	CLEAR	"Clear Operation"
+	}
+
+2608	RPGGateValveFailed {
+	"RPG Gate Valve 2 Failed"
+	CLEAR	"Clear Operation"
+	}
+
+2609	RPG2PlsmNotDetected {
+	"RPG 2 Plasma Not Detected"
+	CLEAR	"Clear Operation"
+	}
+
+2610	RPG2ReflectIsHigh {
+	"RPG 2 Reflect Is High"
+	CLEAR	"Clear Operation"
+	}
+2611	RPGGateValveFailed {
+	"RPG Gate Valve 1 Failed"
+	CLEAR	"Clear Operation"
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	}
+2612	RPGGateValveFailed {
+	"RPG Gate Valve 2 Failed"
+	CLEAR	"Clear Operation"
+	RETRY	"Retry Operation"
+	ABORT	"Abort Operation"
+	}
+2640	RF1CalFail {
+	"RF1 Calibration Failed"
+	CLEAR	"Clear Operation"
+	}
+
+2641	RF2CalFail {
+	"RF2 Calibration Failed"
+	CLEAR	"Clear Operation"
+	}
+
+2642	RF1IOInitFail {
+	"RF1 IO initialization Failed"
+	CLEAR	"Clear Operation"
+	}
+
+2643	RF2IOInitFail {
+	"RF2 IO initialization Failed"
+	CLEAR	"Clear Operation"
+	}
+
+2644	RFPARASETERROR {
+	"RF Parameter Setting Error"
+	CLEAR	"Clear Operation"
+	}
+
+#added 2008.09.29
+2650	RF2PlsmNotDetected {
+	"Plasma2 Not Detected"
+	CLEAR	"Clear Operation"
+	}
+
+2651	RF2ArcDetected {
+	"RF2 Arc Occured"
+	CLEAR	"Clear Operation"
+	}
+
+2652	RF2SetTimeout {
+	"RF2 Setting Timeout"
+	CLEAR	"Clear Operation"
+	}
+
+2653	RF2LoadPowerOutofTol {
+	"RF2 Forward Power Out Of Tolerance"
+	CLEAR	"Clear Operation"
+	}
+
+2654	RF2ReflectIsHigh {
+	"RF2 Reflect Is High"
+	CLEAR	"Clear Operation"
+	}
+
+# 2014.09.28 wjkim, RF Count Monitor
+2671	RF1CommFailed {
+	"RF1 Communication Failed"
+	CLEAR	"Clear Operation"
+	}
+2672	RF2CommFailed {
+	"RF2 Communication Failed"
+	CLEAR	"Clear Operation"
+	}
+
+2673	RF1ParamSetFailed {
+	"RF1 Parameter Set Failed"
+	CLEAR	"Clear Operation"
+	}
+2674	RF2ParamSetFailed {
+	"RF2 Parameter Set Failed"
+	CLEAR	"Clear Operation"
+	}
+
+2675	RF1LoadPwrCntErr {
+	"RF1 Load Power Count Error"
+	CLEAR	"Clear Operation"
+	}
+2676	RF2LoadPwrCntErr {
+	"RF2 Load Power Count Error"
+	CLEAR	"Clear Operation"
+	}
+
+2677	RF1ReflPwrCntErr {
+	"RF1 Reflect Power Count Error"
+	CLEAR	"Clear Operation"
+	}
+2678	RF2ReflPwrCntErr {
+	"RF2 Reflect Power Count Error"
+	CLEAR	"Clear Operation"
+	}
+
+########################################################
+2690	RF1ParameterSettingError {
+	"RF1 Parameter Setting Error"
+	CLEAR	"Clear Operation"
+}
+
+2691	RF2ParameterSettingError {
+	"RF2 Parameter Setting Error"
+	CLEAR	"Clear Operation"
+}
+
+2692	HF1ParameterSettingError {
+	"Matcher1 Parameter Setting Error"
+	CLEAR	"Clear Operation"
+}
+
+2693	HF2ParameterSettingError {
+	"Matcher2 Parameter Setting Error"
+	CLEAR	"Clear Operation"
+}

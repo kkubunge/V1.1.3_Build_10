@@ -1,0 +1,31 @@
+------------------------------------------------------------------------------------------------------------
+Version |    Date    | Description
+------------------------------------------------------------------------------------------------------------
+4.0	  2013.10.23   . Axis별 Counter Read 기능 추가.
+3.0       2013.07.12   . Axis별 부하율은 따로 Logging되도록 처리 ( Day단위 )
+	  2013.07.09   . CMD의 Response가 없을 때 Null Response Alarm으로 발생하지 않는 Bug 수정.
+		       . 변수 초기화 수정
+	  2013.05.31   . Robot Action Idle , Busy , Complete IO 처리
+
+2.9	  2013.02.07   . 축별 Teaching값의 A,B Arm이 서로 바뀌어 있어 수정.
+		       . COVOT6 AXIS별 부하율(%) Reading Command 추가.
+
+2.8	  2012.11.07   . Robot Action후 Err로 Return후 ErrorCode Reading전 Input IO Reading처리 시
+			 ErrorCode 변수가 0으로 초기화되어, Robot has a Error 0 으로 Alarm Post되는 문제 수정.
+		         - Digitial Out 처리 시에만 ErrorCode 0으로 초기화되도록 처리.
+
+2.7	  2012.07.23   . AWS USE EPROM Write 하지 않도록 처리.
+
+2.6	  2012.01.09   . Logging Control IO 추가.
+	  2012.02.02   . 불필요한 Dos Print 제거.
+
+2.5	  2011.11.30   . Logging되는 HDD별로 Driver 분리하지 않고, iodefine.io ID1 앞의 String ("F")
+			 으로 구분되도록 작업.
+	
+2.4	  2011.12.21   . AWS Limit Setting 과 EPROM Write 명령이 함께 처리되는 부분 수정
+			[ 배경 ] EPROM 저장 횟수에 제한이 있어, 제한을 Over하면 
+				 비정상적인 값이 Write되면서 Error 유발됨.
+			[ 수정 ] AWS Limit Setting이 TM Robot Place전마다 처리되어, 
+			         EPROM Write 부분을 제거함.
+
+

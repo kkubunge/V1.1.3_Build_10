@@ -1,0 +1,232 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ONLINE_HISTORY DIALOGEX 5, 75, 408, 290
+STYLE WS_POPUP | WS_VISIBLE | WS_BORDER
+FONT 12, "±¼¸²"
+BEGIN
+    LTEXT           "",IDC_DATA_TOTAL,205,5,27,12,0,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    CONTROL         "Total",IDC_STATIC_STATUS,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | WS_GROUP,182,6,19,8,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Delete Current File",IDABORT,325,3,77,17,BS_MULTILINE
+    CONTROL         "List1",IDC_DATA_LIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,81,24,321,250
+    PUSHBUTTON      "Compare Data",IDRETRY,246,3,77,17,BS_MULTILINE
+    LISTBOX         IDC_LIST_FILE,5,24,75,250,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Reload File List",IDYES,5,4,75,18,BS_MULTILINE
+    GROUPBOX        "",IDC_STATIC_STATUS2,176,0,58,21
+END
+
+IDD_ONLINE_HISTORY_M DIALOGEX 5, 75, 471, 355
+STYLE WS_POPUP | WS_VISIBLE | WS_BORDER
+FONT 10, "±¼¸²"
+BEGIN
+    LTEXT           "",IDC_DATA_TOTAL,223,6,35,18,0,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    CONTROL         "Total",IDC_STATIC_STATUS,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | WS_GROUP,199,11,19,10,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Delete Current File",IDABORT,364,4,87,24,BS_MULTILINE
+    CONTROL         "List1",IDC_DATA_LIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,90,30,361,309
+    PUSHBUTTON      "Compare Data",IDRETRY,275,4,87,24,BS_MULTILINE
+    LISTBOX         IDC_LIST_FILE,6,30,84,310,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Reload File List",IDYES,6,6,84,22,BS_MULTILINE
+    GROUPBOX        "",IDC_STATIC_STATUS2,194,1,66,25
+END
+
+IDD_E_ONLINE_HISTORY_M DIALOGEX 5, 75, 538, 288
+STYLE WS_POPUP | WS_VISIBLE | WS_BORDER
+FONT 10, "Arial"
+BEGIN
+    LTEXT           "",IDC_DATA_TOTAL,255,5,40,15,0,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    CONTROL         "Total",IDC_STATIC_STATUS,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | WS_GROUP,231,8,19,8,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Delete Current File",IDABORT,417,3,99,19,BS_MULTILINE
+    CONTROL         "List1",IDC_DATA_LIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,103,24,413,251
+    PUSHBUTTON      "Compare Data",IDRETRY,312,3,104,19,BS_MULTILINE
+    LISTBOX         IDC_LIST_FILE,6,24,96,252,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Reload File List",IDYES,7,5,96,17,BS_MULTILINE
+    GROUPBOX        "",IDC_STATIC_STATUS2,223,0,75,21
+END
+
+IDD_E_ONLINE_HISTORY DIALOGEX 5, 75, 408, 258
+STYLE WS_POPUP | WS_VISIBLE | WS_BORDER
+FONT 12, "Arial"
+BEGIN
+    LTEXT           "",IDC_DATA_TOTAL,205,6,27,11,0,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    CONTROL         "Total",IDC_STATIC_STATUS,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | WS_GROUP,182,7,19,8,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Delete Current File",IDABORT,325,2,77,16,BS_MULTILINE
+    CONTROL         "List1",IDC_DATA_LIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,81,21,321,223
+    PUSHBUTTON      "Compare Data",IDRETRY,246,2,77,16,BS_MULTILINE
+    LISTBOX         IDC_LIST_FILE,5,21,75,222,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Reload File List",IDYES,5,3,75,16,BS_MULTILINE
+    GROUPBOX        "",IDC_STATIC_STATUS2,177,1,58,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ONLINE_HISTORY, DIALOG
+    BEGIN
+        RIGHTMARGIN, 406
+        BOTTOMMARGIN, 287
+    END
+
+    IDD_ONLINE_HISTORY_M, DIALOG
+    BEGIN
+        RIGHTMARGIN, 469
+        BOTTOMMARGIN, 352
+    END
+
+    IDD_E_ONLINE_HISTORY_M, DIALOG
+    BEGIN
+        RIGHTMARGIN, 536
+        BOTTOMMARGIN, 285
+    END
+
+    IDD_E_ONLINE_HISTORY, DIALOG
+    BEGIN
+        RIGHTMARGIN, 406
+        BOTTOMMARGIN, 255
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PROGRAM_GUI         ICON    DISCARDABLE     "k:\\h\\Program_GUI.ico"
+IDI_KEY_BUTTON          ICON    DISCARDABLE     "k:\\h\\KEY_BUTTON.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,9,1,0
+ PRODUCTVERSION 3,9,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x9L
+#else
+ FILEFLAGS 0x8L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "Operate Log Viewer Program\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "GUI for Operation History View\0"
+            VALUE "FileVersion", "3, 9, 1, 0\0"
+            VALUE "InternalName", "Gui_OperateLog\0"
+            VALUE "LegalCopyright", "\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Gui_OperateLog.exe\0"
+            VALUE "PrivateBuild", "Gui Operate Log View 3.91(2006.11.14)\0"
+            VALUE "ProductName", "Gui_OperateLog\0"
+            VALUE "ProductVersion", "3, 9, 1, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

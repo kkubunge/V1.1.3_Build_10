@@ -1,0 +1,10 @@
+#ifndef APPINIT_H
+#define APPINIT_H
+
+BOOL FILE_ALL_SETUP( char *Filename );
+
+BOOL FILE_SYSTEM_SETUP( char *Filename );
+
+BOOL FILE_FILE_SETUP( char *Filename );
+
+#endif

@@ -1,0 +1,1350 @@
+#-----------------------------------------------------------
+# Value Interlock
+#-----------------------------------------------------------
+
+if (VRCP_GbIntlckDI == Interlock)
+{
+  $Alarm = 8003;
+}
+
+if (VRCP_AbortedDI == Aborted)
+{
+  $Alarm = 8004;
+}
+
+#####################################
+# Top Lid Switch
+#####################################
+aif ((TopLidSwitchDI == Open || TopLidSwitch2DI == Open) && PRMD_HO_TopLidSwitch == Abort )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8005;
+  SW_GbIntlckDM = Interlock;
+}
+aif ((TopLidSwitchDI == Open || TopLidSwitch2DI == Open) && PRMD_HO_TopLidSwitch == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8005;
+}
+
+#####################################
+# Source level
+#####################################
+aif ( SrcLvHighLmtDI == Alarm && PRMD_HO_SrcHiLimSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8025;
+  SW_GbIntlckDM = Interlock;
+}
+
+aif ( SrcLvLowDI == Alarm && PRMD_HO_SrcLowSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8026;
+  SW_GbIntlckDM = Interlock;
+}
+
+aif ( SrcLvLowLmtDI == Alarm && PRMD_HO_SrcLowLimSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8027;
+  SW_GbIntlckDM = Interlock;
+}
+
+aif ( SrcLvHighLmtDI == Alarm && PRMD_HO_SrcHiLimSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8025;
+}
+
+aif ( SrcLvLowDI == Alarm && PRMD_HO_SrcLowSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8026;
+}
+
+aif ( SrcLvLowLmtDI == Alarm && PRMD_HO_SrcLowLimSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8027;
+}
+
+# 2014.07.22 Add Over Charge Interlock by wjkim
+aif ( SrcLvHighLmtDI == Alarm )
+{
+  $Alarm = 8025;
+  V14ValveDO = Close;
+}
+
+#####################################
+# Water Leak Sensor
+#####################################
+aif (WLeakFrmBtmDI == Alarm)
+{
+  $Alarm = 8029;
+}
+
+#NOTUSE######################################
+#NOTUSE## Heater 1 Run
+#NOTUSE######################################
+#NOTUSE#aif (HtrRun1DI == Off)
+#NOTUSE#{
+#NOTUSE#  $Time = ValueIntlkTime;
+#NOTUSE#  $Alarm = 8012;
+#NOTUSE#  SW_GbIntlckDM = Interlock;
+#NOTUSE#}
+
+#NOTUSE######################################
+#NOTUSE## Heater 1 Alarm
+#NOTUSE######################################
+#NOTUSE#aif (HtrAlarm1DI == Alarm)
+#NOTUSE#{
+#NOTUSE#  $Time = ValueIntlkTime;
+#NOTUSE#  $Alarm = 8013;
+#NOTUSE#  SW_GbIntlckDM = Interlock;
+#NOTUSE#}
+
+#####################################
+# Dry Pump Interlock
+#####################################
+aif ( DPRunDI == Off && PRMD_HO_DPRun == Abort)
+{
+  $Alarm = 8014;
+  SW_GbIntlckDM = Interlock;
+  FastRoughVlvDO = Close;
+}
+aif ( DPRunDI == Off && PRMD_HO_DPRun == Warning)
+{
+  $Alarm = 8014;
+}
+
+
+aif (DPWarningDI == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8015;
+}
+
+
+#####################################
+# Dry Pump Abort
+#####################################
+aif ( DPAlarmDI == Alarm && PRMD_HO_DPAlarm == Abort)
+{
+  $Alarm = 8017;
+  SW_GbIntlckDM = Interlock;
+  FastRoughVlvDO = Close;
+}
+aif ( DPAlarmDI == Alarm && PRMD_HO_DPAlarm == Warning)
+{
+  $Alarm = 8017;
+}
+
+
+#####################################
+# Protect Back Stream
+#####################################
+aif ((PRMA_BGGaugeValue < M651_Pressure || PRMA_ForeGaugeValue < PumpPrsAI)
+	&& (VacuumStateDM == Vacuum)
+	&& (PRMD_HO_DryPumpHazard == Abort)
+	&& (AUTO_MFC_VERIFY_CTR == OFF_0))
+{
+  $Alarm = 8020;
+  SW_GbIntlckDM = Interlock;
+  FastRoughVlvDO = Close;
+}
+aif ((PRMA_BGGaugeValue < M651_Pressure || PRMA_ForeGaugeValue < PumpPrsAI)
+	&& (VacuumStateDM == Vacuum)
+	&& (PRMD_HO_DryPumpHazard == Warning)
+	&& (AUTO_MFC_VERIFY_CTR == OFF_0))
+{
+  $Alarm = 8020;
+}
+#####################################
+# MKS FAN Interlock
+#####################################
+aif (( PRMA_MKSPrsFanValue < M651_Fan_Status )&& (PRMD_HO_MKSFanSts == Warning ))
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8021;
+}
+
+aif (( PRMA_MKSPrsFanValue < M651_Fan_Status )&& (PRMD_HO_MKSFanSts == Abort ))
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8021;
+  SW_GbIntlckDM = Interlock;
+}
+#####################################
+# Scrubber Alarm
+#####################################
+
+if (ScrberAlarmDI == Alarm && PRMD_HO_AScrubber == Abort)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8018;
+  SW_GbIntlckDM = Interlock;
+}
+
+if (ScrberAlarmDI == Alarm && PRMD_HO_AScrubber == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8018;
+}
+
+aif (ExhaustDI == Alarm && PRMD_HO_ExhaustPres == Abort)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8024;
+  SW_GbIntlckDM = Interlock;
+}
+
+aif (ExhaustDI == Alarm && PRMD_HO_ExhaustPres == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8024;
+}
+
+aif (CO2ExtingFire1 == Alarm && PRMD_HO_Extinquisher == Abort)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8091;
+  SW_GbIntlckDM = Interlock;
+}
+
+aif (CO2ExtingFire1 == Alarm && PRMD_HO_Extinquisher == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8091;
+}
+
+#NotUse#aif (CO2ExtingTrble1 == Alarm && PRMD_HO_Extinquisher == Abort)
+#NotUse#{
+#NotUse#  $Time = ValueIntlkTime;
+#NotUse#  $Alarm = 8092;
+#NotUse#  SW_GbIntlckDM = Interlock;
+#NotUse#}
+#NotUse#
+#NotUse#aif (CO2ExtingTrble1 == Alarm && PRMD_HO_Extinquisher == Warning)
+#NotUse#{
+#NotUse#  $Time = ValueIntlkTime;
+#NotUse#  $Alarm = 8092;
+#NotUse#}
+#NotUse#
+#NotUse#aif (CO2ExtingPwr1 == Alarm && PRMD_HO_Extinquisher == Abort)
+#NotUse#{
+#NotUse#  $Time = ValueIntlkTime;
+#NotUse#  $Alarm = 8093;
+#NotUse#  SW_GbIntlckDM = Interlock;
+#NotUse#}
+#NotUse#
+#NotUse#aif (CO2ExtingPwr1 == Alarm && PRMD_HO_Extinquisher == Warning)
+#NotUse#{
+#NotUse#  $Time = ValueIntlkTime;
+#NotUse#  $Alarm = 8093;
+#NotUse#}
+
+#####################################
+# Smoke Alarm
+#####################################
+
+aif (SmokeDI == Alarm && PRMD_HO_SmokeDetect == Abort)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8090;
+  SW_GbIntlckDM = Interlock;
+}
+
+aif (SmokeDI == Alarm && PRMD_HO_SmokeDetect == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8090;
+}
+
+#####################################
+# Watlow 300 Heater Interlock
+#####################################
+aif (HT_BatteryStsDI == Alarm && PRMD_HO_HTBattery == Abort)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8035;
+  SW_GbIntlckDM = Interlock;
+}
+
+aif (HT_AIMCommStsDI == Alarm && PRMD_HO_HTCOMSts == Abort)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8036;
+  SW_GbIntlckDM = Interlock;
+}
+
+aif (HT_AmbientStsDI == Alarm && PRMD_HO_HTAmbSts == Abort)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8037;
+  SW_GbIntlckDM = Interlock;
+}
+
+aif (HT_BatteryStsDI == Alarm && PRMD_HO_HTBattery == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8035;
+}
+
+aif (HT_AIMCommStsDI == Alarm && PRMD_HO_HTCOMSts == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8036;
+}
+
+aif (HT_AmbientStsDI == Alarm && PRMD_HO_HTAmbSts == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8037;
+}
+
+aif (PRMD_HTR_Off_Ctrl == On && ChmPrsAI >= PRMA_VS_PrsBaVent && ChmPrssDI1 == ATM )
+{
+  $Time = 3;
+  HT12_OnOffDIO = Off;
+  HT13_OnOffDIO = Off;
+  HT14_OnOffDIO = Off;
+  HT28_OnOffDIO = Off;
+  HT29_OnOffDIO = Off;
+  HT30_OnOffDIO = Off;
+}
+#####################################
+# Chamber Pressure
+#####################################
+#NotUse#aif (ChmPrsAI > PRMA_VS_PrHgLmt && VacuumStateDM == Vacuum && PRMD_HO_ChmPrs == Abort)
+#NotUse#{
+#NotUse#  $Time = ValueIntlkTime;
+#NotUse#  $Alarm = 8070;
+#NotUse#  SW_GbIntlckDM = Interlock;
+#NotUse#}
+#NotUse#
+#NotUse#aif (ChmPrsAI > PRMA_VS_PrHgLmt && VacuumStateDM == Vacuum && PRMD_HO_ChmPrs == Warning)
+#NotUse#{
+#NotUse#  $Time = ValueIntlkTime;
+#NotUse#  $Alarm = 8070;
+#NotUse#}
+#----------------------------------------------------------------------------------------------------------------
+action_group CDA_OP_TMO {
+  if(PRMD_HO_SolVlvSts == Abort)	SW_GbIntlckDM = Interlock;
+  if(PRMD_HO_SolVlvSts == ChmDis)	SW_ModuleFailDM = On;
+}
+
+action_group RF_FEN1_OP_TMO {
+  if(PRMD_HO_RFFilterSts == Abort)	SW_GbIntlckDM = Interlock;
+  if(PRMD_HO_RFFilterSts == ChmDis)	SW_ModuleFailDM = On;
+}
+
+action_group RF_FEN2_OP_TMO {
+  if(PRMD_HO_RF2FilterSts == Abort)	SW_GbIntlckDM = Interlock;
+  if(PRMD_HO_RF2FilterSts == ChmDis)	SW_ModuleFailDM = On;
+}
+
+aif (AirSolVlvDI == NG && PRMD_HO_SolVlvSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = CDA_OP_TMO;
+  $Alarm = 8104;
+}
+
+aif (StgHtr1CtrlStsDI == Alarm && PRMD_HO_Stg1CtrlSts == Abort)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8106;
+  SW_GbIntlckDM = Interlock;
+}
+
+aif (StgHtr2CtrlStsDI == Alarm && PRMD_HO_Stg2CtrlSts == Abort)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8107;
+  SW_GbIntlckDM = Interlock;
+}
+
+aif (StgHtr1CtrlStsDI == Alarm && PRMD_HO_Stg1CtrlSts == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8106;
+}
+
+aif (StgHtr2CtrlStsDI == Alarm && PRMD_HO_Stg2CtrlSts == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8107;
+}
+#####################################
+# Stage Heater 1 Over Temperature
+#####################################
+aif (StgHtr1OvTmpAlarmDI == Alarm && PRMD_HO_StgHtrOvTmp == Abort)
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8110;
+}
+aif (StgHtr1OvTmpAlarmDI == Alarm && PRMD_HO_StgHtrOvTmp == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8110;
+}
+
+#####################################
+# Stage Heater 2 Over Temperature
+#####################################
+aif (StgHtr2OvTmpAlarmDI == Alarm && PRMD_HO_StgHtrOvTmp == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8111;
+}
+aif (StgHtr2OvTmpAlarmDI == Alarm && PRMD_HO_StgHtrOvTmp == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8111;
+}
+
+#####################################
+# Gas Line Over Temperature Alarm
+#####################################
+aif (GLOvTmpAlarmDI == Alarm && PRMD_HO_GLHtrOvTmp == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8112;
+}
+
+aif (GLOvTmpAlarmDI == Alarm && PRMD_HO_GLHtrOvTmp == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8112;
+}
+
+aif (GLOvTmpAlarm2DI == Alarm && PRMD_HO_GLHtrOvTmp == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8113;
+}
+
+aif (GLOvTmpAlarm2DI == Alarm && PRMD_HO_GLHtrOvTmp == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8113;
+}
+
+aif ((GasBoxCoverSwDI == Open || GasBoxCoverSw2DI == Open) && PRMD_HO_GasBoxCover == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8116;
+}
+
+aif ((GasBoxCoverSwDI == Open || GasBoxCoverSw2DI == Open) && PRMD_HO_GasBoxCover == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8116;
+}
+
+#####################################
+# Stage Heater 1 Relay
+#####################################
+aif (StgHtr1RelayDI == Off && ChmPrssDI1 != ATM  && PRMD_HO_StgHtrRelay == Abort)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8125;
+  SW_GbIntlckDM = Interlock;
+}
+
+aif (StgHtr1RelayDI == Off && ChmPrssDI1 != ATM  && PRMD_HO_StgHtrRelay == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8125;
+}
+#####################################
+# Stage Heater 2 Relay
+#####################################
+aif (StgHtr2RelayDI == Off && ChmPrssDI1 != ATM   && PRMD_HO_StgHtrRelay == Abort)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8126;
+  SW_GbIntlckDM = Interlock;
+}
+
+aif (StgHtr2RelayDI == Off && ChmPrssDI1 != ATM   && PRMD_HO_StgHtrRelay == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8126;
+}
+
+#####################################
+# Gas Line Heater Relay
+#####################################
+aif (GLHtrRelayDI == Off && ChmPrssDI1 != ATM && PRMD_HO_LineHtrRelay == Abort)
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8127;
+}
+
+aif (GLHtrRelayDI == Off && ChmPrssDI1 != ATM && PRMD_HO_LineHtrRelay == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8127;
+}
+
+aif (GLHtrRelay2DI == Off && ChmPrssDI1 != ATM && PRMD_HO_LineHtrRelay == Abort)
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8128;
+}
+
+aif (GLHtrRelay2DI == Off && ChmPrssDI1 != ATM && PRMD_HO_LineHtrRelay == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8128;
+}
+
+##################################
+# Refill system  Alarm
+###################################
+#NOTUSE#aif(CRSAlarm == Alarm)
+#NOTUSE#{
+#NOTUSE#  $Alarm = 6006;
+#NOTUSE#}
+
+#NOTUSE#aif(CRSReady == NotReady)
+#NOTUSE#{
+#NOTUSE#  $Alarm = 6014;
+#NOTUSE#}
+
+#NOTUSE#aif(CRSBulkEmpty == Empty)
+#NOTUSE#{
+#NOTUSE#  $Alarm = 6015;
+#NOTUSE#}
+
+#NOTUSE######################################
+#NOTUSE## Heater 3 Run
+#NOTUSE######################################
+#NOTUSE#aif (HtrRun3DI == Off)
+#NOTUSE#{
+#NOTUSE#  $Alarm = 8204;
+#NOTUSE#  SW_GbIntlckDM = Interlock;
+#NOTUSE#}
+
+#NOTUSE######################################
+#NOTUSE## Heater 3 Alarm
+#NOTUSE######################################
+#NOTUSE#aif (HtrAlarm3DI == Alarm)
+#NOTUSE#{
+#NOTUSE#  $Alarm = 8205;
+#NOTUSE#  SW_GbIntlckDM = Interlock;
+#NOTUSE#}
+
+#####################################
+# RF Alarms
+#####################################
+aif (RFSHCovIntDI == Interlock && PRMD_HO_RFFilterSts == Abort)
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8209;
+}
+
+aif (RFSHCovInt2DI == Interlock && PRMD_HO_RFFilterSts == Abort)
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8210;
+}
+
+aif (RFSHCovIntDI == Interlock && PRMD_HO_RFFilterSts == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8209;
+}
+
+aif (RFSHCovInt2DI == Interlock && PRMD_HO_RFFilterSts == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8210;
+}
+
+aif (RFFilterFanDI == Alarm && PRMD_HO_RFFilterSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = RF_FEN1_OP_TMO;
+  $Alarm = 8211;
+}
+
+aif (RFFilterFan2DI == Alarm && PRMD_HO_RF2FilterSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = RF_FEN2_OP_TMO;
+  $Alarm = 8212;
+}
+
+# 2015.02.12 Add RF OverTemp & AC OK Interlock
+aif (RFOvTempDtctDI == Alarm)
+{
+  if(RFPwOnDO == On)	SW_GbIntlckDM = Interlock;
+  $Alarm = 8544;
+}
+
+aif (RFOvTempDtct2DI == Alarm)
+{
+  if(RFPwOn2DO == On)	SW_GbIntlckDM = Interlock;
+  $Alarm = 8545;
+}
+
+aif (RFPlasmaACOKDI == NG)
+{
+  if(RFPwOnDO == On)	SW_GbIntlckDM = Interlock;
+  $Alarm = 8546;
+}
+
+aif (RFPlasmaACOK2DI == NG)
+{
+  if(RFPwOn2DO == On)	SW_GbIntlckDM = Interlock;
+  $Alarm = 8547;
+}
+
+#####################################
+# Power Box Fan Alarm
+#####################################
+aif (PwrBoxFanSts1DI == NG)
+{
+  $Alarm = 8216;
+}
+
+aif (PwrBoxFanSts2DI == NG)
+{
+  $Alarm = 8217;
+}
+
+#####################################
+# RPG Interlock
+#####################################
+aif (RPGReadyDI == NotReady && PRMD_HO_RPGReady == Abort)
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8085;
+}
+
+aif (RPGReadyDI == NotReady && PRMD_HO_RPGReady == Warning)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8085;
+}
+
+aif (RPGPlasmaACOKDI == NG && PRMD_HO_RPGACOK == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8086;
+}
+
+aif (RPGPlasmaACOKDI == NG && PRMD_HO_RPGACOK == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8086;
+}
+
+aif (RPGWtrFlwSwDI == Alarm && PRMD_HO_RPGWfrFlw == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8087;
+}
+aif (RPGWtr2FlwSwDI == Alarm && PRMD_HO_RPGWfr2Flw == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8097;
+}
+
+aif (RPGWtrFlwSwDI == Alarm && PRMD_HO_RPGWfrFlw == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8087;
+}
+aif (RPGWtr2FlwSwDI == Alarm && PRMD_HO_RPGWfr2Flw == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8097;
+}
+
+aif (RPGPwOnDO == On && (RPGGateVlvPosDI != Open && RPGGateVlv2PosDI != Open) && PRMD_HO_RPGDetect  == Abort )
+{
+  $time = ValueIntlkTimeRPG;
+  $Alarm = 8089;
+  SW_GbIntlckDM = Interlock;
+}
+
+aif (RPGPwOnDO == On && (RPGGateVlvPosDI != Open && RPGGateVlv2PosDI != Open) && PRMD_HO_RPGDetect  == Warning )
+{
+  $time = ValueIntlkTimeRPG;
+  $Alarm = 8089;
+}
+
+#####################################
+# Z-Motion 1 Limit Sensor Interlock
+#####################################
+
+aif (ZMT_LimitSnsDI == On && PRMD_HO_ZMTLmSenSts  == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8510;
+}
+
+aif (ZMT2_LimitSnsDI == On && PRMD_HO_ZMT2LmSenSts  == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8530;
+}
+
+aif (ZMT_LimitSnsDI == On && PRMD_HO_ZMTLmSenSts  == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8510;
+}
+
+aif (ZMT2_LimitSnsDI == On && PRMD_HO_ZMT2LmSenSts  == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8530;
+}
+
+#####################################
+# Process Plotter Control
+#####################################
+
+if (PRO_RunStsDM != Stop && PlotforProcRunDM == Off)
+{
+  PlotforProcRunDM = On;
+}
+
+if (PRO_RunStsDM == Stop && PlotforProcRunDM == On)
+{
+  PlotforProcRunDM = Off;
+}
+
+#####################################
+# Heat Exchanger Control
+#####################################
+
+aif (HTE_CHFailDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8610;
+}
+
+aif (HTE_CoolLkFailDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8611;
+}
+
+aif (HTE_OverHtFailDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8612;
+}
+
+aif (HTE_PumpLwFailDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8613;
+}
+
+aif (HTE_ThermFailDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8614;
+}
+
+aif (HTE_PumpLwPrsDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8615;
+}
+
+aif (HTE_PumpHiPrsDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8616;
+}
+
+aif (HTE_CoolLwLvOffDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8617;
+}
+
+aif (HTE_PumpOvrCurDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8618;
+}
+
+aif (HTE_HtrOvrCurDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8619;
+}
+
+aif (HTE_ResistivityDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8620;
+}
+
+aif (HTE_InverterDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8621;
+}
+
+aif (HTE_TempConFailDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8622;
+}
+
+aif ( SH1HeatExFlwLowDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8624;
+}
+
+aif ( SH2HeatExFlwLowDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8626;
+}
+
+aif ( StgHtr1WtrFlwSwDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8540;
+}
+aif ( StgHtr2WtrFlwSwDI == Alarm && PRMD_HO_HTECtrlSts == Abort )
+{
+  $Time = ValueIntlkTime;
+  SW_GbIntlckDM = Interlock;
+  $Alarm = 8541;
+}
+
+aif (HTE_CHFailDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8610;
+}
+
+aif (HTE_CoolLkFailDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8611;
+}
+
+aif (HTE_OverHtFailDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8612;
+}
+
+aif (HTE_PumpLwFailDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8613;
+}
+
+aif (HTE_ThermFailDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8614;
+}
+
+aif (HTE_PumpLwPrsDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8615;
+}
+
+aif (HTE_PumpHiPrsDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8616;
+}
+
+aif (HTE_CoolLwLvOffDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8617;
+}
+
+aif (HTE_PumpOvrCurDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8618;
+}
+
+aif (HTE_HtrOvrCurDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8619;
+}
+
+aif (HTE_ResistivityDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8620;
+}
+
+aif (HTE_InverterDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8621;
+}
+
+aif (HTE_TempConFailDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8622;
+}
+
+aif ( SH1HeatExFlwLowDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8624;
+}
+aif ( SH2HeatExFlwLowDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8626;
+}
+aif ( StgHtr1WtrFlwSwDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8627;
+}
+aif ( StgHtr2WtrFlwSwDI == Alarm && PRMD_HO_HTECtrlSts == Warning )
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8628;
+}
+
+# 2015.05.30 Add Heat Exchanger Low/High Limit Alarm
+aif (HTE_ReadTempAI < PRMA_HTE_LowLmtTmp && PRMD_HO_HTECtrlSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  if(PRMD_HO_HTECtrlSts == Abort)	SW_GbIntlckDM = Interlock;
+  $Alarm = 8629;
+}
+
+aif (HTE_ReadTempAI > PRMA_HTE_HighLmtTmp && PRMD_HO_HTECtrlSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  if(PRMD_HO_HTECtrlSts == Abort)	SW_GbIntlckDM = Interlock;
+  $Alarm = 8630;
+}
+
+# 2018.04.23 Canister Exhaust Alarm
+aif (CanBoxExhaustDI == Alarm && PRMD_HO_CanExhaustSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  if(PRMD_HO_CanExhaustSts == Abort)	SW_GbIntlckDM = Interlock;
+  $Alarm = 8631;
+}
+
+# 2019. 11. 04
+aif (HTE_MiLvOffWrnDI != Normal)
+{
+  $Alarm = 8632;
+}
+
+#####################################
+# ALD Valve Interlock
+#####################################
+action_group ALD_VLV_OP_TMO {
+  if(PRMD_HO_ALDOpenSts == Abort)	SW_GbIntlckDM = Interlock;
+  if(PRMD_HO_ALDOpenSts == ChmDis)	SW_ModuleFailDM = On;
+}
+
+action_group ALD_VLV_CL_TMO {
+  if(PRMD_HO_ALDCloseSts == Abort)	SW_GbIntlckDM = Interlock;
+  if(PRMD_HO_ALDCloseSts == ChmDis)	SW_ModuleFailDM = On;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V97Open < V97VlvOpenTmAI && PRMD_HO_ALDOpenSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_OP_TMO;
+  $Alarm = 8640;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V97Close < V97VlvCloseTmAI && PRMD_HO_ALDCloseSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_CL_TMO;
+  $Alarm = 8641;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V98Open < V98VlvOpenTmAI && PRMD_HO_ALDOpenSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_OP_TMO;
+  $Alarm = 8642;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V98Close < V98VlvCloseTmAI && PRMD_HO_ALDCloseSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_CL_TMO;
+  $Alarm = 8643;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V100Open < V100VlvOpenTmAI && PRMD_HO_ALDOpenSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_OP_TMO;
+  $Alarm = 8644;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V100Close < V100VlvCloseTmAI && PRMD_HO_ALDCloseSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_CL_TMO;
+  $Alarm = 8645;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V101Open < V101VlvOpenTmAI && PRMD_HO_ALDOpenSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_OP_TMO;
+  $Alarm = 8646;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V101Close < V101VlvCloseTmAI && PRMD_HO_ALDCloseSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_CL_TMO;
+  $Alarm = 8647;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V102Open < V102VlvOpenTmAI && PRMD_HO_ALDOpenSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_OP_TMO;
+  $Alarm = 8648;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V102Close < V102VlvCloseTmAI && PRMD_HO_ALDCloseSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_CL_TMO;
+  $Alarm = 8649;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V105Open < V105VlvOpenTmAI && PRMD_HO_ALDOpenSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_OP_TMO;
+  $Alarm = 8650;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V105Close < V105VlvCloseTmAI && PRMD_HO_ALDCloseSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_CL_TMO;
+  $Alarm = 8651;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V106Open < V106VlvOpenTmAI && PRMD_HO_ALDOpenSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_OP_TMO;
+  $Alarm = 8652;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V106Close < V106VlvCloseTmAI && PRMD_HO_ALDCloseSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_CL_TMO;
+  $Alarm = 8653;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V108Open < V108VlvOpenTmAI && PRMD_HO_ALDOpenSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_OP_TMO;
+  $Alarm = 8654;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V108Close < V108VlvCloseTmAI && PRMD_HO_ALDCloseSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_CL_TMO;
+  $Alarm = 8655;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V109Open < V109VlvOpenTmAI && PRMD_HO_ALDOpenSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_OP_TMO;
+  $Alarm = 8656;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V109Close < V109VlvCloseTmAI && PRMD_HO_ALDCloseSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_CL_TMO;
+  $Alarm = 8657;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V110Open < V110VlvOpenTmAI && PRMD_HO_ALDOpenSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_OP_TMO;
+  $Alarm = 8658;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V110Close < V110VlvCloseTmAI && PRMD_HO_ALDCloseSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_CL_TMO;
+  $Alarm = 8659;
+}
+
+# 2015.04.28 Add ALD Valve V11, V12, V17
+aif (PRO_ProcStsDM == Running && PRMA_TO_V11Open < V11VlvOpenTmAI && PRMD_HO_ALDOpenSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_OP_TMO;
+  $Alarm = 8668;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V11Close < V11VlvCloseTmAI && PRMD_HO_ALDCloseSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_CL_TMO;
+  $Alarm = 8669;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V12Open < V12VlvOpenTmAI && PRMD_HO_ALDOpenSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_OP_TMO;
+  $Alarm = 8670;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V12Close < V12VlvCloseTmAI && PRMD_HO_ALDCloseSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_CL_TMO;
+  $Alarm = 8671;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V17Open < V17VlvOpenTmAI && PRMD_HO_ALDOpenSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_OP_TMO;
+  $Alarm = 8672;
+}
+
+aif (PRO_ProcStsDM == Running && PRMA_TO_V17Close < V17VlvCloseTmAI && PRMD_HO_ALDCloseSts != Ignore)
+{
+  $Time = ValueIntlkTime;
+  $Action = ALD_VLV_CL_TMO;
+  $Alarm = 8673;
+}
+
+#####################################
+# Pumping Line gague Valve Action
+#####################################
+
+if (V52ValveDO == Open && PumplnCVGIsoVlvDO == Open)
+{
+  PumplnCVGIsoVlvDO = Close;
+}
+
+if (V52ValveDO == Close && PumplnCVGIsoVlvDO == Close)
+{
+  $time = 2;
+  PumplnCVGIsoVlvDO = Open;
+}
+
+#####################################
+# DeviceNet Status Alarm
+
+aif (SCFBoxStsDI != Normal)
+{
+   SW_GbIntlckDM = Interlock;
+   $Alarm = 8700;
+}
+
+aif (StgHtr1CtrlStsDI != Normal)
+{
+   SW_GbIntlckDM = Interlock;
+   $Alarm = 8701;
+}
+
+aif (StgHtr2CtrlStsDI != Normal)
+{
+   SW_GbIntlckDM = Interlock;
+   $Alarm = 8702;
+}
+
+aif (HTE_StatusDI != Normal)
+{
+   SW_GbIntlckDM = Interlock;
+   $Alarm = 8704;
+}
+
+aif (SafetyPLCStsDI != Normal)
+{
+   SW_GbIntlckDM = Interlock;
+   $Alarm = 8705;
+}
+
+aif (MFC01StsDI != Normal)
+{
+   SW_GbIntlckDM = Interlock;
+   $Alarm = 8711;
+}
+
+aif (MFC02StsDI != Normal)
+{
+   SW_GbIntlckDM = Interlock;
+   $Alarm = 8712;
+}
+
+aif (MFC03StsDI != Normal)
+{
+   SW_GbIntlckDM = Interlock;
+   $Alarm = 8713;
+}
+
+aif (MFC04StsDI != Normal)
+{
+   SW_GbIntlckDM = Interlock;
+   $Alarm = 8714;
+}
+
+aif (MFC05StsDI != Normal)
+{
+   SW_GbIntlckDM = Interlock;
+   $Alarm = 8715;
+}
+
+aif (MFC06StsDI != Normal)
+{
+   SW_GbIntlckDM = Interlock;
+   $Alarm = 8716;
+}
+
+aif (MFC07StsDI != Normal)
+{
+   SW_GbIntlckDM = Interlock;
+   $Alarm = 8717;
+}
+
+aif (MFC08StsDI != Normal)
+{
+   SW_GbIntlckDM = Interlock;
+   $Alarm = 8718;
+}
+
+aif (MFC09StsDI != Normal)
+{
+   SW_GbIntlckDM = Interlock;
+   $Alarm = 8719;
+}
+
+
+#####################################
+# Safety PLC Alarm
+#####################################
+aif (PLCSysRunModeDI == Off)
+{
+   $Alarm = 8801;
+}
+
+aif (PLCTeachModeDI == On)
+{
+   $Alarm = 8802;
+}
+# 17L Requirement
+aif (HTE_LeakDI == Alarm)
+{
+   HTE_SrtStpDO = Off;
+   $Alarm = 8810;
+}
+
+aif (RPGWaterLeakDI == Alarm)
+{
+   $Alarm = 8811;
+}
+
+aif (AllRelayStsDI == NG)
+{
+   $Alarm = 8812;
+}
+
+aif (MotorMCEnableDI == Disabled)
+{
+   $time = 2;
+   $Alarm = 8815;
+   ROR1_NeedHomeDM = On;
+}
+
+aif (RFMCEnableDI == Disabled)
+{
+   $Alarm = 8817;
+}
+
+#####################################
+# Heater Cooling Pressure Alarm
+aif (ChuckHtr1CoolPrsDI == Alarm && PRMD_HO_ChuckCoolPrs != Ignore)
+{
+  $Time = ValueIntlkTime;
+  if(PRMD_HO_ChuckCoolPrs == Abort)	SW_GbIntlckDM = Interlock;
+  $Alarm = 8900;
+}
+
+aif (ChuckHtr2CoolPrsDI == Alarm && PRMD_HO_ChuckCoolPrs != Ignore)
+{
+  $Time = ValueIntlkTime;
+  if(PRMD_HO_ChuckCoolPrs == Abort)	SW_GbIntlckDM = Interlock;
+  $Alarm = 8901;
+}
+#####################################
+# Heater Cooling Air Valve Check Alarm
+aif (PRMD_HO_ChuckCoolPrs != Ignore && AirCoolingVlv == Close)
+{
+  $Time = ValueIntlkTime;
+  $Alarm = 8904;
+}
+#####################################

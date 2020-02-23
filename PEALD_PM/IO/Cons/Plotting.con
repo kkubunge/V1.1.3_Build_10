@@ -1,0 +1,25 @@
+$$$ Enum
+	PlotControl   Idle  Saving
+
+$$$ Digital
+	FC_PLOTTING_CONTROL	PlotControl
+	FC_Plotting_Display	-		1
+	PlotforProcRunDM	OffOnEnum
+
+$$$ String
+	FC_PLOTTING_FILE		""
+	Temp_Log_FileName		""
+
+
+# For MFC Verification
+$$$ Digital
+
+	PLOTTING_CONTROL_GAS_A		PlotControl
+	PLOTTING_CONTROL_GAS_B		PlotControl
+	PLOTTING_CONTROL_TEMP_A		PlotControl
+	PLOTTING_CONTROL_TEMP_B		PlotControl
+
+$$$ String
+
+	PLOTTING_FILE_GAS		""
+	PLOTTING_FILE_TEMP		""

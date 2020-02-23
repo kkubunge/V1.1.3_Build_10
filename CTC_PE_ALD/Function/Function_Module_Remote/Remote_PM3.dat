@@ -1,0 +1,47 @@
+#-------------------------------------------------------------------------------
+# PM3 Part Scheduler Interface Function
+#-------------------------------------------------------------------------------
+
+PM3.READY_BRG		51	Engine/EXEC/MsgReplacer             ARGUEMENT       "-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/PM3_SERVICE/Ready.seq"
+PM3.READY		50	REMOTE	READY
+PM3.END			50	REMOTE	READY
+
+PM3.PREPARE_SEND	50	REMOTE	READY
+PM3.POST_SEND		50	REMOTE	READY
+PM3.PREPARE_RECV_BRG	51	Engine/EXEC/MsgReplacer             ARGUEMENT       "-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/PM3_SERVICE/Prepare_recv.seq"
+PM3.PREPARE_RECV	50	REMOTE	READY
+PM3.POST_RECV		50	REMOTE	READY
+
+PM3.PREPARE_PICK	50	REMOTE	READY
+PM3.WAFER_PICK		50	REMOTE	READY
+PM3.PREPARE_PLACE	50	REMOTE	READY
+PM3.WAFER_PLACE		50	REMOTE	READY
+
+#-------------------------------------
+# Process Run Interface Function with Recipe Handling
+#-------------------------------------
+
+PM3.PROCESS_IN		50	REMOTE	READY
+PM3.PROCESS_OUT_BRG	51	Engine/EXEC/MsgReplacer             ARGUEMENT       "-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/PM3_SERVICE/Process_out.seq"
+PM3.PROCESS_OUT		50	REMOTE	READY
+PM3.M_PROCESS		50	REMOTE	READY
+
+#-------------------------------------
+# Scheduler Direct Interface Function for Process Data Logging
+#-------------------------------------
+
+PM3.PROCESS_LOG		50	REMOTE	READY
+
+#-------------------------------------
+# Transfer Clear Function for Remote
+#-------------------------------------
+
+PM3.CLEAR		50	REMOTE	READY
+
+#-------------------------------------
+# User Maintenance Interface Function for Remote
+#-------------------------------------
+
+PM3.SERV_MAIN		1	REMOTE	READY
+
+PM3.TMC_PM_ABORT_GAS	1	REMOTE	READY

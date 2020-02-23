@@ -1,0 +1,45 @@
+#-------------------------------------------------------------------------------
+# PM4 Part Scheduler Interface Function
+#-------------------------------------------------------------------------------
+
+PM4.READY_BRG		51	Engine/EXEC/MsgReplacer             ARGUEMENT       "-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/PM4_SERVICE/Ready.seq"
+PM4.READY		50	REMOTE	READY
+PM4.END			50	REMOTE	READY
+
+PM4.PREPARE_SEND	50	REMOTE	READY
+PM4.POST_SEND		50	REMOTE	READY
+PM4.PREPARE_RECV_BRG	51	Engine/EXEC/MsgReplacer             ARGUEMENT       "-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/PM4_SERVICE/Prepare_recv.seq"
+PM4.PREPARE_RECV	50	REMOTE	READY
+PM4.POST_RECV		50	REMOTE	READY
+
+PM4.PREPARE_PICK	50	REMOTE	READY
+PM4.WAFER_PICK		50	REMOTE	READY
+PM4.PREPARE_PLACE	50	REMOTE	READY
+PM4.WAFER_PLACE		50	REMOTE	READY
+
+#-------------------------------------
+# Process Run Interface Function with Recipe Handling
+#-------------------------------------
+
+PM4.PROCESS_IN		50	REMOTE	READY
+PM4.PROCESS_OUT_BRG	51	Engine/EXEC/MsgReplacer             ARGUEMENT       "-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/PM4_SERVICE/Process_out.seq"
+PM4.PROCESS_OUT		50	REMOTE	READY
+PM4.M_PROCESS		50	REMOTE	READY
+
+#-------------------------------------
+# Scheduler Direct Interface Function for Process Data Logging
+#-------------------------------------
+
+PM4.PROCESS_LOG		50	REMOTE	READY
+
+#-------------------------------------
+# Transfer Clear Function for Remote
+#-------------------------------------
+
+PM4.CLEAR		50	REMOTE	READY
+
+#-------------------------------------
+# User Maintenance Interface Function for Remote
+#-------------------------------------
+
+PM4.SERV_MAIN		50	REMOTE	READY

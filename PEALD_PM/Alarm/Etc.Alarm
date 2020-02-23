@@ -1,0 +1,37 @@
+#
+#
+#
+# Possible Recovery Action String
+#      - CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+9000	DigitCommErr	{
+	"Digital Communication Error"	
+	CLEAR	"Clear Operation"
+	}
+
+9100	MKS651CommErr	{
+	"MKS651 Communication Error"	
+	CLEAR	"Clear Operation"
+	}
+
+9101	VIX250CommErr	{
+	"VIX250 Communication Error"	
+	CLEAR	"Clear Operation"
+	}	
+
+9102	WATLOW300CommErr	{
+	"WATLOW300 Communication Error"	
+	CLEAR	"Clear Operation"
+	}
+
+9103	WATLOW988ACommErr	{
+	"WATLOW988A Communication Error"	
+	CLEAR	"Clear Operation"
+	}
+
+9104	DeviceNetCommErr	{
+	"Device Net Communication Error"	
+	CLEAR	"Clear Operation"
+	}

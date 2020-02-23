@@ -1,0 +1,153 @@
+2016/8/16 13:9:6	USERCONTROL	[SYSTEM_START]
+2016/8/16 13:9:15	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2016/8/16 13:9:18	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2016/8/16 13:9:19	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/8/16 13:9:19	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/8/16 13:9:23	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/16 13:9:23	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/16 13:9:24	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2016/8/16 13:9:24	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2016/8/16 13:9:29	SETTING	[AIO] LeakChkBasePressAM with [1.000] at Page = 1(Leak Check)
+2016/8/16 13:9:34	SETTING	[AIO] LeakChkBasePressAM with [0.250] at Page = 1(Leak Check)
+2016/8/16 13:9:37	SETTING	[AIO] LeakChkLimitPressAM with [1.000] at Page = 1(Leak Check)
+2016/8/16 13:9:50	SETTING	[AIO] LeakChkDelayTimeAM with [5.000] at Page = 1(Leak Check)
+2016/8/16 13:9:52	SETTING	[AIO] LeakChkPumpTimeOutAM with [5.000] at Page = 1(Leak Check)
+2016/8/16 13:9:54	SETTING	[AIO] BaseDelayTimeAM with [5.000] at Page = 1(Leak Check)
+2016/8/16 13:9:57	SETTING	[AIO] LeakChkCountSPAM with [2.000] at Page = 1(Leak Check)
+2016/8/16 13:10:0	SETTING	[AIO] LeakChkCountSPAM with [3.000] at Page = 1(Leak Check)
+2016/8/16 13:10:16	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/8/16 13:10:16	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/8/16 13:10:24	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/16 13:10:24	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/16 13:10:25	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2016/8/16 13:10:25	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2016/8/16 13:10:33	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2016/8/16 13:10:39	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2016/8/16 13:10:39	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2016/8/16 13:10:40	FUNCTION	[START] SERV_MAIN with [LEAK_CHECK] at Page = 1(Leak Check)
+2016/8/16 13:10:51	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2016/8/16 13:10:51	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2016/8/16 13:10:55	IOEDIT	DirectIO Edit => AIO:M651_Pressure , VALUE:0.600
+2016/8/16 13:11:0	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2016/8/16 13:11:0	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2016/8/16 13:11:6	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2016/8/16 13:11:6	BUTTON	[BOTTOM CLICK] Bottom_System
+2016/8/16 13:11:8	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/16 13:11:8	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/16 13:11:10	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2016/8/16 13:11:10	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2016/8/16 13:11:12	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2016/8/16 13:11:12	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2016/8/16 13:11:16	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2016/8/16 13:11:16	BUTTON	[BOTTOM CLICK] Bottom_System
+2016/8/16 13:11:20	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2016/8/16 13:11:20	BUTTON	[RIGHT CLICK] Right_System_Control
+2016/8/16 13:11:22	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/16 13:11:22	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/16 13:11:31	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2016/8/16 13:11:31	BUTTON	[BOTTOM CLICK] Bottom_System
+2016/8/16 13:11:34	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 1(Control)
+2016/8/16 13:11:37	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/16 13:11:37	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/16 13:11:39	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2016/8/16 13:11:39	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2016/8/16 13:11:42	IOEDIT	DirectIO Edit => AIO:M651_Pressure , VALUE:0.300
+2016/8/16 13:11:43	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2016/8/16 13:11:43	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2016/8/16 13:11:49	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2016/8/16 13:11:49	BUTTON	[BOTTOM CLICK] Bottom_System
+2016/8/16 13:11:51	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2016/8/16 13:11:51	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2016/8/16 13:12:4	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/16 13:12:4	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/16 13:12:6	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2016/8/16 13:12:6	BUTTON	[BOTTOM CLICK] Bottom_System
+2016/8/16 13:12:9	SETTING	[DIO] FastRoughVlvDO with [Close(0)] at Page = 1(Control)
+2016/8/16 13:12:11	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2016/8/16 13:12:11	BUTTON	[RIGHT CLICK] Right_System_Main
+2016/8/16 13:12:15	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/16 13:12:15	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/16 13:12:16	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2016/8/16 13:12:16	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2016/8/16 13:12:25	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2016/8/16 13:12:25	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2016/8/16 13:12:28	IOEDIT	DirectIO Edit => AIO:M651_Pressure , VALUE:0.300
+2016/8/16 13:12:29	SETTING	[DIO] Right_Service_Vrifi with [1] at Page = 0(PAGE 1)
+2016/8/16 13:12:29	BUTTON	[RIGHT CLICK] Right_Service_Vrifi
+2016/8/16 13:12:30	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2016/8/16 13:12:30	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2016/8/16 13:14:1	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2016/8/16 13:14:1	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2016/8/16 13:14:4	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2016/8/16 13:14:8	IOEDIT	DirectIO Edit => AIO:M651_Pressure , VALUE:0.300
+2016/8/16 13:14:8	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2016/8/16 13:14:8	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2016/8/16 13:14:36	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/8/16 13:14:36	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/8/16 13:14:39	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/16 13:14:39	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/16 13:24:51	FUNCTION	[START] SERV_MAIN with [LEAK_CHECK] at Page = 1(Leak Check)
+2016/8/16 13:25:42	FUNCTION	[ABORT] SERV_MAIN at Page = 1(Leak Check)
+2016/8/16 13:26:11	FUNCTION	[START] SERV_MAIN with [LEAK_CHECK] at Page = 1(Leak Check)
+2016/8/16 13:26:28	FUNCTION	[ABORT] SERV_MAIN at Page = 1(Leak Check)
+2016/8/16 13:36:27	FUNCTION	[START] SERV_MAIN with [LEAK_CHECK] at Page = 1(Leak Check)
+2016/8/16 13:36:42	FUNCTION	[ABORT] SERV_MAIN at Page = 1(Leak Check)
+2016/8/16 13:51:8	FUNCTION	[START] SERV_MAIN with [LEAK_CHECK] at Page = 1(Leak Check)
+2016/8/16 13:51:25	FUNCTION	[ABORT] SERV_MAIN at Page = 1(Leak Check)
+2016/8/16 13:54:39	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2016/8/16 13:54:39	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2016/8/16 13:54:42	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2016/8/16 13:54:46	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2016/8/16 13:54:46	BUTTON	[BOTTOM CLICK] Bottom_System
+2016/8/16 13:54:49	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/16 13:54:49	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/16 13:54:50	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2016/8/16 13:54:50	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2016/8/16 13:54:52	FUNCTION	[START] SERV_MAIN with [LEAK_CHECK] at Page = 1(Leak Check)
+2016/8/16 13:55:16	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2016/8/16 13:55:16	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2016/8/16 13:55:20	IOEDIT	DirectIO Edit => AIO:M651_Pressure , VALUE:2.000
+2016/8/16 13:55:21	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2016/8/16 13:55:21	BUTTON	[BOTTOM CLICK] Bottom_System
+2016/8/16 13:55:23	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/16 13:55:23	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/16 13:55:24	SETTING	[DIO] Right_Service_Leak with [1] at Page = 0(PAGE 1)
+2016/8/16 13:55:24	BUTTON	[RIGHT CLICK] Right_Service_Leak
+2016/8/16 13:56:10	SETTING	[DIO] Right_Service_Leak_Nav with [3] at Page = 1(Leak Check)
+2016/8/16 13:56:10	BUTTON	[NAV CLICK] Right_Service_Leak_Nav - 3
+2016/8/16 13:56:10	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2016/8/16 13:56:10	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2016/8/16 13:56:14	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2016/8/16 13:56:14	BUTTON	[BOTTOM CLICK] Bottom_System
+2016/8/16 13:56:15	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2016/8/16 13:56:15	BUTTON	[BOTTOM CLICK] Bottom_Config
+2016/8/16 13:56:16	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2016/8/16 13:56:16	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2016/8/16 13:56:26	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2016/8/16 13:56:26	BUTTON	[BOTTOM CLICK] Bottom_System
+2016/8/16 14:17:40	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2016/8/16 14:17:40	BUTTON	[RIGHT CLICK] Right_System_Control
+2016/8/16 14:17:41	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2016/8/16 14:17:41	BUTTON	[RIGHT CLICK] Right_System_Main
+2016/8/16 14:24:24	USERCONTROL	[SYSTEM_START]
+2016/8/16 14:24:31	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2016/8/16 14:24:34	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2016/8/16 14:24:35	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/8/16 14:24:35	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/8/16 14:24:56	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2016/8/16 14:24:56	BUTTON	[RIGHT CLICK] Right_System_Control
+2016/8/16 14:24:56	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2016/8/16 14:24:56	BUTTON	[RIGHT CLICK] Right_System_Main
+2016/8/16 14:24:57	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2016/8/16 14:24:57	BUTTON	[RIGHT CLICK] Right_System_Control
+2016/8/16 14:24:58	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/16 14:24:58	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/16 14:24:59	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2016/8/16 14:24:59	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2016/8/16 14:25:9	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2016/8/16 14:25:9	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2016/8/16 14:25:14	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2016/8/16 14:25:14	BUTTON	[BOTTOM CLICK] Bottom_Service
+2016/8/16 14:28:50	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2016/8/16 14:29:6	IOEDIT	DirectIO Edit => AIO:M651_Pressure , VALUE:2.000
+2016/8/16 16:4:59	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1

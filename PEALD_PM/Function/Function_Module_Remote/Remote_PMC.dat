@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Scheduler
+#-----------------------------------------------------------
+
+$	ABORT		-	ABORT
+$	CONNECT		-	CONNECT
+$	CLEAR		-	SUCCESS
+
+$	READY		Engine/EXEC/MsgReplacer					ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/Ready.seq"
+$	END		Engine/EXEC/MsgReplacer					ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/End.seq"
+
+$	PREPARE_SEND	Engine/EXEC/MsgReplacer					ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/PrepareSend.seq"
+$	POST_SEND	Engine/EXEC/MsgReplacer					ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/PostSend.seq"
+
+$	PREPARE_RECV	Engine/EXEC/MsgReplacer					ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/PrepareRecv.seq"
+$	POST_RECV	Engine/EXEC/MsgReplacer					ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/PostRecv.seq"
+
+$	PREPARE_PICK	Engine/EXEC/MsgReplacer					ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/PreparePick.seq"
+$	WAFER_PICK	Engine/EXEC/MsgReplacer					ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/WaferPick.seq"
+$	PREPARE_PLACE	Engine/EXEC/MsgReplacer					ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/PreparePlace.seq"
+$	WAFER_PLACE	Engine/EXEC/MsgReplacer					ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_PMC/SeqTable/WaferPlace.seq"
+
+$	PROCESS_IN	FUNCTION/FUNCTION_MODULE_PMC/OBJ_Process/Sequence	ARGUMENT	"Type2(VRCP_112)	PROCESS_IN"
+$	PROCESS_OUT	FUNCTION/FUNCTION_MODULE_PMC/OBJ_Process/Sequence	ARGUMENT	"Type2(VRCP_112)	PROCESS_OUT"
+$	M_PROCESS	FUNCTION/FUNCTION_MODULE_PMC/OBJ_Process/Sequence	ARGUMENT	"Type2(VRCP_112)	M_PROCESS"
+
+$	PROCESS_LOG	Engine/EXEC/Datalog					ARGUEMENT	"Parameter/DataLog/Datalog.cfg"
+
+$	TMC_PM_ABORT_GAS	FUNCTION/FUNCTION_MODULE_PMC/OBJ_AbortGas/Sequence

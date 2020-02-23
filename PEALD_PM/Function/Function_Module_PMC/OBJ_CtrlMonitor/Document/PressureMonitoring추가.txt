@@ -1,0 +1,40 @@
+# Pressure Monotoring 추가 관련 ####
+
+
+- IO에(DeviceNet_Ti or TiN에) IO 있어야 함.
+  AirPrsPTAI	
+  ArSupplyPTAI
+  ClF3SupplyPTAI	
+  NH3SupplyPTAI	
+  H2SupplyPTAI	
+  Cl2SupplyPTAI	
+
+
+- PMC_Parameter.con에 아래의 사항을 추가
+PRMA_AL_AirPrs		psi	-	-	-	-	0	1	100	1	-	-	-	-	0	1	100	-	-	-	-	20
+PRMA_AL_ArPrs		psi	-	-	-	-	0	1	100	1	-	-	-	-	0	1	100	-	-	-	-	20
+PRMA_AL_CLF3Prs		psi	-	-	-	-	0	1	100	1	-	-	-	-	0	1	100	-	-	-	-	20
+PRMA_AL_NH3Prs		psi	-	-	-	-	0	1	100	1	-	-	-	-	0	1	100	-	-	-	-	20
+PRMA_AL_H2Prs		psi	-	-	-	-	0	1	100	1	-	-	-	-	0	1	100	-	-	-	-	20
+PRMA_AL_Cl2Prs		psi	-	-	-	-	0	1	100	1	-	-	-	-	0	1	100	-	-	-	-	20
+
+- Screen에 위의 사항을 추가
+
+
+- PMCConfig.ini에 아래의 사항을 추가
+[Pressure Status Monitoring]
+AirPressureMonitor		Enable		(Enable/Disable)
+AirPressureMonitor_Retry	4		(0 ~ 10 count)
+ArPressureMonitor		Enable		(Enable/Disable)
+ArPressureMonitor_Retry		4		(0 ~ 10 count)
+CLF3PressureMonitor		Disable		(Enable/Disable)
+CLF3PressureMonitor_Retry	4		(0 ~ 10 count)
+NH3PressureMonitor		Enable		(Enable/Disable)
+NH3PressureMonitor_Retry	4		(0 ~ 10 count)
+H2PressureMonitor		Disable		(Enable/Disable)
+H2PressureMonitor_Retry		4		(0 ~ 10 count)
+Cl2PressureMonitor		Disable		(Enable/Disable)
+Cl2PressureMonitor_Retry	4		(0 ~ 10 count)
+
+
+- 

@@ -1,0 +1,578 @@
+2020/1/22 9:1:41	USERCONTROL	[SYSTEM_START]
+2020/1/22 9:2:45	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/22 9:2:47	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/22 9:2:48	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/22 9:2:48	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/22 9:32:13	USERCONTROL	[SYSTEM_START]
+2020/1/22 9:32:24	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/22 9:32:27	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/22 9:32:29	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 9:32:29	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 9:32:31	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/22 9:32:31	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/22 9:34:16	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/22 9:34:16	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/22 9:37:59	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/22 9:37:59	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/22 13:41:41	USERCONTROL	[SYSTEM_START]
+2020/1/22 13:41:52	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/22 13:41:54	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/22 13:41:55	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 13:41:55	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 13:41:56	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/22 13:41:56	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/22 13:42:36	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 13:42:36	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 13:42:37	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 13:42:37	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 13:42:37	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 13:42:37	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 13:42:38	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/22 13:42:38	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/22 13:42:40	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2020/1/22 13:42:40	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2020/1/22 13:42:41	SETTING	[DIO] Right_Config_Parm_Nav with [1] at Page = 7(PM Param 2)
+2020/1/22 13:42:41	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 1
+2020/1/22 13:42:44	SETTING	[DIO] PRMD100_CNT_INT with [On(1)] at Page = 6(PM Param 1)
+2020/1/22 13:43:4	SETTING	[DIO] Right_Config_Parm with [1] at Page = 0(PAGE 1)
+2020/1/22 13:43:4	BUTTON	[RIGHT CLICK] Right_Config_Parm
+2020/1/22 13:43:40	USERCONTROL	[SYSTEM_START]
+2020/1/22 13:43:51	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/22 13:43:53	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/22 13:43:54	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 13:43:54	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 13:43:56	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 13:43:56	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 13:43:56	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/22 13:43:56	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/22 13:45:9	USERCONTROL	[SYSTEM_START]
+2020/1/22 13:45:19	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/22 13:45:22	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/22 13:45:23	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/22 13:45:23	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/22 13:45:26	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/22 13:45:26	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/22 13:45:30	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 13:45:30	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 13:45:45	FUNCTION	[START] SERV_MAIN with [VENT] at Page = 1(Control)
+2020/1/22 13:45:46	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 13:45:46	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 13:46:47	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 13:46:47	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 13:47:2	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 13:47:2	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 13:47:6	SETTING	[DIO] StgHtr1RelayDO with [0] at Page = 2(Main Heater)
+2020/1/22 13:47:7	SETTING	[DIO] StgHtr2RelayDO with [0] at Page = 2(Main Heater)
+2020/1/22 13:47:9	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/22 13:47:9	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/22 13:47:12	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 13:47:12	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 13:47:13	FUNCTION	[START] SERV_MAIN with [VENT] at Page = 1(Control)
+2020/1/22 13:47:14	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 13:47:14	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 13:48:29	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 13:48:29	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 13:48:31	FUNCTION	[START] SERV_MAIN with [PUMP] at Page = 1(Control)
+2020/1/22 13:48:32	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 13:48:32	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 13:53:4	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 13:53:4	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 13:53:10	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 13:53:10	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 13:53:12	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/22 13:53:12	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/22 13:53:14	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/22 13:53:14	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/22 13:53:15	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 13:53:15	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 13:53:18	FUNCTION	[START] SERV_MAIN with [VENT] at Page = 1(Control)
+2020/1/22 13:53:19	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 13:53:19	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 13:56:33	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 13:56:33	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 13:56:35	FUNCTION	[START] SERV_MAIN with [PUMP] at Page = 1(Control)
+2020/1/22 13:56:36	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 13:56:36	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 13:56:43	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 13:56:43	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 13:57:5	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 13:57:5	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 13:57:7	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 13:57:7	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 13:57:12	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 13:57:12	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 13:57:23	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 13:57:23	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 13:57:24	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 13:57:24	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 13:57:40	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 13:57:40	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 13:57:41	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 13:57:41	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 14:5:33	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 14:5:33	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 14:5:34	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 14:5:34	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 14:5:35	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 14:5:35	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 14:5:37	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 14:5:37	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 14:5:39	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 14:5:39	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 14:5:40	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 14:5:40	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 14:5:42	FUNCTION	[START] SERV_MAIN with [VENT] at Page = 1(Control)
+2020/1/22 14:5:43	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 14:5:43	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 14:5:45	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 14:5:45	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 14:5:47	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 14:5:47	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 14:6:12	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 14:6:12	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 14:6:29	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 14:6:29	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 14:16:3	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 14:16:3	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 14:16:4	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 14:16:4	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 14:16:6	SETTING	[DIO] Bottom_Utility with [1] at Page = 0(PAGE 1)
+2020/1/22 14:16:6	BUTTON	[BOTTOM CLICK] Bottom_Utility
+2020/1/22 14:16:7	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/22 14:16:7	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/22 14:16:9	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/22 14:16:9	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/22 14:16:10	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 14:16:10	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 14:16:14	FUNCTION	[START] SERV_MAIN with [PUMP] at Page = 1(Control)
+2020/1/22 14:16:15	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 14:16:15	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 14:16:21	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 14:16:21	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 14:28:0	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2020/1/22 14:31:1	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 14:31:1	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 14:31:3	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 14:31:3	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 14:31:5	FUNCTION	[START] SERV_MAIN with [PUMP] at Page = 1(Control)
+2020/1/22 14:31:6	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 14:31:6	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 14:31:11	SETTING	[DIO] V103ValveDO with [Close(0)] at Page = 0(Main)
+2020/1/22 14:31:44	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 14:31:44	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 14:31:45	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 14:31:45	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 14:32:12	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 14:32:12	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 14:32:13	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 14:32:13	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 14:32:44	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 14:32:44	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 14:32:47	FUNCTION	[START] SERV_MAIN with [VENT] at Page = 1(Control)
+2020/1/22 14:32:47	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 14:32:47	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 14:33:20	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 14:33:20	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:3:3	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2020/1/22 15:3:4	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:3:4	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:3:6	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 15:3:6	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 15:3:8	FUNCTION	[START] SERV_MAIN with [PUMP] at Page = 1(Control)
+2020/1/22 15:3:8	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 15:3:8	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 15:3:10	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 15:3:10	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 15:3:12	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 15:3:12	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 15:3:13	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 15:3:13	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 15:3:15	FUNCTION	[START] SERV_MAIN with [VENT] at Page = 1(Control)
+2020/1/22 15:3:16	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 15:3:16	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 15:3:45	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:3:45	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:3:50	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:3:50	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:4:4	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:4:4	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:4:6	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:4:6	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:4:10	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 15:4:10	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 15:4:12	FUNCTION	[START] SERV_MAIN with [PUMP] at Page = 1(Control)
+2020/1/22 15:4:12	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:4:12	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:4:19	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:4:19	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:4:20	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:4:20	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:4:25	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 15:4:25	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 15:4:27	FUNCTION	[START] SERV_MAIN with [VENT] at Page = 1(Control)
+2020/1/22 15:4:34	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:4:34	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:4:51	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:4:51	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:4:52	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:4:52	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:6:58	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:6:58	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:6:59	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2020/1/22 15:7:0	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:7:0	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:7:2	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 15:7:2	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 15:7:6	FUNCTION	[START] SERV_MAIN with [VENT] at Page = 1(Control)
+2020/1/22 15:7:7	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 15:7:7	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 15:7:47	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:7:47	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:10:43	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2020/1/22 15:10:44	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:10:44	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:14:56	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:14:56	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:14:56	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:14:56	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:14:57	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 15:14:57	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 15:15:0	FUNCTION	[START] SERV_MAIN with [PUMP] at Page = 1(Control)
+2020/1/22 15:15:0	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:15:0	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:15:5	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:15:5	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:15:23	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/22 15:15:23	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/22 15:15:25	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 15:15:25	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 15:15:27	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2020/1/22 15:15:27	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2020/1/22 15:15:35	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2020/1/22 15:15:37	IOEDIT	DirectIO Edit => DIO:PLCTeachModeDI , VALUE:0
+2020/1/22 15:15:38	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:15:38	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:15:51	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:15:51	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:15:52	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:15:52	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:15:56	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 15:15:56	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 15:15:59	IOEDIT	DirectIO Edit => DIO:PLCTeachModeDI , VALUE:0
+2020/1/22 15:16:2	IOEDIT	DirectIO Edit => DIO:PLCTeachModeDI , VALUE:0
+2020/1/22 15:17:15	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:17:15	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:18:9	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 15:18:9	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 15:18:11	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2020/1/22 15:18:11	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2020/1/22 15:18:12	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 15:18:12	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 15:18:13	SETTING	[DIO] Right_Service_Htr with [1] at Page = 0(PAGE 1)
+2020/1/22 15:18:13	BUTTON	[RIGHT CLICK] Right_Service_Htr
+2020/1/22 15:18:15	SETTING	[DIO] StgHtr1RelayDO with [1] at Page = 2(Main Heater)
+2020/1/22 15:18:17	SETTING	[DIO] StgHtr2RelayDO with [1] at Page = 2(Main Heater)
+2020/1/22 15:18:18	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:18:18	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:18:25	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/22 15:18:25	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/22 15:18:27	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 15:18:27	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 15:18:29	SETTING	[DIO] Right_Service_DirectIO with [1] at Page = 0(PAGE 1)
+2020/1/22 15:18:29	BUTTON	[RIGHT CLICK] Right_Service_DirectIO
+2020/1/22 15:18:32	IOEDIT	DirectIO Edit => DIO:IOLockDO , VALUE:1
+2020/1/22 15:18:34	IOEDIT	DirectIO Edit => DIO:PLCTeachModeDI , VALUE:1
+2020/1/22 15:18:35	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:18:35	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:18:37	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:18:37	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:18:51	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2020/1/22 15:18:53	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:18:53	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:18:54	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 15:18:54	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 15:18:57	FUNCTION	[START] SERV_MAIN with [PUMP] at Page = 1(Control)
+2020/1/22 15:18:58	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:18:58	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:20:46	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2020/1/22 15:21:4	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:21:4	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:21:5	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 15:21:5	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 15:21:8	FUNCTION	[START] SERV_MAIN with [PUMP] at Page = 1(Control)
+2020/1/22 15:21:8	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 15:21:8	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 15:21:9	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:21:9	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:35:44	USERCONTROL	[SYSTEM_START]
+2020/1/22 15:35:53	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/22 15:35:55	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/22 15:35:56	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:35:56	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:35:58	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2020/1/22 15:35:59	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:35:59	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:36:6	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 15:36:6	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 15:36:9	FUNCTION	[START] SERV_MAIN with [VENT] at Page = 1(Control)
+2020/1/22 15:36:13	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 15:36:13	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 15:36:30	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:36:30	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:36:49	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 15:36:49	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 15:36:52	SETTING	[DIO] StgHtr1RelayDO with [0] at Page = 2(Main Heater)
+2020/1/22 15:36:53	SETTING	[DIO] StgHtr2RelayDO with [0] at Page = 2(Main Heater)
+2020/1/22 15:36:55	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:36:55	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:36:56	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:36:56	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:36:57	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:36:57	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:36:59	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 15:36:59	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 15:37:1	FUNCTION	[START] SERV_MAIN with [VENT] at Page = 1(Control)
+2020/1/22 15:37:6	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:37:7	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:37:8	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:37:8	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:37:26	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:37:26	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:37:27	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:37:27	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:37:31	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:37:31	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:42:49	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2020/1/22 15:42:50	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:42:50	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:42:53	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 15:42:53	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 15:42:56	FUNCTION	[START] SERV_MAIN with [VENT] at Page = 1(Control)
+2020/1/22 15:42:57	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2020/1/22 15:42:57	BUTTON	[RIGHT CLICK] Right_System_Main
+2020/1/22 15:43:29	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:43:29	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:43:41	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:43:41	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:43:44	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:43:44	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:43:53	SETTING	[DIO] V103ValveDO with [Open(1)] at Page = 0(Main)
+2020/1/22 15:43:55	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:43:55	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:43:56	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:43:56	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:44:0	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:44:0	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:45:14	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 15:45:14	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 15:45:16	FUNCTION	[START] SERV_MAIN with [PUMP] at Page = 1(Control)
+2020/1/22 15:45:17	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:45:17	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:45:20	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:45:20	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:45:35	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:45:35	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:45:37	SETTING	[DIO] V103ValveDO with [Open(1)] at Page = 0(Main)
+2020/1/22 15:45:38	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:45:38	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:45:40	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:45:40	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:45:42	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:45:42	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:45:46	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:45:46	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:46:55	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 15:46:55	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 15:46:57	FUNCTION	[START] SERV_MAIN with [VENT] at Page = 1(Control)
+2020/1/22 15:46:58	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:46:58	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:48:6	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:48:6	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:48:11	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:48:11	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:48:23	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:48:23	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:48:24	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:48:24	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:55:12	USERCONTROL	[SYSTEM_START]
+2020/1/22 15:55:31	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/22 15:55:33	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/22 15:55:48	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:55:48	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:55:51	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2020/1/22 15:55:51	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:55:51	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:56:32	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 15:56:32	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 15:56:35	SETTING	[DIO] StgHtr1RelayDO with [0] at Page = 2(Main Heater)
+2020/1/22 15:56:37	SETTING	[DIO] StgHtr2RelayDO with [0] at Page = 2(Main Heater)
+2020/1/22 15:56:38	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/22 15:56:38	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/22 15:57:6	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:57:6	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:57:9	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 15:57:9	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 15:57:12	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/22 15:57:12	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/22 15:57:13	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 15:57:13	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 15:57:16	FUNCTION	[START] SERV_MAIN with [VENT] at Page = 1(Control)
+2020/1/22 15:57:17	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:57:17	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:57:46	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:57:46	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:57:49	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:57:49	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:57:51	SETTING	[DIO] V103ValveDO with [Open(1)] at Page = 0(Main)
+2020/1/22 15:57:53	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:57:53	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:58:15	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:58:15	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:58:18	SETTING	[DIO] V111ValveDO with [Open(1)] at Page = 0(Main)
+2020/1/22 15:58:20	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:58:20	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 15:58:21	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 15:58:21	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 15:58:30	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 15:58:30	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:17:33	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:17:33	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:17:34	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:17:34	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:17:42	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 16:17:42	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 16:17:44	FUNCTION	[START] SERV_MAIN with [PUMP] at Page = 1(Control)
+2020/1/22 16:17:45	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:17:45	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:17:50	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:17:50	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:17:55	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:17:55	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:19:30	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:19:30	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:19:31	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:19:31	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:19:34	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 16:19:34	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 16:19:37	FUNCTION	[START] SERV_MAIN with [PUMP] at Page = 1(Control)
+2020/1/22 16:19:38	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:19:38	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:19:44	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:19:44	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:19:48	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:19:48	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:20:16	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 16:20:16	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 16:20:18	FUNCTION	[START] SERV_MAIN with [PUMP] at Page = 1(Control)
+2020/1/22 16:20:19	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:20:19	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:20:19	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:20:19	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:20:23	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:20:23	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:21:56	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:21:56	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:22:0	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:22:0	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:22:4	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 16:22:4	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 16:22:5	FUNCTION	[START] SERV_MAIN with [PUMP] at Page = 1(Control)
+2020/1/22 16:22:6	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:22:6	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:22:18	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:22:18	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:22:19	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:22:19	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:43:39	SETTING	[DIO] V111ValveDO with [Open(1)] at Page = 0(Main)
+2020/1/22 16:43:40	SETTING	[DIO] V103ValveDO with [Open(1)] at Page = 0(Main)
+2020/1/22 16:43:44	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 16:43:44	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 16:43:46	FUNCTION	[START] SERV_MAIN with [VENT] at Page = 1(Control)
+2020/1/22 16:43:47	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:43:47	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:43:49	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:43:49	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:43:50	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:43:50	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:43:52	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:43:52	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:44:22	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:44:22	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:44:24	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 16:44:24	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 16:45:0	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:45:0	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:45:2	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2020/1/22 16:45:5	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:45:5	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:45:7	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:45:7	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:45:20	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 16:45:20	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 16:45:22	SETTING	[DIO] StgHtr1RelayDO with [1] at Page = 2(Main Heater)
+2020/1/22 16:45:24	SETTING	[DIO] StgHtr2RelayDO with [1] at Page = 2(Main Heater)
+2020/1/22 16:45:25	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:45:25	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:45:26	FUNCTION	[START] OBJ_Alarm_Clear with [CLEAR] at Page = 0(PAGE 1)
+2020/1/22 16:45:27	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:45:27	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:47:49	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2020/1/22 16:47:49	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2020/1/22 16:47:50	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 16:47:50	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 16:47:51	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2020/1/22 16:47:51	BUTTON	[BOTTOM CLICK] Bottom_System
+2020/1/22 16:47:52	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2020/1/22 16:47:52	BUTTON	[RIGHT CLICK] Right_System_Control
+2020/1/22 16:47:53	FUNCTION	[START] SERV_MAIN with [PUMP] at Page = 1(Control)
+2020/1/22 16:47:53	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:47:53	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:47:56	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:47:56	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:48:3	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:48:3	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:48:7	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:48:7	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:48:12	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:48:12	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:48:15	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:48:15	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:48:20	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 16:48:20	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 16:48:21	SETTING	[DIO] StgHtr1RelayDO with [0] at Page = 2(Main Heater)
+2020/1/22 16:48:22	SETTING	[DIO] StgHtr2RelayDO with [0] at Page = 2(Main Heater)
+2020/1/22 16:48:23	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:48:23	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:48:25	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:48:25	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:48:30	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:48:30	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:49:20	SETTING	[DIO] Bottom_Alarm with [1] at Page = 0(PAGE 1)
+2020/1/22 16:49:20	BUTTON	[BOTTOM CLICK] Bottom_Alarm
+2020/1/22 16:49:22	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 16:49:22	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 16:49:28	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2020/1/22 16:49:28	BUTTON	[BOTTOM CLICK] Bottom_Service
+2020/1/22 16:51:11	SETTING	[DIO] StgHtr2RelayDO with [1] at Page = 2(Main Heater)
+2020/1/22 16:51:13	SETTING	[DIO] StgHtr1RelayDO with [1] at Page = 2(Main Heater)
+2020/1/22 17:4:5	USERCONTROL	[SYSTEM_START]
+2020/1/22 17:5:46	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2020/1/22 17:5:48	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2020/1/22 17:5:49	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2020/1/22 17:5:49	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2020/1/22 17:5:51	SETTING	[DIO] Bottom_Config with [1] at Page = 0(PAGE 1)
+2020/1/22 17:5:51	BUTTON	[BOTTOM CLICK] Bottom_Config
+2020/1/22 17:7:28	SETTING	[DIO] Right_Config_Parm_Nav with [2] at Page = 6(PM Param 1)
+2020/1/22 17:7:28	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 2
+2020/1/22 17:7:29	SETTING	[DIO] Right_Config_Parm_Nav with [3] at Page = 7(PM Param 2)
+2020/1/22 17:7:29	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 3
+2020/1/22 17:7:31	SETTING	[DIO] Right_Config_Parm_Nav with [4] at Page = 8(PM Param 3)
+2020/1/22 17:7:31	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 4
+2020/1/22 17:7:32	SETTING	[DIO] Right_Config_Parm_Nav with [5] at Page = 9(PM Param 4)
+2020/1/22 17:7:32	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 5
+2020/1/22 17:7:35	SETTING	[DIO] Right_Config_Parm_Nav with [6] at Page = 10(PM Param 5)
+2020/1/22 17:7:35	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 6
+2020/1/22 17:7:37	SETTING	[DIO] Right_Config_Parm_Nav with [7] at Page = 11(PM Param 6)
+2020/1/22 17:7:37	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 7
+2020/1/22 17:7:38	SETTING	[DIO] Right_Config_Parm_Nav with [8] at Page = 12(PM Param 7)
+2020/1/22 17:7:38	BUTTON	[NAV CLICK] Right_Config_Parm_Nav - 8

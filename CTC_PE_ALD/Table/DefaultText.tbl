@@ -1,0 +1,71 @@
+# CENTER LEFT RIGHT
+# Black    DarkRed    DarkGreen PeaGreen  DarkBlue
+# Lavender Slate      LightGray PaleGreen PaleBlue
+# OffWhite MediumGray DarkGray  RightRed  BrightGreen
+# Yellow   BrightBlue Magenta   Cyan      White
+#
+#---Align---LineU-------LineD-------Text--------Background-Font-
+#---------------------------------------------------------------
+0   CENTER  Black       Black       White       Black
+1   CENTER  Black       Black       White       DarkRed
+2   CENTER  Black       Black       Black       DarkGreen
+3   CENTER  Black       Black       Black       PeaGreen
+4   CENTER  Black       Black       White       DarkBlue
+5   CENTER  Black       Black       White       Lavender
+6   CENTER  Black       Black       Black       Slate
+7   CENTER  Black       Black       Black       LightGray
+8   CENTER  Black       Black       Black       PaleGreen
+9   CENTER  Black       Black       Black       PaleBlue
+10  CENTER  Black       Black       Black       OffWhite
+11  CENTER  Black       Black       Black       MediumGray
+12  CENTER  Black       Black       Black       DarkGray
+13  CENTER  Black       Black       White       RightRed
+14  CENTER  Black       Black       Black       BrightGreen
+15  CENTER  Black       Black       Black       Yellow
+16  CENTER  Black       Black       White       BrightBlue
+17  CENTER  Black       Black       Black       Magenta
+18  CENTER  Black       Black       Black       Cyan
+19  CENTER  Black       Black       Black       White
+
+20  CENTER  Black       Black       Black       White
+21  CENTER  Black       Black       DarkRed     White
+22  CENTER  Black       Black       DarkGreen   White
+23  CENTER  Black       Black       PeaGreen    White
+24  CENTER  Black       Black       DarkBlue    White
+25  CENTER  Black       Black       Lavender    White
+26  CENTER  Black       Black       Slate       White
+27  CENTER  Black       Black       LightGray   White
+28  CENTER  Black       Black       PaleGreen   White
+29  CENTER  Black       Black       PaleBlue    White
+30  CENTER  OffWhite    OffWhite    OffWhite    Black
+31  CENTER  Black       Black       MediumGray  White
+32  CENTER  Black       Black       DarkGray    White
+33  CENTER  Black       Black       RightRed    White
+34  CENTER  Black       Black       BrightGreen White
+35  CENTER  Black       Black       Yellow      White
+36  CENTER  Black       Black       BrightBlue  White
+37  CENTER  Black       Black       Magenta     White
+38  CENTER  Black       Black       Cyan        White
+39  CENTER  White       White       White       Black
+
+40  CENTER  Black       Black       White       Black
+41  CENTER  DarkRed     DarkRed     White       DarkRed
+42  CENTER  DarkGreen   DarkGreen   Black       DarkGreen
+43  CENTER  PeaGreen    PeaGreen    Black       PeaGreen
+44  CENTER  DarkBlue    DarkBlue    White       DarkBlue
+45  CENTER  Lavender    Lavender    White       Lavender
+46  CENTER  Slate       Slate       Black       Slate
+47  CENTER  LightGray   LightGray   Black       LightGray
+48  CENTER  PaleGreen   PaleGreen   Black       PaleGreen
+49  CENTER  PaleBlue    PaleBlue    Black       PaleBlue
+50  CENTER  OffWhite    OffWhite    Black       OffWhite
+51  CENTER  MediumGray  MediumGray  Black       MediumGray
+52  CENTER  DarkGray    DarkGray    Black       DarkGray
+53  CENTER  RightRed    RightRed    White       RightRed
+54  CENTER  BrightGreen BrightGreen Black       BrightGreen
+55  CENTER  Yellow      Yellow      Black       Yellow
+56  CENTER  BrightBlue  BrightBlue  White       BrightBlue
+57  CENTER  Magenta     Magenta     Black       Magenta
+58  CENTER  Cyan        Cyan        Black       Cyan
+59  CENTER  White       White       Black       White
+

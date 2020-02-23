@@ -1,0 +1,101 @@
+#------------------------------------------------------------------------------------
+# 2013.06.03 Event Log Server
+CTC_EVENT_LOG_SVR		1	FUNCTION/FUNCTION_MODULE_CTC/OBJ_EventLogServer/Sequence
+
+#------------------------------------------------------------------------------------
+# CTC
+#------------------------------------------------------------------------------------
+CTC.PORT1_CANCEL_ROUTE		90	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Cancel_Router/Sequence		ARGUEMENT	"CM1"
+CTC.PORT2_CANCEL_ROUTE		90	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Cancel_Router/Sequence		ARGUEMENT	"CM2"
+CTC.PORT3_CANCEL_ROUTE		90	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Cancel_Router/Sequence		ARGUEMENT	"CM3"
+
+#------------------------------------------------------------------------------------
+# Preventive Maintenance function
+#------------------------------------------------------------------------------------
+PREVENTIVE_PM1		1	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Preventive_Maintenance/PrevMaint		RUN	"INITIALIZE"	"TYPE1 PM1 3500"
+PREVENTIVE_PM2		1	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Preventive_Maintenance/PrevMaint		RUN	"INITIALIZE"	"TYPE1 PM2 3600"
+PREVENTIVE_PM3		1	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Preventive_Maintenance/PrevMaint		RUN	"INITIALIZE"	"TYPE1 PM3 3700"
+PREVENTIVE_PM4		1	-	SUCCESS
+PREVENTIVE_PM5		1	-	SUCCESS
+#------------------------------------------------------------------------------------
+# Chamber Condition Control function
+#------------------------------------------------------------------------------------
+CHAMBER_CON_CTL_PM1	80	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Chamber_Condition_Control/ChamberConditionControl	RUN	"INITIALIZE"	"PM1 3400"
+CHAMBER_CON_CTL_PM2	80	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Chamber_Condition_Control/ChamberConditionControl	RUN	"INITIALIZE"	"PM2 3410"
+CHAMBER_CON_CTL_PM3	80	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Chamber_Condition_Control/ChamberConditionControl	RUN	"INITIALIZE"	"PM3 3420"
+CHAMBER_CON_CTL_PM4	80	-	SUCCESS
+CHAMBER_CON_CTL_PM5	80	-	SUCCESS
+
+CHAMBER_CON_ABORT_PM1	1	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Chamber_Condition_Control/ChamberConditionControlAbort
+CHAMBER_CON_ABORT_PM2	1	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Chamber_Condition_Control/ChamberConditionControlAbort
+CHAMBER_CON_ABORT_PM3	1	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Chamber_Condition_Control/ChamberConditionControlAbort
+CHAMBER_CON_ABORT_PM4	1	-	SUCCESS
+CHAMBER_CON_ABORT_PM5	1	-	SUCCESS
+CHAMBER_CON_ABORT_PM	1	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Chamber_Condition_Control/ChamberConditionControlAbort
+
+#------------------------------------------------------------------------------------
+# Preventive Maintenance MFC function (MAHA-ALD NotUse)
+#------------------------------------------------------------------------------------
+PREVENTIVE_MFC_PM1		1	-	SUCCESS
+PREVENTIVE_MFC_PM2		1	-	SUCCESS
+PREVENTIVE_MFC_PM3		1	-	SUCCESS
+PREVENTIVE_MFC_PM4		1	-	SUCCESS
+PREVENTIVE_MFC_PM5		1	-	SUCCESS
+#------------------------------------------------------------------------------------
+# 2005.04.13 by cskim
+ABORT_LOT		95	FUNCTION/FUNCTION_MODULE_CTC/OBJ_AbortLot/Sequence
+
+#---------------------------------------------------------------------------------------
+# PM IO Monitoring & Log function
+#---------------------------------------------------------------------------------------
+#MANUAL_LOG		1	FUNCTION/FUNCTION_MODULE_CTC\OBJ_DataLog\Sequence	RUN
+MANUAL_LOG		1	-	SUCCESS
+
+MANUAL_LOG_PM1		1	FUNCTION/FUNCTION_MODULE_CTC\OBJ_DataLog\Sequence	RUN	""	"PM1"
+MANUAL_LOG_PM2		1	FUNCTION/FUNCTION_MODULE_CTC\OBJ_DataLog\Sequence	RUN	""	"PM2"
+MANUAL_LOG_PM3		1	FUNCTION/FUNCTION_MODULE_CTC\OBJ_DataLog\Sequence	RUN	""	"PM3"
+
+
+#-------------------------------------------------------------------------------------------
+# DUMMY MANAGEMENT
+#-------------------------------------------------------------------------------------------
+DUMMY_MANAGEMENT	1	-	SUCCESS
+
+#2006.07.04 add
+OBJ_RCMD_Chamber_Condition_Control		85	FUNCTION/Function_Module_CTC/OBJ_RCMD_Chamber_Condition_Control/Sequence
+OBJ_RCMD_Alarm_Manager		85	FUNCTION/Function_Module_CTC/OBJ_RCMD_Alarm_Manager/Sequence
+#2011.09.21
+Wafer_ZoneID_Monitor		1	FUNCTION/FUNCTION_MODULE_CTC\GEM_WaferZoneID_Monitor\Sequence	RUN
+OBJ_RCMD_Manager		85	FUNCTION/Function_Module_CTC/OBJ_RCMD_Manager/Sequence
+# 2009.08.26 Added by jelee.
+OBJ_WaferSource_Monitor		85	FUNCTION/Function_Module_CTC/OBJ_WaferSource_Monitor/Sequence	RUN
+
+OBJ_GEM_MID_Check_Manager	2	FUNCTION/Function_Module_CTC/OBJ_GEM_MID_Check_Manager/Sequence
+
+#OBJ_OperationRate		1	FUNCTION/FUNCTION_MODULE_CTC\OBJ_OperationRate\Sequence		RUN
+
+#AUTO_LOG_OUT_CONTROL	99	FUNCTION/FUNCTION_MODULE_CTC/OBJ_AutoLogOut/Gui_AutoLogOut.exe		RUN
+
+OBJ_MACRO_MANIT_PM1	81	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Macro_Maintenace/Sequence.exe		ARGUEMENT	"PM1"
+OBJ_MACRO_MANIT_PM2	81	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Macro_Maintenace/Sequence.exe		ARGUEMENT	"PM2"
+OBJ_MACRO_MANIT_PM3	81	FUNCTION/FUNCTION_MODULE_CTC/OBJ_Macro_Maintenace/Sequence.exe		ARGUEMENT	"PM3"
+OBJ_MACRO_MANIT_PM4	81	-	SUCCESS
+OBJ_MACRO_MANIT_PM5	81	-	SUCCESS
+PERSIST_IO_CONTROL	1	FUNCTION/FUNCTION_MODULE_CTC/OBJ_PersistIO/Sequence
+OBJ_Alarm_Clear		10	FUNCTION/Function_MODULE_CTC/OBJ_Alarm_Clear/Sequence
+OBJ_KeySensorMon	9	FUNCTION/Function_MODULE_CTC/OBJ_KeySensorMon/Sequence	
+
+# 2014.10.15 Add PM Thickness Fault Interlock
+PM_THICK_INTERLOCK	80	FUNCTION/FUNCTION_MODULE_CTC/OBJ_PM_ThickInterlock/Sequence		RUN
+
+# 2014.10.21 Add PM Auto Cycle Clean
+AUTO_CYC_CLEAN_PM1	80	FUNCTION/FUNCTION_MODULE_CTC/OBJ_PM_AutoCycCln/Sequence			RUN	""	"PM1"
+AUTO_CYC_CLEAN_PM2	80	FUNCTION/FUNCTION_MODULE_CTC/OBJ_PM_AutoCycCln/Sequence			RUN	""	"PM2"
+AUTO_CYC_CLEAN_PM3	80	FUNCTION/FUNCTION_MODULE_CTC/OBJ_PM_AutoCycCln/Sequence			RUN	""	"PM3"
+
+MFC_Event_PMA		90	FUNCTION/FUNCTION_MODULE_CTC/OBJ_MFCLog_Manager/Sequence		ARGUEMENT	"PM1"
+MFC_Event_PMB		90	FUNCTION/FUNCTION_MODULE_CTC/OBJ_MFCLog_Manager/Sequence		ARGUEMENT	"PM2"
+MFC_Event_PMC		90	FUNCTION/FUNCTION_MODULE_CTC/OBJ_MFCLog_Manager/Sequence		ARGUEMENT	"PM3"
+
+OBJ_Monitor_MFCZIP		77	FUNCTION/Function_MODULE_CTC/OBJ_Monitor_MFCZIP/Sequence		RUN
+

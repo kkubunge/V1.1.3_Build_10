@@ -1,0 +1,66 @@
+$_PLOT_BIG         0    0
+$_PLOT_BACK        1    1
+$_PLOT_BACK_COLOR  256  256
+$_PLOT_POINT       1    1
+$_PLOT_LINE        0    0
+$_PLOT_COLOR_1   273  275  269  271
+$_PLOT_COLOR_2   273  275  269  271
+$_DATALOG_FILE_SAVE_TYPE     3
+$_DATALOG_TIME     1
+       PRO_CurStepAM    1                0.000              100.000    0    1    1
+      PRO_StepTimeAM    1                0.000          9999999.000    0    1    1
+        PLC_CurCycAI    1                0.000            65535.000    0    1    1
+    PRO_StpGrpCCycAM    1                0.000            10000.000    0    1    1
+       M651_Pressure    1                0.000             1000.000    0    1    1
+       M651_Position    1                0.000              100.000    0    1    1
+            ChmPrsAI    1             -255.000              760.000    0    1    1
+           PumpPrsAI    1                0.000             1500.000    0    1    1
+       ZMT_ReadPosAM    1                4.000               55.000    0    1    1
+        RFSetPointAO    1                0.000             1500.000    0    1    1
+        RF1LoadPowAI    1                0.000             1500.000    0    1    1
+         RF1RefPowAI    1                0.000             1500.000    0    1    1
+      RF1FrequencyAI    1                0.000            10000.000    0    1    1
+        RPGLoadPowAI    1                0.000             1500.000    0    1    1
+         RPGRefPowAI    1                0.000             1500.000    0    1    1
+        SHT1_TmpRdAI    1                0.000              999.900    0    1    1
+        SHT1_OutPwAI    1                0.000              100.000    0    1    1
+       StgHtr1CurrAI    1                0.000               20.000    0    1    1
+       StgHtr1VoltAI    1                0.000              220.000    0    1    1
+          MFC01FlwAI    1                0.000             5000.000    0    1    1
+          MFC02FlwAI    1                0.000             1000.000    0    1    1
+          MFC03FlwAI    1                0.000             5000.000    0    1    1
+          MFC04FlwAI    1                0.000             1000.000    0    1    1
+        MFC01PressAI    1              -14.700               85.300    0    1    1
+        MFC02PressAI    1              -14.700               85.300    0    1    1
+        MFC03PressAI    1              -14.700               85.300    0    1    1
+        MFC04PressAI    1              -14.700               85.300    0    1    1
+        HT01_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT02_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT03_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT04_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT05_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT06_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT07_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT08_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT09_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT10_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT11_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT12_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT13_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT14_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT15_TmpRdAI    1                0.000             1000.000    0    1    1
+        HT16_TmpRdAI    1                0.000             1000.000    0    1    1
+      SH1HeatExFlwAI    1                0.500               12.000    0    1    1
+      HtExcSupTempAI    1                0.000              180.000    0    1    1
+      HtExcRetTempAI    1                0.000              180.000    0    1    1
+      	RF1ForwardAI    1                0.000		   1500.000    0    1    1 	
+        HF_LOAD_POS_A	1                0.000	            100.000    0    1    1	
+        HF_TUNE_POS_A	1                0.000	            100.000    0    1    1	
+        HF_R_Real_A	1                0.000	          10000.000    0    1    1	
+        HF_X_Image_A	1                0.000	          10000.000    0    1    1	
+        HF_Z_Phase_A	1              -89.000	             89.000    0    1    1	
+        HF_Z_Power_A	1                0.000	          10000.000    0    1    1	
+        HF_Z_R_A	1                0.000	          10000.000    0    1    1	
+        HF_Z_X_A	1                0.000	          10000.000    0    1    1	
+        HF_Z_Vrms_A	1                0.000	          10000.000    0    1    1	
+        HF_Z_Irms_A	1                0.000	          10000.000    0    1    1	

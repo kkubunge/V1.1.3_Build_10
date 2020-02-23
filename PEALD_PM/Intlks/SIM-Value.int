@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Simulator for Value Interlock
+#-----------------------------------------------------------
+
+# RPG GATE VALVE
+if (V111ValveDO == Open)	{	RPGGateVlv2PosDI = Open;	}
+if (V111ValveDO == Close)	{	RPGGateVlv2PosDI = Close;	}
+if (V103ValveDO == Open)	{	RPGGateVlvPosDI = Open;		}
+if (V103ValveDO == Close)	{	RPGGateVlvPosDI = Close;	}
+
+# ALD VALVE
+if (V11ValveDO  == Open)	{	V11ValveDI  = Open;	}
+if (V12ValveDO  == Open)	{	V12ValveDI  = Open;	}
+if (V17ValveDO  == Open)	{	V17ValveDI  = Open;	}
+if (V97ValveDO  == Open)	{	V97ValveDI  = Open;	}
+if (V98ValveDO  == Open)	{	V98ValveDI  = Open;	}
+if (V100ValveDO == Open)	{	V100ValveDI = Open;	}
+if (V101ValveDO == Open)	{	V101ValveDI = Open;	}
+if (V102ValveDO == Open)	{	V102ValveDI = Open;	}
+if (V105ValveDO == Open)	{	V105ValveDI = Open;	}
+if (V106ValveDO == Open)	{	V106ValveDI = Open;	}
+if (V108ValveDO == Open)	{	V108ValveDI = Open;	}
+if (V109ValveDO == Open)	{	V109ValveDI = Open;	}
+if (V110ValveDO == Open)	{	V110ValveDI = Open;	}
+
+if (V11ValveDO  == Close)	{	V11ValveDI  = Close;	}
+if (V12ValveDO  == Close)	{	V12ValveDI  = Close;	}
+if (V17ValveDO  == Close)	{	V17ValveDI  = Close;	}
+if (V97ValveDO  == Close)	{	V97ValveDI  = Close;	}
+if (V98ValveDO  == Close)	{	V98ValveDI  = Close;	}
+if (V100ValveDO == Close)	{	V100ValveDI = Close;	}
+if (V101ValveDO == Close)	{	V101ValveDI = Close;	}
+if (V102ValveDO == Close)	{	V102ValveDI = Close;	}
+if (V105ValveDO == Close)	{	V105ValveDI = Close;	}
+if (V106ValveDO == Close)	{	V106ValveDI = Close;	}
+if (V108ValveDO == Close)	{	V108ValveDI = Close;	}
+if (V109ValveDO == Close)	{	V109ValveDI = Close;	}
+if (V110ValveDO == Close)	{	V110ValveDI = Close;	}
+
+# RPG PLASMA IGNITION
+aif (RPGPwOnDO == On)
+{
+  $time = 5;
+  RPGPlasmaDetectDI = On;
+}
+
+if (RPGPwOnDO == Off)	{	RPGPlasmaDetectDI = Off;	}

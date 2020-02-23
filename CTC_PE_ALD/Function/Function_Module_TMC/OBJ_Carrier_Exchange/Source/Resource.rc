@@ -1,0 +1,183 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOG DISCARDABLE  0, 0, 99, 245
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AGV Simulator"
+FONT 10, "Arial"
+BEGIN
+    PUSHBUTTON      "On",ID_1_ON,46,6,20,14
+    GROUPBOX        "",IDC_STATIC,7,0,85,179
+    PUSHBUTTON      "On",ID_2_ON,46,21,20,14
+    PUSHBUTTON      "On",ID_4_ON,46,36,20,14
+    LTEXT           "CS_0",IDC_STATIC,10,9,30,8
+    PUSHBUTTON      "On",ID_5_ON,46,51,20,14
+    LTEXT           "CS_1",IDC_STATIC,10,24,30,8
+    LTEXT           "VALID",IDC_STATIC,10,39,30,8
+    LTEXT           "TR_REQ",IDC_STATIC,10,54,30,8
+    PUSHBUTTON      "Off",ID_1_OFF,68,6,20,14
+    PUSHBUTTON      "Off",ID_2_OFF,68,21,20,14
+    PUSHBUTTON      "Off",ID_4_OFF,68,36,20,14
+    PUSHBUTTON      "Off",ID_5_OFF,68,51,20,14
+    PUSHBUTTON      "On",ID_6_ON,46,66,20,14
+    PUSHBUTTON      "Off",ID_6_OFF,68,66,20,14
+    PUSHBUTTON      "On",ID_7_ON,46,81,20,14
+    PUSHBUTTON      "Off",ID_7_OFF,68,81,20,14
+    PUSHBUTTON      "On",ID_8_ON,46,96,20,14
+    PUSHBUTTON      "Off",ID_8_OFF,68,96,20,14
+    LTEXT           "BUSY",IDC_STATIC,10,69,30,8
+    LTEXT           "COMPT",IDC_STATIC,10,84,30,8
+    LTEXT           "CONT",IDC_STATIC,10,99,30,8
+    PUSHBUTTON      "",ID_1,68,113,20,12,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,7,195,85,23
+    PUSHBUTTON      "",ID_2,68,126,20,12,BS_FLAT
+    PUSHBUTTON      "",ID_3,68,139,20,12,BS_FLAT
+    PUSHBUTTON      "",ID_4,68,152,20,12,BS_FLAT
+    PUSHBUTTON      "",ID_5,68,165,20,12,BS_FLAT
+    LTEXT           "HO-AVBL",IDC_STATIC,25,114,35,8
+    LTEXT           "ES",IDC_STATIC,25,127,35,8
+    LTEXT           "L_REQ",IDC_STATIC,25,140,35,8
+    LTEXT           "U_REQ",IDC_STATIC,25,153,35,8
+    LTEXT           "READY",IDC_STATIC,25,166,35,8
+    PUSHBUTTON      "On",ID_9_ON,47,182,20,14
+    PUSHBUTTON      "Off",ID_9_OFF,69,182,20,14
+    LTEXT           "CARRIER",IDC_STATIC,10,185,34,8
+    GROUPBOX        "",IDC_STATIC,7,176,85,22
+    LTEXT           "OP SW",IDC_STATIC,11,204,29,8
+    PUSHBUTTON      "On",ID_10_ON,47,201,42,14
+    LTEXT           "WAFER SET",IDC_STATIC,12,224,50,8
+    PUSHBUTTON      "On",ID_12_ON,69,221,20,14
+    GROUPBOX        "",IDC_STATIC,7,215,85,22
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 92
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 238
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,1
+ PRODUCTVERSION 1,0,1,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "Last Update : 2016.03.14, Foup check 시 Placement & present Sensor 모두 Check 하도록 수정\0"
+            VALUE "CompanyName", "IPS\0"
+            VALUE "FileDescription", "Sequence\0"
+            VALUE "FileVersion", "1, 0, 1, 1\0"
+            VALUE "InternalName", "Sequence\0"
+            VALUE "LegalCopyright", "Copyright ⓒ 2006\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Sequence.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "IPS Sequence\0"
+            VALUE "ProductVersion", "1, 0, 1, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

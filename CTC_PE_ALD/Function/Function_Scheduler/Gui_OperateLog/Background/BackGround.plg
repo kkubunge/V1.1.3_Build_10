@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BackGround - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/BackGround.res" /d "NDEBUG" "D:\02_MAHA_MP\03) P1_3L_ALD Oxide(DPT)\1_Backup\2020.01.20_V1.1.3_Build_10_RPGGate\CTC_PE_ALD\Function\Function_Scheduler\Gui_OperateLog\Background\BackGround.rc"" 
+Creating temporary file "C:\Users\gjyu\AppData\Local\Temp\RSPF33B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\02_MAHA_MP\03) P1_3L_ALD Oxide(DPT)\1_Backup\2020.01.20_V1.1.3_Build_10_RPGGate\CTC_PE_ALD\Function\Function_Scheduler\Gui_OperateLog\Background\dllmain.c"
+]
+Creating command line "cl.exe @C:\Users\gjyu\AppData\Local\Temp\RSPF33B.tmp" 
+Creating temporary file "C:\Users\gjyu\AppData\Local\Temp\RSPF33C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /pdb:none /machine:I386 /out:"BackGround.dll" /implib:"Release/BackGround.lib" 
+".\Release\dllmain.obj"
+".\Release\BackGround.res"
+]
+Creating command line "link.exe @C:\Users\gjyu\AppData\Local\Temp\RSPF33C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+dllmain.c
+Linking...
+
+
+
+<h3>Results</h3>
+BackGround.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

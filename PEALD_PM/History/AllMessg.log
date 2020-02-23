@@ -1,0 +1,100 @@
+2020/2/9 14:6:22	
+$$$ System Initializing .........
+2020/2/9 14:6:22	** Plug In IO Information from [IO/iodefine.io]
+2020/2/9 14:6:22	** Plug In IO Information from [Engine/System/System.io]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/GUI/GuiControl.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/GUI/GuiMonitor.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/LOOKUP/lookup.io]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/Enum/PMEnum.cfg]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CFGS/Mks651.cfg]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CFGS/EthernetIP_PEALD.cfg]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CFGS/EthernetIP_MFC.cfg]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CFGS/WT332_Heater.cfg]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CFGS/EthernetIP_EU3508.cfg]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CFGS/RorzeMtr.cfg]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CFGS/EIP_MATCH1.cfg]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CFGS/EIP_MATCH2.cfg]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CFGS/EIP_RF1.cfg]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CFGS/EIP_RF2.cfg]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/Plotting.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/PMC_ScreenEditor.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/PMC_Process.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/PMC_Parameter.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/PMC_Parameter2.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/PMC_LeakCheck.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/PMC_Vacuum.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/PMC_AbortGas.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/PMC_PRESSCONTROL_TV.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/PMC_Datalog.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/DeviceUseConfig.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/HeaterUseConfig.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/StgHtrUseConfig_E5ER.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/MfcUseConfig.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/PMC_TrapControl.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/PMC_MotorControl.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/Gas_Calibration.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/MFC_FlowTest.con]
+2020/2/9 14:6:22	** Plug In IO Information from [IO/CONS/ALDValveControl.con]
+2020/2/9 14:6:22	** Plug In IO Information from [System/IO/PMABC_Difference.con]
+2020/2/9 14:6:22	[w:SHMEM01] _INF_ShareMem_Creating Global_Ec_Handle_G is NULL Error 1
+2020/2/9 14:6:22	** Plug In Alarm Information from [Alarm/alarm.cfg]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/Process_Control.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/Vacuum.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/BGRun_Control.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/AbortGas.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/ProcBGRun_Control.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/Idle.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/MFC_Control.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/Press_ControlTV.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/Chuck_Control.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/RF_Control.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/StgHtr_Control.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/PLC_Interlock.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/HTR_Control.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/Alarm_Refill.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/SetPoint_Interlock.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/Value_Interlock.Alarm]
+2020/2/9 14:6:22	** Plug In Alarm Information from [ALARM/Etc.Alarm]
+2020/2/9 14:6:22	** Plug In Easy-Cluster Information from [SIM-EasyCluster.cfg]
+2020/2/9 14:6:22	** Plug In Function 1 Information from [Function/TEST-Function.dat]
+2020/2/9 14:6:22	** Plug In Function 1 Information from [FUNCTION/FUNCTION_MODULE_CTC/F_CTC.dat]
+2020/2/9 14:6:22	** Plug In Function 1 Information from [FUNCTION/TEST-F_GUI.dat]
+2020/2/9 14:6:22	** Plug In Function 1 Information from [FUNCTION/FUNCTION_MODULE_PMC/SIM-F_PMC.dat]
+2020/2/9 14:6:22	** Plug In Function 1 Information from [FUNCTION/FUNCTION_MODULE_SIMULATOR/F_PM_SIM_for_Simual.dat]
+2020/2/9 14:6:22	** Plug In Function 2 Information from [Function/Function_Remote.dat]
+2020/2/9 14:6:22	** Plug In Function 2 Information from [FUNCTION/FUNCTION_MODULE_REMOTE/Remote_PMC.dat]
+2020/2/9 14:6:22	** Plug In Setpoint Intlks Information from [INTLKS/setpoint.int]
+2020/2/9 14:6:22	** Plug In Value Intlks Information from [INTLKS/Value.int]
+2020/2/9 14:6:22	** Plug In Value Intlks Information from [INTLKS/SIM-Value.int]
+2020/2/9 14:6:22	** Plug In Screen navigation Information from [GUI/SETUP/Navigation.cfg]
+2020/2/9 14:6:30	
+$$$ System Initializing Completed
+
+2020/2/9 14:6:30	> 1. Wait 1 sec
+2020/2/9 14:6:31	> 2. Wait 1 sec
+2020/2/9 14:6:31	> 1. Wait 2 sec
+2020/2/9 14:6:32	> 2. Wait 2 sec
+2020/2/9 14:6:32	> 1. Wait 3 sec
+2020/2/9 14:6:33	> 2. Wait 3 sec
+2020/2/9 14:6:33	> 1. Wait 4 sec
+2020/2/9 14:6:34	> 2. Wait 4 sec
+2020/2/9 14:6:34	> 1. Wait 5 sec
+2020/2/9 14:6:35	> 2. Wait 5 sec
+2020/2/9 14:6:35	> 1. Wait 6 sec
+2020/2/9 14:6:36	> 2. Wait 6 sec
+2020/2/9 14:6:36	> 1. Wait 7 sec
+2020/2/9 14:6:37	> 2. Wait 7 sec
+2020/2/9 14:6:37	> 1. Wait 8 sec
+2020/2/9 14:6:38	> 2. Wait 8 sec
+2020/2/9 14:6:38	> 1. Wait 9 sec
+2020/2/9 14:6:39	> 2. Wait 9 sec
+2020/2/9 14:6:39	> 1. Wait 10 sec
+2020/2/9 14:6:40	> 2. Wait 10 sec
+2020/2/9 14:6:40	
+Initializing Module Service 1 ...
+2020/2/9 14:6:40	Module Service Initialization Complete 1.[1]
+2020/2/9 14:6:41	
+Initializing Module Service 2 ...
+2020/2/9 14:6:41	Module Service Initialization Complete 2.[1]
+2020/2/9 14:8:54	Try to Escape from Program
+2020/2/9 14:8:56	$$$ Program Shutdown Completed ...

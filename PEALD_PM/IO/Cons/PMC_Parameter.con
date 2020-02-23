@@ -1,0 +1,548 @@
+#$$$ Enum
+#DPTypeEnum	Shimadzu	Edward	Alcatel
+
+#---------------------------------------------------------------------------------------------
+# PM Parameter 1
+$$$ Analog
+PRMA_VS_SlowRghPrs	Torr	-	-	-	-	3	1	500	1	-	-	-	-	3	1	500	-	-	-	-	60
+PRMA_VS_PrsBaRough	Torr	-	-	-	-	3	0	30	1	-	-	-	-	3	0	30	-	-	-	-	0.1
+PRMA_VS_PrsBaPmping	Torr	-	-	-	-	3	0	760	1	-	-	-	-	3	0	760	-	-	-	-	0.1
+PRMA_WT_AfterFstRgh	sec	-	-	-	-	0	0	300	1	-	-	-	-	0	0	300	-	-	-	-	0
+PRMA_TO_SlowRghPrs	sec	-	-	-	-	0	1	500	1	-	-	-	-	0	1	500	-	-	-	-	300
+PRMA_TO_BaseRghPrs	sec	-	-	-	-	0	1	500	1	-	-	-	-	0	1	500	-	-	-	-	300
+PRMA_TO_PmpLnPmping	sec	-	-	-	-	0	1	300	1	-	-	-	-	0	1	300	-	-	-	-	300
+PRMA_EC_ChmPrss		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_VS_PrsBaVent	Torr	-	-	-	-	3	1	1000	1	-	-	-	-	3	1	1000	-	-	-	-	760
+PRMA_WT_AfterVent	sec	-	-	-	-	0	0	760	1	-	-	-	-	0	0	760	-	-	-	-	0
+PRMA_TO_PressVent	sec	-	-	-	-	0	0	500	1	-	-	-	-	0	0	500	-	-	-	-	300
+PRMA_AL_VentOKTemp	C	-	-	-	-	0	1	120	1	-	-	-	-	0	1	120	-	-	-	-	60
+PRMA_TM_ToxicGasPurge	sec	-	-	-	-	0	1	10000	1	-	-	-	-	0	1	10000	-	-	-	-	100
+PRMA_TO_ArCharging	sec	-	-	-	-	0	1	300	1	-	-	-	-	0	1	300	-	-	-	-	100
+PRMA_TO_BeforeVent	sec	-	-	-	-	0	1	10000	1	-	-	-	-	0	1	10000	-	-	-	-	10
+
+$$$ Digital
+PRMD_AI_DPCheck		NoYesEnum	Yes
+PRMD_HW_DPType		DPTypeEnum	Alcatel
+PRMD_DummyRecipe	DMYRcpUse	NotUse
+RRMD_VENT_SEQ		VENTSQEnum	Ar_1_9
+PRMD_GATE_VALVE_OPT	CloseOpenEnum	Open
+
+$$$ Analog
+PRMA_TO_DryPumpOn	sec	-	-	-	-	0	0	700	1	-	-	-	-	0	0	700	-	-	-	-	10
+PRMA_WT_CVGSafeWait	sec	-	-	-	-	0	0	300	1	-	-	-	-	0	0	300	-	-	-	-	0
+PRMA_VS_PrHgLmt		Torr	-	-	-	-	3	1	760	1	-	-	-	-	3	1	760	-	-	-	-	400
+PRMA_VS_TrPrs		Torr	-	-	-	-	3	0.001	1100	1	-	-	-	-	3	0.001	1100	-	-	-	-	5.0
+PRMA_VS_VCSnVlvOpPs	Torr	-	-	-	-	3	0.001	760	1	-	-	-	-	3	0.001	760	-	-	-	-	80
+
+PRMA_TO_V97Open		msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V98Open		msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V100Open	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V101Open	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V102Open	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V105Open	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V106Open	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V108Open	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V109Open	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V110Open	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+
+PRMA_TO_V97Close	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V98Close	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V100Close	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V101Close	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V102Close	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V105Close	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V106Close	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V108Close	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V109Close	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V110Close	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+
+# 2015.07.09 Add Canister ALD Valve (V11, V12, V17)
+PRMA_TO_V11Open		msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V12Open		msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V17Open		msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+
+PRMA_TO_V11Close	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V12Close	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+PRMA_TO_V17Close	msec	-	-	-	-	3	0	2	1	-	-	-	-	3	0	2	-	-	-	-	0
+
+$$$ Digital
+PRMD97_CNT_INT	OffOn	Off
+PRMD98_CNT_INT	OffOn	Off
+PRMD100_CNT_INT	OffOn	Off
+PRMD101_CNT_INT	OffOn	Off
+PRMD102_CNT_INT	OffOn	Off
+
+PRMD105_CNT_INT	OffOn	Off
+PRMD106_CNT_INT	OffOn	Off
+PRMD108_CNT_INT	OffOn	Off
+PRMD109_CNT_INT	OffOn	Off
+PRMD110_CNT_INT	OffOn	Off
+
+PRMD11_CNT_INT	OffOn	Off
+PRMD12_CNT_INT	OffOn	Off
+PRMD17_CNT_INT	OffOn	Off
+
+#---------------------------------------------------------------------------------------------
+# PM Parameter 2
+
+$$$ Analog
+PRMA_TL_ThrtlPos	-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TL_ThrtlPrss	Torr	-	-	-	-	3	0	100	1	-	-	-	-	3	0	100	-	-	-	-	0.1
+PRMA_TO_ThrtlPos	sec	-	-	-	-	0	1	300	1	-	-	-	-	0	1	300	-	-	-	-	5
+PRMA_TO_ThrtlPrss	sec	-	-	-	-	0	0	200	1	-	-	-	-	0	0	200	-	-	-	-	5
+
+# z-motion 1
+PRMA_StgLdPos		enc	-	-	-	-	0	-200000	400000	1	-	-	-	-	0	-200000	400000	-	-	-	-	62360
+PRMA_TL_ZMot		mm	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	10
+PRMA_TO_ZMot		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	30
+PRMA_TL_ZMotGL		enc	-	-	-	-	0	0	1000	1	-	-	-	-	0	0	1000	-	-	-	-	100
+PRMA_TO_ZMotGL		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	30
+PRMA_TO_ZMotHm		sec	-	-	-	-	0	0	300	1	-	-	-	-	0	0	300	-	-	-	-	100
+
+# z-motion 2
+PRMA_Stg2LdPos		enc	-	-	-	-	0	-200000	400000	1	-	-	-	-	0	-200000	400000	-	-	-	-	57400
+PRMA_TL_ZMot2		mil	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	10
+PRMA_TO_ZMot2		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	30
+PRMA_TL_ZMot2GL		enc	-	-	-	-	0	0	1000	1	-	-	-	-	0	0	1000	-	-	-	-	100
+PRMA_TO_ZMot2GL		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	30
+PRMA_TO_ZMot2Hm		sec	-	-	-	-	0	0	300	1	-	-	-	-	0	0	300	-	-	-	-	100
+
+# heater
+PRMA_HTR_PowSet		%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	30
+
+$$$ Digital
+PRMD_ZCtrl_RCP_SKIP	OffOnEnum	Off
+PRMD_ZCtrl_DLY_TIME     -  * *  - - - - -    0    10
+PRMD_ZCtrl_RCP_TYPE	RcpTypeEnum	Unknown
+PRMD_HTR_Off_Ctrl	OffOnEnum	Off
+
+#---------------------------------------------------------------------------------------------
+# PM Parameter 3
+# 2014.09.28 RF Count Monitoring
+
+# 2015.11.15 LotPre,Clean Parameter
+$$$ Digital
+PRMD_AL_RFChmOptLp	RFAlmOpt	ChmDis
+# 2016.10.26
+PRMD_AL_PresetOffOp	OffOnEnum	Off
+PRMD_RC_SkipRcpType1	RcpTypeEnum	Proc
+PRMD_RC_SkipRcpType2	RcpTypeEnum	Unknown
+
+$$$ Analog
+
+PRMA_TL_RF1LdCntLp	-	-	-	-	-	0	0	1000	1	-	-	-	-	0	0	1000	-	-	-	-	5
+PRMA_TL_RF1LdPwLp	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	15
+PRMA_TL_RF1RefCntLp	-	-	-	-	-	0	0	1000	1	-	-	-	-	0	0	1000	-	-	-	-	5
+PRMA_TL_RF1RefPwLp	W	-	-	-	-	0	0	10000	1	-	-	-	-	0	0	10000	-	-	-	-	30
+PRMA_TL_RF1RefTmLp	msec	-	-	-	-	0	0	10000	1	-	-	-	-	0	0	10000	-	-	-	-	100
+
+PRMA_TL_RF2LdCntLp	-	-	-	-	-	0	0	1000	1	-	-	-	-	0	0	1000	-	-	-	-	5
+PRMA_TL_RF2LdPwLp	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	15
+PRMA_TL_RF2RefCntLp	-	-	-	-	-	0	0	1000	1	-	-	-	-	0	0	1000	-	-	-	-	5
+PRMA_TL_RF2RefPwLp	W	-	-	-	-	0	0	10000	1	-	-	-	-	0	0	10000	-	-	-	-	30
+PRMA_TL_RF2RefTmLp	msec	-	-	-	-	0	0	10000	1	-	-	-	-	0	0	10000	-	-	-	-	100
+
+# 2015.11.15 Process Monitor Parameter
+$$$ Digital
+PRMD_AL_RFChmOpt	RFAlmOpt	ChmDis
+
+$$$ Analog
+PRMA_TL_RF1LdCnt	-	-	-	-	-	0	0	1000	1	-	-	-	-	0	0	1000	-	-	-	-	5
+PRMA_TL_RF1LdPw		%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	15
+PRMA_TL_RF1RefCnt	-	-	-	-	-	0	0	1000	1	-	-	-	-	0	0	1000	-	-	-	-	5
+PRMA_TL_RF1RefPw	W	-	-	-	-	0	0	10000	1	-	-	-	-	0	0	10000	-	-	-	-	30
+PRMA_TL_RF1RefTm	msec	-	-	-	-	0	0	10000	1	-	-	-	-	0	0	10000	-	-	-	-	100
+
+PRMA_TL_RF2LdCnt	-	-	-	-	-	0	0	1000	1	-	-	-	-	0	0	1000	-	-	-	-	5
+PRMA_TL_RF2LdPw		%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	15
+PRMA_TL_RF2RefCnt	-	-	-	-	-	0	0	1000	1	-	-	-	-	0	0	1000	-	-	-	-	5
+PRMA_TL_RF2RefPw	W	-	-	-	-	0	0	10000	1	-	-	-	-	0	0	10000	-	-	-	-	30
+PRMA_TL_RF2RefTm	msec	-	-	-	-	0	0	10000	1	-	-	-	-	0	0	10000	-	-	-	-	100
+
+# NotUse
+PRMA_TL_RFRefl		%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	15
+PRMA_EC_RFPlsmDtc	-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_RFFwPw		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TL_RFFwPw		%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	10
+
+PRMA_TL_RF2Refl		%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	15
+PRMA_EC_RF2PlsmDtc	-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_RF2FwPw		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TL_RF2FwPw		%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	10
+
+PRMA_TL_RPGRefl		%	-	-	-	-	0	0	15000	1	-	-	-	-	0	0	15000	-	-	-	-	150
+PRMA_EC_RPGPlsmDtc	-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_RPGFwPw		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TL_RPGFwPw		%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	10
+PRMA_TO_RPGGateVv	sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	3
+
+PRMA_Type1L		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+PRMA_Type1T		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+PRMA_Type2L		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+PRMA_Type2T		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+PRMA_Type3L		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+PRMA_Type3T		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+PRMA_Type4L		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+PRMA_Type4T		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+PRMA_Type5L		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+PRMA_Type5T		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+PRMA_Type6L		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+PRMA_Type6T		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+PRMA_Type7L		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+PRMA_Type7T		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+PRMA_Type8L		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+PRMA_Type8T		%	-	-	-	-	1	0	100	1	-	-	-	-	1	0	100	-	-	-	-	10
+
+
+# Trap Control 2007.11.20
+PRMA_VS_Trap_Cln_Tmp	dec	-	-	-	-	0	0	400	1	-	-	-	-	0	0	400	-	-	-	-	130
+PRMA_VS_Trap_Proc_Tmp	dec	-	-	-	-	0	0	400	1	-	-	-	-	0	0	400	-	-	-	-	130
+PRMA_TO_TrapHtrStb	sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+
+#Utility Gas
+PRMA_AL_ArHigh		psi	-	-	-	-	0	1	100	1	-	-	-	-	0	1	100	-	-	-	-	35
+PRMA_AL_ArLow		psi	-	-	-	-	0	1	100	1	-	-	-	-	0	1	100	-	-	-	-	25
+PRMA_AL_ArLowLimit	psi	-	-	-	-	0	1	100	1	-	-	-	-	0	1	100	-	-	-	-	10
+
+PRMA_AL_NF3High		psi	-	-	-	-	0	1	100	1	-	-	-	-	0	1	100	-	-	-	-	40
+PRMA_AL_NF3Low		psi	-	-	-	-	0	1	100	1	-	-	-	-	0	1	100	-	-	-	-	20
+PRMA_AL_NF3LowLimit	psi	-	-	-	-	0	1	100	1	-	-	-	-	0	1	100	-	-	-	-	10
+
+PRMA_AL_O2High		psi	-	-	-	-	0	1	100	1	-	-	-	-	0	1	100	-	-	-	-	40
+PRMA_AL_O2Low		psi	-	-	-	-	0	1	100	1	-	-	-	-	0	1	100	-	-	-	-	20
+PRMA_AL_O2LowLimit	psi	-	-	-	-	0	1	100	1	-	-	-	-	0	1	100	-	-	-	-	10
+
+
+#---------------------------------------------------------------------------------------------
+# PM Parameter 4
+$$$ Analog
+
+PRMA_TL_SHtrTmp			dec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_SHtrStb			sec	-	-	-	-	0	0	3000	1	-	-	-	-	0	0	3000	-	-	-	-	60
+
+PRMA_TL_SHtr1Tmp		dec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TL_SHtr2Tmp		dec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+
+PRMA_TO_SHtr1Stb		sec	-	-	-	-	0	0	3000	1	-	-	-	-	0	0	3000	-	-	-	-	60
+PRMA_TO_SHtr2Stb		sec	-	-	-	-	0	0	3000	1	-	-	-	-	0	0	3000	-	-	-	-	60
+
+PRMA_TO_SHT1CoDn		sec	-	-	-	-	0	0	3000	1	-	-	-	-	0	0	3000	-	-	-	-	60
+PRMA_TO_SHT2CoDn		sec	-	-	-	-	0	0	3000	1	-	-	-	-	0	0	3000	-	-	-	-	60
+
+PRMA_SHT1CoDnTemp		dec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_SHT2CoDnTemp		dec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+
+PRMA_SHtr1Temp1			degC	-	-	-	-	0	0	700	1	-	-	-	-	0	0	700	-	-	-	-
+PRMA_SHtr1Temp2			degC	-	-	-	-	0	0	700	1	-	-	-	-	0	0	700	-	-	-	-
+PRMA_SHtr1Temp3			degC	-	-	-	-	0	0	700	1	-	-	-	-	0	0	700	-	-	-	-
+PRMA_SHtr1Temp4			degC	-	-	-	-	0	0	700	1	-	-	-	-	0	0	700	-	-	-	-
+PRMA_SHtr1Temp5			degC	-	-	-	-	0	0	700	1	-	-	-	-	0	0	700	-	-	-	-
+PRMA_SHtr1Temp6			degC	-	-	-	-	0	0	700	1	-	-	-	-	0	0	700	-	-	-	-
+
+PRMA_SHtr2Temp1			degC	-	-	-	-	0	0	700	1	-	-	-	-	0	0	700	-	-	-	-
+PRMA_SHtr2Temp2			degC	-	-	-	-	0	0	700	1	-	-	-	-	0	0	700	-	-	-	-
+PRMA_SHtr2Temp3			degC	-	-	-	-	0	0	700	1	-	-	-	-	0	0	700	-	-	-	-
+PRMA_SHtr2Temp4			degC	-	-	-	-	0	0	700	1	-	-	-	-	0	0	700	-	-	-	-
+PRMA_SHtr2Temp5			degC	-	-	-	-	0	0	700	1	-	-	-	-	0	0	700	-	-	-	-
+PRMA_SHtr2Temp6			degC	-	-	-	-	0	0	700	1	-	-	-	-	0	0	700	-	-	-	-
+
+PRMA_SHtr1Ratio1		-	-	-	-	-	2	1	2	1	-	-	-	-	2	1	2	-	-	-	-	1
+PRMA_SHtr1Ratio2		-	-	-	-	-	2	1	2	1	-	-	-	-	2	1	2	-	-	-	-	1
+PRMA_SHtr1Ratio3		-	-	-	-	-	2	1	2	1	-	-	-	-	2	1	2	-	-	-	-	1
+PRMA_SHtr1Ratio4		-	-	-	-	-	2	1	2	1	-	-	-	-	2	1	2	-	-	-	-	1
+PRMA_SHtr1Ratio5		-	-	-	-	-	2	1	2	1	-	-	-	-	2	1	2	-	-	-	-	1
+PRMA_SHtr1Ratio6		-	-	-	-	-	2	1	2	1	-	-	-	-	2	1	2	-	-	-	-	1
+
+PRMA_SHtr2Ratio1		-	-	-	-	-	2	1	2	1	-	-	-	-	2	1	2	-	-	-	-	1
+PRMA_SHtr2Ratio2		-	-	-	-	-	2	1	2	1	-	-	-	-	2	1	2	-	-	-	-	1
+PRMA_SHtr2Ratio3		-	-	-	-	-	2	1	2	1	-	-	-	-	2	1	2	-	-	-	-	1
+PRMA_SHtr2Ratio4		-	-	-	-	-	2	1	2	1	-	-	-	-	2	1	2	-	-	-	-	1
+PRMA_SHtr2Ratio5		-	-	-	-	-	2	1	2	1	-	-	-	-	2	1	2	-	-	-	-	1
+PRMA_SHtr2Ratio6		-	-	-	-	-	2	1	2	1	-	-	-	-	2	1	2	-	-	-	-	1
+
+
+#---------------------------------------------------------------------------------------------
+# PM Parameter 5
+$$$ Digital
+
+PRMD_HO_TopLidSwitch		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_DPRun			AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_DPAlarm			AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_DPWarning		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_RPGReady		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_RPGACOK			AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_ChmPrs			AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-	Warning
+PRMD_HO_StgHtrOvTmp		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_GLHtrOvTmp		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_StgHtrRelay		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_LineHtrRelay		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_STHAlarm		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_ExhaustPres		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_Extinquisher		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_AScrubber		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_WLeakFB1		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_WLeakFB2		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_CoolantWater		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_RPGWater		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_ChillerAlarm		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_GasBoxFront		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_GasBoxLeft		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_GasBoxRight		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_SHTTBBox		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_SCRMon			AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_AirPrs			AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_NF3Prs			AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_WF6Prs			AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_ArPrs			AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_B2H6Prs			AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_SiH4Prs			AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_Ar2Prs			AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_PN2Prs			AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_H2Prs			AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_HTCOMSts		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_HTAmbSts		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_HTBattery		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_HT2COMSts		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_HT2AmbSts		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_HT2Battery		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+
+PRMD_HO_DivertPumpRun		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_DivertPumpAlarm		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_DivertPumpWarning	AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+
+PRMD_HO_RRWaterPrs		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_RRWaterLeak		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_WaterLeakSts		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+
+PRMD_HO_RPGWfrFlw		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_RPGWfr2Flw		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_RPGDetect		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_SmokeDetect		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_SolVlvSts		AlarmOpt2Enum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_GasBoxCover		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_Stg1CtrlSts		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_Stg2CtrlSts		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+
+PRMD_HO_RFFilterSts		AlarmOpt2Enum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_RF2FilterSts		AlarmOpt2Enum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_SrcHiLimSts		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_SrcLowSts		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_SrcLowLimSts		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+
+PRMD_HO_HTECtrlSts		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_ZMTLmSenSts		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_ZMT2LmSenSts		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_ChuckCoolPrs		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_MKSFanSts		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_CanExhaustSts		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+
+# 2015.06.09 Add AlarmOpt2Enum for PM Disable (Ignore/Warning/Abort/ChmDis)
+PRMD_HO_ALDOpenSts		AlarmOpt2Enum		-	-	-	-	-	1	-	-	-	-	-
+PRMD_HO_ALDCloseSts		AlarmOpt2Enum		-	-	-	-	-	1	-	-	-	-	-
+# 2016.03.12
+$$$ Analog
+ValueIntlkTime			sec	-  -  -  -  1    0.1   10    1  -  -  -  -  1    0.1   10    --- --- --- --- 1
+ValueIntlkTimeRPG		sec	-  -  -  -  1    0.1   10    1  -  -  -  -  1    0.1   10    --- --- --- --- 2
+
+PRMA_COOLPRS_HIGH		Kpa	-  -  -  -  3    -0.1   1    1  -  -  -  -  3   -0.1   1     --- --- --- --- 1
+PRMA_COOLPRS_LOW		Kpa	-  -  -  -  3    -0.1   1    1  -  -  -  -  3   -0.1   1     --- --- --- --- 0
+
+# 2016.06.28
+$$$ Digital
+PRMD_HO_DryPumpHazard		AlarmOptionEnum		-	-	-	-	-	1	-	-	-	-	-
+$$$ Analog
+PRMA_BGGaugeValue		Torr	-  -  -  -  1    0.1   10    1  -  -  -  -  1    0.1   10    --- --- --- --- 5
+PRMA_ForeGaugeValue		Torr	-  -  -  -  1    0.1   1000  1  -  -  -  -  1    0.1   1000  --- --- --- --- 5
+PRMA_MKSPrsFanValue		%	-  -  -  -  1	 0.1   100   1	-  -  -	 -  0    0.1   100   -	-  -   -     99.9
+#---------------------------------------------------------------------------------------------
+# PM Parameter 6
+$$$ Analog
+PRMA_TL_MFC01Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC02Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC03Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC04Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC05Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC06Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC07Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC08Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC09Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC10Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC11Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC12Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC13Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC14Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC15Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC16Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC17Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC18Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC19Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC20Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC21Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC22Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC23Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC24Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+PRMA_TL_MFC25Set	%	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	20
+#
+PRMA_TO_MFC01		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC02		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC03		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC04		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC05		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC06		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC07		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC08		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC09		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC10		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC11		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC12		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC13		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC14		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC15		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC16		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC17		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC18		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC19		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC20		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC21		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC22		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC23		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC24		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_TO_MFC25		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+#
+PRMA_EC_MFC01		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC02		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC03		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC04		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC05		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC06		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC07		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC08		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC09		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC10		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC11		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC12		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC13		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC14		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC15		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC16		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC17		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC18		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC19		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC20		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC21		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC22		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC23		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC24		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+PRMA_EC_MFC25		-	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	5
+
+PRMA_TL_MFC01PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC02PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC03PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC04PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC05PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC06PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC07PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC08PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC09PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC10PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC11PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC12PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC13PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC14PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC15PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC16PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC17PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC18PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC19PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC20PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC21PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC22PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC23PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC24PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC25PrsHi	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+
+PRMA_TL_MFC01PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC02PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC03PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC04PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC05PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC06PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC07PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC08PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC09PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC10PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC11PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC12PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC13PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC14PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC15PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC16PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC17PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC18PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC19PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC20PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC21PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC22PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC23PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC24PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+PRMA_TL_MFC25PrsLw	Psig	-	-	-	-	1	-14.7	85.3	1	-	-	-	-	1	-14.7	85.3	-	-	-	-	20
+
+PRMA_TO_MFCScan		sec	-	-	-	-	0	0	600	1	-	-	-	-	0	0	600	-	-	-	-	120
+PRMA_TO_MFCScanRty	-	-	-	-	-	0	0	5	1	-	-	-	-	0	0	5	-	-	-	-	1
+
+PRMA_SRCPRESSURE_LOW		Torr	-  	-  	-  	-  	1    	0.1   	1000  	1  	-  	-  	-  	-  	1    	0.1   	1000  	- 	- 	- 	- 	30
+PRMA_SRCPRESSURE_HIGH		Torr	-  	-  	-  	-  	1    	0.1   	1000  	1  	-  	-  	-  	-  	1    	0.1   	1000  	- 	- 	- 	- 	80
+PRMA_SRCPRESSURE_TIMEOUT	sec	-	-	-	-	0	0	600	1	-	-	-	-	0	0	600	-	-	-	-	5
+
+$$$ Digital
+PRMD_MFC_Diagnosis	OffOnEnum	Off
+PRMD_CARRIER_MFC	-  * *  - - - - -    1    9
+PRMD_CANISTER_VALVE1	-  * *  - - - - -    1    112
+PRMD_CANISTER_VALVE2	-  * *  - - - - -    1    112
+PRMD_SOUREPRS_OPTION	AlarmOpt3Enum
+PRMD_INT_RCP		INTRCPEnum	ONLY_PRC
+
+#---------------------------------------------------------------------------------------------
+# PM Parameter 7
+$$$ Digital
+PRMD_Refill_Opt		FillOptEnum	Manual
+PRMD_Refill_Level	SrcLevEnum	Level50
+PRMD_Ref_LeakCheck	DsblEnblEnum	Disabled
+# 2015.09.21 Add Swap Gas Purge
+PRMD_SwpPug_Opt		OffOnEnum	Off
+PRMD_SwpPug_RcpEnd	OffOnEnum	Off
+
+# 2015.02.24 Add RPG Alarm Process Retry Count
+PRMD_RPGPrcRetryOpt	RPGRetryEnum	Abort
+
+$$$ Analog
+PRMA_SP_RefillPer	%	-	-	-	-	0	20	70	1	-	-	-	-	0	20	70	-	-	-	-	50
+PRMA_TO_Refill		sec	-	-	-	-	0	0	120	1	-	-	-	-	0	0	600	-	-	-	-	90
+PRMA_TO_Refill_Pump	sec	-	-	-	-	0	0	600	1	-	-	-	-	0	0	600	-	-	-	-	60
+PRMA_TO_Ref_He_Chr	sec	-	-	-	-	0	0	1200	1	-	-	-	-	0	0	1200	-	-	-	-	10
+PRMA_VS_Ref_Prs		sec	-	-	-	-	0	0	100	1	-	-	-	-	0	0	100	-	-	-	-	40
+PRMA_VS_Ref_SrcLow	%	-	-	-	-	0	30	70	1	-	-	-	-	0	30	70	-	-	-	-	35
+PRMA_TO_LotPreSkip	Sec	-	-	-	-	0	0	3600	1	-	-	-	-	0	0	3600	-	-	-	-	0
+
+# 2015.02.24 Add RPG Alarm Process Retry Count
+PRMA_RPGPrcRetryCnt	Count	-	-	-	-	0	0	10	1	-	-	-	-	0	0	10	-	-	-	-	3
+
+# 2015.05.30 Add Heat Exchanger Temp High/Low
+PRMA_HTE_LowLmtTmp	C	-	-	-	-	0	-100	100	1	-	-	-	-	0	-100	100	-	-	-	-	-100
+PRMA_HTE_HighLmtTmp	C	-	-	-	-	0	-100	100	1	-	-	-	-	0	-100	100	-	-	-	-	100
+# 2015.09.21 Add PM Swap Purge
+PRMA_SwpPug_Flw		Sccm	-	-	-	-	0	0	5000	1	-	-	-	-	0	0	5000	-	-	-	-	0
+
+#---------------------------------------------------------------------------------------------
+# Not Used Parameter
+# Heater Offset Control
+$$$ Digital
+PRMD_Offset_Opt		DsblEnblEnum	Disabled
+PRMD_SHT1AutoRat	DsblEnblEnum	Disabled
+PRMD_SHT2AutoRat	DsblEnblEnum	Disabled
+
+
+$$$ Analog
+PRMA_Std_Temp		sec	-	-	-	-	0	0	750	1	-	-	-	-	0	0	750	-	-	-	-	0
+PRMA_UpTemp_Offset	sec	-	-	-	-	0	-100	100	1	-	-	-	-	0	-100	100	-	-	-	-	0
+PRMA_DnTemp_Offset	sec	-	-	-	-	0	-100	100	1	-	-	-	-	0	-100	100	-	-	-	-	0

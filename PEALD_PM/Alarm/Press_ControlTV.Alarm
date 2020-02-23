@@ -1,0 +1,31 @@
+#
+#
+#
+# Possible Recovery Action String
+#      - CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+###################### not used ##############################
+2400	TVCommErr	{	
+	"Throttle Valve Communication Error"		
+	CLEAR	"Clear Operation"	
+	}		
+
+2404	TVPosTimeOut	{	
+	"Throttle Valve Position Time Out"		
+	CLEAR	"Clear Operation"	
+	}		
+
+2405	TVPrsTimeOut	{	
+	"Throttle Valve Pressure Time Out"		
+	CLEAR	"Clear Operation"	
+	}		
+
+2407	TVPressTolOut	{	
+	"Throttle Valve Pressure Out Of Tolerance"		
+	CLEAR	"Clear Operation"	
+	}		

@@ -1,0 +1,8 @@
+
+#---------------------------------------------------------------------------------------
+# PM IO Monitoring & Log function
+#---------------------------------------------------------------------------------------
+MANUAL_LOG		1	FUNCTION/FUNCTION_MODULE_CTC\OBJ_DataLog\Sequence	RUN
+
+# 2011.08.04
+PMC_EVENT_LOG_CLI	1	FUNCTION/FUNCTION_MODULE_CTC/OBJ_EventLogClient/Sequence	ARGUMENT	"PM1"

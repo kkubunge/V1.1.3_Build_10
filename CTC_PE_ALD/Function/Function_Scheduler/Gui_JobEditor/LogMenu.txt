@@ -1,0 +1,83 @@
+[NOT SEL]
+
+Total Wafer Log:{LogView_Open_Full_Method}		-	WaferData.log
+
+Total Error Message:{LogView_Open_Full_Error_Message}	-	History/CimSqCon.log
+
+[SEL - NOT ANAL]
+
+Lot Flow History:{LogView_Open_Lot_History}		-	LotData.log
+
+Wafer Run History:{LogView_Open_Method_History}		-	WaferData.log
+
+Process Data per Wafer:{LogView_Open_Process_Log}
+	Slot/Chamber					-	PROCESS_{Slot}_PM{Chamber}
+
+*Process Data per Wafer[All]:{LogView_Open_Process_Log}
+	Slot/Chamber					-	PROCESS_{Slot}_PM{Chamber}
+
+Recipe Data per Wafer:{LogView_Open_Recipe_Log}
+	Slot/Chamber					-	RECIPE_{Slot}_PM{Chamber}
+
+
+[SEL - ANAL]
+
+Lot Flow History:{LogView_Open_Lot_History}		-	LotData.log
+
+Wafer Run History:{LogView_Open_Method_History}		-	WaferData.log
+
+Process Data per Lot:{LogView_Open_Lot_Log}		<=	PROCESS_{Slot}_PM{Chamber}
+	Min Value
+	Max Value
+	Average Value
+	All Value
+
+*Process Data per Lot[All]:{LogView_Open_Lot_Log}	<=	PROCESS_{Slot}_PM{Chamber}
+	Min Value
+	Max Value
+	Average Value
+	All Value
+
+Process Data per Wafer:{LogView_Open_Process_Log}
+	Slot/Chamber					-	PROCESS_{Slot}_PM{Chamber}
+
+*Process Data per Wafer[All]:{LogView_Open_Process_Log}
+	Slot/Chamber					-	PROCESS_{Slot}_PM{Chamber}
+
+Process Data per Module:{LogView_Open_Module_Log}	<=	PROCESS_{Slot}_PM{Chamber}
+	MODULE
+		Min Value
+		Max Value
+		Average Value
+		All Value
+
+*Process Data per Module[All]:{LogView_Open_Module_Log}	<=	PROCESS_{Slot}_PM{Chamber}
+	MODULE
+		Min Value
+		Max Value
+		Average Value
+		All Value
+
+Recipe Data per Wafer:{LogView_Open_Recipe_Log}
+	Slot/Chamber					-	RECIPE_{Slot}_PM{Chamber}
+
+
+
+
+
+BUTTON_DATA		0	30	835	416
+BUTTON_ADD		47	425	120	40
+BUTTON_DELETE		188	425	120	40
+BUTTON_START		406	425	80	40
+BUTTON_ABORT		487	425	80	40
+BUTTON_END		568	425	80	40
+BUTTON_CANCEL		649	425	80	40
+BUTTON_LOG		731	425	60	40
+BUTTON_FIND		792	425	60	40
+BUTTON_BACK		406	425	323	40
+BUTTON_UP		875	50	50	50
+BUTTON_SUP		875	120	50	50
+BUTTON_SDOWN		875	190	50	50
+BUTTON_DOWN		875	260	50	50
+BUTTON_RIGHT		875	330	50	50
+BUTTON_LEFT		875	400	50	50

@@ -1,0 +1,10 @@
+2018/5/28 16:43:55	USERCONTROL	[SYSTEM_START]
+2018/5/28 16:44:18	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/5/28 16:44:21	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/5/28 16:44:21	SETTING	[DIO] Main_Screen_Button with [1] at Page = 0(PAGE 1)
+2018/5/28 16:44:21	BUTTON	[GO_DIRECT CLICK] Main_Screen_Button
+2018/5/28 16:45:6	SETTING	[DIO] Right_System_Control with [1] at Page = 0(PAGE 1)
+2018/5/28 16:45:6	BUTTON	[RIGHT CLICK] Right_System_Control
+2018/5/28 16:45:8	POPUP	[OPEN] RF1 Parameter Monitoring at Page = 1(Control)
+2018/5/28 16:45:18	SETTING	[DIO] Right_System_Main with [1] at Page = 0(PAGE 1)
+2018/5/28 16:45:18	BUTTON	[RIGHT CLICK] Right_System_Main

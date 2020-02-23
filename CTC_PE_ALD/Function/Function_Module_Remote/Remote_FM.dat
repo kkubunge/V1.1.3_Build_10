@@ -1,0 +1,29 @@
+#-------------------------------------------------------------------------------
+# FM Part Scheduler Interface Function
+#-------------------------------------------------------------------------------
+
+FM.READY	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/FM_SERVICE/Ready.seq"
+FM.END		50	-	SUCCESS
+
+FM.PREPARE_SEND	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/FM_SERVICE/AM_Parpare_Send.seq"
+FM.POST_SEND	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/FM_SERVICE/AM_Post_Send.seq"
+FM.PREPARE_RECV	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/FM_SERVICE/AM_Prepare_Recv.seq"
+FM.POST_RECV	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/FM_SERVICE/AM_PostRecv.seq"
+
+FM.PICK_WAFER	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/FM_SERVICE/Pick.seq"
+FM.PLACE_WAFER	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/FM_SERVICE/Place.seq"
+
+FM.HOME_WAFER	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/FM_SERVICE/Home.seq"
+FM.ROTATE_WAFER	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/FM_SERVICE/Rotate.seq"
+
+FM.ALIGN_WAFER	50	-	SUCCESS
+FM.COOL_WAFER	50	-	SUCCESS
+
+FM.MOVE_RECV	50	-	SUCCESS
+FM.MOVE_SEND	50	-	SUCCESS
+
+#-------------------------------------
+# Transfer Clear Function for Remote
+#-------------------------------------
+
+FM.CLEAR	50	-	SUCCESS

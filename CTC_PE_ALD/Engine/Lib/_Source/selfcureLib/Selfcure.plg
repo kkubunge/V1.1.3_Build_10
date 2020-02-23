@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Selfcure - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\jpm3000\AppData\Local\Temp\RSP243C.tmp" with contents
+[
+/nologo /MT /W3 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\3.작업파일\20141114_MP_ASC_16LU1L설치버전으로작업\자료\SelfcureLib_20140502(CntRst위치변경_Alarm_Rerfresh개선)\selfcureLib\Selfcure.c"
+]
+Creating command line "cl.exe @C:\Users\jpm3000\AppData\Local\Temp\RSP243C.tmp" 
+Creating command line "link.exe -lib /nologo /out:"k:\lib\Selfcure.lib"  ".\Release\Selfcure.obj" "
+<h3>Output Window</h3>
+Compiling...
+Selfcure.c
+Creating library...
+Creating command line "bscmake.exe /nologo /o"Release/Selfcure.bsc"  ".\Release\Selfcure.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Selfcure.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,60 @@
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+B_0011_0000000000       BITMAP       IMAGE/Button_Enable_N_Main.bmp
+B_0011_0000000001       BITMAP       IMAGE/Button_Press_N_Main.bmp
+
+B_0012_0000000000       BITMAP       IMAGE/Button_Enable_N_Control.bmp
+B_0012_0000000001       BITMAP       IMAGE/Button_Press_N_Control.bmp 
+
+B_0013_0000000000       BITMAP       IMAGE/Button_Enable_N_Recipe.bmp
+B_0013_0000000001       BITMAP       IMAGE/Button_Press_N_Recipe.bmp   
+
+B_0014_0000000000       BITMAP       IMAGE/Button_Enable_N_Heater.bmp 
+B_0014_0000000001       BITMAP       IMAGE/Button_Press_N_Heater.bmp  
+
+B_0015_0000000000       BITMAP       IMAGE/Button_Enable_N_Water.bmp 
+B_0015_0000000001       BITMAP       IMAGE/Button_Press_N_Water.bmp  
+
+B_0016_0000000000       BITMAP       IMAGE/Button_Enable_N_LeakTest.bmp 
+B_0016_0000000001       BITMAP       IMAGE/Button_Press_N_LeakTest.bmp  
+
+B_0017_0000000000       BITMAP       IMAGE/Button_Enable_N_DirectIO.bmp
+B_0017_0000000001       BITMAP       IMAGE/Button_Press_N_DirectIO.bmp
+
+B_0018_0000000000       BITMAP       IMAGE/Button_Enable_N_Parameter.bmp
+B_0018_0000000001       BITMAP       IMAGE/Button_Press_N_Parameter.bmp
+                    
+B_0019_0000000000       BITMAP       IMAGE/Button_Enable_N_Plotter.bmp          
+B_0019_0000000001       BITMAP       IMAGE/Button_Press_N_Plotter.bmp           
+ 
+B_0020_0000000000       BITMAP       IMAGE/Button_Enable_N_AlarmHistory.bmp          
+B_0020_0000000001       BITMAP       IMAGE/Button_Press_N_AlarmHistory.bmp           
+
+B_0021_0000000000       BITMAP       IMAGE/Button_Enable_N_User.bmp
+B_0021_0000000001       BITMAP       IMAGE/Button_Press_N_User.bmp
+
+B_0022_0000000000       BITMAP       IMAGE/Button_Enable_N_Calibration.bmp
+B_0022_0000000001       BITMAP       IMAGE/Button_Press_N_Calibration.bmp
+
+B_0090_0000000000       BITMAP       IMAGE/Button_Alarm_Clear.bmp
+B_0090_0000000005       BITMAP       IMAGE/Button_Alarm_Clear.bmp
+B_0090_0000000007       BITMAP       IMAGE/Button_Alarm_Clear.bmp
+
+B_0101_0000000000       BITMAP       IMAGE/BACKGROUND_None.bmp
+B_0101_0000000001       BITMAP       IMAGE/BACKGROUND_System.bmp
+
+B_0102_0000000000       BITMAP       IMAGE/BACKGROUND_None.bmp
+B_0102_0000000001       BITMAP       IMAGE/BACKGROUND_Recipe.bmp
+
+B_0103_0000000000       BITMAP       IMAGE/BACKGROUND_None.bmp
+B_0103_0000000001       BITMAP       IMAGE/BACKGROUND_Service.bmp
+
+B_0104_0000000000       BITMAP       IMAGE/BACKGROUND_None.bmp
+B_0104_0000000001       BITMAP       IMAGE/BACKGROUND_Config.bmp
+
+B_0105_0000000000       BITMAP       IMAGE/BACKGROUND_None.bmp
+B_0105_0000000001       BITMAP       IMAGE/BACKGROUND_Utility.bmp

@@ -1,0 +1,35 @@
+$_PLOT_BIG         0    0
+$_PLOT_BACK        1    1
+$_PLOT_BACK_COLOR  256  256
+$_PLOT_POINT       1    1
+$_PLOT_LINE        0    0
+$_PLOT_COLOR_1   273  275  269  271
+$_PLOT_COLOR_2   273  275  269  271
+$_DATALOG_FILE_SAVE_TYPE     1
+$_DATALOG_TIME     1
+        PM1.ChmPrsAI    1                0.000              760.000    1    1    1
+       PM1.PumpPrsAI    1                0.000              760.000    2    1    1
+   PM1.M651_Pressure    1                0.000               10.000    3    1    1
+   PM1.M651_Position    1                0.000              100.000    4    1    1
+    PM1.SHT1_TmpRdAI    0         -9999999.000          9999999.000    0    1    1
+   PM1.StgHtr1CurrAI    0         -9999999.000          9999999.000    0    1    1
+   PM1.StgHtr1VoltAI    0         -9999999.000          9999999.000    0    1    1
+    PM1.SHT2_TmpRdAI    0         -9999999.000          9999999.000    0    1    1
+   PM1.StgHtr2CurrAI    0         -9999999.000          9999999.000    0    1    1
+   PM1.StgHtr2VoltAI    0         -9999999.000          9999999.000    0    1    1
+    PM1.HT03_TmpRdAI    0         -9999999.000          9999999.000    0    1    1
+    PM1.HT04_TmpRdAI    0         -9999999.000          9999999.000    0    1    1
+    PM1.HT05_TmpRdAI    0         -9999999.000          9999999.000    0    1    1
+    PM1.HT06_TmpRdAI    0         -9999999.000          9999999.000    0    1    1
+    PM1.HT12_TmpRdAI    0         -9999999.000          9999999.000    0    1    1
+    PM1.HT13_TmpRdAI    0         -9999999.000          9999999.000    0    1    1
+    PM1.HT19_TmpRdAI    0         -9999999.000          9999999.000    0    1    1
+    PM1.HT20_TmpRdAI    0         -9999999.000          9999999.000    0    1    1
+    PM1.HT21_TmpRdAI    0         -9999999.000          9999999.000    0    1    1
+    PM1.HT22_TmpRdAI    0         -9999999.000          9999999.000    0    1    1
+    PM1.HT28_TmpRdAI    0         -9999999.000          9999999.000    0    1    1
+    PM1.HT29_TmpRdAI    0         -9999999.000          9999999.000    0    1    1
+   PM1.HF_LOAD_POS_A    0         -9999999.000          9999999.000    0    1    1
+   PM1.HF_TUNE_POS_A    0         -9999999.000          9999999.000    0    1    1
+   PM1.HF_LOAD_POS_B    0         -9999999.000          9999999.000    0    1    1
+   PM1.HF_TUNE_POS_B    0         -9999999.000          9999999.000    0    1    1

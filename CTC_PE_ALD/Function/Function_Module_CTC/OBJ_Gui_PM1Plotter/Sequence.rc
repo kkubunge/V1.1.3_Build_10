@@ -1,0 +1,388 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONTROL_PAD DIALOG DISCARDABLE  0, 0, 193, 121
+STYLE WS_POPUP | WS_BORDER
+FONT 10, "Arial"
+BEGIN
+END
+
+IDD_BLANK_PAD DIALOGEX 0, 0, 95, 43
+STYLE WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_STATICEDGE
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+END
+
+IDD_POPUP_PAD DIALOGEX 0, 0, 35, 19
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+FONT 20, "Arial", 0, 0, 0x1
+BEGIN
+END
+
+IDD_POINT_CONTROL DIALOGEX 20, 20, 158, 242
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Location Calibrate"
+FONT 12, "±¼¸²", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,2,218,31,20
+    PUSHBUTTON      "Cancel",IDCLOSE,125,218,31,20
+    EDITTEXT        IDC_POINT_NAME,25,40,129,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Adapt",IDRETRY,65,218,29,20
+    LTEXT           "Name",IDC_STATIC,5,41,20,8
+    EDITTEXT        IDC_POINT_X,82,179,23,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_POINT_Y,82,195,23,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_POINT_XS,130,179,23,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_POINT_YS,130,195,23,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "x",IDC_STATIC,73,181,8,8
+    LTEXT           "y",IDC_STATIC,73,197,8,8
+    LTEXT           "x size",IDC_STATIC,109,181,20,8
+    LTEXT           "y size",IDC_STATIC,109,197,20,8
+    EDITTEXT        IDC_POINT_ACTION,52,59,101,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Control Type",IDC_STATIC,8,60,43,8
+    EDITTEXT        IDC_POINT_TYPE,71,101,82,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "IO Style",IDC_STATIC,37,103,25,8
+    EDITTEXT        IDC_POINT_IMAGE,71,117,82,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Draw Style",IDC_STATIC,37,119,34,8
+    EDITTEXT        IDC_POINT_INDEX,71,134,27,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Index",IDC_STATIC,37,135,18,8
+    CTEXT           "Graphics Calibration Controller Ver 1.1",IDC_STATIC,21,
+                    11,126,9
+    PUSHBUTTON      "Restore",IDABORT,95,218,29,20
+    GROUPBOX        "Location",IDC_STATIC,69,167,87,46
+    CONTROL         "Input Part",IDC_POINT_SHAPE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,177,48,10
+    GROUPBOX        "",IDC_STATIC,2,0,154,25
+    CONTROL         "Output Part",IDC_POINT_SHAPE2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,188,48,10
+    GROUPBOX        "Display Shape",IDC_STATIC,2,167,64,46
+    GROUPBOX        "Identification",IDC_STATIC,2,29,154,137
+    EDITTEXT        IDC_POINT_ACTION2,52,72,101,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Display Type",IDC_STATIC,8,74,43,8
+    PUSHBUTTON      "Item List",IDIGNORE,101,133,52,14
+    ICON            IDI_PROGRAM_GUI,IDC_STATIC,5,6,20,20
+    CONTROL         "Information",IDC_POINT_SHAPE3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,199,48,10
+    PUSHBUTTON      "",IDHELP,5,103,31,33,BS_MULTILINE
+    PUSHBUTTON      "Save",IDYES,35,218,29,20
+    LTEXT           "Extra",IDC_STATIC,37,152,18,8
+    EDITTEXT        IDC_POINT_EXTDATA,71,150,82,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_CONDITION,52,86,101,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Condition",IDC_STATIC,17,88,31,8
+    PUSHBUTTON      "Select",IDNO,5,137,31,26,BS_MULTILINE
+END
+
+IDD_IMAGE_CONTROL3 DIALOGEX 0, 0, 378, 220
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Image Display"
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Adapt",IDOK,2,2,119,18
+    PUSHBUTTON      "",IDC_POINT_ITEM1,90,27,32,12
+    PUSHBUTTON      "",IDC_POINT_ITEM2,90,40,32,12
+    PUSHBUTTON      "",IDC_POINT_ITEM3,90,53,32,12
+    PUSHBUTTON      "",IDC_POINT_ITEM4,90,66,32,12
+    PUSHBUTTON      "",IDC_POINT_ITEM5,90,79,32,12
+    PUSHBUTTON      "",IDC_POINT_ITEM6,90,92,32,12
+    PUSHBUTTON      "",IDC_POINT_ITEM7,73,109,49,12
+    PUSHBUTTON      "",IDC_POINT_ITEM8,73,122,49,12
+    PUSHBUTTON      "",IDC_POINT_ITEM9,73,135,49,12
+    PUSHBUTTON      "",IDC_POINT_ITEM10,73,148,49,12
+    PUSHBUTTON      "",IDC_POINT_ITEM11,53,165,69,12
+    PUSHBUTTON      "",IDC_POINT_ITEM12,53,178,69,12
+    PUSHBUTTON      "",IDC_POINT_ITEM13,53,191,69,12
+    PUSHBUTTON      "",IDC_POINT_ITEM14,53,204,69,12
+    CTEXT           "D\ni\ng\ni\nt\na\nl",IDC_STATIC,1,37,8,58
+    CTEXT           "A\nn\na\nl\no\ng",IDC_STATIC,1,110,8,49
+    CTEXT           "S\nt\nr\ni\nn\ng",IDC_STATIC,1,166,8,49
+    EDITTEXT        IDC_POINT_ITEM_STR1,10,27,78,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR2,10,40,78,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR3,10,53,78,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR4,10,66,78,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR5,10,79,78,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR6,10,92,78,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR7,10,109,61,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR8,10,122,61,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR9,10,135,61,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR10,10,148,61,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR11,10,165,41,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR12,10,178,41,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR13,10,191,41,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR14,10,204,41,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+END
+
+IDD_IMAGE_CONTROL2 DIALOGEX 0, 0, 331, 163
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Image Display"
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Adapt",IDOK,1,2,81,18
+    PUSHBUTTON      "",IDC_POINT_ITEM1,58,27,24,12
+    PUSHBUTTON      "",IDC_POINT_ITEM2,58,40,24,12
+    PUSHBUTTON      "",IDC_POINT_ITEM3,58,53,24,12
+    PUSHBUTTON      "",IDC_POINT_ITEM4,58,66,24,12
+    PUSHBUTTON      "",IDC_POINT_ITEM5,58,79,24,12
+    PUSHBUTTON      "",IDC_POINT_ITEM6,58,92,24,12
+    PUSHBUTTON      "",IDC_POINT_ITEM7,58,105,24,12
+    PUSHBUTTON      "",IDC_POINT_ITEM8,58,118,24,12
+    PUSHBUTTON      "",IDC_POINT_ITEM9,58,131,24,12
+    PUSHBUTTON      "",IDC_POINT_ITEM10,58,144,24,12
+    EDITTEXT        IDC_POINT_ITEM_STR1,0,27,57,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR2,0,40,57,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR3,0,53,57,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR4,0,66,57,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR5,0,79,57,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR6,0,92,57,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR7,0,105,57,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR8,0,118,57,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR9,0,131,57,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_POINT_ITEM_STR10,0,144,57,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+END
+
+IDD_IMAGE_CONTROL DIALOGEX 0, 0, 101, 68
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      ">>",IDRETRY,35,1,34,12
+    PUSHBUTTON      "<<",IDABORT,1,1,34,12
+    PUSHBUTTON      "^",IDNO,70,1,13,12
+    PUSHBUTTON      "v",IDYES,83,1,13,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CONTROL_PAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 186
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_BLANK_PAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 88
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 36
+    END
+
+    IDD_POPUP_PAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 28
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 12
+    END
+
+    IDD_POINT_CONTROL, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 156
+        BOTTOMMARGIN, 238
+    END
+
+    IDD_IMAGE_CONTROL3, DIALOG
+    BEGIN
+        RIGHTMARGIN, 375
+        BOTTOMMARGIN, 218
+    END
+
+    IDD_IMAGE_CONTROL2, DIALOG
+    BEGIN
+        RIGHTMARGIN, 328
+        BOTTOMMARGIN, 161
+    END
+
+    IDD_IMAGE_CONTROL, DIALOG
+    BEGIN
+        RIGHTMARGIN, 94
+        BOTTOMMARGIN, 61
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PROGRAM_GUI         ICON    DISCARDABLE     "k:\\h\\Program_GUI.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_REWIND              BITMAP  DISCARDABLE     "rewind.bmp"
+IDB_FORWARD             BITMAP  DISCARDABLE     "forward.bmp"
+IDB_REWIND2             BITMAP  DISCARDABLE     "rewind2.bmp"
+IDB_FORWARD2            BITMAP  DISCARDABLE     "forward2.bmp"
+IDB_BACKGROUND          BITMAP  DISCARDABLE     "background.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR              CURSOR  DISCARDABLE     "k:\\h\\Program_Select.cur"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x9L
+#else
+ FILEFLAGS 0x8L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "Plotter Program\0"
+            VALUE "CompanyName", "Kornic Systems Corporation.\0"
+            VALUE "FileDescription", "GUI for Plotting View\0"
+            VALUE "FileVersion", "3, 3, 0, 0\0"
+            VALUE "InternalName", "Gui_Plotter\0"
+            VALUE "LegalCopyright", "Copyright ¨Ï 1998-2002\0"
+            VALUE "LegalTrademarks", "EasyCluster¢â\0"
+            VALUE "OriginalFilename", "Gui_Plotter.exe\0"
+            VALUE "PrivateBuild", "Gui Plotter 3.3(2002.04.11)\0"
+            VALUE "ProductName", "Gui_Plotter\0"
+            VALUE "ProductVersion", "3, 3, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,111 @@
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+# CTC Function Definition
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+# V1.0   2000.01.01    Initial Release
+# V2.0   2001.01.01    Fixed Item
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+# Fixed Function for Cluster
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+
+SCHEDULER_MAINT_TOP		80	K:/EXEC/Scheduler/Sch_Top_Maint
+#
+SCHEDULER			70	K:/EXEC/Scheduler/Sch_Main		RUN		""	"Scheduler"
+
+SCHEDULER_HANDOFF_CM1		70	K:/EXEC/Scheduler/Sch_CassHO		ARGUMENT	"CM1"
+SCHEDULER_HANDOFF_CM2		70	K:/EXEC/Scheduler/Sch_CassHO		ARGUMENT	"CM2"
+SCHEDULER_HANDOFF_CM3		70	K:/EXEC/Scheduler/Sch_CassHO		ARGUMENT	"CM3"
+SCHEDULER_HANDOFF_CM4		70	K:/EXEC/Scheduler/Sch_CassHO		ARGUMENT	"CM4"
+
+SCHEDULER_BUTTON		68	K:/EXEC/Scheduler/Sch_Button
+SCHEDULER_TIMER			68	K:/EXEC/Scheduler/Sch_Timer		RUN
+
+SCHEDULER_LOTLOG1		60	K:/EXEC/Scheduler/Sch_LotLog		ARGUMENT	"scheduler"
+SCHEDULER_LOTLOG2		60	K:/EXEC/Scheduler/Sch_LotLog		ARGUMENT	"scheduler"
+SCHEDULER_LOTLOG3		60	K:/EXEC/Scheduler/Sch_LotLog		ARGUMENT	"scheduler"
+SCHEDULER_LOTLOG4		60	K:/EXEC/Scheduler/Sch_LotLog		ARGUMENT	"scheduler"
+
+SCHEDULER_ERROR			60	K:/EXEC/Scheduler/Sch_Error		ARGUMENT	"scheduler/Error.dat"
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+# User Definition Function for Cluster Interface at Auto Run
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+
+SCHEDULER_INTERFACE_CM1		65	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_CM.cfg|CM1"
+SCHEDULER_INTERFACE_CM2		65	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_CM.cfg|CM2"
+SCHEDULER_INTERFACE_CM3		65	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_CM.cfg|CM3"
+SCHEDULER_INTERFACE_CM4		65	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_CM.cfg|CM4"
+
+SCHEDULER_INTERFACE_PM1		65	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_PM.cfg|PM1"
+SCHEDULER_INTERFACE_PM2		65	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_PM.cfg|PM2"
+SCHEDULER_INTERFACE_PM3		65	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_PM.cfg|PM3"
+SCHEDULER_INTERFACE_PM4		65	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_PM.cfg|PM4"
+SCHEDULER_INTERFACE_PM5		65	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_PM.cfg|PM5"
+SCHEDULER_INTERFACE_PM6		65	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_PM.cfg|PM6"
+SCHEDULER_INTERFACE_PM7		65	-	SUCCESS
+SCHEDULER_INTERFACE_PM8		65	-	SUCCESS
+SCHEDULER_INTERFACE_PM9		65	-	SUCCESS
+SCHEDULER_INTERFACE_PM10	65	-	SUCCESS
+SCHEDULER_INTERFACE_PM11	65	-	SUCCESS
+SCHEDULER_INTERFACE_PM12	65	-	SUCCESS
+
+SCHEDULER_INTERFACE_TM		65	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_TM.cfg|TM"
+
+SCHEDULER_INTERFACE_FM		65	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_FM.cfg|FM"
+SCHEDULER_INTERFACE_BM1		65	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_BM.cfg|BM1"
+SCHEDULER_INTERFACE_BM2		65	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler/Interface_Run_BM.cfg|BM2"
+SCHEDULER_INTERFACE_BM3		65	-	SUCCESS
+SCHEDULER_INTERFACE_BM4		65	-	SUCCESS
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+# User Definition Function for Cluster Interface at Process
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+
+SCHEDULER_PROCESS_PM1		65	k:/exec/RcpHandler2			ARGUMENT	"FUNCTION/Function_Recipe_Handling/RcpInfo.cfg|PM1"
+SCHEDULER_PROCESS_PM2		65	k:/exec/RcpHandler2			ARGUMENT	"FUNCTION/Function_Recipe_Handling/RcpInfo.cfg|PM2"
+SCHEDULER_PROCESS_PM3		65	k:/exec/RcpHandler2			ARGUMENT	"FUNCTION/Function_Recipe_Handling/RcpInfo.cfg|PM3"
+SCHEDULER_PROCESS_PM4		65	k:/exec/RcpHandler2			ARGUMENT	"FUNCTION/Function_Recipe_Handling/RcpInfo.cfg|PM4"
+SCHEDULER_PROCESS_PM5		65	k:/exec/RcpHandler2			ARGUMENT	"FUNCTION/Function_Recipe_Handling/RcpInfo.cfg|PM5"
+SCHEDULER_PROCESS_PM6		65	k:/exec/RcpHandler2			ARGUMENT	"FUNCTION/Function_Recipe_Handling/RcpInfo.cfg|PM6"
+SCHEDULER_PROCESS_PM7		65	-	SUCCESS
+SCHEDULER_PROCESS_PM8		65	-	SUCCESS
+SCHEDULER_PROCESS_PM9		65	-	SUCCESS
+SCHEDULER_PROCESS_PM10		65	-	SUCCESS
+SCHEDULER_PROCESS_PM11		65	-	SUCCESS
+SCHEDULER_PROCESS_PM12		65	-	SUCCESS
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+# User Definition Function for Cluster Interface at Maintenance
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+
+SCHEDULER_MAINT_ALL		79	K:/EXEC/MsgReplacer             	ARGUMENT      "-|FUNCTION/Function_Scheduler_Maint/Interface_Maint_All.seq"
+
+SCHEDULER_MAINT_CM1		70	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_CM1.cfg"
+SCHEDULER_MAINT_CM2		70	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_CM2.cfg"
+SCHEDULER_MAINT_CM3		70	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_CM3.cfg"
+SCHEDULER_MAINT_CM4		70	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_CM4.cfg"
+
+SCHEDULER_MAINT_PM1		70	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_PM1.cfg"
+SCHEDULER_MAINT_PM2		70	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_PM2.cfg"
+SCHEDULER_MAINT_PM3		70	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_PM3.cfg"
+SCHEDULER_MAINT_PM4		70	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_PM4.cfg"
+SCHEDULER_MAINT_PM5		70	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_PM5.cfg"
+SCHEDULER_MAINT_PM6		70	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_PM6.cfg"
+SCHEDULER_MAINT_PM7		70	-	SUCCESS
+SCHEDULER_MAINT_PM8		70	-	SUCCESS
+SCHEDULER_MAINT_PM9		70	-	SUCCESS
+SCHEDULER_MAINT_PM10		70	-	SUCCESS
+SCHEDULER_MAINT_PM11		70	-	SUCCESS
+SCHEDULER_MAINT_PM12		70	-	SUCCESS
+
+SCHEDULER_MAINT_TM		70	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_TM.cfg"
+
+SCHEDULER_MAINT_FM		70	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_FM.cfg"
+
+SCHEDULER_MAINT_BM1		70	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_BM1.cfg"
+SCHEDULER_MAINT_BM2		70	k:/exec/MsgConverter			ARGUMENT	"FUNCTION/Function_Scheduler_Maint/Interface_Maint_BM2.cfg"
+SCHEDULER_MAINT_BM3		70	-	SUCCESS
+SCHEDULER_MAINT_BM4		70	-	SUCCESS

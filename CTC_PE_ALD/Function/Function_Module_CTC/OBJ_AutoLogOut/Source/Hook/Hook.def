@@ -1,0 +1,13 @@
+; Hook.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Hook"
+DESCRIPTION  'Hook Windows Dynamic Link Library'
+
+HEAPSIZE  1024
+
+SECTIONS
+	SHARDATA	Read Write Shared
+
+EXPORTS
+	StartHook		@1
+	IsUserAction	@2

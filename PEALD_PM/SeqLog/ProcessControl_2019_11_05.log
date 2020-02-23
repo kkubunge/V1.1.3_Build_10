@@ -1,0 +1,949 @@
+11/05 16:38:16.920 ============================================================
+11/05 16:38:16.920 Configration Started
+11/05 16:38:16.920 Found Configration File and Read Configration Data
+11/05 16:38:16.920 LogID(1) => Disabled		
+11/05 16:38:16.920 LogID(2) => Enabled		
+11/05 16:38:16.920 LogID(3) => Disabled		
+11/05 16:38:16.920 LogID(4) => Disabled		
+11/05 16:38:16.921 Recipe Reading
+11/05 16:38:16.922 -----> Recipe Index : 0
+11/05 16:38:16.947 Recipe Reading
+11/05 16:38:16.951 ----------------------------------------------------------
+11/05 16:38:16.952 < Process Simulation Started(Name:Lot_Pre_A.lpr, Type:7) >
+11/05 16:38:16.986 [UPEH] VACUUM_CONTROL[STOP_CARRIER_AR_FLOW] Started
+11/05 16:38:17.094 > [Step:1] Queue_ProcStep Called
+11/05 16:38:17.095 -----> Push:1, 1 0 0 0 0 0 0 0
+11/05 16:38:17.096 -----> PreDownload:1, Download:0, Run:0, End:0
+11/05 16:38:17.096 -----> DnLdReadyStepCount:0 DnLdStepCount:0 RunStepCount:1
+11/05 16:38:17.100 > [Step:2] Queue_ProcStep Called
+11/05 16:38:17.101 -----> Push:2, 2 1 0 0 0 0 0 0
+11/05 16:38:17.102 -----> PreDownload:2, Download:1, Run:0, End:0
+11/05 16:38:17.102 -----> DnLdReadyStepCount:0 DnLdStepCount:0 RunStepCount:1
+11/05 16:38:17.105 > [Step:3] Queue_ProcStep Called
+11/05 16:38:17.106 -----> Push:3, 3 2 1 0 0 0 0 0
+11/05 16:38:17.107 -----> PreDownload:3, Download:2, Run:0, End:0
+11/05 16:38:17.107 -----> DnLdReadyStepCount:0 DnLdStepCount:0 RunStepCount:1
+11/05 16:38:17.110 > [Step:4] Queue_ProcStep Called
+11/05 16:38:17.111 -----> Push:4, 4 3 2 1 0 0 0 0
+11/05 16:38:17.112 -----> PreDownload:4, Download:3, Run:0, End:0
+11/05 16:38:17.113 -----> DnLdReadyStepCount:0 DnLdStepCount:0 RunStepCount:1
+11/05 16:38:17.115 > [Step:5] Queue_ProcStep Called
+11/05 16:38:17.116 -----> Push:5, 5 4 3 2 1 0 0 0
+11/05 16:38:17.117 -----> PreDownload:5, Download:4, Run:0, End:0
+11/05 16:38:17.118 -----> DnLdReadyStepCount:0 DnLdStepCount:0 RunStepCount:1
+11/05 16:38:17.122 > [Step:6] Queue_ProcStep Called
+11/05 16:38:17.123 -----> Push:6, 6 5 4 3 2 1 0 0
+11/05 16:38:17.123 -----> PreDownload:6, Download:5, Run:1, End:0
+11/05 16:38:17.124 ---> [Step:1] Preset_Controller Called
+11/05 16:38:17.125 [INFO] Chuck Move Wait by Opt in First Step
+11/05 16:38:17.126 [UPEH-STEP] RUN CHUCK_CONTROL[RUN 2 17.00 17.00] Started
+11/05 16:38:17.127 [UPEH-STEP] RUN CHUCK_CONTROL[RUN 2 17.00 17.00] End
+11/05 16:38:17.128 ---> [Step:1] Start_ProcessStep Called
+11/05 16:38:17.129 -----> [Step:1] Main Step Checked
+11/05 16:38:17.194 -----=> Valve Recipe Download Started [Step:1]
+11/05 16:38:17.195 -----=====> Simulation ValveRcp Download Start
+11/05 16:38:17.701 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:38:17.702 -----=====> Simulation ValveRcp Download Start
+11/05 16:38:18.217 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:38:18.218 -----=====> [DnLdStep:1] Download Header Checked
+11/05 16:38:18.219 -----=> Valve Recipe Download Finished [Step:1]
+11/05 16:38:18.319 -----=> Valve Recipe Download Started [Step:2]
+11/05 16:38:18.320 -----=====> Simulation ValveRcp Download Start
+11/05 16:38:18.327 -----> [Step:1] VRCP Start Bit Set
+11/05 16:38:21.330 -----> [Step:1] PLC Simulator VRCP Started 
+11/05 16:38:21.331 > [Step:1] First Step Started 
+11/05 16:38:21.334 -----> [Step:1] Timer Started
+11/05 16:38:21.334 -----> [Step:1] Rough Valve Controled
+11/05 16:38:21.335 ---> [Step:1] Waiting for Starting ValveRecipe ...
+11/05 16:38:21.336 -----> Step Sync1! [ChangedStep(PLC):1, nCurStep:1]
+11/05 16:38:21.337 -----> Step Sync2! [ChangedStep(PLC):1, nCurStep:1, nCnt:0]
+11/05 16:38:21.338 -----> [Step:1] Valve Recipe Started
+11/05 16:38:21.339 ---> [Step:1] Set_Controlller Called
+11/05 16:38:21.340 -----> [Step:1] Rough Valve Controled
+11/05 16:38:21.341 -----> [Step:1] Throttle Valve Setting Started
+11/05 16:38:21.342 -----===> Started TV Setting
+11/05 16:38:21.343 -----> [Step:1] MFC Monitoring Started
+11/05 16:38:21.344 -----===> Started MFC Setting
+11/05 16:38:21.345 -----> [Step:1] RF Preset
+11/05 16:38:21.347 -----=====> MFC Set : START_MON_P_O3 1 3500.0 0.0 4 2 400.0 0.0 4 3 1500.0 0.0 4 4 300.0 0.0 4 7 1500.0 0.0 4 8 400.0 0.0 4 9 3500.0 0.0 4
+11/05 16:38:21.348 -----===> Finished MFC Setting
+11/05 16:38:21.348 -----> [Step:1] RF2 Preset
+11/05 16:38:21.349 -----===> Started TV Monitoring
+11/05 16:38:21.351 -----===> Started StgHtr Temp Setting
+11/05 16:38:21.352 -----===> Started StgHtr Temp Setting
+11/05 16:38:21.353 -----===> Finished StgHtr Temp Setting
+11/05 16:38:21.354 -----> [Step:1] ProBgRun Function Started
+11/05 16:38:21.355 -----===> Finished StgHtr Temp Setting
+11/05 16:38:21.356 -----> [Step:1] RF Monitoring Started
+11/05 16:38:21.358 -----> [Step:1] RF2 Monitoring Started
+11/05 16:38:21.368 -----===> Finished TV Setting
+11/05 16:38:21.463 -----> DnLdReadyStepCount:0 DnLdStepCount:1 RunStepCount:3
+11/05 16:38:21.464 ---> [Step:1] Waiting for Finishing Step ...
+11/05 16:38:21.882 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:38:21.883 -----=====> Simulation ValveRcp Download Start
+11/05 16:38:22.382 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:38:22.383 -----=====> [DnLdStep:2] Download Header Checked
+11/05 16:38:22.384 -----=> Valve Recipe Download Finished [Step:2]
+11/05 16:38:22.485 -----=> Valve Recipe Download Started [Step:3]
+11/05 16:38:22.486 -----=====> Simulation ValveRcp Download Start
+11/05 16:38:23.006 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:38:23.007 -----=====> Simulation ValveRcp Download Start
+11/05 16:38:23.520 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:38:23.521 -----=====> [DnLdStep:3] Download Header Checked
+11/05 16:38:23.521 -----=> Valve Recipe Download Finished [Step:3]
+11/05 16:38:23.622 -----=> Valve Recipe Download Started [Step:4]
+11/05 16:38:23.623 -----=====> Simulation ValveRcp Download Start
+11/05 16:38:24.144 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:38:24.145 -----=====> Simulation ValveRcp Download Start
+11/05 16:38:24.643 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:38:24.644 -----=====> [DnLdStep:4] Download Header Checked
+11/05 16:38:24.645 -----=> Valve Recipe Download Finished [Step:4]
+11/05 16:38:24.745 -----=> Valve Recipe Download Started [Step:5]
+11/05 16:38:24.746 -----=====> Simulation ValveRcp Download Start
+11/05 16:38:25.267 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:38:25.268 -----=====> Simulation ValveRcp Download Start
+11/05 16:38:25.782 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:38:25.783 -----=====> [DnLdStep:5] Download Header Checked
+11/05 16:38:25.784 -----=> Valve Recipe Download Finished [Step:5]
+11/05 16:38:31.351 -----> Step Sync Change! [ChangedStep(PLC):2, nCurStep:1]
+11/05 16:38:31.352 -----> Step Time Is Invalid(Warning Log) !(Current:14.22 <-> Target:10.00)
+11/05 16:38:31.353 > [Step:1 -> Step:2] Step Exchage is Checked 
+11/05 16:38:31.365 > [Step:7] Queue_ProcStep Called
+11/05 16:38:31.366 -----> Push:7, 7 6 5 4 3 2 1 0
+11/05 16:38:31.366 -----> PreDownload:7, Download:6, Run:2, End:1
+11/05 16:38:31.367 -----> Start Killing Process Monitoring
+11/05 16:38:31.368 -----> Killed Monitoring Function
+11/05 16:38:31.369 -----> Killed RF Monitoring Function
+11/05 16:38:31.370 -----> Killed RF Monitoring Function
+11/05 16:38:31.371 ---> [Step:2] Preset_Controller Called
+11/05 16:38:31.372 [INFO] Chuck Move Skip by Same Wait Opt and Same Pos
+11/05 16:38:31.373 ---> [Step:2] Start_ProcessStep Called
+11/05 16:38:31.375 -----> [Step:2] Normal(Not Main) Step Checked
+11/05 16:38:31.377 ---> [Step:2] Waiting for Starting ValveRecipe ...
+11/05 16:38:31.378 -----> Step Sync1! [ChangedStep(PLC):2, nCurStep:2]
+11/05 16:38:31.379 -----> Step Sync2! [ChangedStep(PLC):2, nCurStep:2, nCnt:0]
+11/05 16:38:31.380 -----> [Step:2] Valve Recipe Started
+11/05 16:38:31.381 ---> [Step:2] Set_Controlller Called
+11/05 16:38:31.382 -----> [Step:2] Rough Valve Controled
+11/05 16:38:31.383 -----> [Step:2] Throttle Valve Setting Started
+11/05 16:38:31.384 -----===> Started TV Setting
+11/05 16:38:31.385 -----> [Step:2] MFC Monitoring Started
+11/05 16:38:31.386 -----===> Started MFC Setting
+11/05 16:38:31.387 -----=> Valve Recipe Download Started [Step:6]
+11/05 16:38:31.388 -----=====> Simulation ValveRcp Download Start
+11/05 16:38:31.389 -----===> Finished TV Setting
+11/05 16:38:31.390 -----=====> MFC Set : START_MON_P_O3 1 3500.0 0.0 4 2 400.0 0.0 4 3 1500.0 0.0 4 4 300.0 0.0 4 7 1500.0 0.0 4 8 400.0 0.0 4 9 3500.0 0.0 4
+11/05 16:38:31.391 -----===> Finished MFC Setting
+11/05 16:38:31.392 -----> [Step:2] RF Preset
+11/05 16:38:31.395 -----> [Step:2] RF2 Preset
+11/05 16:38:31.396 -----===> Started TV Monitoring
+11/05 16:38:31.398 -----===> Started StgHtr Temp Setting
+11/05 16:38:31.399 -----===> Started StgHtr Temp Setting
+11/05 16:38:31.400 -----===> Finished StgHtr Temp Setting
+11/05 16:38:31.401 -----===> Finished StgHtr Temp Setting
+11/05 16:38:31.913 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:38:31.914 -----=====> Simulation ValveRcp Download Start
+11/05 16:38:32.412 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:38:32.413 -----=====> [DnLdStep:6] Download Header Checked
+11/05 16:38:32.414 -----=> Valve Recipe Download Finished [Step:6]
+11/05 16:38:32.415 -----> [Step:2] ProBgRun Function Started
+11/05 16:38:32.417 -----> [Step:2] RF Monitoring Started
+11/05 16:38:32.419 -----> [Step:2] RF2 Monitoring Started
+11/05 16:38:32.521 -----> DnLdReadyStepCount:0 DnLdStepCount:6 RunStepCount:7
+11/05 16:38:32.522 ---> [Step:2] Waiting for Finishing Step ...
+11/05 16:38:33.363 -----> Step Sync Change! [ChangedStep(PLC):3, nCurStep:2]
+11/05 16:38:33.364 > [Step:2 -> Step:3] Step Exchage is Checked 
+11/05 16:38:33.375 > [Step:0] Queue_ProcStep Called
+11/05 16:38:33.376 -----> Push:0, 0 7 6 5 4 3 2 1
+11/05 16:38:33.377 -----> PreDownload:0, Download:7, Run:3, End:2
+11/05 16:38:33.378 -----> Start Killing Process Monitoring
+11/05 16:38:33.378 -----> Killed Monitoring Function
+11/05 16:38:33.380 -----> Killed RF Monitoring Function
+11/05 16:38:33.381 -----> Killed RF Monitoring Function
+11/05 16:38:33.382 ---> [Step:3] Preset_Controller Called
+11/05 16:38:33.383 [INFO] Chuck Move Skip by Same Wait Opt and Same Pos
+11/05 16:38:33.384 ---> [Step:3] Start_ProcessStep Called
+11/05 16:38:33.386 -----> [Step:3] Main Step Checked
+11/05 16:38:33.389 ---> [Step:3] Waiting for Starting ValveRecipe ...
+11/05 16:38:33.390 -----> Step Sync1! [ChangedStep(PLC):3, nCurStep:3]
+11/05 16:38:33.391 -----> Step Sync2! [ChangedStep(PLC):3, nCurStep:3, nCnt:0]
+11/05 16:38:33.392 -----> [Step:3] Valve Recipe Started
+11/05 16:38:33.393 ---> [Step:3] Set_Controlller Called
+11/05 16:38:33.394 -----> [Step:3] Rough Valve Controled
+11/05 16:38:33.396 -----> [Step:3] Throttle Valve Setting Started
+11/05 16:38:33.397 -----===> Started TV Setting
+11/05 16:38:33.398 -----> [Step:3] MFC Monitoring Started
+11/05 16:38:33.399 -----===> Started MFC Setting
+11/05 16:38:33.400 -----===> Started TV Monitoring
+11/05 16:38:33.401 -----===> Finished TV Setting
+11/05 16:38:33.402 -----=====> MFC Set : START_MON_P_O3 1 3500.0 0.0 4 2 400.0 0.0 4 3 1500.0 0.0 4 4 300.0 0.0 4 7 1500.0 0.0 4 8 400.0 0.0 4 9 3500.0 0.0 4
+11/05 16:38:33.403 -----===> Finished MFC Setting
+11/05 16:38:33.404 -----===> Started StgHtr Temp Setting
+11/05 16:38:33.405 -----===> Finished StgHtr Temp Setting
+11/05 16:38:33.406 -----===> Started StgHtr Temp Setting
+11/05 16:38:33.407 -----===> Finished StgHtr Temp Setting
+11/05 16:38:33.415 -----=> Valve Recipe Download Started [Step:7]
+11/05 16:38:33.416 -----=====> Simulation ValveRcp Download Start
+11/05 16:38:33.941 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:38:33.942 -----=====> Simulation ValveRcp Download Start
+11/05 16:38:34.410 -----> [Step:3] ProBgRun Function Started
+11/05 16:38:34.412 -----> [Step:3] RF Monitoring Started
+11/05 16:38:34.414 -----> [Step:3] RF2 Monitoring Started
+11/05 16:38:34.440 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:38:34.441 -----=====> [DnLdStep:7] Download Header Checked
+11/05 16:38:34.442 -----=> Valve Recipe Download Finished [Step:7]
+11/05 16:38:34.520 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:38:34.521 ---> [Step:3] Waiting for Finishing Step ...
+11/05 16:39:04.626 -----> Step Sync Change! [ChangedStep(PLC):4, nCurStep:3]
+11/05 16:39:04.627 > [Step:3 -> Step:4] Step Exchage is Checked 
+11/05 16:39:04.629 [RF_COUNT_MONITOR] CHECK_COUNT 7 25 25
+11/05 16:39:04.651 > [Step:0] Queue_ProcStep Called
+11/05 16:39:04.652 -----> Push:0, 0 0 7 6 5 4 3 2
+11/05 16:39:04.653 -----> PreDownload:0, Download:0, Run:4, End:3
+11/05 16:39:04.654 -----> Start Killing Process Monitoring
+11/05 16:39:04.655 -----> Killed Monitoring Function
+11/05 16:39:04.656 -----> Killed RF Monitoring Function
+11/05 16:39:04.657 -----> Killed RF Monitoring Function
+11/05 16:39:04.658 ---> [Step:4] Preset_Controller Called
+11/05 16:39:04.659 [INFO] Chuck Move Skip by Same Wait Opt and Same Pos
+11/05 16:39:04.660 ---> [Step:4] Start_ProcessStep Called
+11/05 16:39:04.662 -----> [Step:4] Main Step Checked
+11/05 16:39:04.665 ---> [Step:4] Waiting for Starting ValveRecipe ...
+11/05 16:39:04.666 -----> Step Sync1! [ChangedStep(PLC):4, nCurStep:4]
+11/05 16:39:04.667 -----> Step Sync2! [ChangedStep(PLC):4, nCurStep:4, nCnt:0]
+11/05 16:39:04.668 -----> [Step:4] Valve Recipe Started
+11/05 16:39:04.669 ---> [Step:4] Set_Controlller Called
+11/05 16:39:04.670 -----> [Step:4] Rough Valve Controled
+11/05 16:39:04.671 -----> [Step:4] Throttle Valve Setting Started
+11/05 16:39:04.672 -----===> Started TV Setting
+11/05 16:39:04.673 -----> [Step:4] MFC Monitoring Started
+11/05 16:39:04.674 -----===> Started TV Monitoring
+11/05 16:39:04.675 -----===> Started MFC Setting
+11/05 16:39:04.677 -----===> Finished TV Setting
+11/05 16:39:04.678 -----===> Started StgHtr Temp Setting
+11/05 16:39:04.679 -----===> Finished StgHtr Temp Setting
+11/05 16:39:04.680 -----> [Step:4] ProBgRun Function Started
+11/05 16:39:04.681 -----=====> MFC Set : START_MON_P_O3 1 3500.0 0.0 4 2 400.0 0.0 4 3 1500.0 0.0 4 4 300.0 0.0 4 7 1500.0 0.0 4 8 400.0 0.0 4 9 3500.0 0.0 4
+11/05 16:39:04.682 -----===> Finished MFC Setting
+11/05 16:39:04.683 -----> [Step:4] RF Monitoring Started
+11/05 16:39:04.684 -----===> Started StgHtr Temp Setting
+11/05 16:39:04.685 -----===> Finished StgHtr Temp Setting
+11/05 16:39:04.686 -----> [Step:4] RF2 Monitoring Started
+11/05 16:39:04.784 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:39:04.785 ---> [Step:4] Waiting for Finishing Step ...
+11/05 16:39:09.649 -----> Step Sync Change! [ChangedStep(PLC):5, nCurStep:4]
+11/05 16:39:09.650 > [Step:4 -> Step:5] Step Exchage is Checked 
+11/05 16:39:09.663 > [Step:0] Queue_ProcStep Called
+11/05 16:39:09.664 -----> Push:0, 0 0 0 7 6 5 4 3
+11/05 16:39:09.665 -----> PreDownload:0, Download:0, Run:5, End:4
+11/05 16:39:09.666 -----> Start Killing Process Monitoring
+11/05 16:39:09.667 -----> Killed Monitoring Function
+11/05 16:39:09.668 -----> Killed RF Monitoring Function
+11/05 16:39:09.669 -----> Killed RF Monitoring Function
+11/05 16:39:09.670 ---> [Step:5] Preset_Controller Called
+11/05 16:39:09.672 [INFO] Chuck Move Skip by Same Wait Opt and Same Pos
+11/05 16:39:09.673 ---> [Step:5] Start_ProcessStep Called
+11/05 16:39:09.674 -----> [Step:5] Main Step Checked
+11/05 16:39:09.676 ---> [Step:5] Waiting for Starting ValveRecipe ...
+11/05 16:39:09.677 -----> Step Sync1! [ChangedStep(PLC):5, nCurStep:5]
+11/05 16:39:09.678 -----> Step Sync2! [ChangedStep(PLC):5, nCurStep:5, nCnt:0]
+11/05 16:39:09.679 -----> [Step:5] Valve Recipe Started
+11/05 16:39:09.680 ---> [Step:5] Set_Controlller Called
+11/05 16:39:09.681 -----> [Step:5] Rough Valve Controled
+11/05 16:39:09.683 -----> [Step:5] Throttle Valve Setting Started
+11/05 16:39:09.684 -----===> Started TV Setting
+11/05 16:39:09.685 -----> [Step:5] MFC Monitoring Started
+11/05 16:39:09.686 -----===> Started TV Monitoring
+11/05 16:39:09.687 -----===> Started MFC Setting
+11/05 16:39:09.688 -----===> Finished TV Setting
+11/05 16:39:09.689 -----===> Started StgHtr Temp Setting
+11/05 16:39:09.690 -----===> Finished StgHtr Temp Setting
+11/05 16:39:09.691 -----=====> MFC Set : START_MON_P_O3 1 3500.0 0.0 4 2 400.0 0.0 4 3 1500.0 0.0 4 4 300.0 0.0 4 7 1500.0 0.0 4 8 400.0 0.0 4 9 3500.0 0.0 4
+11/05 16:39:09.692 -----===> Finished MFC Setting
+11/05 16:39:09.693 -----===> Started StgHtr Temp Setting
+11/05 16:39:09.695 -----===> Finished StgHtr Temp Setting
+11/05 16:39:10.697 -----> [Step:5] ProBgRun Function Started
+11/05 16:39:10.699 -----> [Step:5] RF Monitoring Started
+11/05 16:39:10.701 -----> [Step:5] RF2 Monitoring Started
+11/05 16:39:10.807 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:39:10.808 ---> [Step:5] Waiting for Finishing Step ...
+11/05 16:39:14.673 -----> Step Sync Change! [ChangedStep(PLC):6, nCurStep:5]
+11/05 16:39:14.674 > [Step:5 -> Step:6] Step Exchage is Checked 
+11/05 16:39:14.685 > [Step:0] Queue_ProcStep Called
+11/05 16:39:14.686 -----> Push:0, 0 0 0 0 7 6 5 4
+11/05 16:39:14.687 -----> PreDownload:0, Download:0, Run:6, End:5
+11/05 16:39:14.688 -----> Start Killing Process Monitoring
+11/05 16:39:14.689 -----> Killed Monitoring Function
+11/05 16:39:14.690 -----> Killed RF Monitoring Function
+11/05 16:39:14.691 -----> Killed RF Monitoring Function
+11/05 16:39:14.692 ---> [Step:6] Preset_Controller Called
+11/05 16:39:14.694 [INFO] Chuck Move Skip by Same Wait Opt and Same Pos
+11/05 16:39:14.695 ---> [Step:6] Start_ProcessStep Called
+11/05 16:39:14.696 -----> [Step:6] Main Step Checked
+11/05 16:39:14.699 ---> [Step:6] Waiting for Starting ValveRecipe ...
+11/05 16:39:14.700 -----> Step Sync1! [ChangedStep(PLC):6, nCurStep:6]
+11/05 16:39:14.701 -----> Step Sync2! [ChangedStep(PLC):6, nCurStep:6, nCnt:0]
+11/05 16:39:14.702 -----> [Step:6] Valve Recipe Started
+11/05 16:39:14.703 ---> [Step:6] Set_Controlller Called
+11/05 16:39:14.704 -----> [Step:6] Rough Valve Controled
+11/05 16:39:14.705 -----> [Step:6] Throttle Valve Setting Started
+11/05 16:39:14.707 -----===> Started TV Setting
+11/05 16:39:14.708 -----> [Step:6] MFC Monitoring Started
+11/05 16:39:14.709 -----===> Started TV Monitoring
+11/05 16:39:14.710 -----===> Started MFC Setting
+11/05 16:39:14.711 -----===> Started StgHtr Temp Setting
+11/05 16:39:14.712 -----===> Finished StgHtr Temp Setting
+11/05 16:39:14.713 -----===> Finished TV Setting
+11/05 16:39:14.714 -----===> Started StgHtr Temp Setting
+11/05 16:39:14.716 -----=====> MFC Set : START_MON_P_O3 1 3500.0 0.0 4 2 400.0 0.0 4 3 1500.0 0.0 4 4 300.0 0.0 4 7 1500.0 0.0 4 8 400.0 0.0 4 9 3500.0 0.0 4
+11/05 16:39:14.717 -----===> Finished MFC Setting
+11/05 16:39:14.718 -----===> Finished StgHtr Temp Setting
+11/05 16:39:15.720 -----> [Step:6] ProBgRun Function Started
+11/05 16:39:15.722 -----> [Step:6] RF Monitoring Started
+11/05 16:39:15.724 -----> [Step:6] RF2 Monitoring Started
+11/05 16:39:15.829 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:39:15.830 ---> [Step:6] Waiting for Finishing Step ...
+11/05 16:39:24.688 -----> Step Sync Change! [ChangedStep(PLC):7, nCurStep:6]
+11/05 16:39:24.689 > [Step:6 -> Step:7] Step Exchage is Checked 
+11/05 16:39:24.700 > [Step:0] Queue_ProcStep Called
+11/05 16:39:24.701 -----> Push:0, 0 0 0 0 0 7 6 5
+11/05 16:39:24.702 -----> PreDownload:0, Download:0, Run:7, End:6
+11/05 16:39:24.703 -----> Start Killing Process Monitoring
+11/05 16:39:24.704 -----> Killed Monitoring Function
+11/05 16:39:24.705 -----> Killed RF Monitoring Function
+11/05 16:39:24.706 -----> Killed RF Monitoring Function
+11/05 16:39:24.708 ---> [Step:7] Preset_Controller Called
+11/05 16:39:24.709 [INFO] Chuck Move Skip by Same Wait Opt and Same Pos
+11/05 16:39:24.710 ---> [Step:7] Start_ProcessStep Called
+11/05 16:39:24.711 -----> [Step:7] Main Step Checked but Range is Over for MainStep Number
+11/05 16:39:24.714 ---> [Step:7] Waiting for Starting ValveRecipe ...
+11/05 16:39:24.715 -----> Step Sync1! [ChangedStep(PLC):7, nCurStep:7]
+11/05 16:39:24.716 -----> Step Sync2! [ChangedStep(PLC):7, nCurStep:7, nCnt:0]
+11/05 16:39:24.717 -----> [Step:7] Valve Recipe Started
+11/05 16:39:24.718 ---> [Step:7] Set_Controlller Called
+11/05 16:39:24.719 -----> [Step:7] Rough Valve Controled
+11/05 16:39:24.721 -----> [Step:7] Throttle Valve Setting Started
+11/05 16:39:24.722 -----===> Started TV Setting
+11/05 16:39:24.723 -----> [Step:7] MFC Monitoring Started
+11/05 16:39:24.724 -----===> Started TV Monitoring
+11/05 16:39:24.725 -----===> Started MFC Setting
+11/05 16:39:24.726 -----===> Finished MFC Setting
+11/05 16:39:24.728 -----===> Started StgHtr Temp Setting
+11/05 16:39:24.729 -----===> Finished StgHtr Temp Setting
+11/05 16:39:24.730 -----===> Started StgHtr Temp Setting
+11/05 16:39:24.731 -----===> Finished StgHtr Temp Setting
+11/05 16:39:24.732 -----===> Finished TV Setting
+11/05 16:39:25.735 -----> [Step:7] ProBgRun Function Started
+11/05 16:39:25.737 -----> [Step:7] RF Monitoring Started
+11/05 16:39:25.739 -----> [Step:7] RF2 Monitoring Started
+11/05 16:39:25.844 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:39:25.845 ---> [Step:7] Waiting for Finishing Step ...
+11/05 16:39:29.712 -----> Step Sync Change! [ChangedStep(PLC):7, nCurStep:7] [PauseDI:1, RunDI:1, GbInt:0, DnErr1~5:0,0,0,0,0]
+11/05 16:39:29.713 > [Step:7 -> Step:0] Step Exchage is Checked 
+11/05 16:39:29.722 > [Step:0] Queue_ProcStep Called
+11/05 16:39:29.723 -----> Push:0, 0 0 0 0 0 0 7 6
+11/05 16:39:29.724 -----> PreDownload:0, Download:0, Run:0, End:7
+11/05 16:39:29.725 -----> Start Killing Process Monitoring
+11/05 16:39:29.726 -----> Killed Monitoring Function
+11/05 16:39:29.727 -----> Killed RF Monitoring Function
+11/05 16:39:29.728 -----> Killed RF Monitoring Function
+11/05 16:39:29.729 ---> [Step:0] Start_ProcessStep Called
+11/05 16:39:29.731 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:39:29.734 > [Step:0] Queue_ProcStep Called
+11/05 16:39:29.735 -----> Push:0, 0 0 0 0 0 0 0 7
+11/05 16:39:29.736 -----> PreDownload:0, Download:0, Run:0, End:0
+11/05 16:39:29.737 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:39:29.740 > [Step:0] Queue_ProcStep Called
+11/05 16:39:29.741 -----> Push:0, 0 0 0 0 0 0 0 0
+11/05 16:39:29.742 -----> PreDownload:0, Download:0, Run:0, End:0
+11/05 16:39:29.743 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:39:29.746 [UPEH-END] AbortAllFunc Started
+11/05 16:39:30.758 -----> Killed RF Monitoring Function
+11/05 16:39:30.759 -----> Killed RF2 Monitoring Function
+11/05 16:39:30.761 -----> Killed Heat Exchange Monitoring Function
+11/05 16:39:30.765 [UPEH-END] StopProcess Started
+11/05 16:39:30.766 -----> RF Set 0
+11/05 16:39:30.769 -----> RF2 Set 0
+11/05 16:39:30.772 -----> AbortGas Started
+11/05 16:39:30.883 -----> FastRough Started
+11/05 16:39:30.998 [INFO] SET SWAP_PURGE[3]
+11/05 16:39:30.999 [UPEH-END] StopStepTimer Started
+11/05 16:39:31.003 [UPEH-END] CHUCK_CONTROL[HOME 2] Started
+11/05 16:39:31.004 [UPEH-END] CHUCK_CONTROL[HOME 2] End
+11/05 16:39:31.005 < Process Finished >
+11/05 16:39:31.006 ----------------------------------------------------------
+11/05 16:39:49.837 ============================================================
+11/05 16:39:49.837 Configration Started
+11/05 16:39:49.837 Found Configration File and Read Configration Data
+11/05 16:39:49.837 LogID(1) => Disabled		
+11/05 16:39:49.837 LogID(2) => Enabled		
+11/05 16:39:49.837 LogID(3) => Disabled		
+11/05 16:39:49.837 LogID(4) => Disabled		
+11/05 16:39:49.839 Recipe Reading
+11/05 16:39:49.840 -----> Recipe Index : 0
+11/05 16:39:49.851 Recipe Reading
+11/05 16:39:49.855 ----------------------------------------------------------
+11/05 16:39:49.856 < Process Simulation Started(Name:SW_100.rcp, Type:1) >
+11/05 16:39:49.895 [UPEH] Init_Process Started
+11/05 16:39:49.900 [UPEH] ReadyProcess Started
+11/05 16:39:49.901 [UPEH] VACUUM_CONTROL[STOP_CARRIER_AR_FLOW] Started
+11/05 16:39:49.905 [UPEH] ABORT_GAS Started
+11/05 16:39:50.009 [UPEH] RunNormalProcess Started
+11/05 16:39:50.010 > [Step:1] Queue_ProcStep Called
+11/05 16:39:50.011 -----> Push:1, 1 0 0 0 0 0 0 0
+11/05 16:39:50.012 -----> PreDownload:1, Download:0, Run:0, End:0
+11/05 16:39:50.013 -----> DnLdReadyStepCount:0 DnLdStepCount:0 RunStepCount:1
+11/05 16:39:50.018 > [Step:2] Queue_ProcStep Called
+11/05 16:39:50.019 -----> Push:2, 2 1 0 0 0 0 0 0
+11/05 16:39:50.020 -----> PreDownload:2, Download:1, Run:0, End:0
+11/05 16:39:50.021 -----> DnLdReadyStepCount:0 DnLdStepCount:0 RunStepCount:1
+11/05 16:39:50.025 > [Step:3] Queue_ProcStep Called
+11/05 16:39:50.026 -----> Push:3, 3 2 1 0 0 0 0 0
+11/05 16:39:50.027 -----> PreDownload:3, Download:2, Run:0, End:0
+11/05 16:39:50.028 -----> DnLdReadyStepCount:0 DnLdStepCount:0 RunStepCount:1
+11/05 16:39:50.032 > [Step:4] Queue_ProcStep Called
+11/05 16:39:50.033 -----> Push:4, 4 3 2 1 0 0 0 0
+11/05 16:39:50.034 -----> PreDownload:4, Download:3, Run:0, End:0
+11/05 16:39:50.035 -----> DnLdReadyStepCount:0 DnLdStepCount:0 RunStepCount:1
+11/05 16:39:50.039 > [Step:5] Queue_ProcStep Called
+11/05 16:39:50.041 -----> Push:5, 5 4 3 2 1 0 0 0
+11/05 16:39:50.042 -----> PreDownload:5, Download:4, Run:0, End:0
+11/05 16:39:50.043 -----> DnLdReadyStepCount:0 DnLdStepCount:0 RunStepCount:1
+11/05 16:39:50.046 > [Step:6] Queue_ProcStep Called
+11/05 16:39:50.047 -----> Push:6, 6 5 4 3 2 1 0 0
+11/05 16:39:50.048 -----> PreDownload:6, Download:5, Run:1, End:0
+11/05 16:39:50.049 ---> [Step:1] Preset_Controller Called
+11/05 16:39:50.050 [INFO] Chuck Move Wait by Opt in First Step
+11/05 16:39:50.051 [UPEH-STEP] RUN CHUCK_CONTROL[RUN 2 17.00 17.00] Started
+11/05 16:39:50.052 [UPEH-STEP] RUN CHUCK_CONTROL[RUN 2 17.00 17.00] End
+11/05 16:39:50.053 ---> [Step:1] Start_ProcessStep Called
+11/05 16:39:50.054 -----> [Step:1] Normal(Not Main) Step Checked
+11/05 16:39:50.110 -----=> Valve Recipe Download Started [Step:1]
+11/05 16:39:50.111 -----=====> Simulation ValveRcp Download Start
+11/05 16:39:50.631 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:39:50.632 -----=====> Simulation ValveRcp Download Start
+11/05 16:39:51.130 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:39:51.131 -----=====> [DnLdStep:1] Download Header Checked
+11/05 16:39:51.132 -----=> Valve Recipe Download Finished [Step:1]
+11/05 16:39:51.147 -----> [Step:1] VRCP Start Bit Set
+11/05 16:39:51.150 -----> [Step:1] PLC Simulator VRCP Started 
+11/05 16:39:51.151 > [Step:1] First Step Started 
+11/05 16:39:51.153 -----> [Step:1] Timer Started
+11/05 16:39:51.154 -----> [Step:1] Rough Valve Controled
+11/05 16:39:51.155 ---> [Step:1] Waiting for Starting ValveRecipe ...
+11/05 16:39:51.156 -----> Step Sync1! [ChangedStep(PLC):1, nCurStep:1]
+11/05 16:39:51.157 -----> Step Sync2! [ChangedStep(PLC):1, nCurStep:1, nCnt:0]
+11/05 16:39:51.158 -----> [Step:1] Valve Recipe Started
+11/05 16:39:51.159 ---> [Step:1] Set_Controlller Called
+11/05 16:39:51.160 -----> [Step:1] Rough Valve Controled
+11/05 16:39:51.161 -----> [Step:1] Throttle Valve Setting Started
+11/05 16:39:51.162 -----===> Started TV Setting
+11/05 16:39:51.163 -----> [Step:1] MFC Monitoring Started
+11/05 16:39:51.164 -----===> Started MFC Setting
+11/05 16:39:51.166 -----> [Step:1] RF Preset
+11/05 16:39:51.167 -----=====> MFC Set : START_MON_P_O3 1 3500.0 0.0 4 2 400.0 0.0 4 3 1500.0 0.0 4 4 300.0 0.0 4 7 1500.0 0.0 4 8 400.0 0.0 4 9 3500.0 0.0 4
+11/05 16:39:51.168 -----===> Finished MFC Setting
+11/05 16:39:51.169 -----> [Step:1] RF2 Preset
+11/05 16:39:51.170 -----===> Started TV Monitoring
+11/05 16:39:51.172 -----===> Finished TV Setting
+11/05 16:39:51.173 -----===> Started StgHtr Temp Setting
+11/05 16:39:51.174 -----===> Finished StgHtr Temp Setting
+11/05 16:39:51.175 -----===> Started StgHtr Temp Setting
+11/05 16:39:51.176 -----> [Step:1] ProBgRun Function Started
+11/05 16:39:51.177 -----===> Finished StgHtr Temp Setting
+11/05 16:39:51.178 -----> [Step:1] RF Monitoring Started
+11/05 16:39:51.181 -----> [Step:1] RF2 Monitoring Started
+11/05 16:39:51.233 -----=> Valve Recipe Download Started [Step:2]
+11/05 16:39:51.234 -----=====> Simulation ValveRcp Download Start
+11/05 16:39:51.286 -----> DnLdReadyStepCount:0 DnLdStepCount:1 RunStepCount:3
+11/05 16:39:51.287 ---> [Step:1] Waiting for Finishing Step ...
+11/05 16:39:51.754 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:39:51.755 -----=====> Simulation ValveRcp Download Start
+11/05 16:39:52.269 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:39:52.270 -----=====> [DnLdStep:2] Download Header Checked
+11/05 16:39:52.271 -----=> Valve Recipe Download Finished [Step:2]
+11/05 16:39:52.372 -----=> Valve Recipe Download Started [Step:3]
+11/05 16:39:52.373 -----=====> Simulation ValveRcp Download Start
+11/05 16:39:52.893 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:39:52.894 -----=====> Simulation ValveRcp Download Start
+11/05 16:39:53.392 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:39:53.393 -----=====> [DnLdStep:3] Download Header Checked
+11/05 16:39:53.394 -----=> Valve Recipe Download Finished [Step:3]
+11/05 16:39:53.495 -----=> Valve Recipe Download Started [Step:4]
+11/05 16:39:53.496 -----=====> Simulation ValveRcp Download Start
+11/05 16:39:54.016 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:39:54.017 -----=====> Simulation ValveRcp Download Start
+11/05 16:39:54.531 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:39:54.532 -----=====> [DnLdStep:4] Download Header Checked
+11/05 16:39:54.533 -----=> Valve Recipe Download Finished [Step:4]
+11/05 16:39:54.634 -----=> Valve Recipe Download Started [Step:5]
+11/05 16:39:54.635 -----=====> Simulation ValveRcp Download Start
+11/05 16:39:55.155 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:39:55.156 -----=====> Simulation ValveRcp Download Start
+11/05 16:39:55.654 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:39:55.655 -----=====> [DnLdStep:5] Download Header Checked
+11/05 16:39:55.656 -----=> Valve Recipe Download Finished [Step:5]
+11/05 16:40:01.176 -----> Step Sync Change! [ChangedStep(PLC):2, nCurStep:1]
+11/05 16:40:01.177 > [Step:1 -> Step:2] Step Exchage is Checked 
+11/05 16:40:01.186 > [Step:7] Queue_ProcStep Called
+11/05 16:40:01.187 -----> Push:7, 7 6 5 4 3 2 1 0
+11/05 16:40:01.188 -----> PreDownload:7, Download:6, Run:2, End:1
+11/05 16:40:01.189 -----> Start Killing Process Monitoring
+11/05 16:40:01.190 -----> Killed Monitoring Function
+11/05 16:40:01.191 -----> Killed RF Monitoring Function
+11/05 16:40:01.192 -----> Killed RF Monitoring Function
+11/05 16:40:01.193 ---> [Step:2] Preset_Controller Called
+11/05 16:40:01.194 [INFO] Chuck Move Skip by Same Wait Opt and Same Pos
+11/05 16:40:01.195 ---> [Step:2] Start_ProcessStep Called
+11/05 16:40:01.196 -----> [Step:2] Normal(Not Main) Step Checked
+11/05 16:40:01.198 ---> [Step:2] Waiting for Starting ValveRecipe ...
+11/05 16:40:01.199 -----> Step Sync1! [ChangedStep(PLC):2, nCurStep:2]
+11/05 16:40:01.200 -----> Step Sync2! [ChangedStep(PLC):2, nCurStep:2, nCnt:0]
+11/05 16:40:01.201 -----> [Step:2] Valve Recipe Started
+11/05 16:40:01.202 ---> [Step:2] Set_Controlller Called
+11/05 16:40:01.203 -----> [Step:2] Rough Valve Controled
+11/05 16:40:01.204 -----> [Step:2] Throttle Valve Setting Started
+11/05 16:40:01.205 -----===> Started TV Setting
+11/05 16:40:01.206 -----> [Step:2] MFC Monitoring Started
+11/05 16:40:01.208 -----===> Started MFC Setting
+11/05 16:40:01.209 -----> [Step:2] RF Preset
+11/05 16:40:01.210 -----===> Finished TV Setting
+11/05 16:40:01.211 -----=====> MFC Set : START_MON_P_O3 1 3500.0 0.0 4 2 400.0 0.0 4 3 1500.0 0.0 4 4 300.0 0.0 4 7 1500.0 0.0 4 8 400.0 0.0 4 9 3500.0 0.0 4
+11/05 16:40:01.212 -----===> Finished MFC Setting
+11/05 16:40:01.213 -----> [Step:2] RF2 Preset
+11/05 16:40:01.214 -----===> Started TV Monitoring
+11/05 16:40:01.216 -----===> Started StgHtr Temp Setting
+11/05 16:40:01.217 -----===> Started StgHtr Temp Setting
+11/05 16:40:01.218 -----===> Finished StgHtr Temp Setting
+11/05 16:40:01.219 -----===> Finished StgHtr Temp Setting
+11/05 16:40:01.257 -----=> Valve Recipe Download Started [Step:6]
+11/05 16:40:01.258 -----=====> Simulation ValveRcp Download Start
+11/05 16:40:01.785 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:40:01.786 -----=====> Simulation ValveRcp Download Start
+11/05 16:40:02.224 -----> [Step:2] ProBgRun Function Started
+11/05 16:40:02.226 -----> [Step:2] RF Monitoring Started
+11/05 16:40:02.228 -----> [Step:2] RF2 Monitoring Started
+11/05 16:40:02.300 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:40:02.301 -----=====> [DnLdStep:6] Download Header Checked
+11/05 16:40:02.302 -----=> Valve Recipe Download Finished [Step:6]
+11/05 16:40:02.331 -----> DnLdReadyStepCount:0 DnLdStepCount:6 RunStepCount:7
+11/05 16:40:02.332 ---> [Step:2] Waiting for Finishing Step ...
+11/05 16:40:03.174 -----> Step Sync Change! [ChangedStep(PLC):3, nCurStep:2]
+11/05 16:40:03.175 > [Step:2 -> Step:3] Step Exchage is Checked 
+11/05 16:40:03.189 > [Step:0] Queue_ProcStep Called
+11/05 16:40:03.190 -----> Push:0, 0 7 6 5 4 3 2 1
+11/05 16:40:03.191 -----> PreDownload:0, Download:7, Run:3, End:2
+11/05 16:40:03.192 -----> Start Killing Process Monitoring
+11/05 16:40:03.193 -----> Killed Monitoring Function
+11/05 16:40:03.194 -----> Killed RF Monitoring Function
+11/05 16:40:03.195 -----> Killed RF Monitoring Function
+11/05 16:40:03.197 ---> [Step:3] Preset_Controller Called
+11/05 16:40:03.198 [INFO] Chuck Move Skip by Same Wait Opt and Same Pos
+11/05 16:40:03.199 ---> [Step:3] Start_ProcessStep Called
+11/05 16:40:03.200 -----> [Step:3] Main Step Checked
+11/05 16:40:03.203 ---> [Step:3] Waiting for Starting ValveRecipe ...
+11/05 16:40:03.204 -----=> Valve Recipe Download Started [Step:7]
+11/05 16:40:03.205 -----=====> Simulation ValveRcp Download Start
+11/05 16:40:03.206 -----> Step Sync1! [ChangedStep(PLC):3, nCurStep:3]
+11/05 16:40:03.207 -----> Step Sync2! [ChangedStep(PLC):3, nCurStep:3, nCnt:0]
+11/05 16:40:03.208 -----> [Step:3] Valve Recipe Started
+11/05 16:40:03.209 ---> [Step:3] Set_Controlller Called
+11/05 16:40:03.210 -----> [Step:3] Rough Valve Controled
+11/05 16:40:03.211 -----> [Step:3] Throttle Valve Setting Started
+11/05 16:40:03.213 -----===> Started TV Setting
+11/05 16:40:03.214 -----> [Step:3] MFC Monitoring Started
+11/05 16:40:03.215 -----===> Started TV Monitoring
+11/05 16:40:03.216 -----===> Started MFC Setting
+11/05 16:40:03.217 -----===> Finished TV Setting
+11/05 16:40:03.218 -----===> Started StgHtr Temp Setting
+11/05 16:40:03.219 -----===> Finished StgHtr Temp Setting
+11/05 16:40:03.220 -----===> Started StgHtr Temp Setting
+11/05 16:40:03.221 -----===> Finished StgHtr Temp Setting
+11/05 16:40:03.223 -----=====> MFC Set : START_MON_P_O3 1 3500.0 0.0 4 2 400.0 0.0 4 3 1500.0 0.0 4 4 300.0 0.0 4 7 1500.0 0.0 4 8 400.0 0.0 4 9 3500.0 0.0 4
+11/05 16:40:03.224 -----===> Finished MFC Setting
+11/05 16:40:03.736 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:40:03.737 -----=====> Simulation ValveRcp Download Start
+11/05 16:40:04.221 -----> [Step:3] ProBgRun Function Started
+11/05 16:40:04.223 -----> [Step:3] RF Monitoring Started
+11/05 16:40:04.225 -----> [Step:3] RF2 Monitoring Started
+11/05 16:40:04.250 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:40:04.251 -----=====> [DnLdStep:7] Download Header Checked
+11/05 16:40:04.252 -----=> Valve Recipe Download Finished [Step:7]
+11/05 16:40:04.329 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:40:04.330 ---> [Step:3] Waiting for Finishing Step ...
+11/05 16:40:05.264 -----> Step Sync Change! [ChangedStep(PLC):4, nCurStep:3]
+11/05 16:40:05.265 > [Step:3 -> Step:4] Step Exchage is Checked 
+11/05 16:40:05.268 [RF_COUNT_MONITOR] CHECK_COUNT 1 2 2
+11/05 16:40:05.292 > [Step:0] Queue_ProcStep Called
+11/05 16:40:05.293 -----> Push:0, 0 0 7 6 5 4 3 2
+11/05 16:40:05.294 -----> PreDownload:0, Download:0, Run:4, End:3
+11/05 16:40:05.295 -----> Start Killing Process Monitoring
+11/05 16:40:05.296 -----> Killed Monitoring Function
+11/05 16:40:05.297 -----> Killed RF Monitoring Function
+11/05 16:40:05.298 -----> Killed RF Monitoring Function
+11/05 16:40:05.299 ---> [Step:4] Preset_Controller Called
+11/05 16:40:05.301 [INFO] Chuck Move Skip by Same Wait Opt and Same Pos
+11/05 16:40:05.302 ---> [Step:4] Start_ProcessStep Called
+11/05 16:40:05.303 -----> [Step:4] Normal(Not Main) Step Checked
+11/05 16:40:05.305 ---> [Step:4] Waiting for Starting ValveRecipe ...
+11/05 16:40:05.306 -----> Step Sync1! [ChangedStep(PLC):4, nCurStep:4]
+11/05 16:40:05.307 -----> Step Sync2! [ChangedStep(PLC):4, nCurStep:4, nCnt:0]
+11/05 16:40:05.308 -----> [Step:4] Valve Recipe Started
+11/05 16:40:05.309 ---> [Step:4] Set_Controlller Called
+11/05 16:40:05.310 -----> [Step:4] Rough Valve Controled
+11/05 16:40:05.311 -----> [Step:4] Throttle Valve Setting Started
+11/05 16:40:05.312 -----===> Started TV Setting
+11/05 16:40:05.313 -----> [Step:4] MFC Monitoring Started
+11/05 16:40:05.314 -----===> Started TV Monitoring
+11/05 16:40:05.315 -----===> Started MFC Setting
+11/05 16:40:05.317 -----===> Started StgHtr Temp Setting
+11/05 16:40:05.318 -----===> Finished StgHtr Temp Setting
+11/05 16:40:05.319 -----===> Finished TV Setting
+11/05 16:40:05.320 -----=====> MFC Set : START_MON_P_O3 1 3500.0 0.0 4 2 400.0 0.0 4 3 1500.0 0.0 4 4 300.0 0.0 4 7 1500.0 0.0 4 8 400.0 0.0 4 9 3500.0 0.0 4
+11/05 16:40:05.321 -----===> Finished MFC Setting
+11/05 16:40:05.322 -----===> Started StgHtr Temp Setting
+11/05 16:40:05.323 -----===> Finished StgHtr Temp Setting
+11/05 16:40:06.327 -----> [Step:4] ProBgRun Function Started
+11/05 16:40:06.329 -----> [Step:4] RF Monitoring Started
+11/05 16:40:06.331 -----> [Step:4] RF2 Monitoring Started
+11/05 16:40:06.434 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:40:06.435 ---> [Step:4] Waiting for Finishing Step ...
+11/05 16:40:10.272 -----> Step Sync Change! [ChangedStep(PLC):5, nCurStep:4]
+11/05 16:40:10.273 > [Step:4 -> Step:5] Step Exchage is Checked 
+11/05 16:40:10.282 > [Step:0] Queue_ProcStep Called
+11/05 16:40:10.283 -----> Push:0, 0 0 0 7 6 5 4 3
+11/05 16:40:10.284 -----> PreDownload:0, Download:0, Run:5, End:4
+11/05 16:40:10.285 -----> Start Killing Process Monitoring
+11/05 16:40:10.286 -----> Killed Monitoring Function
+11/05 16:40:10.287 -----> Killed RF Monitoring Function
+11/05 16:40:10.288 -----> Killed RF Monitoring Function
+11/05 16:40:10.290 ---> [Step:5] Preset_Controller Called
+11/05 16:40:10.291 [INFO] Chuck Move Skip by Same Wait Opt and Same Pos
+11/05 16:40:10.292 ---> [Step:5] Start_ProcessStep Called
+11/05 16:40:10.293 -----> [Step:5] Normal(Not Main) Step Checked
+11/05 16:40:10.295 ---> [Step:5] Waiting for Starting ValveRecipe ...
+11/05 16:40:10.296 -----> Step Sync1! [ChangedStep(PLC):5, nCurStep:5]
+11/05 16:40:10.297 -----> Step Sync2! [ChangedStep(PLC):5, nCurStep:5, nCnt:0]
+11/05 16:40:10.298 -----> [Step:5] Valve Recipe Started
+11/05 16:40:10.299 ---> [Step:5] Set_Controlller Called
+11/05 16:40:10.300 -----> [Step:5] Rough Valve Controled
+11/05 16:40:10.301 -----> [Step:5] Throttle Valve Setting Started
+11/05 16:40:10.302 -----===> Started TV Setting
+11/05 16:40:10.303 -----> [Step:5] MFC Monitoring Started
+11/05 16:40:10.304 -----===> Started TV Monitoring
+11/05 16:40:10.305 -----===> Started MFC Setting
+11/05 16:40:10.307 -----===> Finished TV Setting
+11/05 16:40:10.308 -----===> Started StgHtr Temp Setting
+11/05 16:40:10.309 -----===> Started StgHtr Temp Setting
+11/05 16:40:10.310 -----===> Finished StgHtr Temp Setting
+11/05 16:40:10.311 -----===> Finished StgHtr Temp Setting
+11/05 16:40:10.312 -----=====> MFC Set : START_MON_P_O3 1 3500.0 0.0 4 2 400.0 0.0 4 3 1500.0 0.0 4 4 300.0 0.0 4 7 1500.0 0.0 4 8 400.0 0.0 4 9 3500.0 0.0 4
+11/05 16:40:10.313 -----===> Finished MFC Setting
+11/05 16:40:11.319 -----> [Step:5] ProBgRun Function Started
+11/05 16:40:11.321 -----> [Step:5] RF Monitoring Started
+11/05 16:40:11.323 -----> [Step:5] RF2 Monitoring Started
+11/05 16:40:11.426 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:40:11.427 ---> [Step:5] Waiting for Finishing Step ...
+11/05 16:40:15.295 -----> Step Sync Change! [ChangedStep(PLC):6, nCurStep:5]
+11/05 16:40:15.296 > [Step:5 -> Step:6] Step Exchage is Checked 
+11/05 16:40:15.305 > [Step:0] Queue_ProcStep Called
+11/05 16:40:15.306 -----> Push:0, 0 0 0 0 7 6 5 4
+11/05 16:40:15.307 -----> PreDownload:0, Download:0, Run:6, End:5
+11/05 16:40:15.308 -----> Start Killing Process Monitoring
+11/05 16:40:15.309 -----> Killed Monitoring Function
+11/05 16:40:15.310 -----> Killed RF Monitoring Function
+11/05 16:40:15.311 -----> Killed RF Monitoring Function
+11/05 16:40:15.312 ---> [Step:6] Preset_Controller Called
+11/05 16:40:15.313 [INFO] Chuck Move Skip by Same Wait Opt and Same Pos
+11/05 16:40:15.314 ---> [Step:6] Start_ProcessStep Called
+11/05 16:40:15.316 -----> [Step:6] Normal(Not Main) Step Checked
+11/05 16:40:15.318 ---> [Step:6] Waiting for Starting ValveRecipe ...
+11/05 16:40:15.319 -----> Step Sync1! [ChangedStep(PLC):6, nCurStep:6]
+11/05 16:40:15.320 -----> Step Sync2! [ChangedStep(PLC):6, nCurStep:6, nCnt:0]
+11/05 16:40:15.321 -----> [Step:6] Valve Recipe Started
+11/05 16:40:15.322 ---> [Step:6] Set_Controlller Called
+11/05 16:40:15.323 -----> [Step:6] Rough Valve Controled
+11/05 16:40:15.324 -----> [Step:6] Throttle Valve Setting Started
+11/05 16:40:15.326 -----===> Started TV Setting
+11/05 16:40:15.327 -----> [Step:6] MFC Monitoring Started
+11/05 16:40:15.328 -----===> Started TV Monitoring
+11/05 16:40:15.329 -----===> Started MFC Setting
+11/05 16:40:15.330 -----===> Finished TV Setting
+11/05 16:40:15.331 -----===> Started StgHtr Temp Setting
+11/05 16:40:15.332 -----===> Finished StgHtr Temp Setting
+11/05 16:40:15.333 -----=====> MFC Set : START_MON_P_O3 1 3500.0 0.0 4 2 400.0 0.0 4 3 1500.0 0.0 4 4 300.0 0.0 4 7 1500.0 0.0 4 8 400.0 0.0 4 9 3500.0 0.0 4
+11/05 16:40:15.335 -----===> Finished MFC Setting
+11/05 16:40:15.336 -----===> Started StgHtr Temp Setting
+11/05 16:40:15.337 -----===> Finished StgHtr Temp Setting
+11/05 16:40:16.342 -----> [Step:6] ProBgRun Function Started
+11/05 16:40:16.344 -----> [Step:6] RF Monitoring Started
+11/05 16:40:16.346 -----> [Step:6] RF2 Monitoring Started
+11/05 16:40:16.449 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:40:16.450 ---> [Step:6] Waiting for Finishing Step ...
+11/05 16:40:25.310 -----> Step Sync Change! [ChangedStep(PLC):7, nCurStep:6]
+11/05 16:40:25.311 > [Step:6 -> Step:7] Step Exchage is Checked 
+11/05 16:40:25.319 > [Step:0] Queue_ProcStep Called
+11/05 16:40:25.320 -----> Push:0, 0 0 0 0 0 7 6 5
+11/05 16:40:25.321 -----> PreDownload:0, Download:0, Run:7, End:6
+11/05 16:40:25.322 -----> Start Killing Process Monitoring
+11/05 16:40:25.323 -----> Killed Monitoring Function
+11/05 16:40:25.324 -----> Killed RF Monitoring Function
+11/05 16:40:25.326 -----> Killed RF Monitoring Function
+11/05 16:40:25.327 ---> [Step:7] Preset_Controller Called
+11/05 16:40:25.328 [INFO] Chuck Move Skip by Same Wait Opt and Same Pos
+11/05 16:40:25.329 ---> [Step:7] Start_ProcessStep Called
+11/05 16:40:25.330 -----> [Step:7] Normal(Not Main) Step Checked
+11/05 16:40:25.333 ---> [Step:7] Waiting for Starting ValveRecipe ...
+11/05 16:40:25.334 -----> Step Sync1! [ChangedStep(PLC):7, nCurStep:7]
+11/05 16:40:25.335 -----> Step Sync2! [ChangedStep(PLC):7, nCurStep:7, nCnt:0]
+11/05 16:40:25.336 -----> [Step:7] Valve Recipe Started
+11/05 16:40:25.337 ---> [Step:7] Set_Controlller Called
+11/05 16:40:25.339 -----> [Step:7] Rough Valve Controled
+11/05 16:40:25.340 -----> [Step:7] Throttle Valve Setting Started
+11/05 16:40:25.341 -----===> Started TV Setting
+11/05 16:40:25.342 -----> [Step:7] MFC Monitoring Started
+11/05 16:40:25.344 -----===> Started TV Monitoring
+11/05 16:40:25.345 -----===> Started MFC Setting
+11/05 16:40:25.346 -----===> Finished MFC Setting
+11/05 16:40:25.347 -----===> Started StgHtr Temp Setting
+11/05 16:40:25.349 -----===> Started StgHtr Temp Setting
+11/05 16:40:25.350 -----===> Finished TV Setting
+11/05 16:40:25.351 -----===> Finished StgHtr Temp Setting
+11/05 16:40:25.352 -----===> Finished StgHtr Temp Setting
+11/05 16:40:26.357 -----> [Step:7] ProBgRun Function Started
+11/05 16:40:26.359 -----> [Step:7] RF Monitoring Started
+11/05 16:40:26.361 -----> [Step:7] RF2 Monitoring Started
+11/05 16:40:26.465 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:40:26.466 ---> [Step:7] Waiting for Finishing Step ...
+11/05 16:40:30.333 -----> Step Sync Change! [ChangedStep(PLC):7, nCurStep:7] [PauseDI:1, RunDI:1, GbInt:0, DnErr1~5:0,0,0,0,0]
+11/05 16:40:30.334 > [Step:7 -> Step:0] Step Exchage is Checked 
+11/05 16:40:30.341 > [Step:0] Queue_ProcStep Called
+11/05 16:40:30.342 -----> Push:0, 0 0 0 0 0 0 7 6
+11/05 16:40:30.343 -----> PreDownload:0, Download:0, Run:0, End:7
+11/05 16:40:30.344 -----> Start Killing Process Monitoring
+11/05 16:40:30.345 -----> Killed Monitoring Function
+11/05 16:40:30.346 -----> Killed RF Monitoring Function
+11/05 16:40:30.347 -----> Killed RF Monitoring Function
+11/05 16:40:30.348 ---> [Step:0] Start_ProcessStep Called
+11/05 16:40:30.351 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:40:30.354 > [Step:0] Queue_ProcStep Called
+11/05 16:40:30.356 -----> Push:0, 0 0 0 0 0 0 0 7
+11/05 16:40:30.357 -----> PreDownload:0, Download:0, Run:0, End:0
+11/05 16:40:30.358 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:40:30.361 > [Step:0] Queue_ProcStep Called
+11/05 16:40:30.362 -----> Push:0, 0 0 0 0 0 0 0 0
+11/05 16:40:30.364 -----> PreDownload:0, Download:0, Run:0, End:0
+11/05 16:40:30.365 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:40:30.369 [UPEH-END] AbortAllFunc Started
+11/05 16:40:31.379 -----> Killed RF Monitoring Function
+11/05 16:40:31.380 -----> Killed RF2 Monitoring Function
+11/05 16:40:31.382 -----> Killed Heat Exchange Monitoring Function
+11/05 16:40:31.385 [UPEH-END] StopProcess Started
+11/05 16:40:31.386 [UPEH-END] CheckPostRunReservation Started
+11/05 16:40:31.387 [UPEH-END] RunNormalProcess End
+11/05 16:40:31.388 [UPEH-END] RF Set 0
+11/05 16:40:31.391 [UPEH-END] RF2 Set 0
+11/05 16:40:31.394 [UPEH-END] AbortGas Started
+11/05 16:40:31.504 [UPEH-END] RUN_SET CHUCK_CONTROL[HOME 2] Started
+11/05 16:40:31.505 [UPEH-END] FastRough Started
+11/05 16:40:31.619 [INFO] SET SWAP_PURGE[3]
+11/05 16:40:31.620 [UPEH-END] RUN_WAIT CHUCK_CONTROL[HOME 2] End
+11/05 16:40:31.622 -----> Write Upload Message :POSTSKIP:write success
+11/05 16:40:31.623 [UPEH-END] StopStepTimer Started
+11/05 16:40:31.626 [UPEH-END] CHUCK_CONTROL[HOME 2] Started
+11/05 16:40:31.627 [UPEH-END] CHUCK_CONTROL[HOME 2] End
+11/05 16:40:31.628 < Process Finished >
+11/05 16:40:31.630 ----------------------------------------------------------
+11/05 16:41:03.781 Recipe Data Initialize
+11/05 16:41:03.782 Recipe Reading
+11/05 16:41:03.783 -----> Recipe Index : 0
+11/05 16:41:03.792 Recipe Reading
+11/05 16:41:03.796 ----------------------------------------------------------
+11/05 16:41:03.797 < Process Simulation Started(Name:SW_100.rcp, Type:1) >
+11/05 16:41:03.836 [UPEH] Init_Process Started
+11/05 16:41:03.841 [UPEH] ReadyProcess Started
+11/05 16:41:03.842 [UPEH] VACUUM_CONTROL[STOP_CARRIER_AR_FLOW] Started
+11/05 16:41:03.846 [UPEH] ABORT_GAS Started
+11/05 16:41:03.954 [UPEH] RunNormalProcess Started
+11/05 16:41:03.955 > [Step:1] Queue_ProcStep Called
+11/05 16:41:03.956 -----> Push:1, 1 0 0 0 0 0 0 0
+11/05 16:41:03.957 -----> PreDownload:1, Download:0, Run:0, End:0
+11/05 16:41:03.958 -----> DnLdReadyStepCount:0 DnLdStepCount:0 RunStepCount:1
+11/05 16:41:03.961 > [Step:2] Queue_ProcStep Called
+11/05 16:41:03.962 -----> Push:2, 2 1 0 0 0 0 0 0
+11/05 16:41:03.963 -----> PreDownload:2, Download:1, Run:0, End:0
+11/05 16:41:03.965 -----> DnLdReadyStepCount:0 DnLdStepCount:0 RunStepCount:1
+11/05 16:41:03.967 > [Step:3] Queue_ProcStep Called
+11/05 16:41:03.968 -----> Push:3, 3 2 1 0 0 0 0 0
+11/05 16:41:03.969 -----> PreDownload:3, Download:2, Run:0, End:0
+11/05 16:41:03.971 -----> DnLdReadyStepCount:0 DnLdStepCount:0 RunStepCount:1
+11/05 16:41:03.973 > [Step:4] Queue_ProcStep Called
+11/05 16:41:03.974 -----> Push:4, 4 3 2 1 0 0 0 0
+11/05 16:41:03.975 -----> PreDownload:4, Download:3, Run:0, End:0
+11/05 16:41:03.976 -----> DnLdReadyStepCount:0 DnLdStepCount:0 RunStepCount:1
+11/05 16:41:03.978 > [Step:5] Queue_ProcStep Called
+11/05 16:41:03.979 -----> Push:5, 5 4 3 2 1 0 0 0
+11/05 16:41:03.980 -----> PreDownload:5, Download:4, Run:0, End:0
+11/05 16:41:03.981 -----> DnLdReadyStepCount:0 DnLdStepCount:0 RunStepCount:1
+11/05 16:41:03.984 > [Step:6] Queue_ProcStep Called
+11/05 16:41:03.985 -----> Push:6, 6 5 4 3 2 1 0 0
+11/05 16:41:03.986 -----> PreDownload:6, Download:5, Run:1, End:0
+11/05 16:41:03.987 ---> [Step:1] Preset_Controller Called
+11/05 16:41:03.989 [INFO] Chuck Move Wait by Opt in First Step
+11/05 16:41:03.990 [UPEH-STEP] RUN CHUCK_CONTROL[RUN 2 17.00 17.00] Started
+11/05 16:41:03.991 [UPEH-STEP] RUN CHUCK_CONTROL[RUN 2 17.00 17.00] End
+11/05 16:41:03.992 ---> [Step:1] Start_ProcessStep Called
+11/05 16:41:03.993 -----> [Step:1] Normal(Not Main) Step Checked
+11/05 16:41:04.055 -----=> Valve Recipe Download Started [Step:1]
+11/05 16:41:04.056 -----=====> Simulation ValveRcp Download Start
+11/05 16:41:04.576 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:41:04.577 -----=====> Simulation ValveRcp Download Start
+11/05 16:41:05.090 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:41:05.091 -----=====> [DnLdStep:1] Download Header Checked
+11/05 16:41:05.092 -----=> Valve Recipe Download Finished [Step:1]
+11/05 16:41:05.185 -----> [Step:1] VRCP Start Bit Set
+11/05 16:41:05.188 -----> [Step:1] PLC Simulator VRCP Started 
+11/05 16:41:05.189 > [Step:1] First Step Started 
+11/05 16:41:05.191 -----> [Step:1] Timer Started
+11/05 16:41:05.192 -----> [Step:1] Rough Valve Controled
+11/05 16:41:05.193 ---> [Step:1] Waiting for Starting ValveRecipe ...
+11/05 16:41:05.194 -----=> Valve Recipe Download Started [Step:2]
+11/05 16:41:05.195 -----> Step Sync1! [ChangedStep(PLC):1, nCurStep:1]
+11/05 16:41:05.196 -----> Step Sync2! [ChangedStep(PLC):1, nCurStep:1, nCnt:0]
+11/05 16:41:05.197 -----> [Step:1] Valve Recipe Started
+11/05 16:41:05.198 -----=====> Simulation ValveRcp Download Start
+11/05 16:41:05.199 ---> [Step:1] Set_Controlller Called
+11/05 16:41:05.201 -----> [Step:1] Rough Valve Controled
+11/05 16:41:05.202 -----> [Step:1] Throttle Valve Setting Started
+11/05 16:41:05.203 -----===> Started TV Setting
+11/05 16:41:05.204 -----> [Step:1] MFC Monitoring Started
+11/05 16:41:05.205 -----===> Started MFC Setting
+11/05 16:41:05.207 -----> [Step:1] RF Preset
+11/05 16:41:05.208 -----=====> MFC Set : START_MON_P_O3 1 3500.0 0.0 4 2 400.0 0.0 4 3 1500.0 0.0 4 4 300.0 0.0 4 7 1500.0 0.0 4 8 400.0 0.0 4 9 3500.0 0.0 4
+11/05 16:41:05.209 -----===> Finished MFC Setting
+11/05 16:41:05.210 -----> [Step:1] RF2 Preset
+11/05 16:41:05.211 -----===> Started TV Monitoring
+11/05 16:41:05.212 -----===> Finished TV Setting
+11/05 16:41:05.213 -----===> Started StgHtr Temp Setting
+11/05 16:41:05.214 -----===> Finished StgHtr Temp Setting
+11/05 16:41:05.216 -----> [Step:1] ProBgRun Function Started
+11/05 16:41:05.217 -----===> Started StgHtr Temp Setting
+11/05 16:41:05.218 -----===> Finished StgHtr Temp Setting
+11/05 16:41:05.220 -----> [Step:1] RF Monitoring Started
+11/05 16:41:05.222 -----> [Step:1] RF2 Monitoring Started
+11/05 16:41:05.324 -----> DnLdReadyStepCount:0 DnLdStepCount:1 RunStepCount:3
+11/05 16:41:05.325 ---> [Step:1] Waiting for Finishing Step ...
+11/05 16:41:05.761 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:41:05.762 -----=====> Simulation ValveRcp Download Start
+11/05 16:41:06.276 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:41:06.277 -----=====> [DnLdStep:2] Download Header Checked
+11/05 16:41:06.278 -----=> Valve Recipe Download Finished [Step:2]
+11/05 16:41:06.379 -----=> Valve Recipe Download Started [Step:3]
+11/05 16:41:06.380 -----=====> Simulation ValveRcp Download Start
+11/05 16:41:06.900 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:41:06.901 -----=====> Simulation ValveRcp Download Start
+11/05 16:41:07.399 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:41:07.400 -----=====> [DnLdStep:3] Download Header Checked
+11/05 16:41:07.401 -----=> Valve Recipe Download Finished [Step:3]
+11/05 16:41:07.502 -----=> Valve Recipe Download Started [Step:4]
+11/05 16:41:07.503 -----=====> Simulation ValveRcp Download Start
+11/05 16:41:08.023 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:41:08.024 -----=====> Simulation ValveRcp Download Start
+11/05 16:41:08.538 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:41:08.539 -----=====> [DnLdStep:4] Download Header Checked
+11/05 16:41:08.540 -----=> Valve Recipe Download Finished [Step:4]
+11/05 16:41:08.641 -----=> Valve Recipe Download Started [Step:5]
+11/05 16:41:08.642 -----=====> Simulation ValveRcp Download Start
+11/05 16:41:09.162 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:41:09.163 -----=====> Simulation ValveRcp Download Start
+11/05 16:41:09.661 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:41:09.662 -----=====> [DnLdStep:5] Download Header Checked
+11/05 16:41:09.663 -----=> Valve Recipe Download Finished [Step:5]
+11/05 16:41:15.215 -----> Step Sync Change! [ChangedStep(PLC):2, nCurStep:1]
+11/05 16:41:15.216 > [Step:1 -> Step:2] Step Exchage is Checked 
+11/05 16:41:15.226 > [Step:7] Queue_ProcStep Called
+11/05 16:41:15.227 -----> Push:7, 7 6 5 4 3 2 1 0
+11/05 16:41:15.228 -----> PreDownload:7, Download:6, Run:2, End:1
+11/05 16:41:15.229 -----> Start Killing Process Monitoring
+11/05 16:41:15.230 -----> Killed Monitoring Function
+11/05 16:41:15.232 -----> Killed RF Monitoring Function
+11/05 16:41:15.233 -----> Killed RF Monitoring Function
+11/05 16:41:15.234 ---> [Step:2] Preset_Controller Called
+11/05 16:41:15.235 [INFO] Chuck Move Skip by Same Wait Opt and Same Pos
+11/05 16:41:15.236 ---> [Step:2] Start_ProcessStep Called
+11/05 16:41:15.237 -----> [Step:2] Normal(Not Main) Step Checked
+11/05 16:41:15.239 ---> [Step:2] Waiting for Starting ValveRecipe ...
+11/05 16:41:15.240 -----> Step Sync1! [ChangedStep(PLC):2, nCurStep:2]
+11/05 16:41:15.241 -----> Step Sync2! [ChangedStep(PLC):2, nCurStep:2, nCnt:0]
+11/05 16:41:15.242 -----> [Step:2] Valve Recipe Started
+11/05 16:41:15.243 ---> [Step:2] Set_Controlller Called
+11/05 16:41:15.244 -----> [Step:2] Rough Valve Controled
+11/05 16:41:15.246 -----> [Step:2] Throttle Valve Setting Started
+11/05 16:41:15.247 -----===> Started TV Setting
+11/05 16:41:15.248 -----> [Step:2] MFC Monitoring Started
+11/05 16:41:15.249 -----===> Started MFC Setting
+11/05 16:41:15.250 -----> [Step:2] RF Preset
+11/05 16:41:15.251 -----=====> MFC Set : START_MON_P_O3 1 3500.0 0.0 4 2 400.0 0.0 4 3 1500.0 0.0 4 4 300.0 0.0 4 7 1500.0 0.0 4 8 400.0 0.0 4 9 3500.0 0.0 4
+11/05 16:41:15.253 -----===> Finished MFC Setting
+11/05 16:41:15.254 -----> [Step:2] RF2 Preset
+11/05 16:41:15.255 -----===> Started TV Monitoring
+11/05 16:41:15.256 -----===> Finished TV Setting
+11/05 16:41:15.257 -----===> Started StgHtr Temp Setting
+11/05 16:41:15.258 -----===> Finished StgHtr Temp Setting
+11/05 16:41:15.259 -----===> Started StgHtr Temp Setting
+11/05 16:41:15.260 -----===> Finished StgHtr Temp Setting
+11/05 16:41:15.265 -----=> Valve Recipe Download Started [Step:6]
+11/05 16:41:15.266 -----=====> Simulation ValveRcp Download Start
+11/05 16:41:15.980 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:41:15.981 -----=====> Simulation ValveRcp Download Start
+11/05 16:41:16.262 -----> [Step:2] ProBgRun Function Started
+11/05 16:41:16.264 -----> [Step:2] RF Monitoring Started
+11/05 16:41:16.266 -----> [Step:2] RF2 Monitoring Started
+11/05 16:41:16.370 -----> DnLdReadyStepCount:0 DnLdStepCount:5 RunStepCount:7
+11/05 16:41:16.371 ---> [Step:2] Waiting for Finishing Step ...
+11/05 16:41:16.494 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:41:16.495 -----=====> [DnLdStep:6] Download Header Checked
+11/05 16:41:16.496 -----=> Valve Recipe Download Finished [Step:6]
+11/05 16:41:17.212 -----> Step Sync Change! [ChangedStep(PLC):3, nCurStep:2]
+11/05 16:41:17.213 > [Step:2 -> Step:3] Step Exchage is Checked 
+11/05 16:41:17.226 > [Step:0] Queue_ProcStep Called
+11/05 16:41:17.227 -----> Push:0, 0 7 6 5 4 3 2 1
+11/05 16:41:17.228 -----> PreDownload:0, Download:7, Run:3, End:2
+11/05 16:41:17.229 -----> Start Killing Process Monitoring
+11/05 16:41:17.230 -----> Killed Monitoring Function
+11/05 16:41:17.231 -----> Killed RF Monitoring Function
+11/05 16:41:17.232 -----> Killed RF Monitoring Function
+11/05 16:41:17.233 ---> [Step:3] Preset_Controller Called
+11/05 16:41:17.235 [INFO] Chuck Move Skip by Same Wait Opt and Same Pos
+11/05 16:41:17.236 ---> [Step:3] Start_ProcessStep Called
+11/05 16:41:17.237 -----> [Step:3] Main Step Checked
+11/05 16:41:17.239 ---> [Step:3] Waiting for Starting ValveRecipe ...
+11/05 16:41:17.240 -----> Step Sync1! [ChangedStep(PLC):3, nCurStep:3]
+11/05 16:41:17.241 -----> Step Sync2! [ChangedStep(PLC):3, nCurStep:3, nCnt:0]
+11/05 16:41:17.242 -----> [Step:3] Valve Recipe Started
+11/05 16:41:17.243 ---> [Step:3] Set_Controlller Called
+11/05 16:41:17.244 -----> [Step:3] Rough Valve Controled
+11/05 16:41:17.246 -----> [Step:3] Throttle Valve Setting Started
+11/05 16:41:17.247 -----===> Started TV Setting
+11/05 16:41:17.248 -----> [Step:3] MFC Monitoring Started
+11/05 16:41:17.249 -----===> Started TV Monitoring
+11/05 16:41:17.250 -----===> Started MFC Setting
+11/05 16:41:17.251 -----===> Finished TV Setting
+11/05 16:41:17.252 -----===> Started StgHtr Temp Setting
+11/05 16:41:17.253 -----===> Finished StgHtr Temp Setting
+11/05 16:41:17.254 -----=====> MFC Set : START_MON_P_O3 1 3500.0 0.0 4 2 400.0 0.0 4 3 1500.0 0.0 4 4 300.0 0.0 4 7 1500.0 0.0 4 8 400.0 0.0 4 9 3500.0 0.0 4
+11/05 16:41:17.255 -----===> Finished MFC Setting
+11/05 16:41:17.257 -----===> Started StgHtr Temp Setting
+11/05 16:41:17.258 -----===> Finished StgHtr Temp Setting
+11/05 16:41:17.297 -----=> Valve Recipe Download Started [Step:7]
+11/05 16:41:17.298 -----=====> Simulation ValveRcp Download Start
+11/05 16:41:17.820 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:41:17.821 -----=====> Simulation ValveRcp Download Start
+11/05 16:41:18.259 -----> [Step:3] ProBgRun Function Started
+11/05 16:41:18.261 -----> [Step:3] RF Monitoring Started
+11/05 16:41:18.263 -----> [Step:3] RF2 Monitoring Started
+11/05 16:41:18.319 -----=====> Simulation ValveRcp Download finished successfly
+11/05 16:41:18.320 -----=====> [DnLdStep:7] Download Header Checked
+11/05 16:41:18.321 -----=> Valve Recipe Download Finished [Step:7]
+11/05 16:41:18.368 -----> DnLdReadyStepCount:0 DnLdStepCount:7 RunStepCount:8
+11/05 16:41:18.369 ---> [Step:3] Waiting for Finishing Step ...

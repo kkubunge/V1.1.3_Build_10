@@ -1,0 +1,34 @@
+#-------------------------------------------------------------------------------
+# TM Part Scheduler Interface Function
+#-------------------------------------------------------------------------------
+
+TM.READY	50	-	SUCCESS
+TM.END		50	-	SUCCESS
+
+TM.PREPARE_SEND	50	-	SUCCESS
+TM.POST_SEND	50	-	SUCCESS
+TM.PREPARE_RECV	50	-	SUCCESS
+TM.POST_RECV	50	-	SUCCESS
+
+TM.OPEN_GATE	50	-	SUCCESS
+TM.CLOSE_GATE	50	-	SUCCESS
+
+TM.PICK_WAFER	50	-	SUCCESS
+TM.PLACE_WAFER	50	-	SUCCESS
+
+TM.EXTPIC_WAFER	50	-	SUCCESS
+TM.RETPIC_WAFER	50	-	SUCCESS
+TM.EXTPLC_WAFER	50	-	SUCCESS
+TM.RETPLC_WAFER	50	-	SUCCESS
+
+TM.ALIGN_WAFER	50	-	SUCCESS
+TM.COOL_WAFER	50	-	SUCCESS
+
+TM.MOVE_RECV	50	-	SUCCESS
+TM.MOVE_SEND	50	-	SUCCESS
+
+#-------------------------------------
+# Transfer Clear Function for Remote
+#-------------------------------------
+
+TM.CLEAR	50	-	SUCCESS

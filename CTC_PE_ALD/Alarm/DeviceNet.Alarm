@@ -1,0 +1,52 @@
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# DeviceNet Alarm	50 - 99
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# VALUE INTERLOCK
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# AutoPM Alarm 
+#------------------------------------------------------------------------------
+21 PM1_PreMacroAbort{
+	"PM1 Pre Macro Process Abnormal Finished"
+	CLEAR		"Clear"
+}
+22 PM2_PreMacroAbort{
+	"PM2 Pre Macro Process Abnormal Finished"
+	CLEAR		"Clear"
+}
+23 PM3_PreMacroAbort{
+	"PM3 Pre Macro Process Abnormal Finished"
+	CLEAR		"Clear"
+}
+24 PM4_PreMacroAbort{
+	"PM4 Pre Macro Process Abnormal Finished"
+	CLEAR		"Clear"
+}
+25 PM5_PreMacroAbort{
+	"PM5 Pre Macro Process Abnormal Finished"
+	CLEAR		"Clear"
+}
+31 PM1_PostMacroAbort{
+	"PM1 Post Macro Process Abnormal Finished"
+	CLEAR		"Clear"
+}
+32 PM2_PostMacroAbort{
+	"PM2 Post Macro Process Abnormal Finished"
+	CLEAR		"Clear"
+}
+33 PM3_PostMacroAbort{
+	"PM3 Post Macro Process Abnormal Finished"
+	CLEAR		"Clear"
+}
+34 PM4_PostMacroAbort{
+	"PM4 Post Macro Process Abnormal Finished"
+	CLEAR		"Clear"
+}
+35 PM5_PostMacroAbort{
+	"PM5 Post Macro Process Abnormal Finished"
+	CLEAR		"Clear"
+}

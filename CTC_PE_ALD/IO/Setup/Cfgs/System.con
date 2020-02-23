@@ -1,0 +1,57 @@
+$$$ Digital
+CM.C01_Wafer			CTCMtlSts
+CM.C02_Wafer			CTCMtlSts
+CM.C03_Wafer			CTCMtlSts
+CM.C04_Wafer			CTCMtlSts
+CM.C05_Wafer			CTCMtlSts
+CM.C06_Wafer			CTCMtlSts
+CM.C07_Wafer			CTCMtlSts
+CM.C08_Wafer			CTCMtlSts
+CM.C09_Wafer			CTCMtlSts
+CM.C10_Wafer			CTCMtlSts
+CM.C11_Wafer			CTCMtlSts
+CM.C12_Wafer			CTCMtlSts
+CM.C13_Wafer			CTCMtlSts
+CM.C14_Wafer			CTCMtlSts
+CM.C15_Wafer			CTCMtlSts
+CM.C16_Wafer			CTCMtlSts
+CM.C17_Wafer			CTCMtlSts
+CM.C18_Wafer			CTCMtlSts
+CM.C19_Wafer			CTCMtlSts
+CM.C20_Wafer			CTCMtlSts
+CM.C21_Wafer			CTCMtlSts
+CM.C22_Wafer			CTCMtlSts
+CM.C23_Wafer			CTCMtlSts
+CM.C24_Wafer			CTCMtlSts
+CM.C25_Wafer			CTCMtlSts
+CM.C26_Wafer			CTCMtlSts
+CM.C27_Wafer			CTCMtlSts
+CM.C28_Wafer			CTCMtlSts
+CM.C29_Wafer			CTCMtlSts
+CM.C30_Wafer			CTCMtlSts
+
+$$$ Digital
+CM.MAPWAFER_COUNT		-	0
+
+$$$ String
+CM.MAPWAFER_INFO		""
+
+CM.RFID_MID_PAGE		""
+CM.RFID_PAGE1			""
+CM.RFID_PAGE2			""
+CM.RFID_PAGE3			""
+CM.RFID_PAGE4			""
+CM.RFID_PAGE5			""
+CM.RFID_PAGE6			""
+CM.RFID_PAGE7			""
+CM.RFID_PAGE8			""
+CM.RFID_PAGE9			""
+CM.RFID_PAGE10			""
+CM.RFID_PAGE11			""
+CM.RFID_PAGE12			""
+CM.RFID_PAGE13			""
+CM.RFID_PAGE14			""
+CM.RFID_PAGE15			""
+CM.RFID_PAGE16			""
+CM.RFID_PAGE17			""
+

@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Simulator for Value Interlock
+#-----------------------------------------------------------
+
+# AUTO CYCLE CLEAN CHECK
+if ( PRMD_PM1_AutoCycUse == Enable && PRMD_PM1_IDLE_TimeM > 10 )
+{
+  $Print = "Auto Cycle Clean Not Run";
+}
+
+# Slot Valve Control
+ if(TM.PM1.SlotVv1XO == Open  && TM.PM1.SlotVv1XI != Open)	{	TM.PM1.SlotVv1XI = Unknown;	}
+aif(TM.PM1.SlotVv1XO == Open  && TM.PM1.SlotVv1XI != Open)	{	TM.PM1.SlotVv1XI = Open;	$time = 2; }
+ if(TM.PM1.SlotVv1XO == Close && TM.PM1.SlotVv1XI != Close)	{	TM.PM1.SlotVv1XI = Unknown;	}
+aif(TM.PM1.SlotVv1XO == Close && TM.PM1.SlotVv1XI != Close)	{	TM.PM1.SlotVv1XI = Close;	$time = 1; }
+ if(TM.PM1.SlotVv2XO == Open  && TM.PM1.SlotVv2XI != Open)	{	TM.PM1.SlotVv2XI = Unknown;	}
+aif(TM.PM1.SlotVv2XO == Open  && TM.PM1.SlotVv2XI != Open)	{	TM.PM1.SlotVv2XI = Open;	$time = 2; }
+ if(TM.PM1.SlotVv2XO == Close && TM.PM1.SlotVv2XI != Close)	{	TM.PM1.SlotVv2XI = Unknown;	}
+aif(TM.PM1.SlotVv2XO == Close && TM.PM1.SlotVv2XI != Close)	{	TM.PM1.SlotVv2XI = Close;	$time = 1; }
+
+ if(TM.PM2.SlotVv1XO == Open  && TM.PM2.SlotVv1XI != Open)	{	TM.PM2.SlotVv1XI = Unknown;	}
+aif(TM.PM2.SlotVv1XO == Open  && TM.PM2.SlotVv1XI != Open)	{	TM.PM2.SlotVv1XI = Open;	$time = 2; }
+ if(TM.PM2.SlotVv1XO == Close && TM.PM2.SlotVv1XI != Close)	{	TM.PM2.SlotVv1XI = Unknown;	}
+aif(TM.PM2.SlotVv1XO == Close && TM.PM2.SlotVv1XI != Close)	{	TM.PM2.SlotVv1XI = Close;	$time = 1; }
+ if(TM.PM2.SlotVv2XO == Open  && TM.PM2.SlotVv2XI != Open)	{	TM.PM2.SlotVv2XI = Unknown;	}
+aif(TM.PM2.SlotVv2XO == Open  && TM.PM2.SlotVv2XI != Open)	{	TM.PM2.SlotVv2XI = Open;	$time = 2; }
+ if(TM.PM2.SlotVv2XO == Close && TM.PM2.SlotVv2XI != Close)	{	TM.PM2.SlotVv2XI = Unknown;	}
+aif(TM.PM2.SlotVv2XO == Close && TM.PM2.SlotVv2XI != Close)	{	TM.PM2.SlotVv2XI = Close;	$time = 1; }
+
+ if(TM.PM3.SlotVv1XO == Open  && TM.PM3.SlotVv1XI != Open)	{	TM.PM3.SlotVv1XI = Unknown;	}
+aif(TM.PM3.SlotVv1XO == Open  && TM.PM3.SlotVv1XI != Open)	{	TM.PM3.SlotVv1XI = Open;	$time = 2; }
+ if(TM.PM3.SlotVv1XO == Close && TM.PM3.SlotVv1XI != Close)	{	TM.PM3.SlotVv1XI = Unknown;	}
+aif(TM.PM3.SlotVv1XO == Close && TM.PM3.SlotVv1XI != Close)	{	TM.PM3.SlotVv1XI = Close;	$time = 1; }
+ if(TM.PM3.SlotVv2XO == Open  && TM.PM3.SlotVv2XI != Open)	{	TM.PM3.SlotVv2XI = Unknown;	}
+aif(TM.PM3.SlotVv2XO == Open  && TM.PM3.SlotVv2XI != Open)	{	TM.PM3.SlotVv2XI = Open;	$time = 2; }
+ if(TM.PM3.SlotVv2XO == Close && TM.PM3.SlotVv2XI != Close)	{	TM.PM3.SlotVv2XI = Unknown;	}
+aif(TM.PM3.SlotVv2XO == Close && TM.PM3.SlotVv2XI != Close)	{	TM.PM3.SlotVv2XI = Close;	$time = 1; }
+
+ if(TM.BM1.SlotVvLXO == Open  && TM.BM1.SlotVvLXI != Open)	{	TM.BM1.SlotVvLXI = Unknown;	}
+aif(TM.BM1.SlotVvLXO == Open  && TM.BM1.SlotVvLXI != Open)	{	TM.BM1.SlotVvLXI = Open;	$time = 1; }
+ if(TM.BM1.SlotVvLXO == Close && TM.BM1.SlotVvLXI != Close)	{	TM.BM1.SlotVvLXI = Unknown;	}
+aif(TM.BM1.SlotVvLXO == Close && TM.BM1.SlotVvLXI != Close)	{	TM.BM1.SlotVvLXI = Close;	$time = 1; }
+ if(TM.BM1.SlotVvRXO == Open  && TM.BM1.SlotVvRXI != Open)	{	TM.BM1.SlotVvRXI = Unknown;	}
+aif(TM.BM1.SlotVvRXO == Open  && TM.BM1.SlotVvRXI != Open)	{	TM.BM1.SlotVvRXI = Open;	$time = 1; }
+ if(TM.BM1.SlotVvRXO == Close && TM.BM1.SlotVvRXI != Close)	{	TM.BM1.SlotVvRXI = Unknown;	}
+aif(TM.BM1.SlotVvRXO == Close && TM.BM1.SlotVvRXI != Close)	{	TM.BM1.SlotVvRXI = Close;	$time = 1; }
+
+ if(TM.BM2.SlotVvLXO == Open  && TM.BM2.SlotVvLXI != Open)	{	TM.BM2.SlotVvLXI = Unknown;	}
+aif(TM.BM2.SlotVvLXO == Open  && TM.BM2.SlotVvLXI != Open)	{	TM.BM2.SlotVvLXI = Open;	$time = 1; }
+ if(TM.BM2.SlotVvLXO == Close && TM.BM2.SlotVvLXI != Close)	{	TM.BM2.SlotVvLXI = Unknown;	}
+aif(TM.BM2.SlotVvLXO == Close && TM.BM2.SlotVvLXI != Close)	{	TM.BM2.SlotVvLXI = Close;	$time = 1; }
+ if(TM.BM2.SlotVvRXO == Open  && TM.BM2.SlotVvRXI != Open)	{	TM.BM2.SlotVvRXI = Unknown;	}
+aif(TM.BM2.SlotVvRXO == Open  && TM.BM2.SlotVvRXI != Open)	{	TM.BM2.SlotVvRXI = Open;	$time = 1; }
+ if(TM.BM2.SlotVvRXO == Close && TM.BM2.SlotVvRXI != Close)	{	TM.BM2.SlotVvRXI = Unknown;	}
+aif(TM.BM2.SlotVvRXO == Close && TM.BM2.SlotVvRXI != Close)	{	TM.BM2.SlotVvRXI = Close;	$time = 1; }
+
+ if(BM1.DoorLXO == Open  && BM1.DoorLXI != Open)		{	BM1.DoorLXI = Unknown;		}
+aif(BM1.DoorLXO == Open  && BM1.DoorLXI != Open)		{	BM1.DoorLXI = Open;		$time = 1; }
+ if(BM1.DoorLXO == Close && BM1.DoorLXI != Close)		{	BM1.DoorLXI = Unknown;		}
+aif(BM1.DoorLXO == Close && BM1.DoorLXI != Close)		{	BM1.DoorLXI = Close;		$time = 1; }
+ if(BM1.DoorRXO == Open  && BM1.DoorRXI != Open)		{	BM1.DoorRXI = Unknown;		}
+aif(BM1.DoorRXO == Open  && BM1.DoorRXI != Open)		{	BM1.DoorRXI = Open;		$time = 1; }
+ if(BM1.DoorRXO == Close && BM1.DoorRXI != Close)		{	BM1.DoorRXI = Unknown;		}
+aif(BM1.DoorRXO == Close && BM1.DoorRXI != Close)		{	BM1.DoorRXI = Close;		$time = 1; }
+
+ if(BM2.DoorLXO == Open  && BM2.DoorLXI != Open)		{	BM2.DoorLXI = Unknown;		}
+aif(BM2.DoorLXO == Open  && BM2.DoorLXI != Open)		{	BM2.DoorLXI = Open;		$time = 1; }
+ if(BM2.DoorLXO == Close && BM2.DoorLXI != Close)		{	BM2.DoorLXI = Unknown;		}
+aif(BM2.DoorLXO == Close && BM2.DoorLXI != Close)		{	BM2.DoorLXI = Close;		$time = 1; }
+ if(BM2.DoorRXO == Open  && BM2.DoorRXI != Open)		{	BM2.DoorRXI = Unknown;		}
+aif(BM2.DoorRXO == Open  && BM2.DoorRXI != Open)		{	BM2.DoorRXI = Open;		$time = 1; }
+ if(BM2.DoorRXO == Close && BM2.DoorRXI != Close)		{	BM2.DoorRXI = Unknown;		}
+aif(BM2.DoorRXO == Close && BM2.DoorRXI != Close)		{	BM2.DoorRXI = Close;		$time = 1; }

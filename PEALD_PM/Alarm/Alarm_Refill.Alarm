@@ -1,0 +1,99 @@
+#
+#
+#
+# Possible Recovery Action String
+#	- CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+
+###################### not used ##############################
+6000	DeviceNetCommError	{
+	"Device Net Communication Error"
+	CLEAR	"Clear Operation"
+	}
+
+6001	RefillConditionAlarm	{
+	"Refill Condition Not OK"
+	CLEAR	"Clear Operation"
+	}
+
+6002	RefillPrepareAlarm	{
+	"Refill Prepare Not OK"
+	CLEAR	"Clear Operation"
+	}
+
+6003	RefillFailedAlarm	{
+	"Do Refill Failed"
+	CLEAR	"Clear Operation"
+	}
+
+6004	SourceLevelHighAlarm	{
+	"Source Level High"
+	CLEAR	"Clear Operation"
+	}
+
+6005	PMInterlockAlarm	{
+	"Process Module Interlock Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+6006	RefillSystemAlarm	{
+	"Refill System Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+6007	RefillSystemWarning	{
+	"Refill System Warning"
+	CLEAR	"Clear Operation"
+	}
+
+6008	RefillPurgeTimeout	{
+	"Refill Purge Timeout"
+	CLEAR	"Clear Operation"
+	}
+
+6009	RefillTimeout	{
+	"Refill Timeout"
+	CLEAR	"Clear Operation"
+	}
+
+6010	HtrRelayOffAlarm	{
+	"Heater Relay Off"
+	CLEAR	"Clear Operation"
+	}
+
+6011	PMSystemNotOK	{
+	"Process Module Not OK"
+	CLEAR	"Clear Operation"
+	}
+
+6012	RefillAborted	{
+	"Refill Process Aborted"
+	CLEAR	"Clear Operation"
+	}
+
+6013	RefillFailed	{
+	"Refill Process Failed"
+	CLEAR	"Clear Operation"
+	}
+
+6014	RefillNotReady	{
+	"Refill System Not Ready"
+	CLEAR	"Clear Operation"
+	}
+
+6015	RefillEmpty	{
+	"Source[Refill System] Empty"
+	CLEAR	"Clear Operation"
+	}
+
+6016	RCPRunning	{
+	"Recipe Running"
+	CLEAR	"Clear Operation"
+	}
+
+

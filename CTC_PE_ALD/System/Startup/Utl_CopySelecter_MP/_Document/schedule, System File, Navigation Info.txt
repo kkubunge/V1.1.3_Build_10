@@ -1,0 +1,36 @@
+
+   System_?_???_?.cfg
+	  - --- -
+	  | ||| |->  1 : 1,2Slot Load,     2 :  3,4Slot Load 
+	  ¦¢ ¦¢¦¢¦¢ 
+	  ¦¢ ¦¢¦¢¦¦>     1 : PM5 Use ,         2 : PM5 NotUse 
+	  ¦¢ ¦¢¦¢ 
+	  ¦¢ ¦¢¦¦>      1 : PM3 Use ,         2 : PM3 NotUse 
+	  ¦¢ ¦¢
+  	  ¦¢ ¦¦>       1 : PM1 Use ,         2 : PM1 NotUse
+	  ¦¢
+	  ¦¦>         1 : LL Preheat Use,   2 : LL Preheat NotUse
+
+    
+      Default File : System_2_111_2.cfg
+ 
+
+   Navigation_???.cfg
+   	      ---
+	      ¦¢¦¢¦¢ 
+	      ¦¢¦¢¦¦>  1 : PM5 Use , 2 : PM5 NotUse 
+	      ¦¢¦¢ 
+	      ¦¢¦¦>   1 : PM3 Use , 2 : PM3 NotUse 
+	      ¦¢
+	      ¦¦>    1 : PM1 Use , 2 : PM1 NotUse
+	  
+
+
+   Schedule_??.cfg
+            --
+	    ¦¢¦¢ 
+	    ¦¢¦¦>	    1 : TM Robot ( 4Ãà )      , 2 : TM Robot ( 7Ãà )
+	    ¦¦>      1 : DirectSwitchable Use  , 2 : DirectSwitchable NotUse
+
+
+

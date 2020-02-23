@@ -1,0 +1,15 @@
+2018/1/2 10:25:31	USERCONTROL	[SYSTEM_START]
+2018/1/2 10:26:0	POPUP	[OPEN] LogIn/Out at Page = 0(PAGE 1)
+2018/1/2 10:26:3	USERCONTROL	[USER_LOG__IN] <IPS:Sysadmin>
+2018/1/2 10:26:4	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/2 10:26:4	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/2 10:26:6	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2018/1/2 10:26:6	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2018/1/2 10:26:6	SETTING	[DIO] Bottom_Service with [1] at Page = 0(PAGE 1)
+2018/1/2 10:26:6	BUTTON	[BOTTOM CLICK] Bottom_Service
+2018/1/2 10:26:7	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/2 10:26:7	BUTTON	[BOTTOM CLICK] Bottom_System
+2018/1/2 10:26:7	SETTING	[DIO] Bottom_Recipe with [1] at Page = 0(PAGE 1)
+2018/1/2 10:26:7	BUTTON	[BOTTOM CLICK] Bottom_Recipe
+2018/1/2 10:26:8	SETTING	[DIO] Bottom_System with [1] at Page = 0(PAGE 1)
+2018/1/2 10:26:8	BUTTON	[BOTTOM CLICK] Bottom_System

@@ -1,0 +1,215 @@
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#  PARAMETER
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+#--------------------------------------------------------------------------
+
+$$$ Digital
+
+	FC_CM3_MID_CONTROL	OnOff
+	FC_CM3_RFID_BYPASS		OffOn
+	PRM_CM3_MID_OPERATE_TYPE	MID_RD_Mode
+
+	FC_FMCM3_CONTROL	OnOff
+	PRM_FMCM3_CLAMP_MODE	Clmp_Mode
+	PRM_FMCM3_TIMEOUT
+	PRM_FMCM3_USE_MODE	DummyUseMode
+	PRM_FMCM3_LOTCHECK	CheckNotCheck
+	PRM_FMCM3_WFRCHECK	OnOff
+
+	FC_CM3_UNCLAMP_CONTROL		Unclamp_Ctrl
+	FC_CM3_GUI_JOBSTART_MODE	GUI_Start_Mode
+
+$$$ Digital
+
+CM3.AlarmStatus          AlarmSts  SYSTEM     0  0  700  999  1
+LPMC.AlarmStatus          AlarmSts  SYSTEM     0  0  760  797  1
+LPC.AlarmStatus          AlarmSts  SYSTEM     0  0  760  797  1
+LPMC.ManPurgeStatus	 OffOn
+LPMC.N2PurgeSet		 OffOn
+
+CM3.Carrier		 AbsPres
+CM3.WaferStatus
+
+CM3.Mapping
+BM3.Mapping
+
+CM3.C01_Wafer	CTCMtlSts
+CM3.C02_Wafer	CTCMtlSts
+CM3.C03_Wafer	CTCMtlSts
+CM3.C04_Wafer	CTCMtlSts
+CM3.C05_Wafer	CTCMtlSts
+CM3.C06_Wafer	CTCMtlSts
+CM3.C07_Wafer	CTCMtlSts
+CM3.C08_Wafer	CTCMtlSts
+CM3.C09_Wafer	CTCMtlSts
+CM3.C10_Wafer	CTCMtlSts
+CM3.C11_Wafer	CTCMtlSts
+CM3.C12_Wafer	CTCMtlSts
+CM3.C13_Wafer	CTCMtlSts
+CM3.C14_Wafer	CTCMtlSts
+CM3.C15_Wafer	CTCMtlSts
+CM3.C16_Wafer	CTCMtlSts
+CM3.C17_Wafer	CTCMtlSts
+CM3.C18_Wafer	CTCMtlSts
+CM3.C19_Wafer	CTCMtlSts
+CM3.C20_Wafer	CTCMtlSts
+CM3.C21_Wafer	CTCMtlSts
+CM3.C22_Wafer	CTCMtlSts
+CM3.C23_Wafer	CTCMtlSts
+CM3.C24_Wafer	CTCMtlSts
+CM3.C25_Wafer	CTCMtlSts
+CM3.C26_Wafer	CTCMtlSts
+CM3.C27_Wafer	CTCMtlSts
+CM3.C28_Wafer	CTCMtlSts
+CM3.C29_Wafer	CTCMtlSts
+CM3.C30_Wafer	CTCMtlSts
+
+$$$ Digital
+CM3.VACUUM_STATUS
+CM3.PUMPING_RUNNING
+CM3.LOCK_PUMP
+
+#--------------------------------------------------------------------------
+#  Maintenance
+#--------------------------------------------------------------------------
+$$$ Digital
+CM3.MAINT_SLOT		-	* *  - - - - -    1     25	1
+
+CM3.LOADING_SIGNAL
+CM3.UNLOADING_SIGNAL
+
+CM3.UNLOAD_REQUEST	-	0
+
+CM3.AMHS_MOVING
+CM3.EVENT_SERVICE	OffOn
+CM3.PROCESS_END		OffOn
+CM3.PORT_SERVICE	ServiceMode
+
+CM3.MAPWAFER_COUNT
+CM3.GETMAP_START	OFFON
+
+CM3.OPERATOR_CANCEL
+
+CM3.RFID_PAGE_NUMBER	-	* *  - - - - -    0     17
+# jelee 2008.01.10 for Carrier Release Test
+CM3.CarNormal_End	OffOn
+CM3.CarRelease_Wait	OffOn
+CM3.CarUnload_Fail	OffOn
+CM3.PJ_Run_Wait		OffOn
+
+$$$ String
+CM3.MAPWAFER_INFO		""
+
+CM3.RFID_MID_PAGE		""
+CM3.RFID_PAGE1			""
+CM3.RFID_PAGE2			""
+CM3.RFID_PAGE3			""
+CM3.RFID_PAGE4			""
+CM3.RFID_PAGE5			""
+CM3.RFID_PAGE6			""
+CM3.RFID_PAGE7			""
+CM3.RFID_PAGE8			""
+CM3.RFID_PAGE9			""
+CM3.RFID_PAGE10			""
+CM3.RFID_PAGE11			""
+CM3.RFID_PAGE12			""
+CM3.RFID_PAGE13			""
+CM3.RFID_PAGE14			""
+CM3.RFID_PAGE15			""
+CM3.RFID_PAGE16			""
+CM3.RFID_PAGE17			""
+
+CM3.RFID_PAGE_DATA		""
+
+################## OHT PLC IO CHANNEL
+$$$ Digital
+LPMC.AGV_MODE_SET		AGVMode
+LPMC.AGV_MODE_STS		AGVMode
+
+LPMC.AGV_STATUS			AGVSts
+LPMC.AGV_ERROR			-		0
+
+LPMC.AGV_ERR_CLEAR		AGVClr
+
+LPMC.PM1_Use	NoYes	No
+LPMC.PM2_Use	NoYes	No
+LPMC.PM3_Use	NoYes	No
+LPMC.PM4_Use	NoYes	No
+LPMC.PM5_Use	NoYes	No
+$$$ Digital
+	PRMD_LPC_N2Mode	N2MODE
+#	PRMD_LPC_Pre_ExhNozzle	NotuseUse
+#	PRMD_LPC_Proc_ExhNozzle	NotuseUse	
+#	PRMD_LPC_Post_ExhNozzle	NotuseUse
+##########	4Nozzle	  #############
+	PRMD_LPC_Pre_ExhNozzle		NoUse
+	PRMD_LPC_T_Pre_ExhNozzle	NoUse
+	PRMD_LPC_Proc_ExhNozzle		NoUse
+	PRMD_LPC_Post_ExhNozzle 	NoUse
+	PRMD_LPC_P_Post_ExhNozzle 	NoUse	
+##########	2Nozzle	  #############
+	PRMD_LPC_Pre_2ExhNozzle		NoUse
+	PRMD_LPC_T_Pre_2ExhNozzle	NoUse
+	PRMD_LPC_Proc_2ExhNozzle	NoUse
+	PRMD_LPC_Post_2ExhNozzle 	NoUse
+	PRMD_LPC_P_Post_2ExhNozzle 	NoUse
+##########	Common	  #############
+	PRMD_LPC_Man_Flow_Mode		PurgeMode
+	PRMD_LPC_TPre_Repeat		OffOn	
+	PRMD_LPC_Purge_ExhNozzle   	NoUse
+	PRMD_LPC_RESET_Ctrl		TPReset
+	PRMD_LPC_MODE_STATUS		N2MODE_STATUS				
+		
+$$$ Analog
+##########	4Nozzle	  #############
+	PRMA_LPC_Pre_Nozzle1       -	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0 
+	PRMA_LPC_Pre_Nozzle2       -	- - - - 0	0	200	1	- - - - 0	0	200 --- --- --- ---	0 
+	PRMA_LPC_Pre_Time         sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 
+	PRMA_LPC_T_Pre_Nozzle1     -	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0 
+	PRMA_LPC_T_Pre_Nozzle2     -	- - - - 0	0	200	1	- - - - 0	0	200 --- --- --- ---	0 
+	PRMA_LPC_T_Pre_Time       sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 
+	PRMA_LPC_Proc_Nozzle1      -	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0 
+	PRMA_LPC_Proc_Nozzle2      -	- - - - 0	0	200	1	- - - - 0	0	200 --- --- --- ---	0  
+	PRMA_LPC_Proc_Time        sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 
+	PRMA_LPC_Post_Nozzle1      -	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0 
+	PRMA_LPC_Post_Nozzle2      -	- - - - 0	0	200	1	- - - - 0	0	200 --- --- --- ---	0 
+	PRMA_LPC_Post_Time        sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 
+	PRMA_LPC_P_Post_Nozzle1    -	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0 
+	PRMA_LPC_P_Post_Nozzle2    -	- - - - 0	0	200	1	- - - - 0	0	200 --- --- --- ---	0 
+	PRMA_LPC_P_Post_Time      sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 
+##########	2Nozzle	  #############
+	PRMA_LPC_Pre_2Nozzle1      -	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0 
+	PRMA_LPC_Pre_2Time        sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 
+	PRMA_LPC_T_Pre_2Nozzle1    -	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0 
+	PRMA_LPC_T_Pre_2Time      sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 
+	PRMA_LPC_Proc_2Nozzle1     -	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0  
+	PRMA_LPC_Proc_2Time       sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 
+	PRMA_LPC_Post_2Nozzle1     -	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0 
+	PRMA_LPC_Post_2Time       sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 
+	PRMA_LPC_P_Post_2Nozzle1   -	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0 
+	PRMA_LPC_P_Post_2Time     sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 
+##########	Common	  #############
+	PRMA_LPC_Purge_Nozzle1     -	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0 			
+	PRMA_LPC_Purge_Nozzle2     -	- - - - 0	0	200	1	- - - - 0	0	200 --- --- --- ---	0 			
+	PRMA_LPC_Purge_PurgeTime  sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 
+	PRMA_LPC_Purge_ElapseTime sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 
+	PRMA_LPC_Purge_IdleTime   sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 
+	PRMA_LPC_N2_Chk_Delay	  sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 	
+	PRMA_LPC_Nozzle1_WarnTol   %	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0 	
+	PRMA_LPC_Nozzle1_AbortTol  %	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0 			
+	PRMA_LPC_Nozzle1_ChkCnt   sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 	
+	PRMA_LPC_Nozzle2_WarnTol   %	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0 	
+	PRMA_LPC_Nozzle2_AbortTol  %	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0 			
+	PRMA_LPC_Nozzle2_ChkCnt   sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 	
+	PRMA_LPC_MainPrs_LowLmt   kpa	- - - - 0	0	800	1	- - - - 0	0	800 --- --- --- ---	0 	
+	PRMA_LPC_MainPrs_HighLmt  kpa	- - - - 0	0	800	1	- - - - 0	0	800 --- --- --- ---	0 	
+	PRMA_LPC_MainPrs_ChkCnt    -	- - - - 0	0	100	1	- - - - 0	0	100 --- --- --- ---	0 	
+	PRMA_LPC_TPre_OnTime	  sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 	
+	PRMA_LPC_TPre_OffTime	  sec	- - - - 0	0	300	1	- - - - 0	0	300 --- --- --- ---	0 	

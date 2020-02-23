@@ -1,0 +1,42 @@
+#-------------------------------------------------------------------------------
+# PM1 Part Scheduler Interface Function
+#-------------------------------------------------------------------------------
+
+PM1.READY		50	REMOTE	READY
+PM1.END			50	REMOTE	READY
+
+PM1.PREPARE_SEND	50	REMOTE	READY
+PM1.POST_SEND		50	REMOTE	READY
+PM1.PREPARE_RECV	50	REMOTE	READY
+PM1.POST_RECV		50	REMOTE	READY
+
+PM1.PREPARE_PICK	50	REMOTE	READY
+PM1.WAFER_PICK		50	REMOTE	READY
+PM1.PREPARE_PLACE	50	REMOTE	READY
+PM1.WAFER_PLACE		50	REMOTE	READY
+
+#-------------------------------------
+# Process Run Interface Function with Recipe Handling
+#-------------------------------------
+
+PM1.PROCESS_IN		50	REMOTE	READY
+PM1.PROCESS_OUT		50	REMOTE	READY
+PM1.M_PROCESS		50	REMOTE	READY
+
+#-------------------------------------
+# Scheduler Direct Interface Function for Process Data Logging
+#-------------------------------------
+
+PM1.PROCESS_LOG		50	REMOTE	READY
+
+#-------------------------------------
+# Transfer Clear Function for Remote
+#-------------------------------------
+
+PM1.CLEAR		50	REMOTE	READY
+
+#-------------------------------------
+# User Maintenance Interface Function for Remote
+#-------------------------------------
+
+PM1.SERV_MAIN		50	REMOTE	READY

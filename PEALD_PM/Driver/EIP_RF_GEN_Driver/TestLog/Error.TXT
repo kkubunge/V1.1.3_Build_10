@@ -1,0 +1,302 @@
+-Kornic-
+          -------------------------------------------------------+
+         |                                                       |-*
+         |  Control Interface Module Program                     | I
+         |  ___________________________________________________  | I
+         |                                                       | I
+         |                                                       | I
+         |   ----------------+  [Kornic Systems Corporation]     | I
+         |  |             ///|     128-2 Chuckbuk-Ri,            | I
+         |  |         /////  |     Nami-Myun, Chungwon-Gun,      | I
+         |  |     ///////    |     Choongbuk, 363-810, KOREA     | I
+         |  |     //////     |                                   | I
+         |  |    ///////     |  Tel   : +82-43-269.4895          | I
+         |  |  /////         |  Fax   : +82-43-269.4898          | I
+         |  |///             |  E-Mail: CTCDivision@kornic.co.kr | I
+         |  +----------------   http://www.easycluster.co.kr     | I
+         +-------------------------------------------------------+ I
+           *=======================================================*
+
+
+$$$ System Initializing .........
+AE MATCHER COM[02] OPEN SUCCESS..[Ver:AE_MAT DRV. 1.0 / Rebuild:2013.01.22]
+AE MATCHER COM[04] OPEN SUCCESS..[Ver:AE_MAT DRV. 1.0 / Rebuild:2013.01.22]
+[EIP RF Generator Driver Connect Success  IP[192.168.127.111] Port[502]
+RORZE MOTOR DRIVER COMM OPEN SUCCESS.[Ver:RORZE_MOTOR_DRV_VER. 4.4 / Rebuild_Dat
+e:2014.03.11]
+[DNet] Device attaching started!
+-----> Create Shared Memory Successfully
+[DNet] DevOpenDriver Success!!
+[DNet] Board0 initialize success!!
+[DNet] DevSetHostState (HOST_READY) success!!
+[DNet] ReadSendData success!!
+[DNet] Device attached!
+Start Initializing in ControlMonitor
+MFC_Vefification Loaded
+ChmVol[42.20] PrsChkErr[0.30] EndPrsChk[9.80] PumpTm[30.00] PurgTm[30.00] StbTm[
+30.00] Alm[2061]
+ChmVol[42.20] PrsChkErr[0.30] EndPrsChk[9.80] PumpTm[30.00] PurgTm[30.00] StbTm[
+30.00] Alm[2061]
+ChmVol[42.20] PrsChkErr[0.30] EndPrsChk[9.80] PumpTm[30.00] PurgTm[30.00] StbTm[
+30.00] Alm[2061]
+ChmVol[42.20] PrsChkErr[0.30] EndPrsChk[9.80] PumpTm[10.00] PurgTm[30.00] StbTm[
+30.00] Alm[2061]
+ChmVol[42.20] PrsChkErr[0.30] EndPrsChk[9.80] PumpTm[10.00] PurgTm[10.00] StbTm[
+30.00] Alm[2061]
+ChmVol[42.20] PrsChkErr[0.30] EndPrsChk[9.80] PumpTm[10.00] PurgTm[10.00] StbTm[
+10.00] Alm[2061]
+ChmVol[42.20] PrsChkErr[0.30] EndPrsChk[9.80] PumpTm[10.00] PurgTm[10.00] StbTm[
+10.00] Alm[2180]
+ChmVol[42.20] PrsChkErr[0.30] EndPrsChk[9.80] PumpTm[10.00] PurgTm[10.00] StbTm[
+10.00] Alm[2180]
+MFC[0] Name[Ar] 1_Gas[Ar] CFact[1.000]  2_Gas[Ar] CFact[1.000]  3_Gas[-] CFact[0
+.000]
+MFC[1] Name[O2] 1_Gas[O2] CFact[1.000]  2_Gas[-] CFact[0.000]   3_Gas[-] CFact[0
+.000]
+MFC[2] Name[Ar] 1_Gas[Ar] CFact[1.000]  2_Gas[Ar] CFact[1.000]  3_Gas[-] CFact[0
+.000]
+MFC[3] Name[Ar] 1_Gas[Ar] CFact[1.000]  2_Gas[Ar] CFact[1.000]  3_Gas[-] CFact[0
+.000]
+MFC[4] Name[NF3]        1_Gas[NF3] CFact[1.000] 2_Gas[-] CFact[0.000]   3_Gas[-]
+ CFact[0.000]
+MFC[5] Name[Ar] 1_Gas[Ar] CFact[1.000]  2_Gas[Ar] CFact[1.000]  3_Gas[-] CFact[0
+.000]
+MFC[6] Name[Ar] 1_Gas[O2] CFact[1.000]  2_Gas[Ar] CFact[1.000]  3_Gas[-] CFact[0
+.000]
+MFC[7] Name[O2] 1_Gas[Ar] CFact[1.000]  2_Gas[-] CFact[0.000]   3_Gas[-] CFact[0
+.000]
+MFC[8] Name[Ar] 1_Gas[Ar] CFact[1.000]  2_Gas[Ar] CFact[1.000]  3_Gas[-] CFact[0
+.000]
+MFC[9] Name[-]  1_Gas[-] CFact[0.000]   2_Gas[-] CFact[0.000]   3_Gas[-] CFact[0
+.000]
+MFC[10] Name[-] 1_Gas[-] CFact[0.000]   2_Gas[-] CFact[0.000]   3_Gas[-] CFact[0
+.000]
+MFC[11] Name[-] 1_Gas[-] CFact[0.000]   2_Gas[-] CFact[0.000]   3_Gas[-] CFact[0
+.000]
+MFC[12] Name[-] 1_Gas[-] CFact[0.000]   2_Gas[-] CFact[0.000]   3_Gas[-] CFact[0
+.000]
+MFC[13] Name[-] 1_Gas[-] CFact[0.000]   2_Gas[-] CFact[0.000]   3_Gas[-] CFact[0
+.000]
+MFC[14] Name[-] 1_Gas[-] CFact[0.000]   2_Gas[-] CFact[0.000]   3_Gas[-] CFact[0
+.000]
+MFC[15] Name[-] 1_Gas[-] CFact[0.000]   2_Gas[-] CFact[0.000]   3_Gas[-] CFact[0
+.000]
+MFC[16] Name[-] 1_Gas[-] CFact[0.000]   2_Gas[-] CFact[0.000]   3_Gas[-] CFact[0
+.000]
+MFC[17] Name[-] 1_Gas[-] CFact[0.000]   2_Gas[-] CFact[0.000]   3_Gas[-] CFact[0
+.000]
+--------> MonPeriod = 1000 ms (in IOMonitor)
+--------> FileCreatePeriod = 24 hours (in IOMonitor)
+--------> KeepDays = 10 days (in IOMonitor)
+Stage Heater Control Function[Type3] is created
+Stage Heater Monitor Function[Type3] is created
+Stage Heater Control Function[Type3] is created
+Stage Heater Monitor Function[Type3] is created
+MakeCFGLog Loaded
+Process Control Function[Type2] is created
+Process Control Function[Type2] is created
+Process Control Function[Type2] is created
+
+[IPS Fab Toxic Gas N2 Valve Information]
+No01 MFC_IO[MFC05FlwAI]          VALVE_IO[V52ValveDO]
+No02 MFC_IO[]            VALVE_IO[V15ValveDO]
+
+$$$ System Initializing Completed
+
+==>g_nPMType:1
+ ==>PressureInterlock_Monitor Started!
+[INFO] ShowerHeadCover_Monitor Started!
+Entered StgHtrMonitor
+-----> Heater Temp Monitoring by SW
+Entered StgHtrMonitor
+Entered TimeMonitor
+-----> Heater Temp Monitoring by SW
+Leaved TimeMonitor
+Entered HeaterMonitor
+Entered MFCPressureMonitor
+> 1. Wait 1 sec
+> 2. Wait 1 sec
+> 2. Wait 2 sec
+> 1. Wait 2 sec
+> 2. Wait 3 sec
+> 1. Wait 3 sec
+> 2. Wait 4 sec
+> 1. Wait 4 sec
+> 1. Wait 5 sec
+> 2. Wait 5 sec
+> 1. Wait 6 sec
+> 2. Wait 6 sec
+> 1. Wait 7 sec
+> 2. Wait 7 sec
+> 2. Wait 8 sec
+> 1. Wait 8 sec
+> 1. Wait 9 sec
+> 2. Wait 9 sec
+> 2. Wait 10 sec
+> 1. Wait 10 sec
+
+Initializing Module Service 1 ...
+
+Initializing Module Service 2 ...
+Module Service Initialization Complete 2.[1]
+Module Service Initialization Complete 1.[1]
+>> REM1 ANALOG_ALL BrChmPrsAI Not Defined
+     >>>>>>>>>> Alarm Occured-[8116]
+     >>>>>>>>>> Alarm Occured-[8116]
+[68-M_PROCESS] Event happened [BIG_DATA(24113)]
+-----> Read RecipeMapData
+-----> Initialize Recipe Data
+Entered ProcessControl::Recipe_Reading
+-----> Unknown Recipe Item [Step:1 STEP_CYC_CMP_MAX 100] in Recipe_Reading:Parse
+RecipeStepItem
+-----> Unknown Recipe Item [Step:2 STEP_CYC_CMP_MAX 100] in Recipe_Reading:Parse
+RecipeStepItem
+-----> Unknown Recipe Item [Step:3 STEP_CYC_CMP_MAX 100] in Recipe_Reading:Parse
+RecipeStepItem
+Leaved ProcessControl::Recipe_Reading
+----------------------------------------------------------
+Entered ProcessControl
+--------------------> Recipe Data Begin
+-> RcpType:4  TotalStep:3   Name:11L_RT_IDLE.idl
+-> StepGrpBegin:0  GrpEnd:0  GrpCycle:0
+-> StepNumber:1   StepName:purge   MainStep:0
+-> Chamber Pressure Hi:10.000 Lo: 0.000  Opt:4
+-> Throttel Valve Sp: 2.300   Opt:5
+-> ZMotion Sp:  17.000
+-> ZMotion2 Sp:  17.000
+-> RF Sp:0   Opt:0
+-> RF2 Sp:0   Opt:0
+-> Preset1 Mode:0       Sel:0   Type:0
+-> Preset2 Mode:0       Sel:0   Type:0
+-> StageHeater Sp:0.0   Opt:4522400
+-> StageHeater2 Sp:0.0   Opt:4522400
+-> ValveRcp CycleCount:30000  TotalStep:1  En:1
+-> Preventive Maint Option:1
+-> PreHeat Time:0
+-> StepNumber:2   StepName:pumping   MainStep:0
+-> Chamber Pressure Hi:10.000 Lo: 0.000  Opt:4
+-> Throttel Valve Sp:100.000   Opt:0
+-> ZMotion Sp:  17.000
+-> ZMotion2 Sp:  17.000
+-> RF Sp:0   Opt:0
+-> RF2 Sp:0   Opt:0
+-> Preset1 Mode:0       Sel:0   Type:0
+-> Preset2 Mode:0       Sel:0   Type:0
+-> StageHeater Sp:0.0   Opt:4522400
+-> StageHeater2 Sp:0.0   Opt:4522400
+-> ValveRcp CycleCount:2  TotalStep:1  En:1
+-> Preventive Maint Option:1
+-> PreHeat Time:0
+-> StepNumber:3   StepName:pumping   MainStep:0
+-> Chamber Pressure Hi:10.000 Lo: 0.000  Opt:4
+-> Throttel Valve Sp:100.000   Opt:0
+-> ZMotion Sp:  11.000
+-> ZMotion2 Sp:  11.000
+-> RF Sp:0   Opt:0
+-> RF2 Sp:0   Opt:0
+-> Preset1 Mode:0       Sel:0   Type:0
+-> Preset2 Mode:0       Sel:0   Type:0
+-> StageHeater Sp:0.0   Opt:4522400
+-> StageHeater2 Sp:0.0   Opt:4522400
+-> ValveRcp CycleCount:1  TotalStep:1  En:1
+-> Preventive Maint Option:1
+-> PreHeat Time:0
+--------------------> Recipe Data End
+Entered ProcessControl::RunIdleRcp
+DN 98 Total Step Time : 1200000
+DN 98 Total Step Time : 10
+DN 98 Total Step Time : 5
+Entered TimeMonitor
+Leaved TimeMonitor
+SetServiceCode ok
+SetClassID ok
+SetInstanceID ok
+Entered VACUUM_CONTROL
+Leave VACUUM_CONTROL
+Entered RFCountMonitor
+Leave RFCountMonitor
+Entered TimeMonitor
+Leaved TimeMonitor
+SetServiceCode ok
+SetClassID ok
+SetInstanceID ok
+Entered AbortGas
+Entered ValveControl
+Leaved ValveControl[3]
+Leave AbortGas
+[DEBUG] Entered SetStagePositionEx Pos[17] Pos2[17]
+[INFO] Entered CHUCK_CONTROL[RUN 2 17.00 17.00]
+Telegram Header Data : 01 2F 03 00 00 C8 00 1E
+[DNet] DevPutMessage success!!
+CurrentPaket=0 Reset ok
+Read failed in EIP_RF_Gen_Driver[0-0]
+RcvData : 00 00 00 00 00 07 01 64 76 00 01 00 00 00 00 00 00 00 03 01 E4 03 in E
+IP_RF_Gen_Driver[0-0]
+[AE RF TCP IP COMMAD CHECK ERROR] ==>118
+[ERR]AE RF IO Update Failed
+Chuck Position Set ==> [712400,721000]
+[DNet] UpLoading->DevGetMessage success..
+Getting Teletram Header Data : 012F03000000001E
+-----=====> Service Code Check OK!
+Telegram Header Data : 01 2F 03 00 00 64 00 1E
+[DNet] DevPutMessage success!!
+CurrentPaket=0 Reset ok
+[DNet] UpLoading->DevGetMessage success..
+Getting Teletram Header Data : 012F03000000001E
+-----=====> Service Code Check OK!
+Telegram Header Data : 01 2F 03 00 00 C8 00 1E
+[DNet] DevPutMessage success!!
+CurrentPaket=0 Reset ok
+[DNet] UpLoading->DevGetMessage success..
+Getting Teletram Header Data : 012F03000000001E
+-----=====> Service Code Check OK!
+Telegram Header Data : 01 2F 03 00 00 64 00 1E
+[DNet] DevPutMessage success!!
+CurrentPaket=0 Reset ok
+[DNet] UpLoading->DevGetMessage success..
+Getting Teletram Header Data : 012F03000000001E
+-----=====> Service Code Check OK!
+Telegram Header Data : 01 2F 03 00 00 C8 00 1E
+[DNet] DevPutMessage success!!
+CurrentPaket=0 Reset ok
+[DNet] UpLoading->DevGetMessage success..
+Getting Teletram Header Data : 012F03000000001E
+-----=====> Service Code Check OK!
+Telegram Header Data : 01 2F 03 00 00 64 00 1E
+[DNet] DevPutMessage success!!
+CurrentPaket=0 Reset ok
+[DNet] UpLoading->DevGetMessage success..
+Getting Teletram Header Data : 012F03000000001E
+-----=====> Service Code Check OK!
+Telegram Header Data : 01 2F 03 00 00 64 00 1E
+[DNet] DevPutMessage success!!
+CurrentPaket=0 Reset ok
+[DNet] UpLoading->DevGetMessage success..
+Getting Teletram Header Data : 012F03000000001E
+-----=====> Service Code Check OK!
+Telegram Header Data : 01 2F 03 00 00 64 00 1E
+[DNet] DevPutMessage success!!
+CurrentPaket=0 Reset ok
+[DNet] UpLoading->DevGetMessage success..
+Getting Teletram Header Data : 012F03000000001E
+-----=====> Service Code Check OK!
+[INFO] Leaved CHUCK_CONTROL[3]
+[DEBUG] Leaved SetStagePositionEx bRet[1]
+---> [Step:1] Start_ProcessStep Called
+-----> [Step:1] Normal(Not Main) Step Checked
+-----> [Step:1] VRCP Start Bit Set
+> [Step:1] First Step Started
+Entered TimeMonitor
+Leaved TimeMonitor
+---> [Step:1] Waiting for Starting ValveRecipe ...
+---> [Step:1] Set_Controlller Called
+Entered PressureMonitor
+Entered PressureControl
+Entered ProcessBackgroundRun
+Entered ProcessBackgroundRun::ProcBgRunStart
+Entered RFControl
+Entered RFControl::StartMon
+Leaved PressureControl
+Entered RFControl
+Entered RFControl::StartMon
+---> [Step:1] Waiting for Finishing Step ...

@@ -1,0 +1,1284 @@
+#
+#
+#
+# Possible Recovery Action String
+#      - CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+###################### not used ##############################
+8000	StgHtrRelayInterlock	{
+	"Stage Heater Relay Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+8001	GLHtrRelayInterlock	{
+	"Gasline Heater Relay Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+8002	ChmHtrRelayInterlock	{
+	"Chamber Heater Relay Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+8003	PLCGbInterlock	{
+	"PLC Global Interlock Occured"
+	CLEAR	"Clear Operation"
+	}
+
+8004	ValveRecipeAborted	{
+	"Valve Recipe Aborted Occured"
+	CLEAR	"Clear Operation"
+	}
+
+8005	TopLidOpenInterlock	{
+	"Top Lid Open Occured"
+	CLEAR	"Clear Operation"
+	}
+
+8006	RPGWaterNotFlowInterlock	{
+	"RPG Water Not Flow or Low"
+	CLEAR	"Clear Operation"
+	}
+
+8007	StageHeaterOverTempInterlock	{
+	"Stage Heater Over Temp Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8008	GasLineOverTempInterlock	{
+	"Gas Line Over Temp Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8009	ChamberOverTempInterlock	{
+	"Chamber Heater Over Temp Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8010	MotionControlAlarm1	{
+	"Motion Control Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8011	MotionControlAlarm1	{
+	"Motion Control Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8012	HtrRun1DI	{
+	"Heater Controller 1 Not Running"
+	CLEAR	"Clear Operation"
+	}
+
+8013	HtrAlarm1DI	{
+	"Heater Controller 1 Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8014	DryPumpNotRun	{
+	"Dry Pump Running Off Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8015	DryPumpWarning	{
+	"Dry Pump Warning Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8016	DryPumpWarning	{
+	"Dry Pump Warning Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8017	DryPumpAlarm	{
+	"Dry Pump Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8018	Scrubber1TotalAlarm	{
+	"Process Scrubber 1 Total Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8019	Scrubber2TotalAlarm	{
+	"Process Scrubber 2 Total Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8020	DryPumpHazard	{
+	"Pressure Is High (Check Dry Pump)"
+	CLEAR	"Clear Operation"
+	}
+
+8024	ExhaustPressureAlarm	{
+	"Exhaust Pressure Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8025	SourceHighLimitAlarm	{
+	"Source High Limit Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8026	SourceLowAlarm	{
+	"Source Low Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8027	SourceLowLimitAlarm	{
+	"Source Low Limit Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8028	H2LeakAlarm	{
+	"H2 Leak Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8029	WaterLeakAlarm	{
+	"Water Leak Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8030	CLF3LeakAlarm	{
+	"CLF3 Leak Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8031	NH3LeakAlarm	{
+	"NH3 Leak Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8032	TiCl4LeakAlarm	{
+	"TiCl4 Leak Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8034	GasLeakAlarm	{
+	"Gas Leak Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+#-------------------------------------------------------------
+# Watlow 300 Heater Controller System Status Interlock
+# 2005.09.10
+
+8035	Wat300HeaterBatteryNG {
+	"Watlow(1) Heater Battery Is Dead"
+	CLEAR	"Clear Operation"
+	}
+
+8036	Wat300HeaterAIMCommFail {
+	"Watlow(1) Heater AIM Comm Status Is Failed"
+	CLEAR	"Clear Operation"
+	}
+
+8037	Wat300HeaterAmbientNG {
+	"Watlow(1) Heater Ambient Is Bad"
+	CLEAR	"Clear Operation"
+	}
+#-------------------------------------------------------------
+
+8040	StageRelayOffAlarm	{
+	"Stage Heater Relay Off Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8041	GasLineRelayOffAlarm	{
+	"Gas Line Heater Relay Off Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8042	ChamberRelayOffAlarm	{
+	"Chamber Heater Relay Off Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8050    ChamberPresHigh {
+	"Chamber Pressure Is High"
+	CLEAR	"Clear Operation"
+	}
+
+8060	SHCoolingAirInterlock {
+	"S/H Cooling Air Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+# Auto Refill Sub System Alarm
+8061	RefillSysAlarm {
+	"Refill System Alarm Detected : LDS"
+	CLEAR	"Clear Operation"
+	}
+8062	RefillSysWarning {
+	"Refill System Warning Detected : LDS"
+	CLEAR	"Clear Operation"
+	}
+
+8070	ChambPrsHighInterlock {
+	"Chamber Pressure High Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8071	AirPrsLowInterlock {
+	"Ar Pressure Low Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8072	NH3PrsLowInterlock {
+	"NH3 Supply Pressure Low Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8073	H2PrsLowInterlock {
+	"H2 Supply Pressure Low Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8074	H2PrsLowInterlock {
+	"H2 Supply Pressure Low Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8075	N2PrsLowInterlock {
+	"N2 Supply Pressure Low Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8076	AirPrsRectWallLowInterlock {
+	"Air Pressure Reactor Wall Low Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8077	AirPrsBtmChamLowInterlock {
+	"Air Pressure Bottom Chamber Low Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8078	AirPrsSealFlLowInterlock {
+	"Air Pressure Seal Flange Low Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8079	AirPrsTopLidLowInterlock {
+	"Air Pressure Top Lid Low Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8080	AirPrsTopExhstLowInterlock {
+	"Air Pressure Top Exahust Low Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+# 2005.09.10, RF Add Interlock by msko
+8081	RFOverTempInterlock {
+	"RF Over Temp Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8082	RFGeneratorInterlock {
+	"RF Generator Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8083	RFDisconnectInterlock {
+	"RF Disconnected Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+# 2005.10.10, RPG Add Interlock by wjkim
+8084	RPGPlasmaInterlock {
+	"RPG Plasma is Not Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8085	RPGReadyInterlock {
+	"RPG Ready Status Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8086	RPGACPowerInterlock {
+	"RPG AC Power Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8087	RPGWaterInterlock {
+	"RPG Water Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8088	RPGPlasmaInterlock	{
+	"RPG Plasma is Not Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8089	RPGGateCloseInterlock	{
+	"RPG Gate Valve Not Opened"
+	CLEAR	"Clear Operation"
+	}
+
+8090	SmokeDetectInterlock	{
+	"Smoke Sensor Detect"
+	CLEAR	"Clear Operation"
+	}
+
+8091	CO2ExtingFireInterlock	{
+	"CO2Extinguisher Fire Detect"
+	CLEAR	"Clear Operation"
+	}
+
+8092	CO2ExtingTroubleInterlock	{
+	"CO2Extinguisher Trouble Detect"
+	CLEAR	"Clear Operation"
+	}
+
+8093	CO2ExtingPowerInterlock	{
+	"CO2Extinguisher Power Interlock"
+	CLEAR	"Clear Operation"
+	}
+
+8094	ChamberPrsSen{
+	"Chamber Vaccum Sensor Fail"
+	CLEAR	"Clear Operation"
+	}
+
+8095	ChamberPrsHi{
+	"Chamber Pressure is High"
+	CLEAR	"Clear Operation"
+	}
+
+8096	ChamberPrsLow{
+	"Chamber Pressure is Low"
+	CLEAR	"Clear Operation"
+	}
+8097	RPGWater2Interlock {
+	"RPG Water2 Alarm"
+	CLEAR	"Clear Operation"
+	}
+#---------------------------------------------------------------------
+
+8101	AirPrssChmMidDI {
+	"Air Pressure Mid Chamber NG Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8102	AirPrssChmLowDI {
+	"Air Pressure Bottom Chamber NG Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8103	AirPrssSealFlangeDI {
+	"Air Pressure Seal Flange NG Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8104	AirSolVlvDI {
+	"Air Sol Vlv NG Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8105	StgHtr1TBBoxStsDI {
+	"Stage Heater 1 TB Box Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8106	StgHtr1CtrlStsDI {
+	"Stage Heater 1 Controller Status Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8107	StgHtr2CtrlStsDI {
+	"Stage Heater 2 Controller Status Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8108	StgHtr1IntStsDI {
+	"Stage Heater 1 Interlock Board Status Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8109	StgHtr2IntStsDI {
+	"Stage Heater 2 Interlock Board Status Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8110	StgHtr1OvTmpAlarmDI {
+	"Stage Heater 1 Over Temp Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8111	StgHtr2OvTmpAlarmDI {
+	"Stage Heater 2 Over Temp Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8112	GLOvTmpAlarmDI {
+	"Gas Line 1 Over Temp Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8113	GLOvTmpAlarm2DI {
+	"Gas Line 2 Over Temp Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8114	ChmHtrOvTmpAlarmDI {
+	"Chamber Heater Over Temp Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8115	ChmHtrOvTmpAlarm2DI {
+	"Chamber Heater 2 Over Temp Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8116	GasBoxCoverDI {
+	"Cover Switch Status Gas Box Open Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8117	GBUpLeftCoverDI {
+	"Cover Switch Status Gas Box Up Left Open Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8118	GBUpRightCoverDI {
+	"Cover Switch Status Gas Box Up Right Open Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8119	Scrber1TotalAlarmDI {
+	"Scrubber 1 Total Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8120	Scrber2TotalWarningDI {
+	"Scrubber 2 Total Warning Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8121	Scrber2TotalAlarmDI {
+	"Scrubber 2 Total Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8122	GLOvTmpAlarm3DI {
+	"Gas Line 3 Over Temp Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8125	StgHtr1RelayDI {
+	"Stage Heater 1 Relay Off Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8126	StgHtr2RelayDI {
+	"Stage Heater 2 Relay Off Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8127	GLHtrRelayDI {
+	"Gas Line Heater 1 Relay Off Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8128	GLHtrRelay2DI {
+	"Gas Line Heater 2 Relay Off Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8129	ChmHtrRelayDI {
+	"Chamber Heater 1 Relay Off Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8130	ChmHtrRelay2DI {
+	"Chamber Heater 2 Relay Off Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8131	PumpLHtrRelayDI {
+	"Pumping Line Heater Relay Off Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8134	H2PrsAI {
+	"Pressure Transducer H2 Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8135	ArPrsAI {
+	"Pressure Transducer Ar Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8136	NH3PrsAI {
+	"Pressure Transducer NH3 Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8137	HtrRun2DI	{
+	"Heater Controller 2 Not Running"
+	CLEAR	"Clear Operation"
+	}
+
+8138	HtrAlarm2DI	{
+	"Heater Controller 2 Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8139	GasMixBoxCoverDI {
+	"Cover Switch Status Gas Mixing Box Open Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8141	AirPrssChmMidDI {
+	"Air Pressure is low in Chamber Middle"
+	CLEAR	"Clear Operation"
+	}
+
+8142	AirPrssChmLowDI {
+	"Air Pressure is low in Chamber Low"
+	CLEAR	"Clear Operation"
+	}
+
+8143	AirSolVlvDI {
+	"Air Pressure is low to Solenoid Valve"
+	CLEAR	"Clear Operation"
+	}
+
+8144	StgHtr1TBBoxStsDI {
+	"Stage Heater 1 TB Box Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8145	StgHtr2TBBoxStsDI {
+	"Stage Heater 2 TB Box Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8146	SrcDivertDryPumpNotRun	{
+	"Source Divert Dry Pump Running Off Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8147	SrcDivertDryPumpWarning	{
+	"Source Divert Dry Pump Warning Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8148	SrcDivertDryPumpAlarm	{
+	"Source Divert Dry Pump Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8151	H2PressureLowLimitAlarm	{
+	"H2 Pressure Low Limit Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8152	ArPressureLowLimitAlarm	{
+	"Ar Pressure Low Limit Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8153	NH3PressureLowLimitAlarm	{
+	"NH3 Pressure Low Limit Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8200	LCSSStatusAlarm	{
+	"LCSS Status Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8201	LCSSFillStatusAlarm	{
+	"LCSS Fill Status NotReady Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8202	LCSSFinalValveStatusAlarm	{
+	"LCSS Final Valve Status Close Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8203	LCSSReserveTankLevelStatusAlarm	{
+	"LCSS Reserve Tank Level Status LowLimit Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8204	HtrRun3DI	{
+	"Heater Controller 3 Not Running"
+	CLEAR	"Clear Operation"
+	}
+
+8205	HtrAlarm3DI	{
+	"Heater Controller 3 Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8206	PumpLOvTmpAlarmDI {
+	"Pumping Line Over Temp Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8207	RF1DisconnectAlarmDI {
+	"RF 1 Input Disconnected Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8208	RF2DisconnectAlarmDI {
+	"RF 2 Input Disconnected Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8209	RF1SHCoverAlarmDI {
+	"RF 1 S/H Cover Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8210	RF2SHCoverAlarmDI {
+	"RF 2 S/H Cover Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8211	RFFilterFanDI {
+	"RF 1 Filter Fan Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8212	RFFilterFan2DI {
+	"RF 2 Filter Fan Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8213	RFRemoteStsDI {
+	"RF 1 Setpoint Status Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8214	RFRemoteStsDI {
+	"RF 2 Setpoint Status Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8215	RPGWaterValveStatusAlarm	{
+	"RPG Water Valve is Close"
+	CLEAR	"Clear Operation"
+	}
+
+8216	PMPwrBoxFanAlarm	{
+	"Power Box Left Fan Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8217	PMPwrBoxFanAlarm	{
+	"Power Box Right Fan Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8510	MT_LimitSnsDI	{
+	"Z-Motion 1 Limit Sensor Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8530	MT2_LimitSnsDI	{
+	"Z-Motion 2 Limit Sensor Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8532	Chiller1Alarm	{
+	"Chiller1 Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+8533	Chiller2Alarm	{
+	"Chiller2 Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8534	SCR1MonitoringAlarm	{
+	"SCR1 Monitoring Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8535	SCR2MonitoringAlarm	{
+	"SCR2 Monitoring Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8540	StageHeater1WaterFlowAlarm	{
+	"Stage Heater 1 Water Flow Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8541	StageHeater2WaterFlowAlarm	{
+	"Stage Heater 2 Water Flow Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8542	RPG1WaterFlowAlarm	{
+	"RPG 1 Water Flow Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+8543	RPG2WaterFlowAlarm	{
+	"RPG 2 Water Flow Alarm Detected"
+	CLEAR	"Clear Operation"
+	}
+
+# 2015.02.12 Add RF OverTemp & AC OK Interlock
+8544	RF1OverTempInterlock {
+	"RF 1 Over Temp Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8545	RF2OverTempInterlock {
+	"RF 2 Over Temp Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8546	RF1ACOKInterlock {
+	"RF 1 AC Not OK"
+	CLEAR	"Clear Operation"
+	}
+
+8547	RF2ACOKInterlock {
+	"RF 2 AC Not OK"
+	CLEAR	"Clear Operation"
+	}
+
+##############################################
+#HDD FAIL MONITORING ALARM
+8551	PMC_HDD_1_FAILED	{
+	"PMC Hard Disk-1 Is Failed"
+	CLEAR	"Clear Operation"
+	}
+
+8552	PMC_HDD_2_FAILED	{
+	"PMC Hard Disk-2 Is Failed"
+	CLEAR	"Clear Operation"
+	}
+##############################################
+8600	Wat300HeaterBatteryNG {
+	"Watlow(2) Heater Battery Is Dead"
+	CLEAR	"Clear Operation"
+	}
+
+8601	Wat300HeaterAIMCommFail {
+	"Watlow(2) Heater AIM Comm Status Is Failed"
+	CLEAR	"Clear Operation"
+	}
+
+8602	Wat300HeaterAmbientNG {
+	"Watlow(2) Heater Ambient Is Bad"
+	CLEAR	"Clear Operation"
+	}
+##############################################
+8610	HTExchangerFail {
+	"Heat Exchanger Control Fail"
+	CLEAR	"Clear Operation"
+	}
+
+8611	HTExchangerClLk {
+	"Heat Exchanger Control Coolant Leak"
+	CLEAR	"Clear Operation"
+	}
+
+8612	HTExchangerOvHt {
+	"Heat Exchanger Control OverHeat"
+	CLEAR	"Clear Operation"
+	}
+
+8613	HTExchangerPmLw {
+	"Heat Exchanger Pump Low Flow"
+	CLEAR	"Clear Operation"
+	}
+
+8614	HTExchangerTherFail {
+	"Heat Exchanger Control Thermeratate Fail"
+	CLEAR	"Clear Operation"
+	}
+
+8615	HTExchangerPmLwPrs {
+	"Heat Exchanger Pump Low Pressure"
+	CLEAR	"Clear Operation"
+	}
+
+8616	HTExchangerPmHiPrs {
+	"Heat Exchanger Pump High Pressure"
+	CLEAR	"Clear Operation"
+	}
+
+8617	HTExchangerClLvOff {
+	"Heat Exchanger Coolant Low Level Off"
+	CLEAR	"Clear Operation"
+	}
+
+8618	HTExchangerPmOvCur {
+	"Heat Exchanger Pump Over Current"
+	CLEAR	"Clear Operation"
+	}
+
+8619	HTExchangerOvrCur {
+	"Heat Exchanger Control Over Current"
+	CLEAR	"Clear Operation"
+	}
+
+8620	HTExchangerResisy {
+	"Heat Exchanger Resistivity fail"
+	CLEAR	"Clear Operation"
+	}
+
+8621	HTExchangerInver {
+	"Heat Exchanger Inverter fail"
+	CLEAR	"Clear Operation"
+	}
+
+8622	HTExchangerTempFail {
+	"Heat Exchanger Temp Control fail"
+	CLEAR	"Clear Operation"
+	}
+
+8623	HTExFlwHi {
+	"S/H 1 Cooling Flow Meter High"
+	CLEAR	"Clear Operation"
+	}
+
+8624	HTExFlwLw {
+	"S/H 1 Cooling Flow Meter Low"
+	CLEAR	"Clear Operation"
+	}
+
+8625	HTEx2FlwHi {
+	"S/H 2 Cooling Flow Meter High"
+	CLEAR	"Clear Operation"
+	}
+
+8626	HTEx2FlwLw {
+	"S/H 2 Cooling Flow Meter Low"
+	CLEAR	"Clear Operation"
+	}
+
+8627	HTEx1FlwSW {
+	"S/H 1 Cooling Flow Meter Swtich Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8628	HTEx2FlwSW {
+	"S/H 2 Cooling Flow Meter Swtich Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+# 2015.05.30 Add Heat Exchanger Low/High Limit Alarm
+8629	HTExchangerTempLow {
+	"Heat Exchanger Temp Low Limit"
+	CLEAR	"Clear Operation"
+	}
+
+8630	HTExchangerTempHigh {
+	"Heat Exchanger Temp High Limit"
+	CLEAR	"Clear Operation"
+	}
+# 2018.04.23 Add Canister Box Exhaust
+8631	CanisterBoxExhaust {
+	"Canister Box Exhaust Sensor Alarm"
+	CLEAR	"Clear Operation"
+	}
+# 2018.04.23 Add Canister Box Exhaust
+8632	HTExchangerLevelLow {
+	"Heat Exchanger Level Low Waring Alram"
+	CLEAR	"Clear Operation"
+	}
+##############################################
+8640	ALDValve97 {
+	"ALD Valve 97 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8641	ALDValve97 {
+	"ALD Valve 97 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8642	ALDValve98 {
+	"ALD Valve 98 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8643	ALDValve98 {
+	"ALD Valve 98 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8644	ALDValve100 {
+	"ALD Valve 100 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8645	ALDValve100 {
+	"ALD Valve 100 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8646	ALDValve101 {
+	"ALD Valve 101 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8647	ALDValve101 {
+	"ALD Valve 101 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8648	ALDValve102 {
+	"ALD Valve 102 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8649	ALDValve102 {
+	"ALD Valve 102 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8650	ALDValve105 {
+	"ALD Valve 105 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8651	ALDValve105 {
+	"ALD Valve 105 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8652	ALDValve106 {
+	"ALD Valve 106 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8653	ALDValve106 {
+	"ALD Valve 106 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8654	ALDValve108 {
+	"ALD Valve 108 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8655	ALDValve108 {
+	"ALD Valve 108 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8656	ALDValve109 {
+	"ALD Valve 109 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8657	ALDValve109 {
+	"ALD Valve 109 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8658	ALDValve110 {
+	"ALD Valve 110 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8659	ALDValve110 {
+	"ALD Valve 110 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8660	ALDValve99 {
+	"ALD Valve 99 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8661	ALDValve99 {
+	"ALD Valve 99 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8662	ALDValve103 {
+	"ALD Valve 103 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8663	ALDValve103 {
+	"ALD Valve 103 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8664	ALDValve107 {
+	"ALD Valve 107 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8665	ALDValve107 {
+	"ALD Valve 107 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8666	ALDValve111 {
+	"ALD Valve 111 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8667	ALDValve111 {
+	"ALD Valve 111 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+# 2015.07.09 Add ALD Valve V11, V12, V17
+
+8668	ALDValve11 {
+	"ALD Valve 11 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8669	ALDValve11 {
+	"ALD Valve 11 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8670	ALDValve12 {
+	"ALD Valve 12 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8671	ALDValve12 {
+	"ALD Valve 12 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8672	ALDValve17 {
+	"ALD Valve 17 Open Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+8673	ALDValve17 {
+	"ALD Valve 17 Close Time Out"
+	CLEAR	"Clear Operation"
+	}
+
+
+##############################################
+# DeviceNet Status Alarm
+8700	SCF_BOX_ALARM		{
+	"[SCF BOX] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8701	CHUCK_HTR_CTRL_1_UNIT	{
+	"[CHUCK HEATER 1] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8702	CHUCK_HTR_CTRL_2_UNIT	{
+	"[CHUCK HEATER 2] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8703	U_SYS_TV_UNIT_ALARM	{
+	"[U-SYSTEM THROTTLE] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8704	HEAT_EXCHANGER_UNIT	{
+	"[HEAT EXCHANGER] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+
+8705	SAFETY_PLC_ALARM	{
+	"[SAFETY PLC] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+
+8711	MFC01_UNIT_ALARM	{
+	"[MFC01] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8712	MFC02_UNIT_ALARM	{
+	"[MFC02] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8713	MFC03_UNIT_ALARM	{
+	"[MFC03] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8714	MFC04_UNIT_ALARM	{
+	"[MFC04] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8715	MFC05_UNIT_ALARM	{
+	"[MFC05] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8716	MFC06_UNIT_ALARM	{
+	"[MFC06] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8717	MFC07_UNIT_ALARM	{
+	"[MFC07] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8718	MFC08_UNIT_ALARM	{
+	"[MFC08] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8719	MFC09_UNIT_ALARM	{
+	"[MFC09] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8720	MFC10_UNIT_ALARM	{
+	"[MFC10] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8721	MFC11_UNIT_ALARM	{
+	"[MFC11] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8722	MFC12_UNIT_ALARM	{
+	"[MFC12] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8723	MFC13_UNIT_ALARM	{
+	"[MFC13] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8724	MFC14_UNIT_ALARM	{
+	"[MFC14] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8725	MFC15_UNIT_ALARM	{
+	"[MFC15] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8726	MFC16_UNIT_ALARM	{
+	"[MFC16] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8727	MFC17_UNIT_ALARM	{
+	"[MFC17] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8728	MFC18_UNIT_ALARM	{
+	"[MFC18] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8729	MFC19_UNIT_ALARM	{
+	"[MFC19] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+8730	MFC20_UNIT_ALARM	{
+	"[MFC20] D-Net is Failed"
+	CLEAR	"Clear Operation"
+	}
+
+#####################################
+# Safety PLC Alarm
+#####################################
+
+8801	PLCSysRunModeOff	{
+	"[SAFETY PLC] System Run Mode Off"
+	CLEAR	"Clear Operation"
+	}
+
+8802	PLCTeachModeOn	{
+	"[SAFETY PLC] System Teach Mode On"
+	CLEAR	"Clear Operation"
+	}
+
+8810	HeatExchangLeakAlarm	{
+	"[SAFETY PLC] Heat Exchanger Leak Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8811	RPGWaterLeakAlarm	{
+	"[SAFETY PLC] RPG Water Leak Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8812	AllRelayStatus	{
+	"[SAFETY PLC] All Relay Not Enable"
+	CLEAR	"Clear Operation"
+	}
+
+8813	StgHtr1MCDisable	{
+	"[SAFETY PLC] Stage Heater 1 MC Disable"
+	CLEAR	"Clear Operation"
+	}
+
+8814	StgHtr2MCDisable	{
+	"[SAFETY PLC] Stage Heater 2 MC Disable"
+	CLEAR	"Clear Operation"
+	}
+
+8815	MotorMCDisable	{
+	"[SAFETY PLC] Chuck Motor MC Disable, Need Home After MC Enable"
+	CLEAR	"Clear Operation"
+	}
+
+8816	GL208VMCDisable	{
+	"[SAFETY PLC] Gas Line Heater MC Disable"
+	CLEAR	"Clear Operation"
+	}
+
+8817	RFMCDisable	{
+	"[SAFETY PLC] RF Generator MC Disable"
+	CLEAR	"Clear Operation"
+	}
+
+8818	MainPCWDisable	{
+	"[SAFETY PLC] Main PCW Disable"
+	CLEAR	"Clear Operation"
+	}
+
+8821	Pneumaic1Disable	{
+	"[SAFETY PLC] Peumaic 1 Disable"
+	CLEAR	"Clear Operation"
+	}
+
+8822	Pneumaic2Alarm	{
+	"[SAFETY PLC] Peumaic 2 Disable"
+	CLEAR	"Clear Operation"
+	}
+
+8823	Pneumaic3Alarm	{
+	"[SAFETY PLC] Peumaic 3 Disable"
+	CLEAR	"Clear Operation"
+	}
+
+8824	Pneumaic4Alarm	{
+	"[SAFETY PLC] Peumaic 4 Disable"
+	CLEAR	"Clear Operation"
+	}
+
+#####################################
+
+8900	ChuckHtr1CoolPrsAlarm	{
+	"Chuck Heater1 Cooling Pressure Swich Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8901	ChuckHtr2CoolPrsAlarm	{
+	"Chuck Heater2 Cooling Pressure Swich Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8902	ChuckHtr1CoolPrsAlarm	{
+	"Chuck Heater1 Cooling Pressure Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8903	ChuckHtr2CoolPrsAlarm	{
+	"Chuck Heater2 Cooling Pressure Alarm"
+	CLEAR	"Clear Operation"
+	}
+
+8904	AirCoolingVlvAlarm	{
+	"Chuck Air Cooling Valve Is Close"
+	CLEAR	"Clear Operation"
+	}

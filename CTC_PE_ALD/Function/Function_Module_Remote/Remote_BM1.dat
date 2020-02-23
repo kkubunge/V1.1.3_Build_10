@@ -1,0 +1,38 @@
+#-------------------------------------------------------------------------------
+# BM1 Part Scheduler Interface Function
+#-------------------------------------------------------------------------------
+
+BM1.READY		50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/BM1_Service/Ready.seq"
+BM1.END			50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/BM1_Service/End.seq"
+
+#-------------------------------------------------------------------------------
+# TM Side
+#-------------------------------------------------------------------------------
+
+BM1.PREPARE_SEND	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/BM1_Service/PrepSend.seq"
+BM1.POST_SEND		50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/BM1_Service/PostSend.seq"
+BM1.PREPARE_RECV	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/BM1_Service/PrepRecv.seq"
+BM1.POST_RECV		50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/BM1_Service/PostRecv.seq"
+
+#-------------------------------------------------------------------------------
+# FM Side
+#-------------------------------------------------------------------------------
+
+BM1.FM_PREPARE_SEND	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/BM1_Service/FM_PrepSend.seq"
+BM1.FM_POST_SEND	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/BM1_Service/FM_PostSend.seq"
+BM1.FM_PREPARE_RECV	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/BM1_Service/FM_PrepRecv.seq"
+BM1.FM_POST_RECV	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/BM1_Service/FM_PostRecv.seq"
+
+#-------------------------------------------------------------------------------
+# Exchange Condition Side
+#-------------------------------------------------------------------------------
+
+BM1.WAITING_FOR_TM_SIDE	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/BM1_Service/Waiting_For_TM.seq"
+BM1.WAITING_FOR_FM_SIDE	50	Engine/EXEC/MsgReplacer	ARGUEMENT	"-|FUNCTION/FUNCTION_MODULE_TMC/SeqTable/BM1_Service/Waiting_For_FM.seq"
+
+#-------------------------------------
+# Transfer Clear Function for Remote
+#-------------------------------------
+
+BM1.CLEAR		50	-	SUCCESS
+

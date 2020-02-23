@@ -1,0 +1,266 @@
+$$$	Enum
+LLSel		NotUse  LL1	LL2
+LPMSel		NotUse  LPM1	LPM2	LPM3	LPM4
+ARMSel		NotUse  UpArm	LwArm	AutoArm
+PMSel		NotUse  PMA	PMB	PMC
+ChuckSel	Stage1  Stage2	StageAll
+
+	
+$$$ Digital
+PCJobSts		-  * *  - - - - -    0    5
+PC_CheckJob1DO		OffOn
+PC_CheckJob2DO		OffOn
+PC_CheckJob3DO		OffOn
+PC_CheckJob4DO		OffOn
+PC_CheckJob5DO		OffOn
+
+Sel_LPMDO		LPMSel
+Sel1LPMSlt1DO		-  * *  - - - - -    0    25
+Sel1LPMSlt2DO		-  * *  - - - - -    0    25
+Sel2LPMSlt1DO		-  * *  - - - - -    0    25
+Sel2LPMSlt2DO		-  * *  - - - - -    0    25
+Sel3LPMSlt1DO		-  * *  - - - - -    0    25
+Sel3LPMSlt2DO		-  * *  - - - - -    0    25
+Sel4LPMSlt1DO		-  * *  - - - - -    0    25
+Sel4LPMSlt2DO		-  * *  - - - - -    0    25
+Sel5LPMSlt1DO		-  * *  - - - - -    0    25
+Sel5LPMSlt2DO		-  * *  - - - - -    0    25
+
+Sel1LLDO		LLSel
+Sel1LLSlt1DO		-  * *  - - - - -    0    4
+Sel1LLSlt2DO		-  * *  - - - - -    0    4
+Sel2LLDO		LLSel
+Sel2LLSlt1DO		-  * *  - - - - -    0    4
+Sel2LLSlt2DO		-  * *  - - - - -    0    4
+Sel3LLDO		LLSel
+Sel3LLSlt1DO		-  * *  - - - - -    0    4
+Sel3LLSlt2DO		-  * *  - - - - -    0    4
+Sel4LLDO		LLSel
+Sel4LLSlt1DO		-  * *  - - - - -    0    4
+Sel4LLSlt2DO		-  * *  - - - - -    0    4
+Sel5LLDO		LLSel	
+Sel5LLSlt1DO		-  * *  - - - - -    0    4
+Sel5LLSlt2DO		-  * *  - - - - -    0    4
+
+LLDoorCyc1DO 		-  * *  - - - - -    0    99999
+LLDoorCyc2DO 		-  * *  - - - - -    0    99999
+LLDoorCyc3DO 		-  * *  - - - - -    0    99999	
+LLDoorCyc4DO 		-  * *  - - - - -    0    99999
+LLDoorCyc5DO 		-  * *  - - - - -    0    99999
+LLDoorCyc1DI 		-  * *  - - - - -    0    99999
+LLDoorCyc2DI 		-  * *  - - - - -    0    99999
+LLDoorCyc3DI 		-  * *  - - - - -    0    99999
+LLDoorCyc4DI 		-  * *  - - - - -    0    99999
+LLDoorCyc5DI 		-  * *  - - - - -    0    99999
+
+LLSlitCyc1DO 		-  * *  - - - - -    0    99999
+LLSlitCyc2DO 		-  * *  - - - - -    0    99999
+LLSlitCyc3DO 		-  * *  - - - - -    0    99999
+LLSlitCyc4DO 		-  * *  - - - - -    0    99999
+LLSlitCyc5DO 		-  * *  - - - - -    0    99999
+LLSlitCyc1DI 		-  * *  - - - - -    0    99999
+LLSlitCyc2DI 		-  * *  - - - - -    0    99999
+LLSlitCyc3DI 		-  * *  - - - - -    0    99999
+LLSlitCyc4DI 		-  * *  - - - - -    0    99999
+LLSlitCyc5DI 		-  * *  - - - - -    0    99999
+
+LLPmVnCyc1DO 		-  * *  - - - - -    0    99999	
+LLPmVnCyc2DO 		-  * *  - - - - -    0    99999
+LLPmVnCyc3DO 		-  * *  - - - - -    0    99999
+LLPmVnCyc4DO 		-  * *  - - - - -    0    99999
+LLPmVnCyc5DO 		-  * *  - - - - -    0    99999
+LLPmVnCyc1DI 		-  * *  - - - - -    0    99999
+LLPmVnCyc2DI 		-  * *  - - - - -    0    99999	
+LLPmVnCyc3DI 		-  * *  - - - - -    0    99999
+LLPmVnCyc4DI 		-  * *  - - - - -    0    99999		
+LLPmVnCyc5DI 		-  * *  - - - - -    0    99999
+
+TM_ArmSel1DO		ARMSel
+TM_ArmSel2DO		ARMSel
+TM_ArmSel3DO		ARMSel
+TM_ArmSel4DO		ARMSel
+TM_ArmSel5DO		ARMSel
+
+TM_Rb1SelDO		OffOn	
+TM_Rb2SelDO		OffOn
+TM_Rb3SelDO		OffOn
+TM_Rb4SelDO		OffOn
+TM_Rb5SelDO		OffOn
+
+            
+TMSlitCyc1DO		-  * *  - - - - -    0    99999
+TMSlitCyc2DO		-  * *  - - - - -    0    99999
+TMSlitCyc3DO		-  * *  - - - - -    0    99999
+TMSlitCyc4DO		-  * *  - - - - -    0    99999
+TMSlitCyc5DO		-  * *  - - - - -    0    99999
+TMSlitCyc1DI		-  * *  - - - - -    0    99999
+TMSlitCyc2DI		-  * *  - - - - -    0    99999	
+TMSlitCyc3DI		-  * *  - - - - -    0    99999
+TMSlitCyc4DI		-  * *  - - - - -    0    99999
+TMSlitCyc5DI		-  * *  - - - - -    0    99999
+
+
+PM_Sel1DO		PMSel
+PM_Slt1CycDO		-  * *  - - - - -    0    99999
+PM_Slt1CycDI		-  * *  - - - - -    0    99999
+PM_Sel2DO		PMSel
+PM_Slt2CycDO		-  * *  - - - - -    0    99999
+PM_Slt2CycDI		-  * *  - - - - -    0    99999
+PM_Sel3DO		PMSel
+PM_Slt3CycDO		-  * *  - - - - -    0    99999
+PM_Slt3CycDI		-  * *  - - - - -    0    99999
+PM_Sel4DO		PMSel
+PM_Slt4CycDO		-  * *  - - - - -    0    99999
+PM_Slt4CycDI		-  * *  - - - - -    0    99999
+PM_Sel5DO		PMSel
+PM_Slt5CycDO		-  * *  - - - - -    0    99999
+PM_Slt5CycDI		-  * *  - - - - -    0    99999
+
+Chuck1CycDO		-  * *  - - - - -    0    99999
+Chuck2CycDO		-  * *  - - - - -    0    99999
+Chuck3CycDO		-  * *  - - - - -    0    99999
+Chuck4CycDO		-  * *  - - - - -    0    99999
+Chuck5CycDO		-  * *  - - - - -    0    99999		
+Chuck1CycDI		-  * *  - - - - -    0    99999
+Chuck2CycDI		-  * *  - - - - -    0    99999
+Chuck3CycDI		-  * *  - - - - -    0    99999
+Chuck4CycDI		-  * *  - - - - -    0    99999
+Chuck5CycDI		-  * *  - - - - -    0    99999	
+           
+Loop1CycDO 		-  * *  - - - - -    0    99999
+Loop2CycDO 		-  * *  - - - - -    0    99999
+Loop3CycDO 		-  * *  - - - - -    0    99999
+Loop4CycDO 		-  * *  - - - - -    0    99999
+Loop5CycDO 		-  * *  - - - - -    0    99999
+           
+Loop1CycDI 		-  * *  - - - - -    0    99999
+Loop2CycDI 		-  * *  - - - - -    0    99999
+Loop3CycDI 		-  * *  - - - - -    0    99999
+Loop4CycDI 		-  * *  - - - - -    0    99999
+Loop5CycDI 		-  * *  - - - - -    0    99999
+
+ChuckSel1DO		ChuckSel
+ChuckSel2DO		ChuckSel
+ChuckSel3DO		ChuckSel
+ChuckSel4DO		ChuckSel
+ChuckSel5DO		ChuckSel
+
+UPC_CHECK1DO		OffOn	
+UPC_CHECK2DO		OffOn
+UPC_CHECK3DO		OffOn
+UPC_CHECK4DO		OffOn
+UPC_CHECK5DO		OffOn
+
+
+AutoPC_ParmSaveDM	OffOn	Off	
+
+$$$ Analog
+
+ChuckUpPos1     	mm - -- -- --  2  4  89   1  - -- -- --  2  4  89
+ChuckDnPos1     	mm - -- -- --  2  4  89   1  - -- -- --  2  4  89
+ChuckUpPos2     	mm - -- -- --  2  4  89   1  - -- -- --  2  4  89
+ChuckDnPos2     	mm - -- -- --  2  4  89   1  - -- -- --  2  4  89
+ChuckUpPos3     	mm - -- -- --  2  4  89   1  - -- -- --  2  4  89
+ChuckDnPos3     	mm - -- -- --  2  4  89   1  - -- -- --  2  4  89
+ChuckUpPos4     	mm - -- -- --  2  4  89   1  - -- -- --  2  4  89
+ChuckDnPos4     	mm - -- -- --  2  4  89   1  - -- -- --  2  4  89
+ChuckUpPos5     	mm - -- -- --  2  4  89   1  - -- -- --  2  4  89
+ChuckDnPos5     	mm - -- -- --  2  4  89   1  - -- -- --  2  4  89
+
+
+#... 2016.02.10 Slit Valve Cycle Function
+$$$ Enum
+	eStation	LL1_SLIT LL2_SLIT PM1_SLIT PM2_SLIT PM3_SLIT
+	eStation2	LL1_DOOR LL2_DOOR
+
+$$$ Digital
+	M_SVlv_Chk_PrsDM	OffOn	On	
+	M_SVlv_ParmSaveDM	OffOn	Off
+	M_SVlv_StartStopDM	OffOn	Off
+	M_SVlv_CycTgtMdlDM	eStation
+	M_Door_StartStopDM	OffOn	Off
+	M_Door_CycTgtMdlDM	eStation2	
+		
+$$$ Analog    
+
+M_SVlv_CycCurCntAM	sec - -- -- --  0  0  999   1  - -- -- --  0  0  999 
+M_SVlv_CycTgtCntAM	sec - -- -- --  0  0  999   1  - -- -- --  0  0  999 
+M_Door_CycCurCntAM	sec - -- -- --  0  0  999   1  - -- -- --  0  0  999 
+M_Door_CycTgtCntAM	sec - -- -- --  0  0  999   1  - -- -- --  0  0  999 
+
+#... Open Time
+BM1_Slit_OPTm_AM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+BM2_Slit_OPTm_AM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100	
+PM1_Slit_OPTm_AM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100	
+PM2_Slit_OPTm_AM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+PM3_Slit_OPTm_AM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+
+M_SVlvBM1_OP_MinTmAM 	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvBM2_OP_MinTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM1_OP_MinTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM2_OP_MinTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM3_OP_MinTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+
+M_SVlvBM1_OP_MaxTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvBM2_OP_MaxTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM1_OP_MaxTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM2_OP_MaxTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM3_OP_MaxTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+
+M_SVlvBM1_OP_AvgTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvBM2_OP_AvgTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM1_OP_AvgTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM2_OP_AvgTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM3_OP_AvgTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+
+
+#... Close Time
+BM1_Slit_CLTm_AM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100	
+BM2_Slit_CLTm_AM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+PM1_Slit_CLTm_AM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+PM2_Slit_CLTm_AM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+PM3_Slit_CLTm_AM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+
+M_SVlvBM1_CL_MinTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvBM2_CL_MinTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM1_CL_MinTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM2_CL_MinTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM3_CL_MinTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+
+M_SVlvBM1_CL_MaxTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvBM2_CL_MaxTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM1_CL_MaxTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM2_CL_MaxTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM3_CL_MaxTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+
+M_SVlvBM1_CL_AvgTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvBM2_CL_AvgTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM1_CL_AvgTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM2_CL_AvgTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_SVlvPM3_CL_AvgTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100 
+
+#... Door Open Time
+BM1_Door_OPTm_AM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+BM2_Door_OPTm_AM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100	
+
+M_DoorBM1_OP_MinTmAM 	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_DoorBM2_OP_MinTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+
+M_DoorBM1_OP_MaxTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_DoorBM2_OP_MaxTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+
+M_DoorBM1_OP_AvgTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_DoorBM2_OP_AvgTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+
+#... Door Close Time
+BM1_Door_CLTm_AM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100	
+BM2_Door_CLTm_AM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+
+M_DoorBM1_CL_MinTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_DoorBM2_CL_MinTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+
+M_DoorBM1_CL_MaxTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_DoorBM2_CL_MaxTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+
+M_DoorBM1_CL_AvgTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100
+M_DoorBM2_CL_AvgTmAM	sec - -- -- --  2  0  100   1  - -- -- --  2  0  100

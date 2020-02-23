@@ -1,0 +1,34 @@
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+# GUI Function Definition
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+# V1.0   2000.01.01    Initial Release
+# V2.0   2001.01.01    Fixed Item
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#-----------------------------------------------------------
+# Basic Operation Screen Area
+#-----------------------------------------------------------
+
+ALARM_MANAGER		99	K:/Exec/GUI_AlarmManager	RUN		""	""
+ALARM_HISTORY		99	K:/Exec/GUI_AlarmHistory	RUN		""	""
+IO_MANAGER		99	K:/Exec/GUI_IOManager		RUN		""	""
+	
+SCREEN_MANAGER_STATUS	99	K:/Exec/GUI_Screen_Status2	RUN		""	"GUI/Layout/Gui_Screen_Status.cfg|Parameter/Users/User.cfg"
+SCREEN_USER_CONTROL	98	K:/Exec/GUI_Screen_User_Control	RUN		""	"Parameter/Users/User.cfg"
+
+SCREEN_MANAGER_BOTTOM	99	K:/Exec/GUI_Screen_Bottom	RUN		""	"GUI/Layout/Gui_Screen_Bottom.cfg"
+SCREEN_MANAGER_RIGHT	99	K:/Exec/GUI_Screen_Right	RUN		""	"GUI/Layout/Gui_Screen_Right.cfg"
+
+SCREEN_CLEAR		99	K:/Exec/Screen_Clear		RUN		""	"GUI/Layout/BackGround_ScrCls/ScrCls_Bitmap.dll"
+
+#-----------------------------------------------------------
+# Cluster Tool Screen Area
+#-----------------------------------------------------------
+
+SCREEN_RECIPE_LOT	99	K:/Exec/GUI_LotEditor		RUN		""	"scheduler|B"
+SCREEN_RECIPE_CLUSTER	99	K:/Exec/GUI_ClusterEditor	RUN		""	"scheduler"
+SCREEN_RECIPE_JOB	99	K:/Exec/GUI_JobEditor		RUN		""	"scheduler"
+
+#-----------------------------------------------------------
+# User Screen Area(Insert Below)
+#-----------------------------------------------------------

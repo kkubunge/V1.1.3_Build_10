@@ -1,0 +1,92 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+//LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+B_0099_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button_Enable_N_Alarm_X.bmp"
+B_0099_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button_Press_N_Alarm_X.bmp"
+B_0099_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/Button_Disable_N_Alarm_X.bmp"
+B_0099_0000000010       BITMAP  MOVEABLE PURE   "IMAGE/Button_Enable_N_Alarm_O.bmp"
+B_0099_0000000011       BITMAP  MOVEABLE PURE   "IMAGE/Button_Press_N_Alarm_O.bmp"
+B_0099_0000000012       BITMAP  MOVEABLE PURE   "IMAGE/Button_Disable_N_Alarm_O.bmp"
+
+B_0100_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/LogInOut_0.bmp"
+B_0100_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/LogInOut_1.bmp"
+
+B_0101_0000000000_1     BITMAP       IMAGE/Ball_Red.bmp
+B_0101_0000000001       BITMAP       IMAGE/Ball_Blue.bmp
+
+B_0110_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/SignalTow_Red_Active.bmp"
+
+B_0111_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/SignalTow_Amber_Active.bmp"
+B_0112_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/SignalTow_Green_Active.bmp"
+B_0113_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/SignalTow_Background.bmp"
+
+B_0117_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Enable_commstatus.bmp"
+
+B_0200_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Button_Enable_N_Main.bmp"
+B_0200_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Button_Press_N_Main.bmp"
+B_0200_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/Button_Disable_N_Main.bmp"
+
+B_0201_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Enable_commstatus_PMA.bmp"
+B_0202_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Enable_commstatus_PMB.bmp"
+B_0203_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Enable_commstatus_PMC.bmp"
+
+// Logo
+B_0210_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Logo/Enable_Back_IPS.bmp"
+B_0210_0000000001       BITMAP  MOVEABLE PURE   "IMAGE/Logo/Press_Back_IPS.bmp"
+B_0210_0000000002       BITMAP  MOVEABLE PURE   "IMAGE/Logo/Disable_Back_IPS.bmp"
+
+B_0998_0000000000       BITMAP  MOVEABLE PURE   "IMAGE/Enable_Back_IPS.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,87 @@
+$$$ Enum
+#PageSelect	Off	On
+
+$$$ Digital
+Service_Old			PageSelect
+
+Navi_TM				PageSelect
+Navi_PM1			PageSelect
+Navi_PM2			PageSelect
+Navi_PM3			PageSelect
+Navi_PM4			PageSelect
+Navi_PM5			PageSelect
+Navi_FEM			PageSelect
+Navi_CM1			PageSelect
+Navi_CM2			PageSelect
+Navi_CM3			PageSelect
+
+PM1.Config1_Next		PageSelect
+PM1.Config1_Prev		PageSelect
+PM1.Config2_Next		PageSelect
+PM1.Config2_Prev		PageSelect
+
+PM1.Heater_Next			PageSelect
+PM1.Heater_Prev			PageSelect
+PM1.Param_Next			PageSelect
+PM1.Param_Prev			PageSelect
+
+PM2.Config1_Next		PageSelect
+PM2.Config1_Prev		PageSelect
+PM2.Config2_Next		PageSelect
+PM2.Config2_Prev		PageSelect
+
+PM2.Heater_Next			PageSelect
+PM2.Heater_Prev			PageSelect
+PM2.Param_Next			PageSelect
+PM2.Param_Prev			PageSelect
+
+PM3.Config1_Next		PageSelect
+PM3.Config1_Prev		PageSelect
+PM3.Config2_Next		PageSelect
+PM3.Config2_Prev		PageSelect
+
+PM3.Heater_Next			PageSelect
+PM3.Heater_Prev			PageSelect
+PM3.Param_Next			PageSelect
+PM3.Param_Prev			PageSelect
+
+PM4.Config1_Next		PageSelect
+PM4.Config1_Prev		PageSelect
+PM4.Config2_Next		PageSelect
+PM4.Config2_Prev		PageSelect
+
+PM4.Heater_Next			PageSelect
+PM4.Heater_Prev			PageSelect
+PM4.Param_Next			PageSelect
+PM4.Param_Prev			PageSelect
+
+PM5.Config1_Next		PageSelect
+PM5.Config1_Prev		PageSelect
+PM5.Config2_Next		PageSelect
+PM5.Config2_Prev		PageSelect
+
+PM5.Heater_Next			PageSelect
+PM5.Heater_Prev			PageSelect
+PM5.Param_Next			PageSelect
+PM5.Param_Prev			PageSelect
+
+Maint_TMC_Status		OffOn
+Maint_PM1_Status		OffOn
+Maint_PM2_Status		OffOn
+Maint_PM3_Status		OffOn
+Maint_PM4_Status		OffOn
+Maint_PM5_Status		OffOn
+Maint_EFEM_Status		OffOn
+
+Move_To_Maint_TMC		OffOn
+Move_To_Status_TMC		OffOn
+Move_To_Maint_PM1		OffOn
+Move_To_Status_PM1		OffOn
+Move_To_Maint_PM2		OffOn
+Move_To_Status_PM2		OffOn
+Move_To_Maint_PM3		OffOn
+Move_To_Status_PM3		OffOn
+Move_To_Maint_PM4		OffOn
+Move_To_Status_PM4		OffOn
+Move_To_Maint_PM5		OffOn
+Move_To_Status_PM5		OffOn

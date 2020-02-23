@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FARecipeAnalDll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\Release/ResourceScript.res" /d "NDEBUG" "D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.22\CTC_PE_ALD\Driver\FARecipeAnalDll\L_FARecipeAnalDll_V2.6.0.4_Flow개선_ini파일 경로 변경\SHELL\ResourceScript.rc"" 
+Creating temporary file "C:\Users\gwlee\AppData\Local\Temp\RSP2152.tmp" with contents
+[
+/nologo /MT /W3 /GX /I "..\h" /I "k:\h" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_X86_" /FR".\Release/" /Fo".\Release/" /Fd".\Release/" /FD /c 
+"D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.22\CTC_PE_ALD\Driver\FARecipeAnalDll\L_FARecipeAnalDll_V2.6.0.4_Flow개선_ini파일 경로 변경\SOURCE\CimsInterface.c"
+"D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.22\CTC_PE_ALD\Driver\FARecipeAnalDll\L_FARecipeAnalDll_V2.6.0.4_Flow개선_ini파일 경로 변경\SOURCE\FaRecipeAnal.c"
+"D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.22\CTC_PE_ALD\Driver\FARecipeAnalDll\L_FARecipeAnalDll_V2.6.0.4_Flow개선_ini파일 경로 변경\SOURCE\main.c"
+"D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.22\CTC_PE_ALD\Driver\FARecipeAnalDll\L_FARecipeAnalDll_V2.6.0.4_Flow개선_ini파일 경로 변경\SOURCE\SharedMemory.c"
+"D:\1_PEALD\1_Kornic\P1_3L\_Project 개발 Start\2017.12.22\CTC_PE_ALD\Driver\FARecipeAnalDll\L_FARecipeAnalDll_V2.6.0.4_Flow개선_ini파일 경로 변경\SOURCE\TextParser_C.c"
+]
+Creating command line "cl.exe @C:\Users\gwlee\AppData\Local\Temp\RSP2152.tmp" 
+Creating temporary file "C:\Users\gwlee\AppData\Local\Temp\RSP2153.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /pdb:none /machine:I386 /out:"..\..\FaRecipeAnal.dll" /implib:".\Release/FaRecipeAnal.lib" /libpath:"k:\lib" 
+".\Release\CimsInterface.obj"
+".\Release\FaRecipeAnal.obj"
+".\Release\main.obj"
+".\Release\SharedMemory.obj"
+".\Release\TextParser_C.obj"
+".\Release\ResourceScript.res"
+"K:\lib\kutlfile.lib"
+"K:\lib\kutletc.lib"
+"K:\lib\kutlanal.lib"
+"K:\lib\kutlstr.lib"
+"K:\lib\kutltime.lib"
+]
+Creating command line "link.exe @C:\Users\gwlee\AppData\Local\Temp\RSP2153.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+CimsInterface.c
+FaRecipeAnal.c
+main.c
+SharedMemory.c
+TextParser_C.c
+Generating Code...
+Linking...
+   Creating library .\Release/FaRecipeAnal.lib and object .\Release/FaRecipeAnal.exp
+
+
+
+<h3>Results</h3>
+FaRecipeAnal.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

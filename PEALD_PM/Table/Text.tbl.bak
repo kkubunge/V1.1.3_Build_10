@@ -1,0 +1,82 @@
+# CENTER LEFT RIGHT
+# Black    DarkRed    DarkGreen PeaGreen  DarkBlue
+# Lavender Slate      LightGray PaleGreen PaleBlue
+# OffWhite MediumGray DarkGray  RightRed  BrightGreen
+# Yellow   BrightBlue Magenta   Cyan      White
+#
+#---Align---LineU-------LineD-------Text--------Background------Font----
+#-----------------------------------------------------------------------
+0   CENTER  DarkGray    White       Black       0		0
+1   CENTER  Blank	Blank       Black       Blank		0
+2   CENTER  White       DarkGray    Black       13		1
+3   CENTER  DarkGray    White       Black       13		1
+4   CENTER  Blank       Blank       White      Blank		2
+5   CENTER  Blank    	Blank       Black       Blank		2
+6   CENTER  White       DarkGray    Black       13		3
+7   CENTER  DarkGray    White       Black       13		3
+8   CENTER  DarkGray    White       Black       28		0
+9   CENTER  Blank    	Blank       White       Blank		2
+
+10  CENTER  Blank	Blank       Black       Blank		0
+11  CENTER  DarkGray    White       Black       0		0
+12  LEFT    13          13          Black       13		21
+13  CENTER  Blank	Black       White       MediumGray		0
+
+21  CENTER  Black       Black       Black       PaleGreen	0
+22  CENTER  Black       Black       Black       PaleBlue	0
+23  CENTER  Blank       Blank       White       Blank		10
+
+31  CENTER  Black       Black       Black       PaleBlue	10
+32  CENTER  Black       Black       White       RightRed	10
+33  CENTER  Black       Black       Black       Yellow		10
+34  CENTER  Black       Black       White       BrightBlue	10
+35  CENTER  Black       Black       Black       Magenta		10
+36  CENTER  Black       Black       Black       Cyan		10
+37  CENTER  White       DarkGray    Black       13		20
+38  CENTER  DarkGray    White       Black       13		21
+39  CENTER  DarkGray    White       Black       0		21
+40  CENTER  DarkGray    White       Black       RightRed	21
+
+51  CENTER  231         231         Black       231		0
+52  CENTER  235	        White       Black       231		0
+53  CENTER  White       235         Black       231		0
+54  CENTER  231         White       Black       231		0
+
+55  CENTER  White       Black       Black	13		30
+56  CENTER  Black	White       Black	13		30
+
+61  CENTER  Blank       Blank	    Black       Blank		60
+62  CENTER  Blank    	Blank       Black       Blank		60
+63  CENTER  Blank    	Blank       White       Blank		60
+64  CENTER  Blank    	Blank       Black       Blank		0
+65  LEFT    DarkGray    White       Black       13		62
+66  CENTER  Blank	Blank	    Black	13		0
+70  CENTER  White       DarkGray    Black       14		70
+71  CENTER  Blank       Blank       Blank       Blank		70
+72  CENTER  White       DarkGray    Black       12		70
+73  CENTER  Blank	Blank       Yellow       Blank		73
+74  CENTER  Blank    	Blank       Black       Blank		4
+75  CENTER  Blank       Blank       Blank       Blank		70
+
+76  LEFT    Blank       Blank       Black       Blank  		5
+77  CENTER  DarkGray	White	    Black	13		0
+78  CENTER    Blank       Blank       Black       Blank  		5
+79  CENTER  Blank       Blank       Black       Blank  		0
+80  CENTER  Blank	Blank	    Black	Blank		10
+81  CENTER  Blank	Blank	    Black	Blank		21
+83  CENTER  Blank       Blank       Black       Blank		13	# GUI Module Name
+84  CENTER  White       DarkGray    Lavender    LightGray	12	# Right Sts Navigator
+
+88  CENTER  Blank    	Blank       Black 	Blank		0
+89  CENTER  Blank       Blank       White       Blank  		5
+90  CENTER  Blank       Blank       Black       Blank  		4
+96  CENTER  Blank       Blank       White       Blank  		4
+97  LEFT    Blank	Blank       Black       Blank		10
+91  CENTER  Blank	Blank       Black       Blank		10
+92  CENTER  Blank	Blank       Black       Blank		10
+93  CENTER  Blank	Blank       Black       Blank		10
+94  CENTER  Blank	Blank       White       Blank		10
+95  CENTER  Blank	Blank       White       Blank		6
+97  CENTER  Blank       Blank       Black       Blank		11
+98  CENTER  Blank	Blank       White       Blank		0
+99  CENTER  Blank       Blank       White       Blank		11

@@ -1,0 +1,62 @@
+$_PLOT_BIG         0    0
+$_PLOT_BACK        1    1
+$_PLOT_BACK_COLOR  256  256
+$_PLOT_POINT       1    1
+$_PLOT_LINE        0    0
+$_PLOT_COLOR_1     5    2    4    6
+$_PLOT_COLOR_2     5    2    4    6
+$_DATALOG_FILE_SAVE_TYPE     1
+$_DATALOG_TIME     1
+     PM2.vSTEP.Count    1                0.000              100.000    0    1    1
+        PM2.cBG0.Prs    0                0.100             1000.000    0    1    1
+        PM2.cBG1.Prs    0                0.001               10.000    0    1    1
+        PM2.cBG2.Prs    1                0.010              100.000    2    1    1
+        PM2.cMFL.Prs    0                0.001               10.000    0    1    1
+       PM2.cWFR.Temp    1              200.000              700.000    1    1    1
+       PM2.cTC1.Temp    1                0.000              200.000    3    1    1
+       PM2.cTC2.Temp    1                0.000              200.000    4    1    1
+       PM2.cTC3.Temp    1                0.000              200.000    4    1    1
+       PM2.cHTR.Temp    1                0.000              200.000    3    1    1
+     PM2.cHTR.Output    0                0.000              105.000    0    1    1
+       PM2.cBC1.Pres    0         -9999999.000          9999999.000    0    1    1
+       PM2.cBC1.Flow    0         -9999999.000          9999999.000    0    1    1
+       PM2.cBC2.Pres    0         -9999999.000          9999999.000    0    1    1
+       PM2.cBC2.Flow    0         -9999999.000          9999999.000    0    1    1
+     PM2.ctSiH4.Flow    0                0.000              100.000    0    1    1
+     PM2.csSiH4.Flow    0                0.000              250.000    0    1    1
+      PM2.cSiF4.Flow    0                0.000              300.000    0    1    1
+       PM2.ccH2.Flow    0                0.000             1000.000    0    1    1
+       PM2.csHe.Flow    0                0.000              500.000    0    1    1
+       PM2.ctHe.Flow    0                0.000              200.000    0    1    1
+       PM2.csAr.Flow    0                0.000              300.000    0    1    1
+       PM2.ctAr.Flow    0                0.000              100.000    0    1    1
+       PM2.ccAr.Flow    0                0.000             1500.000    0    1    1
+      PM2.ccNF3.Flow    0                0.000             2000.000    0    1    1
+       PM2.ctNF3.Flow    0                0.000             3000.000    0    1    1
+       PM2.cdO2.Flow    0                0.000              400.000    0    1    1
+      PM2.cdNF3.Flow    0                0.000              200.000    0    1    1
+      PM2.cCHL1.Temp    0               30.000               90.000    0    1    1
+      PM2.cCHL1.Pres    0                0.000                9.999    0    1    1
+    PM2.cCHL1.FlowRt    0                0.000               28.700    0    1    1
+    PM2.cCHL1.Resist    0                0.000               20.000    0    1    1
+      PM2.cCHL2.Temp    0               30.000               90.000    0    1    1
+      PM2.cCHL2.Pres    0                0.000                9.999    0    1    1
+    PM2.cCHL2.FlowRt    0                0.000               28.700    0    1    1
+    PM2.cCHL2.Resist    0                0.000               20.000    0    1    1
+      PM2.cCHL3.Temp    0               30.000               90.000    0    1    1
+      PM2.cCHL3.Pres    0                0.000                9.999    0    1    1
+    PM2.cCHL3.FlowRt    0                0.000               28.700    0    1    1
+    PM2.cCHL3.Resist    0                0.000               20.000    0    1    1
+     PM2.cRFT.FwdPwr    0                0.000             5500.000    0    1    1
+     PM2.cRFT.RefPwr    0                0.000             5500.000    0    1    1
+     PM2.cRFB.FwdPwr    0                0.000             5500.000    0    1    1
+     PM2.cRFB.RefPwr    0                0.000             5500.000    0    1    1
+     PM2.eciESC.Volt    0                0.000             3000.000    0    1    1
+  PM2.eciESC.CntTapV    0                0.000             3000.000    0    1    1
+  PM2.eciESC.PosOutA    0                0.000                2.000    0    1    1
+  PM2.eciESC.NegOutA    0                0.000                2.000    0    1    1
+       PM2.ecTVC.Prs    0                0.000               10.000    0    1    1
+       PM2.ecTVC.Pos    0                0.000              100.000    0    1    1
+PM2.eciPDC.EncoderPosit    0             -164.000              164.000    0    1    1
+       PM2.ecTVP.Prs    0                0.000              100.000    0    1    1
+       PM2.ecTVP.Pos    0                0.000              100.000    0    1    1
