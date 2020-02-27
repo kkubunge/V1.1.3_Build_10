@@ -49,11 +49,11 @@ BOOL	ALARM_HAPPEN;
 #define		ALARM_RB_PLACE_WFR_ERR_ANI		6523
 #define		ALARM_RB_PLACE_WFR_ERR_ANI2		6524
 
-#define		ALARM_PMA_1_CHUCK_NOTHOME	6530	
-#define		ALARM_PMA_2_CHUCK_NOTHOME	6531	
-#define		ALARM_PMB_1_CHUCK_NOTHOME	6532	
-#define		ALARM_PMB_2_CHUCK_NOTHOME	6533	
-#define		ALARM_PMC_1_CHUCK_NOTHOME	6534	
+#define		ALARM_PMA_1_CHUCK_NOTHOME	6530
+#define		ALARM_PMA_2_CHUCK_NOTHOME	6531
+#define		ALARM_PMB_1_CHUCK_NOTHOME	6532
+#define		ALARM_PMB_2_CHUCK_NOTHOME	6533
+#define		ALARM_PMC_1_CHUCK_NOTHOME	6534
 #define		ALARM_PMC_2_CHUCK_NOTHOME	6535
 
 #define		ALARM_SLIDE_PMA_1			6540
@@ -75,6 +75,10 @@ BOOL	ALARM_HAPPEN;
 #define		ALARM_SLITVV_BM1_2			6557
 #define		ALARM_SLITVV_BM2_1			6558
 #define		ALARM_SLITVV_BM2_2			6559
+
+// 2020.02.26 Wafer Sync
+#define		ALARM_WAFER_PICK_SYNC_FAIL	6560
+#define		ALARM_WAFER_PLACE_SYNC_FAIL	6561
 
 #define		ALARM_ROBOT_COMMUNITION	7300
 //------------------------------------------------------------------------------------------
@@ -131,10 +135,10 @@ char *EVENT_STRING_PLACE_TO_LL1		= "EVENT_ON VTM_ROBOT_PLACE_TO_LL1";
 char *EVENT_STRING_PLACE_TO_LL2		= "EVENT_ON VTM_ROBOT_PLACE_TO_LL2";
 //
 //------------------------------------------------------------------------------------------
-//2008.01.08 
+//2008.01.08
 //6 axis station number mgsong
 //MAHA ULVAC Station Number hyuk
-//								  PMA   PMB   PMC   LL1_1 LL1_2  LL2_1  LL2_2 
+//								  PMA   PMB   PMC   LL1_1 LL1_2  LL2_1  LL2_2
 int	MODULE_CONTROL_STATION[7] = {  1  ,  2  ,  3  ,  4  ,   5  ,   6  ,  7 };
 
 //2008.01.09 Alarm Number Change with 6 axis robot
@@ -195,16 +199,16 @@ IO_Name_String_Map IO_STR_Map_Table[] = {
 	{ "TM.VAC_Robot_Error_2"	, _K_D_IO	,	TM_RB_ErrorBit2		,	0	} ,
 	{ "TM.VAC_Robot_Error_3"	, _K_D_IO	,	TM_RB_ErrorBit3		,	0	} ,
 	{ "TM.VAC_Robot_Error_4"	, _K_D_IO	,	TM_RB_ErrorBit4		,	0	} ,
-	
+
 	{ "TM.RB_SYNCH"				, _K_D_IO	,	ROBOT_SYNCH			,	0	} ,
 	{ "TM.RB_RET"				, _K_D_IO	,	ROBOT_RET			,	0	} ,
 	{ "TM.RB_STATION"			, _K_D_IO	,	ROBOT_STATION		,	0	} ,
 	{ "PRMD_TM_RB_MOVE_TMO"		, _K_D_IO	,	MOVE_WAFER_TIMEOUT	,	0	} ,
 
-	{ "CTC.Rb_Rotation"			, _K_A_IO	,	CTC_Rb_Rotation 	,	0	} , 
+	{ "CTC.Rb_Rotation"			, _K_A_IO	,	CTC_Rb_Rotation 	,	0	} ,
 	{ "CTC.Rb_Movement"			, _K_A_IO	,	CTC_Rb_Movement 	,	0	} ,
 	{ "CTC.Rb_Extension"		, _K_A_IO	,	CTC_Rb_Extension 	,	0	} ,
-	{ "CTC.Rb_Extension2"		, _K_A_IO	,	CTC_Rb_Extension2 	,	0	} , 
+	{ "CTC.Rb_Extension2"		, _K_A_IO	,	CTC_Rb_Extension2 	,	0	} ,
 
 	{ "FUNC_WFR_COUNTER"		, _K_F_IO	,	FUNC_WFR_COUNTER	,	0	} ,
 
@@ -232,7 +236,7 @@ IO_Name_String_Map IO_STR_Map_Table[] = {
 	{ "ULVAC_AWS_LIMIT_BM_HI"	, _K_A_IO	,	ULVAC_AWS_LIMIT_BM_HI	,	0	} ,
 	{ "ULVAC_AWS_LIMIT_PM_LOW"	, _K_A_IO	,	ULVAC_AWS_LIMIT_PM_LOW	,	0	} ,
 	{ "ULVAC_AWS_LIMIT_BM_LOW"	, _K_A_IO	,	ULVAC_AWS_LIMIT_BM_LOW	,	0	} ,
-	{ "ULVAC_AWS_USE_V"			, _K_D_IO	,	ULVAC_AWS_USE_V			,	0	} ,	
+	{ "ULVAC_AWS_USE_V"			, _K_D_IO	,	ULVAC_AWS_USE_V			,	0	} ,
 
 	{ "ULVAC_AWS_INIT_A"		, _K_D_IO	,	ULVAC_AWS_INIT_A		,	0	} ,
 	{ "ULVAC_AWS_INIT_B"		, _K_D_IO	,	ULVAC_AWS_INIT_B		,	0	} ,
@@ -282,7 +286,7 @@ IO_Name_String_Map IO_STR_Map_Table[] = {
 	{ "CTC.JOB_NAME"			, _K_S_IO	,	JOB_NAME			,	0	} ,
 	{ "CTC.JOB_NAME2"			, _K_S_IO	,	JOB_NAME2			,	0	} ,
 	{ "CTC.JOB_NAME3"			, _K_S_IO	,	JOB_NAME3			,	0	} ,
-		
+
 	{ "CTC.MID_NAME"			, _K_S_IO	,	MID_NAME			,	0	} ,
 	{ "CTC.MID_NAME2"			, _K_S_IO	,	MID_NAME2			,	0	} ,
 	{ "CTC.MID_NAME3"			, _K_S_IO	,	MID_NAME3			,	0	} ,
@@ -320,7 +324,21 @@ IO_Name_String_Map IO_STR_Map_Table[] = {
 	{"ULVAC_MOVE_CNT_Z", _K_D_IO, ULVAC_MOVE_CNT_Z, 0},
 	{"ULVAC_MOVE_TIME", _K_D_IO, ULVAC_MOVE_TIME, 0},
 	{"PRMD_TM_ROBOT_Load", _K_D_IO, PRMD_TM_ROBOT_Load, 0},
-	
+
+	//2020.02.26 Wafer Sync
+	{ "CTC.PM1_Wafer_Status"		,_K_D_IO	,	CTC_PM1_Wafer_Status	,	0	} ,
+	{ "CTC.PM1_Wafer_Status2"		,_K_D_IO	,	CTC_PM1_Wafer_Status2	,	0	} ,
+	{ "CTC.PM2_Wafer_Status"		,_K_D_IO	,	CTC_PM2_Wafer_Status	,	0	} ,
+	{ "CTC.PM2_Wafer_Status2"		,_K_D_IO	,	CTC_PM2_Wafer_Status2	,	0	} ,
+	{ "CTC.PM3_Wafer_Status"		,_K_D_IO	,	CTC_PM3_Wafer_Status	,	0	} ,
+	{ "CTC.PM3_Wafer_Status2"		,_K_D_IO	,	CTC_PM3_Wafer_Status2	,	0	} ,
+	{ "PM1.WaferDI"					,_K_D_IO	,	PM1_WaferDI				,	0	} ,
+	{ "PM1.Wafer2DI"				,_K_D_IO	,	PM1_Wafer2DI			,	0	} ,
+	{ "PM2.WaferDI"					,_K_D_IO	,	PM2_WaferDI				,	0	} ,
+	{ "PM2.Wafer2DI"				,_K_D_IO	,	PM2_Wafer2DI			,	0	} ,
+	{ "PM3.WaferDI"					,_K_D_IO	,	PM3_WaferDI				,	0	} ,
+	{ "PM3.Wafer2DI"				,_K_D_IO	,	PM3_Wafer2DI			,	0	} ,
+
 	""
 };
 
@@ -360,7 +378,158 @@ BOOL CheckAbortControl()
 	}
 	return bRet;
 }
+// 2020.02.26 Wafer Sync
+void WaferImageSync(char *RunStr, int EStation)
+{
+	int nCommStatus=0;
+	int nCommStatus2=0;
+	int nErrorCnt=0;
+	int nCTC_Wafer_StatusIO, nCTC_Wafer_StatusValue;
+	int nCTC_Wafer_StatusIO2, nCTC_Wafer_StatusValue2;
+	int nPM_Wafer_StatusIO, nPM_Wafer_StatusValue;
+	int nPM_Wafer_StatusIO2, nPM_Wafer_StatusValue2;
+	int nCheckFlag = FALSE, nCheckFlag2 = FALSE;
 
+	if(	STRCMP_L(RunStr, "PICK") || STRCMP_L(RunStr, "PLACE"))
+	{
+		switch(EStation)
+		{
+		case PMA:
+			nCTC_Wafer_StatusIO = CTC_PM1_Wafer_Status;
+			nPM_Wafer_StatusIO = PM1_Wafer2DI;
+
+			nCTC_Wafer_StatusIO2 = CTC_PM1_Wafer_Status2;
+			nPM_Wafer_StatusIO2 = PM1_WaferDI;
+			break;
+
+		case PMB:
+			nCTC_Wafer_StatusIO = CTC_PM2_Wafer_Status;
+			nPM_Wafer_StatusIO = PM2_Wafer2DI;
+
+			nCTC_Wafer_StatusIO2 = CTC_PM2_Wafer_Status2;
+			nPM_Wafer_StatusIO2 = PM2_WaferDI;
+			break;
+
+		case PMC:
+			nCTC_Wafer_StatusIO = CTC_PM3_Wafer_Status;
+			nPM_Wafer_StatusIO = PM3_Wafer2DI;
+
+			nCTC_Wafer_StatusIO2 = CTC_PM3_Wafer_Status2;
+			nPM_Wafer_StatusIO2 = PM3_WaferDI;
+			break;
+
+		default:
+			nCTC_Wafer_StatusIO = -1;
+			nPM_Wafer_StatusIO = -1;
+			nCTC_Wafer_StatusIO2 = -1;
+			nPM_Wafer_StatusIO2 = -1;
+			break;
+		}
+
+		if(nCTC_Wafer_StatusIO != -1 && nPM_Wafer_StatusIO != -1 && nCTC_Wafer_StatusIO2 != -1 && nPM_Wafer_StatusIO2 != -1)
+		{
+			while(nErrorCnt < 10)
+			{
+				//CTC PM Wafer Status Read
+				nCTC_Wafer_StatusValue = READ_DIGITAL(nCTC_Wafer_StatusIO, &nCommStatus);
+				nCTC_Wafer_StatusValue2 = READ_DIGITAL(nCTC_Wafer_StatusIO2, &nCommStatus2);
+				if((nCommStatus != TRUE) || (nCommStatus2 != TRUE))
+				{
+					nErrorCnt++;
+					_LOG("----------> CTC Wafer Image Read Fail Count : %d", nErrorCnt);
+					continue;
+				}
+
+
+				//PM Wafer Status Write
+				if(nCTC_Wafer_StatusValue > 0)	WRITE_DIGITAL(nPM_Wafer_StatusIO, 1, &nCommStatus);
+				else							WRITE_DIGITAL(nPM_Wafer_StatusIO, 0, &nCommStatus);
+
+				if(nCTC_Wafer_StatusValue2 > 0)	WRITE_DIGITAL(nPM_Wafer_StatusIO2, 1, &nCommStatus2);
+				else							WRITE_DIGITAL(nPM_Wafer_StatusIO2, 0, &nCommStatus2);
+
+				//PM Wafer Status Read
+				nPM_Wafer_StatusValue = READ_DIGITAL(nPM_Wafer_StatusIO, &nCommStatus);
+				nPM_Wafer_StatusValue2 = READ_DIGITAL(nPM_Wafer_StatusIO2, &nCommStatus2);
+				if((nCommStatus != TRUE) || (nCommStatus2 != TRUE))
+				{
+					nErrorCnt++;
+					_LOG("----------> PM Wafer Image Read Fail Count : %d", nErrorCnt);
+					continue;
+				}
+
+				//CTC <-> PM Side01 Wafer Status Sync Check
+				if(nCTC_Wafer_StatusValue > 0)
+				{
+					if(nPM_Wafer_StatusValue != 1)
+					{
+						nErrorCnt++;
+						_LOG("----------> Wafer Image Present Sync Fail Count : %d", nErrorCnt);
+
+						continue;
+					}
+					else
+					{
+						_LOG("----------> Wafer Image Present Sync Check Ok");
+					}
+				}
+				else
+				{
+					if(nPM_Wafer_StatusValue != 0)
+					{
+						nErrorCnt++;
+						_LOG("----------> Wafer Image Absent Sync Fail Count : %d", nErrorCnt);
+
+						continue;
+					}
+					else
+					{
+						_LOG("----------> Wafer Image Absent Sync Check Ok");
+					}
+				}
+
+				//CTC <-> PM Side02 Wafer Status Sync Check
+				if(nCTC_Wafer_StatusValue2 > 0)
+				{
+					if(nPM_Wafer_StatusValue2 != 1)
+					{
+						nErrorCnt++;
+						_LOG("----------> Wafer2 Image Present Sync Fail Count : %d", nErrorCnt);
+
+						continue;
+					}
+					else
+					{
+						_LOG("----------> Wafer2 Image Present Sync Check Ok");
+						break;
+					}
+				}
+				else
+				{
+					if(nPM_Wafer_StatusValue2 != 0)
+					{
+						nErrorCnt++;
+						_LOG("----------> Wafer2 Image Absent Sync Fail Count : %d", nErrorCnt);
+
+						continue;
+					}
+					else
+					{
+						_LOG("----------> Wafer2 Image Absent Sync Check Ok");
+						break;
+					}
+				}
+				Sleep(500);
+			}
+		}
+	}
+
+	if(nErrorCnt >= 10)
+	{
+		if		(STRCMP_L(RunStr, "PICK"))	ALARM_POST(ALARM_WAFER_PICK_SYNC_FAIL);
+		else if	(STRCMP_L(RunStr, "PLACE"))	ALARM_POST(ALARM_WAFER_PLACE_SYNC_FAIL);
+	}
+}
 //////////////////////////////////////////////////////////////////////
 // Global Function
 // 2013.11.15
@@ -370,7 +539,7 @@ extern void _MLOG(const char *pFormat, ...)
 	va_list args;
 	va_start(args, pFormat);
 	vsprintf(_szString, pFormat, args);
-	va_end(args);	
+	va_end(args);
 	WRITE_FUNCTION_EVENT(CTC_EVENT_LOG_SVR, _szString);
 }
 
@@ -433,7 +602,7 @@ Module_Status PM_Chuck_Home_Check ( int Station ) {
 	int ChuckAlarm1 , ChuckAlarm2;
 
 	_LOG("PM Chuck Home Check Start[Station : %d]", Station);
-	
+
 	switch ( Station ) {
 	case PMA   :
 		ChuckIo1    = PMA_1_CHUCK_HOME_STAT;
@@ -457,7 +626,7 @@ Module_Status PM_Chuck_Home_Check ( int Station ) {
 		ChuckAlarm2 = ALARM_PMC_2_CHUCK_NOTHOME;
 		break;
 	}
-	
+
 	while ( TRUE ) {
 		if ( READ_DIGITAL ( ChuckIo1 , &CommStatus ) == NOTHOME ) {
 			AlmResult = ALARM_MANAGE ( ChuckAlarm1 );
@@ -494,7 +663,7 @@ Module_Status SlitVv_Sensor_Check ( int Station ) {
 	int SlitVvAlarm1 , SlitVvAlarm2;
 
 	_LOG("TM SlitVv Sensor Check Start[Station : %d]", Station);
-	
+
 	switch ( Station ) {
 	case PMA   :
 		SlitVvIo1    = TM_SlitVv_PMA_1;
@@ -514,31 +683,31 @@ Module_Status SlitVv_Sensor_Check ( int Station ) {
 		SlitVvAlarm1 = ALARM_SLITVV_PMC_1;
 		SlitVvAlarm2 = ALARM_SLITVV_PMC_2;
 		break;
-	case BM1_1 : 
+	case BM1_1 :
 	case BM1_2 :
 		SlitVvIo1    = TM_SlitVv_BM1_1;
 		SlitVvIo2    = TM_SlitVv_BM1_2;
 		SlitVvAlarm1 = ALARM_SLITVV_BM1_1;
 		SlitVvAlarm2 = ALARM_SLITVV_BM1_2;
-		break;		
+		break;
 		//---> End
-	case BM2_1 : 
-	case BM2_2 : 
-		SlitVvIo1    = TM_SlitVv_BM2_1; 
-		SlitVvIo2    = TM_SlitVv_BM2_2; 
+	case BM2_1 :
+	case BM2_2 :
+		SlitVvIo1    = TM_SlitVv_BM2_1;
+		SlitVvIo2    = TM_SlitVv_BM2_2;
 		SlitVvAlarm1 = ALARM_SLITVV_BM2_1;
 		SlitVvAlarm2 = ALARM_SLITVV_BM2_2;
 		break;
 	}
-	
+
 	while ( TRUE ) {
 		if ( READ_DIGITAL ( SlitVvIo1 , &CommStatus ) != YESSLIDE ) break;
 		_sleep ( 1000 ) ;
-		
+
 		if ( READ_DIGITAL ( SlitVvIo1 , &CommStatus ) != YESSLIDE ) break;
 		_sleep ( 1000 ) ;
-		
-		if ( READ_DIGITAL ( SlitVvIo1 , &CommStatus ) != YESSLIDE ) 
+
+		if ( READ_DIGITAL ( SlitVvIo1 , &CommStatus ) != YESSLIDE )
 		{
 			break;
 		}
@@ -552,11 +721,11 @@ Module_Status SlitVv_Sensor_Check ( int Station ) {
 	while ( TRUE ) {
 		if ( READ_DIGITAL ( SlitVvIo2 , &CommStatus ) != YESSLIDE ) break;
 		_sleep ( 1000 ) ;
-		
+
 		if ( READ_DIGITAL ( SlitVvIo2 , &CommStatus ) != YESSLIDE ) break;
 		_sleep ( 1000 );
-		
-		if ( READ_DIGITAL ( SlitVvIo2 , &CommStatus ) != YESSLIDE ) 
+
+		if ( READ_DIGITAL ( SlitVvIo2 , &CommStatus ) != YESSLIDE )
 		{
 			break;
 		}
@@ -569,7 +738,7 @@ Module_Status SlitVv_Sensor_Check ( int Station ) {
 	}
 	//]
 
-	_LOG("TM SlitVv Sensor Check Start[Station : %d]", Station);	
+	_LOG("TM SlitVv Sensor Check Start[Station : %d]", Station);
 	return SYS_SUCCESS;
 }
 //------------------------------------------------------------------------------------------
@@ -580,9 +749,9 @@ Module_Status Slide_Sensor_Check ( int Station ) {
 	int CommStatus , AlmResult;
 	int SlideIo1 , SlideIo2;
 	int SlideAlarm1 , SlideAlarm2;
-	
+
 	_LOG("TM Slide Sensor Check Start[Station : %d]", Station);
-	
+
 	switch ( Station ) {
 	case PMA   :
 		SlideIo1    = TM_Slide_PMA_1;
@@ -603,28 +772,28 @@ Module_Status Slide_Sensor_Check ( int Station ) {
 		SlideAlarm2 = ALARM_SLIDE_PMC_2;
 		break;
 		//---> 2008/08/08
-		//case BM1 : 
-	case BM1_1 : 
-	case BM1_2 : 
+		//case BM1 :
+	case BM1_1 :
+	case BM1_2 :
 		//---> End
-	case BM2_1 : 
-	case BM2_2 : 
-		SlideIo1    = TM_Slide_BM_1; 
-		SlideIo2    = TM_Slide_BM_2; 
+	case BM2_1 :
+	case BM2_2 :
+		SlideIo1    = TM_Slide_BM_1;
+		SlideIo2    = TM_Slide_BM_2;
 		SlideAlarm1 = ALARM_SLIDE_BM_1;
 		SlideAlarm2 = ALARM_SLIDE_BM_2;
 		break;
 	}
-	
+
 	//[ 2010/02/23 TM Robot Pick Place 동작 전후 Slide Sensor 중복 Check하도록 수정 ( BY LJH )
 	while ( TRUE ) {
 		if ( READ_DIGITAL ( SlideIo1 , &CommStatus ) != YESSLIDE ) break;
 		_sleep ( 1000 ) ;
-		
+
 		if ( READ_DIGITAL ( SlideIo1 , &CommStatus ) != YESSLIDE ) break;
 		_sleep ( 1000 ) ;
-		
-		if ( READ_DIGITAL ( SlideIo1 , &CommStatus ) != YESSLIDE ) 
+
+		if ( READ_DIGITAL ( SlideIo1 , &CommStatus ) != YESSLIDE )
 		{
 			break;
 		}
@@ -638,11 +807,11 @@ Module_Status Slide_Sensor_Check ( int Station ) {
 	while ( TRUE ) {
 		if ( READ_DIGITAL ( SlideIo2 , &CommStatus ) != YESSLIDE ) break;
 		_sleep ( 1000 ) ;
-		
+
 		if ( READ_DIGITAL ( SlideIo2 , &CommStatus ) != YESSLIDE ) break;
 		_sleep ( 1000 );
-		
-		if ( READ_DIGITAL ( SlideIo2 , &CommStatus ) != YESSLIDE ) 
+
+		if ( READ_DIGITAL ( SlideIo2 , &CommStatus ) != YESSLIDE )
 		{
 			break;
 		}
@@ -654,8 +823,8 @@ Module_Status Slide_Sensor_Check ( int Station ) {
 		}
 	}
 	//]
-	
-	_LOG("TM Slide Sensor Check Start[Station : %d]", Station);	
+
+	_LOG("TM Slide Sensor Check Start[Station : %d]", Station);
 	return SYS_SUCCESS;
 }
 //------------------------------------------------------------------------------------------
@@ -677,12 +846,12 @@ int	CheckError() {
 			EB[i] = READ_DIGITAL_TRUE ( TM_RB_ErrorBit0 + i , &CommStatus );
 		}
 
-		//  Error Bit   :  0             1             2             3             4 
+		//  Error Bit   :  0             1             2             3             4
 		if		( EB[0] == 0 && EB[1] == 0 && EB[2] == 0 && EB[3] == 0 && EB[4] == 0 ) {
 			ErrorCode =    0;	// No Error
 			break;
 		}
-		else if	( EB[0] == 0 && EB[1] == 1 && EB[2] == 0 && EB[3] == 0 && EB[4] == 0 ) ErrorCode =  221;	// Attempt was made to perform Remote action without returning home                                                             
+		else if	( EB[0] == 0 && EB[1] == 1 && EB[2] == 0 && EB[3] == 0 && EB[4] == 0 ) ErrorCode =  221;	// Attempt was made to perform Remote action without returning home
 		else if ( EB[0] == 1 && EB[1] == 1 && EB[2] == 0 && EB[3] == 0 && EB[4] == 0 ) ErrorCode =  226;	// Extention Interlock Error(Gate Valve)
 		else if ( EB[0] == 0 && EB[1] == 0 && EB[2] == 1 && EB[3] == 0 && EB[4] == 0 ) ErrorCode =  299;	// Retraction Interlock Error(Gate Valve)
 		else if ( EB[0] == 1 && EB[1] == 0 && EB[2] == 1 && EB[3] == 0 && EB[4] == 0 ) ErrorCode =  227;	// Command designation error.
@@ -695,7 +864,7 @@ int	CheckError() {
 		else if ( EB[0] == 1 && EB[1] == 1 && EB[2] == 1 && EB[3] == 1 && EB[4] == 0 ) ErrorCode =  233;	// Controller unit alarm given
 		else if ( EB[0] == 0 && EB[1] == 0 && EB[2] == 0 && EB[3] == 0 && EB[4] == 1 ) ErrorCode =  225;	// Action command was issued in the manual mode
 		else if ( EB[0] == 1 && EB[1] == 0 && EB[2] == 0 && EB[3] == 0 && EB[4] == 1 )		// 10진수로 17
-		{			
+		{
 
 			if ( READ_DIGITAL ( MTR7_ErrorCode , &CommStatus ) > 0 )
 			{
@@ -706,9 +875,9 @@ int	CheckError() {
 				ErrorCode = 2349;	// 234~249 를 의미하는 Defualt Value
 			}
 
-		}																							
+		}
 		else if ( EB[0] == 0 && EB[1] == 1 && EB[2] == 0 && EB[3] == 0 && EB[4] == 1 )		// 10진수로 18
-		{			
+		{
 
 			if ( READ_DIGITAL ( MTR7_ErrorCode , &CommStatus ) > 0 )
 			{
@@ -717,8 +886,8 @@ int	CheckError() {
 			else
 			{
 				ErrorCode = 2403;	// 240,243 를 의미하는 Defualt Value
-			}																						
-		}																							
+			}
+		}
 		else
 		{
 			Abnormal_ErrorRead++ ;
@@ -734,7 +903,7 @@ int	CheckError() {
 			}
 			else
 			{
-				ErrorCode = 999;		// 기타  Defualt Value	
+				ErrorCode = 999;		// 기타  Defualt Value
 			}
 		}
 
@@ -775,7 +944,7 @@ CODE	4 3 2 1 0		?容
 
 	return ErrorCode;
 }
-//---> End    2008/04/01 TM Robot ERROR 처리 문제 보완  ( 5 of 5 ) 
+//---> End    2008/04/01 TM Robot ERROR 처리 문제 보완  ( 5 of 5 )
 //------------------------------------------------------------------------------------------
 //------------------------------------------------------------------------------------------
 //------------------------------------------------------------------------------------------
@@ -820,14 +989,14 @@ void ALARM_MESSAGE_REMAPPING ( int id , int err ) {
 //[ 2011/01/14 FM , TM Wafer Transfer GUI Interlock 기능 구현 ( BY LJH )
 BOOL ALARM_MESSAGE_REMAPPING_ADD_STRING( int id , char *MSG) {
 	char Buffer[256] , Buffer2[50];
-	
+
 	sprintf( Buffer2 , "%s" , MSG );
-	
+
 	ALARM_MESSAGE_GET( id , Buffer );
 	strcat( Buffer , Buffer2 );
 	ALARM_MESSAGE_SET( id , Buffer );
 	return TRUE;
-	
+
 }
 //---------------------------------------------------------------------------------------
 //---------------------------------------------------------------------------------------
@@ -863,9 +1032,9 @@ Module_Status READ_AXIS_LOAD()
 				ReadCnt = 0;
 		}
 	}
-	
+
 	_LOG("--------> AXIS LOAD Driver Read => %s", ReadStr);
-		
+
 	STR_SEPERATE_CHAR(ReadStr, ',', TempStr1, TempStr2, 51);  // GVL
 	STR_SEPERATE_CHAR(TempStr2, ',', TempStr1, TempStr2, 51); // Ti
 	Load_Ti = atoi(TempStr1);
@@ -944,9 +1113,9 @@ Module_Status READ_AXIS_MOVE_CNT()
 				ReadCnt = 0;
 		}
 	}
-	
+
 	_LOG("--------> AXIS MOVE CNT Driver Read => %s", ReadStr);
-	
+
 	STR_SEPERATE_CHAR(ReadStr, ',', TempStr1, TempStr2, 51); // N
 	STR_SEPERATE_CHAR(TempStr1, 'N', Buffer, TempStr1, 51);
 	MOVE_CNT_N = atoi(TempStr1);
@@ -984,7 +1153,7 @@ void ALARM_MESSAGE_REMAPPING( int id ) {
 	int CommStatus;
 
 	err    = (int) READ_DIGITAL( MTR7_ErrorCode    , &CommStatus );
-	errcmd = (int) READ_DIGITAL( MTR7_CmdErrorCode , &CommStatus ); 
+	errcmd = (int) READ_DIGITAL( MTR7_CmdErrorCode , &CommStatus );
 	if (err > 0) {
 		sprintf( Buffer2 , "(ERRCMD %d , ERROR=%d)" , errcmd , err );
 		ALARM_MESSAGE_GET( id , Buffer );
@@ -998,7 +1167,7 @@ void ALARM_MESSAGE_REMAPPING( int id ) {
 Module_Status AWSLimitSet(int Station) {
 
 	int CommStatus;
-	double AWS_LIMIT_PM_HI, AWS_LIMIT_BM_HI, AWS_LIMIT_PM_LOW, AWS_LIMIT_BM_LOW ;	
+	double AWS_LIMIT_PM_HI, AWS_LIMIT_BM_HI, AWS_LIMIT_PM_LOW, AWS_LIMIT_BM_LOW ;
 	BOOL Curr_AWS_Control;
 
 	AWS_LIMIT_PM_HI = READ_ANALOG( ULVAC_AWS_LIMIT_PM_HI , &CommStatus );
@@ -1008,12 +1177,12 @@ Module_Status AWSLimitSet(int Station) {
 	Curr_AWS_Control = READ_DIGITAL( ULVAC_AWS_USE_V , &CommStatus );
 
 	//[ 2010/10/26 TM RB AWS Abort Range PM / LL 분리 ( BY LJH )
-	if ( Station == PMA || Station == PMB || Station == PMC ) 
-	{  
-		if ( AWS_LIMIT_PM_HI != AWS_LIMIT_BM_HI || AWS_LIMIT_PM_LOW != AWS_LIMIT_BM_LOW || Old_AWS_Control != Curr_AWS_Control ) 
+	if ( Station == PMA || Station == PMB || Station == PMC )
+	{
+		if ( AWS_LIMIT_PM_HI != AWS_LIMIT_BM_HI || AWS_LIMIT_PM_LOW != AWS_LIMIT_BM_LOW || Old_AWS_Control != Curr_AWS_Control )
 		{
 			if ( RUN_FUNCTION ( OBJ_TM_AWS , "SET_AWS_LIMIT PM" ) == SYS_ABORTED ) return SYS_ABORTED ;
-			
+
 			Old_AWS_Control = Curr_AWS_Control;
 		}
 	}
@@ -1021,7 +1190,7 @@ Module_Status AWSLimitSet(int Station) {
 		if ( AWS_LIMIT_PM_HI != AWS_LIMIT_BM_HI || AWS_LIMIT_PM_LOW != AWS_LIMIT_BM_LOW || Old_AWS_Control != Curr_AWS_Control )
 		{
 			if ( RUN_FUNCTION ( OBJ_TM_AWS , "SET_AWS_LIMIT BM" ) == SYS_ABORTED ) return SYS_ABORTED ;
-			
+
 			Old_AWS_Control = Curr_AWS_Control;
 		}
 	}
@@ -1037,7 +1206,7 @@ void Get_RobotCmdDetailMsg( int CmdIO , int Station, char DetailMsg[] ) {
 	memset(Buffer3, 0x00, sizeof(Buffer3));
 	memset(DetailMsg, 0x00, sizeof(DetailMsg));
 
-	switch ( CmdIO ) 
+	switch ( CmdIO )
 	{
 		case MTR7_Get_Robot:
 			sprintf( Buffer2 , "[PICK_A"  );
@@ -1065,13 +1234,13 @@ void Get_RobotCmdDetailMsg( int CmdIO , int Station, char DetailMsg[] ) {
 			break;
 		case MTR7_Get_RobotBR:
 			sprintf( Buffer2 , "[PICK_B(Right)"  );
-			break;		
+			break;
 		case MTR7_Put_RobotB:
 			sprintf( Buffer2 , "[PLACE_B"  );
 			break;
 		case MTR7_Put_RobotBL:
 			sprintf( Buffer2 , "[PLACE_B(Left)"  );
-			break;		
+			break;
 		case MTR7_Put_RobotBR:
 			sprintf( Buffer2 , "[PLACE_B(Right)"  );
 			break;
@@ -1087,7 +1256,7 @@ void Get_RobotCmdDetailMsg( int CmdIO , int Station, char DetailMsg[] ) {
 		case MTR7_RotP_RobotB:
 			sprintf( Buffer2 , "[ROTATE_B"  );
 			break;
-		
+
 		default :
 			memset(DetailMsg, 0x00, sizeof(DetailMsg));
 			return;
@@ -1096,7 +1265,7 @@ void Get_RobotCmdDetailMsg( int CmdIO , int Station, char DetailMsg[] ) {
 
 	if ( Station > 0 )
 	{
-		switch ( Station ) 
+		switch ( Station )
 		{
 			case 1:
 				sprintf( Buffer3 , " PMA]");
@@ -1124,7 +1293,7 @@ void Get_RobotCmdDetailMsg( int CmdIO , int Station, char DetailMsg[] ) {
 				return;
 		}
 		strcat( DetailMsg , Buffer3 );
-	}	
+	}
 }
 
 Module_Status Wafer_Check_Visually ( int Uarm_left , int Uarm_right , int Larm_left , int Larm_right )
@@ -1132,9 +1301,9 @@ Module_Status Wafer_Check_Visually ( int Uarm_left , int Uarm_right , int Larm_l
 	char Msg[512] , ArmChkMsg[256] , ArmChkMsg1[128] , ArmChkMsg2[128];
 	int MsgBoxResult ;
 	HWND Handle;
-	
+
 	Handle = FindWindow(NULL,NULL); // 육안으로 확인 시 Home2후 TM Robot의 Wafer정보와 동일한 지 확인 기능 추가. ( BY LJH )
-	
+
 	if ( Uarm_left == Present_1 )
 	{
 		sprintf ( ArmChkMsg1 , "A : Present ,") ;
@@ -1151,9 +1320,9 @@ Module_Status Wafer_Check_Visually ( int Uarm_left , int Uarm_right , int Larm_l
 	{
 		sprintf ( ArmChkMsg2 , "B : Absent , ") ;
 	}
-	
+
 	strcat( ArmChkMsg1 , ArmChkMsg2 );
-	
+
 	if ( Larm_left == Present_1 )
 	{
 		sprintf ( ArmChkMsg2 , "C : Present , ") ;
@@ -1162,9 +1331,9 @@ Module_Status Wafer_Check_Visually ( int Uarm_left , int Uarm_right , int Larm_l
 	{
 		sprintf ( ArmChkMsg2 , "C : Absent , ") ;
 	}
-	
+
 	strcat( ArmChkMsg1 , ArmChkMsg2 );
-	
+
 	if ( Larm_right == Present_1 )
 	{
 		sprintf ( ArmChkMsg2 , "D : Present ??") ;
@@ -1173,16 +1342,16 @@ Module_Status Wafer_Check_Visually ( int Uarm_left , int Uarm_right , int Larm_l
 	{
 		sprintf ( ArmChkMsg2 , "D : Absent ??") ;
 	}
-	
+
 	strcat( ArmChkMsg1 , ArmChkMsg2 );
-	
+
 	sprintf( ArmChkMsg , "%s\n( TM ROBOT Upper_Arm : Left-A, Right-B | Lower_Arm: Left-C, Right-D )" , ArmChkMsg1 );
 	MsgBoxResult = MessageBox( Handle, ArmChkMsg,  "[Visually Wafer Check]", MB_OKCANCEL);
-	
+
 	if ( MsgBoxResult == IDOK ) { sprintf ( Msg , "Message[%s] : Result[IDOK]" , ArmChkMsg ) ; }
-	else {						  sprintf ( Msg , "Message[%s] : Result[IDCANCEL]" , ArmChkMsg ) ; }	
+	else {						  sprintf ( Msg , "Message[%s] : Result[IDCANCEL]" , ArmChkMsg ) ; }
 	_LOG( Msg ) ;
-	
+
 	if ( MsgBoxResult == IDOK ) { return SYS_SUCCESS ; }
 	else { return SYS_ERROR ; }
 }
@@ -1193,7 +1362,7 @@ Module_Status Wafer_Check_WhileRobotRun ( int ACTION_IO  , int Alarm_ID )
 
 	int CommStatus , WaferStsA, WaferStsB, WaferStsC, WaferStsD ;
 	char IO_Name[128];
-	
+
 	//---> ADD 2010/10/04 TM Arm의 Wafer정보와 GUI상의 Wafer 위치와 틀리면 Home2 진행 후 처리되도록 수정 by CNL
 	int GUI_A_Arm , GUI_B_Arm , GUI_C_Arm , GUI_D_Arm ;
 	int Alarm_Result ;
@@ -1227,7 +1396,7 @@ Module_Status Wafer_Check_WhileRobotRun ( int ACTION_IO  , int Alarm_ID )
 
 		printf("GUI (%d,%d,%d,%d)/ TM (%d,%d,%d,%d)\n",GUI_A_Arm, GUI_B_Arm, GUI_C_Arm, GUI_D_Arm ,WaferStsA,WaferStsB,WaferStsC,WaferStsD ) ;
 
-		if ( Wafer_Check_Visually ( WaferStsA , WaferStsB , WaferStsC , WaferStsD ) == SYS_ERROR ) 
+		if ( Wafer_Check_Visually ( WaferStsA , WaferStsB , WaferStsC , WaferStsD ) == SYS_ERROR )
 		{
 			ALARM_MESSAGE_REMAPPING_ADD_STRING ( ALARM_TM_ARM_WAFER_SYNCH_MISS , "Retry Home2 Action?" );
 			Alarm_Result = ALARM_MANAGE ( ALARM_TM_ARM_WAFER_SYNCH_MISS ) ;
@@ -1237,9 +1406,9 @@ Module_Status Wafer_Check_WhileRobotRun ( int ACTION_IO  , int Alarm_ID )
 			else if ( Alarm_Result == ALM_ABORT ) {
 				return SYS_ERROR;
 			}
-			
+
 		}else break ;
-		
+
 		_sleep ( 1000 );
 	}// while End
 	//---> END 2010/10/04 TM Arm의 Wafer정보와 GUI상의 Wafer 위치와 틀리면 Home2 진행 후 처리되도록 수정 by CNL
@@ -1255,11 +1424,11 @@ Module_Status Wafer_Check_WhileRobotRun ( int ACTION_IO  , int Alarm_ID )
 
 			if ( WaferStsA == Present_1 )
 			{
-				return SYS_SUCCESS;	
+				return SYS_SUCCESS;
 			}
 			else
 			{
-				return SYS_ABORTED;		
+				return SYS_ABORTED;
 			}
 
 			break;
@@ -1268,11 +1437,11 @@ Module_Status Wafer_Check_WhileRobotRun ( int ACTION_IO  , int Alarm_ID )
 
 			if ( WaferStsB == Present_1 )
 			{
-				return SYS_SUCCESS;	
+				return SYS_SUCCESS;
 			}
 			else
 			{
-				return SYS_ABORTED;		
+				return SYS_ABORTED;
 			}
 
 			break;
@@ -1281,11 +1450,11 @@ Module_Status Wafer_Check_WhileRobotRun ( int ACTION_IO  , int Alarm_ID )
 
 			if ( WaferStsC == Present_1 )
 			{
-				return SYS_SUCCESS;	
+				return SYS_SUCCESS;
 			}
 			else
 			{
-				return SYS_ABORTED;		
+				return SYS_ABORTED;
 			}
 
 			break;
@@ -1294,29 +1463,29 @@ Module_Status Wafer_Check_WhileRobotRun ( int ACTION_IO  , int Alarm_ID )
 
 			if ( WaferStsD == Present_1 )
 			{
-				return SYS_SUCCESS;	
+				return SYS_SUCCESS;
 			}
 			else
 			{
-				return SYS_ABORTED;		
+				return SYS_ABORTED;
 			}
 
 			break;
 
 		case MTR7_Get_Robot:
 
-			
+
 			if ( WaferStsA == Present_1 && WaferStsB == Present_1    )
 			{
-				return SYS_SUCCESS;	
+				return SYS_SUCCESS;
 			}
 			else if ( WaferStsA == Absent_0 && WaferStsB == Absent_0    )
 			{
-				return SYS_ABORTED;		
+				return SYS_ABORTED;
 			}
 			else
 			{
-				return SYS_ERROR;		
+				return SYS_ERROR;
 			}
 
 			break;
@@ -1325,15 +1494,15 @@ Module_Status Wafer_Check_WhileRobotRun ( int ACTION_IO  , int Alarm_ID )
 
 			if ( WaferStsC == Present_1 && WaferStsD == Present_1    )
 			{
-				return SYS_SUCCESS;	
+				return SYS_SUCCESS;
 			}
 			else if ( WaferStsC == Absent_0 && WaferStsD == Absent_0    )
 			{
-				return SYS_ABORTED;		
+				return SYS_ABORTED;
 			}
 			else
 			{
-				return SYS_ERROR;		
+				return SYS_ERROR;
 			}
 			break;
 
@@ -1341,11 +1510,11 @@ Module_Status Wafer_Check_WhileRobotRun ( int ACTION_IO  , int Alarm_ID )
 
 			if ( WaferStsA == Absent_0 )
 			{
-				return SYS_SUCCESS;	
+				return SYS_SUCCESS;
 			}
 			else
 			{
-				return SYS_ABORTED;		
+				return SYS_ABORTED;
 			}
 
 			break;
@@ -1354,11 +1523,11 @@ Module_Status Wafer_Check_WhileRobotRun ( int ACTION_IO  , int Alarm_ID )
 
 			if ( WaferStsB == Absent_0 )
 			{
-				return SYS_SUCCESS;	
+				return SYS_SUCCESS;
 			}
 			else
 			{
-				return SYS_ABORTED;		
+				return SYS_ABORTED;
 			}
 
 			break;
@@ -1367,11 +1536,11 @@ Module_Status Wafer_Check_WhileRobotRun ( int ACTION_IO  , int Alarm_ID )
 
 			if ( WaferStsC == Absent_0 )
 			{
-				return SYS_SUCCESS;	
+				return SYS_SUCCESS;
 			}
 			else
 			{
-				return SYS_ABORTED;		
+				return SYS_ABORTED;
 			}
 
 			break;
@@ -1380,11 +1549,11 @@ Module_Status Wafer_Check_WhileRobotRun ( int ACTION_IO  , int Alarm_ID )
 
 			if ( WaferStsD == Absent_0 )
 			{
-				return SYS_SUCCESS;	
+				return SYS_SUCCESS;
 			}
 			else
 			{
-				return SYS_ABORTED;		
+				return SYS_ABORTED;
 			}
 
 			break;
@@ -1393,15 +1562,15 @@ Module_Status Wafer_Check_WhileRobotRun ( int ACTION_IO  , int Alarm_ID )
 
 			if ( WaferStsA == Absent_0 && WaferStsB == Absent_0    )
 			{
-				return SYS_SUCCESS;	
+				return SYS_SUCCESS;
 			}
 			else if ( WaferStsA == Present_1 && WaferStsB == Present_1    )
 			{
-				return SYS_ABORTED;		
+				return SYS_ABORTED;
 			}
 			else
 			{
-				return SYS_ERROR;		
+				return SYS_ERROR;
 			}
 
 			break;
@@ -1410,15 +1579,15 @@ Module_Status Wafer_Check_WhileRobotRun ( int ACTION_IO  , int Alarm_ID )
 
 			if ( WaferStsC == Absent_0 && WaferStsD == Absent_0    )
 			{
-				return SYS_SUCCESS;	
+				return SYS_SUCCESS;
 			}
 			else if ( WaferStsC == Present_1 && WaferStsD == Present_1    )
 			{
-				return SYS_ABORTED;		
+				return SYS_ABORTED;
 			}
 			else
 			{
-				return SYS_ERROR;		
+				return SYS_ERROR;
 			}
 
 			break;
@@ -1431,15 +1600,15 @@ Module_Status Wafer_Check_WhileRobotRun ( int ACTION_IO  , int Alarm_ID )
 		case MTR7_RotG_RobotB:
 		case MTR7_RotP_RobotB:
 
-			return SYS_ABORTED;	
+			return SYS_ABORTED;
 			break;
 		//]
 
 		default :
 			//[ 2009/08/31 TM Robot Extend 기능 개선 ( BY LJH )
-		//	return SYS_ABORTED;	
+		//	return SYS_ABORTED;
 			return SYS_ERROR ;
-			//]	
+			//]
 	}
 }
 
@@ -1453,36 +1622,36 @@ Module_Status	AutoRecovery( int ACTION_IO, int Station, int AlarmID, int ChkErro
 	{
 		ALARM_MESSAGE_REMAPPING ( AlarmID , ChkError );
 	}
-	else 
+	else
 	{
 		ALARM_MESSAGE_REMAPPING( AlarmID , ChkError  );
 	}
-	
-	*AlmResult = ALARM_MANAGE( AlarmID );	
 
-	while (TRUE) 
+	*AlmResult = ALARM_MANAGE( AlarmID );
+
+	while (TRUE)
 	{
 		Handle = FindWindow(NULL,NULL);
 		MsgBoxResult = 0;
 
 		if ( *AlmResult != ALM_RETRY ) return SYS_ABORTED;		// Case Abort
-		
+
 		WRITE_DIGITAL ( MTR7_HOME  , 0 , &CommStatus );
 		WRITE_DIGITAL ( MTR7_HOME2 , 0 , &CommStatus );
-		
-		if ( *AlmResult == ALM_RETRY ) 
+
+		if ( *AlmResult == ALM_RETRY )
 		{
 
 			Get_RobotCmdDetailMsg( ACTION_IO , Station, RobotCmdDetailMsg );
-			
-			Sub_F_Result = Wafer_Check_WhileRobotRun( ACTION_IO , AlarmID ); 
-			
-			if ( Sub_F_Result == SYS_SUCCESS ) 
+
+			Sub_F_Result = Wafer_Check_WhileRobotRun( ACTION_IO , AlarmID );
+
+			if ( Sub_F_Result == SYS_SUCCESS )
 			{
 				*ActionRunComplete = TRUE;
 				sprintf( AlmMsg , ROBOT_ACTION_COMPLETE, RobotCmdDetailMsg );
 			}
-			else if ( Sub_F_Result == SYS_ABORTED ) 
+			else if ( Sub_F_Result == SYS_ABORTED )
 			{
 				*ActionRunComplete = FALSE;
 				sprintf( AlmMsg , ROBOT_ACTION_NOT_COMPLETE, RobotCmdDetailMsg );
@@ -1492,20 +1661,20 @@ Module_Status	AutoRecovery( int ACTION_IO, int Station, int AlarmID, int ChkErro
 				printf(" Wafer Check  Abnormal Case. ( Extend Command Can't Retry )\n");
 				return SYS_ABORTED;
 			}
-			
+
 			MsgBoxResult = MessageBox( Handle, AlmMsg,  "Confirm", MB_OKCANCEL);
-			
+
 			//[ MessageBox 처리 결과 Logging ( BY LJH )
 			if ( MsgBoxResult == IDOK ) { sprintf ( Msg , "Message[%s] : Result[IDOK]" , AlmMsg ) ; }
-			else {						  sprintf ( Msg , "Message[%s] : Result[IDCANCEL]" , AlmMsg ) ; }	
+			else {						  sprintf ( Msg , "Message[%s] : Result[IDCANCEL]" , AlmMsg ) ; }
 			_LOG( Msg ) ;
 			//]
-			
-			if ( MsgBoxResult == IDOK ) 
+
+			if ( MsgBoxResult == IDOK )
 			{
-				break;			
+				break;
 			}
-			else 
+			else
 			{
 				if ( AlarmID == ALARM_INDEX_POINTER + ALARM_ROBOT_ERROR )
 				{
@@ -1515,15 +1684,15 @@ Module_Status	AutoRecovery( int ACTION_IO, int Station, int AlarmID, int ChkErro
 				{
 					ALARM_MESSAGE_REMAPPING ( AlarmID , ChkError );
 				}
-				
-				*AlmResult = ALARM_MANAGE( AlarmID );						
+
+				*AlmResult = ALARM_MANAGE( AlarmID );
 			}
 		}
-		
+
 		if ( MsgBoxResult == IDOK ) break;
-		
+
 	}  // End While
-	
+
 	return  SYS_SUCCESS;
 }
 
@@ -1533,36 +1702,36 @@ Module_Status	AutoRecovery( int ACTION_IO, int Station, int AlarmID, int ChkErro
 Module_Status PrepCheckError( int *AlarmID, int *ChkError )
 {
 	int	Data, CommStatus;
-	
+
 	Data = READ_DIGITAL ( TM_RB_Run_Status , &CommStatus );
-	if ( Data == RUNNING ) 
+	if ( Data == RUNNING )
 	{
 		_sleep (1000);
 		Data = READ_DIGITAL ( TM_RB_Run_Status , &CommStatus );
-		if ( Data == RUNNING ) 
+		if ( Data == RUNNING )
 		{
 			Data = READ_DIGITAL ( TM_RB_Run_Status , &CommStatus );
 			_sleep (1000);
-			if ( Data == RUNNING ) 
-			{				
+			if ( Data == RUNNING )
+			{
 				*AlarmID = ALARM_INDEX_POINTER + ALARM_ROBOT_RUNNING;
-				return SYS_ERROR;				
+				return SYS_ERROR;
 			}
 		}
 	}
 	*ChkError = CheckError();
 	if ( *ChkError > 0 )
 	{
-		if ( *ChkError >= 420 && *ChkError <= 485 ) 
+		if ( *ChkError >= 420 && *ChkError <= 485 )
 		{
 			*AlarmID = ALARM_INDEX_POINTER + ALARM_AWS_ERROR;
 		}
-		else 
+		else
 		{
 			*AlarmID = ALARM_INDEX_POINTER + ALARM_ROBOT_ERROR;
 		}
 		return SYS_ERROR;
-	}	
+	}
 	return SYS_SUCCESS;
 }
 //------------------------------------------------------------------------------------------
@@ -1572,7 +1741,7 @@ Module_Status PrepCheckRobot( int Station, int Action_IO ) {
 	int AlmResult;
 	int ChkResult, ChkError, AlarmID, ActionRunComplete;
 
-	while ( TRUE ) {	
+	while ( TRUE ) {
 
 		ChkResult = PrepCheckError( &AlarmID, &ChkError );
 
@@ -1585,20 +1754,20 @@ Module_Status PrepCheckRobot( int Station, int Action_IO ) {
 			//2014.3.16 User Recovery Added about all error by hyuk
 			_LOG("-----> PreCheck VTM Robot (%d) Part (%d) Error Occur and Retry Started" , AlarmID , ChkError);
 			Sleep(1000);
-			
+
 			if( SYS_ABORTED == AutoRecovery( Action_IO, Station, AlarmID, ChkError, &ActionRunComplete, &AlmResult) ) {
 				//g_nRobotStatus = RB_DOING_STEP2;
 				return SYS_ABORTED;
 			}
-			
-			if( ActionRunComplete == FALSE ) return SYS_RUNNING;				
+
+			if( ActionRunComplete == FALSE ) return SYS_RUNNING;
 			else {
 				return SYS_SUCCESS;
 			}
 			//2014.3.16 User Recovery Added about all error by hyuk
 				////////////////////////////////////////////////////////////////////////////////////////////////////
 		}
-		return SYS_SUCCESS;		 
+		return SYS_SUCCESS;
 	}
 }
 //------------------------------------------------------------------------------------------
@@ -1620,8 +1789,8 @@ Module_Status ReadyCheck() {
 			if      ( AlmResult == ALM_IGNORE ) return SYS_SUCCESS;
 			else if ( AlmResult != ALM_RETRY  ) {
 				g_nRobotStatus = RB_DOING_STEP2;
-				return SYS_ABORTED;		
-			} 
+				return SYS_ABORTED;
+			}
 		}
 		else{
 			_LOG("ALARM_ROBOT_ERROR : %d", __LINE__);
@@ -1632,7 +1801,7 @@ Module_Status ReadyCheck() {
 			else if ( AlmResult != ALM_RETRY  ) {
 				g_nRobotStatus = RB_DOING_STEP2;
 				return SYS_ABORTED;
-			} 
+			}
 		}
 	}
 	return SYS_SUCCESS;
@@ -1687,7 +1856,7 @@ Module_Status RunCheckRobot( int Station , int *Data , int retalarm, int Action_
 					sprintf ( AWSStr , "BM2" );
 					break;
 				}
-				
+
 				if		( Arm == ARM_A ) {
 					sprintf ( ParaStr , "(ERROR%d)A_%s %d %d %d" , ChkError ,AWSStr , Arm , READ_DIGITAL(TM_A_Status , &CommStatus) , READ_DIGITAL(TM_A_Status2, &CommStatus) ) ;
 				}
@@ -1699,7 +1868,7 @@ Module_Status RunCheckRobot( int Station , int *Data , int retalarm, int Action_
 
 				AlarmID = ALARM_INDEX_POINTER + ALARM_AWS_ERROR;
 				Sleep(2000);
-				WRITE_DIGITAL( MTR7_Ret_Robot, 0, &CommStatus);	// All Arm Retract 
+				WRITE_DIGITAL( MTR7_Ret_Robot, 0, &CommStatus);	// All Arm Retract
 			}
 			else{
 				AlarmID = ALARM_INDEX_POINTER + ALARM_ROBOT_ERROR;
@@ -1717,7 +1886,7 @@ Module_Status RunCheckRobot( int Station , int *Data , int retalarm, int Action_
 			g_nRobotStatus = RB_DOING_STEP2;
 			return SYS_ABORTED;
 		}
-		
+
 		if( ActionRunComplete == FALSE ) {
 			// TM Robot Action후 Error Retry시 AWS Limit Parameter정보 재 인식 후 처리 (2012/11/14,LJH)
 			switch ( Station )
@@ -1734,7 +1903,7 @@ Module_Status RunCheckRobot( int Station , int *Data , int retalarm, int Action_
 				if ( RUN_FUNCTION ( OBJ_TM_AWS , "SET_AWS_LIMIT BM" ) == SYS_ABORTED ) return SYS_ABORTED ;
 				break;
 			}
-			return SYS_RUNNING;	
+			return SYS_RUNNING;
 		}
 		else {
 			*nPASS = TRUE;
@@ -1742,7 +1911,7 @@ Module_Status RunCheckRobot( int Station , int *Data , int retalarm, int Action_
 		}
 		//2014.3.16 User Recovery Added about all error by hyuk
 		////////////////////////////////////////////////////////////////////////////////////////////////////
-		
+
 	} else 	return SYS_SUCCESS;	// Run_Status BUSY, COMPLETE
 	return SYS_RUNNING;
 }
@@ -1759,7 +1928,7 @@ Module_Status RobotMovement(
 							int Synch_Start , int Synch_End , int Last_Retract ,
 							int Arm_RetExt , int Arm_Station , int Arm_Slot , int Arm_UpDown ,
 							int rejectalarm
-							) 
+							)
 {
 	int Data , Check , Res ;
 	int CommStatus , AlmResult;
@@ -1775,10 +1944,10 @@ Module_Status RobotMovement(
 	g_nRobotStatus = RB_DOING_STEP2;
 
 	if ( Arm == ARM_A )	{
-		Action_IO = A_IOP;	
+		Action_IO = A_IOP;
 	}
 	else {
-		Action_IO = B_IOP;				
+		Action_IO = B_IOP;
 	}
 
 	do {
@@ -1790,7 +1959,7 @@ Module_Status RobotMovement(
 		}
 		else if( SYS_RUNNING == PreCheck ) continue;
 		else ;
-		
+
 		WRITE_DIGITAL( MTR7_Run_Status, UV_IDLE, &CommStatus );	//2014.04.24
 
 		//Set Command
@@ -1799,12 +1968,12 @@ Module_Status RobotMovement(
 		else WRITE_DIGITAL( B_IOP , Station , &CommStatus );
 		if(CommStatus) g_nRobotStatus = RB_DONE;
 		else {
-			
+
 			RCV_CHK_COUNT = 0 ;
 			while ( TRUE )
 			{
 				RB_RUN_STATUS = READ_DIGITAL ( MTR7_Run_Status , &CommStatus ) ;
-				
+
 				if ( CommStatus )
 				{
 					if ( RB_RUN_STATUS == UV_COMPLETE )
@@ -1818,16 +1987,16 @@ Module_Status RobotMovement(
 						CommStatus = FALSE ;
 						break ;
 					}
-					
+
 				}
-				if ( RCV_CHK_COUNT++ > 30 ) 
+				if ( RCV_CHK_COUNT++ > 30 )
 				{
 					CommStatus = FALSE ;
 					break ;
 				}
-				
+
 				if ( !WAIT_SECONDS ( 1 ) ) return SYS_ABORTED;
-			}			
+			}
 
 			// 2014.04.07 RDY Response 30sec 들어 오지 않는 경우 다발한다..특히 HOME 진행 시..
 			// ROBOT_STATUS CHECK하여 정상적으로 Complete 상태면 Succeess 처리하도록 수정.
@@ -1836,10 +2005,10 @@ Module_Status RobotMovement(
 
 			/*
 			_LOG("ALARM_COMM_ERROR : %d", __LINE__);
-			AlmResult = ALARM_MANAGE( ALARM_INDEX_POINTER + ALARM_COMM_ERROR );	
+			AlmResult = ALARM_MANAGE( ALARM_INDEX_POINTER + ALARM_COMM_ERROR );
 			return SYS_ABORTED;	break;
 			*/
-		} 
+		}
 
 
 		S_TIMER_READY();
@@ -1849,13 +2018,13 @@ Module_Status RobotMovement(
 				msRet = SYS_ABORTED;
 				break;
 			}
-			
+
 			//Check = RunCheckRobot((Station == 0 ) , &Data , rejectalarm);
 			Check = RunCheckRobot( Station, &Data, rejectalarm, Action_IO, &nPASS, Arm );
 			if      ( Check == SYS_ABORTED ) {msRet =SYS_ABORTED; break; }
 			else if ( Check == SYS_RUNNING ) break;
 			// Run Status COMPLETE
-			if ( Data == UV_COMPLETE || nPASS == TRUE  ) 
+			if ( Data == UV_COMPLETE || nPASS == TRUE  )
 			{
 				Res = 0;
 				if ( Res == 0 ) {
@@ -1887,7 +2056,7 @@ Module_Status RobotMovement(
 //------------------------------------------------------------------------------------------
 Module_Status HomeRobot() {
 	int CommStatus;
-	Module_Status Res = SYS_ABORTED;	
+	Module_Status Res = SYS_ABORTED;
 
 	/*
 	Res = RobotMovement( 0 , 0 ,
@@ -1899,7 +2068,7 @@ Module_Status HomeRobot() {
 	WRITE_DIGITAL ( MTR7_HOME  , 0 , &CommStatus );
 
 	if(CommStatus){
-		WRITE_ANALOG ( CTC_Rb_Rotation   , 270.0 , &CommStatus ); // ULVAC HOME시 PMB 방향 
+		WRITE_ANALOG ( CTC_Rb_Rotation   , 270.0 , &CommStatus ); // ULVAC HOME시 PMB 방향
 		WRITE_ANALOG ( CTC_Rb_Movement   , 0.0   , &CommStatus );
 		WRITE_ANALOG ( CTC_Rb_Extension  , 0.0   , &CommStatus );
 		WRITE_ANALOG ( CTC_Rb_Extension2 , 0.0   , &CommStatus );
@@ -1911,7 +2080,7 @@ Module_Status HomeRobot() {
 
 Module_Status HomeRobot2() {
 	int CommStatus, CommStatus2;
-	Module_Status Res = SYS_ABORTED;	
+	Module_Status Res = SYS_ABORTED;
 
 	/*
 	// Home 1 - Arm Status Reset..
@@ -1919,9 +2088,9 @@ Module_Status HomeRobot2() {
 		MTR7_HOME , MTR7_HOME ,
 		ALARM_HOME_WAFER ,
 		-1 , -1 , 0 ,
-		-1 , -1 , -1 , -1 , -1 );	
+		-1 , -1 , -1 , -1 , -1 );
 
-	// Home 1 Complete : Home 2 Run - Arm Status Check.. ( PMB Side Check ) 
+	// Home 1 Complete : Home 2 Run - Arm Status Check.. ( PMB Side Check )
 	if(SYS_SUCCESS == Res){
 		Res = RobotMovement( 0 , 0 ,
 			MTR7_HOME2 , MTR7_HOME2 ,
@@ -1933,31 +2102,31 @@ Module_Status HomeRobot2() {
    */
 	WRITE_DIGITAL ( MTR7_HOME   , 0 , &CommStatus );
 	WRITE_DIGITAL ( MTR7_HOME2  , 0 , &CommStatus2 );
-	
+
 	if(CommStatus && CommStatus2){
-		WRITE_ANALOG ( CTC_Rb_Rotation   , 270.0 , &CommStatus ); // ULVAC HOME시 PMB 방향 
+		WRITE_ANALOG ( CTC_Rb_Rotation   , 270.0 , &CommStatus ); // ULVAC HOME시 PMB 방향
 		WRITE_ANALOG ( CTC_Rb_Movement   , 0.0   , &CommStatus );
 		WRITE_ANALOG ( CTC_Rb_Extension  , 0.0   , &CommStatus );
 		WRITE_ANALOG ( CTC_Rb_Extension2 , 0.0   , &CommStatus );
 		Res = SYS_SUCCESS;
 	}
-	
+
 	return Res;
 }
 //------------------------------------------------------------------------------------------
 //------------------------------------------------------------------------------------------
 //------------------------------------------------------------------------------------------
 Module_Status AWS_INIT( int EStation, int Station , int Arm,  BOOL bSingle ) {
-	
-	
+
+
 	printf("\n===> AWS_INIT Robot int EStation[%d] , int Station[%d] , int Arm[%d]\n,", EStation, Station,Arm );
-	
+
 	if ( SlitVv_Sensor_Check ( EStation ) == SYS_ABORTED ) return SYS_ABORTED;
-	
+
 	if ( EStation < BM1_1 ) { //PMA PMB PMC
 		if ( PM_Chuck_Home_Check ( EStation ) == SYS_ABORTED ) return SYS_ABORTED;
 	}
-	
+
 	if ( Slide_Sensor_Check  ( EStation ) == SYS_ABORTED ) return SYS_ABORTED;
 
 	// 일단 양쪽씩만 사용하는걸로...hyuk
@@ -1988,11 +2157,11 @@ Module_Status AWS_INIT( int EStation, int Station , int Arm,  BOOL bSingle ) {
 		printf( "Parameter Error (Wafer Count) \n");
 		return SYS_ABORTED;
 	}
-	
+
 	if ( Slide_Sensor_Check  ( EStation ) == SYS_ABORTED ) return SYS_ABORTED;
 
 	return SYS_SUCCESS;
-	
+
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -2000,7 +2169,7 @@ Module_Status PickRobot( int EStation , int Station , int Arm , BOOL TR , int nS
 	int CommStatus;
 	Module_Status msRet = SYS_ABORTED;
 
-	if(EStation < BM1_1) 
+	if(EStation < BM1_1)
 	{ //PMA PMB PMC
 		if ( PM_Chuck_Home_Check ( EStation ) == SYS_ABORTED ) return SYS_ABORTED;
 	}
@@ -2019,11 +2188,11 @@ Module_Status PickRobot( int EStation , int Station , int Arm , BOOL TR , int nS
 					MTR7_Get_Robot , MTR7_Get_RobotB ,
 					ALARM_PICK_WAFER ,
 					ROBOT_SYNCH_RETRACT_START , ROBOT_SYNCH_RETRACT_START , 0 ,
-					-1 , -1 , -1 , -1 , 745 ) == SYS_ABORTED ) break;			
+					-1 , -1 , -1 , -1 , 745 ) == SYS_ABORTED ) break;
 		}
-		else 
+		else
 		{
-			if (TRUE == SINGLE) 
+			if (TRUE == SINGLE)
 			{
 				if (0 == nSide)
 				{
@@ -2044,7 +2213,7 @@ Module_Status PickRobot( int EStation , int Station , int Arm , BOOL TR , int nS
 						ROBOT_STATUS_RETRACT , Station , -1 , ROBOT_STATUS_UP , -1 ) == SYS_ABORTED ) break;
 				}
 			}
-			else 
+			else
 			{
 				if ( RobotMovement( Station , Arm ,
 					MTR7_Get_Robot , MTR7_Get_RobotB ,
@@ -2077,6 +2246,7 @@ Module_Status PickRobot( int EStation , int Station , int Arm , BOOL TR , int nS
 			_LOG("----------> WaferSync Updated !");
 		}
 	}
+	WaferImageSync("PICK", EStation);
 	return msRet;
 }
 
@@ -2101,9 +2271,9 @@ Module_Status PlaceRobot( int EStation , int Station , int Arm , int nSide , BOO
 
 		g_nRobotStatus = RB_READY;
 
-		if(TRUE == SINGLE) 
+		if(TRUE == SINGLE)
 		{
-			if (0 == nSide) 
+			if (0 == nSide)
 			{
 				printf("^&*^%$# Place Arm %d Handling Single Wafer \n" , Arm);
 				if ( RobotMovement( Station , Arm ,
@@ -2122,13 +2292,13 @@ Module_Status PlaceRobot( int EStation , int Station , int Arm , int nSide , BOO
 					ROBOT_STATUS_RETRACT , Station , -1 , ROBOT_STATUS_DOWN , -1 ) == SYS_ABORTED ) break;
 			}
 		}
-		else 
+		else
 		{
 			if ( RobotMovement( Station , Arm ,
 					MTR7_Put_Robot , MTR7_Put_RobotB ,
 					ALARM_PLACE_WAFER ,
 					ROBOT_SYNCH_RETRACT_START , ROBOT_SYNCH_RETRACT_START , 0 ,
-					ROBOT_STATUS_RETRACT , Station , -1 , ROBOT_STATUS_DOWN , -1 ) == SYS_ABORTED ) break;		
+					ROBOT_STATUS_RETRACT , Station , -1 , ROBOT_STATUS_DOWN , -1 ) == SYS_ABORTED ) break;
 		}
 
 		msRet = SYS_SUCCESS;
@@ -2152,6 +2322,7 @@ Module_Status PlaceRobot( int EStation , int Station , int Arm , int nSide , BOO
 			_LOG("----------> Updated !");
 		}
 	}
+	WaferImageSync("PLACE", EStation);
 	return msRet;
 }
 //------------------------------------------------------------------------------------------
@@ -2278,31 +2449,31 @@ BOOL Find_Chamber_Finger_From_String( char *String , int *Station , int *Arm , i
 
 	if ( STRCMP_L( String + offset , "BM1"  ) || STRCMP_L( String + offset , "BM2"  )) {
 		Slot = atoi( SlotStr );
-		if      (201 == Slot) { Slot = 1; }		
-		else if (403 == Slot) { Slot = 2; }	
+		if      (201 == Slot) { Slot = 1; }
+		else if (403 == Slot) { Slot = 2; }
 		else if (Slot >= 1 && Slot <= 4) {
-			//2010. 10. 03 Single Slot Transfer 
+			//2010. 10. 03 Single Slot Transfer
 			if (1 == Slot || 2 == Slot) Slot = 1;
 			else if (3 == Slot || 4 == Slot) Slot = 2;
 		}
-		else if (0 >= Slot)	{ Slot = 0; }	
+		else if (0 >= Slot)	{ Slot = 0; }
 		else
 		{
 			;	// slot is 1 or 2 or 3 or etc...
 		}
-		
+
 		if ( ( Slot <= 0 ) || ( Slot >= 3 ) ) {
 			printf("Station Setting slot error\n");
 			_LOG("--------> Station Setting slot error");
 			return FALSE;
-		}			
+		}
 	}
 
 	if      ( STRCMP_L( String + offset , "PM1"  ) ) { GoChamber = PMA; }
 	else if ( STRCMP_L( String + offset , "PM2"  ) ) { GoChamber = PMB; }
 	else if ( STRCMP_L( String + offset , "PM3"  ) ) { GoChamber = PMC; }
-	else if ( STRCMP_L( String + offset , "BM1"  ) && Slot == 1) { GoChamber = BM1_1; }	
-	else if ( STRCMP_L( String + offset , "BM1"  ) && Slot == 2) { GoChamber = BM1_2; }	
+	else if ( STRCMP_L( String + offset , "BM1"  ) && Slot == 1) { GoChamber = BM1_1; }
+	else if ( STRCMP_L( String + offset , "BM1"  ) && Slot == 2) { GoChamber = BM1_2; }
 	else if ( STRCMP_L( String + offset , "BM2"  ) && Slot == 1) { GoChamber = BM2_1; }
 	else if ( STRCMP_L( String + offset , "BM2"  ) && Slot == 2) { GoChamber = BM2_2; }
 	else {
@@ -2335,8 +2506,8 @@ void PostPickEvent(int Station,int Arm)
 	memset(szWaferLotID1,0,sizeof(szWaferLotID1));
 	memset(szWaferLotID2,0,sizeof(szWaferLotID2));
 	memset(szWaferMID1	,0,sizeof(szWaferMID1));
-	memset(szWaferMID2	,0,sizeof(szWaferMID2));		
-		
+	memset(szWaferMID2	,0,sizeof(szWaferMID2));
+
 	if(Arm == ARM_A)
 	{
 		nWaferID1 = READ_DIGITAL(TM_A_Status,&nComstatus);
@@ -2529,8 +2700,8 @@ void PostPlaceEvent(int Station,int Arm, BOOL bIOReadOk)
 	memset(szWaferLotID1,0,sizeof(szWaferLotID1));
 	memset(szWaferLotID2,0,sizeof(szWaferLotID2));
 	memset(szWaferMID1	,0,sizeof(szWaferMID1));
-	memset(szWaferMID2	,0,sizeof(szWaferMID2));		
-	
+	memset(szWaferMID2	,0,sizeof(szWaferMID2));
+
 	if(Arm == ARM_A && bIOReadOk == TRUE)
 	{
 		nWaferID1 = READ_DIGITAL(TM_A_Status,&nComstatus);
@@ -2720,7 +2891,7 @@ Module_Status Simulation_Main()
 	BOOL TR      = FALSE;
 	BOOL bSingle = FALSE;
 	BOOL bDualArm = FALSE;			// 2013.11.15
-	int  nSingleSide = 0;	
+	int  nSingleSide = 0;
 	int	Station = 0, Arm = 0, EStation = 0, Slot = 0, CommStatus = 0;
 
 
@@ -2742,11 +2913,11 @@ Module_Status Simulation_Main()
 	do {
 		if (STRCMP_L( SlotStr  , "TRANSFER2" )) TR = TRUE;
 		if (STRCMP_L( TempStr3 , "TRANSFER2" )) TR = TRUE;
-		if (STRCMP_L( SINGLE   , "SINGLE"))     bSingle = TRUE; 
+		if (STRCMP_L( SINGLE   , "SINGLE"))     bSingle = TRUE;
 		if (STRCMP_L( SINGLE2  , "SINGLE"))     bSingle = TRUE;
 
 		if (!Find_Chamber_Finger_From_String(StationStr , &Station , &Arm , &EStation, SlotStr)) {
-			if ( (!STRCMP_L( RunStr , "READY")) && (!STRCMP_L( RunStr , "HOME")) && (!STRCMP_L(RunStr , "HOME2")) ) 
+			if ( (!STRCMP_L( RunStr , "READY")) && (!STRCMP_L( RunStr , "HOME")) && (!STRCMP_L(RunStr , "HOME2")) )
 			{
 				printf( "---> Robot Control Error - Not Support Station %s\n" , pParam );
 				_MLOG("--------> Robot Control Error - Not Support Station [%s]" , pParam );
@@ -2758,7 +2929,7 @@ Module_Status Simulation_Main()
 				EStation = NO_STATION;
 			}
 		}
-		
+
 		//BM Slot Number Coming such as 201 403 605 so conversion is necessary
 		//_LOG("--------> %s %s(%d) Started in TM RbLow Func", RunStr, StationStr, Slot);
 		_LOG("--------> %s %s(%s) Started in TM RbLow Func", RunStr, StationStr, SlotStr);
@@ -2771,7 +2942,7 @@ Module_Status Simulation_Main()
 			else if (400 == Slot) { Slot = 2; nSlotN = 4; nSingleSide = 1; }
 			else if (Slot >= 1 && Slot <= 4) {
 				nSlotN = Slot;		// MARS 2013.11.19
-				//2010. 10. 03 Single Slot Transfer 
+				//2010. 10. 03 Single Slot Transfer
 				if (1 == Slot || 2 == Slot) Slot = 1;
 				else if (3 == Slot || 4 == Slot) Slot = 2;
 			}
@@ -2786,7 +2957,7 @@ Module_Status Simulation_Main()
 				_LOG("--------> Station Setting slot error");
 				msRet = SYS_ABORTED;
 				break;
-			}			
+			}
 
 		}
 	} while(0);
@@ -2817,6 +2988,8 @@ Module_Status Simulation_Main()
 		}
 		//
 		WRITE_DIGITAL( ROBOT_SYNCH , ROBOT_SYNCH_SUCCESS , &CommStatus );
+		// 2020.02.26 Wafer Sync
+		WaferImageSync(RunStr, EStation);
 	}
 	else
 	{
@@ -2863,35 +3036,35 @@ void DisplayRotatePos(int nStation)
 Module_Status CycleRotate()
 {
 	Module_Status msRet = SYS_ABORTED;
-	
+
 	int		nIOStatus	= 0;
 	int		nTgtCycCnt	= 0;
 	int		nCurCycCnt  = 0;
 	int		nStation	= 0;
-	
-	do 
+
+	do
 	{
 		//... Check Move Cycle Count
 		nTgtCycCnt = (int) READ_DIGITAL(PRMD_TM_ROTATE_CNT, &nIOStatus);
 		if(nTgtCycCnt < 1)	{	msRet = SYS_SUCCESS;	break;	}
-		
+
 		//... Run Init Home Position Before Cycle Move
 		if(HomeRobot() == SYS_ABORTED)  break;
-				
-		//... Run Cycle Move TEST		
+
+		//... Run Cycle Move TEST
 		for(nCurCycCnt = 1; nCurCycCnt <= nTgtCycCnt; nCurCycCnt++)
-		{		
-			//... Calculate Rotate Position 
+		{
+			//... Calculate Rotate Position
 			nStation = nCurCycCnt % 5;
 			nStation = nStation + 1;
 			if(nStation <= 0 || nStation >= 5 ) nStation = 1;
 
 			//... Move Home Position
 			msRet = RotateRobot(nStation,ARM_A);
-			
+
 			if(SYS_SUCCESS != msRet)	break;
 			if(! WAIT_SECONDS(3))		break;		//... Aborted by User
-			
+
 			//... Display Rotate Position
 			DisplayRotatePos(nStation);
 		}
@@ -2900,9 +3073,9 @@ Module_Status CycleRotate()
 		if(HomeRobot() == SYS_ABORTED)  break;
 		msRet = SYS_SUCCESS;
 	} while (0);
-	
+
 	//... Save Information Parameter
-	
+
 	return	msRet;
 }
 //////////////////////////////////////////////////////////////////////////
@@ -2943,11 +3116,11 @@ Module_Status Real_Main()
 
 		if (STRCMP_L( SlotStr  , "TRANSFER2" )) TR = TRUE;
 		if (STRCMP_L( TempStr3 , "TRANSFER2" )) TR = TRUE;
-		if (STRCMP_L( SINGLE   , "SINGLE") || STRCMP_L( SINGLE   , "SINGLE2"))     bSingle = TRUE; 
+		if (STRCMP_L( SINGLE   , "SINGLE") || STRCMP_L( SINGLE   , "SINGLE2"))     bSingle = TRUE;
 		if (STRCMP_L( SINGLE2  , "SINGLE") || STRCMP_L( SINGLE2  , "SINGLE2"))     bSingle = TRUE;
 
 		if (!Find_Chamber_Finger_From_String(StationStr , &Station , &Arm , &EStation , SlotStr)) {
-			if ( (!STRCMP_L( RunStr , "READY")) && (!STRCMP_L( RunStr , "HOME")) && (!STRCMP_L( RunStr , "HOME2"))&& (!STRCMP_L( RunStr , "CYLROTATE"))) 
+			if ( (!STRCMP_L( RunStr , "READY")) && (!STRCMP_L( RunStr , "HOME")) && (!STRCMP_L( RunStr , "HOME2"))&& (!STRCMP_L( RunStr , "CYLROTATE")))
 			{
 				printf( "---> Robot Control Error - Not Support Station %s\n" , pParam );
 				_LOG("--------> Robot Control Error - Not Support Station [%s]" , pParam );
@@ -2959,43 +3132,43 @@ Module_Status Real_Main()
 				EStation = NO_STATION;
 			}
 		}
-		
+
 		_LOG("--------> %s %s(%s) Started in TM RbLow Func", RunStr, StationStr, SlotStr);
 
 		//.....
-		if(EStation == BM1_1 || EStation == BM1_2 || EStation == BM2_1 || EStation == BM2_2) 
+		if(EStation == BM1_1 || EStation == BM1_2 || EStation == BM2_1 || EStation == BM2_2)
 		{
 			Slot = atoi( SlotStr );
 			if     (201 == Slot) { Slot = 1; nSlotN = 1; }		// MARS 2013.11.19
 			else if(403 == Slot) { Slot = 2; nSlotN = 3; }		// MARS 2013.11.19
 			else if(200 == Slot) { Slot = 1; nSlotN = 2; nSingleSide = 1; }
 			else if(400 == Slot) { Slot = 2; nSlotN = 4; nSingleSide = 1; }
-			else if(Slot >= 1 && Slot <= 4) 
+			else if(Slot >= 1 && Slot <= 4)
 			{
 				nSlotN = Slot;		// MARS 2013.11.19
-				//2010. 10. 03 Single Slot Transfer 
+				//2010. 10. 03 Single Slot Transfer
 				if (1 == Slot || 2 == Slot) Slot = 1;
 				else if (3 == Slot || 4 == Slot) Slot = 2;
 			}
 			else if (0 >= Slot)	{ Slot = 0; nSlotN = 1; }		// 2013.11.19
 
-			if(Slot <= 0 || Slot >= 3) 
+			if(Slot <= 0 || Slot >= 3)
 			{
 				printf("Station Setting slot error\n");
 				_LOG("--------> Station Setting slot error");
 				msRet = SYS_ABORTED;
 				break;
-			}			
+			}
 
 		}
-		else 
+		else
 		{  // case PM
 			Slot = atoi(SlotStr);
-			if(200 == Slot) 
+			if(200 == Slot)
 			{	//... Only Right Arm Use
-				Slot = 1; 
-				nSlotN = 2; 
-				nSingleSide = 1; 
+				Slot = 1;
+				nSlotN = 2;
+				nSingleSide = 1;
 			}
 		}
 
@@ -3008,18 +3181,18 @@ Module_Status Real_Main()
 			msRet = (ReadyCheck());
 		} else if (STRCMP_L(RunStr , "HOME")) {
 			printf ("VTM Robot Home\n");
-			if (HomeRobot () == SYS_ABORTED) msRet =  SYS_ABORTED;			
+			if (HomeRobot () == SYS_ABORTED) msRet =  SYS_ABORTED;
 		} else if (STRCMP_L(RunStr , "HOME2")) {
 			printf ("VTM Robot Home2\n");
-			if (HomeRobot2 () == SYS_ABORTED) msRet =  SYS_ABORTED;			
-		} 
+			if (HomeRobot2 () == SYS_ABORTED) msRet =  SYS_ABORTED;
+		}
 		else if ( STRCMP_L( RunStr , "PICK"      ) ) msRet = (PickRobot   (EStation , Station , Arm , TR , nSingleSide , bSingle));
 		else if ( STRCMP_L( RunStr , "PLACE"     ) ){
 
-			// AWS Set 
+			// AWS Set
 			if( SYS_ABORTED == AWSLimitSet(Station)) return SYS_ABORTED;
 			// AWS Set
-			
+
 			msRet = (PlaceRobot  (EStation , Station , Arm , nSingleSide , bSingle));
 
 			if		( Arm == ARM_A ) {
@@ -3066,10 +3239,10 @@ Module_Status Real_Main()
 			DisplayRotatePos(Station);
 		}
 	}
-	
+
 	// Parameter Check.
 	if (READ_DIGITAL(PRMD_TM_ROBOT_Load , &CommStatus) == check)
-	{			
+	{
 		READ_AXIS_LOAD();
 		READ_AXIS_MOVE_CNT();
 	}

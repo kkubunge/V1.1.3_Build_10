@@ -46,7 +46,7 @@ IO_Name_String_Map IO_STR_Map_Table[] = {
 	{ "SW_ModuleFailDM"	, _K_D_IO	,	SW_ModuleFailDM,	0	} ,
 
 	{ "HT_CmdDO",			_K_D_IO	,	HT_CmdDO, 0},
-	{ "HT_CommStsDI",		_K_D_IO	,	HT_CommStsDI, 0},
+	{ "HT_CommStsDI",		_K_D_IO	,	HT_CommStsDI, 0},	
 
 	{ "HT01_OnOffDIO"	, _K_D_IO	,	HT01_OnOff,	0	} ,
 	{ "HT02_OnOffDIO"	, _K_D_IO	,	HT02_OnOff,	0	} ,
@@ -247,7 +247,7 @@ IO_Name_String_Map IO_STR_Map_Table[] = {
 	{ "HT32_OutPwAI"	, _K_A_IO	,	HT32_OutPwAI,	0	} ,
 
 	{ "PRMA_HTR_PowSet"	, _K_A_IO	,	PRMA_HTR_PowSet,	0	} ,
-	//... 2018.06.17 if Heater channel is picking up Power, it turn off Heater Ch.
+	//... 2018.06.17 if Heater channel is picking up Power, it turn off Heater Ch. 	
 	{ "HT01_AutoOffDM"	, _K_D_IO	,	HT01_AutoOffDM,	0	} ,
 	{ "HT02_AutoOffDM"	, _K_D_IO	,	HT02_AutoOffDM,	0	} ,
 	{ "HT03_AutoOffDM"	, _K_D_IO	,	HT03_AutoOffDM,	0	} ,
@@ -486,7 +486,7 @@ IO_LIST HeaterUpDnSvc_IO_List[] = {
 	{ "HT29_TmpRdAI"	, _K_A_IO	,0	} ,
 	{ "HT30_TmpRdAI"	, _K_A_IO	,0	} ,
 	{ "HT31_TmpRdAI"	, _K_A_IO	,0	} ,
-	{ "HT32_TmpRdAI"	, _K_A_IO	,0	} ,
+	{ "HT32_TmpRdAI"	, _K_A_IO	,0	} ,	
 
 	// 2006.06.30
 	{"PRO_FlowControlDM", _K_D_IO, 0},
@@ -617,14 +617,14 @@ void ExcuteHeaterChCtrl(int HTRno)				//2017. 09. 14 by kimhc
 	enum { HTR_OFF, HTR_ON };
 
 	//printf("Heater number is %d, PRMA_HTR_PowSet is %d, HT12_OutPwAI is %d. \n", HTRno, (int)READ_ANALOG(PRMA_HTR_PowSet, &nIOStatus), (int)READ_ANALOG(HT12_OutPwAI, &nIOStatus));
-
+ 
      if(READ_ANALOG(PRMA_HTR_PowSet, &nIOStatus) <= 0) return;
 
-	if(READ_ANALOG(PRMA_HTR_PowSet, &nIOStatus) < READ_ANALOG(HT01_OutPwAI+HTRno, &nIOStatus))
+	if(READ_ANALOG(PRMA_HTR_PowSet, &nIOStatus) < READ_ANALOG(HT01_OutPwAI+HTRno, &nIOStatus))  
 	{
 		if(ALM_PAUSED != ALARM_STATUS(ALARM_HTR_AUTO_OFF)) //.... 2018.06.17 ghlee
 		{
-			ALARM_POST(ALARM_HTR_AUTO_OFF);
+			ALARM_POST(ALARM_HTR_AUTO_OFF);	
 		}
 		WRITE_DIGITAL(HT01_OnOff+HTRno, HTR_OFF, &nIOStatus);
 	}
@@ -733,7 +733,7 @@ Module_Status StartMonitor(char *pParam)
 					}
 				}
 				else if(nAlarm == HA_LOWLMT)
-				{
+				{ 
 					if(nMonOpt > 0 && nCtrlMod == HCTRL_STABLE)
 					{
 						if(ALM_PAUSED != ALARM_STATUS(ALARM_HTR01_TEMP_LOW_LIMIT + i))
@@ -833,3 +833,5 @@ void Event_Message_Received() {
 
 } // End of [extern "C"]
 //==========================================================================================
+
+

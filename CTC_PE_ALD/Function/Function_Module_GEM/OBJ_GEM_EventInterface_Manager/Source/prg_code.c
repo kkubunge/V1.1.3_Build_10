@@ -2971,6 +2971,7 @@ Module_Status Event_Analysis( char *Event , char *Data ) { // example for 300mm 
 					    nDRYCWfrCnt = READ_DIGITAL (PRMD_PM1_DRYCWfrCnt + (nModuleIndex*3), &nCommStatus);
 					    nTRAPCWfrCnt = READ_DIGITAL (PRMD_PM1_TRAPCWfrCnt + (nModuleIndex*3), &nCommStatus);
 
+						j = 0;
 					    for (i = nStartIOEnum ; i <= nEndIOEnum ; i++, j++)
 					    {
 					        DcopValue = READ_ANALOG (i ,&nCommStatus);
@@ -3022,6 +3023,7 @@ Module_Status Event_Analysis( char *Event , char *Data ) { // example for 300mm 
 						nDRYCWfrCnt = READ_DIGITAL (PRMD_PM1_DRYCWfrCnt + (nModuleIndex*3), &nCommStatus);
 						nTRAPCWfrCnt = READ_DIGITAL (PRMD_PM1_TRAPCWfrCnt + (nModuleIndex*3), &nCommStatus);
 
+						j = 0;
 						for (i = nStartIOEnum ; i <= nEndIOEnum ; i++, j++)
 						{
 							DcopValue = READ_ANALOG (i ,&nCommStatus);
@@ -3073,6 +3075,7 @@ Module_Status Event_Analysis( char *Event , char *Data ) { // example for 300mm 
 						nDRYCWfrCnt = READ_DIGITAL (PRMD_PM1_DRYCWfrCnt + (nModuleIndex*3), &nCommStatus);
 						nTRAPCWfrCnt = READ_DIGITAL (PRMD_PM1_TRAPCWfrCnt + (nModuleIndex*3), &nCommStatus);
 
+						j = 0;
 						for (i = nStartIOEnum ; i <= nEndIOEnum ; i++, j++)
 						{
 							DcopValue = READ_ANALOG (i ,&nCommStatus);

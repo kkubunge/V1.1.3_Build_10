@@ -722,6 +722,7 @@ static IO_LIST g_pIOList[] =
 	{ "PM3_ModeChangeIgnore"	,	_K_D_IO,	0   } ,
 	{ "PM4_ModeChangeIgnore"	,	_K_D_IO,	0   } ,
 	{ "PM5_ModeChangeIgnore"	,	_K_D_IO,	0   } ,
+
 	""
 };
 //--------------------------------------------------------------------
@@ -963,13 +964,16 @@ void CTmcMonitor::PM3_COMM_STATUS_MONITORING(int nThreadNo)
 //////////////////////////////////////////////////////////////////////////
 void CTmcMonitor::WaferSyncThread(int nThreadNo)
 {
+	enum {_IDLE = 0 , _RUNNING , _PAUSING , _PAUSED , _ABORTING , _DISABLE , _WAITING , _WAIT_HAND_OFF};
 	BOOL	bIOStatus;
 	BOOL	bWaferPresent = FALSE;;
 	BOOL	bPM1_WaferPresent[MAX_WAFER_IN_PM];
 	BOOL	bPM2_WaferPresent[MAX_WAFER_IN_PM];
 	BOOL	bPM3_WaferPresent[MAX_WAFER_IN_PM];
-
-	int	i = 0;
+	int 	nCM1_Status;
+	int 	nCM2_Status;
+	int 	nCM3_Status;
+	int		i = 0;
 
 	for(i = 0; i < MAX_WAFER_IN_PM; i++)
 	{
@@ -984,6 +988,15 @@ void CTmcMonitor::WaferSyncThread(int nThreadNo)
 
 	while(WAIT_SEC(1))
 	{
+		nCM1_Status = dREAD_DIGITAL(CTC_MAIN_CONTROL, &bIOStatus);
+		nCM2_Status = dREAD_DIGITAL(CTC_MAIN_CONTROL2, &bIOStatus);
+		nCM3_Status = dREAD_DIGITAL(CTC_MAIN_CONTROL3, &bIOStatus);
+
+		if (nCM1_Status == _WAITING || nCM1_Status == _RUNNING || nCM2_Status == _WAITING || nCM2_Status == _RUNNING || nCM3_Status == _WAITING || nCM3_Status == _RUNNING)
+		{
+			continue;
+		}
+
 		// PM1
 		if(m_bPM1WaferSync)
 		{

@@ -418,18 +418,18 @@
 6154 TM.LEAK_RATE_ERR {
 	"TM Leak Rate Limit Over"
 	RETRY		"Retry"
-	ABORT		"Abort"	
+	ABORT		"Abort"
 }
 
 6155 TM.LEAK_AVG_ERR {
 	"TM Leak Average Limit Over"
 	RETRY		"Retry"
-	ABORT		"Abort"	
+	ABORT		"Abort"
 }
 
 6156 TM.AUTO_LEAK_CHECK_ABORT {
 	"TM/BM1/BM2 Auto Leak Check Abnormal Abort"
-	CLEAR		"Clear"	
+	CLEAR		"Clear"
 }
 
 #------------------------------------------------------------------------------
@@ -650,7 +650,7 @@
 	RETRY		"Retry"
 	ABORT		"Abort"
 	#IGNORE		"Ignore => Regards as SUCCESS"
-	DESCRIPTION	"Alarm/TM/UlvacErr.txt"	
+	DESCRIPTION	"Alarm/TM/UlvacErr.txt"
 }
 
 6508 TM.ROBOT.AWSERROR {
@@ -658,7 +658,7 @@
 	RETRY		"Retry"
 	ABORT		"Abort"
 	#IGNORE		"Ignore => Regards as SUCCESS"
-	DESCRIPTION	"Alarm/TM/UlvacErr.txt"	
+	DESCRIPTION	"Alarm/TM/UlvacErr.txt"
 }
 
 6509 TM.ROBOT.ERROR {
@@ -666,7 +666,7 @@
 	RETRY		"Retry"
 	ABORT		"Abort"
 	#IGNORE		"Ignore => Regards as SUCCESS"
-	DESCRIPTION	"Alarm/TM/UlvacErr.txt"	
+	DESCRIPTION	"Alarm/TM/UlvacErr.txt"
 }
 
 #611
@@ -763,7 +763,7 @@
 	RETRY		"Retry Operation"
 	ABORT		"Abort Operation"
 	IGNORE		"Ignore Operation => SUCCESS"
-}    
+}
 
 6530 RbNotExtPma1 {
 	"TM Robot Can't Extend : PMA-1 Chuck is not Home Position "
@@ -858,7 +858,7 @@
 #	IGNORE		"Ignore Operation => SUCCESS"
 	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
 }
- 
+
 6552 Pmb1SlitVvErr {
 	"TM Robot Error : PMB-1 SlitVv Sensor Error Detected"
 	ABORT		"Abort Operation"
@@ -870,8 +870,8 @@
 	ABORT		"Abort Operation"
 #	IGNORE		"Ignore Operation => SUCCESS"
 	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
-} 
- 
+}
+
 6554 Pmc1SlitVvErr {
 	"TM Robot Error : PMC-1 SlitVv Sensor Error Detected"
 	ABORT		"Abort Operation"
@@ -883,7 +883,7 @@
 	ABORT		"Abort Operation"
 #	IGNORE		"Ignore Operation => SUCCESS"
 	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
-}  
+}
 
 6556 BM1SlitVvErr {
 	"TM Robot Error : BM1-1 SlitVv Sensor Error Detected"
@@ -896,7 +896,7 @@
 	ABORT		"Abort Operation"
 #	IGNORE		"Ignore Operation => SUCCESS"
 	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
-} 
+}
 
 6558 BM2SlitVvErr {
 	"TM Robot Error : BM2-1 SlitVv Sensor Error Detected"
@@ -909,8 +909,22 @@
 	ABORT		"Abort Operation"
 #	IGNORE		"Ignore Operation => SUCCESS"
 	DESCRIPTION	"Alarm/TM/Robot_Control.txt"
-} 
- 
+}
+
+# 2020.02.26 Wafer Sync
+6560 TM.PMWafer.PickSyncFail {
+	"PM Wafer Pick Sync Fail"
+	#RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+6561 TM.PMWafer.PlaceSyncFail {
+	"PM Wafer Place Sync Fail"
+	#RETRY		"Retry"
+	ABORT		"Abort"
+	#IGNORE		"Ignore => Regards as SUCCESS"
+}
 
 #--->>>	OBJ_TM_AWS
 6601 RbAArmAWSWarn {
@@ -2906,4 +2920,3 @@
 	"PM5 Control PC Not Connected To CTC"
 	CLEAR	"Clear Operation"
 	}
-
