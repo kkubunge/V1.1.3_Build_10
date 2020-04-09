@@ -865,7 +865,7 @@ Module_Status StartDPBooster()
 			break;
 		}
 
-		// Coding is needed MB_Status_SDI, MB_StartStop_SDOï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+		// Coding is needed MB_Status_SDI, MB_StartStop_SDO°¡ ÇöÀç ¾øÀ½.
 		nCurMBRunStatus = READ_DIGITAL_COMMCHECK( pszFtnName, MBStsDI, &nIOStatus);
 		if( MB_RUNNING == nCurMBRunStatus )
 		{
@@ -2266,7 +2266,7 @@ Module_Status ReadLeakCheckParameter(int nLeakCheckFunc)
 				g_LKParameter[eNormalLeakCheck].dbLCPumpingTO	  < 0  ||
 				g_LKParameter[eNormalLeakCheck].dbLCDelayTime	  < 0  ||
 				g_LKParameter[eNormalLeakCheck].dbRghOpenAndLCDelayTime < 0 /*||
-				g_LKParameter[eNormalLeakCheck].dbRoRLimit		  <= 0*/    //... 2019.02.11 ROR Limit ï¿½ï¿½ï¿½ï¿½ "-3" ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½.
+				g_LKParameter[eNormalLeakCheck].dbRoRLimit		  <= 0*/    //... 2019.02.11 ROR Limit °ªÀÌ "-3" ±îÁö ¼³Á¤ ÇÒ ¼ö ÀÖ´Ù.
 				) //... Check Invalid Parameters
 			{
 				msRet = SYS_ABORTED;
@@ -2642,22 +2642,22 @@ Module_Status DoLeakCheck(int nLeakCheckFunc,int nLineLeakCheckSeq)
 			return SYS_ABORTED;
 		}
 
-		//... Close throttle valve
 		__KF_BEGIN_ALARM
-			// msRet = RUN_FUNCTION(PRESS_CONTROL, "CLOSE");
+		// msRet = RUN_FUNCTION(PRESS_CONTROL, "CLOSE");
 		// OPEN throttle valve
+		// Sequence Change
 		msRet = RUN_FUNCTION(PRESS_CONTROL, "OPEN");
 		if( SYS_SUCCESS != msRet )
 		{
-			_LOG("Throttle valve position Error[CLOSE]");
+			_LOG("Throttle valve position Error[OPEN]");
 			__SET_RECOVERY_CODE(ALARM_MANAGE(THROTTLE_VALVE_POSITION_INCORRECT))
 				msRet = SYS_ABORTED;
 		}
 		__KF_END_ALARM
-		msRet = WaitTillThrottlePosition( 1 );
+		msRet = WaitTillThrottlePosition(100);
 		if( SYS_SUCCESS != msRet )
 		{
-			_LOG("WaitTillThrottlePosition(1) is Failed");
+			_LOG("WaitTillThrottlePosition(100) is Failed");
 			break;
 		}
 		//...
@@ -2806,7 +2806,7 @@ Module_Status DoLeakCheck(int nLeakCheckFunc,int nLineLeakCheckSeq)
 	if(dbSumLeakRate != 0 && i != 0)
 	{
 		g_LKParameter[nLeakCheckFunc].dbAvgRate    = dbSumLeakRate / i;
-		//... 17L ï¿½ï¿½Ã» ï¿½ï¿½ï¿½ï¿½: Limit Torr Rateï¿½ï¿½ -3 Torr ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½ï¿½ï¿½ Inner Leak ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		//... 17L ¿äÃ» »çÇ×: Limit Torr RateÀº -3 Torr ±îÁö °¡´ÉÇÏÁö¸¸ ÃÖ¼ÒÇÑÀÇ Inner Leak »ç°í´Â ¹æÁö ÇÏÀÚ
 		if(g_LKParameter[nLeakCheckFunc].dbRoRLimit  < g_LKParameter[nLeakCheckFunc].dbAvgRate
 			|| -3 > g_LKParameter[nLeakCheckFunc].dbAvgRate)
 		{

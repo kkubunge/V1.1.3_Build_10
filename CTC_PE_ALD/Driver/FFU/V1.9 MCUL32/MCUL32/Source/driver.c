@@ -310,7 +310,7 @@ BOOL ReadIOCValue(int ID1/*MCULID*/,int ID2/*LCUID*/,int ID3/*CHID*/,int *nMode,
 		sprintf(buffer, "Recv Timeout %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X",szRawData[0], szRawData[1], szRawData[2], szRawData[3],szRawData[4], szRawData[5],  szRawData[6],
 			szRawData[7], szRawData[8], szRawData[9], szRawData[10],szRawData[11],szRawData[12], szRawData[13], szRawData[14], szRawData[15], szRawData[16]);
 		Time_Log( buffer, TRUE );
-		return FALSE;
+		//return FALSE;
 	}
 
 	if( GetBCCErrCheck(szRawData,RecvDataCnt-3) != szRawData[RecvDataCnt-2] )

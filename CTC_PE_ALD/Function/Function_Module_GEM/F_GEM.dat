@@ -3,8 +3,8 @@
 #-----------------------------------------------------------
 GEM.MESSAGE		95	Engine/Fa/GEM_MsgManager		ARGUMENT	"Function/Function_Module_GEM/Cfg/Message.dat"
 GEM.ERROR		60	Engine/Fa/GEM_Error			ARGUMENT	"Function/Function_Module_GEM/Cfg/Error.dat"
-#GEM.CONTROL		90	Engine/Fa/EasyGem2|C		RUN		""	"Function/Function_Module_GEM/Cfg|||E|N|||"
-GEM.CONTROL 		90 	Engine/Fa/EasyGem2|C  		RUN  		"Function/Function_Scheduler/Gui_EasyGem/Background/Background" "Function/Function_Module_GEM/Cfg|||E|N|||"
+#GEM.CONTROL		90	Engine/Fa/EasyGEM2_EDA|C		RUN		""	"Function/Function_Module_GEM/Cfg|||E|N|||"
+GEM.CONTROL 		90 	Engine/Fa/EasyGEM2_EDA|C  		RUN  		"Function/Function_Scheduler/Gui_EasyGem/Background/Background" "Function/Function_Module_GEM/Cfg|||E|N|||"
 GEM.PORT1_MIDCTRL	80	FUNCTION/FUNCTION_MODULE_TMC/OBJ_RFID_Manager/Sequence	ARGUEMENT       "GEM.MID1 CM1 1"
 GEM.PORT2_MIDCTRL	80	FUNCTION/FUNCTION_MODULE_TMC/OBJ_RFID_Manager/Sequence	ARGUEMENT       "GEM.MID2 CM2 2"
 GEM.PORT3_MIDCTRL	80	FUNCTION/FUNCTION_MODULE_TMC/OBJ_RFID_Manager/Sequence	ARGUEMENT       "GEM.MID3 CM3 3"
